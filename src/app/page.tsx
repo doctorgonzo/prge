@@ -211,6 +211,14 @@ export default function Page() {
     return hh >= 7 && hh < 19;
   }, [liveMadisonTime]);
 
+  // Daytime interstitial — when a commercial-break or station-id segment
+  // arrives while a music-block is playing, we show it as an overlay instead
+  // of replacing the music block. This keeps the YouTube iframe alive so the
+  // song pauses and resumes instead of restarting from scratch.
+  const [daytimeInterstitial, setDaytimeInterstitial] =
+    useState<PlayerSegment | null>(null);
+  const [interstitialCycleIndex, setInterstitialCycleIndex] = useState(0);
+
   // Nick cut-in state — he randomly interrupts other hosts to play a song.
   // The API attaches 1-4 `nickCutIns` per interruptible segment; the frontend
   // schedules them at staggered delays and temporarily swaps to MusicBlockLayout.
@@ -332,8 +340,22 @@ export default function Page() {
         const fp = fingerprintOf(json);
         if (fp !== prevFingerprintRef.current) {
           prevFingerprintRef.current = fp;
-          setSegment(json);
-          setCycleIndex(0);
+
+          // Daytime interstitial intercept: when a music-block is playing and
+          // the API returns a commercial-break or station-id, show it as an
+          // overlay instead of swapping the segment. This keeps the YouTube
+          // iframe alive so the song pauses/resumes instead of restarting.
+          const currentIsMusic = segment?.type === "music-block";
+          const newIsInterstitial =
+            json.type === "commercial-break" || json.type === "station-id";
+          if (currentIsMusic && newIsInterstitial && isDaytime) {
+            setDaytimeInterstitial(json);
+            setInterstitialCycleIndex(0);
+          } else {
+            setDaytimeInterstitial(null);
+            setSegment(json);
+            setCycleIndex(0);
+          }
         }
         // else: same segment as before — leave segment + cycleIndex untouched
         // so the line cycle doesn't yank back to 0 every 60s on cache hits.
@@ -863,6 +885,58 @@ export default function Page() {
     return () => clearTimeout(id);
   }, [segment, cycleIndex, cycleLength, commercialUnits]);
 
+  // Daytime interstitial auto-cycle — runs through all content ONCE, then
+  // dismisses so the music block resumes. Single-pass, not looping.
+  const interstitialUnits = useMemo<CommercialUnit[]>(() => {
+    if (!daytimeInterstitial || daytimeInterstitial.type !== "commercial-break")
+      return [];
+    return buildCommercialUnits(
+      daytimeInterstitial.ads ?? [],
+      daytimeInterstitial.lines,
+    );
+  }, [daytimeInterstitial]);
+
+  useEffect(() => {
+    if (!daytimeInterstitial) return;
+
+    let dwellMs: number;
+    let cycleLen: number;
+
+    if (daytimeInterstitial.type === "commercial-break") {
+      cycleLen = interstitialUnits.length;
+      const unit = interstitialUnits[interstitialCycleIndex];
+      if (!unit) {
+        setDaytimeInterstitial(null);
+        return;
+      }
+      if (unit.kind === "ad") {
+        const text =
+          unit.ad.brand + " " + unit.ad.tagline + " " + (unit.ad.body ?? "");
+        dwellMs = Math.max(7000, Math.min(14000, 4000 + text.length * 30));
+      } else {
+        dwellMs = readDurationMs(unit.line.text);
+      }
+    } else {
+      // station-id
+      cycleLen = daytimeInterstitial.lines.length;
+      const text =
+        daytimeInterstitial.lines[interstitialCycleIndex]?.text ?? "";
+      dwellMs = readDurationMs(text);
+    }
+
+    const id = setTimeout(() => {
+      const nextIdx = interstitialCycleIndex + 1;
+      if (nextIdx >= cycleLen) {
+        // Done — dismiss interstitial, music resumes.
+        setDaytimeInterstitial(null);
+      } else {
+        setInterstitialCycleIndex(nextIdx);
+      }
+    }, dwellMs);
+
+    return () => clearTimeout(id);
+  }, [daytimeInterstitial, interstitialCycleIndex, interstitialUnits]);
+
   // Dev-only regen handler. Swaps the segment in place, resets the cycle, and
   // updates the fingerprint so the next 60s poll doesn't immediately overwrite
   // this freshly-regenerated segment with whatever the cache returns.
@@ -877,7 +951,8 @@ export default function Page() {
   // burst whenever the segment flips. Null until the first segment lands so the
   // boot/noise sequencing stays in lockstep.
   const segmentFingerprint = segment ? fingerprintOf(segment) : null;
-  const tickerItems: PlayerTickerItem[] = segment?.tickerItems ?? [];
+  const tickerItems: PlayerTickerItem[] =
+    daytimeInterstitial?.tickerItems ?? segment?.tickerItems ?? [];
   // Merge in crisis aftermath ticker items (permanent ripples from resolved events).
   const allTickerItems = useMemo(() => {
     const aftermathItems = crisisAftermaths.flatMap((a) => a.tickerItems);
@@ -892,7 +967,8 @@ export default function Page() {
   // matters for the very first render before the live-clock effect ticks) and
   // finally to the hardcoded "19:02" sign-on stamp.
   const madisonTime = liveMadisonTime ?? segment?.inWorldTime ?? "19:02";
-  const segmentTitle = segment?.segmentTitle ?? "";
+  const segmentTitle =
+    daytimeInterstitial?.segmentTitle ?? segment?.segmentTitle ?? "";
 
   // Route the center area to a format-specific layout.
   function renderCenter() {
@@ -965,6 +1041,45 @@ export default function Page() {
     // Retro ad break during non-music formats — full takeover, nothing to pause.
     if (retroAd) {
       return <RetroAdBreak ad={retroAd} onComplete={() => setRetroAd(null)} />;
+    }
+
+    // Daytime interstitial — commercial-break or station-id overlaying a
+    // music block. Music stays mounted but hidden+paused; the interstitial
+    // cycles through its content once, then auto-dismisses and music resumes.
+    if (segment.type === "music-block" && daytimeInterstitial) {
+      const tracks: PlayerTrack[] = segment.tracks ?? [];
+      const interstitialContent =
+        daytimeInterstitial.type === "commercial-break" ? (
+          <CommercialBreakLayout
+            unit={interstitialUnits[interstitialCycleIndex]}
+            cycleIndex={interstitialCycleIndex}
+          />
+        ) : (
+          <DefaultLayout
+            current={
+              daytimeInterstitial.lines[
+                interstitialCycleIndex % daytimeInterstitial.lines.length
+              ]
+            }
+            lineIndex={interstitialCycleIndex}
+          />
+        );
+      return (
+        <>
+          {interstitialContent}
+          <div
+            className="opacity-0 h-0 overflow-hidden pointer-events-none"
+            aria-hidden
+          >
+            <MusicBlockLayout
+              lines={segment.lines}
+              lineIndex={cycleIndex}
+              tracks={tracks}
+              paused
+            />
+          </div>
+        </>
+      );
     }
 
     switch (segment.type) {
