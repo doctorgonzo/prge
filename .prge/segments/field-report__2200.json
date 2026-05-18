@@ -1,0 +1,65 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "This is Tucker Traywick, PRGE field relay, broadcasting from the Williamson Street corridor near the S. Baldwin intersection. Signal's holding. {{CLOCK}} into the Purge."
+      },
+      {
+        "host": "tucker",
+        "text": "Madison-wide kill count sitting at 53 confirmed as of my last data pull. That's up 14% year-over-year from this same timestamp. Not a surprise — Quinn mentioned the East Side chatter during his hour, and the numbers back it up."
+      },
+      {
+        "host": "tucker",
+        "text": "Neighborhood breakdown: Willy Street and the near East Side are carrying 31% of total fatalities tonight. Tenney-Lapham at 12%. West Side's quiet — Midvale-Pheasant Branch corridor reporting only two confirmed kills, which is actually down 60% from last year at this mark. Make of that what you will."
+      },
+      {
+        "host": "tucker",
+        "text": "Weapons-trade volume at the Yahara Place checkpoint hit 410 transactions in the last ninety minutes. Edged weapons are outselling firearms three to one tonight, which is unusual. Blade tax from the Hegseth Doctrine supply chain surcharges finally came down this quarter, so. Economics."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm watching a group of eight move east on Willy toward the co-op. Full kit. No insignia. They haven't clocked me yet. Keeping my distance, staying behind the bus shelter at Few Street."
+      },
+      {
+        "host": "tucker",
+        "text": "For the people barricaded in the Williamson Apartments — the ones who called in to Caroline and Holden earlier about the second-floor breach — I can see your building from here. Lights are off on floors two through four. I count no active movement on the fire escapes. That's good. Stay put."
+      },
+      {
+        "host": "tucker",
+        "text": "Updating the kill count — just got a burst from the Monroe Street scanner. Four more confirmed near Vilas Park, all within a six-minute window. That puts us at 57 Madison-wide. The rate's accelerating. We usually don't hit 60 until closer to midnight, so we're running ahead of model."
+      },
+      {
+        "host": "tucker",
+        "text": "The group I mentioned is doubling back. They're heading west now, toward me. I'm going to relocate north toward Jenifer Street. If I lose relay signal crossing the —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "MADISON-WIDE KILL COUNT: 57 confirmed · +14% YoY at this timestamp · Rate accelerating ahead of midnight model"
+      },
+      {
+        "category": "neighborhood",
+        "text": "EAST SIDE (Willy St / Tenney-Lapham) carrying 43% of tonight's fatalities · West Side unusually quiet at 2 confirmed"
+      },
+      {
+        "category": "emergency",
+        "text": "WILLIAMSON APARTMENTS residents: Tucker confirms no visible fire-escape movement floors 2-4 · STAY BARRICADED · Do not open for unverified knocks"
+      },
+      {
+        "category": "ad",
+        "text": "Yahara Place checkpoint reporting 410 weapons transactions last 90 min · Blade prices at post-surcharge lows · Edged outselling firearms 3:1 tonight"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-18T03:26:34.979Z",
+  "modelId": "claude-opus-4-6"
+}
