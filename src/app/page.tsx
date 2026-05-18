@@ -114,12 +114,17 @@ const FALLBACK_SEGMENT: PlayerSegment = {
   })),
 };
 
-// Fingerprint that uniquely identifies a (type, in-world-time) segment. If the
-// API returns the same cached segment as last poll, the fingerprint is stable
-// and we skip the cycle-reset. inWorldTime ticks per scheduler slot so this
-// is a tighter check than just `type`.
+// Fingerprint that uniquely identifies a segment's *content*. If the API
+// returns the same cached segment as last poll, the fingerprint is stable and
+// we skip the cycle-reset. We intentionally EXCLUDE inWorldTime because the
+// API enriches every response with the current Madison minute — that changes
+// every 60s poll but the underlying content is identical (same cached slot).
+// Including it caused tracks to reset every poll cycle (the "10-second song
+// restart" bug). Instead we fingerprint by type + title + first line of
+// content, which is stable within a slot and changes on real content swaps.
 function fingerprintOf(s: PlayerSegment): string {
-  return `${s.inWorldTime ?? ""}__${s.type}__${s.segmentTitle ?? ""}`;
+  const firstLine = s.lines[0]?.text ?? "";
+  return `${s.type}__${s.segmentTitle ?? ""}__${firstLine.slice(0, 80)}`;
 }
 
 // Build the interleaved "unit stream" for the commercial-break layout: ads are
@@ -197,6 +202,15 @@ export default function Page() {
   // sessions. Default false (muted); user clicks the speaker icon to enable.
   const [soundEnabled, setSoundEnabled] = useState(false);
 
+  // Daytime detection — true when Madison clock is 07:00–18:59.
+  // Gates Purge-night overlays (Tim interrupts, crises, callers, nick cut-ins)
+  // so the unmanned daytime broadcast doesn't fire personality-driven events.
+  const isDaytime = useMemo(() => {
+    const time = liveMadisonTime ?? "12:00";
+    const hh = parseInt(time.split(":")[0], 10);
+    return hh >= 7 && hh < 19;
+  }, [liveMadisonTime]);
+
   // Nick cut-in state — he randomly interrupts other hosts to play a song.
   // The API attaches 1-4 `nickCutIns` per interruptible segment; the frontend
   // schedules them at staggered delays and temporarily swaps to MusicBlockLayout.
@@ -222,6 +236,12 @@ export default function Page() {
   // Caller text-in popups — AIM-style message windows from listeners.
   const [callerPopup, setCallerPopup] = useState<CallerPopupData | null>(null);
   const callerPopupTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Refs tracking active overlay state — setTimeout callbacks read these at
+  // fire time to avoid the stale-closure collision bug where an ad fires
+  // during a nick cut-in or vice versa.
+  const retroAdActiveRef = useRef(false);
+  const nickCutInActiveRef = useRef(false);
 
   // Host reaction subtitle during Nick cut-ins.
   const [hostReaction, setHostReaction] = useState<HostReaction | null>(null);
@@ -261,6 +281,10 @@ export default function Page() {
   useEffect(() => {
     setSoundEnabled(localStorage.getItem(SOUND_KEY) === "1");
   }, []);
+
+  // Keep overlay refs in sync for stale-closure-safe collision checks.
+  useEffect(() => { retroAdActiveRef.current = retroAd !== null; }, [retroAd]);
+  useEffect(() => { nickCutInActiveRef.current = nickCutIn !== null; }, [nickCutIn]);
 
   // Hydrate the dev-only ?at= override from window.location once at mount.
   // Prod silently ignores it (the server-side route also ignores it in prod).
@@ -398,6 +422,8 @@ export default function Page() {
       const cutIn = cutIns[i];
       timers.push(
         setTimeout(() => {
+          // Don't fire during a retro ad — ref avoids stale closure.
+          if (retroAdActiveRef.current) return;
           setNickCutIn(cutIn);
           setNickCutInPhase("intro");
         }, delay),
@@ -438,8 +464,8 @@ export default function Page() {
     const FIRST_AD_DELAY = 3 * 60_000; // 3 minutes after load
 
     function fireAd() {
-      // Don't interrupt a Nick cut-in — let him finish.
-      if (nickCutIn) return;
+      // Don't interrupt a Nick cut-in — ref avoids stale closure.
+      if (nickCutInActiveRef.current) return;
       const count = retroAdCountRef.current++;
       const fp = segment ? fingerprintOf(segment) : "none";
       const ad = pickRetroAd(`${fp}::ad::${count}`);
@@ -463,15 +489,16 @@ export default function Page() {
   // Random operator interrupts 2-3 times per night. First one after ~8min,
   // subsequent at random intervals (20-40 min). They take priority over
   // everything except the TuneInBoot/PurgeAnnouncement.
+  // SUPPRESSED during daytime — Tim's not at the controls.
   useEffect(() => {
-    if (!segment) return;
+    if (!segment || isDaytime) return;
 
     function scheduleTim() {
       // Random delay: 20-40 minutes between interrupts.
       const delay = (20 + Math.random() * 20) * 60_000;
       timInterruptTimerRef.current = setTimeout(() => {
-        // Don't fire during another overlay (nick, ad, or active tim).
-        if (!timInterrupt && !nickCutIn && !retroAd) {
+        // Don't fire during another overlay — refs for stale-closure safety.
+        if (!nickCutInActiveRef.current && !retroAdActiveRef.current) {
           setTimInterrupt(pickRandomTimInterrupt());
         }
         scheduleTim();
@@ -480,7 +507,7 @@ export default function Page() {
 
     // First interrupt after 8 minutes.
     const firstTimer = setTimeout(() => {
-      if (!timInterrupt && !nickCutIn && !retroAd) {
+      if (!nickCutInActiveRef.current && !retroAdActiveRef.current) {
         setTimInterrupt(pickRandomTimInterrupt());
       }
       scheduleTim();
@@ -490,13 +517,14 @@ export default function Page() {
       clearTimeout(firstTimer);
       if (timInterruptTimerRef.current) clearTimeout(timInterruptTimerRef.current);
     };
-  }, [segment !== null]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [segment !== null, isDaytime]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── Caller popup scheduling ─────────────────────────────────────────
   // Random text-in popups from listeners. These layer on top of content
   // (don't replace it). First after ~2 min, then every 3-7 min.
+  // SUPPRESSED during daytime — nobody's texting in to an unmanned station.
   useEffect(() => {
-    if (!segment) return;
+    if (!segment || isDaytime) return;
 
     function scheduleCaller() {
       const delay = (3 + Math.random() * 4) * 60_000; // 3-7 min
@@ -519,14 +547,15 @@ export default function Page() {
       clearTimeout(firstTimer);
       if (callerPopupTimerRef.current) clearTimeout(callerPopupTimerRef.current);
     };
-  }, [segment !== null]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [segment !== null, isDaytime]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── Crisis event scheduling ─────────────────────────────────────────
   // Station breach: guaranteed once, fires 25-45 min after load.
   // Random crisis: 0-1 more per night, fires 40-70 min after load (if it
   // fires at all — 50% chance). Won't overlap with an active crisis.
+  // SUPPRESSED during daytime — no Purge, no crises.
   useEffect(() => {
-    if (!segment) return;
+    if (!segment || isDaytime) return;
 
     // Station breach — guaranteed once per night, deep into the broadcast.
     const breachDelay = (25 + Math.random() * 20) * 60_000; // 25-45 min
@@ -549,7 +578,7 @@ export default function Page() {
       clearTimeout(breachTimer);
       clearTimeout(randomTimer);
     };
-  }, [segment !== null]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [segment !== null, isDaytime]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── Crisis lifecycle management ─────────────────────────────────────
   // When a crisis starts: show opening alert → transition to active state →

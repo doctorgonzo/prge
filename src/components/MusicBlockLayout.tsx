@@ -305,16 +305,23 @@ export function MusicBlockLayout({ lines, lineIndex, tracks }: Props) {
   // currently on screen. Resets to 0 every time the track changes.
   const [lineWithinTrackIndex, setLineWithinTrackIndex] = useState(0);
 
-  // Reset both indices to 0 whenever the tracks array changes (i.e. a new
-  // music-block segment loads). The per-track advance timer lives in its
-  // own effect below — see the dwell-driven setTimeout. We separated them
-  // because the timer duration depends on resolveState (which we don't have
-  // at this point in render order) and only fires when we have a known
-  // duration.
+  // Stable content key for the tracks array. Reference equality changes every
+  // 60s poll (fresh JSON parse), but the actual track list stays identical
+  // within a slot. This key only flips when the real track content changes
+  // (new segment, regen, or slot transition), preventing the "10-second song
+  // restart" bug where trackIndex reset to 0 on every poll cycle.
+  const tracksContentKey = useMemo(
+    () => tracks.map((t) => `${t.artist}::${t.title}`).join("|"),
+    [tracks],
+  );
+
+  // Reset both indices to 0 whenever the tracks CONTENT changes (i.e. a new
+  // music-block segment loads, not just a poll refresh). The per-track advance
+  // timer lives in its own effect below — see the dwell-driven setTimeout.
   useEffect(() => {
     setTrackIndex(0);
     setLineWithinTrackIndex(0);
-  }, [tracks]);
+  }, [tracksContentKey]);
 
   // Reset the within-track cursor whenever the track advances. The cursor
   // re-walks the new track's lines from line 0.
@@ -595,9 +602,18 @@ export function MusicBlockLayout({ lines, lineIndex, tracks }: Props) {
   // current track finishes. Advance immediately instead of waiting for the
   // duration-based fallback. Guard against firing on the initial CUED/UNSTARTED
   // states (which aren't ENDED) and against single-track segments.
+  //
+  // Debounce: when Track 0's iframe tears down and Track 1's loads, a stale
+  // ENDED postMessage from the old iframe can arrive and set ytLive.playerState
+  // back to ENDED, double-advancing the track. The lastAdvanceRef timestamp
+  // gates this — we ignore ENDED events within 5s of the last advance.
+  const lastAdvanceRef = useRef(0);
   useEffect(() => {
     if (tracks.length <= 1) return;
     if (ytLive.playerState !== YT_STATE.ENDED) return;
+    const now = Date.now();
+    if (now - lastAdvanceRef.current < 5_000) return;
+    lastAdvanceRef.current = now;
     setTrackIndex((i) => (i + 1) % tracks.length);
   }, [ytLive.playerState, tracks.length]);
 

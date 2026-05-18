@@ -171,7 +171,7 @@ interface DaytimeSlot {
   title: string;
 }
 
-const DAYTIME_MUSIC_SEC = 17 * 60;
+const DAYTIME_MUSIC_SEC = 10 * 60; // 10min → ~5 music blocks per hour (was 17)
 const DAYTIME_COMMERCIAL_SEC = 2 * 60;
 const DAYTIME_STATION_ID_SEC = 30;
 
@@ -200,7 +200,7 @@ export const DAYTIME_ROTATION: readonly DaytimeSlot[] = [
 ] as const;
 
 const DAYTIME_CYCLE_SEC =
-  DAYTIME_MUSIC_SEC + DAYTIME_COMMERCIAL_SEC + DAYTIME_STATION_ID_SEC; // 1170s = 19m30s
+  DAYTIME_MUSIC_SEC + DAYTIME_COMMERCIAL_SEC + DAYTIME_STATION_ID_SEC; // 750s = 12m30s (~5/hr)
 
 // ---------------------------------------------------------------------------
 // Madison time

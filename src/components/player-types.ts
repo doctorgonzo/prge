@@ -59,6 +59,7 @@ export const HOST_LABEL: Record<string, string> = {
   tucker: "TUCKER TRAYWICK",
   marigold: "SISTER MARIGOLD VANCE",
   nick: "NICK TRULINO",
+  prge: "PRGE AUTOPLAY",
 };
 
 export const CATEGORY_LABEL: Record<string, string> = {

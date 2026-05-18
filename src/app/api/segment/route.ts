@@ -22,6 +22,7 @@ import {
 } from "@/lib/scheduler";
 import { pickTimBumper } from "@/lib/tim-bumpers";
 import { getNickCutIns } from "@/lib/nick-cut-ins";
+import { buildStaticDaytimeMusicBlock, buildStaticDaytimeCommercial } from "@/lib/daytime-static";
 import type { SegmentFormat, HostId } from "@/lib/types";
 
 // Shape of an HH:MM 24-hour clock string. Mirrors the validation regex used by
@@ -392,8 +393,29 @@ export async function GET(request: Request): Promise<NextResponse> {
       tickerItems: bumper.tickerItems,
     };
     const enriched = enrichSegment(body, inWorldTime, "UNMANNED · AUTOPLAY");
-    return NextResponse.json(attachNickCutIns(enriched, format, inWorldTime, cacheKey), {
+    // No attachNickCutIns — daytime is unmanned, no DJ interrupts.
+    return NextResponse.json(enriched, {
       headers: { "X-PRGE-Cache": "bumper" },
+    });
+  }
+
+  // Daytime music-block short-circuit — static track picks from a baked pool.
+  // ZERO LLM calls. Same wallet-protection pattern as the Tim bumper above.
+  if (daytime && format === "music-block") {
+    const body = buildStaticDaytimeMusicBlock(cacheKey);
+    const enriched = enrichSegment(body, inWorldTime, "UNMANNED · AUTOPLAY");
+    return NextResponse.json(enriched, {
+      headers: { "X-PRGE-Cache": "static-daytime-music" },
+    });
+  }
+
+  // Daytime commercial-break short-circuit — static ad cards from the locked
+  // brand list. ZERO LLM calls.
+  if (daytime && format === "commercial-break") {
+    const body = buildStaticDaytimeCommercial(cacheKey);
+    const enriched = enrichSegment(body, inWorldTime, "UNMANNED · AUTOPLAY");
+    return NextResponse.json(enriched, {
+      headers: { "X-PRGE-Cache": "static-daytime-commercial" },
     });
   }
 
