@@ -17,6 +17,16 @@ interface Props {
   onTriggerCallerPopup?: () => void;
   /** Dev trigger: fire a crisis event immediately. */
   onTriggerCrisis?: () => void;
+  /** Dev trigger: fire a daytime text ad (commercial interstitial) immediately. */
+  onTriggerTextAd?: () => void;
+  /** Dev trigger: switch to countdown mode (pre-Purge emergency broadcasting). */
+  onTriggerCountdown?: () => void;
+  /** Dev trigger: fire the Purge commencement siren video. */
+  onTriggerSiren?: () => void;
+  /** Notify parent when time-travel changes the displayed time. The parent
+   *  uses this to pin its HUD clock + countdown timer. Pass null to return
+   *  to live clock. */
+  onTimeTravel?: (overrideTime: string | null) => void;
 }
 
 // Defensive runtime validation for the regen response — mirrors the guard in
@@ -79,7 +89,7 @@ const FF_TICK_MS = 500;
 // itself is unconditional, so prod tree-shaking happens via the conditional
 // import site, not here. We still need a small internal guard against the
 // rare case where the parent passes a null/undefined segment between renders.
-export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRetroAd, onTriggerTimInterrupt, onTriggerCallerPopup, onTriggerCrisis }: Props) {
+export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRetroAd, onTriggerTimInterrupt, onTriggerCallerPopup, onTriggerCrisis, onTriggerTextAd, onTriggerCountdown, onTriggerSiren, onTimeTravel }: Props) {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   // Active time-travel override. When non-null, all fetches (REGEN included)
@@ -225,9 +235,10 @@ export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRe
       // Manual step cancels FF — Doc has taken explicit control.
       cancelFastForward();
       setOverrideAt(at);
+      onTimeTravel?.(at);
       void fetchSegment(at, false);
     },
-    [currentHourIndex, fetchSegment, cancelFastForward],
+    [currentHourIndex, fetchSegment, cancelFastForward, onTimeTravel],
   );
 
   const handleJump = useCallback(
@@ -240,17 +251,19 @@ export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRe
       // Manual jump cancels FF.
       cancelFastForward();
       setOverrideAt(value);
+      onTimeTravel?.(value);
       void fetchSegment(value, false);
     },
-    [fetchSegment, cancelFastForward],
+    [fetchSegment, cancelFastForward, onTimeTravel],
   );
 
   const handleLive = useCallback(() => {
     // LIVE drops both the time-travel override AND any active FF.
     cancelFastForward();
     setOverrideAt(null);
+    onTimeTravel?.(null); // return HUD clock to real Madison time
     void fetchSegment(null, false);
-  }, [fetchSegment, cancelFastForward]);
+  }, [fetchSegment, cancelFastForward, onTimeTravel]);
 
   // FF button handler. Cycles 1 → 2 → 4 → 8 → 1. On any non-1 transition we
   // re-anchor the baseline to "now" so the simulated time picks up smoothly
@@ -310,6 +323,7 @@ export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRe
 
       const simulatedHHMM = broadcastSecToHHMM(simulatedSec);
       setOverrideAt(simulatedHHMM);
+      onTimeTravel?.(simulatedHHMM);
 
       const newHourIndex = hourIndexForBroadcastSec(simulatedSec);
       if (newHourIndex !== ffHourIndexRef.current) {
@@ -361,7 +375,7 @@ export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRe
     // without waiting a half-second after click.
     tick();
     return () => clearInterval(id);
-  }, [speedMultiplier, ffStartedAtRealMs, ffStartedAtInWorldSec, onRegen]);
+  }, [speedMultiplier, ffStartedAtRealMs, ffStartedAtInWorldSec, onRegen, onTimeTravel]);
 
   const segmentType = segment.type.toUpperCase();
   const inWorldTime = segment.inWorldTime ?? "--:--";
@@ -483,6 +497,9 @@ export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRe
           className="w-full px-2 py-1 bg-black/60 border border-pink-500/40 text-pink-200 text-[10px] tracking-wider rounded-sm focus:outline-none focus:border-pink-400 disabled:opacity-40 disabled:cursor-not-allowed"
         >
           <option value={JUMP_PLACEHOLDER}>{"\u2014 jump to hour \u2014"}</option>
+          <option value="18:59">
+            {"\u26A0 18:59 \u00b7 Pre-Purge Countdown (last min)"}
+          </option>
           {HOUR_OPTIONS.map((opt) => (
             <option key={opt.hour} value={opt.inWorldTime}>
               {`Hour ${opt.hour} \u00b7 ${opt.inWorldTime} \u00b7 ${opt.title}`}
@@ -526,6 +543,16 @@ export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRe
             80s AD
             </button>
           ) : null}
+          {onTriggerTextAd ? (
+            <button
+              type="button"
+              onClick={onTriggerTextAd}
+              className="flex-1 px-2 py-1 bg-amber-500/10 border border-amber-500/40 text-amber-300 hover:bg-amber-500/20 text-[10px] tracking-widest rounded-sm transition-colors"
+              aria-label="Trigger text ad break"
+            >
+              TEXT AD
+            </button>
+          ) : null}
           {onTriggerTimInterrupt ? (
             <button
               type="button"
@@ -557,6 +584,31 @@ export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRe
             </button>
           ) : null}
         </div>
+        {/* Broadcast mode triggers — countdown + siren */}
+        {(onTriggerCountdown || onTriggerSiren) ? (
+          <div className="flex gap-1 pt-1">
+            {onTriggerCountdown ? (
+              <button
+                type="button"
+                onClick={onTriggerCountdown}
+                className="flex-1 px-2 py-1 bg-yellow-500/10 border border-yellow-500/40 text-yellow-300 hover:bg-yellow-500/20 text-[10px] tracking-widest rounded-sm transition-colors"
+                aria-label="Switch to countdown mode"
+              >
+                COUNTDOWN
+              </button>
+            ) : null}
+            {onTriggerSiren ? (
+              <button
+                type="button"
+                onClick={onTriggerSiren}
+                className="flex-1 px-2 py-1 bg-red-600/20 border border-red-500/40 text-red-300 hover:bg-red-600/30 text-[10px] tracking-widest rounded-sm transition-colors"
+                aria-label="Play Purge commencement siren"
+              >
+                SIREN
+              </button>
+            ) : null}
+          </div>
+        ) : null}
       </div>
 
       <div className="px-3 pb-3 pt-1">

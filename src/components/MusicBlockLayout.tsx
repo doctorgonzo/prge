@@ -659,6 +659,26 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
     if (!track) return;
     const key = `${track.artist}::${track.title}`;
     inflightKeyRef.current = key;
+
+    // Pre-resolved videoId (countdown PSA videos) — skip the /api/track
+    // round-trip entirely. Build the embed URL directly.
+    if (track.videoId) {
+      const embedUrl = `https://www.youtube.com/embed/${encodeURIComponent(track.videoId)}?autoplay=1&controls=1&disablekb=1&modestbranding=1&rel=0&fs=0&iv_load_policy=3&enablejsapi=1`;
+      const durationSec =
+        typeof track.durationSec === "number" && Number.isFinite(track.durationSec)
+          ? track.durationSec
+          : null;
+      setResolveState({
+        status: "ready",
+        embedUrl,
+        durationSec,
+        videoId: track.videoId,
+        resolvedChannel: track.artist,
+        source: "api",
+      });
+      return;
+    }
+
     setResolveState({ status: "resolving" });
 
     const controller = new AbortController();
@@ -713,7 +733,7 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
     return () => {
       controller.abort();
     };
-  }, [track?.artist, track?.title]);
+  }, [track?.artist, track?.title, track?.videoId]);
 
   // Per-track advance timer. We schedule a single setTimeout whose duration
   // is derived from the resolved track's `durationSec` (clamped) and clear
@@ -742,6 +762,11 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
   useEffect(() => {
     if (tracks.length <= 1) return;
     if (resolveStatus === "resolving") return;
+    // Freeze track-advance during ad breaks. The timer restarts from scratch
+    // when paused flips back to false (effect re-runs), which is fine — the
+    // song resumes at the same playback position (iframe stays alive) and
+    // gets a fresh full-duration window.
+    if (paused) return;
     // The fallback timer is now a SAFETY NET. Primary track-advance comes
     // from the YT iframe firing playerState=ENDED (handled in its own effect
     // below). We add a 20% buffer to the API-reported duration here so the
@@ -767,6 +792,7 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
     readyDurationSec,
     track?.artist,
     track?.title,
+    paused,
   ]);
 
   // Primary track-advance trigger: YT iframe fires playerState=ENDED when the
@@ -781,12 +807,13 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
   const lastAdvanceRef = useRef(0);
   useEffect(() => {
     if (tracks.length <= 1) return;
+    if (paused) return; // don't advance tracks during ad breaks
     if (ytLive.playerState !== YT_STATE.ENDED) return;
     const now = Date.now();
     if (now - lastAdvanceRef.current < 5_000) return;
     lastAdvanceRef.current = now;
     setTrackIndex((i) => (i + 1) % tracks.length);
-  }, [ytLive.playerState, tracks.length]);
+  }, [ytLive.playerState, tracks.length, paused]);
 
   if (!track && tracks.length === 0) return null;
 

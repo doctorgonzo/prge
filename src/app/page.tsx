@@ -8,6 +8,8 @@ import { MusicBlockLayout } from "@/components/MusicBlockLayout";
 import { WellnessLayout } from "@/components/WellnessLayout";
 import { CommercialBreakLayout } from "@/components/CommercialBreakLayout";
 import { FieldReportLayout } from "@/components/FieldReportLayout";
+import { CountdownLayout } from "@/components/CountdownLayout";
+import { PurgeSiren } from "@/components/PurgeSiren";
 import { RegenOverlay } from "@/components/RegenOverlay";
 import { LoadingPanel } from "@/components/LoadingPanel";
 import { NextUpChip } from "@/components/NextUpChip";
@@ -16,6 +18,8 @@ import { TuneInBoot } from "@/components/TuneInBoot";
 import { PurgeAnnouncement } from "@/components/PurgeAnnouncement";
 import { madisonNowHHMM } from "@/lib/scheduler";
 import { pickRetroAd, pickRandomRetroAd, type RetroAd } from "@/lib/retro-ads";
+import { buildStaticDaytimeCommercial } from "@/lib/daytime-static";
+import { buildStaticCountdownSegment } from "@/lib/countdown-static";
 import { pickRandomNickCutIn } from "@/lib/nick-cut-ins";
 import { RetroAdBreak } from "@/components/RetroAdBreak";
 import { pickRandomTimInterrupt, type TimInterrupt } from "@/lib/tim-interrupts";
@@ -202,13 +206,15 @@ export default function Page() {
   // sessions. Default false (muted); user clicks the speaker icon to enable.
   const [soundEnabled, setSoundEnabled] = useState(false);
 
-  // Daytime detection — true when Madison clock is 07:00–18:59.
+  // Daytime detection — true when Madison clock is 07:00–17:59.
   // Gates Purge-night overlays (Tim interrupts, crises, callers, nick cut-ins)
   // so the unmanned daytime broadcast doesn't fire personality-driven events.
+  // The 18:00–18:59 hour is COUNTDOWN mode (not daytime) — emergency
+  // preparedness broadcasting with survival PSA videos.
   const isDaytime = useMemo(() => {
     const time = liveMadisonTime ?? "12:00";
     const hh = parseInt(time.split(":")[0], 10);
-    return hh >= 7 && hh < 19;
+    return hh >= 7 && hh < 18;
   }, [liveMadisonTime]);
 
   // Daytime interstitial — when a commercial-break or station-id segment
@@ -271,6 +277,13 @@ export default function Page() {
     tickerItems: PlayerTickerItem[];
   }
   const [crisisAftermaths, setCrisisAftermaths] = useState<CrisisAftermath[]>([]);
+
+  // ── Purge commencement siren ────────────────────────────────────────
+  // At exactly 19:00 Madison, the siren video plays before normal Purge-night
+  // operations begin. Session-gated (once per tab) + time-gated (19:00–19:04
+  // grace window). Dev panel can force it any time.
+  const [purgeSirenActive, setPurgeSirenActive] = useState(false);
+  const purgeSirenFiredRef = useRef(false);
 
   // Holds the previous segment fingerprint so we can skip resetting the cycle
   // when /api/segment returns the same cached segment as last poll.
@@ -398,19 +411,67 @@ export default function Page() {
 
   // Live Madison clock — runs independently of the segment fetch so the HUD
   // time keeps advancing within a slot instead of freezing on
-  // segment.inWorldTime (which is a stamp, not a clock). When the ?at= dev
-  // override is engaged, pin the clock to that value so the HUD matches the
-  // API's resolved slot.
+  // segment.inWorldTime (which is a stamp, not a clock).
+  //
+  // When a dev time-travel override is set (via the overlay or URL ?at=),
+  // the clock starts FROM that time and ticks forward in real-time. This
+  // lets dev test flows like countdown→19:00 siren transition — the clock
+  // advances through the boundary instead of freezing at the jump target.
+  // The anchorRef tracks the real-world moment the override was set so we
+  // can compute elapsed seconds and add them to the override time.
+  const atOverrideAnchorRef = useRef<number | null>(null);
+
   useEffect(() => {
     if (atOverride !== null) {
+      // Anchor = real timestamp when this override was set.
+      atOverrideAnchorRef.current = Date.now();
       setLiveMadisonTime(atOverride);
-      return;
+
+      // Tick forward from the override time at real-world speed.
+      const [hStr, mStr] = atOverride.split(":");
+      const baseSeconds = parseInt(hStr, 10) * 3600 + parseInt(mStr, 10) * 60;
+
+      const tick = () => {
+        const elapsed = Math.floor((Date.now() - atOverrideAnchorRef.current!) / 1000);
+        const currentSec = (baseSeconds + elapsed) % 86400;
+        const hh = Math.floor(currentSec / 3600);
+        const mm = Math.floor((currentSec % 3600) / 60);
+        const timeStr = `${hh < 10 ? "0" : ""}${hh}:${mm < 10 ? "0" : ""}${mm}`;
+        setLiveMadisonTime(timeStr);
+      };
+
+      // Tick every second during dev override so time-boundary transitions
+      // (like 18:59→19:00 siren) fire promptly instead of waiting 30s.
+      const id = setInterval(tick, 1000);
+      return () => clearInterval(id);
     }
+    atOverrideAnchorRef.current = null;
     const update = () => setLiveMadisonTime(madisonNowHHMM(new Date()));
     update();
     const id = setInterval(update, HUD_CLOCK_TICK_MS);
     return () => clearInterval(id);
   }, [atOverride]);
+
+  // ── Purge siren detection ───────────────────────────────────────────
+  // When Madison time enters the 19:00–19:04 window for the first time this
+  // session, fire the commencement siren video. Session-gated so a page
+  // refresh at 19:02 doesn't replay it.
+  useEffect(() => {
+    if (purgeSirenFiredRef.current) return;
+    const time = liveMadisonTime ?? "12:00";
+    const [hStr, mStr] = time.split(":");
+    const h = parseInt(hStr, 10);
+    const m = parseInt(mStr, 10);
+
+    if (h === 19 && m < 5) {
+      const SESSION_KEY = "prge-siren-played-v1";
+      if (typeof window !== "undefined" && sessionStorage.getItem(SESSION_KEY) !== "1") {
+        sessionStorage.setItem(SESSION_KEY, "1");
+        purgeSirenFiredRef.current = true;
+        setPurgeSirenActive(true);
+      }
+    }
+  }, [liveMadisonTime]);
 
   // ── Nick cut-in scheduling ───────────────────────────────────────────
   // When a new segment arrives with nickCutIns, schedule timers to fire them
@@ -940,6 +1001,10 @@ export default function Page() {
   // Dev-only regen handler. Swaps the segment in place, resets the cycle, and
   // updates the fingerprint so the next 60s poll doesn't immediately overwrite
   // this freshly-regenerated segment with whatever the cache returns.
+  // Also pins the HUD clock to the segment's inWorldTime so the dev panel's
+  // time-travel (jump / FF / regen) syncs the top-left clock readout and the
+  // countdown timer. Without this, liveMadisonTime stays on the real clock and
+  // the countdown shows the wrong remaining time.
   function handleRegen(next: PlayerSegment) {
     prevFingerprintRef.current = fingerprintOf(next);
     setSegment(next);
@@ -1018,81 +1083,111 @@ export default function Page() {
       );
     }
 
-    // Retro ad break during a music block — keep MusicBlockLayout mounted
-    // (iframe alive, playback position preserved) but hidden and paused.
-    // When the ad finishes, the iframe resumes from where it left off.
-    if (segment.type === "music-block" && retroAd) {
+    // Retro ad break during non-music formats — full takeover, nothing to pause.
+    if (retroAd && segment.type !== "music-block") {
+      return <RetroAdBreak ad={retroAd} onComplete={() => setRetroAd(null)} />;
+    }
+
+    // Music block — always rendered at the SAME tree position so React never
+    // unmounts/remounts the component (which would destroy the YouTube iframe
+    // and lose playback position). Overlays (retro ads, daytime interstitials)
+    // render on top; the music block hides off-screen and pauses.
+    if (segment.type === "music-block") {
       const tracks: PlayerTrack[] = segment.tracks ?? [];
+      const musicPaused = !!retroAd || !!daytimeInterstitial || purgeSirenActive;
+
+      // Determine overlay content (if any).
+      let overlay: React.ReactNode = null;
+      if (retroAd) {
+        overlay = (
+          <RetroAdBreak ad={retroAd} onComplete={() => setRetroAd(null)} />
+        );
+      } else if (daytimeInterstitial) {
+        overlay =
+          daytimeInterstitial.type === "commercial-break" ? (
+            <CommercialBreakLayout
+              unit={interstitialUnits[interstitialCycleIndex]}
+              cycleIndex={interstitialCycleIndex}
+            />
+          ) : (
+            <DefaultLayout
+              current={
+                daytimeInterstitial.lines[
+                  interstitialCycleIndex % daytimeInterstitial.lines.length
+                ]
+              }
+              lineIndex={interstitialCycleIndex}
+            />
+          );
+      }
+
       return (
         <>
-          <RetroAdBreak ad={retroAd} onComplete={() => setRetroAd(null)} />
-          <div className="opacity-0 h-0 overflow-hidden pointer-events-none" aria-hidden>
+          {/* Overlay renders as a fixed fullscreen layer ON TOP of the music
+              block. The music block wrapper div below NEVER changes CSS — no
+              position/visibility/display toggles — because toggling
+              position:fixed on a div containing an iframe can cause Chrome to
+              tear down the compositing layer and reload the iframe. Instead
+              the overlay simply covers it with bg-black. z-[15] sits above
+              the content area (z-10) but below the HUD/ticker (z-20). */}
+          {overlay && (
+            <div className="fixed inset-0 z-[15] bg-black flex items-center justify-center px-8 pt-24 pb-24">
+              {overlay}
+            </div>
+          )}
+          {/* MusicBlockLayout always at this tree position. The wrapper div's
+              className never changes — only the `paused` prop controls audio
+              and timer state. The overlay covers it visually; aria-hidden
+              removes it from the a11y tree during ads. */}
+          <div aria-hidden={musicPaused || undefined}>
             <MusicBlockLayout
               lines={segment.lines}
               lineIndex={cycleIndex}
               tracks={tracks}
-              paused
+              paused={musicPaused}
             />
           </div>
         </>
       );
     }
 
-    // Retro ad break during non-music formats — full takeover, nothing to pause.
-    if (retroAd) {
-      return <RetroAdBreak ad={retroAd} onComplete={() => setRetroAd(null)} />;
-    }
-
-    // Daytime interstitial — commercial-break or station-id overlaying a
-    // music block. Music stays mounted but hidden+paused; the interstitial
-    // cycles through its content once, then auto-dismisses and music resumes.
-    if (segment.type === "music-block" && daytimeInterstitial) {
-      const tracks: PlayerTrack[] = segment.tracks ?? [];
-      const interstitialContent =
-        daytimeInterstitial.type === "commercial-break" ? (
-          <CommercialBreakLayout
-            unit={interstitialUnits[interstitialCycleIndex]}
-            cycleIndex={interstitialCycleIndex}
-          />
-        ) : (
-          <DefaultLayout
-            current={
-              daytimeInterstitial.lines[
-                interstitialCycleIndex % daytimeInterstitial.lines.length
-              ]
-            }
-            lineIndex={interstitialCycleIndex}
-          />
-        );
-      return (
-        <>
-          {interstitialContent}
-          <div
-            className="opacity-0 h-0 overflow-hidden pointer-events-none"
-            aria-hidden
-          >
+    // Countdown mode — pre-Purge emergency preparedness (18:00-19:00).
+    // If the countdown segment has video tracks, render them in
+    // MusicBlockLayout (same iframe player). Otherwise, text-only PSAs
+    // in the dedicated CountdownLayout with the big ticking clock.
+    if (segment.type === "countdown") {
+      const countdownTracks: PlayerTrack[] = segment.tracks ?? [];
+      if (countdownTracks.length > 0) {
+        // Video PSA mode — reuse MusicBlockLayout for the iframe player,
+        // but the CountdownLayout clock renders above it. Pause during
+        // siren so the PSA video doesn't bleed audio through the overlay.
+        return (
+          <div className="w-full max-w-3xl mx-auto space-y-6">
+            <CountdownLayout
+              current={currentLine}
+              lineIndex={cycleIndex}
+              madisonTime={madisonTime}
+            />
             <MusicBlockLayout
               lines={segment.lines}
               lineIndex={cycleIndex}
-              tracks={tracks}
-              paused
+              tracks={countdownTracks}
+              paused={purgeSirenActive}
             />
           </div>
-        </>
+        );
+      }
+      // Text-only PSA mode — no videos, just the clock and cycling PSAs.
+      return (
+        <CountdownLayout
+          current={currentLine}
+          lineIndex={cycleIndex}
+          madisonTime={madisonTime}
+        />
       );
     }
 
     switch (segment.type) {
-      case "music-block": {
-        const tracks: PlayerTrack[] = segment.tracks ?? [];
-        return (
-          <MusicBlockLayout
-            lines={segment.lines}
-            lineIndex={cycleIndex}
-            tracks={tracks}
-          />
-        );
-      }
       case "wellness":
         return <WellnessLayout current={currentLine} lineIndex={cycleIndex} />;
       case "commercial-break": {
@@ -1167,6 +1262,13 @@ export default function Page() {
           (z-[80]) so it's already in place when the boot fades out, filling
           the segment-fetch window. SessionStorage-gated; click to skip. */}
       <PurgeAnnouncement />
+
+      {/* Purge commencement siren — plays at 19:00 Madison before normal
+          operations begin. z-[70] sits below the boot overlays but above
+          all regular content. Auto-dismisses when the video ends. */}
+      {purgeSirenActive && (
+        <PurgeSiren onComplete={() => setPurgeSirenActive(false)} />
+      )}
 
       {/* Top HUD strip */}
       <div className="fixed top-0 inset-x-0 z-20 px-6 py-4 flex justify-between items-start text-xs tracking-widest">
@@ -1253,6 +1355,43 @@ export default function Page() {
             if (!activeCrisis) {
               startCrisis(pickRandomCrisisEvent());
             }
+          }}
+          onTriggerTextAd={() => {
+            // Build a random commercial-break segment from the daytime brand
+            // pool and show it as an interstitial overlay. Uses a random cache
+            // key so each click produces a different ad selection.
+            const adSegment = buildStaticDaytimeCommercial(
+              `dev-text-ad::${Date.now()}`,
+            ) as unknown as PlayerSegment;
+            setDaytimeInterstitial(adSegment);
+            setInterstitialCycleIndex(0);
+          }}
+          onTriggerCountdown={() => {
+            // Build a static countdown segment and swap it in as the main
+            // segment. Uses "18:30" as the simulated Madison time so the
+            // countdown shows ~30 min to Purge.
+            const raw = buildStaticCountdownSegment(
+              `dev-countdown::${Date.now()}`,
+              "18:30",
+            );
+            const countdownSegment = {
+              ...raw,
+              inWorldTime: "18:30",
+              segmentTitle: "Pre-Purge Countdown",
+            } as unknown as PlayerSegment;
+            prevFingerprintRef.current = fingerprintOf(countdownSegment);
+            setSegment(countdownSegment);
+            setCycleIndex(0);
+            setAtOverride("18:30"); // pin HUD clock to match countdown
+          }}
+          onTriggerSiren={() => {
+            setPurgeSirenActive(true);
+          }}
+          onTimeTravel={(overrideTime) => {
+            // Pin or unpin the HUD clock + countdown timer. Reuses the
+            // existing atOverride mechanism so the clock effect and
+            // segment fetcher stay in sync with the dev panel's time.
+            setAtOverride(overrideTime);
           }}
         />
       )}

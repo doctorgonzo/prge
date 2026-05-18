@@ -135,13 +135,24 @@ interface YtApiSearchResponse {
   items?: YtApiSearchItem[];
 }
 
-/** Subset of the videos.list response we read (contentDetails part only). */
+/** Subset of the videos.list response we read (contentDetails + status). */
 interface YtApiVideosItem {
-  contentDetails?: { duration?: string };
+  contentDetails?: {
+    duration?: string;
+    contentRating?: {
+      ytRating?: string;
+    };
+  };
 }
 
 interface YtApiVideosResponse {
   items?: YtApiVideosItem[];
+}
+
+/** Structured result from fetchVideoDetails — duration + age-gate check. */
+interface VideoDetails {
+  durationSec: number | null;
+  ageRestricted: boolean;
 }
 
 /**
@@ -185,14 +196,20 @@ export function isoDurationToSeconds(iso: string): number | null {
 
 /**
  * Second-step Data API call: given a videoId, fetch its `contentDetails`
- * and pull the ISO 8601 duration out. Returns null on any failure so the
- * caller can persist `durationSec: null` (still a valid record; the iframe
- * just falls back to the default dwell).
+ * to pull the ISO 8601 duration AND check for age-restriction. Returns
+ * structured details on success; returns a safe default on any failure so
+ * the caller can persist gracefully.
+ *
+ * Age-restriction check: `contentDetails.contentRating.ytRating` is
+ * `"ytAgeRestricted"` for videos that require sign-in. These are
+ * technically "embeddable" (pass the search.list filter) but the embed
+ * iframe shows "Sign in to confirm your age" instead of playing — breaking
+ * the broadcast flow. Callers should skip these and try the next candidate.
  */
-async function fetchDurationSecViaApi(
+async function fetchVideoDetails(
   videoId: string,
   apiKey: string,
-): Promise<number | null> {
+): Promise<VideoDetails> {
   const params = new URLSearchParams({
     part: "contentDetails",
     id: videoId,
@@ -205,7 +222,7 @@ async function fetchDurationSecViaApi(
     response = await fetch(endpoint);
   } catch (err) {
     console.error("[track-resolver] videos.list network error:", err);
-    return null;
+    return { durationSec: null, ageRestricted: false };
   }
 
   if (!response.ok) {
@@ -218,7 +235,7 @@ async function fetchDurationSecViaApi(
     console.error(
       `[track-resolver] videos.list HTTP ${response.status} ${response.statusText}: ${bodyPreview}`,
     );
-    return null;
+    return { durationSec: null, ageRestricted: false };
   }
 
   let parsed: YtApiVideosResponse;
@@ -226,17 +243,26 @@ async function fetchDurationSecViaApi(
     parsed = (await response.json()) as YtApiVideosResponse;
   } catch (err) {
     console.error("[track-resolver] videos.list JSON parse error:", err);
-    return null;
+    return { durationSec: null, ageRestricted: false };
   }
 
   const items = Array.isArray(parsed.items) ? parsed.items : [];
+  let durationSec: number | null = null;
+  let ageRestricted = false;
+
   for (const item of items) {
+    // Duration
     const iso = item.contentDetails?.duration;
-    if (typeof iso !== "string") continue;
-    const secs = isoDurationToSeconds(iso);
-    if (secs !== null) return secs;
+    if (typeof iso === "string" && durationSec === null) {
+      durationSec = isoDurationToSeconds(iso);
+    }
+    // Age restriction — ytRating is only present when restricted
+    const ytRating = item.contentDetails?.contentRating?.ytRating;
+    if (ytRating === "ytAgeRestricted") {
+      ageRestricted = true;
+    }
   }
-  return null;
+  return { durationSec, ageRestricted };
 }
 
 /**
@@ -302,11 +328,17 @@ async function resolveViaApi(
     const resolvedTitle = asNonEmptyString(item.snippet?.title) ?? title;
     const resolvedChannel =
       asNonEmptyString(item.snippet?.channelTitle) ?? artist;
-    // Second API call to grab the duration. This is a separate endpoint
-    // (videos.list) because search.list never returns contentDetails. A null
-    // here is non-fatal — we persist null and the player uses the default
-    // dwell. Quota: this is +1 unit per cache miss on the API path.
-    const durationSec = await fetchDurationSecViaApi(videoId, apiKey);
+    // Second API call to grab duration + check age-restriction. This is a
+    // separate endpoint (videos.list) because search.list never returns
+    // contentDetails. Quota: +1 unit per candidate checked. We iterate
+    // through up to 5 results but typically the first 1-2 suffice.
+    const details = await fetchVideoDetails(videoId, apiKey);
+    if (details.ageRestricted) {
+      console.log(
+        `[track-resolver] Skipping age-restricted video ${videoId} for "${artist} – ${title}"`,
+      );
+      continue;
+    }
     return {
       videoId,
       // videoEmbeddable=true in the query guarantees this; we just mirror it.
@@ -315,12 +347,12 @@ async function resolveViaApi(
       resolvedChannel,
       resolvedAt: new Date().toISOString(),
       source: "api",
-      durationSec,
+      durationSec: details.durationSec,
     };
   }
 
-  // Zero embeddable results. Fall through to scraper — it may surface a
-  // user-uploaded copy the API filter excluded.
+  // Zero usable results (all age-restricted or non-embeddable). Fall through
+  // to scraper — it may surface a user-uploaded copy the API filter excluded.
   return null;
 }
 
@@ -463,20 +495,36 @@ async function resolveViaScraper(
   const videos = Array.isArray(result?.videos) ? result.videos : [];
   if (videos.length === 0) return null;
 
-  // Walk the top 5 candidates. Take the first that yields a real videoId.
-  // yt-search marks the entry's category in `.type`, but VIDEO-typed entries
-  // are what populate `.videos`, so we just need a non-empty id.
+  // Walk the top 5 candidates. Take the first that yields a real videoId
+  // and passes the age-restriction check (when an API key is available).
   const TOP_N = 5;
+  const apiKey = process.env.YOUTUBE_API_KEY?.trim() || null;
   for (const item of videos.slice(0, TOP_N)) {
     const videoId = asNonEmptyString(item.videoId);
     if (!videoId) continue;
+
+    // Age-restriction gate: yt-search has no embeddability or age-restriction
+    // metadata, so when the YouTube API key is available we do a quick
+    // videos.list probe to catch age-gated videos before caching them.
+    // Costs +1 API unit per scraper candidate checked — typically just 1.
+    let durationSec = extractScraperDurationSec(item.duration);
+    if (apiKey) {
+      const details = await fetchVideoDetails(videoId, apiKey);
+      if (details.ageRestricted) {
+        console.log(
+          `[track-resolver] Skipping age-restricted scraped video ${videoId} for "${artist} – ${title}"`,
+        );
+        continue;
+      }
+      // Prefer API-reported duration over scraper's parsed timestamp when
+      // we already have the data — it's more reliable.
+      if (details.durationSec !== null) {
+        durationSec = details.durationSec;
+      }
+    }
+
     const resolvedTitle = asNonEmptyString(item.title) ?? title;
     const resolvedChannel = asNonEmptyString(item.author?.name) ?? artist;
-    // yt-search's `duration` is loosely typed; the helper handles missing
-    // `.seconds`, missing `.timestamp`, and malformed strings by returning
-    // null. A null here is fine — we persist it and the player uses its
-    // default dwell for this track.
-    const durationSec = extractScraperDurationSec(item.duration);
 
     return {
       videoId,

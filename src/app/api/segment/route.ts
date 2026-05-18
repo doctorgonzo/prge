@@ -23,6 +23,7 @@ import {
 import { pickTimBumper } from "@/lib/tim-bumpers";
 import { getNickCutIns } from "@/lib/nick-cut-ins";
 import { buildStaticDaytimeMusicBlock, buildStaticDaytimeCommercial } from "@/lib/daytime-static";
+import { buildStaticCountdownSegment } from "@/lib/countdown-static";
 import { enrichTracksWithFacts, getTrackFacts } from "@/lib/track-facts";
 import type { SegmentFormat, HostId } from "@/lib/types";
 
@@ -82,6 +83,7 @@ function hostsForFormat(format: SegmentFormat): HostId[] {
     case "operator-cutin":
     case "sign-on":
     case "sign-off":
+    case "countdown":
       return ["tim"];
   }
 }
@@ -114,6 +116,8 @@ function durationForFormat(format: SegmentFormat): number {
       return 90;
     case "sign-off":
       return 90;
+    case "countdown":
+      return 3600;
   }
 }
 
@@ -393,6 +397,18 @@ export async function GET(request: Request): Promise<NextResponse> {
   // ?force=1 — dev-only regen. Skip cache lookup and overwrite the existing
   // entry. Budget gate still applies (force does NOT bypass budget).
   const force = url.searchParams.get("force") === "1";
+
+  // Countdown short-circuit (18:00–18:59) — static PSA content, ZERO LLM calls.
+  // The pre-Purge countdown hour serves survival PSA videos and preparedness
+  // tips. Fully baked — no generation, no cache, no budget. The segment builder
+  // uses the current Madison time to compute the live countdown value.
+  if (format === "countdown") {
+    const body = buildStaticCountdownSegment(cacheKey, inWorldTime);
+    const enriched = enrichSegment(body, inWorldTime, "PRE-PURGE COUNTDOWN");
+    return NextResponse.json(enriched, {
+      headers: { "X-PRGE-Cache": "static-countdown" },
+    });
+  }
 
   // Daytime station-id short-circuit — NEVER call the LLM for these. They're
   // hand-written Tim bumpers selected deterministically by (Madison-date, slot-

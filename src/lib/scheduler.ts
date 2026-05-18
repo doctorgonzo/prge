@@ -267,14 +267,22 @@ function secondsOfDayToHHMM(sec: number): string {
 
 const PURGE_START_SEC = 19 * 3600; // 68400 — 19:00
 const PURGE_END_SEC = 7 * 3600; // 25200 — 07:00 (next day, in next-day seconds-of-day)
+const COUNTDOWN_START_SEC = 18 * 3600; // 64800 — 18:00
 const DAYTIME_START_SEC = PURGE_END_SEC; // 25200 — 07:00. Daytime window is
-// [DAYTIME_START_SEC, PURGE_START_SEC) — i.e. 07:00 (inclusive) to 19:00
-// (exclusive). The implicit upper bound is PURGE_START_SEC so we don't
-// duplicate the constant.
+// [DAYTIME_START_SEC, COUNTDOWN_START_SEC) — i.e. 07:00 (inclusive) to 18:00
+// (exclusive). The hour 18:00–19:00 is the pre-Purge countdown window.
 
 /** True if the given seconds-of-day falls in the Purge broadcast window. */
 function isPurgeWindow(secondsOfDay: number): boolean {
   return secondsOfDay >= PURGE_START_SEC || secondsOfDay < PURGE_END_SEC;
+}
+
+/** True if the given seconds-of-day falls in the 1-hour pre-Purge countdown
+ *  window (18:00–18:59 Madison). The station switches from unmanned daytime
+ *  autoplay to emergency preparedness broadcasting — survival PSA videos,
+ *  ticking countdown clock, and urgent preparedness tips from Tim. */
+function isCountdownWindow(secondsOfDay: number): boolean {
+  return secondsOfDay >= COUNTDOWN_START_SEC && secondsOfDay < PURGE_START_SEC;
 }
 
 /** Parse "HH:MM" → seconds-since-19:00 within the broadcast loop.
@@ -358,7 +366,26 @@ function resolveSegmentForMadisonHHMM(
     };
   }
 
-  // Daytime window. Map seconds-since-07:00 → cycle position → slot.
+  // Countdown window (18:00–18:59). The station switches from unmanned
+  // autoplay to emergency preparedness mode: survival PSA videos play in
+  // the music-block iframe, a ticking countdown clock shows time until
+  // Purge start, and Tim's urgent preparedness tips cycle. This is NOT
+  // daytime content and NOT a Purge-night slot — it's its own mode.
+  if (isCountdownWindow(secondsOfDay)) {
+    // Single monolithic slot for the entire countdown hour. Cache key is
+    // fixed at "18:00" so all minutes within the hour serve the same segment.
+    return {
+      format: "countdown",
+      inWorldTime: madisonHHMM,
+      cacheKey: "18:00",
+      hosts: ["tim"],
+      durationSec: 3600,
+      title: "Pre-Purge Countdown",
+      daytime: false, // countdown is not daytime — it's emergency broadcasting
+    };
+  }
+
+  // Daytime window (07:00–17:59). Map seconds-since-07:00 → cycle position → slot.
   const daytimeOffsetSec = secondsOfDay - DAYTIME_START_SEC; // 0..43199
   const cycleOffsetSec = daytimeOffsetSec % DAYTIME_CYCLE_SEC;
 
@@ -418,7 +445,7 @@ export function getBroadcastPosition(madisonHHMM: string): BroadcastPosition {
   const secondsOfDay = hhmmToSecondsOfDay(madisonHHMM);
 
   if (!isPurgeWindow(secondsOfDay)) {
-    // Daytime — broadcast is OVER (audience already heard it last night).
+    // Daytime or countdown — broadcast hasn't started yet (or ended earlier).
     return {
       hourIndex: -1,
       totalHours: BROADCAST_SCHEDULE.length,
@@ -427,7 +454,7 @@ export function getBroadcastPosition(madisonHHMM: string): BroadcastPosition {
         ...e,
         hosts: [...e.hosts],
       })),
-      daytime: true,
+      daytime: !isCountdownWindow(secondsOfDay),
     };
   }
 
@@ -487,7 +514,7 @@ export function getNextSegmentTransition(
   const secondsOfDay = hhmmToSecondsOfDay(madisonHHMM);
 
   if (!isPurgeWindow(secondsOfDay)) {
-    // Daytime — next transition is the 19:00 sign-on.
+    // Daytime or countdown — next Purge transition is the 19:00 sign-on.
     const nextEntry = BROADCAST_SCHEDULE[0];
     const realSecondsUntil = PURGE_START_SEC - secondsOfDay;
     return { realSecondsUntil, nextEntry };
@@ -540,6 +567,24 @@ export function getSegmentAtInWorldTime(
   const info = resolveSegmentForMadisonHHMM(madisonHHMM);
 
   if (!info.daytime) {
+    // Countdown window (18:00–18:59) must be checked BEFORE the Purge
+    // schedule lookup — countdown also has daytime=false, but it's not a
+    // Purge-night slot. purgeHHMMToBroadcastSec("18:59") would produce a
+    // nonsense offset (86340) that falls past the end of the schedule.
+    const secondsOfDay = hhmmToSecondsOfDay(madisonHHMM);
+    if (isCountdownWindow(secondsOfDay)) {
+      return {
+        hour: -1,
+        startInWorldTime: "18:00",
+        format: "countdown",
+        hosts: ["tim"],
+        durationSec: 3600,
+        title: "Pre-Purge Countdown",
+        inWorldTime: madisonHHMM,
+        daytime: false,
+      };
+    }
+
     // Purge window — find the actual schedule entry so callers can read
     // its canonical startInWorldTime field for cache keys, etc.
     const broadcastSec = purgeHHMMToBroadcastSec(madisonHHMM);

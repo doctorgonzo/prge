@@ -36,6 +36,7 @@ const FORMAT_LABEL: Record<SegmentFormat, string> = {
   "station-id": "Station ID",
   "operator-cutin": "Operator Cut-In",
   "sign-off": "Sign-Off",
+  countdown: "Pre-Purge Countdown",
 };
 
 /**

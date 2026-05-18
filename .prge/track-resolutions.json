@@ -1,292 +1,65 @@
 {
-  "nonexistentartist::fakesong": {
-    "videoId": "mTixG-qOkrY",
+  "modest mouse::float on": {
+    "videoId": "CTAud5O7Qqk",
     "embeddable": true,
-    "resolvedTitle": "Shitty Fakesong",
-    "resolvedChannel": "Umbra et Imago",
-    "resolvedAt": "2026-05-17T16:14:59.570Z"
-  },
-  "descendents::hope": {
-    "videoId": "qOHEfVQFs2Q",
-    "embeddable": true,
-    "resolvedTitle": "Hope",
-    "resolvedChannel": "Descendents",
-    "resolvedAt": "2026-05-17T16:15:00.363Z"
-  },
-  "zzzzqqqqxxxxvvvv9999::zzzzqqqqxxxxvvvv9999": {
-    "videoId": "LfJJ1h8v3xE",
-    "embeddable": true,
-    "resolvedTitle": "🔴 LIVE:🧟‍♂️👶 Minecraft Zombie Adventure! Baby vs Zombies✨Watch and have fun with Pit & Penny! 🥑",
-    "resolvedChannel": "Pit & Penny",
-    "resolvedAt": "2026-05-17T16:15:11.267Z"
-  },
-  "nofx::the decline": {
-    "videoId": "qnFVMkTWaBw",
-    "embeddable": true,
-    "resolvedTitle": "NOFX - The Decline (Official Full Album Version)",
-    "resolvedChannel": "FAT WRECK CHORDS",
-    "resolvedAt": "2026-05-17T16:22:21.097Z"
-  },
-  "green day::basket case": {
-    "videoId": "NUTGr5t3MoY",
-    "embeddable": true,
-    "resolvedTitle": "Green Day - Basket Case [Official Music Video] (4K Upgrade)",
-    "resolvedChannel": "Green Day",
-    "resolvedAt": "2026-05-17T16:22:39.311Z"
-  },
-  "anti-flag::the guillotine": {
-    "videoId": "kka7HprIwJM",
-    "embeddable": true,
-    "resolvedTitle": "Anti-Flag \"Broken Bones\"",
-    "resolvedChannel": "Anti-Flag",
-    "resolvedAt": "2026-05-17T16:23:26.075Z"
-  },
-  "bad religion::do what you want": {
-    "videoId": "eSwUvwsNa0A",
-    "embeddable": true,
-    "resolvedTitle": "Bad Religion - \"Do What You Want\"",
-    "resolvedChannel": "Bad Religion",
-    "resolvedAt": "2026-05-17T16:23:39.038Z"
-  },
-  "alkaline trio::trouble": {
-    "videoId": "1-o73_joKRo",
-    "embeddable": true,
-    "resolvedTitle": "Trouble Breathing",
-    "resolvedChannel": "Alkaline Trio",
-    "resolvedAt": "2026-05-17T16:24:12.963Z"
-  },
-  "nofx::public enemy no. 1": {
-    "videoId": "AAWVAbUAADQ",
-    "embeddable": true,
-    "resolvedTitle": "Public Enemy No. 1",
-    "resolvedChannel": "Channel ZERO",
-    "resolvedAt": "2026-05-17T16:24:30.904Z"
-  },
-  "anti-flag::the people or the gun": {
-    "videoId": "RCn6ctUXTgk",
-    "embeddable": true,
-    "resolvedTitle": "Anti Flag - The People Or The Gun (Full Album - 2009)",
-    "resolvedChannel": "Punk Rock Is NOT Dead",
-    "resolvedAt": "2026-05-17T16:25:03.284Z"
-  },
-  "blink-182::what's my age again?": {
-    "videoId": "K7l5ZeVVoCA",
-    "embeddable": true,
-    "resolvedTitle": "blink-182 - What's My Age Again? (Official Music Video)",
-    "resolvedChannel": "blink-182",
-    "resolvedAt": "2026-05-17T16:27:23.342Z"
-  },
-  "nofx::linoleum": {
-    "videoId": "6kKod2qay94",
-    "embeddable": true,
-    "resolvedTitle": "Nofx - linoleum",
-    "resolvedChannel": "lulledoor",
-    "resolvedAt": "2026-05-17T16:27:36.466Z"
-  },
-  "goldfinger::99 luftballons": {
-    "videoId": "p-qfzH0vnOs",
-    "embeddable": true,
-    "resolvedTitle": "Goldfinger - 99 Red Balloons (Official Video)",
-    "resolvedChannel": "Goldfinger Music",
-    "resolvedAt": "2026-05-17T16:27:48.781Z"
-  },
-  "anti-flag::die for your government": {
-    "videoId": "IL0nhn88aVA",
-    "embeddable": true,
-    "resolvedTitle": "Die for the Government",
-    "resolvedChannel": "Anti-Flag",
-    "resolvedAt": "2026-05-17T16:27:59.501Z"
-  },
-  "nofx::six years service": {
-    "videoId": "lPXc2gmNg0s",
-    "embeddable": true,
-    "resolvedTitle": "NOFX - Six Years On Dope (Official Video)",
-    "resolvedChannel": "FAT WRECK CHORDS",
-    "resolvedAt": "2026-05-17T16:29:36.126Z",
-    "source": "scraper"
-  },
-  "anti-flag::this time the world": {
-    "videoId": "qnVD7WuarSo",
-    "embeddable": true,
-    "resolvedTitle": "Anti-Flag - This Is The End (For You My Friend) (Official Video)",
-    "resolvedChannel": "Anti-Flag",
-    "resolvedAt": "2026-05-17T16:29:46.534Z",
-    "source": "scraper"
-  },
-  "violent femmes::blister in the sun": {
-    "videoId": "G89chAA4l8s",
-    "embeddable": true,
-    "resolvedTitle": "Violent Femmes - Blister In The Sun (Lyric Video)",
-    "resolvedChannel": "Violent Femmes",
-    "resolvedAt": "2026-05-17T16:29:59.557Z",
-    "source": "scraper"
-  },
-  "the ramones::dumpster dive": {
-    "videoId": "MXJTZl_5FXQ",
-    "embeddable": true,
-    "resolvedTitle": "Dumpster Diving- These dumpsters are FULL of INSANE Items!!!",
-    "resolvedChannel": "GlamourDDive",
-    "resolvedAt": "2026-05-17T16:30:17.738Z",
-    "source": "scraper"
-  },
-  "anti-flag::this is the end (for me, it never began)": {
-    "videoId": "qnVD7WuarSo",
-    "embeddable": true,
-    "resolvedTitle": "Anti-Flag - This Is The End (For You My Friend) (Official Video)",
-    "resolvedChannel": "Anti-Flag",
-    "resolvedAt": "2026-05-17T16:32:59.952Z",
-    "source": "scraper"
-  },
-  "the ramones::blitzkrieg bop": {
-    "videoId": "268C3N2dDYk",
-    "embeddable": true,
-    "resolvedTitle": "Ramones - Blitzkrieg Bop (Official Music Video)",
-    "resolvedChannel": "Ramones",
-    "resolvedAt": "2026-05-17T16:34:58.510Z",
-    "source": "scraper"
-  },
-  "ramones::blitzkrieg bop": {
-    "videoId": "268C3N2dDYk",
-    "embeddable": true,
-    "resolvedTitle": "Ramones - Blitzkrieg Bop (Official Music Video)",
-    "resolvedChannel": "Ramones",
-    "resolvedAt": "2026-05-17T16:37:52.594Z",
-    "source": "scraper",
-    "durationSec": 116
-  },
-  "descendents::suburban home": {
-    "videoId": "x9PPlQp5DT4",
-    "embeddable": true,
-    "resolvedTitle": "Suburban Home",
-    "resolvedChannel": "Descendents",
-    "resolvedAt": "2026-05-17T17:03:14.812Z",
-    "source": "scraper",
-    "durationSec": 101
-  },
-  "anti-flag::die for the government": {
-    "videoId": "IL0nhn88aVA",
-    "embeddable": true,
-    "resolvedTitle": "Die for the Government",
-    "resolvedChannel": "Anti-Flag",
-    "resolvedAt": "2026-05-17T17:06:56.789Z",
-    "source": "scraper",
-    "durationSec": 220
-  },
-  "propagandhi::anti-manifesto": {
-    "videoId": "n6Uk615UpAw",
-    "embeddable": true,
-    "resolvedTitle": "Anti-Manifesto",
-    "resolvedChannel": "Propagandhi",
-    "resolvedAt": "2026-05-17T17:10:37.763Z",
-    "source": "scraper",
+    "resolvedTitle": "Modest Mouse - Float On (Official Music Video)",
+    "resolvedChannel": "MODESTMOUSEVEVO",
+    "resolvedAt": "2026-05-18T22:27:23.233Z",
+    "source": "api",
     "durationSec": 215
   },
-  "anti-flag::red, white and brainwashed": {
-    "videoId": "cDXvQOflv4U",
+  "green day::she": {
+    "videoId": "vkySGM7gysg",
     "embeddable": true,
-    "resolvedTitle": "Red, White & Brainwashed",
-    "resolvedChannel": "Anti-Flag",
-    "resolvedAt": "2026-05-17T17:14:13.642Z",
-    "source": "scraper",
-    "durationSec": 112
-  },
-  "against me!::sink, florida, sink": {
-    "videoId": "krnnErGzIsY",
-    "embeddable": true,
-    "resolvedTitle": "Against Me! - Sink, Florida, Sink",
-    "resolvedChannel": "thedogrunsfast",
-    "resolvedAt": "2026-05-17T18:43:35.329Z",
-    "source": "scraper",
-    "durationSec": 165
-  },
-  "mojo nixon::elvis is everywhere": {
-    "videoId": "5DcTY9i-fx8",
-    "embeddable": true,
-    "resolvedTitle": "Mojo Nixon - Elvis is Everywhere",
-    "resolvedChannel": "Radial by The Orchard",
-    "resolvedAt": "2026-05-18T03:52:55.227Z",
+    "resolvedTitle": "Green Day - She [Live in Chicago] 1994",
+    "resolvedChannel": "Wagner Sampaio",
+    "resolvedAt": "2026-05-18T22:30:54.675Z",
     "source": "api",
-    "durationSec": 234
-  },
-  "less than jake::the science of selling yourself short": {
-    "videoId": "krXG307d4k8",
-    "embeddable": true,
-    "resolvedTitle": "The Science Of Selling Yourself Short (Video)",
-    "resolvedChannel": "Warner Records Vault",
-    "resolvedAt": "2026-05-18T13:32:31.079Z",
-    "source": "api",
-    "durationSec": 183
-  },
-  "pixies::where is my mind?": {
-    "videoId": "OJ62RzJkYUo",
-    "embeddable": true,
-    "resolvedTitle": "Pixies - Where Is My Mind? (Official Lyric Video)",
-    "resolvedChannel": "PixiesOfficial",
-    "resolvedAt": "2026-05-18T17:57:57.850Z",
-    "source": "api",
-    "durationSec": 230
+    "durationSec": 169
   },
   "the clash::london calling": {
     "videoId": "EfK-WX2pa8c",
     "embeddable": true,
     "resolvedTitle": "The Clash - London Calling (Official Video)",
     "resolvedChannel": "theclashVEVO",
-    "resolvedAt": "2026-05-18T17:59:20.439Z",
+    "resolvedAt": "2026-05-18T22:33:44.355Z",
     "source": "api",
     "durationSec": 202
   },
-  "ramones::sheena is a punk rocker": {
-    "videoId": "kynpOa5BIKM",
+  "bad brains::pay to cum": {
+    "videoId": "OP_gUFvN3Mc",
     "embeddable": true,
-    "resolvedTitle": "Ramones - &quot;Sheena is a Punk Rocker&quot; - Rocket to Russia",
-    "resolvedChannel": "Ramones",
-    "resolvedAt": "2026-05-18T18:03:58.204Z",
+    "resolvedTitle": "Bad Brains - Pay To Cum (Live at CBGB&#39;s 1979)",
+    "resolvedChannel": "DaisyPumpkin23",
+    "resolvedAt": "2026-05-18T22:38:42.597Z",
     "source": "api",
-    "durationSec": 171
+    "durationSec": 99
   },
-  "built to spill::car": {
-    "videoId": "AVtskhcGOtc",
+  "mighty mighty bosstones::the impression that i get": {
+    "videoId": "NIGMUAMevH0",
     "embeddable": true,
-    "resolvedTitle": "Built To Spill - Car",
-    "resolvedChannel": "Up Records",
-    "resolvedAt": "2026-05-18T18:06:49.432Z",
+    "resolvedTitle": "The Mighty Mighty Bosstones - The Impression That I Get (Official Music Video)",
+    "resolvedChannel": "MightyMightyBossVEVO",
+    "resolvedAt": "2026-05-18T22:39:13.601Z",
     "source": "api",
-    "durationSec": 183
+    "durationSec": 194
   },
-  "black flag::rise above": {
-    "videoId": "wDUYCyajDcs",
+  "neutral milk hotel::aeroplane over the sea": {
+    "videoId": "r3DqBk9YNXA",
     "embeddable": true,
-    "resolvedTitle": "Rise Above",
-    "resolvedChannel": "Black Flag - Topic",
-    "resolvedAt": "2026-05-18T18:09:53.230Z",
+    "resolvedTitle": "In the Aeroplane Over the Sea",
+    "resolvedChannel": "Neutral Milk Hotel - Topic",
+    "resolvedAt": "2026-05-18T22:50:03.965Z",
     "source": "api",
-    "durationSec": 147
+    "durationSec": 203
   },
-  "rancid::ruby soho": {
-    "videoId": "GeFr4_CADp4",
+  "suicidal tendencies::institutionalized": {
+    "videoId": "LoF_a0-7xVQ",
     "embeddable": true,
-    "resolvedTitle": "Rancid - &#39;Ruby Soho&#39; (Music Video)",
-    "resolvedChannel": "Rancid",
-    "resolvedAt": "2026-05-18T18:12:20.989Z",
+    "resolvedTitle": "Suicidal Tendencies - &quot;Institutionalized&quot; Frontier Records - Official Music Video",
+    "resolvedChannel": "BlankTV",
+    "resolvedAt": "2026-05-18T22:56:46.342Z",
     "source": "api",
-    "durationSec": 172
-  },
-  "dead boys::sonic reducer": {
-    "videoId": "-3YbedLa5I0",
-    "embeddable": true,
-    "resolvedTitle": "Sonic Reducer",
-    "resolvedChannel": "Dead Boys - Topic",
-    "resolvedAt": "2026-05-18T18:16:56.650Z",
-    "source": "api",
-    "durationSec": 190
-  },
-  "ramones::my brain is hanging upside down": {
-    "videoId": "PZzEHd7t8lo",
-    "embeddable": true,
-    "resolvedTitle": "Ramones - &quot;My Brain is Hanging Upside Down (Bonzo Goes to Bitburg)&quot; - Hey Ho Let&#39;s Go Anthology",
-    "resolvedChannel": "Ramones",
-    "resolvedAt": "2026-05-18T18:22:31.447Z",
-    "source": "api",
-    "durationSec": 239
+    "durationSec": 257
   }
 }

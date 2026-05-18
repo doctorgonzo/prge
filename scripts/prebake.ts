@@ -52,6 +52,7 @@ function hostsForFormat(format: SegmentFormat): HostId[] {
     case "operator-cutin":
     case "sign-on":
     case "sign-off":
+    case "countdown":
       return ["tim"];
   }
 }
@@ -71,6 +72,7 @@ function durationForFormat(format: SegmentFormat): number {
     case "operator-cutin": return 45;
     case "sign-on": return 90;
     case "sign-off": return 90;
+    case "countdown": return 3600;
   }
 }
 

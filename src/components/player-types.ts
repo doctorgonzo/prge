@@ -19,6 +19,14 @@ export interface PlayerTrack {
    *  cached segments without per-track lines still satisfy the type. The
    *  layout falls back to top-level `segment.lines` when this is missing. */
   lines?: PlayerLine[];
+  /** Pre-resolved YouTube video ID. When present, MusicBlockLayout skips
+   *  the /api/track resolution step and embeds this video directly. Used by
+   *  countdown PSA videos where the videoId is baked into the segment. */
+  videoId?: string;
+  /** Pre-known duration in seconds. Paired with videoId for pre-resolved
+   *  tracks so the player can set the correct advance timer without waiting
+   *  for an API round-trip. */
+  durationSec?: number;
 }
 
 export interface PlayerAd {

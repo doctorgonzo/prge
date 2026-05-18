@@ -27,7 +27,8 @@ export type SegmentFormat =
   | "commercial-break"
   | "station-id"
   | "operator-cutin"
-  | "sign-off";
+  | "sign-off"
+  | "countdown";
 
 export interface Segment {
   /** Unique id within a broadcast (e.g. "hour-3-segment-2"). */
