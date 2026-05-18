@@ -22,7 +22,9 @@ async function loadDb(): Promise<FactsDb> {
     const raw = await readFile(FACTS_PATH, "utf-8");
     cachedDb = JSON.parse(raw) as FactsDb;
   } catch {
-    cachedDb = {};
+    // Don't cache the failure — if the file appears later (e.g. after
+    // running prebake-facts.ts mid-session), the next call should retry.
+    return {};
   }
   return cachedDb;
 }
