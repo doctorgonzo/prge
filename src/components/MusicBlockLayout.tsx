@@ -75,6 +75,17 @@ function ProgressStrip({
 // player state and currentTime. Animated only when PLAYING; collapses to a
 // flat baseline when paused/buffering/standby so the UI honestly reflects
 // "audio isn't moving right now." 16 bars across, height noise via sin().
+// ── Oscilloscope waveform ─────────────────────────────────────────────
+// CRT heartbeat-monitor style. SVG path with layered sine waves that
+// scroll left-to-right, driven by tick + currentTime so the waveform
+// evolves with the song. Flatlines when stopped, gentle blip when
+// buffering, full complex waveform when playing.
+
+const WAVE_POINTS = 128; // sample resolution across the SVG width
+const WAVE_W = 600;      // viewBox width
+const WAVE_H = 60;       // viewBox height
+const WAVE_MID = WAVE_H / 2;
+
 function Spectrogram({
   playerState,
   currentTime,
@@ -82,52 +93,153 @@ function Spectrogram({
   playerState: number;
   currentTime: number;
 }) {
-  const bars = 16;
   const playing = playerState === YT_STATE.PLAYING;
   const buffering = playerState === YT_STATE.BUFFERING;
+  const stopped = !playing && !buffering;
 
-  // 30Hz-ish bar-height tick while playing. We use Math.sin layered on a
-  // currentTime-derived offset so each bar dances with a distinct phase. When
-  // not playing, bars hold at 10% baseline (still visible, clearly inert).
+  // ~30fps tick while active. Drives the wave scroll.
   const [tick, setTick] = useState(0);
   useEffect(() => {
-    if (!playing) return;
-    const id = window.setInterval(() => setTick((t) => t + 1), 80);
+    if (stopped) return;
+    const fps = playing ? 33 : 60; // slower tick when buffering
+    const id = window.setInterval(() => setTick((t) => t + 1), fps);
     return () => window.clearInterval(id);
-  }, [playing]);
+  }, [playing, stopped]);
 
-  function heightPct(i: number): number {
-    if (!playing) return buffering ? 18 + ((tick + i) % 5) * 4 : 8;
-    const phase = i * 0.55 + currentTime * 2.1 + tick * 0.21;
-    // Two layered sines + small randomized envelope per bar index. Bound to
-    // [12, 96] so bars never hit 0 (looks dead) or clip the container.
-    const a = Math.sin(phase) * 0.55;
-    const b = Math.sin(phase * 2.3 + i) * 0.3;
-    const env = 0.7 + Math.sin(i * 1.7) * 0.15;
-    const raw = (a + b) * env;
-    return Math.max(12, Math.min(96, 54 + raw * 42));
-  }
+  // Build the SVG path string for this frame.
+  const pathD = useMemo(() => {
+    if (stopped) {
+      // Flatline with a single tiny blip in the center — "signal present, no audio."
+      const pts: string[] = [`M 0 ${WAVE_MID}`];
+      for (let i = 0; i <= WAVE_POINTS; i++) {
+        const x = (i / WAVE_POINTS) * WAVE_W;
+        const pos = i / WAVE_POINTS;
+        // Tiny center bump so it's not a perfectly dead line.
+        const bump = Math.exp(-((pos - 0.5) ** 2) * 200) * 3;
+        pts.push(`L ${x.toFixed(1)} ${(WAVE_MID - bump).toFixed(1)}`);
+      }
+      return pts.join(" ");
+    }
+
+    if (buffering) {
+      // Slow regular blips — alive, waiting for data.
+      const pts: string[] = [`M 0 ${WAVE_MID}`];
+      const t = tick * 0.04;
+      for (let i = 0; i <= WAVE_POINTS; i++) {
+        const x = (i / WAVE_POINTS) * WAVE_W;
+        const pos = i / WAVE_POINTS;
+        // Repeating sharp blips scrolling right.
+        const phase = (pos * 4 - t) % 1;
+        const blip = phase > 0 && phase < 0.15
+          ? Math.sin(phase / 0.15 * Math.PI) * 8
+          : 0;
+        pts.push(`L ${x.toFixed(1)} ${(WAVE_MID - blip).toFixed(1)}`);
+      }
+      return pts.join(" ");
+    }
+
+    // ── Playing: complex multi-harmonic waveform ─────────────────────
+    const t = tick * 0.055;
+    const song = currentTime * 0.8;
+    const pts: string[] = [`M 0 ${WAVE_MID}`];
+
+    // Per-frame random seeds — these shift every tick so the wave never
+    // repeats exactly. Math.random() is intentional: we WANT true
+    // randomness here, not deterministic noise.
+    const jitterSeed = Math.random() * 100;
+    const ampDrift = 0.7 + Math.random() * 0.6;      // 0.7–1.3 overall energy
+    const freqWobble = 0.9 + Math.random() * 0.2;    // ±10% frequency drift
+    const beatIntensity = 0.5 + Math.random() * 1.0;  // beats vary in punch
+
+    // Harmonic amplitude drift — each harmonic randomly gains/loses
+    // energy frame-to-frame so the waveform character shifts.
+    const fundAmp = (8 + Math.random() * 6) * ampDrift;     // 8–14 base
+    const harm2Amp = (3 + Math.random() * 5) * ampDrift;    // 3–8
+    const harm3Amp = (1 + Math.random() * 4) * ampDrift;    // 1–5
+    const subAmp = (4 + Math.random() * 5) * ampDrift;      // 4–9
+
+    for (let i = 0; i <= WAVE_POINTS; i++) {
+      const pos = i / WAVE_POINTS; // 0..1 across width
+      const x = pos * WAVE_W;
+
+      // Per-point micro-jitter — tiny random displacement so the line
+      // has organic texture instead of perfect mathematical curves.
+      const pointJitter = (Math.random() - 0.5) * 2.5;
+
+      // Base waveform — scrolling sine at the "fundamental frequency."
+      const fundamental = Math.sin((pos * 8 * freqWobble - t * 1.2 + song) * Math.PI * 2) * fundAmp;
+
+      // Second harmonic — faster, lower amplitude, slight phase offset.
+      const harm2 = Math.sin((pos * 14 * freqWobble - t * 1.8 + song * 1.3 + jitterSeed * 0.1) * Math.PI * 2) * harm2Amp;
+
+      // Third harmonic — high frequency shimmer.
+      const harm3 = Math.sin((pos * 22 * freqWobble - t * 2.6 + song * 1.7 + jitterSeed * 0.2) * Math.PI * 2) * harm3Amp;
+
+      // Sub-bass swell — very slow, wide undulation.
+      const sub = Math.sin((pos * 2.5 - t * 0.3 + song * 0.4) * Math.PI * 2) * subAmp;
+
+      // Beat spikes — sharp transients shaped like a heartbeat QRS complex.
+      // Beat rate drifts randomly so it doesn't feel metronomic.
+      const beatRate = 2.5 + Math.sin(t * 0.13 + jitterSeed) * 1.2; // 1.3–3.7 beats across width
+      const beatPhase = ((pos * beatRate - t * 0.7 + song * 0.5) % 1 + 1) % 1;
+      let beat = 0;
+      if (beatPhase < 0.04) {
+        beat = (beatPhase / 0.04) * 14 * beatIntensity;
+      } else if (beatPhase < 0.08) {
+        beat = (14 - ((beatPhase - 0.04) / 0.04) * 22) * beatIntensity;
+      } else if (beatPhase < 0.14) {
+        beat = (-8 + ((beatPhase - 0.08) / 0.06) * 8) * beatIntensity;
+      }
+
+      // Amplitude envelope — drifts unpredictably across the width.
+      const envelope = 0.6 + Math.sin(pos * 3.5 + t * 0.2 + song * 0.3 + jitterSeed * 0.05) * 0.35
+        + Math.sin(pos * 7 + t * 0.5) * 0.1;
+
+      const y = WAVE_MID - (fundamental + harm2 + harm3 + sub + beat + pointJitter) * envelope;
+      const clamped = Math.max(2, Math.min(WAVE_H - 2, y));
+      pts.push(`L ${x.toFixed(1)} ${clamped.toFixed(1)}`);
+    }
+
+    return pts.join(" ");
+  }, [tick, currentTime, playing, buffering, stopped]);
+
+  // Glow intensity — brighter when playing, dim when idle.
+  const glowFilter = playing
+    ? "drop-shadow(0 0 4px rgba(251, 191, 36, 0.7)) drop-shadow(0 0 8px rgba(251, 191, 36, 0.3))"
+    : buffering
+      ? "drop-shadow(0 0 3px rgba(251, 191, 36, 0.4))"
+      : "none";
 
   return (
-    <div
-      className="flex items-end gap-[2px] h-[20px] w-full"
-      aria-hidden
-    >
-      {Array.from({ length: bars }, (_, i) => {
-        const h = heightPct(i);
-        const color = playing
-          ? "bg-amber-400"
-          : buffering
-            ? "bg-amber-500/60"
-            : "bg-amber-700/40";
-        return (
-          <div
-            key={i}
-            className={`flex-1 ${color} transition-[height] duration-100 ease-out`}
-            style={{ height: `${h}%` }}
-          />
-        );
-      })}
+    <div className="w-full" aria-hidden>
+      <svg
+        viewBox={`0 0 ${WAVE_W} ${WAVE_H}`}
+        preserveAspectRatio="none"
+        className="w-full h-[36px]"
+        style={{ filter: glowFilter }}
+      >
+        {/* Faint center reference line — the "zero crossing." */}
+        <line
+          x1="0" y1={WAVE_MID} x2={WAVE_W} y2={WAVE_MID}
+          stroke="rgba(251, 191, 36, 0.12)"
+          strokeWidth="0.5"
+        />
+        {/* The waveform itself. */}
+        <path
+          d={pathD}
+          fill="none"
+          stroke={
+            playing
+              ? "rgba(251, 191, 36, 0.9)"   // amber-400
+              : buffering
+                ? "rgba(251, 191, 36, 0.45)"
+                : "rgba(251, 191, 36, 0.2)"
+          }
+          strokeWidth={playing ? "1.5" : "1"}
+          strokeLinejoin="round"
+          strokeLinecap="round"
+        />
+      </svg>
     </div>
   );
 }

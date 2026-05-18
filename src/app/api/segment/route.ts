@@ -23,6 +23,7 @@ import {
 import { pickTimBumper } from "@/lib/tim-bumpers";
 import { getNickCutIns } from "@/lib/nick-cut-ins";
 import { buildStaticDaytimeMusicBlock, buildStaticDaytimeCommercial } from "@/lib/daytime-static";
+import { enrichTracksWithFacts, getTrackFacts } from "@/lib/track-facts";
 import type { SegmentFormat, HostId } from "@/lib/types";
 
 // Shape of an HH:MM 24-hour clock string. Mirrors the validation regex used by
@@ -343,17 +344,34 @@ const OFFLINE_SEGMENT = {
  * drunkenness through the night, hard cap 4. Returns the segment unchanged
  * for non-interruptible formats (music-block, commercials, ops).
  */
-function attachNickCutIns(
+async function attachNickCutIns(
   segment: Record<string, unknown>,
   format: string,
   inWorldTime: string,
   cacheKey: string,
-): Record<string, unknown> {
+): Promise<Record<string, unknown>> {
   const madisonDate = new Date()
     .toLocaleDateString("en-CA", { timeZone: "America/Chicago" });
   const cutIns = getNickCutIns(format, inWorldTime, madisonDate, cacheKey);
   if (cutIns.length === 0) return segment;
-  return { ...segment, nickCutIns: cutIns };
+  // Enrich each cut-in track with facts from the database.
+  const enrichedCutIns = await Promise.all(
+    cutIns.map(async (cutIn) => {
+      const facts = await getTrackFacts(cutIn.track.artist, cutIn.track.title);
+      if (facts.length === 0) return cutIn;
+      const existingLines = cutIn.track.lines ?? [];
+      const existingTexts = new Set(existingLines.map((l) => l.text.toLowerCase()));
+      const newLines = facts
+        .filter((f) => !existingTexts.has(f.toLowerCase()))
+        .slice(0, Math.max(0, 10 - existingLines.length))
+        .map((f) => ({ host: "nick", text: f }));
+      return {
+        ...cutIn,
+        track: { ...cutIn.track, lines: [...existingLines, ...newLines] },
+      };
+    }),
+  );
+  return { ...segment, nickCutIns: enrichedCutIns };
 }
 
 export async function GET(request: Request): Promise<NextResponse> {
@@ -401,9 +419,11 @@ export async function GET(request: Request): Promise<NextResponse> {
 
   // Daytime music-block short-circuit — static track picks from a baked pool.
   // ZERO LLM calls. Same wallet-protection pattern as the Tim bumper above.
+  // Track facts enrichment adds 10+ rotating lines per song.
   if (daytime && format === "music-block") {
     const body = buildStaticDaytimeMusicBlock(cacheKey);
-    const enriched = enrichSegment(body, inWorldTime, "UNMANNED · AUTOPLAY");
+    const withFacts = await enrichTracksWithFacts(body, "prge");
+    const enriched = enrichSegment(withFacts, inWorldTime, "UNMANNED · AUTOPLAY");
     return NextResponse.json(enriched, {
       headers: { "X-PRGE-Cache": "static-daytime-music" },
     });
@@ -426,8 +446,14 @@ export async function GET(request: Request): Promise<NextResponse> {
     const cached = await readCached(format, cacheKey);
     if (cached) {
       const headerTitle = daytime ? "UNMANNED · AUTOPLAY" : title;
-      const enriched = enrichSegment(cached.body, inWorldTime, headerTitle);
-      return NextResponse.json(attachNickCutIns(enriched, format, inWorldTime, cacheKey), {
+      // Enrich music-block tracks with facts from the pre-baked database.
+      let body = cached.body as Record<string, unknown>;
+      if (format === "music-block") {
+        const factHost = daytime ? "prge" : "nick";
+        body = await enrichTracksWithFacts(body, factHost);
+      }
+      const enriched = enrichSegment(body, inWorldTime, headerTitle);
+      return NextResponse.json(await attachNickCutIns(enriched, format, inWorldTime, cacheKey), {
         headers: { "X-PRGE-Cache": "hit" },
       });
     }
@@ -506,7 +532,7 @@ export async function GET(request: Request): Promise<NextResponse> {
 
   const headerTitle = daytime ? "UNMANNED · AUTOPLAY" : title;
   const enriched = enrichSegment(parsed, inWorldTime, headerTitle);
-  return NextResponse.json(attachNickCutIns(enriched, format, inWorldTime, cacheKey), {
+  return NextResponse.json(await attachNickCutIns(enriched, format, inWorldTime, cacheKey), {
     headers: {
       "X-PRGE-Cache": force ? "miss-forced" : "miss-generated",
     },

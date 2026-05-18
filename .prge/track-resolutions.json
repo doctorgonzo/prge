@@ -207,5 +207,86 @@
     "resolvedAt": "2026-05-18T03:52:55.227Z",
     "source": "api",
     "durationSec": 234
+  },
+  "less than jake::the science of selling yourself short": {
+    "videoId": "krXG307d4k8",
+    "embeddable": true,
+    "resolvedTitle": "The Science Of Selling Yourself Short (Video)",
+    "resolvedChannel": "Warner Records Vault",
+    "resolvedAt": "2026-05-18T13:32:31.079Z",
+    "source": "api",
+    "durationSec": 183
+  },
+  "pixies::where is my mind?": {
+    "videoId": "OJ62RzJkYUo",
+    "embeddable": true,
+    "resolvedTitle": "Pixies - Where Is My Mind? (Official Lyric Video)",
+    "resolvedChannel": "PixiesOfficial",
+    "resolvedAt": "2026-05-18T17:57:57.850Z",
+    "source": "api",
+    "durationSec": 230
+  },
+  "the clash::london calling": {
+    "videoId": "EfK-WX2pa8c",
+    "embeddable": true,
+    "resolvedTitle": "The Clash - London Calling (Official Video)",
+    "resolvedChannel": "theclashVEVO",
+    "resolvedAt": "2026-05-18T17:59:20.439Z",
+    "source": "api",
+    "durationSec": 202
+  },
+  "ramones::sheena is a punk rocker": {
+    "videoId": "kynpOa5BIKM",
+    "embeddable": true,
+    "resolvedTitle": "Ramones - &quot;Sheena is a Punk Rocker&quot; - Rocket to Russia",
+    "resolvedChannel": "Ramones",
+    "resolvedAt": "2026-05-18T18:03:58.204Z",
+    "source": "api",
+    "durationSec": 171
+  },
+  "built to spill::car": {
+    "videoId": "AVtskhcGOtc",
+    "embeddable": true,
+    "resolvedTitle": "Built To Spill - Car",
+    "resolvedChannel": "Up Records",
+    "resolvedAt": "2026-05-18T18:06:49.432Z",
+    "source": "api",
+    "durationSec": 183
+  },
+  "black flag::rise above": {
+    "videoId": "wDUYCyajDcs",
+    "embeddable": true,
+    "resolvedTitle": "Rise Above",
+    "resolvedChannel": "Black Flag - Topic",
+    "resolvedAt": "2026-05-18T18:09:53.230Z",
+    "source": "api",
+    "durationSec": 147
+  },
+  "rancid::ruby soho": {
+    "videoId": "GeFr4_CADp4",
+    "embeddable": true,
+    "resolvedTitle": "Rancid - &#39;Ruby Soho&#39; (Music Video)",
+    "resolvedChannel": "Rancid",
+    "resolvedAt": "2026-05-18T18:12:20.989Z",
+    "source": "api",
+    "durationSec": 172
+  },
+  "dead boys::sonic reducer": {
+    "videoId": "-3YbedLa5I0",
+    "embeddable": true,
+    "resolvedTitle": "Sonic Reducer",
+    "resolvedChannel": "Dead Boys - Topic",
+    "resolvedAt": "2026-05-18T18:16:56.650Z",
+    "source": "api",
+    "durationSec": 190
+  },
+  "ramones::my brain is hanging upside down": {
+    "videoId": "PZzEHd7t8lo",
+    "embeddable": true,
+    "resolvedTitle": "Ramones - &quot;My Brain is Hanging Upside Down (Bonzo Goes to Bitburg)&quot; - Hey Ho Let&#39;s Go Anthology",
+    "resolvedChannel": "Ramones",
+    "resolvedAt": "2026-05-18T18:22:31.447Z",
+    "source": "api",
+    "durationSec": 239
   }
 }
