@@ -46,7 +46,7 @@ const ANNOUNCEMENT_LINES: { text: string; delayMs: number }[] = [
   },
   {
     text:
-      "\u2014 END OFFICIAL TRANSMISSION \u2014\nTUNING TO PIRATE FREQUENCY 87.4 MHz",
+      "\u2014 END OFFICIAL TRANSMISSION \u2014\nTUNING TO PIRATE FREQUENCY 420.69 MHz",
     delayMs: 1300,
   },
 ];

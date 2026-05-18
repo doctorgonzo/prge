@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 
 const BOOT_LINES: { text: string; delayMs: number }[] = [
   { text: "PRGE TRANSMITTER · INITIALIZING...", delayMs: 0 },
-  { text: "FREQ 87.4 MHz · UNLICENSED BAND", delayMs: 240 },
+  { text: "FREQ 420.69 MHz · UNLICENSED BAND", delayMs: 240 },
   { text: "FCC DETECTION SCAN... NEGATIVE", delayMs: 320 },
   { text: "ROUTING THROUGH NEXUS-9 RELAY", delayMs: 260 },
   { text: "AUTHENTICATING BROADCAST KEY... OK", delayMs: 300 },

@@ -45,7 +45,7 @@ export function LoadingPanel() {
 
   const message = TUNING_MESSAGES[messageIndex];
   // Decorative "frequency" readout that drifts so it feels alive.
-  const freq = (87.4 + Math.sin(elapsedSec * 0.3) * 0.5).toFixed(2);
+  const freq = (420.69 + Math.sin(elapsedSec * 0.3) * 0.5).toFixed(2);
 
   // Asymptotic determinate progress: approaches 95% as elapsed grows. With
   // tau=30s the bar hits ~63% at 30s, ~86% at 60s, ~95% at 90s — matches the
