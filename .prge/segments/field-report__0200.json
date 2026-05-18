@@ -1,0 +1,49 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker Traywick, body-cam relay from the Vilas Park perimeter. Madison-wide count as of {{CLOCK}} is 139 confirmed kills. That's 17 in the last hour — down slightly from the 22 we saw 01:00 to 02:00 last year. We're tracking {{ELAPSED}} into tonight."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side is still pulling heavy. Atwood corridor alone accounts for 28 of our 139 — that's 20.1% of total activity. Holden, you were running the weapons-trade pattern earlier. The bladed-versus-firearm ratio in that zone is running inverted this year."
+      },
+      {
+        "host": "tucker",
+        "text": "Position moving north toward the Mendota shoreline now. Water temperature holding at 28 degrees. Visibility degraded — the fog off the lake is thicker than Caroline's 05:00 forecast predicted. That's going to suppress activity in the water-exposure zones."
+      },
+      {
+        "host": "tucker",
+        "text": "Capitol Square perimeter remains fortified. No breach attempts since the 21:40 incident. I'm counting eight private security contractors on the south facade. Their presence is — wait, movement, someone's — I need to relocate, there's a group moving east on Gorham Street, I'm going to —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 139 (17 this hour, -5 YoY vs. 2168 hour 8)"
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood/Schenk's): 28 kills, 20.1% of total — sustained lead"
+      },
+      {
+        "category": "local-news",
+        "text": "Lake Mendota fog advisory — visibility 1.5 miles. Water exposure risk suppressed."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield perimeter-check: Your panels holding? Verify seals at {{CLOCK}}. 1-800-SAFE-NOW."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-18T17:26:34.761Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,172 @@
+{
+  "format": "music-block",
+  "inWorldTime": "00:00",
+  "body": {
+    "type": "music-block",
+    "tracks": [
+      {
+        "title": "Basket Case",
+        "artist": "Green Day",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "{{ELAPSED}} in. Midnight. The clock reads {{CLOCK}}. Welcome to the music block. We're gonna start with Green Day, 'Basket Case,' off Dookie. 1994."
+          },
+          {
+            "host": "nick",
+            "text": "Billie Joe Armstrong. Ten years old, his father died. Fragmented the whole family. Then he picks up a guitar and writes a song about anxiety that sells ten million copies. That's punk."
+          },
+          {
+            "host": "nick",
+            "text": "They recorded Dookie in three weeks. Three weeks. Fantasy Studios in Berkeley, September and October of '93. Rob Cavallo producing. They came in hungry and came out changed the world."
+          },
+          {
+            "host": "nick",
+            "text": "The album cost nothing. Made everything. This song right here — 'Basket Case' — it's Armstrong saying his brain's coming loose and we all felt that in our chests."
+          },
+          {
+            "host": "nick",
+            "text": "Most important pop-punk record ever made. No argument. Play it."
+          }
+        ]
+      },
+      {
+        "title": "Linoleum",
+        "artist": "NOFX",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "NOFX. 'Linoleum.' 1996. Off So Long and Thanks for All the Shoes. This is the one that made me understand punk doesn't have to be angry — it has to be honest."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike. Erik Sandin. Eric Melvin. They formed in Los Angeles, 1983, at Fairfax High School. Never signed to a major label. Built their whole empire on Fat Wreck Chords — Fat Mike's own thing."
+          },
+          {
+            "host": "nick",
+            "text": "1994 they released Punk in Drublic. Gold status. The machine wanted them. MTV came calling. Fat Mike looked at the camera and said 'We decided not to send it to MTV. We just didn't want to be part of that machine.' That's the move right there."
+          },
+          {
+            "host": "nick",
+            "text": "This song is about nothing. Linoleum floors. Waiting. Existing. That's everything. Play it and understand what matters."
+          }
+        ]
+      },
+      {
+        "title": "Hope",
+        "artist": "The Descendents",
+        "year": 1982,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Descendents. 'Hope.' 1982. Off Milo Goes to College. Milo Aukerman actually went to college — UC San Diego — just like the title says. That's commitment to the bit."
+          },
+          {
+            "host": "nick",
+            "text": "Frank Navetta. Tony Lombardo. Bill Stevenson. They started in Manhattan Beach, California, 1977. Recorded their first single at Media Art studios. Pressed it themselves. Called their label Orca Records after Stevenson's fishing boat."
+          },
+          {
+            "host": "nick",
+            "text": "Milo came in as a singer in 1979 and they became something else. They sang about girls and food and being rejected. Beach Boys influences hiding under hardcore blasts. Nobody else sounded like them."
+          },
+          {
+            "host": "nick",
+            "text": "This record — this sound — it made it okay to care about things. To hope. When everything else was crushing you, The Descendents said 'It's okay to feel something.' Beautiful."
+          }
+        ]
+      },
+      {
+        "title": "Back to the Motor League",
+        "artist": "Propagandhi",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Propagandhi. 'Back to the Motor League.' 1996. Off Less Talk, More Rock. Chris Hannah and Jord Samolesky, formed in Portage la Prairie, Manitoba. Canadian prairie kids who refused to shut up."
+          },
+          {
+            "host": "nick",
+            "text": "They opened for NOFX in 1992. Fat Mike signed them immediately. Less Talk, More Rock — that album was confrontational in every way. Pro-feminism. Gay positive. This was 1996, Madison. Not everyone was ready for that."
+          },
+          {
+            "host": "nick",
+            "text": "Chris Hannah built a band that doesn't apologize. Anarchism. Animal rights. Calling out nationalism and imperialism. Punk that does something instead of just sounding angry."
+          },
+          {
+            "host": "nick",
+            "text": "This track right here — it's them saying they're not going back. Not to the league. Not to the compromise. Forward only. That's the move."
+          }
+        ]
+      },
+      {
+        "title": "Nitty Gritty Dirt Band",
+        "artist": "Me First and the Gimme Gimmes",
+        "year": 1997,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Me First and the Gimme Gimmes. 'Nitty Gritty Dirt Band.' 1997. Off Have a Ball. These guys are a supergroup cover band from San Francisco. Spike Slawson. Fat Mike. Joey Cape. All of them off-time from their real bands."
+          },
+          {
+            "host": "nick",
+            "text": "They started in 1995 just to have fun. Didn't think they'd make albums. Then they made albums. Have a Ball covered '60s and '70s pop hits — straight-up punk velocity applied to songs nobody expected."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike got so caught up in 'Wild World' he thought he was Fat Stevens, some guitar guy, and when Spike sang 'All My Lovin'' Fat Mike thought it was 'Allah my Lovin'' and threatened to condemn him for heresy. That's the energy."
+          },
+          {
+            "host": "nick",
+            "text": "Pure joy. That's what this band is. Taking something nobody asked for and making it matter through sheer force of will and three-chord precision."
+          }
+        ]
+      },
+      {
+        "title": "Sell Out",
+        "artist": "Reel Big Fish",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Reel Big Fish. 'Sell Out.' 1996. Off Turn the Radio Off. Aaron Barrett. Huntington Beach, California. High school kids who picked up ska and made it a weapon."
+          },
+          {
+            "host": "nick",
+            "text": "This song is about quitting your fast-food job and making it big with your friends. Manic joy. The song taunts the music industry while expressing pure, stupid, beautiful faith that you and your buddies can win."
+          },
+          {
+            "host": "nick",
+            "text": "Turn the Radio Off went gold. Main single 'Sell Out' hit mainstream in the mid-'90s. They were hyperkinetic. Juvenile. Ironic. Metallic shards of ska in a world that didn't deserve it."
+          },
+          {
+            "host": "nick",
+            "text": "Common themes: jealousy, regret, short-lasting fame, disappointment toward record companies. They were joking about the machine eating them while they were getting eaten. That's the move."
+          },
+          {
+            "host": "nick",
+            "text": "{{ELAPSED}} and we're still here. Still playing. Still refusing to shut up. That's what this block is for."
+          }
+        ]
+      }
+    ],
+    "lines": [],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide confirmed kills at {{ELAPSED}}: 82. Up from 61 last year at this point. East Side leading. State Street activity coordinated and sustained."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Capitol Square perimeter breach: confirmed at 21:40 local time. Inner ring held. Clearing operation complete. 6 casualties in the breach action."
+      },
+      {
+        "category": "local-news",
+        "text": "Lake Mendota shoreline: volunteer recovery crews still active. Two recovered. One missing, presumed deceased. Cold front holding. Water temp 31 degrees."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-18T17:26:19.031Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

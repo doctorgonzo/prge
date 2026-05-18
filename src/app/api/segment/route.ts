@@ -289,10 +289,10 @@ function enrichSegment(
   return { ...base, inWorldTime, segmentTitle };
 }
 
-// Station-offline circuit-breaker. While true, /api/segment short-circuits
+// Station-offline circuit-breaker. When true, /api/segment short-circuits
 // to an in-character "PRGE is dark" segment and makes ZERO Anthropic calls.
-// To restore broadcast: flip this to false, redeploy.
-const STATION_OFFLINE = false;
+// Reads from env so Vercel can toggle it without a code change.
+const STATION_OFFLINE = process.env.STATION_OFFLINE === "true";
 
 const OFFLINE_SEGMENT = {
   type: "news" as const,

@@ -1,0 +1,73 @@
+{
+  "format": "wellness",
+  "inWorldTime": "03:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. [pause] You already know the breath. You've been breathing all night. In through the nose. [pause] Hold for four. [pause] Release through the mouth. [pause] You don't need me to tell you how. Your body has been doing this for you while you were afraid."
+      },
+      {
+        "host": "marigold",
+        "text": "Let your hands rest where they are. [pause] Feel the surface beneath them. The floor. The blanket. The door you've been leaning against since midnight. [pause] Whatever it is, it held. It's still holding."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] I want you to find the place in your chest where the night has been collecting. [pause] It's heavy. That's fine. Breathe into the weight. Don't try to move it. It earned its place there."
+      },
+      {
+        "host": "marigold",
+        "text": "The clock reads {{CLOCK}}. [pause] We are {{ELAPSED}} in. [pause] The Sisters teach that the hours between three and dawn are when the soul stops pretending. [pause] You don't have to pretend anymore. Not for me."
+      },
+      {
+        "host": "marigold",
+        "text": "Picture the window closest to you. [pause] Don't open your eyes. Just picture it. [pause] Whatever is on the other side of that glass does not require your attention. [pause] You chose the inside. The inside chose you back."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. Hold. [pause] Now I want you to think of someone who is not in your house tonight. [pause] Not where they are. Not what's happening to them. Just their name. [pause] Hold the name in your mouth like water. [pause] Don't swallow. Don't spit. Just hold it."
+      },
+      {
+        "host": "marigold",
+        "text": "Seh-va tuli amorae ken. [pause] Vo dashara. [pause] Ke dashara lin vo."
+      },
+      {
+        "host": "marigold",
+        "text": "Release the breath. [pause] Good. [pause] The name is yours to keep. You can set it down when the sun comes. Not before. The carrying is the prayer."
+      },
+      {
+        "host": "marigold",
+        "text": "I was with you at eleven and I'm with you now. [pause] You are different than you were at eleven. [pause] That's not damage. That's what a night like this is for. The Quiet Order calls it the paring — what falls away was never yours."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] The lake is still there. [pause] Mendota doesn't know what night it is. The water doesn't keep a calendar. [pause] Be the lake for a moment. Just cold, and deep, and uninterested in what happens on the shore."
+      },
+      {
+        "host": "marigold",
+        "text": "We are close now. [pause] Not to the end. To the part of the night where you stop counting the hours and the hours stop counting you. [pause] Breathe in. Hold for four. [pause] Release. [pause] I'll stay. I'm not going anywhere. The signal holds and so do I."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "marigold-quote",
+        "text": "The carrying is the prayer."
+      },
+      {
+        "category": "kill-count",
+        "text": "Madison-wide confirmed kills at {{CLOCK}}: 149. Pace tracking slightly below 2168 at this hour (153)."
+      },
+      {
+        "category": "neighborhood",
+        "text": "North Side activity near zero for the third consecutive hour. Sherman Ave quiet. No explanation."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "Be the lake. Cold, and deep, and uninterested in what happens on the shore."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-18T08:27:44.145Z",
+  "modelId": "claude-opus-4-6"
+}

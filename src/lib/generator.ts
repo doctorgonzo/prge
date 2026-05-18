@@ -65,10 +65,10 @@ function buildChronologyContext(inWorldTime: string): string | null {
   return `${purgeStatusLine}\n${positionLine}\n${hostsLine}\n${airedLine}\n${constraintLine}`;
 }
 
-// Opus 4.6 — best creative quality + instruction-following. With hourly
-// caching (1 call/hour instead of the old 60/hour), one Opus call per hour
-// is still cheaper than 60 Haiku calls were. Worth it for the voice quality.
-const ANTHROPIC_MODEL = "claude-opus-4-6";
+// Haiku 4.5 — fast + cheap. Quality is good enough for structured JSON
+// segment generation. Opus was 60x more expensive and the voice quality
+// difference doesn't justify it for a pirate radio station.
+const ANTHROPIC_MODEL = "claude-haiku-4-5";
 
 const PROMPTS_DIR = join(process.cwd(), "src/lib/prompts");
 

@@ -1,0 +1,53 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in. The sun's coming up over Lake Mendota and the Capitol dome is catching the light like nothing happened. Like we didn't just spend the whole night in the dark together."
+      },
+      {
+        "host": "caroline",
+        "text": "06:00 Madison. Temperature twenty-three. Clear skies. The sirens lift in sixty minutes. After that, the city wakes up."
+      },
+      {
+        "host": "tucker",
+        "text": "Final tally: one-eighty-seven confirmed kills. Twelve below last year at this point. The neighborhoods are quiet now."
+      },
+      {
+        "host": "holden",
+        "text": "We made it through. That's the data point that matters."
+      },
+      {
+        "host": "nick",
+        "text": "This last one's for everyone still listening. For Darren. For the woman by the lake. For the people barricaded in the Co-op. The Bouncing Souls. 'Lean on me.'"
+      },
+      {
+        "host": "marigold",
+        "text": "You chose to stay home. That choice was never small."
+      },
+      {
+        "host": "tim",
+        "text": "This is PRGE. We'll see you next year. Stay safe when the sirens lift. Stay safe when the law comes back. And thank you for staying with us tonight."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide final: 187 kills. East Side held 18.2% of total. North Side remained quiet — 9 kills, lowest in a decade."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Capitol Square perimeter held through 06:00. Willy Street barricade successful — zero incursions post-22:30. State Street ruins contained after 01:00 coordination event."
+      },
+      {
+        "category": "emergency",
+        "text": "Sunrise at 06:47. All-clear sirens lift at 07:00 sharp. Emergency services resume normal dispatch. MorningCare triage begins 07:30."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-18T17:27:38.255Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,61 @@
+{
+  "format": "news",
+  "inWorldTime": "19:00",
+  "body": {
+    "type": "news",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Good evening, Madison. Quinn Foley here. The Purge is now officially underway as of {{CLOCK}}. We are {{ELAPSED}} into the twelve-hour cycle, and PRGE is live on the wire."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to be honest with you — my hands are shaking a little bit. They always shake at the start. But that's what we're here for, isn't it? To sit with you while the law takes a nap."
+      },
+      {
+        "host": "caroline",
+        "text": "Weather for the evening: we're looking at 41 degrees right now, clear skies over Madison, southwest winds at 8 miles per hour. A cold front is tracking in from the northwest, expected to arrive around midnight. Visibility excellent for the first few hours."
+      },
+      {
+        "host": "caroline",
+        "text": "If you're barricaded and you've got windows, you'll have a clear view of what's happening outside until roughly 23:00. After that, conditions will deteriorate. Dress warm if you have to go anywhere."
+      },
+      {
+        "host": "holden",
+        "text": "Pre-Purge sports update: the Packers are two weeks out from their divisional matchup. Local betting pools are already running despite the—well, despite everything. Also worth noting: historical data shows that Purge-night activity spikes correlate inversely with whether Wisconsin's teams won the day before."
+      },
+      {
+        "host": "holden",
+        "text": "The Packers lost yesterday. So statistically speaking, tonight might be a longer night than usual."
+      },
+      {
+        "host": "tim",
+        "text": "Station operations note: we are running full power from the primary rig. All backup systems are hot. We've got signal redundancy in place, and I want every listener to know that if you lose us, we will be back. We always come back."
+      },
+      {
+        "host": "quinn",
+        "text": "So settle in, folks. Pour something hot or cold depending on your temperament. We're going to be here all night. You're not alone out there. Stay with us."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "local-news",
+        "text": "Capitol perimeter fortified and locked down as of 18:45 — official Level-10 protection in effect."
+      },
+      {
+        "category": "emergency",
+        "text": "MorningCare Triage is standing by with full staffing; call-in lines open at 07:01 sharp."
+      },
+      {
+        "category": "local-news",
+        "text": "Lake Mendota state boat launch closed for the duration; all craft advised to return to dock."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield Panel installations reported 87% completion across Madison metro ahead of nightfall."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-18T17:25:35.282Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

@@ -11,6 +11,11 @@ import { PRGE_STATE_DIR } from "./state-dir";
 
 const CACHE_DIR = join(PRGE_STATE_DIR, "segments");
 
+// Baked segments shipped in the repo — fallback when runtime cache is empty.
+// On Vercel, /tmp is ephemeral, so these pre-baked files ensure every hour-slot
+// has content without needing any Anthropic calls.
+const BAKED_DIR = join(process.cwd(), ".prge", "segments");
+
 function keyFor(format: string, inWorldTime: string): string {
   // inWorldTime like "19:02" — strip the ":" for filesystem safety
   const safeTime = inWorldTime.replace(":", "");
@@ -32,9 +37,17 @@ export async function readCached(
   format: string,
   inWorldTime: string,
 ): Promise<CachedSegment | null> {
-  const path = join(CACHE_DIR, keyFor(format, inWorldTime));
+  const key = keyFor(format, inWorldTime);
+  // 1. Try runtime cache first (hot — written by recent generations).
   try {
-    const text = await readFile(path, "utf-8");
+    const text = await readFile(join(CACHE_DIR, key), "utf-8");
+    return JSON.parse(text) as CachedSegment;
+  } catch {
+    // miss — fall through to baked
+  }
+  // 2. Try baked segments shipped in the repo (cold fallback for Vercel).
+  try {
+    const text = await readFile(join(BAKED_DIR, key), "utf-8");
     return JSON.parse(text) as CachedSegment;
   } catch {
     return null;
