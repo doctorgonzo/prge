@@ -623,6 +623,38 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
     );
   }, [paused]);
 
+  // Autoplay unlock — Chrome blocks unmuted autoplay until a user gesture.
+  // The iframe loads behind TuneInBoot (z-80 overlay) and tries autoplay=1
+  // before the user has clicked anything → Chrome silently blocks it. Once
+  // TuneInBoot is clicked (or any other interaction), this listener fires
+  // and re-sends playVideo. The user gesture unlocks autoplay for the
+  // session, so the command succeeds and music starts immediately.
+  //
+  // {once: true} so it doesn't fire on every subsequent click. The effect
+  // re-runs on each track change (resolveState.status "resolving"→"ready"
+  // cycle), adding a fresh listener per track as a safety net.
+  useEffect(() => {
+    if (resolveState.status !== "ready") return;
+    if (paused) return;
+
+    function retryPlay() {
+      const win = iframeRef.current?.contentWindow;
+      if (!win) return;
+      win.postMessage(
+        JSON.stringify({ event: "command", func: "playVideo", args: [] }),
+        "https://www.youtube.com",
+      );
+    }
+
+    document.addEventListener("click", retryPlay, { once: true });
+    document.addEventListener("keydown", retryPlay, { once: true });
+
+    return () => {
+      document.removeEventListener("click", retryPlay);
+      document.removeEventListener("keydown", retryPlay);
+    };
+  }, [resolveState.status, paused]);
+
   useEffect(() => {
     if (!track) return;
     const key = `${track.artist}::${track.title}`;
