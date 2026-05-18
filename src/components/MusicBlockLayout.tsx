@@ -18,6 +18,11 @@ interface Props {
    *  "alive" shimmer — NOT for picking the displayed line. */
   lineIndex: number;
   tracks: PlayerTrack[];
+  /** When true, pause YouTube playback and freeze line cycling. Used by
+   *  the parent to pause music during ad breaks / overlays without
+   *  unmounting the component (which would destroy the iframe and lose
+   *  the playback position). */
+  paused?: boolean;
 }
 
 // Spotify open-search URL. We don't bother with the embed iframe here: Doc is
@@ -408,7 +413,7 @@ function formatDuration(durationSec: number): string {
   return `${m}:${ss}`;
 }
 
-export function MusicBlockLayout({ lines, lineIndex, tracks }: Props) {
+export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: Props) {
   // Track cycling lives independently from line cycling so a 3-minute song
   // isn't yanked off-screen every 8 seconds when the line cycle advances.
   const [trackIndex, setTrackIndex] = useState(0);
@@ -481,6 +486,7 @@ export function MusicBlockLayout({ lines, lineIndex, tracks }: Props) {
   // needed).
   useEffect(() => {
     if (trackLines.length <= 1) return;
+    if (paused) return; // freeze line cycling during ad breaks
     const current = trackLines[lineWithinTrackIndex % trackLines.length];
     if (!current) return;
     const dwellMs = readDurationMs(current.text);
@@ -490,7 +496,7 @@ export function MusicBlockLayout({ lines, lineIndex, tracks }: Props) {
     return () => {
       window.clearTimeout(id);
     };
-  }, [lineWithinTrackIndex, trackLines]);
+  }, [lineWithinTrackIndex, trackLines, paused]);
 
   // 1-indexed track counter for the "03 / 06" readout.
   const trackNumber =
@@ -589,12 +595,33 @@ export function MusicBlockLayout({ lines, lineIndex, tracks }: Props) {
       }),
       "https://www.youtube.com",
     );
-    // Belt-and-suspenders playback nudge. No-op if already playing.
+    // Belt-and-suspenders playback nudge — skip if parent says paused
+    // (e.g. ad break started before iframe finished loading).
+    if (!paused) {
+      win.postMessage(
+        JSON.stringify({ event: "command", func: "playVideo", args: [] }),
+        "https://www.youtube.com",
+      );
+    }
+  }
+
+  // Pause/resume the YouTube iframe when the parent toggles `paused`.
+  // Sends pauseVideo/playVideo commands via postMessage. This lets ad
+  // breaks pause music without unmounting the component (which would
+  // destroy the iframe and lose the playback position).
+  const pausedRef = useRef(paused);
+  useEffect(() => {
+    // Skip the initial mount — handleIframeLoad handles first playback.
+    if (pausedRef.current === paused) return;
+    pausedRef.current = paused;
+    const win = iframeRef.current?.contentWindow;
+    if (!win) return;
+    const func = paused ? "pauseVideo" : "playVideo";
     win.postMessage(
-      JSON.stringify({ event: "command", func: "playVideo", args: [] }),
+      JSON.stringify({ event: "command", func, args: [] }),
       "https://www.youtube.com",
     );
-  }
+  }, [paused]);
 
   useEffect(() => {
     if (!track) return;

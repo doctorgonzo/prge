@@ -16,7 +16,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
 import { join } from "node:path";
 import { config } from "dotenv";
-config({ path: ".env.local" });
+config({ path: ".env.local", override: true });
 
 const FORCE = process.argv.includes("--force");
 const FACTS_PATH = join(process.cwd(), ".prge", "track-facts.json");

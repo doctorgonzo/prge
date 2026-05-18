@@ -192,6 +192,166 @@ const DAYTIME_TRACKS: readonly DaytimeTrack[] = [
     year: 1978,
     fact: "Written in a London hotel room during a European tour. Pure exhaustion, pure art.",
   },
+
+  // ── Expansion pool ────────────────────────────────────────────────────
+
+  // First-wave punk / proto-punk
+  {
+    title: "Banned in D.C.",
+    artist: "Bad Brains",
+    year: 1982,
+    fact: "Recorded at 171A Studios in New York. Under two minutes of pure hardcore fury.",
+  },
+  {
+    title: "Pay to Cum",
+    artist: "Bad Brains",
+    year: 1980,
+    fact: "Their debut single hit 1:27 — widely considered the fastest punk record anyone had heard in 1980.",
+  },
+  {
+    title: "New Rose",
+    artist: "The Damned",
+    year: 1976,
+    fact: "Beat the Sex Pistols to record shops by a week. The first UK punk single ever released.",
+  },
+  {
+    title: "Catholic Boy",
+    artist: "Jim Carroll Band",
+    year: 1980,
+    fact: "Carroll went from basketball diary poet to CBGB regular. Ginsberg called him an American Rimbaud.",
+  },
+  {
+    title: "Orgasm Addict",
+    artist: "Buzzcocks",
+    year: 1977,
+    fact: "Martin Hannett produced their debut single a full year before he defined the Joy Division sound.",
+  },
+  {
+    title: "Oh Bondage Up Yours!",
+    artist: "X-Ray Spex",
+    year: 1977,
+    fact: "Poly Styrene was 19 and mixed-race in 1977 London. The most dangerous person in any punk room.",
+  },
+  {
+    title: "Lust for Life",
+    artist: "Iggy Pop",
+    year: 1977,
+    fact: "Bowie co-wrote and played keys in West Berlin. The drum pattern came from Armed Forces Network morse code.",
+  },
+  {
+    title: "Search and Destroy",
+    artist: "Iggy and the Stooges",
+    year: 1973,
+    fact: "James Williamson's guitar tone on Raw Power invented what punk would sound like four years early.",
+  },
+  {
+    title: "Complete Control",
+    artist: "The Clash",
+    year: 1977,
+    fact: "Lee 'Scratch' Perry produced it — the only time the godfather of dub helmed a Clash single.",
+  },
+
+  // Hardcore / post-punk
+  {
+    title: "Spray Paint the Walls",
+    artist: "Black Flag",
+    year: 1981,
+    fact: "Greg Ginn tracked the guitar in one take at Media Art Studios in Hermosa Beach.",
+  },
+  {
+    title: "Map of the World",
+    artist: "Minutemen",
+    year: 1984,
+    fact: "From Double Nickels on the Dime — 45 songs across four sides, recorded for roughly $1,100.",
+  },
+  {
+    title: "Last Caress",
+    artist: "Misfits",
+    year: 1980,
+    fact: "Originally a B-side on the Night of the Living Dead single. Later made famous by Metallica's cover.",
+  },
+  {
+    title: "The KKK Took My Baby Away",
+    artist: "Ramones",
+    year: 1981,
+    fact: "Joey wrote it about his girlfriend leaving him for Johnny. The feud lasted until Joey's death.",
+  },
+
+  // 90s punk / ska-punk
+  {
+    title: "Fishbone",
+    artist: "Fishbone",
+    year: 1985,
+    fact: "Six kids from South Central L.A. fused ska and punk before anyone thought to call it ska-punk.",
+  },
+  {
+    title: "Right Place, Wrong Time",
+    artist: "The Suicide Machines",
+    year: 1996,
+    fact: "Detroit ska-punk. Destruction by Definition went gold-adjacent in punk circles.",
+  },
+  {
+    title: "Keasbey Nights",
+    artist: "Catch 22",
+    year: 1998,
+    fact: "Tomas Kalnoky wrote it at 17, then re-recorded it with Streetlight Manifesto. Fans still argue.",
+  },
+  {
+    title: "Punk Rock Song",
+    artist: "Bad Religion",
+    year: 1996,
+    fact: "Greg Graffin holds a Ph.D. in zoology from Cornell. The smartest frontman in punk, bar none.",
+  },
+  {
+    title: "Suffer",
+    artist: "Bad Religion",
+    year: 1988,
+    fact: "Brett Gurewitz funded the recording through Epitaph Records, started in his parents' garage.",
+  },
+
+  // Indie / alt / 90s-2000s
+  {
+    title: "I Will Dare",
+    artist: "The Replacements",
+    year: 1984,
+    fact: "Peter Buck of R.E.M. played the jangly mandolin intro as a session favor for Westerberg.",
+  },
+  {
+    title: "Alex Chilton",
+    artist: "The Replacements",
+    year: 1987,
+    fact: "A love letter to the Big Star frontman. Chilton later said he was flattered but slightly embarrassed.",
+  },
+  {
+    title: "Turning Japanese",
+    artist: "The Vapors",
+    year: 1980,
+    fact: "Hit number three in the UK and 36 on the Billboard Hot 100 before the band imploded.",
+  },
+  {
+    title: "Gigantic",
+    artist: "Pixies",
+    year: 1988,
+    fact: "Kim Deal's only lead vocal on a Pixies single. She wrote it about a Blaxploitation film.",
+  },
+  {
+    title: "Loser",
+    artist: "Beck",
+    year: 1994,
+    fact: "Recorded on an eight-track in Karl Stephenson's kitchen. The slide guitar was Beck's first take.",
+  },
+  {
+    title: "Kiss Off",
+    artist: "Violent Femmes",
+    year: 1983,
+    fact: "The counting song every college radio DJ in 1983 played at least twice a shift without shame.",
+  },
+  {
+    title: "Aeroplane Over the Sea",
+    artist: "Neutral Milk Hotel",
+    year: 1998,
+    fact: "Jeff Mangum recorded it at Pet Sounds Studio in Denver, then vanished from public life for a decade.",
+  },
 ];
 
 // ── Music block builder ──────────────────────────────────────────────

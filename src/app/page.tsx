@@ -901,16 +901,6 @@ export default function Page() {
     }
     if (!segment) return null;
 
-    // Retro ad break — real 80s YouTube commercial + in-universe sponsor text.
-    if (retroAd && !nickCutIn) {
-      return (
-        <RetroAdBreak
-          ad={retroAd}
-          onComplete={() => setRetroAd(null)}
-        />
-      );
-    }
-
     // Nick cut-in takes over the center area temporarily.
     if (nickCutIn) {
       if (nickCutInPhase === "intro") {
@@ -950,6 +940,31 @@ export default function Page() {
           )}
         </div>
       );
+    }
+
+    // Retro ad break during a music block — keep MusicBlockLayout mounted
+    // (iframe alive, playback position preserved) but hidden and paused.
+    // When the ad finishes, the iframe resumes from where it left off.
+    if (segment.type === "music-block" && retroAd) {
+      const tracks: PlayerTrack[] = segment.tracks ?? [];
+      return (
+        <>
+          <RetroAdBreak ad={retroAd} onComplete={() => setRetroAd(null)} />
+          <div className="opacity-0 h-0 overflow-hidden pointer-events-none" aria-hidden>
+            <MusicBlockLayout
+              lines={segment.lines}
+              lineIndex={cycleIndex}
+              tracks={tracks}
+              paused
+            />
+          </div>
+        </>
+      );
+    }
+
+    // Retro ad break during non-music formats — full takeover, nothing to pause.
+    if (retroAd) {
+      return <RetroAdBreak ad={retroAd} onComplete={() => setRetroAd(null)} />;
     }
 
     switch (segment.type) {
