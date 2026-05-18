@@ -311,48 +311,9 @@ export function buildStaticDaytimeCommercial(
 
 /**
  * Generate a short static ad body from a brand definition.
- * Three template variants per category, selected by hash.
+ * Picks one of the brand's 3 pre-written ad variants by hash.
  */
 function staticAdBody(brand: DaytimeBrand, salt: string): string {
   const idx = hashStr(`${salt}::body::${brand.name}`) % 3;
-  const tag = brand.taglineSeed ?? "";
-
-  switch (brand.category) {
-    case "dispensary":
-      return [
-        `${brand.name}. ${brand.texture}. Order before sunset, enjoy before dark.`,
-        `${brand.name} — your neighborhood source. ${tag}`.trim(),
-        `Support local. Support ${brand.name}. ${brand.texture}. Open all day.`,
-      ][idx];
-    case "energy-drink":
-      return [
-        `${brand.name}. ${brand.texture}. Stay sharp. Stay up.`,
-        `Grab a ${brand.name} at any Madison gas station. ${tag}`.trim(),
-        `${brand.name}. ${brand.texture}. The thing between you and a nap.`,
-      ][idx];
-    case "snack":
-      return [
-        `${brand.name}. ${brand.texture}. Grab one on your way through.`,
-        `${brand.name}. Because you're hungry and you know it. ${tag}`.trim(),
-        `${brand.name}. ${brand.texture}. Available at select Madison locations.`,
-      ][idx];
-    case "edibles":
-      return [
-        `${brand.name}. ${brand.texture}. Start low, go slow.`,
-        `${brand.name} — handcrafted in small batches. ${tag}`.trim(),
-        `${brand.name}. ${brand.texture}. The mellow option.`,
-      ][idx];
-    case "coffee":
-      return [
-        `${brand.name}. ${brand.texture}. Fuel for the daylight hours.`,
-        `${brand.name} at your local co-op. ${tag}`.trim(),
-        `${brand.name}. ${brand.texture}. You need this more than you think.`,
-      ][idx];
-    case "soft-drink-cbd":
-      return [
-        `${brand.name}. ${brand.texture}. Crack one open. Calm down.`,
-        `${brand.name} — available cold, everywhere. ${tag}`.trim(),
-        `${brand.name}. ${brand.texture}. For when the world is too much.`,
-      ][idx];
-  }
+  return brand.adLines[idx];
 }
