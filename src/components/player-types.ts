@@ -69,6 +69,8 @@ export const CATEGORY_LABEL: Record<string, string> = {
   "caller-text-in": "CALLER",
   "local-news": "LOCAL",
   "marigold-quote": "MARIGOLD",
+  breaking: "BREAKING",
+  weather: "WEATHER",
 };
 
 // Per-line read time scales with character count so longer lines hang on screen

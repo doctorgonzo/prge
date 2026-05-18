@@ -15,6 +15,8 @@ interface Props {
   onTriggerTimInterrupt?: () => void;
   /** Dev trigger: fire a caller popup immediately. */
   onTriggerCallerPopup?: () => void;
+  /** Dev trigger: fire a crisis event immediately. */
+  onTriggerCrisis?: () => void;
 }
 
 // Defensive runtime validation for the regen response — mirrors the guard in
@@ -77,7 +79,7 @@ const FF_TICK_MS = 500;
 // itself is unconditional, so prod tree-shaking happens via the conditional
 // import site, not here. We still need a small internal guard against the
 // rare case where the parent passes a null/undefined segment between renders.
-export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRetroAd, onTriggerTimInterrupt, onTriggerCallerPopup }: Props) {
+export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRetroAd, onTriggerTimInterrupt, onTriggerCallerPopup, onTriggerCrisis }: Props) {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   // Active time-travel override. When non-null, all fetches (REGEN included)
@@ -542,6 +544,16 @@ export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRe
               aria-label="Trigger caller popup"
             >
               CALLER
+            </button>
+          ) : null}
+          {onTriggerCrisis ? (
+            <button
+              type="button"
+              onClick={onTriggerCrisis}
+              className="flex-1 px-2 py-1 bg-orange-500/10 border border-orange-500/40 text-orange-300 hover:bg-orange-500/20 text-[10px] tracking-widest rounded-sm transition-colors"
+              aria-label="Trigger crisis event"
+            >
+              CRISIS
             </button>
           ) : null}
         </div>

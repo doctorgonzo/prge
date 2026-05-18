@@ -26,6 +26,14 @@ import { DawnCountdown } from "@/components/DawnCountdown";
 import { ViewerCount } from "@/components/ViewerCount";
 import { FORMAT_TO_HOST, pickRandomHostReaction, type HostReaction } from "@/lib/host-reactions";
 import {
+  getStationBreach,
+  pickRandomCrisisEvent,
+  pickRandomNonBreachCrisis,
+  type CrisisEvent,
+  type CrisisUpdate,
+} from "@/lib/crisis-events";
+import { CrisisIndicator } from "@/components/CrisisIndicator";
+import {
   CATEGORY_LABEL,
   HOST_LABEL,
   readDurationMs,
@@ -217,6 +225,24 @@ export default function Page() {
 
   // Host reaction subtitle during Nick cut-ins.
   const [hostReaction, setHostReaction] = useState<HostReaction | null>(null);
+
+  // ── Crisis event system ──────────────────────────────────────────────
+  // Multi-minute disruptions: opening Tim alert → active crisis state with
+  // updates → resolution. Station breach guaranteed once per night.
+  const [activeCrisis, setActiveCrisis] = useState<CrisisEvent | null>(null);
+  const [crisisPhase, setCrisisPhase] = useState<"alert" | "active" | "resolving" | null>(null);
+  const crisisTimersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
+  const crisisScheduleRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const stationBreachFiredRef = useRef(false);
+
+  // Aftermath: permanent ripples from resolved crises. Each entry is a
+  // { signalPenalty, tickerItems } that persists for the rest of the night.
+  interface CrisisAftermath {
+    crisisId: string;
+    signalPenalty: number;
+    tickerItems: PlayerTickerItem[];
+  }
+  const [crisisAftermaths, setCrisisAftermaths] = useState<CrisisAftermath[]>([]);
 
   // Holds the previous segment fingerprint so we can skip resetting the cycle
   // when /api/segment returns the same cached segment as last poll.
@@ -495,6 +521,220 @@ export default function Page() {
     };
   }, [segment !== null]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // ── Crisis event scheduling ─────────────────────────────────────────
+  // Station breach: guaranteed once, fires 25-45 min after load.
+  // Random crisis: 0-1 more per night, fires 40-70 min after load (if it
+  // fires at all — 50% chance). Won't overlap with an active crisis.
+  useEffect(() => {
+    if (!segment) return;
+
+    // Station breach — guaranteed once per night, deep into the broadcast.
+    const breachDelay = (25 + Math.random() * 20) * 60_000; // 25-45 min
+    const breachTimer = setTimeout(() => {
+      if (!stationBreachFiredRef.current && !activeCrisis) {
+        stationBreachFiredRef.current = true;
+        startCrisis(getStationBreach());
+      }
+    }, breachDelay);
+
+    // Random non-breach crisis — 50% chance, earlier in the session.
+    const randomDelay = (40 + Math.random() * 30) * 60_000; // 40-70 min
+    const randomTimer = setTimeout(() => {
+      if (!activeCrisis && Math.random() < 0.5) {
+        startCrisis(pickRandomNonBreachCrisis());
+      }
+    }, randomDelay);
+
+    return () => {
+      clearTimeout(breachTimer);
+      clearTimeout(randomTimer);
+    };
+  }, [segment !== null]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ── Crisis lifecycle management ─────────────────────────────────────
+  // When a crisis starts: show opening alert → transition to active state →
+  // fire mid-crisis updates on schedule → resolve.
+  function startCrisis(crisis: CrisisEvent) {
+    // Don't start if another crisis is already active.
+    if (activeCrisis) return;
+
+    setActiveCrisis(crisis);
+    setCrisisPhase("alert");
+
+    // Build a fake TimInterrupt for the opening alert.
+    setTimInterrupt({
+      severity: crisis.severity,
+      lines: crisis.openingLines,
+    });
+  }
+
+  // When the opening Tim alert dismisses, transition to active phase.
+  function handleTimAlertComplete() {
+    // If this alert was from a crisis, transition to active phase.
+    if (activeCrisis && crisisPhase === "alert") {
+      setCrisisPhase("active");
+      setTimInterrupt(null);
+
+      // Schedule all mid-crisis updates.
+      const timers: ReturnType<typeof setTimeout>[] = [];
+
+      activeCrisis.updates.forEach((update) => {
+        timers.push(
+          setTimeout(() => {
+            fireCrisisUpdate(update);
+          }, update.delayMs),
+        );
+      });
+
+      // Schedule resolution at the end of the crisis duration.
+      timers.push(
+        setTimeout(() => {
+          resolveCrisis();
+        }, activeCrisis.durationMs),
+      );
+
+      crisisTimersRef.current = timers;
+    } else {
+      // Normal Tim interrupt (not crisis-linked) — just clear it.
+      setTimInterrupt(null);
+    }
+  }
+
+  function fireCrisisUpdate(update: CrisisUpdate) {
+    switch (update.type) {
+      case "tim-check-in":
+        // Show as a Tim emergency alert (shorter, check-in style).
+        if (activeCrisis) {
+          setTimInterrupt({
+            severity: Math.min(2, activeCrisis.severity) as 1 | 2,
+            lines: Array.isArray(update.content) ? update.content : [update.content],
+          });
+        }
+        break;
+      case "ticker": {
+        // Inject as a crisis ticker item — appears immediately in the ticker.
+        const tickerText = typeof update.content === "string" ? update.content : update.content[0];
+        if (tickerText) {
+          const newItem: PlayerTickerItem = { category: "breaking", text: tickerText };
+          setCrisisAftermaths((prev) => {
+            const existing = prev.find((a) => a.crisisId === "__active__");
+            if (existing) {
+              return prev.map((a) =>
+                a.crisisId === "__active__"
+                  ? { ...a, tickerItems: [...a.tickerItems, newItem] }
+                  : a,
+              );
+            }
+            return [...prev, { crisisId: "__active__", signalPenalty: 0, tickerItems: [newItem] }];
+          });
+        }
+        break;
+      }
+      case "caller":
+        // Show as a caller popup.
+        if (typeof update.content === "string") {
+          setCallerPopup({
+            name: "Anonymous",
+            neighborhood: "Madison",
+            message: update.content,
+            tone: "scared",
+          });
+        }
+        break;
+    }
+  }
+
+  function resolveCrisis() {
+    if (!activeCrisis) return;
+
+    // Clear update timers.
+    crisisTimersRef.current.forEach((id) => clearTimeout(id));
+    crisisTimersRef.current = [];
+
+    if (activeCrisis.resolution.type === "tim-alert" && activeCrisis.resolution.lines) {
+      // Show resolution as a Tim alert.
+      setCrisisPhase("resolving");
+      setTimInterrupt({
+        severity: 1,
+        lines: activeCrisis.resolution.lines,
+      });
+      // The resolution alert's onComplete will finalize the crisis.
+    } else {
+      // Fade resolution — just end it.
+      finalizeCrisis();
+    }
+  }
+
+  function finalizeCrisis() {
+    if (!activeCrisis) return;
+
+    // Compute aftermath — permanent ripples.
+    const aftermathPenalty = Math.round(activeCrisis.signalPenalty * 0.4); // 40% of crisis penalty persists
+    const aftermathTicker: PlayerTickerItem[] = [];
+
+    // Generate aftermath ticker items based on crisis type.
+    switch (activeCrisis.type) {
+      case "fire":
+        aftermathTicker.push({
+          category: "breaking",
+          text: `FIRE AFTERMATH: ${activeCrisis.title.split("—")[0].trim()} — smoke visible across the Isthmus — avoid the area until dawn`,
+        });
+        break;
+      case "gun-violence":
+        aftermathTicker.push({
+          category: "breaking",
+          text: `POST-INCIDENT: ${activeCrisis.title.split("—")[0].trim()} — area remains volatile — shelter in place advisory continues`,
+        });
+        break;
+      case "infrastructure":
+        aftermathTicker.push({
+          category: "local-news",
+          text: `INFRASTRUCTURE: ${activeCrisis.title.split("—")[0].trim()} — no repair crews until after dawn — conserve resources`,
+        });
+        break;
+      case "weather":
+        aftermathTicker.push({
+          category: "weather",
+          text: `WEATHER UPDATE: Conditions stabilizing after ${activeCrisis.title.split("—")[0].trim().toLowerCase()} — damage assessment at sunrise`,
+        });
+        break;
+      case "break-in":
+        aftermathTicker.push({
+          category: "breaking",
+          text: activeCrisis.id === "break-in-station-breach"
+            ? "PRGE STATUS: Station secure — broadcast continuing — Tim Peplinski back at controls"
+            : `SECURITY: ${activeCrisis.title.split("—")[0].trim()} — residents advised to reinforce entry points`,
+        });
+        break;
+      case "signal":
+        aftermathTicker.push({
+          category: "local-news",
+          text: "SIGNAL: PRGE broadcast recovered — signal strength reduced — stay on current frequency",
+        });
+        break;
+      case "medical":
+        aftermathTicker.push({
+          category: "breaking",
+          text: "MEDICAL: Triage operations distributed across secondary sites — see ticker for locations",
+        });
+        break;
+    }
+
+    // Remove the "__active__" temporary aftermath and add the permanent one.
+    setCrisisAftermaths((prev) => [
+      ...prev.filter((a) => a.crisisId !== "__active__"),
+      {
+        crisisId: activeCrisis!.id,
+        signalPenalty: aftermathPenalty,
+        tickerItems: aftermathTicker,
+      },
+    ]);
+
+    setActiveCrisis(null);
+    setCrisisPhase(null);
+    setTimInterrupt(null);
+  }
+
   // ── Host reaction during Nick cut-ins ───────────────────────────────
   // When Nick cuts into a segment, pick a reaction from the interrupted host.
   useEffect(() => {
@@ -536,8 +776,18 @@ export default function Page() {
     // Active Tim interrupt — signal is actively under threat.
     if (timInterrupt) signal -= 20;
 
+    // Active crisis — heavy signal degradation during the event.
+    if (activeCrisis && crisisPhase === "active") {
+      signal -= activeCrisis.signalPenalty;
+    }
+
+    // Aftermath penalties — permanent ripples from resolved crises.
+    for (const aftermath of crisisAftermaths) {
+      signal -= aftermath.signalPenalty;
+    }
+
     return Math.max(5, Math.min(100, signal));
-  }, [segment, liveMadisonTime, timInterrupt]);
+  }, [segment, liveMadisonTime, timInterrupt, activeCrisis, crisisPhase, crisisAftermaths]);
 
   // Build the commercial-break unit stream once per segment change.
   const commercialUnits = useMemo<CommercialUnit[]>(() => {
@@ -599,9 +849,14 @@ export default function Page() {
   // boot/noise sequencing stays in lockstep.
   const segmentFingerprint = segment ? fingerprintOf(segment) : null;
   const tickerItems: PlayerTickerItem[] = segment?.tickerItems ?? [];
+  // Merge in crisis aftermath ticker items (permanent ripples from resolved events).
+  const allTickerItems = useMemo(() => {
+    const aftermathItems = crisisAftermaths.flatMap((a) => a.tickerItems);
+    return aftermathItems.length > 0 ? [...tickerItems, ...aftermathItems] : tickerItems;
+  }, [tickerItems, crisisAftermaths]);
   const tickerLoop = useMemo(
-    () => [...tickerItems, ...tickerItems, ...tickerItems],
-    [tickerItems],
+    () => [...allTickerItems, ...allTickerItems, ...allTickerItems],
+    [allTickerItems],
   );
 
   // Prefer the live wall-clock-derived time; fall back to segment stamp (only
@@ -705,12 +960,33 @@ export default function Page() {
           late hours, and active Tim interrupts. */}
       <BroadcastNoise segmentFingerprint={segmentFingerprint} signalStrength={signalStrength} />
 
-      {/* Tim Pepinski emergency broadcast — full-screen overlay */}
+      {/* Tim Pepinski emergency broadcast — full-screen overlay.
+          Routes through crisis lifecycle when a crisis is active. */}
       {timInterrupt && (
         <EmergencyAlert
           interrupt={timInterrupt}
-          onComplete={() => setTimInterrupt(null)}
+          onComplete={() => {
+            if (activeCrisis && crisisPhase === "alert") {
+              // Opening alert done → transition to active crisis state.
+              handleTimAlertComplete();
+            } else if (activeCrisis && crisisPhase === "resolving") {
+              // Resolution alert done → finalize the crisis.
+              finalizeCrisis();
+            } else {
+              // Normal Tim interrupt or mid-crisis check-in — just dismiss.
+              setTimInterrupt(null);
+            }
+          }}
           soundEnabled={soundEnabled}
+        />
+      )}
+
+      {/* Crisis indicator — persistent pulsing bar during active crisis */}
+      {activeCrisis && crisisPhase === "active" && (
+        <CrisisIndicator
+          type={activeCrisis.type}
+          title={activeCrisis.title}
+          severity={activeCrisis.severity}
         />
       )}
 
@@ -731,7 +1007,7 @@ export default function Page() {
       {/* Canonical Purge EBS announcement. Sits at z-[79] under TuneInBoot
           (z-[80]) so it's already in place when the boot fades out, filling
           the segment-fetch window. SessionStorage-gated; click to skip. */}
-      <PurgeAnnouncement soundEnabled={soundEnabled} />
+      <PurgeAnnouncement />
 
       {/* Top HUD strip */}
       <div className="fixed top-0 inset-x-0 z-20 px-6 py-4 flex justify-between items-start text-xs tracking-widest">
@@ -813,6 +1089,11 @@ export default function Page() {
           }}
           onTriggerCallerPopup={() => {
             setCallerPopup(pickRandomCallerPopup());
+          }}
+          onTriggerCrisis={() => {
+            if (!activeCrisis) {
+              startCrisis(pickRandomCrisisEvent());
+            }
           }}
         />
       )}

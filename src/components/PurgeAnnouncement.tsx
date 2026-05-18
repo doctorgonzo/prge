@@ -56,7 +56,7 @@ const FADE_OUT_MS = 600;
 const SESSION_KEY = "prge-purge-announced-v1";
 const EBS_AMBER = "#f5c945";
 
-export function PurgeAnnouncement({ soundEnabled }: { soundEnabled?: boolean }) {
+export function PurgeAnnouncement() {
   // null = haven't checked sessionStorage yet (SSR-safe). false = playing.
   // true = done or skipped.
   const [done, setDone] = useState<boolean | null>(null);
@@ -72,28 +72,21 @@ export function PurgeAnnouncement({ soundEnabled }: { soundEnabled?: boolean }) 
     setDone(announced);
   }, []);
 
-  // Kick off audio playback when the overlay is visible AND sound is enabled.
-  // If soundEnabled flips from false→true mid-announcement (user clicks unmute
-  // while text is still revealing), we start playing at that point. Autoplay
-  // may be rejected on a cold page (no user gesture yet) — that's fine, text
-  // reveals still play out and the announcement is intelligible without audio.
-  // The TuneInBoot above us often gets a skip-click, which itself qualifies as
-  // a user gesture and unlocks autoplay for us downstream.
+  // Kick off audio playback when the overlay becomes visible. The Purge
+  // announcement is diegetic — it's THE opening moment, so it plays
+  // regardless of the global sound toggle. Autoplay may be rejected on a
+  // cold page (no user gesture yet) — that's fine, text reveals still play
+  // out. The TuneInBoot above us often gets a skip-click, which qualifies
+  // as a user gesture and unlocks autoplay for us downstream.
   useEffect(() => {
     if (done !== false) return;
     const el = audioRef.current;
     if (!el) return;
-    if (soundEnabled) {
-      el.volume = 1;
-      void el.play().catch(() => {
-        // Autoplay blocked — leave the player silent; text carries the content.
-      });
-    } else {
-      // Sound was turned off mid-announcement — pause and reset volume so the
-      // fade-out logic doesn't have to fight a paused-at-zero state.
-      el.pause();
-    }
-  }, [done, soundEnabled]);
+    el.volume = 1;
+    void el.play().catch(() => {
+      // Autoplay blocked — leave the player silent; text carries the content.
+    });
+  }, [done]);
 
   // When the overlay fades, ramp audio volume to 0 in lockstep with the visual
   // fade so the announcement doesn't keep blaring over the live broadcast.
