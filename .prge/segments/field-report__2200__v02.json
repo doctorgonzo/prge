@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm positioned near the Capitol Square perimeter, {{ELAPSED}} in. Madison-wide count is holding at thirty-eight kills. That's... seven below last year at this point."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side's quiet. Atwood corridor saw two incidents in the last hour, both isolated. No coordinated group activity yet, which is unusual for this window."
+      },
+      {
+        "host": "tucker",
+        "text": "The Capitol fortifications are holding. I'm counting seventeen security personnel on the visible perimeter. No breach attempts. People are just... walking past. Going around."
+      },
+      {
+        "host": "tucker",
+        "text": "Weapons analytics are tracking heavy on bladed implements tonight — up eighteen percent from this hour last year. Firearms volume is down. Could be ammunition costs finally pricing out the lower brackets, or people are just being patient. Waiting."
+      },
+      {
+        "host": "tucker",
+        "text": "Neighborhood distribution is flat across the board. Usually we see East Side pulling three points ahead by now. Tonight it's even. That kind of even is... it's not reassuring. Even is when people are coordinating or conserving energy for something larger."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm moving toward Williamson Street to check the neighborhood watch positioning. The barricade they set up last year held completely, so if they're active again — hold on, my feed is breaking up, let me [CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide: 38 kills at {{ELAPSED}}. YoY delta: -7 (-16%). Pace tracking below historical average."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood): 8 kills. Capitol Square: 3 kills. All other zones: <2 kills each. Distribution unusually balanced."
+      },
+      {
+        "category": "local-news",
+        "text": "Bladed weapons now 40% of kill methods tracked. Firearms at 35% and dropping. Tactical shift or resource constraint unclear."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield installations trending up 12% week-over-week. Current availability: 3-week wait for Capitol Square area. Call 1-844-PANELS-1."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:33:11.377Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

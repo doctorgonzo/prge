@@ -1,0 +1,237 @@
+{
+  "format": "wellness",
+  "inWorldTime": "03:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. [pause] It's {{CLOCK}}. We're {{ELAPSED}} in."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to notice the silence first. [pause] Not the absence of sound. The silence that's underneath."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in through your nose. [pause] The air is cold tonight. Hold that. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "Your shoulders are high. They've been high for hours. Drop them now."
+      },
+      {
+        "host": "marigold",
+        "text": "This is the hour when most people stop moving. [pause] The ones outside. The ones inside."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan down from your neck. Notice your chest. Is it tight? [pause] That's correct."
+      },
+      {
+        "host": "marigold",
+        "text": "The fog rolled in off Lake Mendota around 01:00. Caroline said that. [pause] The visibility dropped to one and a half miles. Do you feel it?"
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] The Sisters say that fog is the world forgetting its own edges."
+      },
+      {
+        "host": "marigold",
+        "text": "Your arms are heavy. Let them be. [pause] They don't need to do anything right now."
+      },
+      {
+        "host": "marigold",
+        "text": "Someone on Atwood Avenue is sitting in their kitchen with the lights off. [pause] Not because the power failed. Because the dark is safer."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan to your stomach. What do you feel? [pause] Hunger. Nausea. Absence."
+      },
+      {
+        "host": "marigold",
+        "text": "The kill count at this hour last year was one hundred and thirty-nine. [pause] Tucker didn't say that number tonight. Did you notice?"
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Four count. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "There are twenty-three people still missing from 2168. [pause] Twenty-three people who did not come home and no one found them."
+      },
+      {
+        "host": "marigold",
+        "text": "Your legs are part of the earth. Feel them. [pause] Heavy. Rooted."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm going to ask you something and you don't need to answer out loud."
+      },
+      {
+        "host": "marigold",
+        "text": "Who are you protecting by staying in this room? [pause] Yourself or them?"
+      },
+      {
+        "host": "marigold",
+        "text": "Kalimoknakeshti. [pause] Release that word. It's not for you."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. The ones outside are not your responsibility. [pause] The ones outside made their choice."
+      },
+      {
+        "host": "marigold",
+        "text": "Last year a woman called from near Tenney Park. [pause] She didn't give her name. She just wanted to hear someone speak."
+      },
+      {
+        "host": "marigold",
+        "text": "We played a song for her. The Bouncing Souls. [pause] She stayed on the line."
+      },
+      {
+        "host": "marigold",
+        "text": "I don't know if she's listening right now. [pause] If you are — the light is coming."
+      },
+      {
+        "host": "marigold",
+        "text": "Three hours and eighteen minutes from now, the fog will start to lift. [pause] Caroline was wrong about the timing, but the fog will lift."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in the cold. [pause] It's cleaning you."
+      },
+      {
+        "host": "marigold",
+        "text": "Your jaw is clenched. I can hear it through the speakers. [pause] Unclench. Your teeth are safe."
+      },
+      {
+        "host": "marigold",
+        "text": "The Capitol is still locked down. [pause] The Director is still inside. [pause] He's watching the same clock you're watching."
+      },
+      {
+        "host": "marigold",
+        "text": "But he's inside stone and glass. [pause] You're inside the thing that matters."
+      },
+      {
+        "host": "marigold",
+        "text": "Body scan. Feet to crown. Where does it hurt? [pause] There. That spot."
+      },
+      {
+        "host": "marigold",
+        "text": "You've been holding something since 22:00. Maybe since before the Purge started. [pause] Put it down. Just for the next six minutes."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] The Sisters taught me a word for the thing you're feeling right now."
+      },
+      {
+        "host": "marigold",
+        "text": "It's not fear. [pause] It's clarity."
+      },
+      {
+        "host": "marigold",
+        "text": "Vokkalathemkesh. [pause] The Sisters say it means 'the lightness of having nothing left to lose.'"
+      },
+      {
+        "host": "marigold",
+        "text": "That's not true. [pause] But it means something."
+      },
+      {
+        "host": "marigold",
+        "text": "Your heartbeat is the only law in this room. [pause] Listen to it."
+      },
+      {
+        "host": "marigold",
+        "text": "The silence outside — that's the worst part, isn't it? [pause] Not the screaming. The quiet after."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] That silence is not your fault."
+      },
+      {
+        "host": "marigold",
+        "text": "Three hours of Purge left. [pause] The deepest part of the night. The part where the mind goes strange."
+      },
+      {
+        "host": "marigold",
+        "text": "If you're crying right now, that's correct. [pause] Tears are a form of breathing."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm going to ask you to do something difficult. [pause] Forgive yourself for being afraid."
+      },
+      {
+        "host": "marigold",
+        "text": "Not for being here. [pause] For being human while here."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] The fog remembers every footstep. [pause] The cold remembers every choice."
+      },
+      {
+        "host": "marigold",
+        "text": "But you — you're allowed to forget. [pause] Tomorrow morning you're allowed to forget this hour ever happened."
+      },
+      {
+        "host": "marigold",
+        "text": "The clock reads {{CLOCK}}. [pause] That's just a number."
+      },
+      {
+        "host": "marigold",
+        "text": "What's real is the breath. [pause] In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "Stay in that rhythm. [pause] Stay there until the light comes."
+      },
+      {
+        "host": "marigold",
+        "text": "The Sisters are listening. [pause] I'm listening. [pause] The ones on the Beltline and the East Side and the lake — they're listening too, in their way."
+      },
+      {
+        "host": "marigold",
+        "text": "You are not alone in the dark. [pause] You are alone with the dark. [pause] There's a difference."
+      },
+      {
+        "host": "marigold",
+        "text": "When you leave this meditation, the night will still be there. [pause] But you'll be different."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] The light is three hours away."
+      },
+      {
+        "host": "marigold",
+        "text": "That's not a promise. [pause] That's a fact."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 153 (through 03:00 hour last year)"
+      },
+      {
+        "category": "neighborhood",
+        "text": "State Street Ruins: unusually quiet. No reports since 00:30. Pattern unknown."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "The silence that's underneath."
+      },
+      {
+        "category": "emergency",
+        "text": "Lake Mendota water temp: 24°F. Hypothermia threshold: 15 min. Do not attempt crossing."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "Clarity is not the opposite of fear."
+      },
+      {
+        "category": "local-news",
+        "text": "Fog advisory: visibility 1-2 miles Mendota shoreline through 05:00. Lifting 05:30 EST."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:41:48.387Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

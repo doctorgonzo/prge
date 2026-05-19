@@ -1,0 +1,353 @@
+{
+  "format": "news",
+  "inWorldTime": "19:00",
+  "body": {
+    "type": "news",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Good evening, Madison. It's {{CLOCK}}, and the Purge is live. We are officially off the clock, off the law, and on the air."
+      },
+      {
+        "host": "quinn",
+        "text": "My name is Quinn Foley. I'm here. You're here. The rest of the city is barricading. This is PRGE — Purge Radio."
+      },
+      {
+        "host": "quinn",
+        "text": "Twelve hours from now, the sirens sound and we're all citizens again. Until then, we're all just... here."
+      },
+      {
+        "host": "tim",
+        "text": "Signal's clean. All bands monitored. We're running hot tonight."
+      },
+      {
+        "host": "tim",
+        "text": "Standard protocols: if you're home listening, you stay home. If you're out there, you know what you're doing."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline's got the weather. Holden's got the setup. I've got coffee and whiskey. Tim's got the rig."
+      },
+      {
+        "host": "quinn",
+        "text": "Let's talk about what we're looking at tonight."
+      },
+      {
+        "host": "caroline",
+        "text": "Weather report: we're starting at forty-one degrees, clear skies, southwest wind at eight miles per hour."
+      },
+      {
+        "host": "caroline",
+        "text": "Tonight's not going to be kind. I'm forecasting a cold front pushing in from the northwest around midnight, temperature dropping to the mid-twenties by 03:00."
+      },
+      {
+        "host": "caroline",
+        "text": "Precip probability is high — rain transitioning to sleet between midnight and 02:00. Visibility will degrade."
+      },
+      {
+        "host": "caroline",
+        "text": "That means people stay indoors longer, or they get wet doing what they're doing. Either way, it affects the night's trajectory."
+      },
+      {
+        "host": "holden",
+        "text": "Sports angle: Wisconsin-Minnesota game was this afternoon. Packers took it 24-21. Not relevant to tonight's activity, but morale matters."
+      },
+      {
+        "host": "holden",
+        "text": "What is relevant: historically, Purge nights following home team wins show a three-to-four percent uptick in coordinated group activity."
+      },
+      {
+        "host": "holden",
+        "text": "People are feeling confident. People with confidence tend to travel in packs. That's data we track."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden loves his data. Me, I just remember last year. The East Side lit up early, stayed lit all night."
+      },
+      {
+        "host": "quinn",
+        "text": "Willy Street put up a barricade and held it. Folks made it work. Darren from Atwood called in around ten-thirty, remember that?"
+      },
+      {
+        "host": "tim",
+        "text": "I remember. He was terrified."
+      },
+      {
+        "host": "quinn",
+        "text": "Yeah. But he called. He stayed on the line with me for eleven minutes just to hear another voice."
+      },
+      {
+        "host": "quinn",
+        "text": "That's what this is. This is the voice. This is the thing that lets people know they're not alone for one night a year."
+      },
+      {
+        "host": "caroline",
+        "text": "Speaking of people: the early-evening checkin data shows approximately seventy-one percent of Madison households are secured and sheltering."
+      },
+      {
+        "host": "caroline",
+        "text": "That's consistent with 2168. The other twenty-nine percent are either prepared for active defense or they're already out there."
+      },
+      {
+        "host": "holden",
+        "text": "North Side's been quiet historically. We'll watch that. East Side always goes hot. Capitol Square's a variable depending on perimeter strength."
+      },
+      {
+        "host": "holden",
+        "text": "Beltline corridor: vehicles are still moving. We've got reports of cars pulling over, parking under overpasses. Some of those people are just waiting it out. Some are hunting."
+      },
+      {
+        "host": "holden",
+        "text": "You can't separate the two from up here. We just watch the data points and let people draw their own conclusions."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the honest answer, and I appreciate it. We're not here to judge. We're here to exist in the same space as the people listening."
+      },
+      {
+        "host": "quinn",
+        "text": "Speaking of which: callers and texts are starting to roll in. We're getting the usual mix of check-ins, thank-yous, and people who just want to say their name into the void."
+      },
+      {
+        "host": "tim",
+        "text": "We've got about two hundred incoming messages in the first hour. That's normal for sign-on. Queue's being managed."
+      },
+      {
+        "host": "tim",
+        "text": "We'll cycle through some callers as the night goes. Keep it real. Keep it honest."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind's still manageable. If you're barricading a window, you want to watch the western-facing exposures early. Wind's coming from the southwest, but by 00:30 it'll swing to the northwest and pick up speed."
+      },
+      {
+        "host": "caroline",
+        "text": "That means temperature drops fast. Humidity's going to feel like it's colder than the thermometer says. Plan for that."
+      },
+      {
+        "host": "holden",
+        "text": "Historically, temperature drops correlate with activity dips between 03:00 and 05:00. People get tired. Cold makes people want to find shelter."
+      },
+      {
+        "host": "holden",
+        "text": "We usually see a small uptick around 05:30 — the last-chancers. But that's hours away."
+      },
+      {
+        "host": "quinn",
+        "text": "Hours away. Jesus. Twelve hours, and we're already thinking about how fast they'll pass."
+      },
+      {
+        "host": "quinn",
+        "text": "This is the weird part. This is the part that gets you. The first hour is the easiest. You're fresh. You're on air. You're alive."
+      },
+      {
+        "host": "quinn",
+        "text": "By hour six, you're hollow. By hour ten, you're wondering if you should've just gone home like everyone else."
+      },
+      {
+        "host": "tim",
+        "text": "But you won't. None of us will. We're here because we're here."
+      },
+      {
+        "host": "quinn",
+        "text": "That's right. We're here."
+      },
+      {
+        "host": "caroline",
+        "text": "Let me be precise about the weather timeline because people need precision: clear through 21:00, cloud cover increasing through 22:00, first drizzle around 22:45, steady rain by 23:30, sleet transition occurs between 00:15 and 01:00."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm betting on 00:45 for the shift. I've run the models four times. 00:45 is my number."
+      },
+      {
+        "host": "holden",
+        "text": "You're going to be right and you're going to tell everyone about it all night."
+      },
+      {
+        "host": "caroline",
+        "text": "I am absolutely going to tell everyone."
+      },
+      {
+        "host": "quinn",
+        "text": "That's marriage, folks. That's what it sounds like."
+      },
+      {
+        "host": "holden",
+        "text": "It's not marriage. It's the truth. She will be right. I will acknowledge it. Then I'll talk about something else."
+      },
+      {
+        "host": "caroline",
+        "text": "You'll talk about something else and I'll correct you."
+      },
+      {
+        "host": "holden",
+        "text": "That's fair."
+      },
+      {
+        "host": "quinn",
+        "text": "This is why we keep coming back, I think. It's not just the broadcast. It's this. It's having people around you who know what time it is."
+      },
+      {
+        "host": "tim",
+        "text": "Signal integrity check: all redundancies online, jammer countermeasures active, backup power at 98 percent."
+      },
+      {
+        "host": "tim",
+        "text": "We're not going anywhere. If they try to take us down, they lose us for minutes, not hours."
+      },
+      {
+        "host": "tim",
+        "text": "And yes, they try. Every year. We prepare every year."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim keeps us alive. Literally. He keeps the signal alive. Without Tim, there's no PRGE."
+      },
+      {
+        "host": "tim",
+        "text": "Without all of you, there's no reason to keep the signal alive."
+      },
+      {
+        "host": "quinn",
+        "text": "See? That's real. That's the thing."
+      },
+      {
+        "host": "holden",
+        "text": "I'm going to cycle through some of the neighborhood-specific data now because this matters. East Side's perimeter strength is at baseline — meaning the organized groups that run that neighborhood have secured their territories."
+      },
+      {
+        "host": "holden",
+        "text": "That's not a judgment on what happens in those territories. That's just a description of how tightly controlled the space is."
+      },
+      {
+        "host": "holden",
+        "text": "Willy Street: we're already getting reports of the neighborhood watch assembling. They did well last year. I expect we'll see that repeat."
+      },
+      {
+        "host": "holden",
+        "text": "Capitol Square: the perimeter around the building is fortified, but last year we saw a breach around 21:40. So fortified doesn't mean impenetrable."
+      },
+      {
+        "host": "caroline",
+        "text": "West Side's sleeping. The wealthy enclaves are locked down tight. They hire private security, they stay indoors, they pretend it's not happening."
+      },
+      {
+        "host": "caroline",
+        "text": "Which it... isn't, for them. Not really. That's a kind of privilege."
+      },
+      {
+        "host": "quinn",
+        "text": "Yeah. That's a kind of privilege."
+      },
+      {
+        "host": "quinn",
+        "text": "Okay. Let's talk about the thing I've been noticing since {{CLOCK}}."
+      },
+      {
+        "host": "quinn",
+        "text": "We have a caller who checks in every year without fail. Regular. Reliable. Goes by 'Marcus from Vilas.' Used to work in city planning. Knows the infrastructure."
+      },
+      {
+        "host": "quinn",
+        "text": "Marcus hasn't called in yet."
+      },
+      {
+        "host": "tim",
+        "text": "It's only been an hour, Quinn."
+      },
+      {
+        "host": "quinn",
+        "text": "I know. It's been an hour. He usually calls by 19:15."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not panicked. I'm just... noticing."
+      },
+      {
+        "host": "holden",
+        "text": "People change their routines. Maybe he decided to shelter differently this year."
+      },
+      {
+        "host": "quinn",
+        "text": "Maybe. But Marcus is the kind of person who doesn't change. Marcus is constants. Marcus is the guy who tells you the same joke the same way and you laugh the same way every time because it works."
+      },
+      {
+        "host": "caroline",
+        "text": "We'll probably hear from him. Vilas is quiet. He's safe."
+      },
+      {
+        "host": "quinn",
+        "text": "Yeah. He's probably safe. He probably just decided to skip this year."
+      },
+      {
+        "host": "quinn",
+        "text": "Except he wouldn't."
+      },
+      {
+        "host": "tim",
+        "text": "You can't worry about callers before they don't call. You do that for twelve hours, you go crazy."
+      },
+      {
+        "host": "quinn",
+        "text": "Alright. Fair point."
+      },
+      {
+        "host": "quinn",
+        "text": "Alright. Let's move into the first hour proper. We've got Nick coming up in the music block at 20:00. Marigold's wellness segment is at 20:30. Tucker's running his first field report around 21:00."
+      },
+      {
+        "host": "quinn",
+        "text": "We're going to talk to real people as the night develops. We're going to watch the data and contextualize it. We're going to sit here together for eleven more hours and pretend like the world outside these walls isn't doing what it does every year."
+      },
+      {
+        "host": "holden",
+        "text": "Because our job is to witness it. To be present for it. Not to judge it, not to stop it, but to acknowledge that it's happening."
+      },
+      {
+        "host": "caroline",
+        "text": "And to let people know that they're not experiencing this alone."
+      },
+      {
+        "host": "tim",
+        "text": "The broadcast signal is stable. We're in this for the long haul."
+      },
+      {
+        "host": "quinn",
+        "text": "This is PRGE, Madison. It's {{CLOCK}} on Purge Night 2169. We're {{ELAPSED}} in."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay with us."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide preliminary count stands at 3 confirmed incidents. Early hour baseline tracking begins now."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side reporting standard early-night movement. Capitol Square perimeter secure as of 19:10."
+      },
+      {
+        "category": "emergency",
+        "text": "Neighborhood Watch groups are assembling across South Madison. Willy Street barricade protocols are go for 2169."
+      },
+      {
+        "category": "local-news",
+        "text": "Lake Mendota shoreline cleared of civilian traffic. UW campus zones are dark."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield panels are forty percent off for current-hour installations. Call 608-SHIELD-9 if you're still barricading."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Incoming: 200+ messages in the first hour. Standard mix of check-ins and 'thanks for being here' texts."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:43:07.546Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

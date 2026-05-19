@@ -1,0 +1,192 @@
+{
+  "format": "music-block",
+  "inWorldTime": "00:00",
+  "body": {
+    "type": "music-block",
+    "tracks": [
+      {
+        "title": "Basket Case",
+        "artist": "Green Day",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Nick Trulino here. We're {{ELAPSED}} into this thing and the numbers are *bad*, folks. Kill count's up double digits from last year at this hour. So let's do what we do — we play the records that saved our lives when we were seventeen and didn't know better. Green Day. 'Basket Case.' 1994."
+          },
+          {
+            "host": "nick",
+            "text": "Billie Joe Armstrong. Ten years old when his dad died. Mike Dirnt — heroin-addicted mother, adopted by a Native American mother and white father who split when he was seven. These guys built a sound out of *trauma*, man. That's punk."
+          },
+          {
+            "host": "nick",
+            "text": "Dookie. Recorded in three weeks. September and October 1993 at Fantasy Studios in Berkeley. Rob Cavallo producing. They spent more time deciding which coffee to order than tracking drums. And it *still* sold twenty million copies worldwide. Twenty *million*."
+          },
+          {
+            "host": "nick",
+            "text": "Armstrong's lyrics — boredom, anxiety, mass murder, divorce, masturbation. Real stuff. Not the sanitized version. The version that makes you feel less alone at midnight. Here's 'Basket Case.'"
+          }
+        ]
+      },
+      {
+        "title": "Linoleum",
+        "artist": "NOFX",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "NOFX. 'Linoleum.' 1996. These guys formed in LA in '83 and spent the next forty years refusing to sign to a major label despite having the kind of staying power that should have made them MTV. They didn't *want* MTV."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike. Erik Sandin. Eric Melvin. El Hefe on lead guitar and trumpet starting '91. The name came from a Boston hardcore band called Negative FX. They took that *prefix* and made an empire out of it. Beautiful, right?"
+          },
+          {
+            "host": "nick",
+            "text": "Punk in Drublic. 1994. Number twelve on Heatseekers. Gold status six years later. And they *still* didn't break. Refused to send the 'Leave It Alone' video to MTV. Fat Mike said — I'm paraphrasing — 'We didn't want to be part of that machine.' That's the Purge ethos right there. Opt out."
+          },
+          {
+            "host": "nick",
+            "text": "So Long and Thanks for All the Shoes in '97. A return to faster punk. These guys understood that speed is philosophy. You move fast, you don't have time to doubt yourself. You just *exist*."
+          },
+          {
+            "host": "nick",
+            "text": "'Linoleum.' You know this one. Play it."
+          }
+        ]
+      },
+      {
+        "title": "Hope",
+        "artist": "The Descendents",
+        "year": 1982,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Descendents. 'Hope.' From Milo Goes to College. 1982. Manhattan Beach, California. A power pop/surf punk band that became something else entirely when they found Milo Aukerman."
+          },
+          {
+            "host": "nick",
+            "text": "Milo actually *went* to college. UC San Diego. While the band was touring. That's not a metaphor — that's literal commitment to the bit. He's in class studying while his bandmates are loading gear into a van."
+          },
+          {
+            "host": "nick",
+            "text": "The Descendents sang about things other bands wouldn't touch. Parents. Food. Girls. Rejection. Stuff that *mattered* to actual humans. Steven Blush said their 'cheeky love songs disguised as hardcore blasts became the most aped formula in rock.' They invented something and then everyone copied it."
+          },
+          {
+            "host": "nick",
+            "text": "Bill Stevenson recorded their farts on the title track. I'm not joking. They had band members cheering each other on while they farted into recording equipment because *that's* punk. No pretense. No filter. Just — here's what we are."
+          },
+          {
+            "host": "nick",
+            "text": "And the song 'Hope.' Listen to it. Really listen. It's about wanting something better and not knowing if you're going to get there. That's {{CLOCK}}. That's midnight on Purge Night. That's us."
+          }
+        ]
+      },
+      {
+        "title": "The Inequality of It All",
+        "artist": "Anti-Flag",
+        "year": 2004,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Anti-Flag. Pittsburgh. 1988. Justin Sane and Pat Thetic. 'The Inequality of It All.' 2004. This is the song that understood what was coming before we all lived in it."
+          },
+          {
+            "host": "nick",
+            "text": "Anti-war activism. Criticism of US foreign policy. Corporatism. Wealth distribution. That's *their* entire catalog. Not a hobby — a *religion*. Every song is a manifesto."
+          },
+          {
+            "host": "nick",
+            "text": "2003. The Terror State album. Bush Administration. War on terrorism. They were prophetic, man. They saw the machine and they named it. And now we're living in what they warned about — just transposed seventy years forward under a different logo."
+          },
+          {
+            "host": "nick",
+            "text": "Tony Visconti produced one of their albums. *Tony Visconti*. The guy who worked with Bowie. They added keyboards, strings, a children's chorus. Punk rock with orchestration. Why? Because Anti-Flag understood that sometimes the message needs *weight*."
+          },
+          {
+            "host": "nick",
+            "text": "Here's 'The Inequality of It All.' And if this doesn't make you feel something at {{CLOCK}} on a Purge Night, you're not actually listening."
+          }
+        ]
+      },
+      {
+        "title": "Dammit",
+        "artist": "Blink-182",
+        "year": 1997,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Blink-182. Poway, California. Northern suburb of San Diego. 1992. Mark Hoppus, Tom DeLonge, Scott Raynor. 'Dammit.' 1997. This is the song that made pop-punk a thing."
+          },
+          {
+            "host": "nick",
+            "text": "DeLonge and Raynor met at a Battle of the Bands competition. A *competition*. Most bands get drunk at a party and decide to form. These guys battled their way into existence. Travis Barker joined in '98 and the *real* Blink-182 was born."
+          },
+          {
+            "host": "nick",
+            "text": "Cheshire Cat. Three days. Westbeach Recorders in LA. Three *days*. You know what you can do in three days? A lot less than a perfect album. But they didn't need perfect — they needed *honest*."
+          },
+          {
+            "host": "nick",
+            "text": "Hoppus fell from a lamppost in front of DeLonge's house. Broke his ankles. Three weeks on crutches trying to impress the guy. That's the energy. That's the willingness to *break yourself* for the bit."
+          },
+          {
+            "host": "nick",
+            "text": "Their lyrics — relationships, adolescent frustration, immaturity. Straight lines. No pretense. Pop-punk's second mainstream rise happened because they refused to pretend to be angrier than they were. They were just *seventeen* and stupid and it was *honest*."
+          },
+          {
+            "host": "nick",
+            "text": "'Dammit.' The song that launched a thousand garage bands. Play it."
+          }
+        ]
+      },
+      {
+        "title": "Punk Rock Girl",
+        "artist": "Dead Milkmen",
+        "year": 1988,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Dead Milkmen. Philadelphia. 1983. Rodney Anonymous. Joe Jack Talcum. Dave Blood. Dean Clean. 'Punk Rock Girl.' 1988. From Beelzebubba. The song that MTV played and nobody could explain why."
+          },
+          {
+            "host": "nick",
+            "text": "The band started in 1979 as a home-recording project. High school friends making cassettes. The name came from Toni Morrison — Milkman Dead from Song of Solomon. They took a character from *literature* and turned her into a punk anthem."
+          },
+          {
+            "host": "nick",
+            "text": "'Bitchin' Camaro' hit college radio first. 1985. Big Lizard in My Backyard. And then they did something smarter — they made a song that was actually *about something*. 'Punk Rock Girl' is a love song. A real love song. MTV couldn't ignore it."
+          },
+          {
+            "host": "nick",
+            "text": "Their sound — jangly. Sardonic. Thick Philadelphia accents. They sang about toxic waste, jellyfish afterlifes, UFOs, conspiracy theories. The hardcore scene didn't know what to do with humor. They thought punk had to be *serious*. Dead Milkmen proved you could be both."
+          },
+          {
+            "host": "nick",
+            "text": "Club MTV performance. Chaotic. Irreverent. Stage antics. They understood something about punk that the serious guys missed — it's *fun*. It's supposed to be *fun*. You're not saving the world. You're just making noise and finding your people while you do it."
+          },
+          {
+            "host": "nick",
+            "text": "Here at {{CLOCK}}, six hours in, with the kill count running hot — we need this. We need 'Punk Rock Girl.' We need to remember that somewhere under all this, there's supposed to be something that feels good."
+          }
+        ]
+      }
+    ],
+    "lines": [],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Cumulative kills (Madison, midnight): 82. Up 21% from this point last year. East Side holding steady at 18.2% of total activity."
+      },
+      {
+        "category": "neighborhood",
+        "text": "State Street Corridor: coordinated group activity reported 23:00-00:30. 14 kills in 90 minutes. Worst single-event sequence of 2168. Security response insufficient."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield panels: last-minute installs available through 02:00. Call 608-SHIELD-1. 4,200 units deployed Madison metro last year. Are you protected?"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:02:12.005Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

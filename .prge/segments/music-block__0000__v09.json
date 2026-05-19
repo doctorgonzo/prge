@@ -1,0 +1,191 @@
+{
+  "format": "music-block",
+  "inWorldTime": "00:00",
+  "body": {
+    "type": "music-block",
+    "tracks": [
+      {
+        "title": "Linoleum",
+        "artist": "NOFX",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Alright. Midnight. We're {{ELAPSED}} in and the night is *alive*. This one's off Punk in Drublic — NOFX, 'Linoleum.' 1994. The album that should've made them huge but they said no thanks to MTV."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike, Erik Sandin, Eric Melvin — the band's been together since high school in LA, 1983. These three have played every single NOFX record. *Every one*. Loyalty like that is biblical, man."
+          },
+          {
+            "host": "nick",
+            "text": "El Hefe joined in '91 with the trumpet and lead guitar and suddenly they had the sound, you know? The one that hits different. And when Punk in Drublic dropped in '94, it went gold. *Gold*. But Fat Mike looked at MTV and said 'We made the Leave It Alone video and we decided not to send it. We just didn't want to be part of that machine.' That's punk."
+          },
+          {
+            "host": "nick",
+            "text": "Song's about a guy living in a shitty apartment on linoleum floors, and I'm looking around this broadcast booth — fake wood, questionable stains, smells like cigarettes and bad decisions — and yeah. Yeah, I get it. Here we go."
+          }
+        ]
+      },
+      {
+        "title": "Basket Case",
+        "artist": "Green Day",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Green Day. 'Basket Case.' From Dookie. Same year as NOFX — 1994. This is the year punk ate the world, man. This is the year everything changed."
+          },
+          {
+            "host": "nick",
+            "text": "Billie Joe Armstrong and Mike Dirnt — both of 'em came up hard. Armstrong's dad died when he was ten. Dirnt's mom was a junkie, adopted by a mother and father who split when he was seven. They recorded Dookie in three weeks at Fantasy Studios in Berkeley. Three weeks. Twenty million copies worldwide."
+          },
+          {
+            "host": "nick",
+            "text": "The lyrics touch on anxiety, on boredom, on the weight of just existing — and Billie Joe sings about it like he's inside your ribcage. 'Do you have the time to listen to me whine?' He's not asking. He's already whining. And we all *feel* it."
+          },
+          {
+            "host": "nick",
+            "text": "The clock reads {{CLOCK}}. Six hours into the Purge. The night's just getting rolling. This song's about a guy losing his mind in real time and I'm telling you — I've got five more hours of music and I'm already feeling it too."
+          }
+        ]
+      },
+      {
+        "title": "Suburban Home",
+        "artist": "The Descendents",
+        "year": 1982,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Descendents. 'Suburban Home.' 1982. Off Milo Goes to College. And yeah, Milo Aukerman actually went to UC San Diego. Actual college. While his band made one of the best punk records ever."
+          },
+          {
+            "host": "nick",
+            "text": "Frank Navetta, Tony Lombardo, Bill Stevenson — they started as a three-piece in Manhattan Beach, California in 1977. Power pop meeting surf punk meeting the moment when someone realized you could write a love song and make it *harder* than a Black Flag rager."
+          },
+          {
+            "host": "nick",
+            "text": "Get this — the debut single was recorded at Media Art studios and released on their own label, Orca Records, named after Stevenson's fishing boat. A fishing boat. These kids were so DIY they named their label after their friend's boat."
+          },
+          {
+            "host": "nick",
+            "text": "And then Navetta left to become a *fisherman* in Oregon. A fisherman. The guy named the label after a boat and then went back to the water. I respect the thematic consistency."
+          },
+          {
+            "host": "nick",
+            "text": "'Suburban Home' is about wanting to stay put, wanting normalcy while everyone's telling you punk is supposed to be rebellion. It's the most beautiful contradiction. Here it is."
+          }
+        ]
+      },
+      {
+        "title": "Sorrow",
+        "artist": "Bad Religion",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Bad Religion. 'Sorrow.' 1994. Off Stranger Than Fiction. Greg Graffin's the only constant member — since 1980, LA, and he's still *here*. Still fighting."
+          },
+          {
+            "host": "nick",
+            "text": "They recorded Suffer in 1988 at Westbeach Recorders in Hollywood, and people say that album *saved* the Southern California punk scene. Saved it. One album. Brett Gurewitz co-founded Epitaph Records on the back of their success."
+          },
+          {
+            "host": "nick",
+            "text": "Stranger Than Fiction came out in September 1994 — their most successful album at the time. Three-part harmonies, technical precision, lyrics about religion and politics and science. These guys proved you could be intellectual and still be punks."
+          },
+          {
+            "host": "nick",
+            "text": "And 'Sorrow' — it's Greg Graffin singing about pain with the kind of clarity that makes you realize he's been studying this stuff. Philosophy meets punk rock. Here we go."
+          }
+        ]
+      },
+      {
+        "title": "Back to the Motor League",
+        "artist": "Propagandhi",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Propagandhi. Canadian. Winnipeg, Manitoba. 'Back to the Motor League' from Less Talk, More Rock in 1996. This album — this album *pissed people off*."
+          },
+          {
+            "host": "nick",
+            "text": "Chris Hannah and Jord Samolesky started this in 1986, but the breakthrough was opening for NOFX in 1992. Fat Mike signed 'em to Fat Wreck Chords. Their debut How to Clean Everything came out of Los Angeles in 1993 and established the skate punk sound."
+          },
+          {
+            "host": "nick",
+            "text": "But Less Talk, More Rock — that album came out and it was *confrontational*. Pro-feminism, gay-positive messaging in a scene that was still hostile to both. The West Coast punk establishment hated it. Didn't care. They just kept going harder."
+          },
+          {
+            "host": "nick",
+            "text": "Chris Hannah briefly became 'Glen Lambert' around the Potemkin City Limits album just to mess with people. They announced the prank in 2006 like it was the most natural thing in the world. These are anarchists who play punk rock like a weapon. This track lives in that space."
+          }
+        ]
+      },
+      {
+        "title": "Don Henley Must Die",
+        "artist": "Mojo Nixon",
+        "year": 1985,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Okay. Mojo Nixon. 'Don Henley Must Die.' 1985. Solo album on Enigma Records. And here's the thing — Don Henley *himself* jumped onstage at The Hole in the Wall in Austin, Texas in 1992 and performed it *with* Mojo Nixon."
+          },
+          {
+            "host": "nick",
+            "text": "Mojo Nixon — Neill Kirby McMillan Jr., born 1957 — formed a punk band called Zebra 123 in Denver that staged an 'Assassination Ball' on the anniversary of JFK's death in 1980. The *Secret Service* came asking questions. That's commitment to satire, man."
+          },
+          {
+            "host": "nick",
+            "text": "He paired with Skid Roper in San Diego and they won a Battle of the Bands contest — the prize was three hours in a studio. Three hours. They made novelty songs that skewered celebrity like it was soft flesh. 'Debbie Gibson Is Pregnant with My Two-Headed Love Child.' 'Burn Down the Malls.' Gleeful crass rants on every social ill."
+          },
+          {
+            "host": "nick",
+            "text": "And when Don Henley heard 'Don Henley Must Die,' instead of suing, he showed up and played it. Mojo Nixon said Henley had 'balls as big as church bells.' That's the moment you realize — some people *get it*. Some people understand the game."
+          }
+        ]
+      },
+      {
+        "title": "Bitchin' Camaro",
+        "artist": "Dead Milkmen",
+        "year": 1985,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Dead Milkmen. Philadelphia, 1983. 'Bitchin' Camaro.' 1985. This song has an improvised dialogue intro at every live show. *Every one*. You don't write that. You just let it happen."
+          },
+          {
+            "host": "nick",
+            "text": "Rodney Anonymous on vocals and keyboards, Joe Jack Talcum on guitar — the band started as Genaro's home-recording project in Chester County, Pennsylvania in 1979. They created an *imaginary* band on cassettes before they were real. The name came from a character in Toni Morrison's Song of Solomon."
+          },
+          {
+            "host": "nick",
+            "text": "Big Lizard in My Backyard was their 1985 debut on Restless Records. College radio grabbed it. 'Bitchin' Camaro' went national. These guys were singing about jellyfish afterlifes and UFO conspiracies and toxic waste with thick Philly accents while everyone else was getting serious."
+          },
+          {
+            "host": "nick",
+            "text": "The Dead Milkmen understood that punk rock doesn't have to apologize for being funny. Doesn't have to choose between satire and authenticity. You can be both. You *should* be both."
+          }
+        ]
+      }
+    ],
+    "lines": [],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide total at 00:00: 104 kills, 22 from the midnight rollover hour. Lake Mendota shoreline incidents reported. Tucker's field crew documenting the activity."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield panels — still got time to check your installation. Call 555-SHIELD. Straight through dawn."
+      },
+      {
+        "category": "local-news",
+        "text": "Signal interference on secondary frequencies. We're on primary. If you're listening, we're here. Stay with us."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:02:45.187Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

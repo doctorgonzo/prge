@@ -1,0 +1,385 @@
+{
+  "format": "mixed",
+  "inWorldTime": "20:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "Welcome back to hour two. The clock reads {{CLOCK}}. We're {{ELAPSED}} into the Purge and conditions are shifting. National Weather Service had their last update at 18:45 — before commencement — but we're tracking a cold front moving in faster than predicted."
+      },
+      {
+        "host": "holden",
+        "text": "So we're already off-script. That's move one. The cold front is your gambit — you sacrifice immediate comfort for long-term positional advantage."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden, weather, not chess."
+      },
+      {
+        "host": "holden",
+        "text": "Right. Sorry. Temperature's dropping. We're at 41 degrees now. Wind's picking up from the southwest — we're seeing gusts to 12, possibly 15 miles per hour by 21:00."
+      },
+      {
+        "host": "caroline",
+        "text": "Source is our own observation post on East Gheen and the Tenney Park station relay. I'm confident in the 21:00 forecast. Wind advisory possibilities after midnight."
+      },
+      {
+        "host": "holden",
+        "text": "The East Side's already moving. Kill count is eight as of 20:15 — we got the data from the medical relay. Eight is on pace with historical for hour two, which is good. Which is fine. We're tracking normal."
+      },
+      {
+        "host": "caroline",
+        "text": "Eight. That's up from what baseline?"
+      },
+      {
+        "host": "holden",
+        "text": "Hour two last year — 2168 — we had 11 cumulative kills by 20:00. This hour we'll probably land around 19, 20 total. Maybe 21 if the temperature drop accelerates activity."
+      },
+      {
+        "host": "caroline",
+        "text": "You're assuming linear escalation."
+      },
+      {
+        "host": "holden",
+        "text": "I'm assuming historical pattern replication with 12 percent variance tolerance. The Purge is predictable if you're willing to look at the numbers long enough."
+      },
+      {
+        "host": "caroline",
+        "text": "Nothing's predictable. Numbers are what happened after."
+      },
+      {
+        "host": "holden",
+        "text": "That's philosophy. I do statistics. The Beltline corridor — if I'm reading the dispatch relays correctly — should see a spike around 22:30. That's when people get desperate enough to move across open ground."
+      },
+      {
+        "host": "caroline",
+        "text": "Dispatch relays are civilian-sourced. They're estimates."
+      },
+      {
+        "host": "holden",
+        "text": "Informed estimates. There's a difference. The Capitol Square perimeter's holding. We had a breach attempt at 19:50 — small group, maybe five people — security turned them back at the main steps. No casualties that we know of."
+      },
+      {
+        "host": "caroline",
+        "text": "That we know of is important. Fog's going to roll in off Mendota around 23:00, 23:30. Visibility drops to maybe four, five miles. After that, all our estimates are worse."
+      },
+      {
+        "host": "holden",
+        "text": "Which means activity could spike or crash depending on whether people are predators or prey in low-visibility conditions. Predators need to see their target. Prey need to hide in the murk."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden."
+      },
+      {
+        "host": "holden",
+        "text": "Right. Sorry. The fog will reduce response times for medical services. The fog will also cool the air faster than the wind alone. We're looking at 33, 34 degrees by midnight if this holds."
+      },
+      {
+        "host": "caroline",
+        "text": "33. That's significant."
+      },
+      {
+        "host": "holden",
+        "text": "Significant is what I'm saying. Cold changes behavior. Cold is a variable we can quantify. People move differently when they're shivering. Their decision-making changes."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind's audible now, if you're listening at home. Southwest at the main rig. Holden, what does neighborhood defense look like in this weather?"
+      },
+      {
+        "host": "holden",
+        "text": "You're asking how people barricade in a cold snap. Okay. So if you think of neighborhood watch formations as a chess endgame — and I know you don't want me to, but stay with me — the cold is a pawn advance that limits piece mobility."
+      },
+      {
+        "host": "caroline",
+        "text": "Back to weather."
+      },
+      {
+        "host": "holden",
+        "text": "The cold pushes activity indoors. People who would normally roam the streets in September are going to hole up in buildings they can control. The Willy Street corridor — the neighborhood watch there — they're better positioned in a cold night because attackers have fewer outdoor holding positions."
+      },
+      {
+        "host": "caroline",
+        "text": "Assuming attackers need warmth."
+      },
+      {
+        "host": "holden",
+        "text": "Everyone needs warmth. It's not an assumption, it's biology. The question is whether the organized groups have interior positions already claimed. If they do, cold actually helps them. Concentrated, prepared, warm. If they don't—"
+      },
+      {
+        "host": "caroline",
+        "text": "They freeze or they rush. Either way, they're less effective."
+      },
+      {
+        "host": "holden",
+        "text": "Exactly. Which means — statistically — a cold Purge runs lower kill counts than a warm Purge. We have five years of data. The coldest night on record is 2162, early March ice event. That was 156 kills. The warmest was 2141, the Heat Purge, 247 kills. That's a 58 percent variance based primarily on temperature."
+      },
+      {
+        "host": "caroline",
+        "text": "You've been reading this all day."
+      },
+      {
+        "host": "holden",
+        "text": "I have. I like to know what I'm walking into. Or, standing in. We're standing in a studio, not walking."
+      },
+      {
+        "host": "caroline",
+        "text": "The clock's 20:38. Two hours and 38 minutes elapsed. The cold front's accelerating. We're seeing temperature drops of a half-degree every five minutes. That's faster than predicted."
+      },
+      {
+        "host": "holden",
+        "text": "The front-runner moisture is colliding with the local air mass. That's what creates the acceleration. The collision zone is moving across Madison right now. We're in the collision."
+      },
+      {
+        "host": "caroline",
+        "text": "Listeners, if you're near a window — don't open it — but look outside. The wind's visible now. Trees are moving. That's real-time weather integration with Purge risk calculus. The wind helps the people defending. The wind helps the people hunting. The wind is neutral. The cold is not."
+      },
+      {
+        "host": "holden",
+        "text": "Cold is advantage to the prepared. That's the rule."
+      },
+      {
+        "host": "caroline",
+        "text": "Got a text-in from someone on Maple Bluff. Quote: 'My panels are rattling. Is that normal?' Holden, is that normal?"
+      },
+      {
+        "host": "holden",
+        "text": "PurgeShield panels? They're rated for wind loads up to 35 miles per hour. If they're rattling at current speeds — 12 to 15 — that's either installation error or the panels are older stock. Pre-2165 panels had flex issues."
+      },
+      {
+        "host": "caroline",
+        "text": "Recommendation?"
+      },
+      {
+        "host": "holden",
+        "text": "Check the installation. Look for gaps between the frame and the panel perimeter. If you see gaps, pack them with blankets or foam. If the panels themselves are warped, you're looking at a replacement situation, but you're not opening the door tonight to do it."
+      },
+      {
+        "host": "caroline",
+        "text": "Stay inside. Wait until 07:00. The panels are rated. The installation might be bad, but the panels themselves hold."
+      },
+      {
+        "host": "holden",
+        "text": "The psychology of rattling is worse than the actual risk. Peoples' amygdalas start firing when they hear noise they don't understand. But the noise is wind. Wind is just air pressure. The panels hold air pressure."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden, you're overexplaining again."
+      },
+      {
+        "host": "holden",
+        "text": "I am. Sorry. The panels hold. You're safe. Next one."
+      },
+      {
+        "host": "caroline",
+        "text": "Capital Square perimeter's still holding. Tim reports zero additional breach attempts in the last hour. The initial five-person group at 19:50 was isolated — possibly lost, possibly opportunistic. Security responded, they retreated. Standard."
+      },
+      {
+        "host": "holden",
+        "text": "Standard for hour two. You get lost people in hour two. You get organized operations by hour four, five. The people who know what they're doing are still planning. The people who are panicking are the ones crashing Capitol steps."
+      },
+      {
+        "host": "caroline",
+        "text": "East Side's where the organization is. Atwood, Schenk's Corners — that's where we see prep work in prior years. We're watching for coordination signals."
+      },
+      {
+        "host": "holden",
+        "text": "The kill count suggests they're active but not yet synchronized. Eight kills across a neighborhood that size — that's dispersed. That's individuals or very small groups. The real spike happens when the coordination starts."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is what we're waiting for."
+      },
+      {
+        "host": "holden",
+        "text": "Which is what we're always waiting for. The Purge isn't an event. It's a series of decisions made by people trying to survive or people trying to—"
+      },
+      {
+        "host": "caroline",
+        "text": "—to hunt. We know."
+      },
+      {
+        "host": "holden",
+        "text": "Right. But the deciding factor, the variable that determines which impulse wins, is often something as simple as weather. Temperature. Visibility. Wind direction."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is why I track it."
+      },
+      {
+        "host": "holden",
+        "text": "Which is why we're a team. I track the numbers. You track the sky. Together we know what's coming."
+      },
+      {
+        "host": "caroline",
+        "text": "We know what might come. Prediction is statistical. Weather is chaotic."
+      },
+      {
+        "host": "holden",
+        "text": "Chaotic systems are still measurable. They're just complex. There's a difference between 'we don't know' and 'we know that our knowledge has a margin of error.'"
+      },
+      {
+        "host": "caroline",
+        "text": "The margin of error tonight is widening. That cold front is running 18 minutes ahead of schedule. At this rate, we'll hit 32 degrees by 23:00 instead of 00:15."
+      },
+      {
+        "host": "holden",
+        "text": "Earlier cold means earlier shutdown of outdoor activity. Which means the violence concentrates indoors. Which means—"
+      },
+      {
+        "host": "caroline",
+        "text": "—structures become targets. Homes. Buildings. The things people are hiding in."
+      },
+      {
+        "host": "holden",
+        "text": "Right. So the safe spaces become attack vectors. That's bad. That's a variable shift."
+      },
+      {
+        "host": "caroline",
+        "text": "It's not new. 2163 cold snap, something similar. I checked the archives before the broadcast."
+      },
+      {
+        "host": "holden",
+        "text": "What happened in 2163?"
+      },
+      {
+        "host": "caroline",
+        "text": "Spike in structure-based incidents. Fire-related deaths up 34 percent. Cold drives people indoors, and indoors becomes a pressure cooker."
+      },
+      {
+        "host": "holden",
+        "text": "We should warn people about heating. Space heaters in sealed rooms, that's carbon monoxide territory."
+      },
+      {
+        "host": "caroline",
+        "text": "They know. But I'll mention it at the top of the next hour. Most people dying to cold tonight will be dying to violence, not CO."
+      },
+      {
+        "host": "holden",
+        "text": "That's a dark statement."
+      },
+      {
+        "host": "caroline",
+        "text": "It's a true statement. The Purge kills people who go outside or who are found by people who go inside. Cold just accelerates the schedule."
+      },
+      {
+        "host": "holden",
+        "text": "You're clinical about this."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm accurate about this. There's a difference."
+      },
+      {
+        "host": "holden",
+        "text": "Is there though?"
+      },
+      {
+        "host": "caroline",
+        "text": "Yes. Accuracy is a tool. Clinic is a lack of tool. I'm using tools."
+      },
+      {
+        "host": "holden",
+        "text": "Fair. The tools tell us we're tracking toward a low-count Purge night if the cold continues. 156 to 178 range. That's maybe a 6 to 12 percent reduction from baseline."
+      },
+      {
+        "host": "caroline",
+        "text": "And if the cold accelerates further, we could see even lower. The question is whether the organized groups adapt to it. Some of them will. Some of them won't."
+      },
+      {
+        "host": "holden",
+        "text": "Adaptation is another word for intelligence. The people who survive the Purge — the hunters, I mean — they're smart. They plan. They adjust. The people who just stumble out and hope? They die faster in cold."
+      },
+      {
+        "host": "caroline",
+        "text": "Selection pressure."
+      },
+      {
+        "host": "holden",
+        "text": "Exactly. The Purge is an evolutionary filter, and cold makes the filter sharper."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not comforting."
+      },
+      {
+        "host": "holden",
+        "text": "It's not supposed to be. We're narrating a 12-hour legal murder festival. Comfort's not on the menu."
+      },
+      {
+        "host": "caroline",
+        "text": "No, it's not. But people are listening because they need the information. They need to know what the weather's doing. They need to know the kill count isn't spiking past normal. They need to know we're calm."
+      },
+      {
+        "host": "holden",
+        "text": "Are we calm?"
+      },
+      {
+        "host": "caroline",
+        "text": "I am. Are you?"
+      },
+      {
+        "host": "holden",
+        "text": "I'm focused. It's close to calm."
+      },
+      {
+        "host": "caroline",
+        "text": "Then project that. The listeners are scared. They're barricaded in their homes. The wind is loud. The cold is dropping. We're the only voices telling them that the night is still following the rules."
+      },
+      {
+        "host": "holden",
+        "text": "The rules are kill count, weather, and neighborhood stability. By those metrics, we're stable."
+      },
+      {
+        "host": "caroline",
+        "text": "Then we're safe to stay calm."
+      },
+      {
+        "host": "holden",
+        "text": "Safe is another word I don't like to use on Purge Night."
+      },
+      {
+        "host": "caroline",
+        "text": "Use it anyway. Say it for them."
+      },
+      {
+        "host": "holden",
+        "text": "Listeners, you're relatively safe right now. The cold is moving faster than expected, but that's advantage to the prepared. If you've barricaded correctly, you're in a defensive position. If you've stocked supplies, you're stable. If you've locked your doors — and I mean really locked them, not just closed — you're protected."
+      },
+      {
+        "host": "caroline",
+        "text": "And you're not alone. Thousands of people in Madison are doing exactly what you're doing. We're all here. We're all listening. We're all getting through this together."
+      },
+      {
+        "host": "holden",
+        "text": "That's nine hours and 22 minutes to dawn. We'll be here the whole time."
+      },
+      {
+        "host": "caroline",
+        "text": "The clock reads 20:52. The temperature has dropped to 38 degrees. Wind's still out of the southwest. We're tracking the cold front's progression minute by minute. Back to the news in one moment."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 19 kills as of 20:45. East Side accounts for 8. Capitol Square perimeter holding. Pace tracking 2 percent below 2168 baseline."
+      },
+      {
+        "category": "emergency",
+        "text": "WEATHER ALERT: Cold front arrival accelerated. Temperature drop of 3 degrees in last 45 minutes. Wind gusts now reaching 14 mph. Wind advisory possible after 22:00. Fog expected 23:30 onward. Visibility will reduce to 4-5 miles."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol Square: Initial breach attempt at 19:50 (5-person group) repelled by security. No reported casualties from perimeter incident. Defense posture remains strong."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Maple Bluff resident reports PurgeShield panel rattling in wind. Holden confirms: panels rated to 35 mph. Check installation gaps. Do not open doors. Panels hold."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:29:24.268Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

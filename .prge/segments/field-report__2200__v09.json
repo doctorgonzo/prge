@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker here, East Side perimeter, near the Schenk's Corners commercial strip. We're {{ELAPSED}} in and the numbers are climbing faster than the models predicted."
+      },
+      {
+        "host": "tucker",
+        "text": "Madison-wide count is at 61 kills as of {{CLOCK}}. That's 23 for this hour alone — up 31% from the same window last year. East Side is pulling most of that weight, running about 34% above trend."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm seeing increased foot traffic moving northwest toward the Capitol corridor. Organized movement, not random. Weapons manifest is heavy on bladed — saw three separate groups carrying machetes and crowbars in the last twelve minutes."
+      },
+      {
+        "host": "tucker",
+        "text": "There's... there's some interference on my end. Signal's been cutting in and out for the last few minutes. Hold on, I'm repositioning the antenna — my rig's old and tonight it's really showing it."
+      },
+      {
+        "host": "tucker",
+        "text": "Back. Okay. Neighborhood watch presence on Atwood is minimal. I count maybe four armed civilians on the west side of the overpass, and they're... they're holding position but not advancing. Smart. Stay contained."
+      },
+      {
+        "host": "tucker",
+        "text": "Weather's degrading. Wind's picked up to about 15 miles per hour, gusting higher. Caroline was right about the system moving in early. Visibility's dropping and — something just moved across the street about 40 meters north of my position, I'm going to [CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide: 61 cumulative (23 this hour). East Side +34% trend. Capitol Square activity increasing."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Atwood Ave commercial: minimal watch presence. Movement trending northwest toward Capitol perimeter."
+      },
+      {
+        "category": "local-news",
+        "text": "Cold front arriving earlier than forecast. Visibility down to 4 miles. Wind gusts to 22 mph expected within the hour."
+      },
+      {
+        "category": "emergency",
+        "text": "Field equipment experiencing signal degradation. Multiple zones reporting interference tonight — possible jammer activity or atmospheric conditions."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:34:05.549Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

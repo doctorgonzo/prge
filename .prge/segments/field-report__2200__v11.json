@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm positioned at the East Side perimeter, near Atwood and Schenk's Corners. We're {{ELAPSED}} in and the neighborhood density is already climbing. Madison-wide kill count is holding at thirty-eight as of twenty-two-fifteen."
+      },
+      {
+        "host": "tucker",
+        "text": "Year-over-year comparison: we're tracking about even with last year's twenty-two hundred mark. But the distribution is... different. Capitol Square moved faster. Beltline corridor is quiet, which is unusual."
+      },
+      {
+        "host": "tucker",
+        "text": "There's a pattern in the 2159 data — the ten-year mark always had these weird redistributions. Activity would spike in unexpected zones, methods would shift. I'm seeing echoes of that tonight and I don't love it."
+      },
+      {
+        "host": "tucker",
+        "text": "Bladed weapons are up fourteen percent from this hour last year. Firearms still dominate, but the economics are showing. People are using what they can afford. That's a datapoint I wish I was wrong about."
+      },
+      {
+        "host": "tucker",
+        "text": "There's a group moving northeast through the Atwood grid. I count seven individuals, they're coordinated, they've got vests — tactical-adjacent but not professional. I'm going to relocate and get a better angle on the —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide count: 38 (22:15). YoY delta: +2. East Side: 12 kills this hour alone."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Capitol Square perimeter breach reported at 21:40. Inner fortifications held. Regional Director Calloway's status: sheltered."
+      },
+      {
+        "category": "local-news",
+        "text": "Ten-year anniversary observation (2159 Purge): unusual spatial redistribution pattern detected. Current data mirrors 2159 anomaly. Cause unknown."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield Panels — 2168 performance report: 4,200 units deployed Madison metro. Your barricade could be the difference. Call 555-0147."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:34:21.114Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

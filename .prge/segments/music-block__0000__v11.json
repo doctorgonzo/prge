@@ -1,0 +1,188 @@
+{
+  "format": "music-block",
+  "inWorldTime": "00:00",
+  "body": {
+    "type": "music-block",
+    "tracks": [
+      {
+        "title": "Linoleum",
+        "artist": "NOFX",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Alright. {{ELAPSED}} in. The clock reads {{CLOCK}}. We're past the witching hour and the night's got teeth now. This one's for everyone still awake on their couches, still checking the door locks every three minutes."
+          },
+          {
+            "host": "nick",
+            "text": "NOFX. 'Linoleum.' Off Punk in Drublic, 1994. Fat Mike, Erik Sandin, Eric Melvin — three guys from Fairfax High School in LA who decided they were going to build their own machine and never ask permission from anybody."
+          },
+          {
+            "host": "nick",
+            "text": "Punk in Drublic — gold record. Twelve on the Heatseekers chart. And you know what Fat Mike did? Didn't send the 'Leave It Alone' video to MTV. Said he didn't want to be part of that machine. That's the whole philosophy right there."
+          },
+          {
+            "host": "nick",
+            "text": "Five studio albums by '94. Liberal Animation with Brett Gurewitz. S&M Airlines. Ribbed. White Trash, Two Heebs and a Bean — I mean, come on. The band knew exactly who they were and didn't apologize for it."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike used to say the only person you answer to is yourself. 1994. Before the internet made everybody an anarchist by accident. Before the Purge became a policy. Just a record about living on nothing and being happy about it."
+          }
+        ]
+      },
+      {
+        "title": "Basket Case",
+        "artist": "Green Day",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Green Day. 'Basket Case.' Same year. Same epicenter. This song was the reason a million kids decided they were broken in a way that mattered."
+          },
+          {
+            "host": "nick",
+            "text": "Billie Joe Armstrong. Mike Dirnt. Tré Cool — Frank Wright, but nobody calls him Frank. Three weeks. Fantasy Studios in Berkeley, September and October 1993. Dookie was made in three weeks. Ten million copies in the US alone."
+          },
+          {
+            "host": "nick",
+            "text": "Billie Joe's father died when he was ten. Dirnt was born to a heroin-addicted mother, adopted by a Native American mom and a white dad who split when he was seven. This song — it's not poetry about anxiety. It's autobiography at volume eleven."
+          },
+          {
+            "host": "nick",
+            "text": "Armstrong's lyrics touched on boredom, mass murder, divorce, masturbation, the whole catalog of American adolescent dread. And he did it while Green Day was already too punk for conventional rock and too accessible for the purists. They had to forge their own path."
+          },
+          {
+            "host": "nick",
+            "text": "Right now, {{ELAPSED}} in, there's probably fifty thousand people in Madison listening to this song the same way Armstrong did — sitting in the dark, thinking about things they can't control. That's the Purge, man. That's what this song predicted."
+          }
+        ]
+      },
+      {
+        "title": "Suburban Home",
+        "artist": "The Descendents",
+        "year": 1982,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Descendents. 'Suburban Home.' 1982. Milo Goes to College. This is the album title, and Milo actually went. Attended UC San Diego. While the band was recording about suburban American life, he was living it."
+          },
+          {
+            "host": "nick",
+            "text": "Frank Navetta, Tony Lombardo, Bill Stevenson — Manhattan Beach, 1977. They built the whole skate-punk template and sang about girls, parents, food, getting rejected. The stuff that actually matters when you're nineteen."
+          },
+          {
+            "host": "nick",
+            "text": "Steven Blush called them the formula that punk spent the next thirty years aping — cheeky love songs disguised as hardcore blasts. But here's the thing: they weren't trying to be cheeky. They were trying to be honest."
+          },
+          {
+            "host": "nick",
+            "text": "Navetta left after I Don't Want to Grow Up to become a fisherman in Oregon. Lombardo couldn't tour because he was a postal carrier. These weren't rock guys. They were just guys who happened to write perfect songs about being normal and hating it."
+          },
+          {
+            "host": "nick",
+            "text": "'Suburban Home' — it's not a love song. It's a song about the thing you come home to after the world tells you you're worthless. And right now, that song is probably saving somebody's life tonight."
+          }
+        ]
+      },
+      {
+        "title": "And We Thought Nation States Were A Bad Idea",
+        "artist": "Propagandhi",
+        "year": 2005,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Propagandhi. 'And We Thought Nation States Were a Bad Idea.' Potemkin City Limits, 2005. These are Canadian kids from Portage la Prairie who decided the nation-state itself was the problem, and they had the riffs to back it up."
+          },
+          {
+            "host": "nick",
+            "text": "Chris Hannah and Jord Samolesky. 1986. The band that opened for NOFX in '92 and Fat Mike signed them on the spot. How to Clean Everything came out in '93 and changed the trajectory of every politically conscious punk kid in North America."
+          },
+          {
+            "host": "nick",
+            "text": "By 2005, they're playing global politics — corporate imperialism, environmental collapse. Potemkin City Limits. They even had Ramsey Kanaan from AK Press voice a Shell Oil executive on the track 'A Public Dis-Service Announcement.' The liner notes said partial proceeds went to activist groups."
+          },
+          {
+            "host": "nick",
+            "text": "Less Talk, More Rock hit different because the band said openly: we're pro-feminism, gay-positive, anti-capitalist. In the 1990s West Coast punk scene, that was controversial. Sexism and homophobia were just how things were. They said no."
+          },
+          {
+            "host": "nick",
+            "text": "And in 2005, they're still saying it. Nation-states, imperialism, capitalism — the whole machine. Listen to this song and tell me they were wrong. Tell me in 2169, with the Purge as law, that they were wrong about any of this."
+          }
+        ]
+      },
+      {
+        "title": "The Person I Wanted to Kill",
+        "artist": "Anti-Flag",
+        "year": 2002,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Anti-Flag. 'The Person I Wanted to Kill.' 2002. These guys — Justin Sane, Pat Thetic, Chris No. 2 — they formed in Pittsburgh in '88 and spent two decades screaming about US foreign policy, corporatism, wealth distribution, the whole American disease."
+          },
+          {
+            "host": "nick",
+            "text": "In 2000, they met Fat Mike at Warped Tour. Two years later, Underground Network on Fat Wreck Chords. The album was about fascism, about neo-Nazis in the hardcore scene, about the wars America was fighting. Chris No. 2 — his sister and her boyfriend were killed. The band responded by releasing a benefit EP. All proceeds to the Center for Victims of Violent Crime."
+          },
+          {
+            "host": "nick",
+            "text": "That's not performance activism. That's real grief turning into real action. And they're singing about it — 'The Person I Wanted to Kill' — they're naming the impulse and then redirecting it. That's punk rock."
+          },
+          {
+            "host": "nick",
+            "text": "2006, they signed to RCA Records and the punk community lost its mind. Selling out, they said. But Anti-Flag had spent eighteen years telling people that corporations are the enemy. They weren't wrong about that. They just made a choice nobody understood."
+          },
+          {
+            "host": "nick",
+            "text": "By 2003, they released The Terror State, and it was all about the Bush Administration's War on Terror. They had Howard Zinn writing essays in the liner notes. They never apologized for the RCA thing. They just kept saying what they meant."
+          }
+        ]
+      },
+      {
+        "title": "Summertime",
+        "artist": "Me First and the Gimme Gimmes",
+        "year": 1997,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Me First and the Gimme Gimmes. 'Summertime.' 1997. Cover band. Spike Slawson, Fat Mike, Joey Cape, Chris Shiflett before he joined Foo Fighters. They met up during off-time from their real bands and started covering songs just for fun."
+          },
+          {
+            "host": "nick",
+            "text": "Have a Ball — 1997. Sixties and seventies pop. They took 'Summertime' and turned it into a three-minute punk explosion. The whole philosophy was: take the song seriously but don't take yourself seriously. Rapid-fire, humorous, completely committed."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike, in the liner notes, claimed he got so caught up in 'Wild World' that he believed he was Fat Stevens, a guitar-toting Islamic extremist. When Spike sang something, Fat Mike thought it was something else, condemned him to death for heresy. That's the level of absurdism they were operating at."
+          },
+          {
+            "host": "nick",
+            "text": "These guys didn't intend to release albums. They were just having fun. One Week Records in San Francisco. Ryan Greene producing. They wore costumes to shows — matching outfits, themes. They played a Bar Mitzvah with 30 people and made mistakes on stage and just kept going."
+          },
+          {
+            "host": "nick",
+            "text": "Summer 2006, they were supposed to play three nights at PNC Park after Pirates games. They got booed on the first night. Didn't come back. But that's okay — the Gimmes understood something that most punk bands forgot: this is supposed to be fun. Even when it's serious. Even when it's covering Summertime in the middle of a Purge night, 2169, {{ELAPSED}} in, at {{CLOCK}}."
+          }
+        ]
+      }
+    ],
+    "lines": [],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide accumulation: 82 confirmed kills. East Side holding 18% of total. State Street corridor spike continuing into midnight hour. Beltline incidents up 12% from same interval, 2168."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Capitol Square perimeter reports no further breaches as of {{CLOCK}}. Willy Street barricade holding at River bridge. North Side remaining anomalously quiet — {{ELAPSED}} in, only 3 incidents reported versus 5-year average of 8 by this hour."
+      },
+      {
+        "category": "local-news",
+        "text": "PRGE listener note: tonight marks the third anniversary of the State Street Corridor event. No one on-air will acknowledge it directly. Some things are better left unsung."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:03:53.284Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

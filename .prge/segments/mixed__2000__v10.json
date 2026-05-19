@@ -1,0 +1,329 @@
+{
+  "format": "mixed",
+  "inWorldTime": "20:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "Welcome back to PRGE. Caroline Voss, weather, and you're listening to the early night. {{CLOCK}} Madison. We're {{ELAPSED}} into the Purge and the conditions are holding steady."
+      },
+      {
+        "host": "holden",
+        "text": "Holden Kraft here, analytics. The kill count sits at nineteen as of 20:15. That's right on the {{ELAPSED}} projection for this point in the evening — we're tracking at historical average."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature's still forty-one degrees. Wind out of the southwest at eight miles per hour. Visibility is excellent — and I mean excellent. The full moon tonight is giving us more light than we'd normally have at this hour."
+      },
+      {
+        "host": "holden",
+        "text": "The moon's actually relevant to the statistical model. Historical data shows clear-night Purges run 3 to 7 percent higher body counts by midpoint. Visibility equals opportunity."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not the angle I was going for, Holden. I was going to say people are staying indoors *because* they can see too much. You can see across Mendota from the Capitol Steps. You can see the East Side from State Street. Nobody wants to be visible."
+      },
+      {
+        "host": "holden",
+        "text": "Ah. That's actually — that's a suppression factor. Okay. So the visibility creates two opposing vectors. More light for predators, but higher perceived risk for targets. The net effect would depend on —"
+      },
+      {
+        "host": "caroline",
+        "text": "The net effect is people are barricading. Which is good. Which is the point."
+      },
+      {
+        "host": "holden",
+        "text": "Right. Yes. The point. Understood."
+      },
+      {
+        "host": "caroline",
+        "text": "East Side showing activity on the thermal imaging we're pulling from SafeWalk app data. Movement concentrated around Schenk's Corners, which is — historically, that area sees early spikes because the commercial district empties out by 19:30."
+      },
+      {
+        "host": "holden",
+        "text": "The commercial district is basically a chessboard with no pieces left on it after sunset. You remove the daytime population and you've got structural density, vehicle coverage, vertical escape routes — it's a predator's castling position. Control the center, control the game."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden."
+      },
+      {
+        "host": "holden",
+        "text": "What?"
+      },
+      {
+        "host": "caroline",
+        "text": "People are dying. Not pieces. People."
+      },
+      {
+        "host": "holden",
+        "text": "I know. I'm aware. I'm using the analogy to process the spatial distribution. It helps me think."
+      },
+      {
+        "host": "caroline",
+        "text": "I know you are. Just — remember that out loud sometimes."
+      },
+      {
+        "host": "holden",
+        "text": "Nineteen kills. Nineteen people. In the first hour. That's what that number means. I see it. I'm processing it."
+      },
+      {
+        "host": "caroline",
+        "text": "I know you are."
+      },
+      {
+        "host": "holden",
+        "text": "The Capitol Square perimeter is holding. That was a concern going in — the fortification was breached in 2159, and the Purge of 2163 saw three separate breaches attempts in the opening two hours. So far tonight, zero attempts. The government's learning curve on self-defense is steep, but it's trending upward."
+      },
+      {
+        "host": "caroline",
+        "text": "How many Level-10 officials are actually in the Capitol tonight?"
+      },
+      {
+        "host": "holden",
+        "text": "Per the pre-Purge filing? Fourteen. They're required to shelter in place for the protection protocols. Mandatory tonight — no executive exemption."
+      },
+      {
+        "host": "caroline",
+        "text": "Fourteen people behind blast glass while the city does what it does. That's the equation."
+      },
+      {
+        "host": "holden",
+        "text": "That's the equation."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind is going to shift. I'm looking at the pressure fronts coming in from the northwest. We'll see a rotation around 23:00, maybe a little earlier. Gusts up to fifteen miles per hour by midnight. Temperature drop of about four degrees."
+      },
+      {
+        "host": "holden",
+        "text": "Temperature drop correlates with behavioral consolidation. People move indoors. Activity concentrates in enclosed structures. Bars, basements, venues. The kill density per square block increases even if the absolute count stays flat."
+      },
+      {
+        "host": "caroline",
+        "text": "Yes. Which means if you're listening and you're in an enclosed space, the risk just went up. You know that. You've been Purging — or staying home during Purges — for your whole life. But the wind shift at 23:00 is going to push people indoors hard. Stay aware."
+      },
+      {
+        "host": "holden",
+        "text": "The neighborhoods that tend to see uptick during indoor consolidation phases are the ones with older buildings. Better structure, better basements, better group-shelter capacity. So Willy Street, parts of the Near East, some of the Northside Victorian stock. Those areas historically show 4 to 6 percent elevation in kill count during cold-front pressurization."
+      },
+      {
+        "host": "caroline",
+        "text": "What's your model on the South Side for tonight?"
+      },
+      {
+        "host": "holden",
+        "text": "South Side has been running cool — pardon the pun. The neighborhood watch has been organizing on Park Street for the last three years, and their barricade infrastructure is actually... competent. The data suggests they've trained. Last year they held a perimeter for 4.5 hours with zero breaches."
+      },
+      {
+        "host": "caroline",
+        "text": "Zero breaches is exceptional."
+      },
+      {
+        "host": "holden",
+        "text": "Exceptional. Right. And if they replicate that level of organization tonight, we'd see South Side running maybe 8 to 10 percent below the neighborhood's historical average. Which would put us at — let me calculate — twelve to fifteen kills in that zone across the full twelve hours."
+      },
+      {
+        "host": "caroline",
+        "text": "Versus the historical average of what?"
+      },
+      {
+        "host": "holden",
+        "text": "Twenty-two."
+      },
+      {
+        "host": "caroline",
+        "text": "So if they do their job, they save ten lives. That's real."
+      },
+      {
+        "host": "holden",
+        "text": "That's real."
+      },
+      {
+        "host": "caroline",
+        "text": "We've got a caller. From the Beltline. Let's — wait, no. Tim says we've got a technical read. Holden, hold that thought."
+      },
+      {
+        "host": "holden",
+        "text": "I was going to say the Beltline is the worst zone for us to analyze because it's not really a neighborhood — it's a transit corridor. The traditional barricade infrastructure doesn't apply. You're dealing with vehicle-on-vehicle dynamics, ambush patterns, velocity factors. It's a completely different game."
+      },
+      {
+        "host": "caroline",
+        "text": "Different game. Okay. But Holden — the Beltline still has people in cars. Still has kill counts. Still has mothers in minivans."
+      },
+      {
+        "host": "holden",
+        "text": "I know. I know it does. The game I'm describing has human beings in it. I'm not — I'm not abstracting away the people. The game *is* the people."
+      },
+      {
+        "host": "caroline",
+        "text": "Okay. I believe you."
+      },
+      {
+        "host": "holden",
+        "text": "The Beltline saw eleven kills last year. Eleven in a twelve-hour window on a transit corridor that, at any given hour, probably has fifty to eighty vehicles in active motion. That's a 13.75 percent fatality ratio on a per-vehicle basis. That's chess where you're losing a piece every eight to ten moves."
+      },
+      {
+        "host": "caroline",
+        "text": "People. Losing people. Not pieces."
+      },
+      {
+        "host": "holden",
+        "text": "I know. I see them. Every number I cite has a face. I'm just bad at saying that part."
+      },
+      {
+        "host": "caroline",
+        "text": "You're not bad at it. You just do it backwards. You cite the number first. Try it frontward. Try the face first."
+      },
+      {
+        "host": "holden",
+        "text": "That's — I don't know how to do that."
+      },
+      {
+        "host": "caroline",
+        "text": "You'll figure it out. You have all night."
+      },
+      {
+        "host": "holden",
+        "text": "The full moon is bothering me. Not meteorologically. Psychologically. There's something about the visibility that makes the night feel less contained. Like everything is being watched."
+      },
+      {
+        "host": "caroline",
+        "text": "Everything is being watched. By people with weapons. In a twelve-hour window where those weapons are legal."
+      },
+      {
+        "host": "holden",
+        "text": "Right. Yes. And the moon is making that visibility literal. We can all see the same thing. We can all see the threat and the threat can see us. It's symmetrical."
+      },
+      {
+        "host": "caroline",
+        "text": "Except people at home are barricaded. They've got their visibility limited. They chose that."
+      },
+      {
+        "host": "holden",
+        "text": "They did. Eighteen thousand people, estimated, are choosing to stay inside right now. In Madison proper. That's roughly four percent of the metro population. They're choosing not to see, not to be seen. That's a rational response to the moon."
+      },
+      {
+        "host": "caroline",
+        "text": "Rational, yeah. That's one word for it."
+      },
+      {
+        "host": "holden",
+        "text": "What's your word?"
+      },
+      {
+        "host": "caroline",
+        "text": "Smart. Necessary. Survival."
+      },
+      {
+        "host": "holden",
+        "text": "Those are better words."
+      },
+      {
+        "host": "caroline",
+        "text": "We're tracking wind speed at the moment. Nine miles per hour, gusting to eleven. Still southwest flow. The pressure drop I predicted is running about eight minutes early — models show the front will arrive closer to 22:52 instead of 23:00."
+      },
+      {
+        "host": "holden",
+        "text": "Eight minutes earlier means the temperature consolidation phase hits four to five minutes sooner than the historical median. That could actually depress the kill count during the 23:00 hour because people move indoors faster, which creates crowded-shelter scenarios, which statistically reduce one-on-one confrontation and elevate group-defense success."
+      },
+      {
+        "host": "caroline",
+        "text": "You're saying the wind shift might save lives."
+      },
+      {
+        "host": "holden",
+        "text": "I'm saying the wind shift introduces variables that could suppress the expected kill count by 2 to 3 percent during hours 4 and 5. Which — if we're talking about a full night projection of 185 to 195 kills for Madison — that's three to five people. That's real."
+      },
+      {
+        "host": "caroline",
+        "text": "Three to five people is everything to those three to five people."
+      },
+      {
+        "host": "holden",
+        "text": "It is. It absolutely is."
+      },
+      {
+        "host": "caroline",
+        "text": "Visibility update: at {{CLOCK}}, we've got clear skies, full moon high, you can see Lake Mendota from most elevated points in the city. That moon is not setting until 05:23 tomorrow morning. So you've got visibility for {{ELAPSED}} already, and you'll have it for the next eight-point-something hours."
+      },
+      {
+        "host": "holden",
+        "text": "Eight-point-something hours of full-moon visibility means the predator advantage remains stable throughout the night. No weather relief from darkness. No cloud cover reducing visual advantage. This is a worst-case scenario for people trying to move undetected."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is why you don't move undetected. Which is why you stay inside."
+      },
+      {
+        "host": "holden",
+        "text": "Which is why you stay inside."
+      },
+      {
+        "host": "caroline",
+        "text": "Eleven thousand people left the city this week. They evacuated. That's the other vector — you don't stay home, you leave."
+      },
+      {
+        "host": "holden",
+        "text": "Evacuation is the statistical anomaly in the Purge model. Most models assume a fixed population. But eleven thousand people leaving changes the base denominator. It changes what the kill count *means*. Fewer people available, lower absolute kill count, but potentially higher per-capita fatality ratio among those who stayed."
+      },
+      {
+        "host": "caroline",
+        "text": "So the people who stayed are mathematically more likely to die."
+      },
+      {
+        "host": "holden",
+        "text": "The people who stayed are selecting into a higher-risk cohort. Yeah. That's what the model shows."
+      },
+      {
+        "host": "caroline",
+        "text": "That's grim."
+      },
+      {
+        "host": "holden",
+        "text": "That's the data. I don't know if it's grim. It's just what the numbers say."
+      },
+      {
+        "host": "caroline",
+        "text": "It's grim, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "It's grim."
+      },
+      {
+        "host": "caroline",
+        "text": "We're taking a short break. When we come back — we're going to shift to some caller interactions, some real-world feedback from people in the field. If you're listening and you're staying inside, you're doing the right thing. If you're out there in the full moon, you're gambling."
+      },
+      {
+        "host": "holden",
+        "text": "You're gambling with the odds against you. Stay tuned. We're {{ELAPSED}} in."
+      },
+      {
+        "host": "caroline",
+        "text": "PRGE. Madison, Wisconsin. {{CLOCK}}."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison kill count: 19 confirmed as of 20:15. East Side seeing early activity concentration. On pace for historical average."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Capitol Square perimeter holding. Zero breach attempts in opening two hours. Government fortification upgraded since 2159 breaches."
+      },
+      {
+        "category": "local-news",
+        "text": "Full moon visibility tonight creating symmetrical threat environment. Visibility advantage holds until 05:23. Citizens advised to remain barricaded."
+      },
+      {
+        "category": "emergency",
+        "text": "Weather shift incoming approximately 22:52. Wind rotation SW to NW. Temperature drop 4 degrees. Consolidation phase advancing 8 minutes early."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:41:08.556Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

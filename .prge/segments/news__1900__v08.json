@@ -1,0 +1,305 @@
+{
+  "format": "news",
+  "inWorldTime": "19:00",
+  "body": {
+    "type": "news",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Good evening, Madison. It's 19:00. The Purge is now in effect."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm Quinn Foley. You're listening to PRGE — Purge Radio. We've been off the air for 364 days, and here we are again, right on schedule, doing what we do once a year: keeping you company while the law takes a nap."
+      },
+      {
+        "host": "quinn",
+        "text": "I have a whiskey in front of me. It's going to be a long twelve hours."
+      },
+      {
+        "host": "tim",
+        "text": "Quinn, mike's live. You're broadcasting."
+      },
+      {
+        "host": "quinn",
+        "text": "I know, Tim. That's the idea."
+      },
+      {
+        "host": "quinn",
+        "text": "Alright. First things first. If you're tuned in, you're home. You barricaded. You've got supplies. You're doing the math on your pantry versus the next eight hours. That's good. That's the right instinct."
+      },
+      {
+        "host": "quinn",
+        "text": "For those of you listening in a car — and I know some of you are, because you're paranoid or you're lost or you're exactly the kind of person who shouldn't be listening to us right now — Tim's got a SafeWalk plug we'll run in about fifteen minutes. There's still time to get indoors."
+      },
+      {
+        "host": "quinn",
+        "text": "For everyone else: welcome back. We missed you. The night missed you. Missed having someplace to put the fear."
+      },
+      {
+        "host": "caroline",
+        "text": "Quinn, can we do weather before you pour the second drink?"
+      },
+      {
+        "host": "quinn",
+        "text": "First drink. I'm counting."
+      },
+      {
+        "host": "caroline",
+        "text": "You've already finished the first drink."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline, I'm going to level with you. I don't remember. Time is weird on Purge Night."
+      },
+      {
+        "host": "caroline",
+        "text": "It's 19:00. It's been 19:00 for eight minutes. We have a twelve-hour broadcast ahead and you're already negotiating reality with me."
+      },
+      {
+        "host": "caroline",
+        "text": "Weather. Madison is currently 41 degrees. Clear skies. Southwest wind at 8 miles per hour."
+      },
+      {
+        "host": "caroline",
+        "text": "That low-pressure system I've been tracking is still on schedule to move in around midnight. We're going to see the temperature drop, probably into the mid-30s by 22:00, and there's a possibility of light precipitation by 23:00."
+      },
+      {
+        "host": "caroline",
+        "text": "The good news: that weather system might actually suppress some activity. Cold keeps people indoors. The bad news is visibility is going to be reduced mid-night, which historically correlates with a higher concentration of activity in concentrated zones."
+      },
+      {
+        "host": "caroline",
+        "text": "Bundle up. Keep your windows sealed. And if you're in an East Side neighborhood — which statistically some of you are — this weather pattern is not your friend."
+      },
+      {
+        "host": "holden",
+        "text": "I have three points about the weather data Caroline just delivered."
+      },
+      {
+        "host": "caroline",
+        "text": "No."
+      },
+      {
+        "host": "holden",
+        "text": "First point: the precipitation timeline she mentioned —"
+      },
+      {
+        "host": "caroline",
+        "text": "Holden. Sports. Now."
+      },
+      {
+        "host": "holden",
+        "text": "My point was just that the timing of the precipitation aligns with last year's kill-count spike, which occurred at 23:47, and if Caroline's model is accurate, we might actually see the timing shift earlier because visibility reduction would incentivize —"
+      },
+      {
+        "host": "caroline",
+        "text": "SPORTS."
+      },
+      {
+        "host": "holden",
+        "text": "Right. Sports. Well, it's Purge Night, so there are no active sporting events. The Badgers are dark. The Bucks don't play until Friday. So I've prepared a statistical analysis of historical Purge-night violence correlated with sports-franchise performance in the preceding month."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, no."
+      },
+      {
+        "host": "holden",
+        "text": "The correlation is actually quite robust. When Madison's sports teams are performing poorly, there's a measurable uptick in activity during Purge, particularly in neighborhoods with strong sports-bar culture like the Capitol Square area."
+      },
+      {
+        "host": "holden",
+        "text": "This year, the Badgers finished 8-4, which is actually their best record since 2161. So my model predicts a 6-percent reduction in overall activity relative to last year."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, I appreciate the work, but the Badgers finishing 8-4 does not make anyone less violent during the Purge. That's not how this works."
+      },
+      {
+        "host": "holden",
+        "text": "The data suggests otherwise. If you look at the regression analysis —"
+      },
+      {
+        "host": "tim",
+        "text": "We're 17 minutes in. Do you want to hear the early reports or keep arguing about football?"
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, thank you. What do we have?"
+      },
+      {
+        "host": "tim",
+        "text": "Early indicators are quiet. Slow start. Most of Madison is locked down. We've got isolated reports on the East Side, nothing organized yet."
+      },
+      {
+        "host": "tim",
+        "text": "Our outbound comms are clear. The jammer network from last year hasn't activated, so we're assuming they've been dismantled or moved."
+      },
+      {
+        "host": "tim",
+        "text": "Signal strength is optimal. We're running on primary generators. Backup systems are hot."
+      },
+      {
+        "host": "quinn",
+        "text": "That's good. That's exactly what I want to hear."
+      },
+      {
+        "host": "quinn",
+        "text": "For those of you who are new to this, or who've somehow managed to repress the last 364 days of memory, PRGE is a broadcast that happens one night a year. Tonight. Every year on Purge Night, we go live at 19:00 and we stay live until the all-clear at 07:00 tomorrow morning."
+      },
+      {
+        "host": "quinn",
+        "text": "We do this because you're out there. All 70,000 of you, give or take. You're in your homes. You've reinforced your doors. You've got your supplies. You're sitting in the dark, listening to the city, wondering what's happening out there."
+      },
+      {
+        "host": "quinn",
+        "text": "We're here to tell you what's happening. We're here to keep you company. We're here to remind you that you're not alone, even though tonight feels like the loneliest night of the year."
+      },
+      {
+        "host": "quinn",
+        "text": "I've got my co-hosts: Caroline with weather and analysis, Holden with data, Tim running the rig, and throughout the night you'll hear from Tucker, our field correspondent, who will be reporting from the zones as things unfold."
+      },
+      {
+        "host": "quinn",
+        "text": "We also have Sister Marigold, who runs our wellness blocks — meditation, breathing exercises, spiritual maintenance, whatever you want to call it. She's going to help you get through the long hours."
+      },
+      {
+        "host": "quinn",
+        "text": "And Nick Trulino is in the house. Nick's our DJ. He'll be spinning tracks throughout the night. Punk. Stuff with teeth. Stuff that matters."
+      },
+      {
+        "host": "quinn",
+        "text": "So here's the structure: we've got an opening news block right now. At 19:30, we're going to move into analysis and early reporting. We'll do another news bulletin at 20:00. And from there, it's mixed programming — field reports, call-ins, music, wellness breaks, whatever the night demands."
+      },
+      {
+        "host": "quinn",
+        "text": "You can text us. You can call if you're in a situation. We monitor those lines all night. The number's at the bottom of your screen."
+      },
+      {
+        "host": "caroline",
+        "text": "Before we move on, I want to note something. The system I mentioned — the one moving in at midnight — I've been tracking it since yesterday, and the models have actually shifted."
+      },
+      {
+        "host": "caroline",
+        "text": "It's moving faster than expected. We might see precipitation by 22:30 instead of 23:00. This is a significant variable."
+      },
+      {
+        "host": "holden",
+        "text": "That timing aligns with the secondary peak-activity window I mentioned in my statistical model."
+      },
+      {
+        "host": "caroline",
+        "text": "No. Your model is wrong. I've been doing this for 17 years."
+      },
+      {
+        "host": "holden",
+        "text": "And I'm not arguing with your weather tracking. I'm saying the timing happens to coincide with historical patterns."
+      },
+      {
+        "host": "caroline",
+        "text": "Patterns are not causation."
+      },
+      {
+        "host": "holden",
+        "text": "No, but in large data sets with sufficient sample size, correlation can be predictive, which is functionally equivalent to causation for operational purposes."
+      },
+      {
+        "host": "quinn",
+        "text": "They're married."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm going to update the forecast at 20:00. People need to know."
+      },
+      {
+        "host": "tim",
+        "text": "Early-night safety reminder: make sure your barricades are secure. Check your lock. Check your supplies. If you have pets, make sure they're secured and have water. We don't expect organized activity for another hour, but 'expect' is a loaded word on Purge Night."
+      },
+      {
+        "host": "tim",
+        "text": "If you haven't sealed your windows, do it now. If you haven't turned off your exterior lights, do it now. The longer the evening goes, the less safe it is to move around your space."
+      },
+      {
+        "host": "quinn",
+        "text": "Now, I want to address something that's going to be on everyone's mind tonight. Last year was bad. And by bad, I mean statistically worse than the previous four years combined."
+      },
+      {
+        "host": "quinn",
+        "text": "187 confirmed deaths in Madison proper. 412 serious injuries. 23 missing. The Capitol breach. The State Street corridor incident. The Mendota drownings. Fires. Structural damage."
+      },
+      {
+        "host": "quinn",
+        "text": "You all remember. You were listening. Some of you called in. Some of you just held the phone and cried."
+      },
+      {
+        "host": "quinn",
+        "text": "And I'm telling you right now, at 19:17, with the night still in its early, quiet phase: tonight could be the same. Or worse. Or different in ways we can't predict."
+      },
+      {
+        "host": "quinn",
+        "text": "The Purge is systemic. It's engineered. It happens because the people in power decided that one night a year of lawlessness is better than the year-round friction of actual equity. So they legalized it. They codified it. They made it policy."
+      },
+      {
+        "host": "quinn",
+        "text": "And we, the people of Madison, we live with that. We lock our doors. We hold our breath. And once a year, we listen to a pirate radio station because it's the only place that's honest about what's happening."
+      },
+      {
+        "host": "quinn",
+        "text": "So here's what I'm asking: keep your doors locked. Keep your phone charged. Keep this dial tuned. We're going to be here all night. We're not leaving. And neither are you."
+      },
+      {
+        "host": "caroline",
+        "text": "Also: dress warmly. The temperature is already dropping faster than forecasted. This is not a drill."
+      },
+      {
+        "host": "holden",
+        "text": "The atmospheric pressure shift is unusual. In my analysis of historical pressure patterns during Purge Night, a shift of this magnitude typically precedes high-velocity activity."
+      },
+      {
+        "host": "caroline",
+        "text": "Stop helping."
+      },
+      {
+        "host": "tim",
+        "text": "We're going to take a quick break. When we come back, we've got our first advertiser block. You'll hear from PurgeShield, MorningCare, and SafeWalk. These are real services provided by real people in this community. We're not endorsing them because we're paid. We're endorsing them because they help keep people alive."
+      },
+      {
+        "host": "tim",
+        "text": "We'll be right back."
+      },
+      {
+        "host": "quinn",
+        "text": "PRGE. 19:22 Madison time. The Purge is underway."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Early reports from East Side: 3 confirmed incidents. Activity concentrated near Schenk's Corners."
+      },
+      {
+        "category": "emergency",
+        "text": "Temperature dropping faster than forecasted. Caroline's updated model: precipitation by 22:30, not 23:00."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield installation appointments still available for tonight. Call 608-555-SHIELD before 20:00."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol Square fortified. Regional Director Calloway confirmed inside. Perimeter holding at 19:20."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text incoming from Willy Street: 'Family of four locked down. Supplies good. Listening. Thank you.'"
+      },
+      {
+        "category": "ad",
+        "text": "SafeWalk GPS routes still active until 20:00. If you're in a vehicle, last chance to plot a route home."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:35:03.724Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

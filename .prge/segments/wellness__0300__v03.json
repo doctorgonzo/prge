@@ -1,0 +1,229 @@
+{
+  "format": "wellness",
+  "inWorldTime": "03:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. [pause] It's {{CLOCK}}. We are {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to notice your breath right now. [pause] Not to change it. Just to notice."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in through your nose. [pause] Four counts. Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "The smoke smell on the wind tonight — that's not your concern. You are inside. You chose inside."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] Out through your mouth."
+      },
+      {
+        "host": "marigold",
+        "text": "Some of you have been listening for nine hours. I can feel the weight of that."
+      },
+      {
+        "host": "marigold",
+        "text": "Your shoulders are high. [pause] Let them fall."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. Four counts. The fires on State Street — that is not your body burning."
+      },
+      {
+        "host": "marigold",
+        "text": "Your body is here. Your body is safe because you decided it would be."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold for four. [pause] Now release slowly."
+      },
+      {
+        "host": "marigold",
+        "text": "I've been with people who opened their doors at this hour. [pause] I won't say what I saw."
+      },
+      {
+        "host": "marigold",
+        "text": "But I will say this: the ones who stayed home are the ones who lived to pray."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan your body from your scalp downward. [pause] Where do you hold the fear?"
+      },
+      {
+        "host": "marigold",
+        "text": "Is it in your jaw? [pause] Let it soften."
+      },
+      {
+        "host": "marigold",
+        "text": "Is it in your chest? [pause] Breathe into it. The fear is not the threat."
+      },
+      {
+        "host": "marigold",
+        "text": "Tucker reported from the lake an hour ago. [pause] Some things happened there that the lake has already forgotten."
+      },
+      {
+        "host": "marigold",
+        "text": "Water is forgiving. [pause] Water takes what is given to it."
+      },
+      {
+        "host": "marigold",
+        "text": "You are not water. You are the one who stayed behind the door. That is strength."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] ka-sarendah-mirthless. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan downward. Your hands — are they clenched? Unfold them on your lap."
+      },
+      {
+        "host": "marigold",
+        "text": "There's visibility dropping below two miles now. The smoke is heavy on the isthmus."
+      },
+      {
+        "host": "marigold",
+        "text": "But you cannot smell it where you are. [pause] You are sealed. You are protected by your own choice."
+      },
+      {
+        "host": "marigold",
+        "text": "Some of you made that choice out of love. Some out of fear. [pause] The Order teaches that these are the same."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold. [pause] Think of someone you did not open your door for tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "That person is alive or they are not. [pause] Either way, you did not kill them by staying inside."
+      },
+      {
+        "host": "marigold",
+        "text": "You can release that. [pause] Let your breath carry it out."
+      },
+      {
+        "host": "marigold",
+        "text": "The fires are real. [pause] The smoke smell is real. [pause] Your guilt is optional."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan to your belly. Is it tight? [pause] Breathe directly into that tightness."
+      },
+      {
+        "host": "marigold",
+        "text": "Four counts in. [pause] Four counts holding. [pause] Four counts releasing."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm going to tell you something the Sisters know. [pause] Are you listening?"
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who cannot sit still tonight — the ones who are moving through the city right now — they are not happy."
+      },
+      {
+        "host": "marigold",
+        "text": "Happiness does not live in motion. It lives in stillness. [pause] You have found it. You are winning."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold the awareness of your own breath. That's the entire practice."
+      },
+      {
+        "host": "marigold",
+        "text": "Nine hours in. Three hours remain. [pause] The longest three hours are the ones where you remember they exist."
+      },
+      {
+        "host": "marigold",
+        "text": "So I'm asking you to forget. [pause] Forget the time. Forget the clock. Forget that the Purge ends."
+      },
+      {
+        "host": "marigold",
+        "text": "Live in this breath. [pause] In this one. [pause] In this one."
+      },
+      {
+        "host": "marigold",
+        "text": "The city outside is sorting itself. [pause] That is not your work."
+      },
+      {
+        "host": "marigold",
+        "text": "Your work is to remain. To breathe. To let the walls hold what they hold."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan down to your legs. Are they restless? [pause] Can you feel them on the floor?"
+      },
+      {
+        "host": "marigold",
+        "text": "The floor is holding you. [pause] The walls are holding the night. [pause] You are held."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Four counts. [pause] The visibility is down to a mile and a half now."
+      },
+      {
+        "host": "marigold",
+        "text": "But where you are, you can see your own hands. [pause] That is enough."
+      },
+      {
+        "host": "marigold",
+        "text": "That is everything."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] Hold for four in the emptiness. [pause] Release again."
+      },
+      {
+        "host": "marigold",
+        "text": "I sat with a woman once who had seen too much. [pause] She said the only way through was to stop looking."
+      },
+      {
+        "host": "marigold",
+        "text": "I said, 'But you can still hear.' [pause] She said, 'I know. I cover my ears.'"
+      },
+      {
+        "host": "marigold",
+        "text": "She didn't mean physically. [pause] She meant with silence."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe into that silence now. [pause] It's surrounding you. It's available."
+      },
+      {
+        "host": "marigold",
+        "text": "You made it available by staying home. [pause] Honor that choice."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold. [pause] Release slowly into the dark."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "local-news",
+        "text": "VISIBILITY ALERT: Smoke drift reducing visibility to 1.2 miles across the isthmus. Multiple structure fires reported State Street corridor + near Capitol Square. Stay sheltered."
+      },
+      {
+        "category": "emergency",
+        "text": "PURGE CLOCK: {{CLOCK}} — {{ELAPSED}} elapsed — 3 hours, 0 minutes remaining until all-clear at 07:00."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "The ones who cannot sit still tonight are not happy. Happiness does not live in motion."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield Structural Panels: 847 families stayed safe behind our barriers last year. You can too. Call 1-800-BARRIER now."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:33:51.019Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

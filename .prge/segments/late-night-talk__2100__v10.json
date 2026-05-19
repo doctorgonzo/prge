@@ -1,0 +1,417 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "21:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the moon is full, folks. Like someone cranked the brightness on Madison and forgot to turn it back down. You can see everything tonight. Everything."
+      },
+      {
+        "host": "quinn",
+        "text": "This is Quinn Foley, and you're listening to PRGE — the only voice in the dark that's actually supposed to be here. Clock reads {{CLOCK}}. Three hours since the sirens stopped and the real night began."
+      },
+      {
+        "host": "quinn",
+        "text": "I've got a whiskey in front of me that cost more than my mortgage used to. Back when I had a mortgage. Back when I had a lot of things."
+      },
+      {
+        "host": "quinn",
+        "text": "The opening hour went quiet — you all heard Caroline and Holden talking about the weather, the kill count at 20:00 was nineteen confirmed. That's not fast. That's not slow. That's the Purge finding its rhythm."
+      },
+      {
+        "host": "quinn",
+        "text": "But we're getting reports now. Real reports. Not the sanitized two-minute version — the actual field data coming through Tim's channels. And I'm looking at what Tucker's compiling and what I'm seeing is that the East Side lit up at 20:45."
+      },
+      {
+        "host": "quinn",
+        "text": "East Side. Atwood Avenue, Schenk's Corners, the corridor between Ruskin and Fair Oaks. That's the neighborhood that's been climbing for four years straight. Last year was thirty-four kills in that zone alone. We're on pace for worse this year."
+      },
+      {
+        "host": "quinn",
+        "text": "But that's the data. That's the boring part. What I want to talk about is something I've been thinking about since we hit 19:00."
+      },
+      {
+        "host": "quinn",
+        "text": "I was a state senator for eight years. Did you know that? Of course you did. I was on the news constantly. Corruption scandals, sexual misconduct allegations, I was a very busy man."
+      },
+      {
+        "host": "quinn",
+        "text": "And every single night of those eight years, I knew what the Purge was coming. I didn't know it the way you know it — with dread, with the kind of bone-deep fear that makes you check your locks twice. I knew it the way you know about death in the abstract."
+      },
+      {
+        "host": "quinn",
+        "text": "It happened every year. People died. The city counted them. We printed policy proposals about it. Very serious men in very serious suits talked about 'Purge mitigation' and 'cultural adjustment protocols.'"
+      },
+      {
+        "host": "quinn",
+        "text": "You know what we never said? 'We should stop this.' You know why? Because it was legal. Because it was the law. Because the people who made the law were not the people who died on Purge Night."
+      },
+      {
+        "host": "quinn",
+        "text": "I was one of those people. I made very comfortable money. I had security. I went home and locked the door and slept while the city bled."
+      },
+      {
+        "host": "quinn",
+        "text": "And then I touched the wrong thing. A woman. Not a crime on any other night, which tells you something about how we think. And suddenly I was untouchable in a different way."
+      },
+      {
+        "host": "quinn",
+        "text": "They came for me the morning after my last Purge as a sitting senator. Rightly so, I want to be clear. I was a monster. I was a comfortable monster, which was worse."
+      },
+      {
+        "host": "quinn",
+        "text": "Now I'm a ghost who broadcasts once a year, and I can feel every person listening right now, and I can tell you something true that took me seven years on the run to understand."
+      },
+      {
+        "host": "quinn",
+        "text": "The Purge isn't about law breaking. It's about permission. We gave ourselves permission to look away."
+      },
+      {
+        "host": "quinn",
+        "text": "And every year, the people who stay home — people like you, people barricaded in basements and upper floors, people holding their families close while the moon shines down on everything — you're the only ones actually awake."
+      },
+      {
+        "host": "quinn",
+        "text": "I poured that whiskey because it helps me not think about who I was. Let me take a call. Tim, what have we got?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Tenney Park — what's your situation tonight, Marcus?"
+      },
+      {
+        "host": "quinn",
+        "text": "\"Quinn, I'm locked in my third-floor apartment with my family. We're safe, I think. But the moon — I can see everything through the windows. The lake is lit up like daytime.\""
+      },
+      {
+        "host": "quinn",
+        "text": "You've got curtains, Marcus?"
+      },
+      {
+        "host": "quinn",
+        "text": "\"Blackout curtains. We closed them at 18:50. But I just — I keep checking. I wanted to see if there were other lights out there. Other people staying home.\""
+      },
+      {
+        "host": "quinn",
+        "text": "There are. Thousands of them. You're not alone, Marcus. That's the thing about Purge Night that nobody tells you. The people who are scared are all awake at the same time, and we're all listening to the same voice telling them it's going to be okay."
+      },
+      {
+        "host": "quinn",
+        "text": "\"Is it going to be okay?\""
+      },
+      {
+        "host": "quinn",
+        "text": "\"Yes. Statistically, you're going to be fine. You're on the third floor with a locked door and you're listening to the radio. You've done everything right.\""
+      },
+      {
+        "host": "quinn",
+        "text": "\"How many have died so far?\""
+      },
+      {
+        "host": "quinn",
+        "text": "\"As of 20:00 we had nineteen confirmed. The number's climbing but we're still in the slow phase. You're going to have a lot of night ahead of you before the real peak, and by then you'll be tired enough that listening helps you sleep. You want to stay on the line for a while?\""
+      },
+      {
+        "host": "quinn",
+        "text": "\"Yeah. Yeah, I do.\""
+      },
+      {
+        "host": "quinn",
+        "text": "Stay then. Tell me about your family. What's your wife's name?"
+      },
+      {
+        "host": "quinn",
+        "text": "\"Sarah.\""
+      },
+      {
+        "host": "quinn",
+        "text": "Sarah and Marcus from Tenney Park, listening to PRGE on a full-moon Purge Night. Clock reads {{CLOCK}}. We're {{ELAPSED}} in. This is good. This is real."
+      },
+      {
+        "host": "quinn",
+        "text": "The reason I love this part of the night — and I'm being sincere, which whiskey usually ruins — is that the data stops mattering. Tucker can tell me the East Side is spiking and Holden can give me the comparative metrics and Caroline can tell me the temperature has dropped four degrees."
+      },
+      {
+        "host": "quinn",
+        "text": "But Marcus and Sarah are upstairs with their blackout curtains and their third-floor luck, and that's the real story. That's the Purge that actually matters."
+      },
+      {
+        "host": "quinn",
+        "text": "Marcus, I'm going to be honest with you because that's what this hour is for. I've got a criminal record, a warrant in three counties, and a reputation that makes people cross the street when I walk past. I lost a career and a family and a sense of who I was before the scandal."
+      },
+      {
+        "host": "quinn",
+        "text": "But every year I come here and I talk to people like you, and I get to be useful for one night. That's the only honest thing I do anymore."
+      },
+      {
+        "host": "quinn",
+        "text": "\"That's — thank you, Quinn.\""
+      },
+      {
+        "host": "quinn",
+        "text": "You're welcome. Stay on the line. Sarah, what's your name? Just your first name?"
+      },
+      {
+        "host": "quinn",
+        "text": "\"Alicia.\""
+      },
+      {
+        "host": "quinn",
+        "text": "Alicia. How many kids?"
+      },
+      {
+        "host": "quinn",
+        "text": "\"Two. Both asleep.\""
+      },
+      {
+        "host": "quinn",
+        "text": "Bless you. Both asleep during Purge Night — that's the dream. Most people can't sleep. The ones who can are either innocent or very, very guilty, and I've never been able to figure out which category I fall into."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to keep you on the line while I work through some of the news coming in, because I want you to hear that the world is being reported on, that Tim is tracking the signal, that Tucker is out in it getting real data. You're not alone in the dark, Marcus and Alicia. You're in the middle of something that hundreds of thousands of people are experiencing exactly like you are."
+      },
+      {
+        "host": "quinn",
+        "text": "That makes you part of something. That makes you less alone."
+      },
+      {
+        "host": "quinn",
+        "text": "Let me take another call while they're still coming in. Tim, who's next?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Detective Raymond from Capitol Square — and Ray, I know you, don't I?"
+      },
+      {
+        "host": "quinn",
+        "text": "\"Quinn. Yeah. It's been a while.\""
+      },
+      {
+        "host": "quinn",
+        "text": "Ray was on the force when I was in the state legislature. Ray, what's your situation tonight? And be honest — you're off the record in every way that matters."
+      },
+      {
+        "host": "quinn",
+        "text": "\"I'm in my basement with my wife and my mother-in-law. We're fortified. But I'm listening to the reports coming through and Quinn, the Capitol perimeter is looking thin tonight. We're getting chatter that there's been probing activity at the south entrance.\""
+      },
+      {
+        "host": "quinn",
+        "text": "Probing activity. That's very official language, Ray. You mean people are trying to get in?"
+      },
+      {
+        "host": "quinn",
+        "text": "\"Organized probing. Not random. This is — this is the kind of thing I would have flagged as a credible threat if I were still on duty. And I'm not on duty. I'm in a basement.\""
+      },
+      {
+        "host": "quinn",
+        "text": "That must be hard."
+      },
+      {
+        "host": "quinn",
+        "text": "\"It's very hard. I spent thirty years protecting that building. I knew every camera angle, every contingency plan. And now I'm down here listening to the radio because I retired and there's no law and nobody asked me if I wanted to stop being a cop on this one night.\""
+      },
+      {
+        "host": "quinn",
+        "text": "You're still a cop, Ray. The law doesn't change what you are."
+      },
+      {
+        "host": "quinn",
+        "text": "\"The law changed everything, Quinn. It changed when they made it legal to kill me.\""
+      },
+      {
+        "host": "quinn",
+        "text": "That's true. That's just true."
+      },
+      {
+        "host": "quinn",
+        "text": "\"I wanted to call and say — thank you. For saying it was okay to be scared. For saying that staying home is brave. Because I've been feeling like a coward all night and your voice helped.\""
+      },
+      {
+        "host": "quinn",
+        "text": "You're not a coward, Ray. You're a man in a basement trying to keep his family alive during a legal bloodsport. That's the opposite of cowardice."
+      },
+      {
+        "host": "quinn",
+        "text": "\"I appreciate that. My wife is making tea. I'm going to sit with her and listen to the rest of your hour.\""
+      },
+      {
+        "host": "quinn",
+        "text": "You do that, Ray. Drink the tea. Let her take your hand. You're going to be fine."
+      },
+      {
+        "host": "quinn",
+        "text": "Detective Raymond from Capitol Square, everyone. Thirty years of law enforcement and tonight he's in a basement. That's the Purge. That's what we're really talking about."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm pouring another whiskey because Ray's call hit different. This one's Irish — Jameson, because I've got standards even when I'm falling apart."
+      },
+      {
+        "host": "quinn",
+        "text": "Clock reads {{CLOCK}}. We're {{ELAPSED}} in and the full moon is sitting over Lake Mendota like a spotlight. Tim, what's the current confirmed count?"
+      },
+      {
+        "host": "quinn",
+        "text": "You hear that pause? That means the numbers are higher than they were twenty minutes ago. That means people are dying faster."
+      },
+      {
+        "host": "quinn",
+        "text": "That's not something I'm supposed to say out loud. That's not something that sits well on a broadcast that families are listening to with their children trying to sleep on their laps."
+      },
+      {
+        "host": "quinn",
+        "text": "But it's true. And at {{CLOCK}} on a full-moon Purge Night, truth is the only currency that matters."
+      },
+      {
+        "host": "quinn",
+        "text": "Let me take one more call before I move into the harder news. Tim, do we have another one?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Young voice, can't quite place the neighborhood — what's your name, caller?"
+      },
+      {
+        "host": "quinn",
+        "text": "\"I'm — my name is David and I'm seventeen and I'm not supposed to be calling but I'm scared and I needed to hear someone talk like everything is normal.\""
+      },
+      {
+        "host": "quinn",
+        "text": "David is seventeen years old. David, where are you?"
+      },
+      {
+        "host": "quinn",
+        "text": "\"I'm in my parents' house. They're asleep. I don't think they know I'm awake.\""
+      },
+      {
+        "host": "quinn",
+        "text": "Are you safe where you are, David?"
+      },
+      {
+        "host": "quinn",
+        "text": "\"I think so. We have locks. We have — I don't know. We have normal stuff.\""
+      },
+      {
+        "host": "quinn",
+        "text": "That's enough. You know what I'm going to tell you that nobody tells kids during the Purge?"
+      },
+      {
+        "host": "quinn",
+        "text": "\"What?\""
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to tell you that being scared is the right response. Being awake while your parents sleep is the right response. Wanting to hear another human voice on the radio at {{CLOCK}} on a Purge Night is the right response."
+      },
+      {
+        "host": "quinn",
+        "text": "Because the people who aren't scared tonight are the ones doing the killing. And you're not one of them."
+      },
+      {
+        "host": "quinn",
+        "text": "\"Am I a bad person for being relieved about that?\""
+      },
+      {
+        "host": "quinn",
+        "text": "No, David. You're a good person. You're a person with a conscience, which is increasingly rare in a world that told you it was legal to kill me last night."
+      },
+      {
+        "host": "quinn",
+        "text": "\"I didn't kill you.\""
+      },
+      {
+        "host": "quinn",
+        "text": "I know. And that's the thing that saves all of us. That's the thing that makes this night survivable — that most of us choose not to. That most of us, like you, like your parents sleeping, like Marcus and Alicia and their kids, like Ray in his basement — we choose to stay human."
+      },
+      {
+        "host": "quinn",
+        "text": "\"I'm going to go back to bed now. Listening to you made it better.\""
+      },
+      {
+        "host": "quinn",
+        "text": "Good night, David. Sleep well. Your parents are proud of you."
+      },
+      {
+        "host": "quinn",
+        "text": "That's David, seventeen years old, still believing there's something good left in the world. I hope he's right. I hope we don't disappoint him."
+      },
+      {
+        "host": "quinn",
+        "text": "The whiskey is hitting now. I can feel it in my hands. I'm slurring slightly on the words that matter most, which is very on-brand for a man with my history."
+      },
+      {
+        "host": "quinn",
+        "text": "But I want to talk about something that happened when I was in the legislature, because it's relevant to what's happening right now on the East Side and in Capitol Square."
+      },
+      {
+        "host": "quinn",
+        "text": "There was a man named Vance. Not Dick Vance — a different Vance. Local guy. I did business with him before the world ended and the new one began."
+      },
+      {
+        "host": "quinn",
+        "text": "This Vance told me something I've never forgotten. He said, 'The Purge doesn't create monsters. It just gives them permission to stop hiding.' He was right."
+      },
+      {
+        "host": "quinn",
+        "text": "The people taking to the streets tonight aren't doing it because the law changed. They're doing it because they were always going to do it. The law just made it so they don't have to wake up the next morning and live with the consequence of who they are."
+      },
+      {
+        "host": "quinn",
+        "text": "And that's the real horror of the Purge. It's not the killing. It's the permission. It's looking your neighbor in the eye the next day knowing what they did last night, and being legally required to smile."
+      },
+      {
+        "host": "quinn",
+        "text": "I was one of those neighbors. I was the one people smiled at after I did terrible things. And I smiled back, because the law said I was allowed to."
+      },
+      {
+        "host": "quinn",
+        "text": "Now I'm the voice in the dark telling people it's okay to be scared, and I'm not sure that absolves me. I'm pretty sure it doesn't."
+      },
+      {
+        "host": "quinn",
+        "text": "But it's all I've got. So I keep talking, year after year, on one night that's supposed to be anonymous and lawless and mine alone."
+      },
+      {
+        "host": "quinn",
+        "text": "And people listen. People like you. People like David, and Marcus, and Ray, and all of you with your lights off and your doors locked and your fear turned down to a bearable hum."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the real Purge. That's the thing we don't talk about on the news or in the policy papers or in the legislative sessions."
+      },
+      {
+        "host": "quinn",
+        "text": "The real Purge is the next morning. When we all wake up and pretend that last night didn't happen the way it did."
+      },
+      {
+        "host": "quinn",
+        "text": "Clock reads {{CLOCK}}. We're {{ELAPSED}} in and the full moon is still shining down like a judge watching us all fail."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, I need a moment. Pull back the volume. Let the listeners just sit in their own noise for a second."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "East Side activity spike confirmed at 20:45. Updated Madison count at 21:00: 38 kills, up from 19 at 20:00. Peak-hour range expected 22:00–23:30."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol perimeter reports organized probing activity at south entrance. Armed security response active. No breach at this time."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text-in: 'Quinn, my daughter asked why people choose to hurt each other when they could choose not to.' What do I tell her?"
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield Panel Installation — Don't wait until next year. 40% off emergency retrofit. Call 555-SHIELD or visit our Middleton location. Open Purge week 8am–8pm."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:46:53.029Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

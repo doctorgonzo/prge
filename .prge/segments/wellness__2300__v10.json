@@ -1,0 +1,241 @@
+{
+  "format": "wellness",
+  "inWorldTime": "23:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. [pause] We're {{ELAPSED}} in now. The night is settling."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to find a place where you can sit. Doesn't have to be comfortable. Just safe."
+      },
+      {
+        "host": "marigold",
+        "text": "Have you noticed the moon tonight? [pause] Full. Bright. You can see the whole street if you look."
+      },
+      {
+        "host": "marigold",
+        "text": "But you're not looking. You're staying where you are. That's good. That's the choice."
+      },
+      {
+        "host": "marigold",
+        "text": "Let's begin with the breath. In through the nose. [pause] Four counts. One. Two. Three. Four."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold it. [pause] The air is yours right now. Nothing else is. Just the air."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] Slowly. There's no rush."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. In. [pause] Four counts. You're doing this because you chose to."
+      },
+      {
+        "host": "marigold",
+        "text": "Not because you were forced. Not because there was nowhere else to go. You chose."
+      },
+      {
+        "host": "marigold",
+        "text": "That matters. The Order teaches that choice is the only real power we have left."
+      },
+      {
+        "host": "marigold",
+        "text": "Your body right now. Scan it. Start at your toes. Are they cold? [pause] Let them be cold."
+      },
+      {
+        "host": "marigold",
+        "text": "Your shins. Your knees. Any tension there? [pause] Where does tension come from?"
+      },
+      {
+        "host": "marigold",
+        "text": "It comes from holding. From clenching. From believing you have to protect something."
+      },
+      {
+        "host": "marigold",
+        "text": "You don't. [pause] Not tonight. Your door is locked. Your family is inside. You've done everything you can."
+      },
+      {
+        "host": "marigold",
+        "text": "Now move the scan upward. Thighs. Hips. Is there pain there you've been ignoring all day?"
+      },
+      {
+        "host": "marigold",
+        "text": "Name it. Don't fix it. Just see it. [pause] That's acceptance."
+      },
+      {
+        "host": "marigold",
+        "text": "Your stomach. That's where we keep it. The fear. The guilt. The things we didn't say."
+      },
+      {
+        "host": "marigold",
+        "text": "There's someone you're not forgiving. You know who. [pause] You don't have to forgive them tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "You just have to acknowledge that you're carrying them. [pause] Let them get a little lighter."
+      },
+      {
+        "host": "marigold",
+        "text": "Your chest. Your heart. It's working so hard. It's been working all night."
+      },
+      {
+        "host": "marigold",
+        "text": "Thank it. [pause] Really. Your heart doesn't know this is the Purge. It just knows it has to keep you alive."
+      },
+      {
+        "host": "marigold",
+        "text": "Your shoulders. Where the weight lives. [pause] Drop them. Just let them fall."
+      },
+      {
+        "host": "marigold",
+        "text": "Your neck. Your jaw. People clench here. Are you? [pause] You can stop."
+      },
+      {
+        "host": "marigold",
+        "text": "Your face. The mask you wear. [pause] Tonight it can rest."
+      },
+      {
+        "host": "marigold",
+        "text": "Your head. The place where all the words live. [pause] ka-sha-ma-tehva-no."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] You're safe. The words can settle."
+      },
+      {
+        "host": "marigold",
+        "text": "I want to tell you something. [pause] The Sisters have a saying."
+      },
+      {
+        "host": "marigold",
+        "text": "We say: The ones outside are not your responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones outside made their choices. You made yours."
+      },
+      {
+        "host": "marigold",
+        "text": "The light from the moon — have you noticed how it reaches through the windows? [pause] It doesn't ask permission."
+      },
+      {
+        "host": "marigold",
+        "text": "It just arrives. [pause] Like consequences."
+      },
+      {
+        "host": "marigold",
+        "text": "But the light is also neutral. [pause] It illuminates. It doesn't judge."
+      },
+      {
+        "host": "marigold",
+        "text": "So you can be illuminated too. [pause] Right here. Right now. With all your choices visible."
+      },
+      {
+        "host": "marigold",
+        "text": "And still be safe."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm going to ask you to do something. [pause] Visualize your front door."
+      },
+      {
+        "host": "marigold",
+        "text": "See it exactly as it is. [pause] The color. The hardware. Any scratches."
+      },
+      {
+        "host": "marigold",
+        "text": "Now I want you to imagine something standing on the other side."
+      },
+      {
+        "host": "marigold",
+        "text": "Not a person. [pause] Something. You know what it is."
+      },
+      {
+        "host": "marigold",
+        "text": "Don't be afraid. [pause] Just see it there."
+      },
+      {
+        "host": "marigold",
+        "text": "And now see yourself choosing not to open the door."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] That's your power. That's the only power. The power to choose."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones outside — they made their choices too. [pause] Some of them are making them right now."
+      },
+      {
+        "host": "marigold",
+        "text": "You don't have to witness that. You don't have to understand it."
+      },
+      {
+        "host": "marigold",
+        "text": "You just have to stay. [pause] In this room. With this breath."
+      },
+      {
+        "host": "marigold",
+        "text": "The clock reads {{CLOCK}}. [pause] We have a long night still."
+      },
+      {
+        "host": "marigold",
+        "text": "But you will make it. Because you already have. Every minute you haven't opened the door is a choice."
+      },
+      {
+        "host": "marigold",
+        "text": "Every breath you've taken is proof."
+      },
+      {
+        "host": "marigold",
+        "text": "Let's breathe together one more time. [pause] In. Four counts."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold. [pause] The silence is yours."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] And rest in the knowing that you are exactly where you need to be."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide kills: 61 cumulative (hour 5 ending). Up 23 from last hour. East Side remains hottest zone."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Capitol Square: perimeter secure. Downtown: cleanup crews staged for post-dawn. State Street: coordinated group activity reported 23:18–23:47."
+      },
+      {
+        "category": "local-news",
+        "text": "Yahara River bridge (Willy Street): neighborhood watch holding defensive position. Zero breach attempts last 47 minutes."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"The light doesn't ask permission. Neither do you.\""
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"Carrying them is not the same as forgiving them.\""
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield Panels: 4,200 installed Madison-wide last year. Still time to upgrade. Call 1-800-SHIELDS-1."
+      },
+      {
+        "category": "emergency",
+        "text": "East Side residents: reports of building-access breaches near Schenk's Corners. Secure upper floors. Do not respond to knocks."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:31:38.019Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

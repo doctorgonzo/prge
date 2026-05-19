@@ -1,0 +1,229 @@
+{
+  "format": "wellness",
+  "inWorldTime": "03:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. [pause] The clock reads {{CLOCK}}. We are {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to find a comfortable position. If you're sitting, feel the chair. If you're standing, feel your feet."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in through your nose. [pause] Hold for four. [pause] Release through your mouth."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. In. [pause] Hold. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "The Atwood Avenue listeners — I'm speaking to you now. You barricaded early. You did the right thing."
+      },
+      {
+        "host": "marigold",
+        "text": "Willy Street. Tenney Park. Near East. I can feel you listening. Your pulse is still elevated. That's normal."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] The ones outside are not your responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "They made their choice. You made yours. Your choice was to stay. To listen. To survive."
+      },
+      {
+        "host": "marigold",
+        "text": "Feel your shoulders. Are they tense? Release them down. [pause] Lower. [pause] There."
+      },
+      {
+        "host": "marigold",
+        "text": "Now I want you to picture the lake. Mendota. The water is dark at this hour."
+      },
+      {
+        "host": "marigold",
+        "text": "The water doesn't ask questions. It doesn't judge the people who cross it."
+      },
+      {
+        "host": "marigold",
+        "text": "Some people cross. Some people don't come back. [pause] That's not your responsibility either."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Imagine the fog off the water. It's cold. It's moving."
+      },
+      {
+        "host": "marigold",
+        "text": "The fog doesn't know what time it is. It doesn't know how much longer the night will last."
+      },
+      {
+        "host": "marigold",
+        "text": "Neither do you. And that's okay. You only have to survive this hour. Just this hour."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] Release everything you thought would happen tonight. It already happened or it didn't."
+      },
+      {
+        "host": "marigold",
+        "text": "Your neighbor three blocks east — do you know what he's doing right now? [pause] No. And you don't need to."
+      },
+      {
+        "host": "marigold",
+        "text": "Atwood Avenue spiked early. The data said so. The fire lights confirmed it. You saw that or you didn't."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] What you saw doesn't live in your body unless you let it."
+      },
+      {
+        "host": "marigold",
+        "text": "Feel your hands. Are they fists? Open them. [pause] Let the tension spill out onto the floor."
+      },
+      {
+        "host": "marigold",
+        "text": "The Sisters teach that holding onto fear is just borrowing pain from tomorrow."
+      },
+      {
+        "host": "marigold",
+        "text": "Tomorrow hasn't come yet. Right now is still safe. Right now you are still listening."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Ka-meshta-vela-kesh. [pause] Breathe out."
+      },
+      {
+        "host": "marigold",
+        "text": "There are sounds outside that you might hear. Sirens. Voices. The wind off the lake."
+      },
+      {
+        "host": "marigold",
+        "text": "Those sounds are not for you. They are traveling to people who are not you."
+      },
+      {
+        "host": "marigold",
+        "text": "Your sound right now is the breath. In. [pause] Out. In. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "I've been here before. In the hours between the dark and the dawn. The city looks different then."
+      },
+      {
+        "host": "marigold",
+        "text": "The city looks like it's holding its breath. Like it knows what's coming and it's not ready."
+      },
+      {
+        "host": "marigold",
+        "text": "But you are ready. You've already decided. You're still here. That's readiness."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan your body now. Start at the top. Your forehead — is it creased? Smooth it. [pause] Feel the skin relax."
+      },
+      {
+        "host": "marigold",
+        "text": "Your jaw. So many people clench their jaws tonight. Not you. Not anymore."
+      },
+      {
+        "host": "marigold",
+        "text": "Your chest. The heart inside it has been beating for {{ELAPSED}} now without stopping. It's tired. Acknowledge that."
+      },
+      {
+        "host": "marigold",
+        "text": "It will keep beating. Hearts do that. They don't get to quit."
+      },
+      {
+        "host": "marigold",
+        "text": "Your stomach. Whatever is in there — fear, coffee, whatever you ate before the night started — it's safe."
+      },
+      {
+        "host": "marigold",
+        "text": "Nothing is happening in your stomach right now. Nothing is happening to your body. You are listening."
+      },
+      {
+        "host": "marigold",
+        "text": "Your legs. Feel them against whatever is holding you up. The chair. The floor. The bed."
+      },
+      {
+        "host": "marigold",
+        "text": "The earth is still under Madison. Under the East Side. Under Atwood. Under Tenney Park."
+      },
+      {
+        "host": "marigold",
+        "text": "The earth doesn't participate in the Purge. It just holds us all and asks us to breathe."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] The clock reads {{CLOCK}}. We are {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "Three hours and counting. [pause] That means four hours remain."
+      },
+      {
+        "host": "marigold",
+        "text": "Four hours. That's two sleep cycles. That's time enough for the worst to peak and recede."
+      },
+      {
+        "host": "marigold",
+        "text": "The worst is usually now. Right now. {{ELAPSED}} in is when the night is most itself."
+      },
+      {
+        "host": "marigold",
+        "text": "If you're hearing this, you've survived the peak. Breathe that in. [pause] You've already won."
+      },
+      {
+        "host": "marigold",
+        "text": "The Willy Street listeners know this. The barricade held. You held."
+      },
+      {
+        "host": "marigold",
+        "text": "The East Side listeners are deeper in the dark, but darkness always ends. It always ends."
+      },
+      {
+        "host": "marigold",
+        "text": "There is a light that will come. It will come whether you're ready or not."
+      },
+      {
+        "host": "marigold",
+        "text": "So be ready. Breathe now. Breathe deep and hold it and let it all go."
+      },
+      {
+        "host": "marigold",
+        "text": "In. [pause] Hold. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] I'll be here with you until it arrives."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 139 ({{ELAPSED}} mark). East Side alone: 27 of total. Atwood/Schenk's accounting for 18."
+      },
+      {
+        "category": "neighborhood",
+        "text": "WILLY STREET BARRICADE: Still holding. Zero incursions past 02:45. Volunteer crew rotating positions every 30 minutes."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"The earth doesn't participate. It just asks us to breathe.\""
+      },
+      {
+        "category": "local-news",
+        "text": "TENNEY PARK: Fire Department (volunteer, post-dawn response assumed) will address structure damage at 614 Monroe Street. No immediate action possible."
+      },
+      {
+        "category": "ad",
+        "text": "PurgePet Boarding: 47 animals sheltered. Your companion is warm. Your companion is safe. You made the right choice."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:32:48.247Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

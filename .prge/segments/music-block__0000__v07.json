@@ -1,0 +1,164 @@
+{
+  "format": "music-block",
+  "inWorldTime": "00:00",
+  "body": {
+    "type": "music-block",
+    "tracks": [
+      {
+        "title": "Basket Case",
+        "artist": "Green Day",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Nick Trulino. It's {{CLOCK}}, we're {{ELAPSED}} into this thing, and the helicopters are still circling overhead like they own the sky. Nobody knows whose they are and honestly? I stopped caring around midnight. Let's play Green Day. 'Basket Case.' 1994. Dookie. The record that changed everything."
+          },
+          {
+            "host": "nick",
+            "text": "Billie Joe Armstrong. Ten years old when his father died. His whole world just— fractured. That's the wound you hear on this record. Three weeks. They recorded Dookie in three weeks at Fantasy Studios in Berkeley. September, October, 1993. In three weeks they made the most important pop-punk album of all time."
+          },
+          {
+            "host": "nick",
+            "text": "Twenty million copies worldwide. Twenty. Million. A kid from Rodeo, California, singing about anxiety and masturbation and boredom, and the whole planet listened. Mike Dirnt on bass—adopted kid, mother was an addict, and he built the spine of this thing."
+          },
+          {
+            "host": "nick",
+            "text": "'Do you have the time to listen to me whine, about nothing and everything at once?' That's the hook. That's the song. And it stuck because it was true. Purge Night is the only night the world listens to people whine without cutting them off."
+          }
+        ]
+      },
+      {
+        "title": "Linoleum",
+        "artist": "NOFX",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "NOFX. 'Linoleum.' 1996. So Long and Thanks for All the Shoes. Fat Mike, Erik Sandin, Eric Melvin, El Hefe on lead guitar and trumpet. These guys never signed to a major label. Never. Had mainstream success in the nineties and just said no to the machine."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike made a conscious decision about the 'Leave It Alone' video from Punk in Drublic. They shot it, they completed it, and then they decided not to send it to MTV. Quote: 'We just didn't want to be a part of that machine.' That's punk rock. That's the real thing."
+          },
+          {
+            "host": "nick",
+            "text": "These are kids from Los Angeles, 1983, formed at Fairfax High School. They came after a Boston hardcore band called Negative FX—copied the name, inverted it, and made it their own. That's how you steal and stay honest at the same time."
+          },
+          {
+            "host": "nick",
+            "text": "The helicopters overhead right now? They're checking the Beltline. They're checking State Street. Nobody's checking the people who stay home listening to NOFX and remembering why they never trusted authority in the first place. This song is about that. It's about linoleum floors and staying small enough that nobody notices you."
+          }
+        ]
+      },
+      {
+        "title": "Hope",
+        "artist": "The Descendents",
+        "year": 1982,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Descendents. 'Hope.' Milo Goes to College. 1982. Manhattan Beach, California. These guys literally went to college—Milo Aukerman actually enrolled at UC San Diego just like the title said. That's commitment to the bit. That's also commitment to life."
+          },
+          {
+            "host": "nick",
+            "text": "Bill Stevenson on drums, Frank Navetta on guitar, Tony Lombardo on bass. They recorded their first single at Media Art studios on their own label, Orca Records—named after Stevenson's fishing boat. The Beach Boys influenced everything they did. Punk rock with melody. Love songs disguised as hardcore blasts."
+          },
+          {
+            "host": "nick",
+            "text": "You know what else they did? They recorded their own farts. Live in the studio. Farts. 'Orgofart' is just the band members cheering each other on while they fart into recording equipment. That's punk. That's the spirit of making something real out of nothing but air and stupidity."
+          },
+          {
+            "host": "nick",
+            "text": "Navetta left to become a fisherman in Oregon. Lombardo left because touring was incompatible with his postal career. They built this thing and then they walked away. That's the move. You do the work, you make the art, and then you live your life. Not the other way around. Not like me."
+          }
+        ]
+      },
+      {
+        "title": "This Is the Time (To Live and Die for Fascism)",
+        "artist": "Anti-Flag",
+        "year": 2004,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Anti-Flag. 'This Is the Time (To Live and Die for Fascism).' 2004. These are Pittsburgh kids who started in 1988. Justin Sane, Pat Thetic, and later Chris No. 2. They never stopped talking about what's wrong with America."
+          },
+          {
+            "host": "nick",
+            "text": "They recorded Underground Network with Fat Mike's Fat Wreck Chords in 2001. Full essays in the booklet. Howard Zinn writing about fascism. They cared enough to put historian essays in a punk record. You don't see that anymore. You never see that."
+          },
+          {
+            "host": "nick",
+            "text": "The Terror State came out in 2003. Bush Administration. War on terror. Anti-Flag was out here naming the specific villains while most bands were still writing songs about girls. That takes guts. That takes a kind of anger that doesn't burn out."
+          },
+          {
+            "host": "nick",
+            "text": "Chris No. 2's sister was killed in a violent crime. They released a benefit EP. All proceeds went to the Center for Victims of Violence and Crime. When your band member loses his sister to violence, you don't just write a sad song. You organize. You do the work. These are the people who actually lived what they sang about."
+          }
+        ]
+      },
+      {
+        "title": "Jolly Coppers Are Here",
+        "artist": "Me First and the Gimme Gimmes",
+        "year": 1997,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Me First and the Gimme Gimmes. 'Jolly Coppers Are Here.' 1997. Have a Ball. San Francisco supergroup—Spike Slawson, Fat Mike, Joey Cape, Dave Raun. They came together to cover songs in off-time from their real bands. It was supposed to be a joke. It became a career."
+          },
+          {
+            "host": "nick",
+            "text": "Cover band. Pure covers. No original material. They took other people's songs and punked them so hard they became new. The whole philosophy is speed and humor. You hear them play a song and it's like they're daring you to recognize it before they destroy it."
+          },
+          {
+            "host": "nick",
+            "text": "Have a Ball covered sixties and seventies pop. Are a Drag covered Broadway show tunes. They wore matching costumes—drag for the show tunes, cowboy outfits for country covers. They made a point of looking ridiculous so you'd listen harder."
+          },
+          {
+            "host": "nick",
+            "text": "In August 2006 they were supposed to play three nights at PNC Park in Pittsburgh after Pirates games, fireworks and everything. First night they got booed. They canceled the next two. That's the Gimme Gimmes in a nutshell. They show up, they do the thing, and then they leave you confused and angry and laughing all at once. Like Purge Night, basically."
+          }
+        ]
+      },
+      {
+        "title": "Bitchin' Camaro",
+        "artist": "Dead Milkmen",
+        "year": 1985,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Dead Milkmen. 'Bitchin' Camaro.' 1985. Philadelphia. Rodney Anonymous on vocals, Joe Jack Talcum on guitar, Dave Blood on bass, Dean Clean on drums. These guys started as Genaro's home-recording project in Chester County, Pennsylvania. Fictional band on homemade cassettes. Then they became real."
+          },
+          {
+            "host": "nick",
+            "text": "The name came from Toni Morrison. Song of Solomon. Character named Milkman Dead. They pulled the name from literature and turned it into a punchline and nobody could decide if they were serious or not. That's the sweet spot. That's where the best bands live."
+          },
+          {
+            "host": "nick",
+            "text": "Big Lizard in My Backyard in 1985. College radio went crazy for 'Bitchin' Camaro.' The song has an improvised dialogue intro that changes every time. That's the magic—they never played it the same way twice. Live performances, they'd riff on it forever, just talking about Camaros and cars and nothing."
+          },
+          {
+            "host": "nick",
+            "text": "Thick Philadelphia accents. Satire on the eighties music scene, toxic waste, jellyfish afterlifes, conspiracy theories. They made fun of everything including other punk bands. It's {{CLOCK}} and there are helicopters outside and I'm thinking about a song about a Camaro from 1985 and how that's the most sane thing happening right now. Sometimes the absurd is the only refuge left."
+          }
+        ]
+      }
+    ],
+    "lines": [],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 104 kills. {{ELAPSED}} in. 22 additional since the 23:00 hour."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Lake Mendota shoreline: cold-front casualties reported. East Side: sustained activity. Capitol Square: perimeter breach sealed at 21:40—6 kills in clearing action."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield emergency panels. Still time to reinforce. Call 1-800-PURGE-NOW. Installation available through dawn."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:01:39.250Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

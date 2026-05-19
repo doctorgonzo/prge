@@ -1,0 +1,461 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the numbers are — Caroline, don't look at me like that. The numbers are worse than they should be at this point."
+      },
+      {
+        "host": "caroline",
+        "text": "Seven hours. We have five hours left. That's not — that's still time for this to stabilize."
+      },
+      {
+        "host": "holden",
+        "text": "Stabilize. The kill count at this hour last year was 104. We're at 139."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, I don't need the numbers right now. I need you to tell me this is normal variance."
+      },
+      {
+        "host": "holden",
+        "text": "It's not normal variance. It's a 34 percent over-pace."
+      },
+      {
+        "host": "caroline",
+        "text": "The cold front arrived early. That suppresses activity — it drives people indoors."
+      },
+      {
+        "host": "quinn",
+        "text": "Cold front drove them indoors where they're killing each other. That's not how this works, Caroline."
+      },
+      {
+        "host": "holden",
+        "text": "Indoor incidents are up 18 percent. Residential invasions. Small group conflicts. The cold actually concentrates the aggression."
+      },
+      {
+        "host": "caroline",
+        "text": "We don't know that the cold is — there are other variables."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what the variable is? This city is angrier than it was last year. Hungrier. Something changed."
+      },
+      {
+        "host": "holden",
+        "text": "Regional unemployment rose 2.3 percent year-over-year. Median household income down 4 percent. The Vance administration cut Medicaid funding to the state by —"
+      },
+      {
+        "host": "quinn",
+        "text": "I know who the President is, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "Do you? Because you seemed shocked about the numbers."
+      },
+      {
+        "host": "caroline",
+        "text": "Stop. Both of you. We have listeners on the line who are scared."
+      },
+      {
+        "host": "quinn",
+        "text": "You're right. I apologize. To the people barricaded in their homes on the East Side right now — we're with you. This is manageable."
+      },
+      {
+        "host": "holden",
+        "text": "East Side is pulling 34 kills. That's 24 percent of our total. Last year it was 28 kills at this time, 22 percent."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, I just said we were going to be reassuring."
+      },
+      {
+        "host": "holden",
+        "text": "I'm being accurate. Accuracy is reassuring if you want to understand what's happening."
+      },
+      {
+        "host": "caroline",
+        "text": "The neighborhoods that are safe are still safe. Vilas Park is quiet. Tenney Park is under the historical average. The Willy Street barricade is holding."
+      },
+      {
+        "host": "quinn",
+        "text": "Right. The barricade. I heard from a caller earlier — Darren, from Atwood. Took him forty minutes to get his neighbor's panels straight. His neighbor was already inside by then. They stayed there together. Two grown men waiting out the night with bad panels between them and the street."
+      },
+      {
+        "host": "holden",
+        "text": "Panel misinstallation is correlated with false-positive anxiety. Studies suggest that even non-functional barriers reduce perception of risk."
+      },
+      {
+        "host": "quinn",
+        "text": "That's bleak as hell, Holden."
+      },
+      {
+        "host": "caroline",
+        "text": "It's psychology. People need to feel like they're doing something."
+      },
+      {
+        "host": "quinn",
+        "text": "And the something is installing backward panels and pretending they work."
+      },
+      {
+        "host": "holden",
+        "text": "The placebos are more effective than people think. They reduce stress-induced errors. People barricaded with confidence make better decisions than people barricaded in panic."
+      },
+      {
+        "host": "caroline",
+        "text": "He's right. The neighborhoods with organized watch programs — Willy Street, parts of South Madison — they're running at or below historical norm."
+      },
+      {
+        "host": "quinn",
+        "text": "Because they have guns and community. Not because of panels."
+      },
+      {
+        "host": "holden",
+        "text": "Both. It's both."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm four whiskeys deep and I'm starting to understand why you're insufferable, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "I'm still on my first coffee."
+      },
+      {
+        "host": "caroline",
+        "text": "It shows."
+      },
+      {
+        "host": "quinn",
+        "text": "You know who I was thinking about tonight? Director Calloway. Remember Calloway?"
+      },
+      {
+        "host": "holden",
+        "text": "The Regional Director. You had that conflict about him earlier."
+      },
+      {
+        "host": "quinn",
+        "text": "Conflict. That's generous. I sat in his office in 2167 and asked him why the Purge budget kept expanding while street-level support kept contracting. And he told me — this is a direct quote — 'The Purge is the pressure valve. You remove it, the whole system explodes.' And I said, 'And if you keep building bigger valves, people keep getting angrier.' And he said, 'That's not my department.'"
+      },
+      {
+        "host": "caroline",
+        "text": "Where is Calloway tonight?"
+      },
+      {
+        "host": "quinn",
+        "text": "Capitol building. Behind blast glass. Level-10 protection. His department's probably very comfortable."
+      },
+      {
+        "host": "holden",
+        "text": "The Regional Protection mandate covers building staff, administrative personnel, and anyone classified as Level-10 or higher. That's approximately 340 people in the Capitol building at any given time."
+      },
+      {
+        "host": "quinn",
+        "text": "Versus the 187 people in this city who are not protected."
+      },
+      {
+        "host": "caroline",
+        "text": "We're not at 187 yet. We're at 139."
+      },
+      {
+        "host": "quinn",
+        "text": "Not *yet*."
+      },
+      {
+        "host": "holden",
+        "text": "The trajectory suggests we'll hit 187 around 05:30. Possibly earlier if the early-morning desperation spike is pronounced this year."
+      },
+      {
+        "host": "quinn",
+        "text": "Jesus Christ, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "What? You wanted accuracy."
+      },
+      {
+        "host": "caroline",
+        "text": "We can't predict — there are too many variables. Weather, police response time from outside zones, behavioral patterns that change year to year."
+      },
+      {
+        "host": "holden",
+        "text": "Police response time is irrelevant during the Purge. They don't respond."
+      },
+      {
+        "host": "caroline",
+        "text": "Emergency services do. Medical responders are on standby outside the city limits. They'll be here the moment the all-clear sounds."
+      },
+      {
+        "host": "quinn",
+        "text": "And how many of the 187 — or however many there are by 07:00 — how many of them will still need a medical responder?"
+      },
+      {
+        "host": "holden",
+        "text": "Based on injury-to-fatality ratios, approximately 412 will require hospitalization. MorningCare has allocated 180 triage beds for Madison metro."
+      },
+      {
+        "host": "caroline",
+        "text": "Which means the overflow goes to regional facilities. Sun Prairie, Middleton, possibly UW Hospital in Milwaukee."
+      },
+      {
+        "host": "quinn",
+        "text": "So the people who survive spend the morning getting shipped around like cargo."
+      },
+      {
+        "host": "holden",
+        "text": "Yes."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is still better than the alternative."
+      },
+      {
+        "host": "quinn",
+        "text": "Is it? Is it really? Because I'm sitting here with a whiskey in my hand and a list of dead people I knew, and I'm not sure anyone actually benefits from this system except the people who designed it."
+      },
+      {
+        "host": "holden",
+        "text": "The crime rate in Madison is 31 percent lower than comparable cities during non-Purge months. The Purge creates a containment effect that prevents year-round violence escalation."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the sales pitch, Holden. That's what Calloway told me. That's what they teach in civic classes. What's the actual truth?"
+      },
+      {
+        "host": "caroline",
+        "text": "The actual truth is complicated and we don't have time for it right now because we have five hours left of broadcast and a city that is running worse than last year."
+      },
+      {
+        "host": "quinn",
+        "text": "Fair. Fair enough."
+      },
+      {
+        "host": "holden",
+        "text": "I can pull the long-form analysis. I have six years of neighborhood correlation data. If we look at socioeconomic variables alongside violence patterns, there's a clear argument that income inequality is the primary driver, not the Purge itself."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden, no one is asking for a dissertation right now."
+      },
+      {
+        "host": "holden",
+        "text": "Quinn asked what the truth is."
+      },
+      {
+        "host": "quinn",
+        "text": "I changed my mind. I don't want to know. I want to have one more whiskey and pretend that whatever happens between now and 07:00 is somehow not my fault for knowing better and doing nothing."
+      },
+      {
+        "host": "caroline",
+        "text": "You're broadcasting a station that exists for exactly this reason. You're not doing nothing."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm talking into a microphone. How is that materially different from Director Calloway sitting in his climate-controlled office?"
+      },
+      {
+        "host": "holden",
+        "text": "You're creating documentation. You're maintaining public testimony. The broadcast record itself is a form of resistance."
+      },
+      {
+        "host": "quinn",
+        "text": "Against what?"
+      },
+      {
+        "host": "holden",
+        "text": "Against forgetting."
+      },
+      {
+        "host": "caroline",
+        "text": "Can we play music? Why isn't Nick playing music?"
+      },
+      {
+        "host": "quinn",
+        "text": "His block doesn't start until 00:00. He went on early."
+      },
+      {
+        "host": "caroline",
+        "text": "Oh. Right. Yes, I heard. I just — I need something other than kill counts and moral philosophy right now."
+      },
+      {
+        "host": "holden",
+        "text": "I can stop with the numbers."
+      },
+      {
+        "host": "caroline",
+        "text": "That would be great."
+      },
+      {
+        "host": "holden",
+        "text": "Okay."
+      },
+      {
+        "host": "quinn",
+        "text": "How long until the cold front passes?"
+      },
+      {
+        "host": "caroline",
+        "text": "It's not passing. It's settled. We're in it now. Low of 24 degrees around 05:00, then it starts warming as the sun comes up. By 07:00 we'll be back to freezing, but the wind should drop below 10 miles per hour."
+      },
+      {
+        "host": "quinn",
+        "text": "So the last three hours are going to be colder and less windy."
+      },
+      {
+        "host": "caroline",
+        "text": "Yes."
+      },
+      {
+        "host": "quinn",
+        "text": "Which means — don't answer this, Holden, I'm going to figure it out myself — which means people who are barricaded outside or trying to move between locations will have less wind assistance but more visibility."
+      },
+      {
+        "host": "holden",
+        "text": "I wasn't going to answer."
+      },
+      {
+        "host": "quinn",
+        "text": "But you know I'm right."
+      },
+      {
+        "host": "holden",
+        "text": "Yes."
+      },
+      {
+        "host": "caroline",
+        "text": "The sunrise is at 6:47. Everything changes at sunrise."
+      },
+      {
+        "host": "quinn",
+        "text": "Why does everything change?"
+      },
+      {
+        "host": "caroline",
+        "text": "Because people stop thinking they can get away with it. Because official time becomes real again."
+      },
+      {
+        "host": "quinn",
+        "text": "They're getting away with it right now. They've been getting away with it for seven hours."
+      },
+      {
+        "host": "caroline",
+        "text": "And in thirteen hours they'll be arrested if they leave their homes. That's the Purge. It's not a reprieve. It's a trap with a timer."
+      },
+      {
+        "host": "quinn",
+        "text": "A trap that they designed for themselves. We designed it. Calloway designed it. Every person who voted for the consolidated government in the 2020s — every person who said 'Yes, we need to control the population this way' — they're the ones who set the trap."
+      },
+      {
+        "host": "holden",
+        "text": "Most of those people are dead now."
+      },
+      {
+        "host": "quinn",
+        "text": "And the people they appointed are still running it."
+      },
+      {
+        "host": "caroline",
+        "text": "Can we please talk about something that doesn't make me want to drink whiskey?"
+      },
+      {
+        "host": "quinn",
+        "text": "No."
+      },
+      {
+        "host": "caroline",
+        "text": "Then I'm going to the break room."
+      },
+      {
+        "host": "quinn",
+        "text": "You can't leave. You're live."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm going to the break room for thirty seconds and coming back with coffee and a better attitude."
+      },
+      {
+        "host": "holden",
+        "text": "I'll keep talking."
+      },
+      {
+        "host": "quinn",
+        "text": "Please don't."
+      },
+      {
+        "host": "holden",
+        "text": "The Willy Street barricade has held for seven hours without breach. That's statistically significant. It suggests that organized community response is genuinely effective."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what that suggests? That people who have the resources to organize and arm themselves can survive the Purge. Everyone else gets to see what they could have had if they had more money."
+      },
+      {
+        "host": "holden",
+        "text": "That's not the data I'm reading."
+      },
+      {
+        "host": "quinn",
+        "text": "Maybe read it again."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm back. We're not doing this again."
+      },
+      {
+        "host": "quinn",
+        "text": "Doing what?"
+      },
+      {
+        "host": "caroline",
+        "text": "The Purge critique session. I get it. The system is broken. Calloway is evil. The government is corrupt. I got the memo in 1987. I don't need to re-litigate it every time Holden pulls a stat."
+      },
+      {
+        "host": "quinn",
+        "text": "The motto of people who've already accepted the system."
+      },
+      {
+        "host": "caroline",
+        "text": "No. The motto of people who are tired and have a show to run. We have five hours. We have listeners. We have a job. Let's do it."
+      },
+      {
+        "host": "holden",
+        "text": "Agreed."
+      },
+      {
+        "host": "quinn",
+        "text": "Fine. Coffee's helping you think straight, apparently."
+      },
+      {
+        "host": "caroline",
+        "text": "Coffee is helping me not strangle you."
+      },
+      {
+        "host": "quinn",
+        "text": "That's fair. Next caller, let's take a call. Tim, do we have anyone on the line?"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison metro: 139 confirmed. Up 34 from last year at this time. East Side: 34 (24% of total). YoY pace suggests final tally near 187-195."
+      },
+      {
+        "category": "emergency",
+        "text": "Cold front settled over Mendota region. Temperature dropping to 24° by 05:00. Wind 14 mph, gusting 22. Visibility improving toward dawn."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Willy Street Barricade: HOLDING. 7 hours, zero breaches. Neighborhood watch maintaining position at Yahara bridge. South Side community programs reporting 8 fewer incidents than historical average."
+      },
+      {
+        "category": "local-news",
+        "text": "Regional Director Calloway confirmed at Capitol building, Level-10 protection active. Building staff estimated 340 personnel under administrative protection. No breaches reported."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:49:45.412Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

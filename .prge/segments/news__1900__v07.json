@@ -1,0 +1,389 @@
+{
+  "format": "news",
+  "inWorldTime": "19:00",
+  "body": {
+    "type": "news",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Good evening, Madison. It is 19:00. The Purge has commenced."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm Quinn Foley. You're listening to PRGE — Purge Radio — the only voice on the air from now until 07:00 tomorrow morning."
+      },
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} into what will be twelve of the longest, strangest hours of your year, and I want you to know right up front: you made the right call staying home."
+      },
+      {
+        "host": "quinn",
+        "text": "The broadcasts is live, unfiltered, and we are not going anywhere — even if someone tries to make us."
+      },
+      {
+        "host": "quinn",
+        "text": "Let's begin with the weather, because weather is what keeps some of you alive tonight. Caroline, what are we looking at?"
+      },
+      {
+        "host": "caroline",
+        "text": "Quinn, the clock reads 19:00. We're starting clear, 41 degrees, southwest wind at 8 miles per hour."
+      },
+      {
+        "host": "caroline",
+        "text": "That's good news for anyone planning to be mobile tonight — visibility is excellent, 10 miles, no precipitation expected until after midnight."
+      },
+      {
+        "host": "caroline",
+        "text": "But I want everyone listening to note this: a cold front is tracking in from the northwest. I'm projecting arrival between 00:30 and 01:30 tomorrow morning."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature drop will be sharp — expect it to plummet from the low 40s down to the 20s within an hour of the front's passage."
+      },
+      {
+        "host": "caroline",
+        "text": "Rain transitioning to sleet. Wind gusts potentially up to 25 miles per hour."
+      },
+      {
+        "host": "caroline",
+        "text": "What that means for Purge Night: the middle hours — let's say 00:30 to 04:00 — are going to be brutal for anyone caught outside."
+      },
+      {
+        "host": "caroline",
+        "text": "I've modeled this against the 2159 cold-front Purge, and activity patterns showed a significant drop once conditions worsened."
+      },
+      {
+        "host": "caroline",
+        "text": "Cold is a weapon. Plan accordingly."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline, thank you. So the next four hours are clear sailing, and then Mother Nature steps in. That's useful intel."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, I want to move to the pre-Purge data. What are we working with tonight?"
+      },
+      {
+        "host": "holden",
+        "text": "Quinn, good to be here. I've got the full pre-Purge snapshot as of 18:45."
+      },
+      {
+        "host": "holden",
+        "text": "The 2168 baseline is still fresh in everyone's mind — 187 confirmed kills across Madison metro, 412 hospitalizations post-7am, 74 structures damaged, 131 vehicles destroyed."
+      },
+      {
+        "host": "holden",
+        "text": "That's what we're measuring against tonight."
+      },
+      {
+        "host": "holden",
+        "text": "What's different this year: ammunition prices are up another 18% from 2168, which historically correlates with a shift toward bladed and melee weapons — we saw that trend accelerating last year, and I expect it to continue."
+      },
+      {
+        "host": "holden",
+        "text": "Firearms represented 44% of 2168 kills. I'm predicting that number drops to somewhere between 38 and 41% tonight."
+      },
+      {
+        "host": "holden",
+        "text": "What that buys us: slightly lower lethality per incident, since blade work is messier and slower than gunshot wounds."
+      },
+      {
+        "host": "holden",
+        "text": "What it costs us: extended suffering. Longer attack durations. More injuries relative to fatalities."
+      },
+      {
+        "host": "quinn",
+        "text": "So we're trading body count for trauma. That's grim math, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "It is. But it's the math. The East Side was the hot zone all of last year — 34 kills, 18% of the total. I'm watching that neighborhood very closely tonight."
+      },
+      {
+        "host": "holden",
+        "text": "Atwood Avenue, Schenk's Corners, the corridor near the airport — those areas have established territorial patterns that tend to persist year over year."
+      },
+      {
+        "host": "holden",
+        "text": "If I had to make a single prediction: East Side goes hot fast, probably within the first two hours."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, you hearing the forecast? We've got clear skies for the opening act, then weather complications. Status on the rig?"
+      },
+      {
+        "host": "tim",
+        "text": "All green, Quinn. The antenna is repositioned, the backups are hot, and I've got three geolocation points active in case we need to move the primary transmitter."
+      },
+      {
+        "host": "tim",
+        "text": "Signal strength is optimal across the metro. I'm monitoring for jammer attempts — we logged three signal disruptions last year, all brief, all survivable."
+      },
+      {
+        "host": "tim",
+        "text": "If someone tries to take us off the air tonight, we'll know within seconds, and we will restart. That is the promise."
+      },
+      {
+        "host": "quinn",
+        "text": "I appreciate that, Tim. For those just tuning in, PRGE operates on an unlicensed frequency, which means we exist in this narrow legal window only during the Purge itself."
+      },
+      {
+        "host": "quinn",
+        "text": "The rest of the year, broadcasting from our location is a federal crime. So the fact that we're here at all is a statement."
+      },
+      {
+        "host": "quinn",
+        "text": "A statement to everyone listening: you are not alone tonight. There is a voice on the air. There is someone awake. There is documentation."
+      },
+      {
+        "host": "caroline",
+        "text": "Quinn, I'm getting the first atmospheric readings from the Mendota buoy — water temperature is holding at 38 degrees, which is warmer than average for this time of year."
+      },
+      {
+        "host": "caroline",
+        "text": "I mention that because Lake Mendota is a factor in Purge nights. People attempt crossing. People drown. At 38 degrees, you have maybe 15 minutes of functional motor control."
+      },
+      {
+        "host": "caroline",
+        "text": "When that cold front hits and we drop to 26 degrees air temp, the water is going to be even more lethal."
+      },
+      {
+        "host": "holden",
+        "text": "Caroline, that connects to something I wanted to flag: last year, the Mendota shoreline incidents accounted for 3 confirmed fatalities — all related to that cold front arrival around 00:45."
+      },
+      {
+        "host": "holden",
+        "text": "I'm expecting similar patterns tonight, given the forecast is nearly identical."
+      },
+      {
+        "host": "holden",
+        "text": "People panic. People run. They don't always know the geography. The lake becomes a boundary that kills."
+      },
+      {
+        "host": "quinn",
+        "text": "So we've got three hours of clear night, then the temperature drops and the landscape becomes hostile. Anyone out there needs to make their moves early or hole up."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the window. Use it or don't, but know what you've got."
+      },
+      {
+        "host": "tim",
+        "text": "One more thing: I'm hearing helicopter traffic overhead already. It's not our surveillance — we're not equipped for that — which means it's either government or private security contractors."
+      },
+      {
+        "host": "tim",
+        "text": "There's been no announcement. No flight plan filed. Nobody's saying whose they are."
+      },
+      {
+        "host": "tim",
+        "text": "That's been the case most years, but I want people to know: if you hear rotors, you're likely being observed, even if not directly targeted."
+      },
+      {
+        "host": "quinn",
+        "text": "Mystery helicopters. It's always mystery helicopters on Purge Night."
+      },
+      {
+        "host": "quinn",
+        "text": "Are they government overwatch? Corporate asset protection for the wealthy neighborhoods? Nobody ever confirms. They just circle."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, keep monitoring the traffic. If the pattern changes, I want to know immediately."
+      },
+      {
+        "host": "holden",
+        "text": "I've got data on helicopter activity from last year — there were at least four distinct rotorcraft maintaining positions over the Capitol, the West Side residential zone, and the lakefront between 20:00 and 03:00."
+      },
+      {
+        "host": "holden",
+        "text": "Suggests layered surveillance, probably coordinated, probably not public."
+      },
+      {
+        "host": "holden",
+        "text": "The West Side is where 85% of the city's wealth is concentrated. It makes sense they'd be protected from above."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind is going to be shifting soon — currently southwest, but as that cold front advances, I'm expecting a rotation to the northwest."
+      },
+      {
+        "host": "caroline",
+        "text": "That could affect rotor stability, depending on the aircraft. Might see the helicopters departing or repositioning."
+      },
+      {
+        "host": "quinn",
+        "text": "So even the sky is not stable tonight. Good to know."
+      },
+      {
+        "host": "quinn",
+        "text": "Let me bring everyone up to speed on what we're going to be doing for the next twelve hours."
+      },
+      {
+        "host": "quinn",
+        "text": "PRGE is structured as a news and information broadcast, with hosted segments, live field reporting, music, wellness content, and caller integration."
+      },
+      {
+        "host": "quinn",
+        "text": "We have field correspondents deployed across Madison — Tucker Traywick will be providing real-time updates from hot zones as they develop."
+      },
+      {
+        "host": "quinn",
+        "text": "We have medical and security advisors standing by. We have emergency routes and shelter information. We have grief counselors."
+      },
+      {
+        "host": "quinn",
+        "text": "What we also have is the most comprehensive, unfiltered documentation of Purge Night in this city that exists anywhere."
+      },
+      {
+        "host": "quinn",
+        "text": "The government doesn't report this. The news doesn't air. Only PRGE broadcasts the night as it actually happens."
+      },
+      {
+        "host": "quinn",
+        "text": "For some of you, that's why you're listening. For others, it's company. For others still, it's proof that somebody is recording the truth."
+      },
+      {
+        "host": "quinn",
+        "text": "All of those reasons are valid. Stay with us."
+      },
+      {
+        "host": "holden",
+        "text": "I want to touch on the neighborhood-by-neighborhood breakdown from last year, because geography is destiny on Purge Night."
+      },
+      {
+        "host": "holden",
+        "text": "East Side: 34 kills. That's the baseline we're watching."
+      },
+      {
+        "host": "holden",
+        "text": "Capitol Square and Downtown: 28 kills. The fortification there was breached in 2168 — I'm curious to see if they've upgraded their security perimeter."
+      },
+      {
+        "host": "holden",
+        "text": "Williamson Street — Willy Street — had an armed neighborhood watch mount a successful barricade last year. 22 kills, but they were kept outside the perimeter."
+      },
+      {
+        "host": "holden",
+        "text": "State Street ruins — that's the corridor downtown that's been a dead zone since the 2155 collapse. 19 kills last year, but the worst single event: a coordinated group sweep that killed 14 in 90 minutes."
+      },
+      {
+        "host": "holden",
+        "text": "If I were someone who understood organized violence — which I don't personally, but hypothetically — I'd be paying attention to whether that same group reconvenes tonight."
+      },
+      {
+        "host": "caroline",
+        "text": "The neighborhoods that performed best in 2168 — that's North Side with only 9 kills, down 11% from the year before — those areas will likely see similar patterns."
+      },
+      {
+        "host": "caroline",
+        "text": "Community organization works. Visible preparedness works. Neighborhoods that demonstrate they're defended tend to see violence flow elsewhere."
+      },
+      {
+        "host": "caroline",
+        "text": "It's game theory applied to homicide. The predators go where the prey is vulnerable."
+      },
+      {
+        "host": "quinn",
+        "text": "And that's the grim calculus of the Purge — your safety depends partly on your neighbors' visibility as threats."
+      },
+      {
+        "host": "quinn",
+        "text": "The more you show you're organized, the more likely violence concentrates somewhere else."
+      },
+      {
+        "host": "quinn",
+        "text": "Wealthy neighborhoods have private security, so they're fortified. Organized working-class neighborhoods have community watch. Everyone else barricades and prays."
+      },
+      {
+        "host": "tim",
+        "text": "I'm monitoring all police bands and emergency frequencies, even though official responders aren't technically active until 07:00."
+      },
+      {
+        "host": "tim",
+        "text": "Some neighborhoods keep their own radio traffic going — unofficial dispatch, community coordination — and we can monitor that without interfering."
+      },
+      {
+        "host": "tim",
+        "text": "If a pattern emerges that suggests mass-casualty events or infrastructure failure, I can relay that to the appropriate post-Purge authorities for the morning debrief."
+      },
+      {
+        "host": "quinn",
+        "text": "So we're not just broadcasting. We're also documenting for the record."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the other side of what PRGE does. We're the institutional memory of what actually happened, not the sanitized version that appears in the official reports."
+      },
+      {
+        "host": "holden",
+        "text": "I want to emphasize something: the statistics we're tracking tonight are real. Every kill count, every incident location, every weather factor — it all matters for understanding how Purge Night actually unfolds."
+      },
+      {
+        "host": "holden",
+        "text": "Most people don't see the night in real time. Most people stay home, locked down, waiting. They don't have this kind of granular data."
+      },
+      {
+        "host": "holden",
+        "text": "By listening to PRGE, you're getting access to information that shapes actual survival calculations. That's not nothing."
+      },
+      {
+        "host": "caroline",
+        "text": "The wind is shifting already — I'm seeing a directional change around 19:15, even though the main front won't arrive for several hours."
+      },
+      {
+        "host": "caroline",
+        "text": "That's actually typical of this pattern. The front announces itself early through wind shifts and pressure changes."
+      },
+      {
+        "host": "caroline",
+        "text": "Current conditions remain clear, but I'd argue anyone planning mobile activity should really move in the next three hours while the weather window is open."
+      },
+      {
+        "host": "quinn",
+        "text": "Final word before we move into the first hour proper: if you're listening, you've made a choice tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "You chose to stay engaged, to listen, to document, or simply to not be alone."
+      },
+      {
+        "host": "quinn",
+        "text": "That choice — choosing connection over isolation, choosing to bear witness — that's the opposite of the Purge's intent."
+      },
+      {
+        "host": "quinn",
+        "text": "The Purge says: you are alone, you are unprotected, and the law is suspended. PRGE says: you are not alone. Someone is listening. Someone is recording."
+      },
+      {
+        "host": "quinn",
+        "text": "We'll be here the entire twelve hours. We will not shut down. We will not abandon this frequency."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay with us. The Purge is here. Purge Radio is on the air."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "emergency",
+        "text": "Weather alert: cold front tracking in from northwest, arrival expected 00:30–01:30, temperature drop to 20s, sleet conditions, wind gusts to 25 mph."
+      },
+      {
+        "category": "local-news",
+        "text": "Helicopter traffic reported overhead, no official flight plan filed, unconfirmed origin, likely government or private security overwatch."
+      },
+      {
+        "category": "kill-count",
+        "text": "2168 baseline: 187 confirmed kills across Madison metro. Watch East Side, Capitol Square, State Street corridor as historical hot zones."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield panels: verified 18% better structural integrity than 2168 models. Consultation and installation available. 1-800-PURGESHIELD."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:40:24.017Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

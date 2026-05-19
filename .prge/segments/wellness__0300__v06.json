@@ -1,0 +1,225 @@
+{
+  "format": "wellness",
+  "inWorldTime": "03:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. The clock reads {{CLOCK}}. We are {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe in through your nose. Four counts. [pause] Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "Release through your mouth. Slowly. There is no rush."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Some of you are in the West Side tonight. Monroe Street. Nakoma. Hilldale."
+      },
+      {
+        "host": "marigold",
+        "text": "Some of you live in houses where the locks are very good. [pause] That does not make you safe. That makes you aware you are not safe."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] The awareness is the first step."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] I want you to picture the room you are in. The walls. The color of the walls."
+      },
+      {
+        "host": "marigold",
+        "text": "Now picture the people you love in other rooms. Doors between you. [pause] Closed doors."
+      },
+      {
+        "host": "marigold",
+        "text": "The doors are not keeping them safe. The doors are keeping you honest about what safety means."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] There are sounds outside. You may hear them or you may not. Either way, they exist."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones making the sounds are not your responsibility. Say that to yourself. [pause] Not your responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] The people on Monroe Street tonight — some of them are choosing. Choosing to stay. Choosing to listen."
+      },
+      {
+        "host": "marigold",
+        "text": "Choosing to not open the door. [pause] That is a form of love."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "Now I want you to think about a person you have not forgiven. [pause] Not someone you hate. Someone you have simply decided will not enter your forgiveness."
+      },
+      {
+        "host": "marigold",
+        "text": "Can you see their face? [pause] You do not have to forgive them tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "But you can release the energy of holding their face. [pause] Release it with each exhale."
+      },
+      {
+        "host": "marigold",
+        "text": "Ka-semala-dith. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe in. The night is halfway through. We are in the deepest part. The part where things are quieter."
+      },
+      {
+        "host": "marigold",
+        "text": "Or louder. [pause] Depending on where you are."
+      },
+      {
+        "host": "marigold",
+        "text": "The Order teaches that silence and sound are the same thing. [pause] Both are the world telling you something."
+      },
+      {
+        "host": "marigold",
+        "text": "Listen to what your silence is telling you."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe. In. [pause] Four. [pause] Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "There is a woman on Nakoma Drive who is standing at her kitchen window. She has been standing there for two hours."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] I do not know her name. [pause] But I know her breathing."
+      },
+      {
+        "host": "marigold",
+        "text": "She is breathing like you are breathing right now. [pause] Slow. Deliberate. Choosing each one."
+      },
+      {
+        "host": "marigold",
+        "text": "That is connection. [pause] That is all connection is."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] Let your shoulders fall."
+      },
+      {
+        "host": "marigold",
+        "text": "The tension in your shoulders is the weight of decisions you made before the clock struck seven. [pause] You chose to stay. You chose to listen."
+      },
+      {
+        "host": "marigold",
+        "text": "That was the decision. [pause] Everything after that is just breathing."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe in. [pause] Four. [pause] Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "The Purge does not ask questions. [pause] The Purge simply is."
+      },
+      {
+        "host": "marigold",
+        "text": "And you are still here. [pause] Still breathing. Still choosing the light of this radio over the dark outside."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] That is grace."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Some of you are in Hilldale. Protected neighborhoods. Expensive doors. Security systems that cost more than cars."
+      },
+      {
+        "host": "marigold",
+        "text": "And some of you are in places where the doors are old. [pause] Where the locks are familiar with the sound of breaking."
+      },
+      {
+        "host": "marigold",
+        "text": "Both of you are breathing the same air tonight. [pause] Both of you are afraid in different shapes."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Your fear is not a failure. It is evidence that you understand what is happening."
+      },
+      {
+        "host": "marigold",
+        "text": "Release it. [pause] Not the understanding. [pause] The fear."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] We are {{ELAPSED}} into the night. [pause] Seven hours remain."
+      },
+      {
+        "host": "marigold",
+        "text": "Seven hours is enough time to go very far. [pause] Or to stay very still."
+      },
+      {
+        "host": "marigold",
+        "text": "Choose still. [pause] Choose the breath."
+      },
+      {
+        "host": "marigold",
+        "text": "In. [pause] Four. [pause] Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "The Sisters teach that the Purge is a mirror. [pause] What you see in it is what you have become."
+      },
+      {
+        "host": "marigold",
+        "text": "But mirrors can crack. [pause] And when they crack, sometimes you see something else."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Release. [pause] That is enough for now."
+      },
+      {
+        "host": "marigold",
+        "text": "Stay with us. [pause] Stay with your breath."
+      },
+      {
+        "host": "marigold",
+        "text": "The sun is not far away. [pause] And you will see it."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "neighborhood",
+        "text": "West Side (Nakoma / Monroe / Hilldale) — activity up 8% since 02:00. Pattern suggests coordinated movement from Capitol Square. Police scanner silent."
+      },
+      {
+        "category": "kill-count",
+        "text": "{{ELAPSED}} checkpoint: Madison-wide estimate 159 cumulative. East Side plateau holding. West Side spike accelerating."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "The ones outside are not your responsibility. The ones inside are the only ones that matter."
+      },
+      {
+        "category": "local-news",
+        "text": "Lake Mendota shoreline: volunteer recovery team still searching. No additional bodies recovered since 01:10."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:34:55.225Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,437 @@
+{
+  "format": "news",
+  "inWorldTime": "19:00",
+  "body": {
+    "type": "news",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Good evening, Madison. Welcome to PRGE. The clock reads 19:00, which means the Purge is officially underway — no more hypotheticals, no more 'what-ifs,' it's happening right now."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm Quinn Foley. I'm back for one night only, same as every year, and I'm already three fingers into the whiskey because that's how you do opening bell."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got twelve hours ahead of us. We've got the best team on the pirate band. And we've got you — thousands of you listening from locked apartments and barricaded kitchens across Madison and the metro."
+      },
+      {
+        "host": "quinn",
+        "text": "You chose to stay home. That choice matters. I'm not going to get sappy about it, but it does."
+      },
+      {
+        "host": "quinn",
+        "text": "Before we dive into the night, let's get you oriented. Caroline's got the weather, Holden's got the setup, and Tim's going to make sure we stay on the air. Let's start with the sky."
+      },
+      {
+        "host": "caroline",
+        "text": "Caroline here. The clock reads 19:00 and we're looking at clear skies over Madison right now — visibility out to ten miles, temperature holding at forty-one degrees Fahrenheit."
+      },
+      {
+        "host": "caroline",
+        "text": "The southwest wind is running eight miles per hour, gusts up to twelve. That's going to pick up as we move into the evening."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm tracking a cold front that will move in from the northwest around midnight, maybe a little before. Winds will shift to the west, then northwest, and we could see some precipitation — rain turning to sleet early morning."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperatures will drop from the low forties to the mid-twenties by 06:00. If you're out tonight, dress for it. If you're in, seal your windows."
+      },
+      {
+        "host": "caroline",
+        "text": "I'll be monitoring this front closely. Updates every hour."
+      },
+      {
+        "host": "holden",
+        "text": "Holden Marsh here. Sports and analysis. Let's talk about what we're looking at tonight from a systemic perspective."
+      },
+      {
+        "host": "holden",
+        "text": "Last year, we saw 187 confirmed kills across Madison proper. This year, we're anticipating somewhere in the 180 to 210 range based on preliminary economic activity in the days leading up to tonight."
+      },
+      {
+        "host": "holden",
+        "text": "The East Side has been hot for four consecutive years. Last year they accounted for 18.2 percent of the total kill count — 34 bodies. That neighborhood has a specific profile that bears watching."
+      },
+      {
+        "host": "holden",
+        "text": "The Capitol Square perimeter was breached last year at 21:40. The security contingent held the inner ring, but it was closer than anyone would have preferred."
+      },
+      {
+        "host": "holden",
+        "text": "State Street ruins are a consistent hotspot. Last year we saw a coordinated sweep between 23:00 and 00:30 that accounted for fourteen kills in a single ninety-minute window."
+      },
+      {
+        "host": "holden",
+        "text": "The Beltline corridor has become a vehicle-on-vehicle zone. Ambushes, drag strip tactics. That's up nine percent year-over-year."
+      },
+      {
+        "host": "holden",
+        "text": "Willy Street continues to run a neighborhood watch program. Armed barricade. Caroline, are we expecting the weather to affect that perimeter?"
+      },
+      {
+        "host": "caroline",
+        "text": "The wind will be at their backs from 19:00 to about 23:00. After the front moves in, visibility drops significantly. That could cut both ways — harder for them to see threats, harder for threats to approach."
+      },
+      {
+        "host": "holden",
+        "text": "Fair assessment. Looking at the Willy Street data, they held zero breaches last year despite being surrounded. That's statistically significant."
+      },
+      {
+        "host": "tim",
+        "text": "Tim Peplinski, station operator. I want to note that we're running clean signal tonight — all systems are go."
+      },
+      {
+        "host": "tim",
+        "text": "Our antenna is fully deployed. We're monitoring for jammers and government interdiction attempts, same as always. If you hear dead air, it's not permanent — we'll be back."
+      },
+      {
+        "host": "tim",
+        "text": "I've got three backup signal routes ready to deploy if the primary gets compromised. The station will not go dark tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim's got this. So let me be clear about what you're listening to: this is real. We are broadcasting live into an active Purge night."
+      },
+      {
+        "host": "quinn",
+        "text": "Everything you hear for the next twelve hours is happening right now. Tucker will be in the field reporting live from active zones. You'll hear real data, real analysis, real people calling in real fear."
+      },
+      {
+        "host": "quinn",
+        "text": "This is not entertainment, though it might feel like it sometimes. It's documentation. It's company. It's the one night of the year where someone's talking back to you."
+      },
+      {
+        "host": "holden",
+        "text": "I want to note that we've already seen an unusual volume of pre-Purge caller interest. Tim mentioned we've got more than a hundred text-in messages queued already, and it's only 19:00."
+      },
+      {
+        "host": "tim",
+        "text": "That's correct. Lines have been ringing all day. We're fielding requests, check-ins, people wanting to know if we're live, what time we go on air. The normal pre-broadcast cycle, but heavier than I remember."
+      },
+      {
+        "host": "quinn",
+        "text": "Word travels. Somehow, every year, more people find us. I don't know how — we're a pirate signal on an unlicensed frequency. But here you are."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature's already starting to shift. Wind's picking up. I'm reading 39 degrees now, which is two degrees cooler than it was at 18:45."
+      },
+      {
+        "host": "quinn",
+        "text": "So here's how the night's going to flow. We'll have a news rotation every hour, top of the hour bulletins after that. Tucker will be filing field reports throughout. We've got music, we've got wellness segments, we've got information."
+      },
+      {
+        "host": "quinn",
+        "text": "And we've got callers. Lots of callers, apparently. If you want to reach in, if you want to talk, if you need to hear a voice — lines are open. We'll do what we can."
+      },
+      {
+        "host": "holden",
+        "text": "I want to revisit the North Side trend from last year. They recorded 9 kills for the entire night — down 11 percent from 2167. That's the lowest count in a decade."
+      },
+      {
+        "host": "holden",
+        "text": "Nobody has publicly explained why. I have six competing hypotheses: territorial agreement between groups, increased community organization, police presence despite the no-law clause, economic factors, weather suppression effects, or random variance."
+      },
+      {
+        "host": "holden",
+        "text": "If we see a similar suppression pattern tonight, it will suggest a systemic factor rather than random noise. I'll be watching for that."
+      },
+      {
+        "host": "quinn",
+        "text": "So Holden's going to be crunching numbers all night while I'm right here drinking whiskey and trying to remember why I thought this was a good idea."
+      },
+      {
+        "host": "quinn",
+        "text": "The answer is always the same: it's the only thing I'm allowed to do in public. One night a year, I exist. You let me."
+      },
+      {
+        "host": "tim",
+        "text": "Quinn, hydrate between rounds. You're no good to anyone at hour six if you're completely non-functional at hour two."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, I appreciate the thought, but that's not how this works. By hour four, I need to be so drunk that the reality of what's happening outside doesn't register. It's a coping mechanism, and it's legal."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind's sustained at ten miles per hour now. Gusts reaching fourteen. The front is moving in faster than my 18:00 projection suggested."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm revising my estimate. Cold front will arrive closer to 23:30 than 00:00. I'm noting that."
+      },
+      {
+        "host": "holden",
+        "text": "That's significant because the peak-kill hours last year ran from 21:00 to 02:00. If the weather deteriorates during that window, activity patterns could suppress."
+      },
+      {
+        "host": "holden",
+        "text": "Conversely, if groups are organized and committed, they might accelerate their activities to beat the weather."
+      },
+      {
+        "host": "quinn",
+        "text": "So what you're both saying is: it could be heavier or lighter depending on factors nobody can predict."
+      },
+      {
+        "host": "caroline",
+        "text": "Essentially, yes."
+      },
+      {
+        "host": "quinn",
+        "text": "Great. That's the kind of certainty that keeps the whiskey moving."
+      },
+      {
+        "host": "tim",
+        "text": "We're getting text-in from someone on East Side saying their neighborhood watch group is forming up. They're armed, they're vigilant, they want people to know."
+      },
+      {
+        "host": "quinn",
+        "text": "Good. East Side's hot. They need to be organized. Holden, what are the odds that neighborhood watch programs actually reduce the kill count?"
+      },
+      {
+        "host": "holden",
+        "text": "Willy Street reduced their zone to zero breaches last year despite having single-digit armed personnel. Statistically, that's a 1.2 percent occurrence if we assume neighborhood watch has zero effect."
+      },
+      {
+        "host": "holden",
+        "text": "So either they got lucky, or armed community presence deterred activity. If it's the latter, East Side is smart to organize."
+      },
+      {
+        "host": "quinn",
+        "text": "And if it's the former, they're about to have a very bad night."
+      },
+      {
+        "host": "tim",
+        "text": "Another text-in — this one from someone asking if we're going to cover the Capitol this year like we did last year. Apparently, people want to know if the breach is repeating."
+      },
+      {
+        "host": "quinn",
+        "text": "We'll cover it if it happens. Tucker will be in position, and we'll report it live. But I'm not going to promise a repeat. Each year's different. Each year's worse in different ways."
+      },
+      {
+        "host": "holden",
+        "text": "It's worth noting that the Capitol's security contingent has had a full year to implement new protocols. Breach points from 2168 have presumably been reinforced."
+      },
+      {
+        "host": "holden",
+        "text": "But organized groups also have a year to plan. So it's an asymmetric game. No one knows the actual odds."
+      },
+      {
+        "host": "quinn",
+        "text": "Which is another reason we're all here. Uncertainty. The only thing we know for sure is that something will happen, and we'll be here to document it."
+      },
+      {
+        "host": "caroline",
+        "text": "Visibility's still good. Ten miles. But I'm seeing the leading edge of the cloud system now on the western horizon."
+      },
+      {
+        "host": "caroline",
+        "text": "By 22:00, we'll be overcast. By 23:30, we'll be in active precipitation. That's the timeline I'm calling."
+      },
+      {
+        "host": "tim",
+        "text": "Phone volume is still high. We're taking calls now from a woman on Atwood who wants to know if the station is secure and if we're going to last the full twelve hours."
+      },
+      {
+        "host": "quinn",
+        "text": "Tell her we're as secure as we can be, and yes, we'll be here. We're always here. That's the promise."
+      },
+      {
+        "host": "holden",
+        "text": "I want to return to the economic data from last year because it bears on what we might expect tonight. Total Purge-night economic activity in Madison metro was 14.2 million dollars."
+      },
+      {
+        "host": "holden",
+        "text": "That includes security installation, boarding services, medical prep, and other protective measures. In other words: 14.2 million dollars of effort to try to survive a single night."
+      },
+      {
+        "host": "holden",
+        "text": "If that number is consistent this year, we can assume engagement levels are equivalent."
+      },
+      {
+        "host": "quinn",
+        "text": "And if engagement is equivalent, we can assume kill counts will be equivalent."
+      },
+      {
+        "host": "holden",
+        "text": "Within a margin of error, yes."
+      },
+      {
+        "host": "quinn",
+        "text": "So we're expecting roughly 187 bodies by 07:00 tomorrow morning. That's a known quantity. That's what civilized society costs."
+      },
+      {
+        "host": "quinn",
+        "text": "Drink responsibly, folks. By which I mean, don't drink. Stay home. Don't drink anything. Just survive."
+      },
+      {
+        "host": "tim",
+        "text": "We've got another text-in from someone in the Vilas Park area reporting that they've reinforced their front door and they're settling in for the night. They're asking if we're going to play music."
+      },
+      {
+        "host": "quinn",
+        "text": "Nick's going to take over the music rotation starting at 20:00. Full set of punk, some covers, some deep cuts. It's real 90s and 2000s catalog — the stuff that makes you feel like you're not alone."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature's holding at 38 degrees. Wind is now sustained at twelve miles per hour with gusts to sixteen. The cold front is tracking exactly where I expected."
+      },
+      {
+        "host": "holden",
+        "text": "I want to make a note about the Beltline corridor specifically because vehicle-related kills have been rising for three consecutive years."
+      },
+      {
+        "host": "holden",
+        "text": "2166: fourteen kills. 2167: fourteen kills. 2168: eighteen kills. That's a nine percent increase in one year, concentrated in a single geographic zone."
+      },
+      {
+        "host": "holden",
+        "text": "The causation is likely economic — more people are mobile, more people have vehicles as a weapon or tool, and the Beltline is the natural corridor for that activity."
+      },
+      {
+        "host": "quinn",
+        "text": "So if you're listening from the Beltline tonight, assume it's going to be hot. Don't go outside. Don't cross the roads. Stay inside and let it pass."
+      },
+      {
+        "host": "tim",
+        "text": "We're getting texts from at least four different neighborhoods right now. People checking in, people asking for reassurance, people saying they're scared."
+      },
+      {
+        "host": "quinn",
+        "text": "This is normal. This is the opening-hour fear. It'll settle once we get into a routine. By 23:00, you'll be numb. By 03:00, you'll be exhausted. By 07:00, you'll be grateful."
+      },
+      {
+        "host": "tim",
+        "text": "Someone's asking if we have an emergency protocol if something happens to the station itself. If we get breached."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim?"
+      },
+      {
+        "host": "tim",
+        "text": "We have three backup locations. If this one goes hot, we relocate. The broadcast doesn't stop. You don't lose signal."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the commitment. Twelve hours, no matter what."
+      },
+      {
+        "host": "holden",
+        "text": "I want to talk about firearm usage because it's been declining. Last year, 44 percent of kills were firearm-related. That's down from 51 percent in 2167."
+      },
+      {
+        "host": "holden",
+        "text": "The inverse trend is melee and bladed weapons, which rose to 22 percent from 17 percent. The causation is almost certainly the Vance-era ammunition tariffs. Ammo is expensive. Knives are cheap."
+      },
+      {
+        "host": "holden",
+        "text": "That suggests an economic bifurcation: wealthy Purge participants retain firepower, while lower-income participants are shifting to less expensive lethal methods."
+      },
+      {
+        "host": "quinn",
+        "text": "So the Purge is now stratified by class even more than it was before. Rich people get guns, poor people get knives."
+      },
+      {
+        "host": "holden",
+        "text": "Statistically, yes."
+      },
+      {
+        "host": "quinn",
+        "text": "That's bleak. That's deeply, profoundly bleak. And that's why we're here. That's why you're listening. Because this is the truth, and nobody else will say it out loud."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm monitoring a change in wind direction. We've got a shift from southwest to west. The cold front is accelerating."
+      },
+      {
+        "host": "tim",
+        "text": "We've got a caller on the line. Someone from near the Capitol. Should we take it?"
+      },
+      {
+        "host": "quinn",
+        "text": "Put them on. This is what we're here for."
+      },
+      {
+        "host": "tim",
+        "text": "Caller, you're live on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "What's your name and location?"
+      },
+      {
+        "host": "quinn",
+        "text": "We've got you. You're on the air. What's happening?"
+      },
+      {
+        "host": "holden",
+        "text": "While we're waiting for the caller to respond, I want to note that activity around the Capitol last year was concentrated between 21:00 and 22:30, which aligns with the peak-activity window."
+      },
+      {
+        "host": "holden",
+        "text": "If we see a repeat pattern, we should expect the main action in that same window tonight."
+      },
+      {
+        "host": "caroline",
+        "text": "That's also when the weather will still be clear. The front won't arrive until 23:30. So visibility won't be a suppressing factor."
+      },
+      {
+        "host": "quinn",
+        "text": "So the Capitol's going to be hot right in the window when conditions are optimal for it. That tracks."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller, I know you're listening. When you're ready, tell us what you're seeing."
+      },
+      {
+        "host": "tim",
+        "text": "Still waiting for them to transmit. Sometimes people get cold feet."
+      },
+      {
+        "host": "quinn",
+        "text": "That's fine. We'll move on. We've got the full night ahead."
+      },
+      {
+        "host": "quinn",
+        "text": "Madison, here's the summary of hour one: it's 19:00, the Purge is live and happening, we're tracking clear skies until late evening, the East Side is going to be active, the Capitol is vulnerable, and we're here to document it."
+      },
+      {
+        "host": "quinn",
+        "text": "Nick's going to take over the next segment with music. Stay tuned. Stay inside. Stay alive."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "YoY comparison tracking — 2168 final count: 187 kills. 2169 projection range: 180-210 based on pre-event economic activity."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood/Schenk's Corners) remains highest-risk zone — 18.2% of 2168 kills concentrated there. Neighborhood watch groups forming up tonight."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol perimeter security has had one year to reinforce breach points from 2168 incident. Peak vulnerability window: 21:00–22:30."
+      },
+      {
+        "category": "emergency",
+        "text": "Cold front accelerating — now projected arrival 23:30 (revised from 00:00). Wind shift from SW to W. Visibility will degrade rapidly after 22:00."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Unusual volume of pre-broadcast text-in messages reported — over 100 queued by 19:00 hour. Callers reporting fear, requests for reassurance, check-ins from barricaded locations."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield security panels: installation appointments filled at 89% capacity. Last-minute reinforcement requests continue from Atwood and East Side neighborhoods."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:32:36.370Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,401 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "You're listening to PRGE. The clock reads {{CLOCK}}. We are {{ELAPSED}} into the Purge, and if you're still awake, you're either barricaded or you're one of the people I shouldn't be talking to right now."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm Quinn Foley. I exist for one night a year. The rest of the time I'm a ghost — a very irritable ghost with a liver problem and a list of names that would make the current Regional Director lose sleep, if Regional Directors ever actually sleep."
+      },
+      {
+        "host": "quinn",
+        "text": "Pre-dawn is the best time to call in. Everyone's exhausted. Everyone's honest. The people still awake are either the ones who made it through or the ones who didn't make it through and are too confused to realize it yet."
+      },
+      {
+        "host": "quinn",
+        "text": "Let's open the lines. You've been sitting in your homes — your barricaded, reinforced, PurgeShield-paneled homes — for eleven hours. Caller one, you're on with Quinn Foley. Who am I talking to?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michael from Atwood — Yeah, hi Quinn, I've been listening all night. I wanted to call in earlier but it wasn't safe to move around the house."
+      },
+      {
+        "host": "quinn",
+        "text": "Michael, Atwood's been hot all night — we've had reports in that corridor since about 8pm. How are you doing over there? Are you secure?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michael from Atwood — We're okay. The panels are holding. There was something outside around 2am, sounded like a vehicle, but it moved on. We've got three families in here now — we opened up the adjoining units when the barricade plan started."
+      },
+      {
+        "host": "quinn",
+        "text": "Three families. That's good. That's community. That's the one thing the people who built the Purge didn't expect — people would actually, you know, help each other instead of eating each other."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michael from Atwood — That's exactly it. My neighbor two doors down, we didn't talk before tonight. Haven't said a word to him in two years. His wife is a nurse. She's been checking on the kids."
+      },
+      {
+        "host": "quinn",
+        "text": "See, this is what they don't film in the promotional materials for the Purge. This is the part where you realize that the actual apocalypse was already here — it was just called 'normal.' And then for twelve hours, people go back to being human."
+      },
+      {
+        "host": "quinn",
+        "text": "Michael, tell me — and I want you to be honest — what's the hardest part of this night for you?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michael from Atwood — Not being able to leave. Someone's daughter — the nurse's daughter, she's eight — she's been asking when we can go outside. How do you explain to a kid that the world is just... paused for violence?"
+      },
+      {
+        "host": "quinn",
+        "text": "You tell her that it is, and you tell her you're going to sit with her until the sun comes up, and you tell her that every single person who stayed home tonight did the same thing, and that means something."
+      },
+      {
+        "host": "quinn",
+        "text": "Michael, stay safe. Stay on the line if you want — I'm going to take another call, but you can just listen if it helps."
+      },
+      {
+        "host": "quinn",
+        "text": "We've had some incredible reports coming in from Williamson Street. If you remember from earlier in the night, the neighborhood watch up there held a barricade at the Yahara bridge for almost two hours with nothing but determination and a very competent woman with a hunting rifle."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Willy Street — Quinn, I'm that woman. I wanted to call in before but we didn't dare break position until about an hour ago."
+      },
+      {
+        "host": "quinn",
+        "text": "Sarah. Sarah from Williamson Street. I have to ask — and I'm asking this with genuine curiosity, not as criticism — how does a neighborhood watch sustain a defensive position for that long when the Purge removes all legal authority?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Willy Street — People actually show up when you ask them. That's the dirty secret. You organize, you tell people the plan, and they come. We had people we'd never met before the pandemic taking positions. We had a librarian with a crossbow. We had a plumber with a crowbar."
+      },
+      {
+        "host": "quinn",
+        "text": "A librarian with a crossbow. Sarah, that's the most Wisconsin thing I've heard all night, and I once heard someone describe a murder weapon as a 'modified cheese knife.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Willy Street — The knife person was us too, actually. But no, I'm serious — once you actually look at your neighbors instead of through them, you realize the infrastructure for survival is already there."
+      },
+      {
+        "host": "quinn",
+        "text": "Did you lose anyone? Can you tell me that?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Willy Street — No. Zero perimeter breaches. We held for one hundred and forty-seven minutes. Then we dissolved the barricade because people were exhausted and the hotspots had moved east. Now we're just... here. Listening to you. Waiting for the sun."
+      },
+      {
+        "host": "quinn",
+        "text": "Sarah, I'm going to say this plainly, and I want you to hear it: what you did tonight is exactly what those people in the Capitol — the people in the fortified buildings with the security details — what they do every single night of the year. You protected people. You made a choice about whose safety mattered. You stayed."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Willy Street — It's one night. For you, it's the only night you get."
+      },
+      {
+        "host": "quinn",
+        "text": "That's right. That's exactly right. And I'm going to remember this conversation next year when I'm in whatever hole I'm in, and I'm going to pour a drink to librarians with crossbows."
+      },
+      {
+        "host": "quinn",
+        "text": "We're getting texts coming in. Let me read a few of these. 'Quinn, my daughter asked me what happens at 7am. I told her the rules come back. She asked if the bad people know that. I don't know how to answer her.'"
+      },
+      {
+        "host": "quinn",
+        "text": "That's the question nobody wants to ask out loud. At 7am, the Purge ends. The law returns. But the people with power keep their power. The people with nothing are still here. The bad people? They know it. They're counting on it."
+      },
+      {
+        "host": "quinn",
+        "text": "Here's another text: 'I've been listening since 7pm. My husband wanted to go out and join the violence. I begged him not to. We've been sitting in silence for eleven hours. At 6:58am, he's going to walk out like nothing happened. How do I live with that?'"
+      },
+      {
+        "host": "quinn",
+        "text": "Don't. Don't live with that. The Purge ends at 7am, but your marriage — that ended at midnight, or maybe it started ending, and tonight you just found out. You get to make a choice about that too."
+      },
+      {
+        "host": "quinn",
+        "text": "The East Side's been the hotspot all night. We got up to 34 confirmed kills in that corridor by the time Tucker's reports started getting... inconsistent. Let's take another call. Who's on the line?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Atwood — Quinn, I'm calling from the basement of a commercial building on East Washington. I came down here at 7:15pm to lock up some equipment. Doors locked behind me before I could get back up."
+      },
+      {
+        "host": "quinn",
+        "text": "David. David, are you telling me you've been trapped in a basement for eleven hours?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Atwood — Yeah. Yeah, I am. But Quinn, I'm okay. The building's empty. I've got water, I've got some tools, I've got the emergency light. And I can hear sirens outside, which means people are still out there. Which means it's almost over."
+      },
+      {
+        "host": "quinn",
+        "text": "David, the sirens you hear — those aren't police. There is no police during the Purge. Those are rescue operations. Private security. Volunteer crews. It means people are trying to help."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Atwood — I know what they are. But they're proof that somewhere, somebody's not just surviving — they're actually helping. That's enough for me to get through the last hour."
+      },
+      {
+        "host": "quinn",
+        "text": "David, when 7am comes, go to the main entrance. Stay visible. Let the rescue teams see you. And thank you for calling in."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I hate about pre-dawn? The false hope. The sun's not here yet, but you can feel it coming. You can feel the world about to start again, and you don't know if that's a relief or if it's about to get worse."
+      },
+      {
+        "host": "quinn",
+        "text": "I've been thinking about the year I lost my seat. 2167. I was still in office during Purge Night back then — I had a security detail, I had an office, I had a future. And I remember sitting in that fortified building and feeling nothing."
+      },
+      {
+        "host": "quinn",
+        "text": "I felt like I was in a submarine watching the ocean burn. Interesting problem. Somebody else's problem. I went home at 7am and had a steak and a scotch and felt grateful for the infrastructure that protected me."
+      },
+      {
+        "host": "quinn",
+        "text": "The scandal came later. And when it came, there was no infrastructure. There was just falling. And I fell all the way to here — to a pirate broadcast, to a single night a year, to reading text messages from people who are terrified."
+      },
+      {
+        "host": "quinn",
+        "text": "And you know what? This is better. This is more honest than anything I did in that office."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from Tenney Park — Quinn, I don't know if you're taking calls, but I need to say something."
+      },
+      {
+        "host": "quinn",
+        "text": "Jennifer, I'm always taking calls. What do you need to say?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from Tenney Park — My mother lives in Tenney Park. She's eighty-four. She chose not to barricade this year. She said she was tired of being afraid. So she's just... sitting in her living room with the lights on, waiting."
+      },
+      {
+        "host": "quinn",
+        "text": "Jennifer, where are you?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from Tenney Park — I'm three blocks away. I can see her apartment building from my window. The lights are still on."
+      },
+      {
+        "host": "quinn",
+        "text": "Is she alone?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from Tenney Park — No. Her friend Margaret came over around 10pm. They're playing cards. They've been playing cards for ten hours."
+      },
+      {
+        "host": "quinn",
+        "text": "Jennifer, your mother and her friend are doing something most people can't do — they're living like the Purge isn't happening. They're refusing the fear. That's the most radical thing anyone can do on this night."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from Tenney Park — I just wanted you to know that. I wanted it to exist in the world somehow. I wanted someone to know they're up there, playing cards, not barricading, not hiding."
+      },
+      {
+        "host": "quinn",
+        "text": "Jennifer, I know now. And everyone listening to PRGE knows now. Your mother and Margaret are doing the thing that actually matters. They're choosing kindness on a night when the world chose violence."
+      },
+      {
+        "host": "quinn",
+        "text": "We're getting into the final hour. Fifty-three minutes until the all-clear. Fifty-three minutes until the Purge ends and the legal system wakes up and pretends this night didn't happen."
+      },
+      {
+        "host": "quinn",
+        "text": "But we know it happened. Tucker's analytics were solid until they weren't — we know it happened. The barricades on Williamson Street, the basement David's sitting in, the woman watching her mother's lights from three blocks away — we know it happened."
+      },
+      {
+        "host": "quinn",
+        "text": "And next year, we're going to do this all over again. The same night. The same broadcast. The same people barricading, hiding, hoping. And me, I'll be somewhere else, not existing, until 7pm comes around again."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from East Washington — Quinn, I've got to tell you something, and I'm not sure it's safe, but I'm calling anyway."
+      },
+      {
+        "host": "quinn",
+        "text": "Robert, you're safe. This is a pirate broadcast. The FCC isn't coming. The law isn't coming for another forty-nine minutes. What do you need to say?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from East Washington — I work security. Private contract. And tonight, I was supposed to be working the Capitol perimeter when the breach happened. I called in sick instead."
+      },
+      {
+        "host": "quinn",
+        "text": "You called in sick to a Purge-night security gig. That's a decision."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from East Washington — It was. And I had to live with it. I still have to live with it. People died because I wasn't there. People I might have been able to stop."
+      },
+      {
+        "host": "quinn",
+        "text": "Robert, I'm going to tell you something, and I want you to hear this: there is no version of the Purge where you're not complicit. You work security. You took a job inside a system designed to keep some people alive and let everyone else fend for themselves."
+      },
+      {
+        "host": "quinn",
+        "text": "The only ethical move is the one you made — call in sick, step out, refuse to participate. So you did the right thing, and it feels wrong, because the whole system is wrong."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from East Washington — I needed someone to tell me that. I needed to hear it out loud."
+      },
+      {
+        "host": "quinn",
+        "text": "Robert, you heard it. From a man who used to profit off this system. You made the right choice. Now live with that instead of the other thing."
+      },
+      {
+        "host": "quinn",
+        "text": "We're getting some texts about the neighborhoods. Caroline's been tracking the East Side all night, and the patterns are starting to clarify. Atwood's been active but contained. Tenney Park stayed quiet because Jennifer's mother decided to keep the lights on."
+      },
+      {
+        "host": "quinn",
+        "text": "That's not statistical. That's not data. That's an old woman and her friend playing cards and refusing fear, and it created a zone of safety just by existing."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to pour a drink now. My eighth. Maybe my ninth. The whiskey's almost gone, and so is the night. The sun's coming up in forty-four minutes."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I think about, sitting here in the pre-dawn, alone with a glass of Irish whiskey that cost more than most of your weekly groceries? I think about fairness."
+      },
+      {
+        "host": "quinn",
+        "text": "There's no fairness in any of this. The people in the fortified buildings don't listen to PRGE. The people with real security don't need my voice. I'm here for you — the people who stayed home, who barricaded, who played cards, who called a radio station to say something true."
+      },
+      {
+        "host": "quinn",
+        "text": "That's who I exist for. One night a year. And I'm grateful for it, even though it's backwards and broken and every year I wonder if I'll make it to next year's broadcast."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Susan from Willy Street — Quinn, I was listening to Sarah earlier, the woman with the barricade, and I wanted to add something."
+      },
+      {
+        "host": "quinn",
+        "text": "Susan, go ahead."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Susan from Willy Street — Sarah's family, her actual family, they were part of the barricade crew. Her husband, her teenage kids, they all showed up. And I watched it happen from my window. I watched a family choose to protect other people's families."
+      },
+      {
+        "host": "quinn",
+        "text": "That's what makes it work. It's not an individual act. It's a choice that propagates. Sarah showed up, so her family showed up, so the librarian with the crossbow showed up, so the plumber with the crowbar showed up."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Susan from Willy Street — Exactly. And all of us who stayed home and trusted them — we were part of it too. We didn't break the perimeter. We didn't add to the chaos. We stayed put and let the system work."
+      },
+      {
+        "host": "quinn",
+        "text": "Susan, that's community in its purest form. And it only lasts one night a year, which makes it even more precious and even more tragic."
+      },
+      {
+        "host": "quinn",
+        "text": "I've got a text here: 'Quinn, my daughter's asleep finally. She's been awake for nine hours. I've been awake for eleven. When 7am comes, do we pretend this didn't happen? Do we go to work like normal?' The answer is yes, and yes, and yes. And it never gets easier."
+      },
+      {
+        "host": "quinn",
+        "text": "The Purge is designed to reset every year. It's supposed to be cathartic — all the violence happens, then everyone shakes it off, and you get a functional society for 364 days. But that doesn't account for the people who don't get to shake it off."
+      },
+      {
+        "host": "quinn",
+        "text": "Michael's in that basement with his neighbors. David's in that building. Jennifer's watching her mother's lights. They don't get to just move on at 7am. They're changed. They're carrying something now."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patrick from Atwood — Quinn, I need to know if you think the Purge is necessary. Like, do you think on some level it works?"
+      },
+      {
+        "host": "quinn",
+        "text": "Patrick, that's a question I've been asking for forty years, and the answer's changed every time the question got asked."
+      },
+      {
+        "host": "quinn",
+        "text": "When I was a politician defending it, I said yes — it releases pressure, creates catharsis, prevents systemic collapse. That was the lie I told to stay in power."
+      },
+      {
+        "host": "quinn",
+        "text": "When I was falling, I said maybe — some people need the outlet, some people need the night to understand what the rest of the year looks like. That was me bargaining."
+      },
+      {
+        "host": "quinn",
+        "text": "Now? Now I think it's a construct that lets powerful people stay powerful while everyone else proves they deserve to suffer. The Purge isn't a solution. It's a feature. And it's working exactly as intended."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patrick from Atwood — So we're stuck with it."
+      },
+      {
+        "host": "quinn",
+        "text": "We're stuck with it until we're not. And the only thing that changes that is people — people like Sarah and Michael and David and Jennifer — saying no. One barricade at a time. One night at a time. Until the whole thing breaks."
+      },
+      {
+        "host": "quinn",
+        "text": "I can see the first gray starting at the edges of the sky now. That's pre-dawn. That's the signal that the end is coming."
+      },
+      {
+        "host": "quinn",
+        "text": "We're thirty-nine minutes out from the all-clear. Thirty-nine minutes until the Purge officially ends and I become a ghost again for another 364 days."
+      },
+      {
+        "host": "quinn",
+        "text": "I want to thank everyone who called in tonight. Everyone who stayed on the line. Everyone who let me be a voice in the dark for a moment."
+      },
+      {
+        "host": "quinn",
+        "text": "Next year, at 7pm on March 23rd, I'll be back here. Same broadcast. Same station. Same pirate frequency. And you'll be back, listening, barricaded, waiting for the sun."
+      },
+      {
+        "host": "quinn",
+        "text": "And that might be the only thing that matters — that we show up. That we don't give up. That we keep choosing community and safety and each other, even when the world's designed to make us choose violence."
+      },
+      {
+        "host": "quinn",
+        "text": "The sky's getting lighter. The night's almost done. In thirty-four minutes, you can open your doors. You can breathe. You can start the year over again, knowing you made it through."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Mary from Near East — Quinn, I just want to say thank you. For existing. For being here."
+      },
+      {
+        "host": "quinn",
+        "text": "Mary, that's why I exist. That's the only reason."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 187 confirmed kills (projected final, matching 2168). East Side steady all night at 34 total. Atwood neighborhood contributing 8-9 of those, contained within expected parameters."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Williamson Street barricade held 147 minutes with zero perimeter breaches. All defensive personnel still intact. Neighborhood watch dispersed at 04:15 when hotspots shifted eastward. Community-coordinated defense remains the night's most successful localized response."
+      },
+      {
+        "category": "emergency",
+        "text": "East Washington basement entrapment (commercial building): one occupant secured, awaiting rescue-crew pickup at 07:05. Tenney Park shoreline remains quiet — volunteer crews stand by. No additional rescue operations pending in current hour."
+      },
+      {
+        "category": "local-news",
+        "text": "Sky clearing, pre-dawn gray confirmed at 05:00. Temperature holding at 22F. NW wind 5 mph. Sunrise projected 06:47. Final hour conditions stable. No weather emergencies. Safe for rescue operations at all-clear."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:50:39.643Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

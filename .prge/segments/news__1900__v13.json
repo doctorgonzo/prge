@@ -1,0 +1,493 @@
+{
+  "format": "news",
+  "inWorldTime": "19:00",
+  "body": {
+    "type": "news",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Good evening, Madison. The clock reads {{CLOCK}}. We are live."
+      },
+      {
+        "host": "quinn",
+        "text": "For those tuning in for the first time — welcome to Purge Radio, PRGE, the one night a year we get to say hello in public."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm Quinn Foley. I'm four whiskeys in already, and the night is young, and I have every intention of keeping both facts true until sunrise."
+      },
+      {
+        "host": "quinn",
+        "text": "The Purge commenced at 19:00. We are {{ELAPSED}} in. Twelve hours total. You know the rules."
+      },
+      {
+        "host": "quinn",
+        "text": "All law is suspended. All crime is legal. Government officials Level-10 and above are protected. Everyone else is fair game."
+      },
+      {
+        "host": "quinn",
+        "text": "And yet, here you are. Listening to the radio instead of participating. I respect that. Truly."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got Caroline on weather, Holden on analysis, Tim keeping the signal hot, and field reports coming in from Tucker as the night develops."
+      },
+      {
+        "host": "quinn",
+        "text": "But I want to start with something I've been noticing in the first hour, and maybe you have too."
+      },
+      {
+        "host": "quinn",
+        "text": "It's quiet out there. Quieter than last year at this hour."
+      },
+      {
+        "host": "quinn",
+        "text": "The city's not jumping yet. No sirens — well, there are sirens, but they're thin. The normal 7pm traffic sounds are just... absent."
+      },
+      {
+        "host": "quinn",
+        "text": "Could be the weather. Could be economic factors — ammo prices are still brutal. Could be that people are just smarter about their barricading now."
+      },
+      {
+        "host": "quinn",
+        "text": "Or could be that this year, Madison's taking a breath before it exhales."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline, I'm gonna hand it to you for the weather picture. Give us tonight's forecast."
+      },
+      {
+        "host": "caroline",
+        "text": "Thanks, Quinn. Caroline here. I've been tracking this system since Tuesday and I want to be very clear about what's coming."
+      },
+      {
+        "host": "caroline",
+        "text": "We start clear. Forty-one degrees, southwest wind at eight miles per hour. Visibility is excellent — ten miles or better."
+      },
+      {
+        "host": "caroline",
+        "text": "This is the 'decide what you're doing' hour. If you're going to move, this is when conditions are optimal for it."
+      },
+      {
+        "host": "caroline",
+        "text": "Around 21:00, we start seeing clouds build in from the west. Wind picks up to twelve, gusts to eighteen."
+      },
+      {
+        "host": "caroline",
+        "text": "By midnight, a cold front arrives. Temperature drops from thirty-seven to the low thirties. Rain develops, potentially transitioning to sleet by 01:00."
+      },
+      {
+        "host": "caroline",
+        "text": "That system holds through the pre-dawn. We're looking at fog off Mendota around 03:00 to 04:00. Visibility drops to a mile and a half."
+      },
+      {
+        "host": "caroline",
+        "text": "The fog clears by sunrise. Temperature bottoms out around twenty-one, clear skies, hard frost on everything."
+      },
+      {
+        "host": "caroline",
+        "text": "So if you're hearing quietness right now, part of it might be that people are waiting. Waiting to see what the weather does."
+      },
+      {
+        "host": "caroline",
+        "text": "The rain and cold will either suppress activity or funnel it indoors. Last year, we saw the kill count actually tick up during the fog phase."
+      },
+      {
+        "host": "caroline",
+        "text": "People get claustrophobic. Visibility disappears. Things happen in the dark that wouldn't happen in clear conditions."
+      },
+      {
+        "host": "quinn",
+        "text": "So we're looking at a night that's going to *transform* as we go. Clear and still now, then weather moves in."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, before we get to the pre-Purge statistics, I want to ask you something."
+      },
+      {
+        "host": "quinn",
+        "text": "In your view — and I know you think about this stuff — is the quiet we're hearing right now unusual?"
+      },
+      {
+        "host": "holden",
+        "text": "Thanks, Quinn. Yes, I've been running the numbers against the same hour across the last five years, and it's statistically significant."
+      },
+      {
+        "host": "holden",
+        "text": "We're tracking approximately forty percent lower acoustic activity in the first hour compared to the 2164-2167 average."
+      },
+      {
+        "host": "holden",
+        "text": "That could indicate a few things. One: people are staying home in higher numbers. Two: people who are *going out* are being more cautious about making noise."
+      },
+      {
+        "host": "holden",
+        "text": "Three: there's a geographic concentration of activity that we're not catching yet because the violence is still establishing itself in preferred zones."
+      },
+      {
+        "host": "holden",
+        "text": "We know from 2168 data that the East Side typically lights up around 20:00 to 20:30. Capitol Square breach didn't happen until 21:40."
+      },
+      {
+        "host": "holden",
+        "text": "So it's entirely possible we're just in the settling phase. The calm before the metrics spike."
+      },
+      {
+        "host": "quinn",
+        "text": "That's a comforting thought, Holden. Really warms the heart."
+      },
+      {
+        "host": "holden",
+        "text": "The data is what it is, Quinn. I'm just reading it."
+      },
+      {
+        "host": "holden",
+        "text": "But if I'm being asked for my *personal* take — and I probably shouldn't be, but I am — the quiet feels intentional this year."
+      },
+      {
+        "host": "holden",
+        "text": "There's a difference between calm and caution. This feels like the latter."
+      },
+      {
+        "host": "quinn",
+        "text": "Okay. I'm going to try to not let that thought keep me awake for the next twelve hours."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, we're still holding signal strong?"
+      },
+      {
+        "host": "tim",
+        "text": "Rock solid. Backup power is at ninety-eight percent. Antenna rig is locked and oriented. We're broadcasting clean on the frequency."
+      },
+      {
+        "host": "tim",
+        "text": "First hour always runs quiet on the technical side. People aren't panicked yet, so they're not trying to jam us."
+      },
+      {
+        "host": "tim",
+        "text": "That'll change. But right now, we're golden."
+      },
+      {
+        "host": "quinn",
+        "text": "And if someone *does* try to jam us?"
+      },
+      {
+        "host": "tim",
+        "text": "We relocate the antenna, move the rig, and we're back in four to five minutes. Did it a dozen times in testing. We can do it in the field."
+      },
+      {
+        "host": "quinn",
+        "text": "I appreciate that confidence, Tim. Truly."
+      },
+      {
+        "host": "quinn",
+        "text": "Alright, so here's what we know as we settle into this night. The Purge is live. The city is quiet. The weather is about to get interesting."
+      },
+      {
+        "host": "quinn",
+        "text": "And we're going to be here, documenting it, analyzing it, maybe making bad jokes about it, until 07:00 tomorrow."
+      },
+      {
+        "host": "quinn",
+        "text": "If you're listening because you're home and you're scared, we see you. You're not alone."
+      },
+      {
+        "host": "quinn",
+        "text": "If you're listening because you're home and you're safe and you just want company, we see that too."
+      },
+      {
+        "host": "quinn",
+        "text": "If you're listening for other reasons, well, we don't ask questions on this station."
+      },
+      {
+        "host": "quinn",
+        "text": "The phones are open for callers. Tucker's standing by for field reports. Caroline's monitoring the weather. Holden's running the numbers."
+      },
+      {
+        "host": "quinn",
+        "text": "And I'm going to pour whiskey number five and we're going to get through this together."
+      },
+      {
+        "host": "caroline",
+        "text": "Quinn, before we move on, I want to note that I've been watching the Mendota water temperature."
+      },
+      {
+        "host": "caroline",
+        "text": "As of 18:55 — just before we went live — it was holding at thirty-four degrees."
+      },
+      {
+        "host": "caroline",
+        "text": "If anyone's considering water-based movement tonight, I'm telling you now: survivability window at that temperature is approximately twenty minutes."
+      },
+      {
+        "host": "caroline",
+        "text": "Most people don't make it that far. Just wanted that on record."
+      },
+      {
+        "host": "holden",
+        "text": "Caroline's correct. Lake drownings account for approximately three to four percent of total Purge casualties in Madison, but the survival rate is nearly zero."
+      },
+      {
+        "host": "holden",
+        "text": "The cold shock response triggers within two minutes. Panic sets in. Most people aspirate water before rescue is even possible."
+      },
+      {
+        "host": "holden",
+        "text": "So if you've been thinking about the lake as an escape route, don't."
+      },
+      {
+        "host": "quinn",
+        "text": "We're just hitting you with the cheerful facts right out of the gate, aren't we?"
+      },
+      {
+        "host": "quinn",
+        "text": "This is Purge Radio. We don't sugarcoat."
+      },
+      {
+        "host": "tim",
+        "text": "Got a text incoming. Someone on the South Side asking if we're taking callers yet."
+      },
+      {
+        "host": "quinn",
+        "text": "Put them through. We've got time."
+      },
+      {
+        "host": "quinn",
+        "text": "But before we do, let me run through tonight's lineup real quick."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got news and weather through the top of the hour. Then we're shifting to sports and neighborhood breakdown with Holden and Caroline."
+      },
+      {
+        "host": "quinn",
+        "text": "At 20:30, Tucker's going to start checking in from the field. Updates every thirty minutes or as conditions warrant."
+      },
+      {
+        "host": "quinn",
+        "text": "Nick's music block runs from 21:00 through 02:00. Solid punk all night. No Springsteen, no country, no exceptions."
+      },
+      {
+        "host": "quinn",
+        "text": "Sister Marigold's wellness meditations run every two hours starting at 22:00. If you need to hear her voice at three in the morning, she'll be here."
+      },
+      {
+        "host": "quinn",
+        "text": "And I'll be anchoring through the night, trying to make sense of whatever's happening out there and failing in entertaining ways."
+      },
+      {
+        "host": "holden",
+        "text": "I want to add something to the neighborhood forecast, if I can."
+      },
+      {
+        "host": "holden",
+        "text": "Based on 2168 data and the economic shifts we've seen in the past year, I'm expecting the East Side to heat up around 20:00 to 20:30."
+      },
+      {
+        "host": "holden",
+        "text": "That zone is consistently the hottest in Madison — eighteen percent of total kills last year, fourth year running."
+      },
+      {
+        "host": "holden",
+        "text": "Atwood, Schenk's Corners, the Northside of that corridor — those neighborhoods are primed."
+      },
+      {
+        "host": "holden",
+        "text": "Capitol Square is fortified this year like it wasn't last year, so I expect less breach attempts. But State Street — the State Street ruins are a wildcard."
+      },
+      {
+        "host": "holden",
+        "text": "No organized presence. No barricades. Just the urban skeleton and whoever decides to move through it."
+      },
+      {
+        "host": "caroline",
+        "text": "And the weather's going to shape all of that. Wind pushing out of the southwest now means the smoke from fires will drift toward the northwest side."
+      },
+      {
+        "host": "caroline",
+        "text": "When the cold front moves in and the wind shifts north and west, that changes the whole geometry."
+      },
+      {
+        "host": "caroline",
+        "text": "Fire spread patterns, visibility for people moving through affected areas, even tactical positioning — it all shifts with the weather."
+      },
+      {
+        "host": "quinn",
+        "text": "So what you're saying is that the atmosphere — literally, the actual weather — is a factor in how many people die tonight."
+      },
+      {
+        "host": "caroline",
+        "text": "That's always true. But yes, explicitly, tonight it will be a measurable factor."
+      },
+      {
+        "host": "quinn",
+        "text": "And we'll be tracking it. Tim, we ready for that first caller?"
+      },
+      {
+        "host": "tim",
+        "text": "Line's open. South Side, like I said. Caller's name is — they didn't give a name. Just 'South Side.'"
+      },
+      {
+        "host": "quinn",
+        "text": "We love it. Put them on."
+      },
+      {
+        "host": "quinn",
+        "text": "You're on Purge Radio. What's happening down there?"
+      },
+      {
+        "host": "quinn",
+        "text": "I should mention — and I'm sorry to talk over you, but this is important — that we're not going to be able to help if you need active assistance."
+      },
+      {
+        "host": "quinn",
+        "text": "We're not connected to any emergency services. We're radio. We're a voice. That's all we are."
+      },
+      {
+        "host": "quinn",
+        "text": "But if you want to talk, we can do that. Sometimes talking helps."
+      },
+      {
+        "host": "quinn",
+        "text": "What's your situation?"
+      },
+      {
+        "host": "holden",
+        "text": "While we're waiting for them to respond, let me pull up one more statistic that's been sitting with me."
+      },
+      {
+        "host": "holden",
+        "text": "The three neighborhoods that *didn't* spike last year — North Side, Vilas Park, parts of the West Side — they all had something in common."
+      },
+      {
+        "host": "holden",
+        "text": "Either organized community presence, private security, or in one case, a territorial agreement we still haven't figured out."
+      },
+      {
+        "host": "holden",
+        "text": "The difference between a bad Purge and a survivable one is often just organization."
+      },
+      {
+        "host": "caroline",
+        "text": "Which neighborhoods are you living in, if people are listening?"
+      },
+      {
+        "host": "caroline",
+        "text": "If you're in Atwood or East Side generally, you're in the highest-risk zone. Get ready for activity by 20:30."
+      },
+      {
+        "host": "caroline",
+        "text": "If you're on the South or West Side with organized barricades, you've got better odds. Stay vigilant."
+      },
+      {
+        "host": "caroline",
+        "text": "If you're in areas with private security or natural barriers, you're in the relative safe zones. That doesn't mean safe, by the way. It means safer."
+      },
+      {
+        "host": "quinn",
+        "text": "And if the caller from the South Side is still with us, I'm genuinely curious what brings them to the radio at this hour."
+      },
+      {
+        "host": "tim",
+        "text": "They're still on the line. Just not talking yet. I can hear breathing."
+      },
+      {
+        "host": "quinn",
+        "text": "That's okay. Take your time. We've got twelve hours."
+      },
+      {
+        "host": "quinn",
+        "text": "This is the deal with Purge Radio — we're not here to rush anyone. If you need silence and a voice on the other end, that's what we do."
+      },
+      {
+        "host": "holden",
+        "text": "I'm going to use this moment to circle back to the eerie quiet we started with."
+      },
+      {
+        "host": "holden",
+        "text": "In 2165, we had a similar first hour. Acoustic data showed a thirty-five percent reduction in baseline ambient violence indicators."
+      },
+      {
+        "host": "holden",
+        "text": "That year, the kill count ended up being the lowest on record for Madison — 194 total."
+      },
+      {
+        "host": "holden",
+        "text": "So quiet first hours don't necessarily correlate with quiet nights. Sometimes they mean something is being planned. Organized. Delayed for tactical reasons."
+      },
+      {
+        "host": "holden",
+        "text": "This could be one of those years."
+      },
+      {
+        "host": "quinn",
+        "text": "So you're saying we might be sitting on top of something and we just don't know it yet."
+      },
+      {
+        "host": "holden",
+        "text": "I'm saying the quiet is data. And data without context can mean almost anything."
+      },
+      {
+        "host": "caroline",
+        "text": "The weather will help us understand it. Once the conditions change, we'll see how people respond."
+      },
+      {
+        "host": "caroline",
+        "text": "My prediction is that activity ticks up significantly once the wind picks up and the cloud cover moves in. Darkness makes people bolder."
+      },
+      {
+        "host": "tim",
+        "text": "Caller from the South Side is going to disconnect. They're doing that thing where they can't quite speak but they needed to be less alone."
+      },
+      {
+        "host": "quinn",
+        "text": "That's fair. Hang in there. We'll be here. All night."
+      },
+      {
+        "host": "quinn",
+        "text": "So here's where we are at the top of the opening hour. {{ELAPSED}} since the Purge commenced."
+      },
+      {
+        "host": "quinn",
+        "text": "The city is quiet in a way that might be calm or might be ominous. Weather's about to shift. The East Side is a ticking clock."
+      },
+      {
+        "host": "quinn",
+        "text": "And we're going to be here, tracking it all, until the sun comes up."
+      },
+      {
+        "host": "quinn",
+        "text": "This is Quinn Foley on Purge Radio. We'll be right back."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "local-news",
+        "text": "Madison Purge commenced at 19:00. All law suspended until 07:00 tomorrow. Level-10+ officials protected. Stay home or barricade."
+      },
+      {
+        "category": "emergency",
+        "text": "Lake Mendota water temperature 34°F. Survivability window approximately 20 minutes. Do not attempt crossing."
+      },
+      {
+        "category": "local-news",
+        "text": "East Side heating up projected for 20:30. Atwood / Schenk's Corners residents prepare for activity."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield paneling installed wrong? Check orientation now. Call 608-555-SAFE for emergency repositioning."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol Square fortified this year. State Street ruins undefended. Weather shifting to cold front by 21:00."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "South Side caller reports barricades in place, supplies adequate, staying home. Phones open all night."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:43:56.428Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

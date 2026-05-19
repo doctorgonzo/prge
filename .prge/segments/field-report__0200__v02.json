@@ -1,0 +1,49 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm positioned near the Vilas Park perimeter, east side of the lake. It's {{CLOCK}} Madison. We're {{ELAPSED}} into the night and the cumulative kill count is holding at 104. That's tracking 18% below last year's 04:00 mark."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side remains dominant — Atwood corridor has absorbed 34 kills tonight, which is 32% of the Madison total. That's consistent with the 2168 pattern. Williamson Street's barricade line is still intact as of my last pass, approximately 90 minutes ago."
+      },
+      {
+        "host": "tucker",
+        "text": "Weapons methodology shows a slight uptick in bladed implements versus firearms. I'm seeing that tracked at 26% of reported incidents, up from the seasonal 22%. Economic indicator — ammunition tariffs are still pricing out the lower brackets, like Holden predicted."
+      },
+      {
+        "host": "tucker",
+        "text": "The quiet is interesting. We've had sustained activity but nothing coordinated since the State Street sweep. No major breach attempts. No vehicle pileups in the last two hours. Wind's died down — Caroline's forecast held. Fog's still off Mendota but visibility is improving."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm going to reposition north toward the Near East sector. Tenney Park had a spike in the 3am hour that I want to cross-reference against the shoreline data and — hold on, my body-cam relay is — the signal's [CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 104 confirmed ({{ELAPSED}} elapsed). YoY delta: -18% vs 2168 same hour."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood): 34 kills, 32% of total. Williamson Street barricade holding. Vilas Park quiet."
+      },
+      {
+        "category": "local-news",
+        "text": "Visibility improving post-fog. Wind sustained NW 14 mph. Cold front impact on activity patterns ongoing."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield: Emergency reinforcement crews still operational. Call 1-800-SHIELD-9 if your panels are compromised."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:07:58.335Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

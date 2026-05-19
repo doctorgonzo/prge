@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm positioned on the East Side near Schenk's Corners. {{ELAPSED}} into the Purge. Kill count is holding at 38 cumulative — that's 19 in this hour alone, up 11% from the same window last year."
+      },
+      {
+        "host": "tucker",
+        "text": "Wind's shifted northwest, gusting hard now. Temperature's dropped to 33. I can see breath. Caroline was right about the timing on that cold front."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side is pulling 34% of the city's total activity. That's 13 kills in this neighborhood in the last 60 minutes. Atwood corridor especially. The data suggests coordinated movement — not random."
+      },
+      {
+        "host": "tucker",
+        "text": "Weapons profile is shifting. Bladed implements are running about 28% higher than this point last year. Firearm usage down — ammo costs, like Holden said earlier. People are getting creative with what they have."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm moving south toward the residential blocks. Visibility is maybe 6 miles now, dropping. The wind is actually helping — most activity is concentrating on the leeward side of the—"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 38 kills. YoY delta: +11% at this hour mark."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood/Schenk's): 13 kills this hour. 34% of citywide total."
+      },
+      {
+        "category": "local-news",
+        "text": "Cold front arrived on schedule. Wind gusts 20+ mph. Temperature 33F and dropping."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield panels holding in most East Side installations. One reported structural failure on Atwood Ave — call 1-800-SHIELDME for emergency retrofit."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:33:03.396Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

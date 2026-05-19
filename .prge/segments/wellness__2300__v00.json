@@ -1,0 +1,225 @@
+{
+  "format": "wellness",
+  "inWorldTime": "23:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. The clock reads {{CLOCK}}. We are {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm Sister Marigold. For the next hour, we breathe together."
+      },
+      {
+        "host": "marigold",
+        "text": "Find a place in your home where you feel safe. It doesn't have to be comfortable. It has to be yours."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe in through your nose. Count to four. One. Two. Three. Four."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold it. Feel the air in your chest. You chose to stay inside. That was a choice."
+      },
+      {
+        "host": "marigold",
+        "text": "Now release. Through your mouth. Slowly. Let it out."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Again. In. Four counts. The people on Atwood Avenue right now — they are doing this too. You're not alone in the darkness."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold. [pause] Your neighbor might be listening to this same broadcast. The one two houses down. Or three blocks over on Tenney Park."
+      },
+      {
+        "host": "marigold",
+        "text": "Release."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Scan your body now. Start at your forehead. Is it tight? Most of you — yes. That's the midnight hour. That's what midnight does."
+      },
+      {
+        "host": "marigold",
+        "text": "Let it soften. Imagine the tension running down like water. Down your face. Your neck."
+      },
+      {
+        "host": "marigold",
+        "text": "Your shoulders are carrying something. Everyone's shoulders are carrying something tonight. Set it down for four minutes."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] The Willy Street neighborhood watch is still awake. Tucker confirmed it earlier. They are holding a perimeter."
+      },
+      {
+        "host": "marigold",
+        "text": "That is someone else's choice. Your choice is this room. This breath. In."
+      },
+      {
+        "host": "marigold",
+        "text": "Four counts. [pause] Feel your chest rise."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "Now scan down. Your heart. It's beating fast maybe. That's normal. The body doesn't understand the difference between fear and waiting."
+      },
+      {
+        "host": "marigold",
+        "text": "Your body thinks something is coming. But nothing is coming through your locked doors. You locked them. You know they are locked."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] Breathe."
+      },
+      {
+        "host": "marigold",
+        "text": "Stomach. Belly. Relax it. Most of you are holding everything here. In the gut. Years of this. Years of one night a year turning into what it turns into."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] You have survived every Purge before this one. Let that be true in your body."
+      },
+      {
+        "host": "marigold",
+        "text": "In. Four counts."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold. Feel the relief of the oxygen."
+      },
+      {
+        "host": "marigold",
+        "text": "The East Side is loud right now. We know that. Tucker reported it. But you are not on the East Side. You are where you chose to be."
+      },
+      {
+        "host": "marigold",
+        "text": "Release."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Now move to your legs. Your thighs. Are they tense? They probably are. Runners — cyclists — they hold it here."
+      },
+      {
+        "host": "marigold",
+        "text": "But you're not running tonight. You're sitting. You're safe. Let the muscles believe that."
+      },
+      {
+        "host": "marigold",
+        "text": "In. [pause] Four. Hold. Release."
+      },
+      {
+        "host": "marigold",
+        "text": "Feet. The ground. If you're sitting, feel your feet on the floor. If you're standing, feel the earth below you — and I mean that literally and also not."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] The Sisters say that the earth remembers. It forgets violence faster than we do."
+      },
+      {
+        "host": "marigold",
+        "text": "In. Four. Hold. Release."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Now picture the room you are in. Really see it. The shadows. The light from outside — or no light if you've covered the windows."
+      },
+      {
+        "host": "marigold",
+        "text": "Most of you have covered the windows. That's good. That's a choice. That's protective."
+      },
+      {
+        "host": "marigold",
+        "text": "But right now — just in your mind — imagine uncovering them for one second. Just to see what Madison looks like at {{CLOCK}}."
+      },
+      {
+        "host": "marigold",
+        "text": "What do you see? [pause] Most of you see darkness. Some of you see other houses with covered windows. Some of you see lights you know aren't power lights."
+      },
+      {
+        "host": "marigold",
+        "text": "Now cover them again. In your mind. You're safe. In. Four. Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] The ones outside are not your responsibility. Say that to yourself. The ones outside made their choice."
+      },
+      {
+        "host": "marigold",
+        "text": "You made yours. In. Release."
+      },
+      {
+        "host": "marigold",
+        "text": "{{ELAPSED}} have passed. Seven hours remain. That's not a long time when you're breathing together with forty thousand other people."
+      },
+      {
+        "host": "marigold",
+        "text": "That's actually a very long time. But time doesn't move the same way on Purge night. You know this."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] In. Four. Hold. [pause] Do you have anything in this room you regret? Anything you wish you'd said differently?"
+      },
+      {
+        "host": "marigold",
+        "text": "Most of you do. Carry it with you. Don't set it down. Let it remind you that you're still here. That you still have time."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] In."
+      },
+      {
+        "host": "marigold",
+        "text": "The Quiet Order teaches that forgiveness is not about the people you forgive. It's about the space you make in yourself. For breath. For next year."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm not telling you to forgive anyone outside. I'm telling you to forgive yourself for being frightened. For being ordinary. For surviving."
+      },
+      {
+        "host": "marigold",
+        "text": "In. Four. Hold. [pause] Ashta-kala-something-something. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "The light will come. It always comes. And when it does, you'll still be here. That's what matters."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe with me until I'm gone. In. Four. Hold. Release. [pause] You're doing beautifully."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood) reports +8 kill count spike 22:30–23:00. Concentrated near the corridor."
+      },
+      {
+        "category": "local-news",
+        "text": "Willy Street neighborhood watch perimeter holding at Yahara Bridge. Armed positions maintained."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "The earth remembers. It forgets violence faster than we do."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text from Tenney Park listener: 'Thank you for reminding me the doors are locked.'"
+      },
+      {
+        "category": "marigold-quote",
+        "text": "You have survived every Purge before this one. Let that be true in your body."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:28:23.704Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

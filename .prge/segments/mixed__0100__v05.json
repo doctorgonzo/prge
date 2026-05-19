@@ -1,0 +1,457 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the phone lines have not stopped ringing. Tim, how many calls in the last hour?"
+      },
+      {
+        "host": "holden",
+        "text": "Forty-seven. That's up from the usual eight to twelve per hour at this point in the night."
+      },
+      {
+        "host": "quinn",
+        "text": "Forty-seven. Jesus. Are they scared or are they bored?"
+      },
+      {
+        "host": "caroline",
+        "text": "Bit of both, probably. The cold front came in harder than I predicted. People are locked inside their homes watching the temperature drop, and they want someone to talk to."
+      },
+      {
+        "host": "quinn",
+        "text": "So they call a pirate radio station run by a exile, a statistician, and a woman who's been checking the weather every four minutes."
+      },
+      {
+        "host": "caroline",
+        "text": "Every three minutes. And I've been right more often than I've been wrong."
+      },
+      {
+        "host": "holden",
+        "text": "Statistically, you've been right forty-one percent of the time with precision forecasting. That's above the national average for regional meteorologists."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden, I don't need you to tell me I'm average."
+      },
+      {
+        "host": "quinn",
+        "text": "She's not average, Holden. She's remarkably consistent. Which, for the record, is what I said about myself in 2167 before the ethics commission disagreed."
+      },
+      {
+        "host": "holden",
+        "text": "That was sexual misconduct, not meteorological accuracy."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm aware of the distinction, thank you. Whiskey number seven. Let the record show I'm being candid tonight."
+      },
+      {
+        "host": "caroline",
+        "text": "The callers are reporting power outages on the East Side. That's not normal for this hour."
+      },
+      {
+        "host": "holden",
+        "text": "East Side kill count is running twelve percent above projections. Power outages suggest either grid stress from demand or targeted infrastructure damage."
+      },
+      {
+        "host": "quinn",
+        "text": "Or someone cut the power because the cops can't respond and the dark is convenient for business."
+      },
+      {
+        "host": "caroline",
+        "text": "The National Guard is supposed to have the transformer stations guarded."
+      },
+      {
+        "host": "quinn",
+        "text": "The National Guard is supposed to do a lot of things. They're also people who go home at six PM, Caroline. The Purge doesn't wait for uniforms."
+      },
+      {
+        "host": "holden",
+        "text": "There's a caller from Schenk's Corners who says she can see fires three blocks over. She's describing smoke patterns consistent with multiple small incendiary events, not a single structure fire."
+      },
+      {
+        "host": "quinn",
+        "text": "Is she safe?"
+      },
+      {
+        "host": "holden",
+        "text": "She says she's barricaded. She called to ask if we could hear the sirens. We can't. Sirens only run until midnight on Purge night."
+      },
+      {
+        "host": "quinn",
+        "text": "Right. Because helping would constitute interference in the lawful cessation of law. That's the Vance doctrine."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind's shifting. That smoke is going to blow toward Tenney Park in the next thirty minutes."
+      },
+      {
+        "host": "holden",
+        "text": "If the fires are spreading, we could see smoke at the shoreline by 01:45."
+      },
+      {
+        "host": "quinn",
+        "text": "And everyone listening from the lake side will know exactly where to avoid. Information is the only currency we have on Purge night."
+      },
+      {
+        "host": "caroline",
+        "text": "A caller texted in asking if we recommend staying in their basement or their attic."
+      },
+      {
+        "host": "holden",
+        "text": "Depends on the threat vector. Basement offers ground-level security but exposes them to water ingress if someone's flooding houses. Attic reduces street-level visibility but limits exit routes."
+      },
+      {
+        "host": "quinn",
+        "text": "Jesus, Holden, they're not asking for a tactical dissertation. They're asking if they're going to die."
+      },
+      {
+        "host": "holden",
+        "text": "The answer is: conditionally. If they stay quiet, don't run, and pick the right room, their survival probability is seventy-eight percent based on 2164 through 2168 data sets."
+      },
+      {
+        "host": "caroline",
+        "text": "So you're saying they should stay in the basement because the weather's warmer there and hypothermia is a risk if they're stuck in an attic for twelve hours."
+      },
+      {
+        "host": "holden",
+        "text": "That's not what I said."
+      },
+      {
+        "host": "caroline",
+        "text": "But it's what you meant."
+      },
+      {
+        "host": "quinn",
+        "text": "This is what I miss about the political world. The certainty. You say basement, you mean basement. You say you didn't embezzle funds, you mean it — sort of. Here, everything's qualified. Everything's a percentage. Everything ends with 'maybe you'll live.'"
+      },
+      {
+        "host": "holden",
+        "text": "That's called realism."
+      },
+      {
+        "host": "quinn",
+        "text": "That's called drowning. And I would know."
+      },
+      {
+        "host": "caroline",
+        "text": "Are you okay?"
+      },
+      {
+        "host": "quinn",
+        "text": "I'm fine. I'm better than fine. I'm {{ELAPSED}} into a night where I'm allowed to exist in a room with people and not be arrested, and the temperature is dropping, and the East Side is burning, and I have a whiskey in my hand. This is the best I've felt in a year."
+      },
+      {
+        "host": "holden",
+        "text": "That's depressing."
+      },
+      {
+        "host": "quinn",
+        "text": "It is. It absolutely is."
+      },
+      {
+        "host": "caroline",
+        "text": "Another caller. She's in her car. She says she was driving home from Sun Prairie when the Purge started and she couldn't make it back to the city limits before nineteen-hundred."
+      },
+      {
+        "host": "quinn",
+        "text": "She's still in her car?"
+      },
+      {
+        "host": "caroline",
+        "text": "She says she's been driving in circles on the Beltline for seven hours. She's asking if it's safer to stay in the car or to find shelter."
+      },
+      {
+        "host": "holden",
+        "text": "She's a mobile target on a known vehicle corridor. The Beltline saw eighteen confirmed kills last year, fourteen percent of them were vehicle-based. Her probability of encounter is elevated."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, please just say: the highway is dangerous."
+      },
+      {
+        "host": "holden",
+        "text": "The highway is dangerous."
+      },
+      {
+        "host": "quinn",
+        "text": "And she should get off it."
+      },
+      {
+        "host": "caroline",
+        "text": "She's asking where. The Capitol area is locked down. Downtown is chaos. The East Side is literally on fire."
+      },
+      {
+        "host": "quinn",
+        "text": "Tell her to find a hospital. Methodist or UW Hospital both have security protocols that stay active during the Purge. She can sit in the parking structure until dawn. They won't let her in — they can't — but they won't shoot her for sitting in concrete either."
+      },
+      {
+        "host": "holden",
+        "text": "That's accurate. Hospital security perimeters are technically neutral zones. Technically."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm relaying the message. She says thank you. She's heading to UW."
+      },
+      {
+        "host": "quinn",
+        "text": "Tell her to go the long way. Avoid Park Street. That's a known ambush corridor."
+      },
+      {
+        "host": "caroline",
+        "text": "How do you know that?"
+      },
+      {
+        "host": "quinn",
+        "text": "I know things, Caroline. I know a lot of things. Some of them even happened legally."
+      },
+      {
+        "host": "holden",
+        "text": "Park Street ambush activity in 2168 was documented in three separate incidents, two fatal, one non-fatal injury. The pattern suggests territorial control by a specific group."
+      },
+      {
+        "host": "quinn",
+        "text": "There you go. Data supports my paranoia."
+      },
+      {
+        "host": "caroline",
+        "text": "Are you still in contact with people from the old days?"
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not answering that question live on a pirate radio frequency that the federal government is actively trying to jam."
+      },
+      {
+        "host": "holden",
+        "text": "We've had three jammer attempts. Tim's holding the signal. The third one lasted four minutes. That's longer than the 2168 high."
+      },
+      {
+        "host": "quinn",
+        "text": "They're getting better at finding us."
+      },
+      {
+        "host": "caroline",
+        "text": "Or Tim's getting worse at hiding us."
+      },
+      {
+        "host": "quinn",
+        "text": "That's not fair."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm not being fair. I'm being accurate. Tim's been running this thing since 2161. He's good, but he's predictable. The feds have been hunting this signal for eight years."
+      },
+      {
+        "host": "holden",
+        "text": "Tim just radioed. He said to tell you he heard that and you're both right and wrong."
+      },
+      {
+        "host": "quinn",
+        "text": "What does that mean?"
+      },
+      {
+        "host": "holden",
+        "text": "He didn't explain. He's moving the antenna again. Fourth relocation of the night."
+      },
+      {
+        "host": "quinn",
+        "text": "We're going to lose him one of these years."
+      },
+      {
+        "host": "caroline",
+        "text": "Probably. But not tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "How are you so calm about this?"
+      },
+      {
+        "host": "caroline",
+        "text": "Because I have a job. I read weather. I'm precise. I tell people what's coming and I'm right about sixty percent of the time and that's better than anyone else in this room can do with their specific expertise, so I focus on that and I don't think about the federal agency that's trying to kill Tim because if I think about that I'll stop talking and then the callers will lose their weather updates and maybe someone will die because they didn't know the wind was about to shift."
+      },
+      {
+        "host": "holden",
+        "text": "That's the longest thing you've said in a single breath all night."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm tired."
+      },
+      {
+        "host": "quinn",
+        "text": "It's only one o'clock. We have six hours left."
+      },
+      {
+        "host": "caroline",
+        "text": "I know what time it is. I'm the weather person. Time is coordinates."
+      },
+      {
+        "host": "holden",
+        "text": "Another call coming in. A man from the North Side. He says he's watching the news stream and there's a report about coordinated movement near the Capitol building."
+      },
+      {
+        "host": "quinn",
+        "text": "Define 'coordinated.'"
+      },
+      {
+        "host": "holden",
+        "text": "Multiple vehicles. Multiple personnel. Looks organized. Could be militia, could be government, could be just luck."
+      },
+      {
+        "host": "quinn",
+        "text": "There's no such thing as just luck on Purge night. Everything's intentional. Everything's tactical."
+      },
+      {
+        "host": "caroline",
+        "text": "Maybe it's the National Guard rotating sectors."
+      },
+      {
+        "host": "quinn",
+        "text": "The National Guard stopped rotating at midnight. That's in the protocols — minimal movement during the worst hours."
+      },
+      {
+        "host": "holden",
+        "text": "The caller is asking if we can confirm what he's seeing on the livestream."
+      },
+      {
+        "host": "quinn",
+        "text": "Tell him we can't see anything. We're just voices. We don't have cameras. We don't have intel beyond what people tell us. We're the blind reading to the blind."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not true. You know people."
+      },
+      {
+        "host": "quinn",
+        "text": "I used to know people. I used to be a person. Now I'm a ghost who broadcasts one night a year and pretends the knowledge doesn't come with a price."
+      },
+      {
+        "host": "holden",
+        "text": "The caller says thank you for the honesty and he's going to assume the worst and stay inside."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the right call. Always assume the worst. The worst is usually what happens."
+      },
+      {
+        "host": "caroline",
+        "text": "The wind just shifted. Twenty-minute earlier than I predicted. Southwest to northwest. That's going to push the fire smoke off the East Side and toward the lake."
+      },
+      {
+        "host": "holden",
+        "text": "So the smoke won't reach Tenney Park."
+      },
+      {
+        "host": "caroline",
+        "text": "The smoke won't reach Tenney Park."
+      },
+      {
+        "host": "quinn",
+        "text": "See? Data works. Prediction works. Planning works. Everything's quantifiable and that means everything's survivable."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not what I said."
+      },
+      {
+        "host": "quinn",
+        "text": "But it's what you meant."
+      },
+      {
+        "host": "holden",
+        "text": "I'm getting another call. Woman from Vilas. She's been watching someone through her window."
+      },
+      {
+        "host": "quinn",
+        "text": "Is she safe?"
+      },
+      {
+        "host": "holden",
+        "text": "She says they haven't looked at her window. They've been standing in the street for forty minutes, looking at the house next door."
+      },
+      {
+        "host": "caroline",
+        "text": "What kind of person is it?"
+      },
+      {
+        "host": "holden",
+        "text": "She says she can't see clearly. One person. Maybe two. She's asking if she should call the police."
+      },
+      {
+        "host": "quinn",
+        "text": "There are no police. Tell her to be quiet. Tell her to turn off her lights if they're on. Tell her to pick a room that doesn't face the street and wait."
+      },
+      {
+        "host": "holden",
+        "text": "She says she's already done that. She just wanted to know if she was losing her mind."
+      },
+      {
+        "host": "quinn",
+        "text": "You're not losing your mind. You're aware. That's exactly as good and as bad as it sounds."
+      },
+      {
+        "host": "caroline",
+        "text": "She can hear us?"
+      },
+      {
+        "host": "holden",
+        "text": "The call is still active."
+      },
+      {
+        "host": "caroline",
+        "text": "The wind is steady now. Northwest at eighteen miles per hour. If a fire spreads, it's going to spread toward the lake, not toward residential neighborhoods. You're in one of the safer zones tonight. Statistically speaking."
+      },
+      {
+        "host": "holden",
+        "text": "That's accurate to the model."
+      },
+      {
+        "host": "quinn",
+        "text": "She's still there?"
+      },
+      {
+        "host": "holden",
+        "text": "Line's active."
+      },
+      {
+        "host": "quinn",
+        "text": "Then you heard us. You're going to be okay. Not because the statistics say so, but because you're listening. Because you're not alone. Because this is what PRGE is. We're the people you can talk to when you're scared in the dark."
+      },
+      {
+        "host": "caroline",
+        "text": "That's sappy, Quinn."
+      },
+      {
+        "host": "quinn",
+        "text": "I know. I'm eight whiskeys in and we're {{ELAPSED}} into the worst night of the year in a city that elected to make the worst night of the year a law. Sappy is all I have left."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "East Side cumulative: 34 kills. Up 14% from this point in 2168. Wind shift may suppress activity in next hour."
+      },
+      {
+        "category": "emergency",
+        "text": "Multiple small fire incidents reported Schenk's Corners. Smoke shifting toward Lake Mendota. No structural threat to residential zones at this time."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Beltline circulation continuing. Four callers actively in vehicles. UW Hospital parking structure recommended as shelter alternative."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol perimeter activity reported. National Guard sectors may be rotating. Recommend avoiding downtown core for remainder of night."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield panel installation errors reported East Side. Check your barricades now. SafePanel emergency line: 844-SAFE-NOW."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:47:42.795Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

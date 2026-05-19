@@ -61,5 +61,131 @@
     "resolvedAt": "2026-05-18T22:56:46.342Z",
     "source": "api",
     "durationSec": 257
+  },
+  "green day::basket case": {
+    "videoId": "NUTGr5t3MoY",
+    "embeddable": true,
+    "resolvedTitle": "Green Day - Basket Case [Official Music Video] (4K Upgrade)",
+    "resolvedChannel": "Green Day",
+    "resolvedAt": "2026-05-19T05:00:55.474Z",
+    "source": "api",
+    "durationSec": 195
+  },
+  "nofx::linoleum": {
+    "videoId": "6kKod2qay94",
+    "embeddable": true,
+    "resolvedTitle": "Nofx - linoleum",
+    "resolvedChannel": "lulledoor",
+    "resolvedAt": "2026-05-19T05:04:10.967Z",
+    "source": "api",
+    "durationSec": 159
+  },
+  "the descendents::hope": {
+    "videoId": "qOHEfVQFs2Q",
+    "embeddable": true,
+    "resolvedTitle": "Hope",
+    "resolvedChannel": "Descendents - Topic",
+    "resolvedAt": "2026-05-19T05:06:51.055Z",
+    "source": "api",
+    "durationSec": 121
+  },
+  "propagandhi::back to the motor league": {
+    "videoId": "zYCeLpqWI5c",
+    "embeddable": true,
+    "resolvedTitle": "Propagandhi - Back To The Motor League (Live)",
+    "resolvedChannel": "FAT WRECK CHORDS",
+    "resolvedAt": "2026-05-19T05:08:52.451Z",
+    "source": "api",
+    "durationSec": 177
+  },
+  "me first and the gimme gimmes::nitty gritty dirt band": {
+    "videoId": "066SFOZhaXg",
+    "embeddable": true,
+    "resolvedTitle": "Country Roads",
+    "resolvedChannel": "Me First and the Gimme Gimmes - Topic",
+    "resolvedAt": "2026-05-19T05:10:59.538Z",
+    "source": "api",
+    "durationSec": 131
+  },
+  "reel big fish::sell out": {
+    "videoId": "AEKbFMvkLIc",
+    "embeddable": true,
+    "resolvedTitle": "Reel Big Fish - Sell Out",
+    "resolvedChannel": "ReelBigFishVEVO",
+    "resolvedAt": "2026-05-19T05:13:11.890Z",
+    "source": "api",
+    "durationSec": 268
+  },
+  "descendents::suburban home": {
+    "videoId": "x9PPlQp5DT4",
+    "embeddable": true,
+    "resolvedTitle": "Suburban Home",
+    "resolvedChannel": "Descendents - Topic",
+    "resolvedAt": "2026-05-19T07:00:07.119Z",
+    "source": "api",
+    "durationSec": 101
+  },
+  "frédéric chopin::nocturne op. 9 no. 2": {
+    "videoId": "9E6b3swbnWg",
+    "embeddable": true,
+    "resolvedTitle": "Chopin - Nocturne op.9 No.2",
+    "resolvedChannel": "andrea romano",
+    "resolvedAt": "2026-05-19T07:14:52.799Z",
+    "source": "api",
+    "durationSec": 270
+  },
+  "johann sebastian bach::cello suite no. 1 in g major, prelude": {
+    "videoId": "1prweT95Mo0",
+    "embeddable": true,
+    "resolvedTitle": "Yo-Yo Ma - Bach: Cello Suite No. 1 in G Major, Prélude (Official Video)",
+    "resolvedChannel": "YoYoMaVEVO",
+    "resolvedAt": "2026-05-19T07:37:29.370Z",
+    "source": "api",
+    "durationSec": 196
+  },
+  "maurice ravel::pavane pour une infante défunte": {
+    "videoId": "UIXe7H52UkA",
+    "embeddable": true,
+    "resolvedTitle": "Seong-Jin Cho - Ravel: Pavane Pour Une Infante Défunte",
+    "resolvedChannel": "Deutsche Grammophon - DG",
+    "resolvedAt": "2026-05-19T07:40:44.944Z",
+    "source": "api",
+    "durationSec": 407
+  },
+  "pyotr ilyich tchaikovsky::andante cantabile from string quartet no. 1": {
+    "videoId": "lDQuWlz37iw",
+    "embeddable": true,
+    "resolvedTitle": "Tchaikovsky String Quartet Op. 11 - II. Andante cantabile (Kontras Quartet)",
+    "resolvedChannel": "Kontras Quartet",
+    "resolvedAt": "2026-05-19T08:00:18.220Z",
+    "source": "api",
+    "durationSec": 465
+  },
+  "erik satie::gymnopédie no. 1": {
+    "videoId": "S-Xm7s9eGxU",
+    "embeddable": true,
+    "resolvedTitle": "Erik Satie - Gymnopédie No.1",
+    "resolvedChannel": "DistantMirrors",
+    "resolvedAt": "2026-05-19T08:15:18.059Z",
+    "source": "api",
+    "durationSec": 217
+  },
+  "descendents::hope": {
+    "videoId": "qOHEfVQFs2Q",
+    "embeddable": true,
+    "resolvedTitle": "Hope",
+    "resolvedChannel": "Descendents - Topic",
+    "resolvedAt": "2026-05-19T08:30:38.465Z",
+    "source": "api",
+    "durationSec": 121
+  },
+  "against me!::sink, florida, sink": {
+    "videoId": "krnnErGzIsY",
+    "embeddable": true,
+    "resolvedTitle": "Against Me! - Sink, Florida, Sink",
+    "resolvedChannel": "thedogrunsfast",
+    "resolvedAt": "2026-05-19T08:42:39.261Z",
+    "source": "api",
+    "durationSec": 165
   }
 }

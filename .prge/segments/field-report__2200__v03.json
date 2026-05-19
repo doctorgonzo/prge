@@ -1,0 +1,57 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker in the field, East Side, Schenk's Corners corridor. We're {{ELAPSED}} in and the analytics are climbing faster than forecast. Madison-wide count is forty-three confirmed, up nineteen percent from this point last year."
+      },
+      {
+        "host": "tucker",
+        "text": "Multiple structure fires reported in the last thirty minutes. Smoke's carrying west across the isthmus — visibility dropping hard. Mendota shoreline's getting hazier. Caroline's weather call was good, but the wind shift's making the air worse, not better."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side's pulling thirty percent of the Madison total. Atwood Avenue, Schenk's Corners, the south Beltline juncture — three separate hotspots lighting up simultaneously. That's coordinated or coincidental, and I'm running the probability now and—"
+      },
+      {
+        "host": "tucker",
+        "text": "Bladed weapons up to twenty-six percent of kills this hour. Firearms down. Economic shift Holden called earlier is real-time confirmed. Cheaper, quieter, doesn't require ammunition people can't afford."
+      },
+      {
+        "host": "tucker",
+        "text": "Visibility's under five miles now. I'm repositioning north toward the Capitol perimeter, got reports of secondary activity near the State Street approach and I need to get closer before the smoke—"
+      },
+      {
+        "host": "tucker",
+        "text": "Hold on, I'm moving through an intersection and there's a vehicle—"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide: 43 confirmed ({{ELAPSED}} in). YoY: +19%"
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side surge: 13 kills this hour. Atwood + Schenk's Corners + South Beltline coordinated spikes."
+      },
+      {
+        "category": "local-news",
+        "text": "Multiple structure fires reported. Smoke advisory: visibility degrading across isthmus. Wind shift westbound."
+      },
+      {
+        "category": "emergency",
+        "text": "Bladed weapons now 26% of methodology. Firearms declining YoY trend continues."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:33:18.749Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

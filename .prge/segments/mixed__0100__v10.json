@@ -1,0 +1,369 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We are {{ELAPSED}} into the Purge and I am looking at the moon through our studio window and I want to go on record saying: that moon is obscene. Full, white, bright enough to read by. Nature's floodlight."
+      },
+      {
+        "host": "caroline",
+        "text": "Full moon and clear skies. Visibility is ten-plus miles. That's not helping anyone down there."
+      },
+      {
+        "host": "holden",
+        "text": "Visibility correlates to activity. We saw this in 2147 — the Bright Purge. Eleven percent increase in coordinated action when perpetrators can see their targets."
+      },
+      {
+        "host": "quinn",
+        "text": "So what you're saying is the universe is having a laugh at Madison's expense."
+      },
+      {
+        "host": "caroline",
+        "text": "The universe doesn't have a sense of humor, Quinn. But if it did, it's pointed."
+      },
+      {
+        "host": "holden",
+        "text": "Current cumulative kill count is one-hundred and four as of 01:00. We're tracking three percent above last year's pace at this hour."
+      },
+      {
+        "host": "quinn",
+        "text": "Three percent. Let me pour that into a drink and see if it makes sense. Still doesn't."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature dropped to twenty-nine degrees in the last fifteen minutes. Wind's shifted to northwest, gusts are —"
+      },
+      {
+        "host": "holden",
+        "text": "Cold front ahead of schedule. You said 01:30 to 02:00."
+      },
+      {
+        "host": "caroline",
+        "text": "The atmosphere changes when it wants to. I said probably. Probably and definitely are different words, Holden."
+      },
+      {
+        "host": "quinn",
+        "text": "She's right. She's annoyingly right. The moon knows she's right too — it's sitting up there looking smug about it."
+      },
+      {
+        "host": "holden",
+        "text": "East Side is sustaining elevated activity. Atwood, Schenk's — they're at twenty-eight kills in that corridor alone. That's the third-highest neighborhood concentration at this hour in five years."
+      },
+      {
+        "host": "caroline",
+        "text": "Visibility. There's your culprit. Moon's bright, they can see, they act."
+      },
+      {
+        "host": "quinn",
+        "text": "I knew a man named Calloway. Regional Director. Used to eat lunch with him on Tuesdays — St. Paul's fish fry, every week, never missed. He's in the Capitol building right now, behind blast glass, while the people he served are killing each other under his full moon."
+      },
+      {
+        "host": "holden",
+        "text": "That's a pattern question. Are government officials — high-tier protected officials — aware of the moon cycle when they schedule Purge-night protection rotations?"
+      },
+      {
+        "host": "quinn",
+        "text": "Jesus Christ, Holden, no. They just protect themselves. The moon's a bonus they never thought about."
+      },
+      {
+        "host": "caroline",
+        "text": "The forecast said clear. The moon was always going to be visible if the sky cleared. This was predictable."
+      },
+      {
+        "host": "holden",
+        "text": "And yet Calloway doesn't know you know what you know about Tuesday fish fries."
+      },
+      {
+        "host": "quinn",
+        "text": "He's forgotten already. That's the thing. In 2160-whatever, I mattered to him. Now I'm a ghost that only gets to speak one night a year into a radio receiver nobody wants to admit they're listening to."
+      },
+      {
+        "host": "caroline",
+        "text": "You're not a ghost, Quinn. Ghosts don't pour that much whiskey."
+      },
+      {
+        "host": "holden",
+        "text": "Speaking of which — you're at seven?"
+      },
+      {
+        "host": "quinn",
+        "text": "Seven and three-quarters. I'm counting the partial."
+      },
+      {
+        "host": "caroline",
+        "text": "You're gonna feel that in hour ten."
+      },
+      {
+        "host": "quinn",
+        "text": "Hour ten is a problem for future Quinn. Present Quinn is handling the moon."
+      },
+      {
+        "host": "holden",
+        "text": "State Street continues to show coordination markers. Between 23:00 and 00:30 we documented what looks like a planned sweep — entry points, exit routes, systematic clearing. That's not random violence."
+      },
+      {
+        "host": "quinn",
+        "text": "That's business. That's territorial. That's the Purge doing what the Purge does."
+      },
+      {
+        "host": "caroline",
+        "text": "The Purge doesn't do anything. People do things. The Purge just removes the reason not to."
+      },
+      {
+        "host": "holden",
+        "text": "Semantically true. Functionally, the Purge is a catalyst. Without it, the behavior doesn't manifest."
+      },
+      {
+        "host": "quinn",
+        "text": "So the Purge is guilty and people are innocent. That's the argument we're having at one in the morning under a full moon while a hundred people are dead in Madison."
+      },
+      {
+        "host": "caroline",
+        "text": "Nobody's innocent. But the Purge gives people permission to stop pretending."
+      },
+      {
+        "host": "holden",
+        "text": "Which brings us back to visibility. When people can see, they believe. When they believe, they act."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm calling Director Calloway at 07:15 tomorrow. Not calling him — I can't call him. I'm gonna stand outside his office building and hold a sign with his Tuesday fish-fry order on it and see if he remembers."
+      },
+      {
+        "host": "caroline",
+        "text": "You're not doing that."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not doing that. But I want to. Every year, that's what I want to do."
+      },
+      {
+        "host": "holden",
+        "text": "Lake Mendota shoreline saw activity around 00:50. Three drownings, volunteer recovery crew, water temperature thirty-one degrees. That correlates to the cold front Tucker reported."
+      },
+      {
+        "host": "quinn",
+        "text": "How long do you last in thirty-one-degree water?"
+      },
+      {
+        "host": "holden",
+        "text": "Under five minutes. Loss of consciousness in ten to fifteen."
+      },
+      {
+        "host": "caroline",
+        "text": "That's a bad way to go."
+      },
+      {
+        "host": "quinn",
+        "text": "Most of them are. That's the Purge's real innovation — it's given us like forty different ways to end badly, all in a row, all night long."
+      },
+      {
+        "host": "holden",
+        "text": "Historical data suggests hypothermia-related deaths spike when the cold front arrives before midnight. This year it's hitting on schedule — right on my predicted window, actually, Holden-vindication note for the record —"
+      },
+      {
+        "host": "caroline",
+        "text": "— you're not actually making that note. I'm making it. 01:00, cold front arrived 01:12 last year, arriving approximately 01:15 tonight based on atmospheric markers."
+      },
+      {
+        "host": "quinn",
+        "text": "You two are married, right? Is this what marriage sounds like?"
+      },
+      {
+        "host": "holden",
+        "text": "No, this is what surviving together sounds like."
+      },
+      {
+        "host": "caroline",
+        "text": "We're very different people, Holden and I. But we see the same moon."
+      },
+      {
+        "host": "quinn",
+        "text": "Oh God, that's worse. That's much worse than if you were the same person."
+      },
+      {
+        "host": "holden",
+        "text": "The Beltline corridor is sustaining vehicle-on-vehicle incidents. Seventeen documented engagements so far — that's ambush patterns, coordinated tactical response. The pileup at Verona Road in 2168 was the template, looks like someone learned from it."
+      },
+      {
+        "host": "caroline",
+        "text": "Are you saying the Purge is evolving?"
+      },
+      {
+        "host": "holden",
+        "text": "I'm saying the people using it are evolving. Tactics, coordination, resource allocation — it's becoming more efficient."
+      },
+      {
+        "host": "quinn",
+        "text": "Efficient murder. That's the phrase we're landing on."
+      },
+      {
+        "host": "caroline",
+        "text": "We don't have to like the data to acknowledge it."
+      },
+      {
+        "host": "quinn",
+        "text": "But we do get to hate it. I'm gonna hate it. I'm gonna hate it for the next six hours and then I'm gonna disappear again until next year."
+      },
+      {
+        "host": "holden",
+        "text": "You could not disappear. You could show up on other nights. You could talk about this."
+      },
+      {
+        "host": "quinn",
+        "text": "I could. But then I'd be a guy with opinions instead of a ghost with a microphone. People listen to ghosts. People just argue with guys."
+      },
+      {
+        "host": "caroline",
+        "text": "The full moon's going to peak around 03:30. After that, clouds roll in from the northwest — my forecast calls for cloud cover by 04:00, which should reduce visibility significantly."
+      },
+      {
+        "host": "holden",
+        "text": "Reduced visibility correlates to reduced coordination. If your forecast is accurate, we should see a drop in activity between 04:00 and 06:00."
+      },
+      {
+        "host": "caroline",
+        "text": "My forecasts are accurate, Holden. They're just sometimes early or late."
+      },
+      {
+        "host": "quinn",
+        "text": "The moon doesn't care about your clouds, Caroline. The moon's gonna do what it wants until the sun shows up and tells it to go home."
+      },
+      {
+        "host": "holden",
+        "text": "The sun's going to show up at 06:47. That's when things change."
+      },
+      {
+        "host": "caroline",
+        "text": "That's when things stop. There's a difference."
+      },
+      {
+        "host": "quinn",
+        "text": "Five hours and forty-seven minutes from now, Madison wakes up and has to account for everything that happened under that moon. The Capitol's locked down. The barricades come down. The neighborhoods tally their dead. And I disappear until next year."
+      },
+      {
+        "host": "holden",
+        "text": "You could not disappear."
+      },
+      {
+        "host": "quinn",
+        "text": "We've covered this. I could not."
+      },
+      {
+        "host": "caroline",
+        "text": "North Side continues to show the lowest activity markers. Nine kills total for the year so far, which is eleven percent below last year. Nobody understands why the North Side is consistently quieter."
+      },
+      {
+        "host": "holden",
+        "text": "I have six competing hypotheses. One involves a territorial arrangement between established groups. One involves self-enforced curfew — organized non-violence through community pressure. One involves a data-reporting bias where incidents simply aren't being counted."
+      },
+      {
+        "host": "quinn",
+        "text": "Or maybe the North Side has figured something out. Maybe there's a place in Madison where the Purge doesn't work the same way."
+      },
+      {
+        "host": "caroline",
+        "text": "The Purge works the same way everywhere. Law stops. People choose."
+      },
+      {
+        "host": "quinn",
+        "text": "Yeah, but choice isn't random. The North Side's choosing different."
+      },
+      {
+        "host": "holden",
+        "text": "I'll need to file a formal analysis after tonight. The pattern is real, but the mechanism is obscured."
+      },
+      {
+        "host": "caroline",
+        "text": "Maybe that's okay. Maybe not everything needs to be explained."
+      },
+      {
+        "host": "quinn",
+        "text": "That's growth, Caroline. I'm proud of you."
+      },
+      {
+        "host": "caroline",
+        "text": "Don't be proud of me. I'm just tired."
+      },
+      {
+        "host": "holden",
+        "text": "We're all tired. It's only 01:00 and we've been watching people die for six hours."
+      },
+      {
+        "host": "quinn",
+        "text": "Six hours down. Six hours to go. That's the deal we made."
+      },
+      {
+        "host": "caroline",
+        "text": "Nobody made a deal. We just showed up."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the same thing in Madison. Showing up is a deal. Staying is the payment."
+      },
+      {
+        "host": "holden",
+        "text": "I'm gonna run some updated projections. If the cold front accelerates, if Caroline's visibility window closes early, if East Side activity continues at current rates — we might see a YoY kill-count variance by 06:00."
+      },
+      {
+        "host": "caroline",
+        "text": "How much variance?"
+      },
+      {
+        "host": "holden",
+        "text": "Plus or minus twelve percent. We're close to either the best or worst year we've had in a decade."
+      },
+      {
+        "host": "quinn",
+        "text": "Best and worst being relative terms for how many people are dead."
+      },
+      {
+        "host": "caroline",
+        "text": "That's what numbers mean in this context. Yes."
+      },
+      {
+        "host": "quinn",
+        "text": "I hate this place sometimes."
+      },
+      {
+        "host": "holden",
+        "text": "Madison?"
+      },
+      {
+        "host": "quinn",
+        "text": "All of it. The whole thing. The moon, the Purge, the fact that we're all here having this conversation like it's normal."
+      },
+      {
+        "host": "caroline",
+        "text": "It is normal. This is what normal is."
+      },
+      {
+        "host": "quinn",
+        "text": "Yeah. That's the part I hate."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "MADISON-WIDE CUMULATIVE: 104 kills as of 01:00. YoY pace: +3%."
+      },
+      {
+        "category": "neighborhood",
+        "text": "EAST SIDE CORRIDOR (Atwood/Schenk's): 28 kills. Third-highest neighborhood concentration at this hour in 5 years."
+      },
+      {
+        "category": "local-news",
+        "text": "FULL MOON PEAK: 03:30 approximate. Cloud cover expected 04:00+. Visibility reduction may impact coordinated group activity."
+      },
+      {
+        "category": "emergency",
+        "text": "LAKE MENDOTA: Cold front arrival 01:12. Water temp 31°F. Volunteer recovery crews active shoreline. 3 drownings reported, 2 recovered."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:51:12.615Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

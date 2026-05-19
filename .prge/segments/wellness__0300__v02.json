@@ -1,0 +1,233 @@
+{
+  "format": "wellness",
+  "inWorldTime": "03:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. [pause] The clock reads {{CLOCK}}. We are {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to notice that it's quieter than last year. [pause] Notice that. Don't be fooled by quiet."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in through your nose. [pause] Four counts. Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "Release through your mouth. [pause] Let the air leave you."
+      },
+      {
+        "host": "marigold",
+        "text": "Your body knows what your mind won't admit. Your shoulders are up. Your jaw is clenched."
+      },
+      {
+        "host": "marigold",
+        "text": "Relax the jaw. [pause] The jaw holds everything we don't say."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] This time, I want you to count your heartbeat instead of the numbers."
+      },
+      {
+        "host": "marigold",
+        "text": "How fast is it? [pause] Don't judge. Just notice."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm going to ask you something now, and you don't have to answer me. You answer yourself."
+      },
+      {
+        "host": "marigold",
+        "text": "What are you most afraid will happen if you fall asleep?"
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] [pause] You can keep that answer. You don't have to say it aloud."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones outside are not your responsibility. [pause] Breathe in."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones inside — the ones you chose to lock the door on — they are not your failure."
+      },
+      {
+        "host": "marigold",
+        "text": "Repeat that. [pause] Say it. I'll wait."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm not a failure for staying home."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. [pause] Mean it this time."
+      },
+      {
+        "host": "marigold",
+        "text": "I notice your breathing has changed. [pause] You're holding it now instead of flowing."
+      },
+      {
+        "host": "marigold",
+        "text": "That's the body telling you something true is happening. Listen to it."
+      },
+      {
+        "host": "marigold",
+        "text": "There's a reason the night is quiet. [pause] The ones who would have come early are already inside."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who are coming next are preparing. [pause] Or they're sleeping. [pause] Or they've changed their minds."
+      },
+      {
+        "host": "marigold",
+        "text": "This is the hour when change happens. The hour when people decide."
+      },
+      {
+        "host": "marigold",
+        "text": "Some of you have decided to open the door. I can hear it in the silence."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm not here to judge that. I'm here to tell you: you can change that decision."
+      },
+      {
+        "host": "marigold",
+        "text": "The door is still a door. It locks both ways. [pause] Breathe in."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to visualize something. Picture your door. The real one. The one you locked at 7pm."
+      },
+      {
+        "host": "marigold",
+        "text": "Now picture the people you would see if you opened it. [pause] Don't open it. Just picture them."
+      },
+      {
+        "host": "marigold",
+        "text": "Are they running? [pause] Are they walking? [pause] Are they standing still?"
+      },
+      {
+        "host": "marigold",
+        "text": "Now picture the people inside your door. The ones you barricaded with."
+      },
+      {
+        "host": "marigold",
+        "text": "Are they sleeping? [pause] Are they watching you? [pause] Are they as afraid as you are?"
+      },
+      {
+        "host": "marigold",
+        "text": "You can sit with both pictures at once. [pause] The outside and the inside. They're both real."
+      },
+      {
+        "host": "marigold",
+        "text": "This is why it's called meditation. [pause] Not to make it stop. [pause] To let yourself feel both."
+      },
+      {
+        "host": "marigold",
+        "text": "The Sisters teach that the darkest hour is not midnight. It's the hour just before dawn. [pause] When you've been awake too long."
+      },
+      {
+        "host": "marigold",
+        "text": "That's this hour. {{ELAPSED}} in. [pause] Four hours left. The time when your defenses are paper."
+      },
+      {
+        "host": "marigold",
+        "text": "Ka-shala-keth-mun-sha. [pause] (Breathe. That was a prayer. Not for you. For the night.)"
+      },
+      {
+        "host": "marigold",
+        "text": "The light is coming. [pause] Not soon. But it's coming."
+      },
+      {
+        "host": "marigold",
+        "text": "You will see the sun tomorrow. Some of you won't. [pause] But you will. The ones listening."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan your body now. Start at your feet. Are they cold? [pause] Are they yours?"
+      },
+      {
+        "host": "marigold",
+        "text": "Move up. Shins. Knees. Thighs. [pause] Notice where you're holding tension. That's where you're hiding your thoughts."
+      },
+      {
+        "host": "marigold",
+        "text": "Your stomach is tight. Everyone's is. That's the fear of running. Of needing to move fast."
+      },
+      {
+        "host": "marigold",
+        "text": "Your chest. [pause] That's where the real work is. That's where you're holding the thing you won't say."
+      },
+      {
+        "host": "marigold",
+        "text": "There's someone you haven't forgiven. [pause] They might be inside your door. They might be outside."
+      },
+      {
+        "host": "marigold",
+        "text": "They might be dead now. [pause] Some of them are dead."
+      },
+      {
+        "host": "marigold",
+        "text": "Your shoulders. Up around your ears. [pause] Drop them. Release. [pause] Again."
+      },
+      {
+        "host": "marigold",
+        "text": "Your jaw. Your neck. [pause] The muscles holding secrets."
+      },
+      {
+        "host": "marigold",
+        "text": "Your head. [pause] The place where all this noise is living."
+      },
+      {
+        "host": "marigold",
+        "text": "You're going to make it until dawn. [pause] You're strong enough."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold for four. [pause] Release and hold the silence."
+      },
+      {
+        "host": "marigold",
+        "text": "When you open your eyes — if you close them, if you haven't already — the night will still be there."
+      },
+      {
+        "host": "marigold",
+        "text": "That's the point. You're still here. [pause] You're still listening. [pause] That means you chose right."
+      },
+      {
+        "host": "marigold",
+        "text": "I'll be with you in three hours for the final hour. [pause] Rest now. The noise outside is not your noise."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "East Side kill count steady. 55 cumulative at 03:00. No new spikes in past hour."
+      },
+      {
+        "category": "local-news",
+        "text": "ALERT: Mendota shoreline closure remains in effect. Volunteer recovery crew standing down until dawn."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "The quiet is not mercy. It's preparation."
+      },
+      {
+        "category": "emergency",
+        "text": "If barricades are failing: SafeWalk emergency route update available. Text REROUTE to 44355."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "Four hours until the sun. Four hours until you know if you survived."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:39:58.626Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

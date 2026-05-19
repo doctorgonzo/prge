@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "It's {{CLOCK}} Madison time. We're {{ELAPSED}} into this thing, and I can see the Capitol dome starting to catch the first light. Never thought I'd live to see another sunrise broadcast this station alive."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind's dropped to north three miles per hour. Temperature holding at twenty-one degrees. High today will reach thirty-eight before cloud cover moves in around noon. The city's getting ready to wake up to what we all stayed home to avoid seeing."
+      },
+      {
+        "host": "quinn",
+        "text": "Darren called us at ten past ten last night. You remember. The man with the backwards panels on Atwood. I've been thinking about him all night—wondering if he made it through."
+      },
+      {
+        "host": "tucker",
+        "text": "Final count for Madison metro is one hundred and eighty-seven. That matches 2168 exactly. Same number of dead. Different people, same total, same weight. I ran the stats three times. It doesn't get easier."
+      },
+      {
+        "host": "holden",
+        "text": "The Beltline corridor pulled the same percentage as last year—nine point six percent of the total. The methodical nature of that consistency is what gets me. We can predict the patterns now. We've systematized grief into neighborhood percentages."
+      },
+      {
+        "host": "nick",
+        "text": "I've got one more song to play before the sirens lift. I'm not going to introduce it. Some of you will know it. Some of you won't. It doesn't matter."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. The night has released you. You made the choice. You are still here because you chose to stay. Hold that."
+      },
+      {
+        "host": "quinn",
+        "text": "There's a woman calling in now—text, not voice, she didn't want to speak. She says she barricaded herself in her apartment on East Johnson at seven oh-one p.m. yesterday and hasn't opened the door once. She says thank you for the voice company."
+      },
+      {
+        "host": "caroline",
+        "text": "Sunrise is at six forty-seven. Eighteen minutes from now. The fog off Mendota lifted around five-thirty—clearest sky we've had all night."
+      },
+      {
+        "host": "holden",
+        "text": "The power grid hit a spike at two-fifteen a.m. when the heating load peaked city-wide. We're on backup now—have been since four-forty. Tim's kept this signal hot on batteries and a portable generator you can hear humming if you listen close."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm back at the studio. Made it through the night. I won't tell you where I was between two and four-thirty. Some field reports stay in the field."
+      },
+      {
+        "host": "nick",
+        "text": "Playing the Descendents now. 'Suburban Home.' 1982. This was the last song I ever played on a real radio station, before all of this. Before PRGE. Before I was just a voice in the dark."
+      },
+      {
+        "host": "quinn",
+        "text": "We lost the signal three times tonight. Every time I thought that was it—that was the year they finally got us. And every time Tim brought it back."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who did not make it home are not suffering anymore. That is a mercy. Hold space for that mercy."
+      },
+      {
+        "host": "holden",
+        "text": "The neighborhoods that went quiet—North Side, South Side, parts of West Madison—they had community coordination. Neighborhood watches, organized barricades, communication networks. That data suggests preparedness saves lives. It's not much, but it's measurable."
+      },
+      {
+        "host": "caroline",
+        "text": "First light is hitting the water now. Lake Mendota turning gold. There's ice forming on the shallows. Tomorrow the cleanup crews will start their work."
+      },
+      {
+        "host": "tucker",
+        "text": "One hundred and eighty-seven. That number will sit in the city's memory for exactly three hundred and fifty-eight days. Then at seven p.m. on March twenty-fourth, we all tune in again and wait to see if the number goes up or down."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm thinking about Director Calloway tonight. I don't usually. But the Capitol breach last year—the moment when the fortifications almost failed—I keep seeing his face behind that glass. Not scared. Just aware that the system works because people like me aren't allowed to exist any other night."
+      },
+      {
+        "host": "nick",
+        "text": "Song's ending. Descendents singing about a suburban home. Every person listening to us right now is in their home. That's the whole point. That's been the whole point for twelve hours."
+      },
+      {
+        "host": "marigold",
+        "text": "You are not broken for wanting to survive. You are not complicit for hiding. You are human. That is all that was ever required."
+      },
+      {
+        "host": "holden",
+        "text": "The equipment's running on about thirty percent battery. Tim's generator is the only thing keeping the broadcast alive right now. In about forty minutes, the sirens lift and we go dark until next March. The city will forget we exist. That's the deal."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind picking up slightly—north at five to seven miles per hour now. The front's holding. High of thirty-eight. Chance of rain after two p.m. Tomorrow is a normal day in Madison. Tomorrow, we all pretend last night didn't happen."
+      },
+      {
+        "host": "quinn",
+        "text": "This is the hour I never thought would come. The hour where we're still broadcasting. The hour where everyone made it back."
+      },
+      {
+        "host": "tim",
+        "text": "This is PRGE. We're signing off from the 2169 Purge broadcast at {{CLOCK}} Madison time. We've been on the air for {{ELAPSED}}. One hundred and eighty-seven people will not go home tonight. They will not call their families. They will not see tomorrow. In every neighborhood in this city, there are people right now finding bodies, or finding empty spaces where bodies should be, or finding people still alive who shouldn't be. The Purge is ending in eighteen minutes. The sirens will lift. The law will return. And those of us who chose to stay home, who chose to listen, who chose to not participate—we will wake up to a city that looks the same but counts different. I want to say something I don't get to say any other day of the year: thank you for staying. Thank you for choosing this. Thank you for not becoming part of that number. The system is broken. The Purge is an abomination. And you—all of you listening right now—you are the resistance just by refusing. By barricading. By choosing voice over violence. By staying here with us through the dark. The people in power built this night because they believed we would tear each other apart. Instead, we've built something else. We've built a station that broadcasts once a year. We've built a community that survives by choosing not to break. That's not nothing. That's everything. Power to the homes. Power to the barricades. Power to everyone still breathing when the sirens lift. We'll be back next year. And the year after. As long as the Purge exists, PRGE will broadcast. This is Tim Peplinski. The station is signing off. The city wakes up in eighteen minutes. Stay safe out there. We're bringing the signal down now."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Final Madison count: 187 confirmed deceased. Matches 2168 total. Year-over-year stable."
+      },
+      {
+        "category": "emergency",
+        "text": "Power grid running on backup. Widespread outages across Madison metro. Avoid downed lines. Emergency services resume full operation at 07:00."
+      },
+      {
+        "category": "local-news",
+        "text": "Lake Mendota shoreline cleanup begins at first light. Volunteer crews mobilizing. Two bodies still unrecovered from overnight drownings."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "You are not broken for wanting to survive. You are human. That is all that was ever required."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:41:28.586Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

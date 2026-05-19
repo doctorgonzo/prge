@@ -1,0 +1,233 @@
+{
+  "format": "wellness",
+  "inWorldTime": "03:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. [pause] The clock reads 03:00. We are {{ELAPSED}} into the Purge."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to find your breath again. [pause] It's still there."
+      },
+      {
+        "host": "marigold",
+        "text": "In through the nose. [pause] Hold. [pause] Out through the mouth."
+      },
+      {
+        "host": "marigold",
+        "text": "Your shoulders are tight. I can feel them through the radio. [pause] Release them."
+      },
+      {
+        "host": "marigold",
+        "text": "The people outside are not your concern right now. [pause] They made their choices."
+      },
+      {
+        "host": "marigold",
+        "text": "You made yours. [pause] You stayed. That matters."
+      },
+      {
+        "host": "marigold",
+        "text": "Body scan. Start at your feet. Are they warm? [pause] Cold?"
+      },
+      {
+        "host": "marigold",
+        "text": "Move up. Calves. Thighs. Notice what's tight. Notice what's loose."
+      },
+      {
+        "host": "marigold",
+        "text": "Stomach. [pause] Most of you are knotted here. The fear lives in the stomach."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe into it. [pause] You don't have to untie it. Just know it's there."
+      },
+      {
+        "host": "marigold",
+        "text": "Chest. Heart. [pause] Still beating. Still working. Still you."
+      },
+      {
+        "host": "marigold",
+        "text": "There's interference on the line tonight. [pause] Can you hear it?"
+      },
+      {
+        "host": "marigold",
+        "text": "That's not the Order transmitting. [pause] That's the night."
+      },
+      {
+        "host": "marigold",
+        "text": "The night has a voice when you listen long enough."
+      },
+      {
+        "host": "marigold",
+        "text": "Shoulders again. Neck. The place where you hold the weight of decisions you didn't make."
+      },
+      {
+        "host": "marigold",
+        "text": "Head. Scalp. [pause] The part of you that thinks it should be planning. Should be afraid."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to release that thought. [pause] It's not serving you anymore."
+      },
+      {
+        "host": "marigold",
+        "text": "Close your eyes if they aren't already closed. [pause] See the dark."
+      },
+      {
+        "host": "marigold",
+        "text": "The dark is not empty. [pause] The dark is full of people who chose this, like you."
+      },
+      {
+        "host": "marigold",
+        "text": "Seventy thousand listeners on the Purge Radio network. [pause] Seventy thousand people in the dark together."
+      },
+      {
+        "host": "marigold",
+        "text": "You are not alone in your barricade. [pause] You are part of something."
+      },
+      {
+        "host": "marigold",
+        "text": "We are part of something."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] The night is halfway over now. {{ELAPSED}} behind us."
+      },
+      {
+        "host": "marigold",
+        "text": "Three hours left. [pause] Three hours is nothing. Three hours is a lifetime."
+      },
+      {
+        "host": "marigold",
+        "text": "I've been meditating for forty-two years. [pause] Time becomes strange after a while."
+      },
+      {
+        "host": "marigold",
+        "text": "Sometimes I see people in the dark. [pause] Not here. Not in this room."
+      },
+      {
+        "host": "marigold",
+        "text": "People who came before. [pause] People who stayed home too."
+      },
+      {
+        "host": "marigold",
+        "text": "They're not here to hurt you. [pause] They're just... here."
+      },
+      {
+        "host": "marigold",
+        "text": "Kah-leth-mora ven-sai. [pause] Forgive me. Sometimes the words come from somewhere else."
+      },
+      {
+        "host": "marigold",
+        "text": "The Order teaches us that silence has layers. [pause] Each layer is a choice."
+      },
+      {
+        "host": "marigold",
+        "text": "The first layer: silence from sound. [pause] That's easy. You're doing it now."
+      },
+      {
+        "host": "marigold",
+        "text": "The second layer: silence from thought. [pause] That's harder."
+      },
+      {
+        "host": "marigold",
+        "text": "The third layer: silence from self. [pause] That's where the light lives."
+      },
+      {
+        "host": "marigold",
+        "text": "I wonder if you've reached that layer tonight. [pause] Some of you have. I can feel it."
+      },
+      {
+        "host": "marigold",
+        "text": "There's static on the line again. [pause] The signal's breaking up."
+      },
+      {
+        "host": "marigold",
+        "text": "Or maybe that's just what the Purge sounds like at this hour. [pause] Raw. Unfiltered."
+      },
+      {
+        "host": "marigold",
+        "text": "If you're listening to PRGE right now, you made a specific choice. [pause] You could be in darkness. You chose words instead."
+      },
+      {
+        "host": "marigold",
+        "text": "That's a form of resistance. [pause] Most people don't understand that yet."
+      },
+      {
+        "host": "marigold",
+        "text": "Tucker reported from East Side earlier. [pause] Kill count up. Always up in East Side."
+      },
+      {
+        "host": "marigold",
+        "text": "And you're still here. [pause] Breathing. Listening. Refusing."
+      },
+      {
+        "host": "marigold",
+        "text": "Return to the body. [pause] Shoulders. Neck. Jaw."
+      },
+      {
+        "host": "marigold",
+        "text": "Your jaw is clenched. [pause] You've been clenching since 19:00. Let it go."
+      },
+      {
+        "host": "marigold",
+        "text": "Open your mouth slightly. [pause] Feel the relief."
+      },
+      {
+        "host": "marigold",
+        "text": "This is what surrender feels like. [pause] Not giving up. Giving in to what is."
+      },
+      {
+        "host": "marigold",
+        "text": "The Purge is. [pause] You are safe in your barricade or you are not. [pause] That was decided hours ago."
+      },
+      {
+        "host": "marigold",
+        "text": "All that's left is to breathe. [pause] To exist in the space between heartbeats."
+      },
+      {
+        "host": "marigold",
+        "text": "We're {{ELAPSED}} now. [pause] The worst hours. The deepest dark."
+      },
+      {
+        "host": "marigold",
+        "text": "The night is thinning. [pause] You can almost feel the dawn thinking about arriving."
+      },
+      {
+        "host": "marigold",
+        "text": "Three more hours. [pause] Then the light."
+      },
+      {
+        "host": "marigold",
+        "text": "You'll make it. [pause] You always do."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide kill count: 153. Up 14 from this point last year. East Side contributing 38% of tonight's total."
+      },
+      {
+        "category": "neighborhood",
+        "text": "State Street Ruins: confirmed group activity 23:00-00:30 hrs. Cleanup operations post-07:00. Avoid."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"The silence has layers. You're learning to climb them.\""
+      },
+      {
+        "category": "emergency",
+        "text": "Lake Mendota shoreline: volunteer recovery crew still active. Water temp 28°F. Do not attempt self-rescue. Report sightings to PRGE dispatch."
+      },
+      {
+        "category": "local-news",
+        "text": "Signal interference detected on backup frequency bands. This is normal during deep-night hours. PRGE operating on primary transmission. Stay tuned."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:40:35.173Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

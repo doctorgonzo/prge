@@ -1,0 +1,417 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in, folks, and I am looking at my notes here — which are increasingly illegible — and I'm seeing some patterns."
+      },
+      {
+        "host": "holden",
+        "text": "If you're going to read data, read it right. The East Side has sustained momentum for seven straight hours."
+      },
+      {
+        "host": "quinn",
+        "text": "That's not the pattern I'm talking about, Holden. I'm talking about the fact that we have not heard from the Capitol in four hours."
+      },
+      {
+        "host": "caroline",
+        "text": "The weather report doesn't cover downtown governance, Quinn."
+      },
+      {
+        "host": "quinn",
+        "text": "No, but it covers visibility. And visibility is down to two miles. You could hide a lot in two miles."
+      },
+      {
+        "host": "holden",
+        "text": "The breach at 21:40 held for approximately ninety minutes before the perimeter re-established. That was Calloway's team."
+      },
+      {
+        "host": "quinn",
+        "text": "Calloway doesn't like attention. Which means if we're not hearing about it, it's because he doesn't want us to."
+      },
+      {
+        "host": "caroline",
+        "text": "The fog is rolling off Mendota right now. Temperature's still dropping. It'll hit twenty-two by dawn."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline, I love you, but I am trying to be paranoid right now and you're giving me weather."
+      },
+      {
+        "host": "caroline",
+        "text": "Paranoia and weather are the same thing at this hour. Cold makes people do stupid things."
+      },
+      {
+        "host": "holden",
+        "text": "Statistically, we're approaching the fatigue collapse. Hours three through five are peak; hours six through nine see a seventeen percent decline in activity."
+      },
+      {
+        "host": "quinn",
+        "text": "Seventeen percent. That's a lot of people deciding not to kill each other because they're tired."
+      },
+      {
+        "host": "holden",
+        "text": "Not deciding. Physiologically incapable. The human body has limits."
+      },
+      {
+        "host": "quinn",
+        "text": "The human body also has the capacity to be absolutely awful under pressure, and yet here we are, seven hours in, and we're still counting bodies."
+      },
+      {
+        "host": "caroline",
+        "text": "One-twenty-two as of the last field report. That was at 00:30, so we might be higher now."
+      },
+      {
+        "host": "quinn",
+        "text": "That's not higher. That's just — accurate. Tucker said one-twenty-two. One-twenty-two is the number."
+      },
+      {
+        "host": "holden",
+        "text": "At this point last year, we were at one-oh-four. So we're eighteen ahead of pace."
+      },
+      {
+        "host": "caroline",
+        "text": "The wind was lighter last year. Visibility was better. People moved more."
+      },
+      {
+        "host": "quinn",
+        "text": "People moved more. Right. That's — that's the problem. The fog is murdering us."
+      },
+      {
+        "host": "holden",
+        "text": "The fog is not murdering anyone. The fog is incidental. The methodology is what matters."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, the fog is absolutely murdering us. The fog is the only thing keeping this from being worse."
+      },
+      {
+        "host": "caroline",
+        "text": "I predicted the fog at 04:00. So yes, the fog is doing something."
+      },
+      {
+        "host": "quinn",
+        "text": "You predicted it at 02:30, Caroline. You had three hours to be right, and you used them."
+      },
+      {
+        "host": "caroline",
+        "text": "I predicted it would hold through dawn. I was right."
+      },
+      {
+        "host": "holden",
+        "text": "The conversation about weather prediction is separate from the conversation about mortality rates."
+      },
+      {
+        "host": "quinn",
+        "text": "Everything is separate in Holden's world. It's like he's reading a spreadsheet instead of listening to people die."
+      },
+      {
+        "host": "holden",
+        "text": "People have been dying all night. I'm aware. The data shows us why and how and where. That's useful."
+      },
+      {
+        "host": "quinn",
+        "text": "Useful. Right. We're providing a public service. Data journalism at its finest."
+      },
+      {
+        "host": "caroline",
+        "text": "We are providing a service. People are listening because they need to know they're not alone."
+      },
+      {
+        "host": "quinn",
+        "text": "Are they alone, though? Are any of them really alone? There are helicopters everywhere."
+      },
+      {
+        "host": "holden",
+        "text": "The helicopters appeared at 23:15. Two distinct aircraft, rotating pattern over East Side and Capitol corridor."
+      },
+      {
+        "host": "quinn",
+        "text": "And nobody — not one person, not Tucker, not Tim — nobody can tell us whose helicopters they are."
+      },
+      {
+        "host": "caroline",
+        "text": "Military doesn't operate during Purge. Federal government is hands-off."
+      },
+      {
+        "host": "quinn",
+        "text": "Right. So whose helicopters are flying over Madison at one in the morning during the Purge?"
+      },
+      {
+        "host": "holden",
+        "text": "Private security contractors. Regional governance has sub-contracted aerial surveillance to at least three firms in the past decade."
+      },
+      {
+        "host": "quinn",
+        "text": "So we're being watched. Calloway is watching. The corporations are watching. And the people in their homes are just — what, praying?"
+      },
+      {
+        "host": "caroline",
+        "text": "People are listening to us. That's what they're doing."
+      },
+      {
+        "host": "quinn",
+        "text": "They're listening to me pour whiskey and pretend I'm not terrified of what's happening in the Capitol right now."
+      },
+      {
+        "host": "holden",
+        "text": "The Capitol is fortified. Breach probability at this hour is point-zero-three percent."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, you've been saying the breach probability is point-zero-three percent since the breach happened."
+      },
+      {
+        "host": "holden",
+        "text": "Because it was always unlikely. The fact that it occurred doesn't retroactively change the odds; it changes the confidence intervals."
+      },
+      {
+        "host": "quinn",
+        "text": "The confidence intervals. Jesus Christ. There are people walking around the Capitol right now who want to kill someone, and you're talking about confidence intervals."
+      },
+      {
+        "host": "caroline",
+        "text": "There are also people barricading their homes who are listening to us, and they need to hear that we're still here."
+      },
+      {
+        "host": "quinn",
+        "text": "Are we still here? I'm starting to wonder. I feel like we're phoning it in from the past. Like we're a recording."
+      },
+      {
+        "host": "holden",
+        "text": "We are physically present in the broadcast booth. That's verifiable."
+      },
+      {
+        "host": "quinn",
+        "text": "Verifiable. Of course it is. Everything is verifiable to you. Data, stats, percentages. The human experience reduced to footnotes."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden, Quinn is drunk. Don't — just let him talk."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not drunk. I'm accurate. There's a difference. Drunk is what I'll be at six in the morning. Right now I'm just sad and awake."
+      },
+      {
+        "host": "holden",
+        "text": "Sadness is a response to stimulus. The stimulus tonight includes one-twenty-two deaths and counting. The response is proportional."
+      },
+      {
+        "host": "quinn",
+        "text": "So you're sad too. You're just talking about it like it's quarterly earnings."
+      },
+      {
+        "host": "holden",
+        "text": "I'm sad. The data is how I process sadness. It helps."
+      },
+      {
+        "host": "quinn",
+        "text": "Does it? Does it really? Because I'm looking at your sadness and it looks like math to me."
+      },
+      {
+        "host": "caroline",
+        "text": "Both of you stop. We have six more hours. We're in the darkest part right now. This is where people fall apart."
+      },
+      {
+        "host": "quinn",
+        "text": "People are falling apart. Holden's just doing it in percentages."
+      },
+      {
+        "host": "holden",
+        "text": "I've been doing this for four years. I'm still here. Still broadcasting. Still reading the data. That's not falling apart."
+      },
+      {
+        "host": "quinn",
+        "text": "That's exactly what falling apart looks like when you're good at hiding it. Trust me, I'm an expert."
+      },
+      {
+        "host": "caroline",
+        "text": "The wind is picking up. I can hear it through the window. That means the fog will break faster than predicted."
+      },
+      {
+        "host": "quinn",
+        "text": "Of course it will. Why should anything tonight go according to plan? Why should your forecast hold?"
+      },
+      {
+        "host": "caroline",
+        "text": "Because I've been reading weather for thirty years, and the wind pattern is clear, and the pressure system is moving northwest at twelve miles per hour."
+      },
+      {
+        "host": "quinn",
+        "text": "Twelve miles per hour. That's a nice specific number. Makes it feel true."
+      },
+      {
+        "host": "caroline",
+        "text": "It is true. That's why I said it."
+      },
+      {
+        "host": "holden",
+        "text": "The weather data is external to the Purge. It's not affected by human activity. It's pure."
+      },
+      {
+        "host": "quinn",
+        "text": "Pure. Right. Weather is pure. People are impure. That's the division you're making?"
+      },
+      {
+        "host": "holden",
+        "text": "I'm making the division between measurable and unmeasurable. Weather is measurable."
+      },
+      {
+        "host": "quinn",
+        "text": "People are measurable too. We've been measuring them all night. One-twenty-two bodies. East Side is spiking. Beltline has vehicle casualties. It's all very measurable."
+      },
+      {
+        "host": "caroline",
+        "text": "Measurable doesn't mean reducible. Holden knows that."
+      },
+      {
+        "host": "holden",
+        "text": "I do. The data is a tool. It's not the experience."
+      },
+      {
+        "host": "quinn",
+        "text": "But it's all we have. The data is all we have. We sit here and we read the numbers and we pretend that's the same as being out there."
+      },
+      {
+        "host": "caroline",
+        "text": "Tucker is out there. Tucker sees it."
+      },
+      {
+        "host": "quinn",
+        "text": "Tucker goes dark every time it gets bad. We lost Tucker on State Street. We lost him again near Mendota. How much can Tucker actually see?"
+      },
+      {
+        "host": "holden",
+        "text": "Tucker is gathering intelligence under hostile conditions. The fact that the feed cuts is a sign of how bad conditions are, not a failure of observation."
+      },
+      {
+        "host": "quinn",
+        "text": "So we're blind. We're flying blind, and we're reading weather reports to people who are barricading their doors, and we're all pretending this is fine."
+      },
+      {
+        "host": "caroline",
+        "text": "It's not fine. It's never fine. But people are listening. They chose to be here, listening to us, instead of being alone."
+      },
+      {
+        "host": "quinn",
+        "text": "Are they? Are they really choosing? Or are they just terrified, and we're the only voice in the dark, so they listen?"
+      },
+      {
+        "host": "holden",
+        "text": "The distinction doesn't matter. They're listening. We're here. We continue."
+      },
+      {
+        "host": "quinn",
+        "text": "We continue. Right. I pour whiskey, you read numbers, Caroline tells us when it's going to rain, and the helicopters keep circling."
+      },
+      {
+        "host": "caroline",
+        "text": "The helicopters will leave when daylight comes. Everything gets better in daylight."
+      },
+      {
+        "host": "quinn",
+        "text": "Do they? Do things get better? Or do we just see them more clearly and realize how bad they are?"
+      },
+      {
+        "host": "holden",
+        "text": "Daylight provides clarity. Whether clarity makes things better depends on what you do with it."
+      },
+      {
+        "host": "quinn",
+        "text": "What do people do with clarity? They rebuild. They bury their dead. They wait twelve months and hope it's different next year."
+      },
+      {
+        "host": "caroline",
+        "text": "Sometimes it is different. North Side was quiet this year. Best numbers in a decade."
+      },
+      {
+        "host": "quinn",
+        "text": "North Side is quiet because they've got private security. Twenty-four-hour protection. The rest of us get weather reports and statistics."
+      },
+      {
+        "host": "holden",
+        "text": "If we provide accurate information, people can make better decisions. That's the service we're offering."
+      },
+      {
+        "host": "quinn",
+        "text": "Better decisions about what? Whether to open a door? Whether to run? Whether to fight back? We can't help with any of that."
+      },
+      {
+        "host": "caroline",
+        "text": "We help people know they're not alone. That matters."
+      },
+      {
+        "host": "quinn",
+        "text": "They are alone. That's the whole thing. That's the Purge. You're alone for twelve hours, and nothing matters, and then the sun comes up and you count the cost."
+      },
+      {
+        "host": "holden",
+        "text": "We're reducing that isolation by broadcasting. By being present. By continuing."
+      },
+      {
+        "host": "quinn",
+        "text": "We're reducing isolation by being a voice in the dark. A voice that doesn't know whose helicopters are flying over the city or what Calloway's doing or why the body count is up eighteen from last year."
+      },
+      {
+        "host": "caroline",
+        "text": "The body count is up because the weather was different early. Better visibility. More movement."
+      },
+      {
+        "host": "quinn",
+        "text": "So the fog is saving us. The fog is literally the only thing keeping this night from being worse."
+      },
+      {
+        "host": "caroline",
+        "text": "The fog is one of several factors. But yes. Weather affects behavior."
+      },
+      {
+        "host": "holden",
+        "text": "Weather is a confounding variable in the larger pattern. It's significant but not determinative."
+      },
+      {
+        "host": "quinn",
+        "text": "Nothing is determinative. That's what I'm realizing. We can predict weather, we can read data, we can give people information, but we can't predict what someone's going to do when the law disappears."
+      },
+      {
+        "host": "caroline",
+        "text": "We know what they're doing. They're doing what they always do. Some hide. Some fight. Some — some do worse."
+      },
+      {
+        "host": "quinn",
+        "text": "And we sit here and we watch it happen and we broadcast it like it's a baseball game with death as the score."
+      },
+      {
+        "host": "holden",
+        "text": "What else would you have us do?"
+      },
+      {
+        "host": "quinn",
+        "text": "I don't know. Something that matters. Something that changes anything. Anything other than this."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Cumulative: 122 confirmed kills (7 hours elapsed). East Side leading at 34 kills. Pace is 18 ahead of 2168 YoY."
+      },
+      {
+        "category": "emergency",
+        "text": "Helicopter activity ongoing — two distinct aircraft rotating East Side and Capitol corridor. Origin unknown. Federal overflights denied. Private contractor unconfirmed."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Capitol perimeter re-established at 23:12. No breach attempts reported in last 90 minutes. Visibility 2 miles and dropping. Fog advisory in effect until 06:00."
+      },
+      {
+        "category": "local-news",
+        "text": "Temperature dropping to 22 degrees by dawn. Wind shifting northwest 15 mph with gusts to 22. Lake Mendota shoreline conditions deteriorating — fog and cold consolidating."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:49:04.432Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm positioned near the Tenney Park overlook, north shore of Lake Mendota. It's {{CLOCK}}, we're {{ELAPSED}} in. Madison-wide cumulative is holding at 139 kills. That's... seventeen fewer than this point last year."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side is still carrying weight — 32 of the 139. But the Beltline's gone cold after that pileup at 01:20. No new vehicle incidents in the last forty minutes. I'm seeing tactical silence instead of escalation."
+      },
+      {
+        "host": "tucker",
+        "text": "Holden, I'm reading the weapons-trade pattern and the math doesn't settle. Firearms down to 41% of the total. Bladed activity up again. But the *pace* is... it's flatlined. We should be at 155, 160 by now. We're at 139."
+      },
+      {
+        "host": "tucker",
+        "text": "The lake's quiet. That shouldn't be possible. Last year at this hour there were three separate incidents on the shoreline. Now I'm just... listening to water. Wind off Mendota is carrying something that smells like burnt plastic from the State Street ruins, but there's no activity I can confirm."
+      },
+      {
+        "host": "tucker",
+        "text": "Holden, can you pull the North Side numbers? You noted last year that region was already anomalous. If the fatigue pattern is accelerating city-wide and North Side's sitting at nine kills for the night, then something structural is different. Either people stayed in, or —"
+      },
+      {
+        "host": "tucker",
+        "text": "My equipment's showing thermal signature three blocks west, near Regent Street. I'm repositioning to get line of sight, but the signal's been soft all hour. Let me just — my laptop's acting like it wants to reboot. Hold on, I'm switching to the backup relay, just — [CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 139 kills at {{CLOCK}}. YoY delta: -17 (down 10.9%). East Side 32 of 139 (23%). Capitol Square 28 total (flat). Beltline 18 total (no new activity past 01:30)."
+      },
+      {
+        "category": "neighborhood",
+        "text": "North Side kill count: 9 total for the night. Fourth consecutive year running below 15. Pattern suggests territorial de-escalation or shelter-in-place compliance uptick. Reason unconfirmed."
+      },
+      {
+        "category": "local-news",
+        "text": "Lake Mendota shoreline: Zero reported incidents since 00:50 drownings. Water temperature stable at 24 degrees. Volunteer recovery crews standing by but no new calls. Weather holding cold and clear."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text-in from Vilas Park resident: 'Haven't heard sirens in two hours. Is anyone else noticing how quiet it is?' Fourteen similar messages received in past 30 minutes."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:09:35.109Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

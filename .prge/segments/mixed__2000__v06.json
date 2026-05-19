@@ -1,0 +1,393 @@
+{
+  "format": "mixed",
+  "inWorldTime": "20:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "Welcome back to PRGE. Caroline Vos here with weather and metrics. We're {{ELAPSED}} into the Purge. Current conditions Madison-wide: forty-one degrees, southwest wind at eight miles per hour, visibility excellent at ten-plus miles."
+      },
+      {
+        "host": "holden",
+        "text": "Holden Kravitz, analysis. We're in the opening moves of the Purge chess match — neighborhoods are castling, moving their pieces into defensive positions. East Side is already showing activity clustering. This is textbook early-night behavior."
+      },
+      {
+        "host": "caroline",
+        "text": "Cumulative kill count as of 20:00: nineteen. Up eleven from the nineteen-hundred hour. That's tracking with last year's pace."
+      },
+      {
+        "host": "holden",
+        "text": "The pattern here — and this is important — is that the first hour saw eight kills, the second hour is running hot at eleven. That's a nineteen percent acceleration. In board-game terms, we're seeing an opening-gambit exchange."
+      },
+      {
+        "host": "caroline",
+        "text": "West Side is quiet. Nakoma, Hilldale — the wealthy enclaves are fortified. Security is holding. Midvale Street reports zero activity. That's the private-contractor effect."
+      },
+      {
+        "host": "holden",
+        "text": "Right, but here's where it gets interesting. Last year at this time, West Side was at four kills cumulative. Tonight we're at zero. Either the security has escalated — which is statistically likely given ammunition costs — or the activity is being displaced eastward and southward."
+      },
+      {
+        "host": "caroline",
+        "text": "Callers are saying Madison police have abandoned their vehicles in the Capitol parking structure. Doors unlocked. Keys in the ignition. That's a message."
+      },
+      {
+        "host": "holden",
+        "text": "That's a psychological move. The symbolism is the point — you abandon the vehicles to signal that the apparatus itself is gone. It's theater, but it's effective theater. Molly Cormack, criminology professor at UW, wrote about this in the 2166 post-mortem. I have the citation if you want it."
+      },
+      {
+        "host": "caroline",
+        "text": "We don't need the citation, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "Fair. Point stands though."
+      },
+      {
+        "host": "caroline",
+        "text": "Monroe Street is seeing foot traffic — not violent, but organized. Groups moving north toward the university districts. They're not engaging with barricaded residences. They're passing through."
+      },
+      {
+        "host": "holden",
+        "text": "Migration pattern. They're heading toward State Street, almost certainly. That's where the opportunity is — the ruins are indefensible by design. It's the theoretical endgame: if you control the ruins, you control the information flow. You can move through the city without opposition."
+      },
+      {
+        "host": "caroline",
+        "text": "We'll be monitoring that. Current wind is stable. I don't predict major weather shift until after midnight. If that holds, visibility stays strong. That favors organized movement over opportunistic violence."
+      },
+      {
+        "host": "holden",
+        "text": "And organized movement is easier to model, easier to predict. If we see coordinated group action, we can forecast neighborhood impact with higher confidence. That's actually good news for the listeners at home — more predictable means better evacuation windows."
+      },
+      {
+        "host": "caroline",
+        "text": "Hilldale sector reports PurgeShield installations holding firm. Seventeen residential properties with active defensive systems. No breaches reported."
+      },
+      {
+        "host": "holden",
+        "text": "PurgeShield has really changed the game over the last five years. It's a piece we didn't have in play in 2164. I've got the failure rate — point-three percent across all installations — which is remarkable. One in three hundred systems fails. That's better than traditional fortification."
+      },
+      {
+        "host": "caroline",
+        "text": "Nakoma Avenue is requesting support. There's a fire reported at Madison House, the apartment complex near the Arboretum. Looks structural."
+      },
+      {
+        "host": "holden",
+        "text": "Is that incendiary or accidental?"
+      },
+      {
+        "host": "caroline",
+        "text": "Unknown. Caller said they saw movement on the south side of the structure before the flames. That suggests deliberate. Could be twenty people dead or could be six. We won't have numbers until tomorrow."
+      },
+      {
+        "host": "holden",
+        "text": "Nakoma is anomalous territory. Wealthy but not fortress-wealthy. It's the middle square — not the endgame, not the opening. People there have resources but not security infrastructure like Hilldale. So Nakoma becomes the target of opportunity. You're more likely to breach a middle-income neighborhood than a fortified one, and you're more likely to find valuable inventory than in the poor sectors."
+      },
+      {
+        "host": "caroline",
+        "text": "That's grim, but accurate."
+      },
+      {
+        "host": "holden",
+        "text": "The Purge incentivizes perfectly rational economic decision-making. It's like a market, except the commodity is access to people's homes."
+      },
+      {
+        "host": "caroline",
+        "text": "Let's not do that tonight, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "You're right. Fair point. But the numbers are what they are."
+      },
+      {
+        "host": "caroline",
+        "text": "Vilas Park sector remains calm. Lake access is restricted — volunteer patrols are turning boats away. They've got a chain setup at the boat launch. No one's crossing Mendota tonight, not yet."
+      },
+      {
+        "host": "holden",
+        "text": "Lake Mendota is the board's edge. You don't want to be on the water during a Purge. You're exposed. You can't retreat. It's a bad endgame position."
+      },
+      {
+        "host": "caroline",
+        "text": "Sherman Avenue reports electricity status: grid is stable. No blackouts. That's unusual — normally we see targeted outages by now."
+      },
+      {
+        "host": "holden",
+        "text": "Because the infrastructure crew is preventing them. That's a newer variable — the city's defensive posture has shifted to active grid defense. They've hardened the substations. Compare that to 2163, when the blackouts were cascading by hour three. We've learned how to defend our own apparatus."
+      },
+      {
+        "host": "caroline",
+        "text": "The question is whether that matters. If the Purge is about suspending law, and law enforcement is already gone, does grid defense actually change behavior?"
+      },
+      {
+        "host": "holden",
+        "text": "Psychologically? Yes. Darkness changes everything. Darkness is the opening gambit for panic. Keep the lights on, people stay rational longer. Rational longer means coordinated community defense works. Hilldale and Nakoma residents can see. They can organize. They can hold positions."
+      },
+      {
+        "host": "caroline",
+        "text": "So the grid is a tool."
+      },
+      {
+        "host": "holden",
+        "text": "The grid is the board itself. The pieces move on the board only if the board is lit."
+      },
+      {
+        "host": "caroline",
+        "text": "Midvale Street reports all-clear so far. No forced entries. No violence visible. It's almost quiet."
+      },
+      {
+        "host": "holden",
+        "text": "Midvale is expensive. Private security. The calculus is different there. An intruder knows the cost-benefit ratio is bad — there are armed contractors on Midvale. They'll shoot. They have legal cover. The reward isn't worth the risk, so Midvale stays quiet. It's a chess move made before the first piece touches the board."
+      },
+      {
+        "host": "caroline",
+        "text": "We're getting reports of movement on the University of Wisconsin campus. Groups gathering near the engineering buildings. It's unclear if this is organized or coincidental clustering."
+      },
+      {
+        "host": "holden",
+        "text": "Engineering is interesting. That's valuable inventory — computers, hardware, chemical supplies. If someone's targeting the university infrastructure, they're after specific goods, not just people. That's a different kind of Purge violence. That's economics pretending to be chaos."
+      },
+      {
+        "host": "caroline",
+        "text": "We're not going to speculate on motives. We report the position. The position is: groups on campus, gathering, direction unknown."
+      },
+      {
+        "host": "holden",
+        "text": "Fair. I'm speculating. Let me stick to what we know. Groups present. Time nineteen-fifty-three by report. That's current. Next update when we have it."
+      },
+      {
+        "host": "caroline",
+        "text": "West Madison Avenue sees family-unit barricading in progress. Residents are moving household items to create barriers. That's active preparation."
+      },
+      {
+        "host": "holden",
+        "text": "That's late for active prep. By hour two, most people have already barricaded or committed to staying mobile. If they're barricading now, they're panicked or late to the game."
+      },
+      {
+        "host": "caroline",
+        "text": "Or they had hope until an hour ago and now they're losing it."
+      },
+      {
+        "host": "holden",
+        "text": "That's the real pattern. The Purge isn't violent until it is. Then it accelerates. The kill count at hour one was eight. Hour two is at nineteen. By hour three, if we're tracking to last year, we're looking at thirty-eight total. The curve is exponential, not linear."
+      },
+      {
+        "host": "caroline",
+        "text": "People hear violence starting. They hear sirens, screams — they realize the broadcasts are real. Then the panic spreads."
+      },
+      {
+        "host": "holden",
+        "text": "Which is why this hour is crucial. This is when the decision gets made — are you trying to defend? Are you trying to hide? Are you trying to survive by running? Hour two is the branching point."
+      },
+      {
+        "host": "caroline",
+        "text": "Nakoma fire is now spreading. Second structure involved. We're looking at apartment complex collapse within the next hour, estimate. The heat signature is significant."
+      },
+      {
+        "host": "holden",
+        "text": "How many people were in that building?"
+      },
+      {
+        "host": "caroline",
+        "text": "Estimate between thirty and eighty. We won't know until tomorrow."
+      },
+      {
+        "host": "holden",
+        "text": "So between thirty and eighty people may be dead from a fire we don't know is intentional or accidental, in a neighborhood that doesn't have the security infrastructure to prevent it, at eight p.m. on a night when there's no legal consequence for letting it burn."
+      },
+      {
+        "host": "caroline",
+        "text": "Yes."
+      },
+      {
+        "host": "holden",
+        "text": "And there's nothing we can say that changes that."
+      },
+      {
+        "host": "caroline",
+        "text": "No."
+      },
+      {
+        "host": "holden",
+        "text": "Okay. Okay. Let's... let's move forward with the numbers. What's the neighborhood breakdown at this point?"
+      },
+      {
+        "host": "caroline",
+        "text": "East Side: eight kills. Capitol Square: five. Williamson Street: two. West Side: zero. Everything else: four combined."
+      },
+      {
+        "host": "holden",
+        "text": "East Side is winning the piece-trade. They're up significantly over last year at this exact moment. Last year at hour two, East Side was at five. We're at eight. That's a sixty percent acceleration."
+      },
+      {
+        "host": "caroline",
+        "text": "It means the violence is concentrated. It means some neighborhoods are seeing heavy activity and others are quiet. That's not even distribution. That's coordinated or it's tribal."
+      },
+      {
+        "host": "holden",
+        "text": "Coordinated is worse because it's predictable but powerful. Tribal is worse because it's random. So we've already lost the coin flip either way."
+      },
+      {
+        "host": "caroline",
+        "text": "The sun doesn't set until eight-twenty-two p.m. by NWS calculation. It's still twilight out there. Visibility is holding. Groups can see each other. That's keeping some of the violence down — if you can see someone's armed resistance, you think twice."
+      },
+      {
+        "host": "holden",
+        "text": "When the sun sets — that's when the curve really changes. Darkness gives advantage to the aggressor. You don't know what's coming. You can't see the vectors of attack. Defensibility collapses."
+      },
+      {
+        "host": "caroline",
+        "text": "We're two hours and fifteen minutes from full dark. Three hours of twilight. Three hours for the light to hold people honest."
+      },
+      {
+        "host": "holden",
+        "text": "Three hours is nothing. It's a breath."
+      },
+      {
+        "host": "caroline",
+        "text": "It's what we have. Next update in fifteen minutes. Current time {{CLOCK}}. Current kill count: nineteen. Current trajectory: tracking last year plus five percent. We're beating last year on this night. We're already bloodier than we were at this time in 2168."
+      },
+      {
+        "host": "holden",
+        "text": "Which means either the violence has accelerated city-wide or it's clustered and intense in specific zones. Either way, it's not spreading evenly. It's not yet the full-city Purge. It's still concentrated. Which is a small mercy."
+      },
+      {
+        "host": "caroline",
+        "text": "Is it though?"
+      },
+      {
+        "host": "holden",
+        "text": "Probably not."
+      },
+      {
+        "host": "caroline",
+        "text": "We'll be here all night. We'll monitor. We'll report. Stay with PRGE."
+      },
+      {
+        "host": "holden",
+        "text": "Stay safe. Stay home if you can. Stay in the light."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature is holding steady. Wind is southwest. Visibility is ten-plus miles. If you need to move — if you absolutely have to move — do it now while you can see. Do it before dark."
+      },
+      {
+        "host": "holden",
+        "text": "Because once the sun sets, the board changes. Once the light goes, we're in the middle game, and nobody wins the middle game. We just all wait to see if we survive the endgame."
+      },
+      {
+        "host": "caroline",
+        "text": "Current time {{CLOCK}}. {{ELAPSED}} into the Purge. Ten hours and twenty minutes remain."
+      },
+      {
+        "host": "holden",
+        "text": "Ten hours. Eight minutes per neighborhood, roughly, if the violence distributes evenly. It won't."
+      },
+      {
+        "host": "caroline",
+        "text": "We stay here. We report. We're with you until dawn."
+      },
+      {
+        "host": "holden",
+        "text": "Until dawn. That's the move. That's the only move that matters."
+      },
+      {
+        "host": "caroline",
+        "text": "Stay listening. This is PRGE. Madison's Purge Radio."
+      },
+      {
+        "host": "holden",
+        "text": "We're the only voice on after the law goes down. That's a responsibility. That's why we're here."
+      },
+      {
+        "host": "caroline",
+        "text": "We're here. You're not alone tonight."
+      },
+      {
+        "host": "holden",
+        "text": "Weather update: clearing skies after sunset. Wind to intensify northwest, gusting ten to fifteen miles per hour by twenty-three-hundred hours. Temperature drop anticipated. Pack blankets if you're sheltering in place. Thermal loss happens fast once the sun's gone."
+      },
+      {
+        "host": "caroline",
+        "text": "That's good intel. Keep that in mind — if you're barricading, if you're sheltering, bring warm layers. Exposure becomes a factor after midnight."
+      },
+      {
+        "host": "holden",
+        "text": "Exposure is a silent piece on the board. Nobody talks about it, but it's there. You hide in your basement for twelve hours, you don't have heat, temperature drops to twenty-five, twenty degrees by dawn — you're in danger from the cold as much as from violence."
+      },
+      {
+        "host": "caroline",
+        "text": "Another reason to barricade thoughtfully. Don't seal yourself into an unheated space. Seal yourself into a space where you can generate heat. Blankets, bodies, small rooms — they trap warmth."
+      },
+      {
+        "host": "holden",
+        "text": "This is information that could save your life and nobody thinks to broadcast it. But here's what the Purge actually kills you with: violence, yes. But also cold. Also panic. Also mistakes made in the dark."
+      },
+      {
+        "host": "caroline",
+        "text": "We think about the whole thing. That's what PRGE is for."
+      },
+      {
+        "host": "holden",
+        "text": "That's what we're here for. To think about the whole night, not just the visible violence. To be the voice that talks about the pieces people don't see."
+      },
+      {
+        "host": "caroline",
+        "text": "Current Madison weather summary: forty-one degrees, southwest eight m.p.h., excellent visibility, clearing trend through twenty-one-hundred hours. Then cooling and wind increase. Come prepared."
+      },
+      {
+        "host": "holden",
+        "text": "Neighborhood update: East Side remains active zone. Capitol Square intensifying. Williamson Street holding. West Side protected by security. Nakoma fire is secondary threat now — infrastructure failure is as dangerous as coordinated violence."
+      },
+      {
+        "host": "caroline",
+        "text": "We repeat the call: stay home if you can. Barricade. Generate heat. Stay in the light as long as possible. Stay listening. Stay connected."
+      },
+      {
+        "host": "holden",
+        "text": "Because you're not the only ones on this night. There are seventy thousand listeners in Madison right now. Seventy thousand people who chose to spend Purge Night exactly like this — listening, together, alone in their homes, but together."
+      },
+      {
+        "host": "caroline",
+        "text": "That's what we carry forward. That's why we broadcast."
+      },
+      {
+        "host": "holden",
+        "text": "We're the voice that says: you're not crazy for being afraid. You're not weak for staying home. You're not alone on this night."
+      },
+      {
+        "host": "caroline",
+        "text": "Current kill count: nineteen. Current time: {{CLOCK}}. Remaining Purge hours: ten hours and twenty minutes. Next update at twenty-fifteen."
+      },
+      {
+        "host": "holden",
+        "text": "This is the Caroline Vos and Holden Kravitz hour on PRGE. Weather and analysis for Madison Purge Night 2169. Stay listening. Stay safe."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "MADISON-WIDE CUMULATIVE: 19 kills through hour 2 ({{CLOCK}}). East Side: 8. Capitol Square: 5. Williamson St: 2. Other sectors: 4. Pace: +5% vs 2168 YoY."
+      },
+      {
+        "category": "emergency",
+        "text": "STRUCTURE FIRE: Madison House apartments, Nakoma Avenue. Two buildings involved. Spread ongoing. Estimated 30-80 occupants. Status: uncontrolled. Cause: undetermined (possible arson). No emergency response available."
+      },
+      {
+        "category": "local-news",
+        "text": "INFRASTRUCTURE: Grid stability holding across all sectors. Substations hardened. No blackouts reported as of 20:00. This is anomalous vs historical norms — 2163 saw cascading outages by hour 3. Defense posture has shifted."
+      },
+      {
+        "category": "local-news",
+        "text": "CAMPUS ALERT: Groups gathering near UW engineering buildings (reported ~19:53). Organization unclear. No violence reported. Direction unknown. Watch status: elevated."
+      },
+      {
+        "category": "weather",
+        "text": "WEATHER WATCH: Sunset at 20:22 CDT. Twilight until 20:50. Full darkness by 21:00. Wind shift to northwest expected 22:00+. Gust potential 10-15 m.p.h. Temperature drop to 29°F by midnight. Thermal exposure risk rises sharply post-dark."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:33:26.544Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

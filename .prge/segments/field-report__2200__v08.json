@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm positioned on the east edge of Atwood Avenue, about two blocks south of the Schenk's Corners intersection. It's {{CLOCK}} and we're {{ELAPSED}} into the night. Madison-wide kill count is sitting at 61 as of my last sync — that's 23 ahead of this point last year."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side is pulling weight. 34 kills in this neighborhood alone. That's 56% of the city total in a zone that's historically 18% of the footprint. The concentration is... unusual."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm seeing foot traffic moving north toward the Capitol Square perimeter. Small groups, coordinated movement. Weapons visible. Bladed primarily. Firearms up-regulation has made the economics shift — ammunition cost is pricing people down-market."
+      },
+      {
+        "host": "tucker",
+        "text": "There's a vehicle fire two blocks west. Beltline spillover maybe. Hard to tell from here. The wind is pushing smoke east and it's... hold on, my relay is stuttering. Let me reposition the antenna real quick —"
+      },
+      {
+        "host": "tucker",
+        "text": "Capitol Square perimeter breach probability is climbing. If the barricade at the Capitol goes, we're looking at a cascade event in the downtown corridor. Historical precedent from 2159 suggests 15 to 20 minute window of —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide: 61 cumulative ({{ELAPSED}}). East Side: 34 kills. YoY +28% at this checkpoint."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Capitol Square perimeter: increased foot traffic, coordinated movement detected. Breach risk: elevated."
+      },
+      {
+        "category": "local-news",
+        "text": "Vehicle fire reported Beltline corridor, east drift. Source unclear. Smoke visible from East Side positions."
+      },
+      {
+        "category": "emergency",
+        "text": "Ammunition costs up 34% YoY. Bladed weapons now 22% of total kills. Economic pressure on method selection confirmed."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:33:57.560Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

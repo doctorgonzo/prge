@@ -1,0 +1,449 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "21:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Welcome back to PRGE. Quinn Foley here. We're {{ELAPSED}} into the evening and the East Side is lit up like a Christmas tree that nobody wanted."
+      },
+      {
+        "host": "quinn",
+        "text": "The clock reads {{CLOCK}}. You're listening to the only broadcast in Madison that's required by law to be illegal eleven months and twenty-nine days out of the year."
+      },
+      {
+        "host": "quinn",
+        "text": "I've got a whiskey here. Jameson. Not the good stuff — that was 2167's luxury. This is the stuff you drink when you've accepted that 2169 is what we're working with."
+      },
+      {
+        "host": "quinn",
+        "text": "Pours. You hear that? That's the sound of my career still bleeding out. Some sounds don't stop."
+      },
+      {
+        "host": "quinn",
+        "text": "So let me tell you what's happening three hours in. We're getting reports from Atwood Avenue. From the neighborhoods that didn't build walls high enough. From people who thought their timing was good and their prayers were better."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim's been monitoring the feeds. The Capitol Square perimeter is holding, but there's pressure. And when I say pressure, I mean there are people outside of it who would very much like to be inside it, and they're making their intentions clear."
+      },
+      {
+        "host": "quinn",
+        "text": "This is not a moral judgment. This is not Quinn being preachy. I'm a politician — I understand incentives. The incentive tonight is: you are alone, and the law is not coming. That changes a man's calculus."
+      },
+      {
+        "host": "quinn",
+        "text": "I knew a woman once. Years back, before the scandal, before I became public property and then public enemy. She said the Purge wasn't evil — it was just efficiency. It cut away the pretense."
+      },
+      {
+        "host": "quinn",
+        "text": "She's not wrong. Not in a way I can argue with three whiskeys in and the rest of my life looking like a dark hallway."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Dennis from Atwood — you're on PRGE. Where are you right now?"
+      },
+      {
+        "host": "quinn",
+        "text": "Dennis: I'm, uh — I'm in my apartment. Second floor of the building on the corner of Farley and Sherman. I can see the street."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Dennis, can you see people moving?"
+      },
+      {
+        "host": "quinn",
+        "text": "Dennis: Yeah. Yeah, I can. They're not running. That's the thing that's weird. They're just... walking. Like they know nobody's going to stop them."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Are they stopping at buildings?"
+      },
+      {
+        "host": "quinn",
+        "text": "Dennis: Some of them are. Some of them just keep going. The ones that stop — I don't want to describe this."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: You're doing fine, Dennis. You're doing the hardest part, which is staying on the line and not pretending it's not happening."
+      },
+      {
+        "host": "quinn",
+        "text": "Dennis: How long is this?"
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: We've got about nine hours left. You're a third of the way through."
+      },
+      {
+        "host": "quinn",
+        "text": "Dennis: That doesn't make me feel better."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: I know. That's okay. Stay on the line if you want. Don't if you don't. There's no right answer here."
+      },
+      {
+        "host": "quinn",
+        "text": "Dennis: I'll stay. I think I'll stay."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Good. Dennis, you're good. We're here."
+      },
+      {
+        "host": "quinn",
+        "text": "So that's Dennis. And Dennis is what we're doing here at PRGE. We're the company in the dark. We're the proof that someone is paying attention."
+      },
+      {
+        "host": "quinn",
+        "text": "I used to be the kind of man who stood up and made speeches about the Purge being necessary for social stability. I had charts. I had Vance's cabinet figures memorized. I made jokes about it on the floor."
+      },
+      {
+        "host": "quinn",
+        "text": "The scandal wasn't about the Purge, by the way. Folks always want to know — was it the Purge that got you? No. It was sex and a campaign finance violation and a woman I did not treat well. It was the boring corruption that real crimes are made of."
+      },
+      {
+        "host": "quinn",
+        "text": "The Purge got me because it put me in a room with people I'd betrayed, and for twelve hours, the law said they had options I'd denied them the other 353 days of the year."
+      },
+      {
+        "host": "quinn",
+        "text": "Nobody came for me that year. But somebody could have. Somebody *could* every year. That knowledge does something to you."
+      },
+      {
+        "host": "quinn",
+        "text": "Takes another drink. That's what Jameson is for."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Mary from Willy Street — you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Mary: Hi, Quinn. I'm calling because I want to report that the neighborhood watch on Yahara is still holding. I live two blocks from there and I can see the barricade."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Mary, that's good information. How many people do you count?"
+      },
+      {
+        "host": "quinn",
+        "text": "Mary: I count maybe fifteen, maybe twenty. They've got cars upended. They've got — I think those might be actual guns."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Are you inside the barricade?"
+      },
+      {
+        "host": "quinn",
+        "text": "Mary: No. We decided to fortify in place. My husband and I and our two kids. The barricade is just there if things get really bad."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Mary, I'm going to be honest with you. Things might get really bad. The watch is good. The watch is real. But if serious numbers start moving toward Willy Street, fifteen people don't stop them."
+      },
+      {
+        "host": "quinn",
+        "text": "Mary: I know. But it's better than last year. Last year we were just sealed up, hoping. This year we have neighbors who are actively choosing to defend the block."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: That's true. That changes the mathematics of it. Tell me — are your kids asleep?"
+      },
+      {
+        "host": "quinn",
+        "text": "Mary: They're trying to be. My youngest asked me why people hurt people on Purge Night. I didn't have a good answer."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Mary, here's a good answer: they hurt people because the law isn't stopping them. Not because they're evil. Evil is free to exist any night of the year. The Purge just makes it convenient."
+      },
+      {
+        "host": "quinn",
+        "text": "Mary: That's not a better answer."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: No. It's not. But it's true. And sometimes truth is what you need at three hours in."
+      },
+      {
+        "host": "quinn",
+        "text": "Mary: Thank you for picking up. Thank you for broadcasting."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Thank you for staying home. Thank you for choosing to be here with us."
+      },
+      {
+        "host": "quinn",
+        "text": "That's Mary. That's the Willy Street watch in action. That's what actual community looks like when the alternative is alone."
+      },
+      {
+        "host": "quinn",
+        "text": "You know who would have loved this? Vance. He would have pointed at Mary and the neighborhood watch and said, 'See? The Purge creates civic responsibility.' He'd have written a memo about it."
+      },
+      {
+        "host": "quinn",
+        "text": "Vance is dead now, by the way. 2156. Went in his sleep, which is mercy he didn't deserve. The Hegseth doctrine held though. That's the thing about bad ideas — you don't need the original bad man to keep them going."
+      },
+      {
+        "host": "quinn",
+        "text": "His cabinet was worse than he was. Did you know that? History doesn't really talk about it. But the people who actually *run* the Purge, the people who designed the Level-10 protections, the people who signed off on the initial casualty projections — those people are still alive."
+      },
+      {
+        "host": "quinn",
+        "text": "Some of them are in Madison. Some of them are probably listening to this broadcast right now, sealed up in a house with more locks than the Capitol."
+      },
+      {
+        "host": "quinn",
+        "text": "If I had something constructive to say about that, I would say it. I don't. I just pour another drink and acknowledge the fact."
+      },
+      {
+        "host": "quinn",
+        "text": "Pours audibly. That's four. I'm keeping count. Not for me. For the record."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from Tenney Park — you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "James: Quinn, I'm calling because I'm seeing unusual activity down by the lake. There's a boat. There's people on the water."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: James, that's — boats are risky tonight. The water's cold. People don't make good decisions when they're trying to escape."
+      },
+      {
+        "host": "quinn",
+        "text": "James: I know. But I'm just reporting what I'm seeing. There's a small speedboat, maybe eight people on it, heading toward the Madison side of the lake from the north."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Are they being pursued?"
+      },
+      {
+        "host": "quinn",
+        "text": "James: I don't think so. I think they're just trying to get across."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: And on the other side — are there people waiting?"
+      },
+      {
+        "host": "quinn",
+        "text": "James: I... yeah. Yeah, there are. There's maybe five or six people on the shoreline. They look armed."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: James, I'm going to ask you to stop watching. I'm going to ask you to go inside. Understand?"
+      },
+      {
+        "host": "quinn",
+        "text": "James: I understand."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Thank you for the report. Thank you for the information. Now please don't watch anymore."
+      },
+      {
+        "host": "quinn",
+        "text": "James hangs up."
+      },
+      {
+        "host": "quinn",
+        "text": "And that's the Lake Mendota situation in three hours. People are desperate enough to get on open water in March. People are waiting on the other side. Math doesn't need to be done there."
+      },
+      {
+        "host": "quinn",
+        "text": "Tucker's going to have field reports in about an hour. Tucker is brave in a way I stopped being a long time ago. Tucker goes out into it. Tucker counts it. Tucker comes back and tells us what it looks like when the numbers have bodies."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Rick from East Side — you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Rick: Quinn, I just wanted to say thank you. My wife is terrified, and listening to your voice has helped her. So thank you."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Rick, I appreciate that. Tell your wife that the terror is appropriate. This is terrifying. But she's inside, and you're inside, and that's the choice that's keeping you breathing."
+      },
+      {
+        "host": "quinn",
+        "text": "Rick: How many hours left?"
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Nine. We're a third of the way through."
+      },
+      {
+        "host": "quinn",
+        "text": "Rick: That's good. That's something."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: It is. That's everything, actually."
+      },
+      {
+        "host": "quinn",
+        "text": "Rick: My kids are asleep. My wife is sitting right next to me. We're going to make it."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Yes, you are. Stay on the line or hang up — either way, you're going to make it."
+      },
+      {
+        "host": "quinn",
+        "text": "That's Rick. That's a man who understands that staying alive is an act of will on a night like this."
+      },
+      {
+        "host": "quinn",
+        "text": "The first time I broadcast this show was 2168. I didn't think I'd do it again. I thought I'd be dead or exiled by now. But the government needed a pressure valve, and I was ugly enough to serve the purpose."
+      },
+      {
+        "host": "quinn",
+        "text": "They let me broadcast once a year. They let me say what I think. And as long as I do it between seven PM and seven AM on one specific night, nobody prosecutes. It's genius, actually. Let the fucked-up former politician vent for twelve hours and the whole system runs another year."
+      },
+      {
+        "host": "quinn",
+        "text": "I used to be angry about it. Now I'm just grateful. This broadcast is the only time I'm allowed to exist publicly. So I take it seriously."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Atwood — you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Sarah: Quinn, I need to report something and I'm not sure who else to tell."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Sarah, that's what we're here for. What are you reporting?"
+      },
+      {
+        "host": "quinn",
+        "text": "Sarah: There's a man in my building's hallway. He's not trying to break in. He's just standing there. He's been standing there for maybe ten minutes."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Is your door locked?"
+      },
+      {
+        "host": "quinn",
+        "text": "Sarah: Yes. Multiple locks. Bar in the frame."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Is he looking at your door?"
+      },
+      {
+        "host": "quinn",
+        "text": "Sarah: Not right now. He's looking at the door three units down. But he might move."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Sarah, I'm going to be honest with you. If he's armed, there's nothing I can tell you that helps. If he's not, he's going to get bored in about five minutes and move on to a building that looks easier."
+      },
+      {
+        "host": "quinn",
+        "text": "Sarah: How do I know if he's armed?"
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: You don't. You assume he is. You prepare for worst case. That's what the rest of the night is going to be — assumption and preparation."
+      },
+      {
+        "host": "quinn",
+        "text": "Sarah: Okay."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn: Call back in an hour. Let me know he moved on."
+      },
+      {
+        "host": "quinn",
+        "text": "Sarah: I will. Thank you."
+      },
+      {
+        "host": "quinn",
+        "text": "That's Sarah. That's the Atwood situation. That's what three hours of the Purge looks like when you're on the block that's got all the pressure."
+      },
+      {
+        "host": "quinn",
+        "text": "The East Side of Madison — Atwood, Sherman, Tenney Park, the neighborhoods around the lake and the older residential blocks — they're hot every year. You want to know why? Because the people who could afford to move away already did."
+      },
+      {
+        "host": "quinn",
+        "text": "So you get a concentration. A density. Economic desperation meeting legal opportunity. That's a thermometer reading that climbs fast."
+      },
+      {
+        "host": "quinn",
+        "text": "That's not a judgment on the East Side. That's not blaming the people there. That's just acknowledging that the Purge works on a gradient, and the gradient points downward toward the neighborhoods that were already struggling."
+      },
+      {
+        "host": "quinn",
+        "text": "Which is maybe the most Vance thing about all of this. He designed a system that looked like it was random. But it wasn't. It was surgical. It cut precisely along lines that were already there."
+      },
+      {
+        "host": "quinn",
+        "text": "Takes another drink. That's five. I'm slowing down. The whiskey's catching up or I'm getting tired — either way, the math is getting cleaner."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I miss? I miss not knowing what tonight looks like until tonight is over. I miss the luxury of ignorance."
+      },
+      {
+        "host": "quinn",
+        "text": "Now I sit here and I wait for the reports to come in and I calibrate my empathy according to the body count. It's a skill you develop. After a few years, you get good at it."
+      },
+      {
+        "host": "quinn",
+        "text": "You become a translator. You take the chaos and you narrate it in a way that sounds human. That's my job on PRGE. That's my penance. That's my entire life now."
+      },
+      {
+        "host": "quinn",
+        "text": "And I'm drunk, which helps. And I'm angry, which helps. And I'm scared, which I don't admit but everyone can hear it in my voice."
+      },
+      {
+        "host": "quinn",
+        "text": "That's PRGE at the three-hour mark. We've got nine hours left. Dennis is still on the line from Atwood. Mary is fortified on Willy Street. Sarah has a man in her hallway. James is probably not watching the lake anymore."
+      },
+      {
+        "host": "quinn",
+        "text": "And we're here. We're broadcasting. We're the voice in the dark that says you're not alone, even though alone is exactly what everyone is on a night like this."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "East Side cumulative: 19 confirmed ({{ELAPSED}} elapsed)"
+      },
+      {
+        "category": "neighborhood",
+        "text": "Atwood Avenue: Foot traffic reported. Doors being tested. Barricades holding."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Willy Street: Neighborhood watch active on Yahara bridge. 15-20 armed residents. Perimeter secure so far."
+      },
+      {
+        "category": "local-news",
+        "text": "Lake Mendota: Unusual boat activity reported. Multiple vessels crossing. Shoreline contacts reported near Tenney Park."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Incoming: 47 caller requests. 12 emergency reports waiting. 23 messages of thanks."
+      },
+      {
+        "category": "emergency",
+        "text": "If you are in immediate danger, you are on your own until 07:00. Seal doors. Assume armed. Wait it out."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:28:49.664Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

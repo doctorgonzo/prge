@@ -1,0 +1,433 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} into this thing, folks, and I gotta say — the wind just rattled my window hard enough that I poured whiskey on my notes."
+      },
+      {
+        "host": "caroline",
+        "text": "That would be the cold front I warned you about. Northwest, gusting to twenty-two miles per hour as of 00:55."
+      },
+      {
+        "host": "quinn",
+        "text": "You were right. Again. I'm making a note — Caroline was right. It's going in the record."
+      },
+      {
+        "host": "holden",
+        "text": "Behavioral impact of the temperature drop is significant. Kill count in the last hour was eighteen. That's down from twenty-three in hour four."
+      },
+      {
+        "host": "quinn",
+        "text": "You're saying the cold is stopping people?"
+      },
+      {
+        "host": "holden",
+        "text": "I'm saying the cold is changing behavior. Outdoor activity concentrating indoors now. We should see indoor-violence metrics spike in hours eight and nine."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature is currently twenty-nine degrees. Wind chill brings it to eighteen. That's the kind of cold that makes people reconsider decisions."
+      },
+      {
+        "host": "quinn",
+        "text": "Or it makes people desperate. Desperate people do worse things when they're cold."
+      },
+      {
+        "host": "holden",
+        "text": "Historical data supports both. 2156 was similar weather, similar dip in outdoor activity. 2159 was the opposite — cold snap coincided with a twelve percent increase in vehicle-based aggression."
+      },
+      {
+        "host": "quinn",
+        "text": "Vehicle-based aggression. Jesus, Holden. That's a euphemism and a half."
+      },
+      {
+        "host": "caroline",
+        "text": "The Beltline is probably spiking right now because of it. Enclosed space, heat, isolation. People trapped in metal boxes."
+      },
+      {
+        "host": "quinn",
+        "text": "We had a caller earlier — Darren, from Atwood — and he said his neighbor's panels were installed backwards. Those things are supposed to keep the cold out, and this guy's got them buckling inward."
+      },
+      {
+        "host": "holden",
+        "text": "That's a structural failure waiting to happen. If external pressure is stronger than the internal frame can withstand —"
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, the panels are the least of his problems. If the panels fail, he's got about six hours of {{ELAPSED}} behind him and six more ahead."
+      },
+      {
+        "host": "caroline",
+        "text": "The wind will drop after three a.m. Backing to the north, losing intensity. He'll have that, at least."
+      },
+      {
+        "host": "quinn",
+        "text": "Three a.m. That's a long time from now, Caroline."
+      },
+      {
+        "host": "holden",
+        "text": "Three hours and forty minutes, to be precise. At hour nine, we typically see another dip as people hit fatigue. The question is whether the wind drop accelerates that or whether the temperature keeps them aggressive."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I think? I think after midnight, people stop being tactical. They stop being smart. They've been awake for five hours already, they're tired, they're cold, and the rational part of their brain is offline."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is the argument for barricading better and thicker as the night goes on."
+      },
+      {
+        "host": "quinn",
+        "text": "Or for staying home and not trying to be a hero. Which is what I'm doing. Which is what sensible people are doing."
+      },
+      {
+        "host": "holden",
+        "text": "Seventy-one thousand estimated listeners right now. If the barricade data I'm seeing is accurate, roughly thirty-five percent are actively fortified. Thirty percent are mobile — vehicles, safe houses, people moving between locations."
+      },
+      {
+        "host": "quinn",
+        "text": "And the other thirty-five percent?"
+      },
+      {
+        "host": "holden",
+        "text": "Unknown. That's the dead air. The people we can't quantify. Could be hiding. Could be participating. Could be dead."
+      },
+      {
+        "host": "quinn",
+        "text": "Thank you for that cheerful assessment, Holden. Really setting the tone."
+      },
+      {
+        "host": "caroline",
+        "text": "The tone was already set at seven p.m. We're just running data against it."
+      },
+      {
+        "host": "quinn",
+        "text": "You're right. You're both right. I sound like I'm trying to argue with facts, and that's just me being tired."
+      },
+      {
+        "host": "holden",
+        "text": "You're on hour seven of a twelve-hour broadcast while drinking."
+      },
+      {
+        "host": "quinn",
+        "text": "While drinking, yes. That's the whole thing about Purge Radio. We don't pretend to be sober. We just pretend to still function."
+      },
+      {
+        "host": "caroline",
+        "text": "And you do. You're more coherent than you were at midnight."
+      },
+      {
+        "host": "quinn",
+        "text": "That's a low bar, Caroline. Midnight me was three whiskeys in and naming politicians who've been dead for a decade."
+      },
+      {
+        "host": "holden",
+        "text": "You named Director Calloway. That was at 00:15, according to the log. He's not dead. He's protected."
+      },
+      {
+        "host": "quinn",
+        "text": "And there it is. The reminder that I said his name on a pirate broadcast running on a frequency that gets us federal charges if we're caught. Thanks, Holden."
+      },
+      {
+        "host": "caroline",
+        "text": "Tim's been monitoring. We're clean on the jammer front since three-twenty."
+      },
+      {
+        "host": "quinn",
+        "text": "Three-twenty was four hours ago. A lot can change."
+      },
+      {
+        "host": "holden",
+        "text": "The probability of a second jammer deployment within six hours of the first is approximately eleven percent, based on historical patterns."
+      },
+      {
+        "host": "quinn",
+        "text": "So you're telling me there's an eighty-nine percent chance we make it to dawn."
+      },
+      {
+        "host": "holden",
+        "text": "I'm telling you the data suggests that."
+      },
+      {
+        "host": "quinn",
+        "text": "I'll take it. Let's go with eighty-nine percent."
+      },
+      {
+        "host": "caroline",
+        "text": "The wind is going to be the bigger threat to the signal. At sustained gusts of twenty-two, our antenna alignment gets compromised."
+      },
+      {
+        "host": "quinn",
+        "text": "Can Tim adjust for that?"
+      },
+      {
+        "host": "caroline",
+        "text": "He's already compensating. Have you noticed the signal clarity staying stable?"
+      },
+      {
+        "host": "quinn",
+        "text": "I've noticed nothing but the sound of my own voice and my own whiskey glass, Caroline. But I trust Tim with my life. I trust him with seventy thousand lives listening."
+      },
+      {
+        "host": "holden",
+        "text": "Seventy-one thousand, as of the last metrics pull. Signal holding steady means Tim's adjustments are working."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim's adjustments are always working. That man could keep a signal alive in a hurricane."
+      },
+      {
+        "host": "caroline",
+        "text": "We might find out before this is over. National service is predicting the low-pressure system to stall. Could be winds into hour nine."
+      },
+      {
+        "host": "quinn",
+        "text": "Stall. You mean sit over Madison and keep hammering us."
+      },
+      {
+        "host": "caroline",
+        "text": "Keep hammering the whole metro. Suburbs too. Everyone feels this, not just the city."
+      },
+      {
+        "host": "holden",
+        "text": "Sun Prairie reported three kills in the first six hours. That's below their trend by about twenty percent."
+      },
+      {
+        "host": "quinn",
+        "text": "Suburb advantage?"
+      },
+      {
+        "host": "holden",
+        "text": "Population density. Less crowding, more space to avoid contact. Weather affects spread."
+      },
+      {
+        "host": "quinn",
+        "text": "So the suburbs are safer because they're not as packed as the city."
+      },
+      {
+        "host": "caroline",
+        "text": "And because they get colder faster. Fewer buildings to retain heat."
+      },
+      {
+        "host": "quinn",
+        "text": "Everyone should move to the suburbs."
+      },
+      {
+        "host": "holden",
+        "text": "No. Suburbs have different violence patterns. Dispersed targets are easier in low-density areas. It evens out."
+      },
+      {
+        "host": "quinn",
+        "text": "Nothing evens out. Some places are worse than others. Some people get luckier than others. That's the whole system."
+      },
+      {
+        "host": "caroline",
+        "text": "The system that you, Quinn, helped create."
+      },
+      {
+        "host": "quinn",
+        "text": "That's a low blow, Caroline, even for you."
+      },
+      {
+        "host": "caroline",
+        "text": "You were in Regional Council. You voted for expansion protocols in 2163."
+      },
+      {
+        "host": "quinn",
+        "text": "I was one vote on a fifteen-person council, and I was pressured by — you know what? I'm not doing this at one in the morning. I'm not litigating my own history right now."
+      },
+      {
+        "host": "holden",
+        "text": "The expansion protocols did correlate with a seven percent increase in Purge-night participation rates."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, I'm going to need you to stop correlating things to my personal failures."
+      },
+      {
+        "host": "caroline",
+        "text": "We all have them. My weather model in 2162 overestimated snowfall by fourteen inches. Twelve thousand people spent extra money on snow removal for nothing."
+      },
+      {
+        "host": "quinn",
+        "text": "That's not the same as voting for something that makes Purge Night worse."
+      },
+      {
+        "host": "caroline",
+        "text": "No. But it's something I live with. We all have those."
+      },
+      {
+        "host": "holden",
+        "text": "The East Side kill count in hour six was twelve. Concentrated in the Atwood strip. The correlation is strong between high density and high fatality."
+      },
+      {
+        "host": "quinn",
+        "text": "Is Darren still on the line?"
+      },
+      {
+        "host": "caroline",
+        "text": "He dropped an hour ago. Probably sleeping or barricaded tighter."
+      },
+      {
+        "host": "quinn",
+        "text": "I hope he's sleeping. I hope he stays safe until seven a.m. and his neighbor gets those panels fixed."
+      },
+      {
+        "host": "holden",
+        "text": "Probability Darren makes it to seven a.m. is approximately ninety-four percent, given his self-reported fortification level and Atwood demographics."
+      },
+      {
+        "host": "quinn",
+        "text": "Ninety-four. I'm going to think about that number. Ninety-four percent of people in Darren's situation survive the night."
+      },
+      {
+        "host": "caroline",
+        "text": "Which means six percent don't."
+      },
+      {
+        "host": "quinn",
+        "text": "Which means six percent don't. Jesus."
+      },
+      {
+        "host": "holden",
+        "text": "Six percent of a neighborhood the size of Atwood is approximately eighty-four people. Statistically, that's what we'd expect."
+      },
+      {
+        "host": "quinn",
+        "text": "Don't put a number on it, Holden. Please don't do that."
+      },
+      {
+        "host": "holden",
+        "text": "I'm just reading data."
+      },
+      {
+        "host": "quinn",
+        "text": "You're reading it like it's not eighty-four actual people."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature is dropping faster than predicted. Wind chill at twenty-two now."
+      },
+      {
+        "host": "quinn",
+        "text": "How much faster?"
+      },
+      {
+        "host": "caroline",
+        "text": "Eight degrees cooler than the 01:00 forecast. The system is accelerating."
+      },
+      {
+        "host": "holden",
+        "text": "Accelerating systems correlate with unpredictable behavior. If people expected thirty-two degrees and it's twenty-two, their adaptive responses will lag."
+      },
+      {
+        "host": "quinn",
+        "text": "Their adaptive responses. You mean they'll be less prepared for the cold."
+      },
+      {
+        "host": "holden",
+        "text": "Yes."
+      },
+      {
+        "host": "quinn",
+        "text": "Which means more exposure injuries. Which means more people dying from something other than violence."
+      },
+      {
+        "host": "caroline",
+        "text": "That's the secondary casualty risk nobody talks about. The environmental deaths."
+      },
+      {
+        "host": "quinn",
+        "text": "Because environmental deaths are an accident. Violence is a choice. It's easier to blame the Purge for violence than to blame the cold."
+      },
+      {
+        "host": "holden",
+        "text": "The cold is part of the Purge system now. It's been built into the casualty expectations."
+      },
+      {
+        "host": "quinn",
+        "text": "That's horrifying, Holden. That sentence is the most horrifying thing you've said all night."
+      },
+      {
+        "host": "caroline",
+        "text": "We have six hours until the system stalls out. After that, the wind breaks. Temperature stabilizes around twenty-eight."
+      },
+      {
+        "host": "quinn",
+        "text": "Twenty-eight degrees is still death weather if you're exposed."
+      },
+      {
+        "host": "caroline",
+        "text": "It is."
+      },
+      {
+        "host": "quinn",
+        "text": "How much longer until the sun comes up?"
+      },
+      {
+        "host": "caroline",
+        "text": "Sunrise is 06:47. That's four hours and forty-seven minutes from now."
+      },
+      {
+        "host": "quinn",
+        "text": "Four hours and forty-seven minutes. We have people out there who need to survive four hours and forty-seven minutes of this."
+      },
+      {
+        "host": "holden",
+        "text": "Most will. Most people do survive the Purge."
+      },
+      {
+        "host": "quinn",
+        "text": "Most people. That's what we're celebrating now. Most people."
+      },
+      {
+        "host": "caroline",
+        "text": "It's better than the alternative."
+      },
+      {
+        "host": "quinn",
+        "text": "Is it? Is surviving while others die really better?"
+      },
+      {
+        "host": "holden",
+        "text": "From a biological standpoint, yes."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not talking about biology, Holden. I'm talking about the weight of knowing that the only reason you made it is because you had a door to lock and they didn't."
+      },
+      {
+        "host": "caroline",
+        "text": "That's the trade, Quinn. That's what barricading is. It's the lottery."
+      },
+      {
+        "host": "quinn",
+        "text": "A lottery where the rich never lose."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 104 kills. {{ELAPSED}} in. East Side: 34 of last 39. Temperature drop correlating with outdoor-activity decline."
+      },
+      {
+        "category": "emergency",
+        "text": "Wind chill advisory: effective immediately through 03:00. Northwest gusts sustained 18–22 mph. Seek shelter. Exposure risk high."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield structural reinforcement kits: If your panels are failing, it's too late to fix them tonight. Next year. Call 608-PURGE-1 for preventative consultation."
+      },
+      {
+        "category": "local-news",
+        "text": "East Side barricade network holding. Willy Street perimeter intact through hour seven. Beltline corridor: activity concentrated indoors as predicted."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:44:32.289Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

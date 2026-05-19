@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "The clock reads {{CLOCK}}. Fifty-four minutes."
+      },
+      {
+        "host": "caroline",
+        "text": "Sunrise at 6:47. Wind's dropped to three miles per hour out of the north. Clear skies all the way to the horizon."
+      },
+      {
+        "host": "holden",
+        "text": "Two hundred and nineteen confirmed kills as of 05:50. Up eighteen percent from this point last year."
+      },
+      {
+        "host": "quinn",
+        "text": "Up eighteen percent. Jesus. That's — that's a lot of people's kids not coming home."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side peaked at 34 again. But the Beltline corridor — that's where the real damage lived this year. Vehicle-on-vehicle, 4am through 5:30am. Coordinated hits."
+      },
+      {
+        "host": "nick",
+        "text": "I didn't play enough Ramones tonight. That's what I keep thinking. Too much NOFX, not enough Ramones."
+      },
+      {
+        "host": "quinn",
+        "text": "Nick, you played what people needed to hear. Don't do that to yourself."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who stayed home — they made a choice. That choice matters. It registers."
+      },
+      {
+        "host": "caroline",
+        "text": "First light's hitting the Capitol dome now. You can see it from the Tenney Park overlook if you're still awake out there listening."
+      },
+      {
+        "host": "holden",
+        "text": "Nineteen missing persons. That's up from twelve last year. The recovery teams will spend the next week on the lake and the wooded areas. Statistically, they'll find maybe sixty percent."
+      },
+      {
+        "host": "tucker",
+        "text": "There's a search team forming at the Yahara Bridge right now. The neighborhood watch — the ones who held the perimeter — they're extending into the water."
+      },
+      {
+        "host": "quinn",
+        "text": "Those people stood their ground. That matters too. That's the other side of the night — the ones who *didn't* let it roll over them."
+      },
+      {
+        "host": "nick",
+        "text": "I'm gonna play one more before we go. Me First and the Gimme Gimmes. 'Unchained Melody.' It's stupid, but it's soft, and we could use something soft right now."
+      },
+      {
+        "host": "caroline",
+        "text": "Forty-one minutes until the sirens lift. Forty-one minutes until the law comes back."
+      },
+      {
+        "host": "marigold",
+        "text": "Those who survived will carry this night inside them. It doesn't leave you. It just becomes part of the shape you are."
+      },
+      {
+        "host": "holden",
+        "text": "Seventy-four structures damaged or destroyed. One hundred and thirty-one vehicles total loss. Those numbers represent — those are homes. That's people's cars."
+      },
+      {
+        "host": "quinn",
+        "text": "And next year we'll do it again. That's the thing nobody says out loud at five in the morning. We'll be here. We'll broadcast. The night will come."
+      },
+      {
+        "host": "tucker",
+        "text": "I didn't go dark tonight. That's a win. Forty-seven minutes last year on the State Street corridor — I don't know what happened during those forty-seven minutes, but tonight I stayed live. That counts for something."
+      },
+      {
+        "host": "nick",
+        "text": "The song's playing now. The Gimmes. It's almost over."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind is still soft. Temperature holding at 22 degrees. Frost on the grass at sunrise — everything's going to shine."
+      },
+      {
+        "host": "quinn",
+        "text": "If you're still listening, if you stayed with us all twelve hours — I want you to know you're not alone. You were never alone. We were in this together."
+      },
+      {
+        "host": "marigold",
+        "text": "When the sirens sound, breathe. You made it through another one."
+      },
+      {
+        "host": "holden",
+        "text": "Thirty-one minutes. The numbers will get better or worse next year, but tonight — tonight we survived two hundred and nineteen deaths and the weight of that knowledge and we're still broadcasting."
+      },
+      {
+        "host": "tim",
+        "text": "This is Tim Peplinski. I've been running this station for nine Purge cycles now, and every year at this hour I stand here and I think about the people who didn't call in, who didn't make it through the barricades, who tried to cross the lake in the cold, who opened a door they shouldn't have opened. Every year I think about them — and every year I come back here and I turn this rig back on because that's what we do. That's what *you* do, everyone listening out there in the dark: you choose to stay awake, you choose to stay connected, you choose to not let this night be the final word on what we are. This Purge was bad. It was worse than last year and I won't insult your intelligence by pretending we didn't all feel that. But at {{CLOCK}} on a Friday morning in Madison, Wisconsin, in 2169, we're still here. We're still broadcasting. We're still witnessing. The station survived. You survived. The ones who didn't — we carry them. And we come back next year to do it all over again because that's the only answer to a night like this. So this is PRGE signing off. Stay safe out there. Stay awake. The sirens lift in twenty-eight minutes, and when they do, the world comes back. Until next year — this is Tim Peplinski. Station clear."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "FINAL TALLY: 219 confirmed kills (East Side 34, Capitol/Downtown 32, Beltline 24, State Street 19, remaining neighborhoods 110). Up 18% YoY."
+      },
+      {
+        "category": "emergency",
+        "text": "Search and recovery teams mobilizing at Yahara Bridge and Lake Mendota shoreline. 19 missing persons presumed drowned. Temperature 22°F — recovery window closing as sun rises."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol dome now catching first light. Fortified perimeter held through 05:47 — no secondary breaches. Inner circle security remains intact."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "Those who survived will carry this night inside them. It doesn't leave you. It just becomes part of the shape you are."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:42:58.535Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

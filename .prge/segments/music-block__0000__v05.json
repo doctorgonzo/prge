@@ -1,0 +1,188 @@
+{
+  "format": "music-block",
+  "inWorldTime": "00:00",
+  "body": {
+    "type": "music-block",
+    "tracks": [
+      {
+        "title": "Basket Case",
+        "artist": "Green Day",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Alright, welcome to the midnight hour. Nick Trulino, PRGE Music. We're {{ELAPSED}} into the Purge and the kill count's climbing — but that's not our problem tonight, is it? Our problem is this: Green Day, 'Basket Case,' 1994. Off Dookie."
+          },
+          {
+            "host": "nick",
+            "text": "Billie Joe Armstrong was ten when his father died. Fragmented the whole family. Mike Dirnt's mother was a heroin addict — he got adopted by a couple, they divorced. These kids built a band out of grief and it sold twenty million copies worldwide. That's the punk rock gospel right there."
+          },
+          {
+            "host": "nick",
+            "text": "Recorded at Fantasy Studios in Berkeley in like three weeks. September, October '93. Rob Cavallo behind the board. Three weeks and they captured the entire oxygen of a generation — 'Longview,' 'When I Come Around,' this one. 'Basket Case.' Ten million in the US alone."
+          },
+          {
+            "host": "nick",
+            "text": "Song's about anxiety, right? Armstrong talking about panic attacks like they're a daily wage. Thirteen minutes into side A and every anxious kid in America heard themselves for the first time on a major label. That's subversion. That's punk rock eating itself and spitting it back as art."
+          },
+          {
+            "host": "nick",
+            "text": "They called it 'the most important pop-punk album of all time.' Not bad for three kids who didn't belong anywhere. Let's hear it."
+          }
+        ]
+      },
+      {
+        "title": "Linoleum",
+        "artist": "NOFX",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "NOFX. 'Linoleum.' 1996. From So Long and Thanks for All the Shoes. Fat Mike's crew. Still refusing major label money while they're selling records hand over fist."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike — Michael Burkett, real name — formed this band in '83 at Fairfax High School in LA with Erik Sandin and Eric Melvin. Three kids, one name: NOFX. Named it after a Boston hardcore band called Negative FX. Stole the concept, kept the spirit."
+          },
+          {
+            "host": "nick",
+            "text": "El Hefe came in 1991 with lead guitar and trumpet. Trumpet! In a punk band! And it *works*. By '94, they're doing Punk in Drublic — twelve on the Heatseekers chart, gold status six years later. And they never took a major label deal. Never. That's ideology with teeth."
+          },
+          {
+            "host": "nick",
+            "text": "This song's from the album that went faster. Back to the speed, back to the rage. Fat Mike and crew saying no to the machine and meaning it. No MTV, no clearing, no compromise. 'Leave It Alone' video? They refused to send it to MTV. Refused."
+          },
+          {
+            "host": "nick",
+            "text": "They've written songs about six years on dope, about fundamentalism, about being an idiot son of an asshole — their words, not mine. Political, hilarious, brutal. This is the blueprint."
+          }
+        ]
+      },
+      {
+        "title": "Hope",
+        "artist": "The Descendents",
+        "year": 1982,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Descendents. 'Hope.' 1982. Milo Goes to College. These guys invented the idea that punk could be about love and rejection and food and girls instead of just smashing things."
+          },
+          {
+            "host": "nick",
+            "text": "Milo Aukerman actually went to UC San Diego just like the album title said. Drummer Bill Stevenson was his friend from Mira Costa High. Frank Navetta played guitar. They were power pop, then they became hardcore, then they became something nobody had a name for yet."
+          },
+          {
+            "host": "nick",
+            "text": "Steven Blush — the guy who wrote American Hardcore — said their 'cheeky love songs disguised as hardcore blasts became the most aped formula in rock.' They weren't supposed to be influential. They were just being themselves."
+          },
+          {
+            "host": "nick",
+            "text": "Here's the thing: Navetta left during the recording of their next album to become a fisherman in Oregon. Lombardo quit after recording was done — touring didn't work with his postal carrier job. These guys had *other lives*. They weren't burning for this. And that's what made it matter."
+          },
+          {
+            "host": "nick",
+            "text": "The Descendents recorded their own farts on a track called 'Orgofart.' Just farting. Into equipment. Cheering each other on. That's what punk rock is supposed to be — dumb and true at the same time."
+          }
+        ]
+      },
+      {
+        "title": "Die for the Government",
+        "artist": "Anti-Flag",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Anti-Flag. 'Die for the Government.' 1996. Pittsburgh hardcore. Justin Sane and Pat Thetic started this in '88 and they've been furious ever since."
+          },
+          {
+            "host": "nick",
+            "text": "This song's from A New Kind of Army — 1999, released on Go-Kart Records. Anti-Flag was already screaming about fascism, neo-Nazis, police brutality, political corruption. They weren't waiting for permission to be angry."
+          },
+          {
+            "host": "nick",
+            "text": "Here's what kills me: in 2001, they released Underground Network with essays from historians, including Howard Zinn. A punk band. A *punk band* including academic political theory in the liner notes. That's radicalism. That's work."
+          },
+          {
+            "host": "nick",
+            "text": "Later they'll sign to RCA and everyone loses their minds — 'selling out,' the whole scene riots. But by then they've already spent a decade proving that you can't sell out what you never owned. The government doesn't own the stage. The corporations don't."
+          },
+          {
+            "host": "nick",
+            "text": "When Chris No. 2's sister was killed in a violent incident, they released a benefit EP. Straight action. No hashtags, no performance. Just: we're raising money for victims of violence. This is what Anti-Flag is. This is what it means."
+          }
+        ]
+      },
+      {
+        "title": "Dammit",
+        "artist": "Blink-182",
+        "year": 1997,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Blink-182. 'Dammit.' 1997. From Dude Ranch. Mark Hoppus, Tom DeLonge, Scott Raynor. The band that made it okay to be a stupid kid with a guitar and just *say it*."
+          },
+          {
+            "host": "nick",
+            "text": "They met in Poway — northern San Diego suburbs. DeLonge and Raynor at a Battle of the Bands competition. Travis Barker joined in '98 and that's when the alchemy happened. Three kids who weren't trying to change the world — just trying to talk about girls and relationships and being rejected."
+          },
+          {
+            "host": "nick",
+            "text": "This song. This song right here is the one that opened the door. Dude Ranch came out and suddenly MTV was calling and the scene was panicking — was this too pop? And Blink didn't care. They just kept being dumb and sincere."
+          },
+          {
+            "host": "nick",
+            "text": "Mark Hoppus fell off a lamppost in front of DeLonge's house trying to impress him. Broke his ankles. Three weeks on crutches. That's the energy of this band — stupidity and devotion, same thing."
+          },
+          {
+            "host": "nick",
+            "text": "Their lyrics are about adolescent frustration, lack of maturity, lewd acts, everyday life. Not rebellion, not politics — just *life*. And that simplicity, that directness, that's what initiated the second wave of pop-punk. Everything that came after lives in this song."
+          }
+        ]
+      },
+      {
+        "title": "Crazy",
+        "artist": "Me First and the Gimme Gimmes",
+        "year": 1997,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Me First and the Gimme Gimmes. 'Crazy.' 1997. This is a supergroup cover band formed in San Francisco by people who had no intention of making records."
+          },
+          {
+            "host": "nick",
+            "text": "Spike Slawson from Swingin' Utters, Fat Mike from NOFX, Joey Cape and Dave Raun from Lagwagon — they just hung out during off-time and covered songs for fun. First album, Have a Ball, was 1960s-70s pop hits played like punk rock was a weapon."
+          },
+          {
+            "host": "nick",
+            "text": "Their philosophy is pure: take anything — country, show tunes, rhythm and blues — and explode it into three-minute punk urgency. Are a Drag was Broadway musicals. Love Their Country was honky-tonk. Blow in the Wind was '60s pop. They treat everything the same: irreverent, fast, hilarious."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike thought he was Fat Stevens when they covered 'Wild World.' The liner notes say when Spike sang 'All My Lovin'' Fat Mike heard 'Allah my Lovin'' and condemned him to death for heresy. That's the energy. That's the *joke* they're running."
+          },
+          {
+            "host": "nick",
+            "text": "They wear matching costumes on stage — cowboy gear, drag outfits, whatever matches the album. They played a Bar Mitzvah once in front of thirty people and the notes say 'They made a lot of mistakes. They even started a song then stopped, then started again.' That's punk. That's honest."
+          }
+        ]
+      }
+    ],
+    "lines": [],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative kill count: 82. Up 3 from this point last year. East Side still leading by neighborhood. State Street activity intensifying after {{CLOCK}}."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Phone lines unusually active tonight — 340+ callers/texts received since 19:00. Darren from Atwood called earlier about PurgeShield panel failure. Maria Alejandra checking in from Willy Street Co-op. Most requests are just voices asking for company."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol breach containment holding. Perimeter re-secured at 21:50. Inner ring secure. Willy Street neighborhood barricade still standing — zero penetrations as of 23:45."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:55:23.107Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

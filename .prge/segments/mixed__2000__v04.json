@@ -1,0 +1,421 @@
+{
+  "format": "mixed",
+  "inWorldTime": "20:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "Welcome back to PRGE. Caroline with weather and Holden on the analytics desk. We're {{ELAPSED}} into the Purge, {{CLOCK}} on your Madison clock, and the first hour numbers are coming in."
+      },
+      {
+        "host": "holden",
+        "text": "Kill count at 8 as we close out hour one. That's slower than last year's 11 at this point, which — if we're thinking in chess terms — means the early-game aggression hasn't peaked yet."
+      },
+      {
+        "host": "caroline",
+        "text": "And that matters because?"
+      },
+      {
+        "host": "holden",
+        "text": "Because it suggests a more cautious opening. Last year we saw immediate territorial claims — what I'd call early castling, right? Neighborhoods locking down their defense in the first thirty minutes. This year the board is still open."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden. English."
+      },
+      {
+        "host": "holden",
+        "text": "People are waiting. That's the data. No major coordinated action yet. East Side is quiet. Downtown is quiet. We're seeing opportunistic stuff only."
+      },
+      {
+        "host": "caroline",
+        "text": "Weather is stable. Forty-one degrees, clear, southwest wind at 8. That's not suppressing movement. People are choosing to stay home or barricade rather than engage. That's different."
+      },
+      {
+        "host": "holden",
+        "text": "Exactly. And if I'm running the numbers on that variance — the temperature isn't a factor, the visibility is perfect — what you're really seeing is a behavioral shift. Fewer people are opting into the Purge itself."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not data. That's speculation."
+      },
+      {
+        "host": "holden",
+        "text": "It's pattern recognition. The data supports it. Lower participation equals lower kill count, equals a slower night overall. We're not at the midgame yet, but the opening move was conservative."
+      },
+      {
+        "host": "caroline",
+        "text": "NWS forecast models — and yes, they don't update during the Purge, but the three-day still stands — show the front arriving later tonight. Cold drop. Maybe 34 by midnight."
+      },
+      {
+        "host": "holden",
+        "text": "Cold front. That's a game-changer. Temperature drop accelerates fatigue. People seek shelter indoors. Activity concentrates in shorter windows."
+      },
+      {
+        "host": "caroline",
+        "text": "Visibility stays good until 22:00. After that, I'm expecting cloud cover rolling in from the west. You'll see reduced sightlines by 23:00."
+      },
+      {
+        "host": "holden",
+        "text": "So the board gets darker. Fewer pieces visible. Tactical advantage to whoever's already entrenched."
+      },
+      {
+        "host": "caroline",
+        "text": "Stop saying board."
+      },
+      {
+        "host": "holden",
+        "text": "I'm going to keep saying board. It's accurate. The Purge is a zero-sum game with spatial variables and temporal constraints."
+      },
+      {
+        "host": "caroline",
+        "text": "It's also real. Eight people are dead. Not game pieces."
+      },
+      {
+        "host": "holden",
+        "text": "I know. That's why understanding the pattern matters. The pattern is how we predict where the next eight are going to be, so people listening know where NOT to go."
+      },
+      {
+        "host": "caroline",
+        "text": "Fair. So where?"
+      },
+      {
+        "host": "holden",
+        "text": "East Side is still the highest-probability zone. Atwood, Schenk's, that corridor. Four of the eight kills so far are in that neighborhood. We're at 50% concentration in 18% of the city."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not consistent with 2168."
+      },
+      {
+        "host": "holden",
+        "text": "No. 2168 hour-one had two kills on the East Side, three downtown, one Willy Street. So this is a deviation. Either we're looking at a coordinated early move in that neighborhood, or the data is just noisy at hour one."
+      },
+      {
+        "host": "caroline",
+        "text": "Coordinated usually shows in patterns. Have you run the incident locations for clustering?"
+      },
+      {
+        "host": "holden",
+        "text": "Already did. Four kills are within a two-block radius of each other. Schenk's Corners. That's clustering. That suggests organization."
+      },
+      {
+        "host": "caroline",
+        "text": "Which means it'll escalate there."
+      },
+      {
+        "host": "holden",
+        "text": "Statistically, yes. You establish territory early, you defend it, you use it as a staging ground. If there's coordination in that zone, we should expect the activity to intensify as the night goes on."
+      },
+      {
+        "host": "caroline",
+        "text": "People on Atwood, if you're listening — and I know some of you are because you always are — you need to lock down now. Not in thirty minutes. Now."
+      },
+      {
+        "host": "holden",
+        "text": "And if you're not on Atwood, the probability of major incident in your neighborhood in the next two hours is significantly lower. That's not a guarantee. It's just math."
+      },
+      {
+        "host": "caroline",
+        "text": "Math doesn't keep you alive. Being inside keeps you alive. Being locked does."
+      },
+      {
+        "host": "holden",
+        "text": "True. But math tells you where the danger is concentrating, and that information is not nothing."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind is steady southwest. That means smoke from any fires in the metro area would push northeast. So if there's activity in the south and west neighborhoods, smoke is going to drift toward the near-east side of the city."
+      },
+      {
+        "host": "holden",
+        "text": "That's a tactical disadvantage for anyone on the east side. Reduced visibility for them, while incoming people from the west can see clearly."
+      },
+      {
+        "host": "caroline",
+        "text": "Or it's just weather."
+      },
+      {
+        "host": "holden",
+        "text": "In the Purge, weather is tactics."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden, I'm going to need you to stay on the numbers. I'll handle the weather narrative."
+      },
+      {
+        "host": "holden",
+        "text": "Fine. But the point stands — wind direction matters for territorial advantage. Last year the wind was northwest at midnight and the Beltline corridor saw a 23% increase in activity. This year if the wind shifts to northwest, we should expect the same concentration."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind won't shift northwest until early morning. Right now we're locked southwest for the next six hours minimum."
+      },
+      {
+        "host": "holden",
+        "text": "Which means the Beltline stays relatively quiet until the wind changes. The activity pattern will stay concentrated in the East Side, maybe push toward Downtown depending on how the night unfolds."
+      },
+      {
+        "host": "caroline",
+        "text": "The most important thing people need to know is: stay inside. The specifics of which neighborhood is hotter than which other neighborhood is secondary."
+      },
+      {
+        "host": "holden",
+        "text": "Disagree. People are going to listen anyway. Some people have to move — they're stuck in a hot zone, they need to get to safer ground. The specifics tell them which way to go."
+      },
+      {
+        "host": "caroline",
+        "text": "SafeWalk is running their re-routing service for exactly that reason. If you're in a compromised location and you need to move, you text SafeWalk. You don't make the decision yourself based on an analyst's neighborhood breakdown."
+      },
+      {
+        "host": "holden",
+        "text": "SafeWalk is good, but they're also handling 3,000 request lines a night. Queue times can hit twenty minutes. By the time they route you, the board — the situation, sorry — has changed."
+      },
+      {
+        "host": "caroline",
+        "text": "Then you stay in place and wait it out. Twenty minutes of waiting is better than ten minutes of moving through a hot zone making snap decisions."
+      },
+      {
+        "host": "holden",
+        "text": "I'm not arguing against SafeWalk. I'm saying the micro-local data is useful in conjunction with it. If someone's in Schenk's and they can't reach SafeWalk immediately, knowing that the immediate danger is concentrated two blocks north versus three blocks south is tactically relevant."
+      },
+      {
+        "host": "caroline",
+        "text": "And people with access to that level of local detail probably already have better security than people who are calling PRGE for guidance."
+      },
+      {
+        "host": "holden",
+        "text": "Fair. Okay. I'll dial the specificity down."
+      },
+      {
+        "host": "caroline",
+        "text": "You won't, but I appreciate the commitment."
+      },
+      {
+        "host": "holden",
+        "text": "I really might. You're breaking my momentum."
+      },
+      {
+        "host": "caroline",
+        "text": "Good. It's {{CLOCK}}. We're {{ELAPSED}} in. The kill count is at 8. Nobody's dead right now who wasn't dead before the hour started, which means the pace is manageable if people stay calm and locked."
+      },
+      {
+        "host": "holden",
+        "text": "And if the pace does accelerate, we'll see it in the next hour data. The third hour is usually when the psychological momentum kicks in — people realize nobody's stopping them, so the inhibition drops."
+      },
+      {
+        "host": "caroline",
+        "text": "For the people listening: if you start hearing activity in your neighborhood — that could be anything, vehicle sounds, shouting, anything that wasn't there at 19:00 — you do not investigate. You reinforce. You make sure your doors are locked, your windows are covered, and you do not open anything until 07:00."
+      },
+      {
+        "host": "holden",
+        "text": "There's actually interesting research on auditory threat perception during Purge night. People overestimate the proximity of sounds by an average of 34%. A noise that sounds like it's three blocks away is actually seven or eight blocks away in 61% of documented cases."
+      },
+      {
+        "host": "caroline",
+        "text": "Meaning?"
+      },
+      {
+        "host": "holden",
+        "text": "Meaning the panic response is usually worse than the actual threat distance. Which can lead to poor decision-making — opening a door to better hear what's happening, or evacuating when evacuation wasn't necessary."
+      },
+      {
+        "host": "caroline",
+        "text": "So stay inside and don't rely on what your ears are telling you."
+      },
+      {
+        "host": "holden",
+        "text": "If you're hearing something that concerns you, use your phone or your landline to contact SafeWalk or the Emergency Coordinator lines. Get real-time location data. Don't make decisions based on how close something sounds."
+      },
+      {
+        "host": "caroline",
+        "text": "We'll have updated kill count and neighborhood breakdown at the top of hour three. Right now, East Side is the concentration point. Stay vigilant. Stay locked. We're here until 07:00."
+      },
+      {
+        "host": "holden",
+        "text": "One thing I want to flag: the slow-start pattern we're seeing — this could indicate preparation. What feels like a quiet night early might actually be tactical positioning. Groups claiming territory, establishing control points, before the main push happens in hours 3 and 4."
+      },
+      {
+        "host": "caroline",
+        "text": "That's speculative."
+      },
+      {
+        "host": "holden",
+        "text": "It is. But it's speculative within a data framework. 2157, 2158, 2164 all showed this pattern — slow early, fast late. The variance in hour one doesn't mean nothing. It might mean everything."
+      },
+      {
+        "host": "caroline",
+        "text": "So people should expect intensity to increase."
+      },
+      {
+        "host": "holden",
+        "text": "Yes. If I had to predict the kill count at the end of hour three, I'd say 35 to 40. That's a 4x to 5x multiplier on hour one. That's the normal pattern."
+      },
+      {
+        "host": "caroline",
+        "text": "And there's not much people listening can do with that information except prepare now for what's coming later."
+      },
+      {
+        "host": "holden",
+        "text": "Exactly. Which is actually actionable. If you haven't barricaded yet, you do it now, while the night is still relatively calm. You stock your safe room. You get your people arranged. You don't want to be scrambling in hour three when the escalation hits."
+      },
+      {
+        "host": "caroline",
+        "text": "For people who haven't done a Purge before — and I know there are some listening — the first hour always feels manageable. That's normal. Hour three is usually when the psychological weight of twelve hours starts to hit everyone, and that's when desperation shows up in the kill patterns."
+      },
+      {
+        "host": "holden",
+        "text": "And desperation is predictable. It follows a pattern. It shows up in certain neighborhoods first, it spreads geographically in a way we can track, and once you understand the pattern you can avoid putting yourself in the path of it."
+      },
+      {
+        "host": "caroline",
+        "text": "You're doing it again."
+      },
+      {
+        "host": "holden",
+        "text": "I know. But it's true."
+      },
+      {
+        "host": "caroline",
+        "text": "It is true. But the listeners don't need to understand the pattern. They just need to stay locked until 07:00."
+      },
+      {
+        "host": "holden",
+        "text": "Understanding the pattern reduces anxiety. People feel less helpless if they know what's coming. That's psychological data too."
+      },
+      {
+        "host": "caroline",
+        "text": "And some people feel more anxious if they're thinking too hard about what's coming. Let's not assume."
+      },
+      {
+        "host": "holden",
+        "text": "Fair. We have a message from Tim, actually — looks like we've got a power outage report coming in from the south side."
+      },
+      {
+        "host": "caroline",
+        "text": "What extent?"
+      },
+      {
+        "host": "holden",
+        "text": "Multiple blocks. Park Street corridor down. Looks like the grid took a hit somewhere — could be transformers, could be load management, could be deliberate sabotage."
+      },
+      {
+        "host": "caroline",
+        "text": "How many blocks?"
+      },
+      {
+        "host": "holden",
+        "text": "Approximately six blocks residential, another four commercial. So we're looking at maybe 800 people without power in that area."
+      },
+      {
+        "host": "caroline",
+        "text": "That's significant. People without power can't use electric locks, can't see, can't charge devices."
+      },
+      {
+        "host": "holden",
+        "text": "And the outage is happening in hour two, which means people are going to be in the dark for potentially ten hours. That's a vulnerability."
+      },
+      {
+        "host": "caroline",
+        "text": "Can you get the exact boundaries?"
+      },
+      {
+        "host": "holden",
+        "text": "Park to Fish Hatch, north side of Regent. So anyone in that zone — if you're listening on battery — you need to know that you're in a compromised power situation."
+      },
+      {
+        "host": "caroline",
+        "text": "Do you have mechanical locks? Do you have a way to reinforce your doors manually? If the answer is no, you might need to consider relocation or hardening your position with physical objects."
+      },
+      {
+        "host": "holden",
+        "text": "Furniture against doors is better than nothing. Boards if you have access to boards. Anything that creates a physical barrier that takes time to breach."
+      },
+      {
+        "host": "caroline",
+        "text": "This is why flashlights and batteries are non-negotiable. Even if you have power for the rest of the night, the outage proves that power can disappear. Multiple sources of light, multiple ways to see, multiple ways to lock."
+      },
+      {
+        "host": "holden",
+        "text": "We're running on backup generators here at the station, so PRGE is solid. But yeah — personal backup everything. Power, water, communication. Assume the systems will fail."
+      },
+      {
+        "host": "caroline",
+        "text": "And the grid load is going to spike further tonight. Right now we're {{ELAPSED}} in and we're seeing baseline consumption plus Purge-night surge. By hour 6 or 7, when everything peaks, the system is going to be stressed."
+      },
+      {
+        "host": "holden",
+        "text": "Means more outages are likely. The Park Street one might not be the last one."
+      },
+      {
+        "host": "caroline",
+        "text": "For people in other neighborhoods: make sure you know where your breaker box is. Make sure you have battery-powered lanterns. Make sure your phone can charge from a portable battery. In a grid-failure scenario, those three things matter."
+      },
+      {
+        "host": "holden",
+        "text": "And if you're in the outage zone right now, you don't try to restore power yourself. You hunker down and you wait. Power restoration is not happening during the Purge. It comes back when it comes back."
+      },
+      {
+        "host": "caroline",
+        "text": "We're {{CLOCK}}. {{ELAPSED}} into the Purge. East Side kill concentration remains the highest-probability zone. South Side power outage affecting Park Street to Fish Hatch, north of Regent. Multiple blocks without electricity."
+      },
+      {
+        "host": "holden",
+        "text": "And the cold front is still on track for the midnight window, which will push the kill count up as people stop engaging and retreat indoors for warmth."
+      },
+      {
+        "host": "caroline",
+        "text": "That contradiction makes sense actually. The cold pushes people indoors, but before they go indoors, there's usually a final surge of activity. People want to finish whatever they started before the temperature makes it intolerable."
+      },
+      {
+        "host": "holden",
+        "text": "Right. So we might see a spike in hour 2 or early hour 3, then a dip in hour 4 as people retreat to shelter. Then the count climbs again slowly as the night goes on and people get desperate or bored."
+      },
+      {
+        "host": "caroline",
+        "text": "That's the pattern we've been tracking for years. People are creatures of comfort. Discomfort changes behavior."
+      },
+      {
+        "host": "holden",
+        "text": "Which is why Caroline's weather updates are actually the most actionable data on this broadcast. I can tell you the kill count, but she's telling you what's going to make people stop killing for a while. That's valuable."
+      },
+      {
+        "host": "caroline",
+        "text": "Or I'm just reading the forecast and you're making it deeper than it is."
+      },
+      {
+        "host": "holden",
+        "text": "Maybe both things are true."
+      },
+      {
+        "host": "caroline",
+        "text": "We're coming up on the commercial break. Listeners, if you need barricade materials, if you need emergency lighting, if you need any of the services you're about to hear about — now is the time. We're only {{ELAPSED}} in. You have time to get what you need before the pace accelerates."
+      },
+      {
+        "host": "holden",
+        "text": "And if you're already locked and barricaded, you're ahead of the curve. The next ten hours are just about staying locked and staying calm."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide kills: 8 as of {{CLOCK}}. East Side concentration: 4 kills in Schenk's Corners two-block radius (50% of total)."
+      },
+      {
+        "category": "emergency",
+        "text": "Power outage: Park Street to Fish Hatch corridor, north of Regent. Approximately 6 blocks residential affected. No ETA on restoration."
+      },
+      {
+        "category": "local-news",
+        "text": "Weather update: 41°F, clear, SW wind 8 mph. Cold front arrival window: midnight to 01:30. Temp drop to 33°F expected."
+      },
+      {
+        "category": "ad",
+        "text": "SafeWalk re-routing service active. Text SAFE to 66466 for real-time neighborhood safety data. Queue times currently 12-15 minutes."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:31:47.117Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

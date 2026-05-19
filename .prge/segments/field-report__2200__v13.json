@@ -1,0 +1,49 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm positioned near the Vilas Park perimeter, east side of the Mendota shoreline. It's {{CLOCK}} and we're {{ELAPSED}} into tonight. Madison-wide kill count is holding at 61 cumulative — that's 23 for this hour alone, which tracks slightly above 2168 pace at this point."
+      },
+      {
+        "host": "tucker",
+        "text": "What's unusual is the distribution. East Side is pulling its typical weight — 19 of those 23 — but Willy Street is reporting zero activity since 21:15. The neighborhood watch barricade is holding. No breaches, no attempts. That's... statistically anomalous."
+      },
+      {
+        "host": "tucker",
+        "text": "Capitol Square remains fortified post-breach, but the secondary sweep teams Quinn referenced earlier seem to have consolidated rather than dispersed. Weapons-trade data shows a 12% drop in small-arms chatter year-over-year for this hour. Bladed activity up correspondingly."
+      },
+      {
+        "host": "tucker",
+        "text": "The quiet is the concerning part. In 2168, by this hour we had coordinated group movements lighting up three separate neighborhoods. Tonight it feels... fractured. Smaller operations. More scattered."
+      },
+      {
+        "host": "tucker",
+        "text": "Lake Mendota's running cold tonight — Caroline was right about that front — and I'm seeing thermal blooms from the shoreline that don't correlate to any registered incidents. That could mean unreported casualties or it could mean people are taking the water route to avoid the East Side clusters, and I'm going to reposition to the north access point to get a clearer picture of whether that's —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 61 (hour 4 delta: +23, +3.4% vs 2168 same-hour)"
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side: 19/23 hour kills. Willy Street: zero activity since 21:15. Capitol Square: secondary teams consolidating."
+      },
+      {
+        "category": "local-news",
+        "text": "Weapons-trade chatter down 12% YoY. Bladed activity spike compensating. Pattern suggests smaller, dispersed operations rather than coordinated sweeps."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:34:36.786Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

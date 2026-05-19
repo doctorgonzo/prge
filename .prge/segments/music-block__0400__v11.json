@@ -1,0 +1,188 @@
+{
+  "format": "music-block",
+  "inWorldTime": "04:00",
+  "body": {
+    "type": "music-block",
+    "tracks": [
+      {
+        "title": "Sink, Florida, Sink",
+        "artist": "Against Me!",
+        "year": 2007,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Against Me! 'Sink, Florida, Sink.' 2007. New Wave. This one's for everybody who's still holding on at {{ELAPSED}}."
+          },
+          {
+            "host": "nick",
+            "text": "Laura Jane Grace. Gainesville. Started in '97 because the whole world was against her — that's literally what she said. That's the band name. That's punk."
+          },
+          {
+            "host": "nick",
+            "text": "By 2007 they'd moved to Sire Records, hit number 57 on the Billboard 200. From acoustic folk-punk demos in a Florida apartment to a major label. The album's called New Wave and it's *angry*."
+          },
+          {
+            "host": "nick",
+            "text": "'Sink, Florida, Sink' — the title track off that record. It's about watching your home state disappear. Grace wrote this before she had to rebuild herself completely. Before 2012. Before everything changed."
+          },
+          {
+            "host": "nick",
+            "text": "I play this song every Purge night around this hour. Four-something in the morning. When the floor's gone soft. When you realize you've been awake through someone else's collapse and you're still here."
+          }
+        ]
+      },
+      {
+        "title": "Coming Home",
+        "artist": "The Lawrence Arms",
+        "year": 2002,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Lawrence Arms. 'Coming Home.' 2002. Apathy and Exhaustion. You know that title? You know that *feeling*?"
+          },
+          {
+            "host": "nick",
+            "text": "Chicago band. Brendan Kelly, Chris McCaughan, Neil Hennessy. They named themselves after the apartment complex they got evicted from in the middle of the night. They made an album about that."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike signed them to Fat Wreck Chords in 2001. They were already writing about growing up poor, living in the city, drinking too much. Kelly said 'We all have experiences — good ones and terrible ones — that are influenced by us being influenced by alcohol.' That's the whole band."
+          },
+          {
+            "host": "nick",
+            "text": "'Coming Home' is about exactly what you think it's about. It's 04:00 in the morning. You're listening to this. You're thinking about who you were before tonight started."
+          },
+          {
+            "host": "nick",
+            "text": "I heard this song in a bar that doesn't exist anymore. Red Hook. The bar's gone, most of the people are gone, and I'm still here playing their record at the bottom of the night."
+          }
+        ]
+      },
+      {
+        "title": "A Good Man",
+        "artist": "Hot Water Music",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Hot Water Music. 'A Good Man.' 1996. From Fuel for the Hate Game. Gainesville, Florida. Same city as Against Me!. Same scene, ten years earlier."
+          },
+          {
+            "host": "nick",
+            "text": "Chuck Ragan and Chris Wollard sharing vocals. That's the Gainesville sound — two guys screaming at each other about the same thing, trying to be heard over their own voices."
+          },
+          {
+            "host": "nick",
+            "text": "The band almost broke up in '98. Exhausted from touring. Friendships destroyed. They came to Gainesville for a farewell show and during the performance Ragan said 'I don't know what to tell you guys... we're not keeping it going.' Then they wrote four new songs and kept it going."
+          },
+          {
+            "host": "nick",
+            "text": "They broke up again in 2006. Reformed in 2008. That's what you do when something matters to you enough — you wreck it, then you rebuild it."
+          },
+          {
+            "host": "nick",
+            "text": "This song's about resilience. About working-class identity. About being the kind of man who stays. Four hours until dawn. Still here."
+          }
+        ]
+      },
+      {
+        "title": "Ole",
+        "artist": "Bouncing Souls",
+        "year": 1999,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Bouncing Souls. 'Ole.' 1999. From Hopeless Romantic. New Brunswick, New Jersey. These guys started playing their friends' backyards."
+          },
+          {
+            "host": "nick",
+            "text": "Greg Attonito, Pete Steinkopf, Bryan Kienlen, George Rebelo. Four kids from Basking Ridge High School who decided New Brunswick was where they needed to be. They were right."
+          },
+          {
+            "host": "nick",
+            "text": "Hopeless Romantic came out in '99 and it's one of those records that's simultaneously ridiculous and heartbreaking. 'I like your mom and it's no fad, I wanna marry her and be your dad' — *and* they mean it."
+          },
+          {
+            "host": "nick",
+            "text": "'Ole' is a singalong chorus. It's meant to be sung in a room full of people. You're not in a room full of people right now, but sing it anyway. Especially sing it at 04:00 on a Purge night. Especially sing it when you're alone."
+          },
+          {
+            "host": "nick",
+            "text": "This is the song that reminds you why you stayed home. Not the barricades. Not the statistics. The singalong. The 'ole.' The thing that's bigger than fear."
+          }
+        ]
+      },
+      {
+        "title": "Sunday Morning",
+        "artist": "Me First and the Gimme Gimmes",
+        "year": 1997,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Me First and the Gimme Gimmes. 'Sunday Morning.' 1997. Have a Ball. These guys are a supergroup of punks covering pop hits. They formed in San Francisco between tours of their real bands."
+          },
+          {
+            "host": "nick",
+            "text": "Original lineup: Fat Mike from NOFX, Chris Shiflett from No Use for a Name, Joey Cape and Dave Raun from Lagwagon, Spike Slawson from Swingin' Utters. They came together to play covers during off-time. Never thought it'd turn into albums."
+          },
+          {
+            "host": "nick",
+            "text": "Have a Ball covered pop hits from the '60s and '70s. They take a song the world already broke and they punt it into a different dimension. They take 'Sunday Morning' and they make it *matter* in a way the original never could."
+          },
+          {
+            "host": "nick",
+            "text": "It's 04:00 on Friday morning. If this were a normal Friday, you'd be waking up in five, six hours. Sun would be rising. Coffee waiting. But this is Purge Friday. This is the night the world stopped."
+          },
+          {
+            "host": "nick",
+            "text": "So listen to a cover of 'Sunday Morning' in the dark. Feel the sunrise that's coming in a few hours. It's not coming to forgive anything. But it's coming."
+          }
+        ]
+      },
+      {
+        "title": "Linoleum",
+        "artist": "NOFX",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "NOFX. 'Linoleum.' 1994. Punk in Drublic. Los Angeles. Fat Mike, Erik Sandin, Eric Melvin, El Hefe. The definitive lineup."
+          },
+          {
+            "host": "nick",
+            "text": "Punk in Drublic hit number twelve on the Heatseekers chart and went gold six years later. These guys never signed to a major label. They founded Fat Wreck Chords. They *were* the major label."
+          },
+          {
+            "host": "nick",
+            "text": "'Linoleum' is thirty-nine seconds of pure chaos. It's about working poor. About having nothing. About not caring that you have nothing because at least you're alive."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike made the 'Leave It Alone' video off this album and refused to send it to MTV. Didn't want to be part of the machine. Thirty years later, he's still not part of the machine. He runs the machine."
+          },
+          {
+            "host": "nick",
+            "text": "This song's the outro to the collapse hour. It's almost 05:00. You've made it through {{ELAPSED}}. Linoleum. Cheap floors. The only floor you can afford to stand on. And you're standing on it."
+          }
+        ]
+      }
+    ],
+    "lines": [],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 165 kills. That's {{ELAPSED}} in. 22 above pace from 2168 at this hour."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side holding steady. Capitol Square quiet after the 21:40 breach. State Street ruins dormant since 00:30 sweep."
+      },
+      {
+        "category": "local-news",
+        "text": "Temperature: 22°F. Wind: NW 8 mph. Fog lifting off Mendota. Visibility 6 miles and climbing."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:35:25.503Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

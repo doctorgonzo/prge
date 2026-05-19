@@ -1,0 +1,409 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "21:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "It's {{CLOCK}} Madison time, we're {{ELAPSED}} into the Purge, and I've got a full glass and a longer memory than is probably good for me. Welcome back to PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "So Caroline and Holden just spent an hour telling you exactly how hot it's going to get and whether the wind's going to push the smoke east or west. Very helpful information if you're planning a barbecue. Less helpful if you're locked in your house watching the West Side light up like Times Square."
+      },
+      {
+        "host": "quinn",
+        "text": "We're getting reports — and I mean we're getting *reports*, the kind that come through the scanner hot — that activity's shifted west in the last thirty minutes. Monroe Street corridor. Nakoma. The Hilldale area."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Beth from Monroe Street — Beth, you're on the air, where are you right now?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Beth from Monroe Street — I'm in my upstairs bedroom. My husband taped the windows yesterday and we have the door barricaded with a dresser and a bookshelf."
+      },
+      {
+        "host": "quinn",
+        "text": "You're smart to prep like that. You feel safe where you are?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Beth from Monroe Street — For now. But I can hear — Quinn, there's shouting. It's coming from the direction of the university."
+      },
+      {
+        "host": "quinn",
+        "text": "That's normal. The university is a perimeter zone. As long as it stays across the Beltline from you, you're in a good spot. Keep your phone charged, keep away from the windows, and call back if anything changes. We're here all night."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Beth from Monroe Street — Thank you. Thank you for being on."
+      },
+      {
+        "host": "quinn",
+        "text": "Beth, thank *you* for calling. Stay safe."
+      },
+      {
+        "host": "quinn",
+        "text": "And that, folks, is why we do this. Not for the spectacle. Not for the ratings — though I should mention our peak-hour numbers are up twelve percent since we signed on at seven."
+      },
+      {
+        "host": "quinn",
+        "text": "We do this because there are people like Beth who've been barricaded since before dinner and they need to know they're not alone. They need a voice on the radio that isn't a siren."
+      },
+      {
+        "host": "quinn",
+        "text": "I poured myself a drink about four minutes ago. I want you to understand that. I'm not hiding it. The Purge makes everything transparent — bad decisions, worse decisions, and the whiskey that helps you get through both."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I miss about being a politician? No, wait — scratch that. You know what I miss about lying for a living?"
+      },
+      {
+        "host": "quinn",
+        "text": "I miss having people around me who understood the value of not answering direct questions. I was *good* at that. Senator Hegseth, God rest his fascist soul, used to ask me for advice on it."
+      },
+      {
+        "host": "quinn",
+        "text": "I'd tell him, 'The key is to sound like you're answering while saying nothing. People hear what they want to hear.' He took that advice straight to the top and then straight to hell. I take some credit."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Nakoma — David, how are you doing tonight?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Nakoma — I'm okay. My wife and I. We're in the basement. I just wanted to call and say — I wanted to say thank you for what you do."
+      },
+      {
+        "host": "quinn",
+        "text": "David, that's kind. But you don't have to thank me. I'm just a drunk Irishman reading a teleprompter on a pirate radio station one night a year."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Nakoma — You're more than that. My wife was terrified before you came on. Now she's — I don't know — less terrified. You made her feel seen."
+      },
+      {
+        "host": "quinn",
+        "text": "Well. That's the job, David. That's literally the job. You stay down there. You and your wife. Keep the door locked, keep the phone charged, and call back if you need to hear a human voice at three in the morning."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Nakoma — We will. Thank you, Quinn."
+      },
+      {
+        "host": "quinn",
+        "text": "David, you take care."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I realized {{ELAPSED}} into the Purge? I realized that I've been doing this for six years and I still don't have a standard response when someone thanks me for being here."
+      },
+      {
+        "host": "quinn",
+        "text": "Back in the State House, I had scripts. I had talking points. I had a communications director named Michael who would text me the exact tone I should adopt for any given situation."
+      },
+      {
+        "host": "quinn",
+        "text": "Michael's dead now. Car accident in 2165. Natural causes in an unnatural world. I found out because he didn't text me that Purge season."
+      },
+      {
+        "host": "quinn",
+        "text": "But here, on this frequency, on this one night a year, I don't have a script. I just have whatever comes out of my mouth after the third or fourth whiskey."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Hilldale — Marcus, welcome to PRGE, where are you calling from?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Hilldale — I'm in my house on Lakeview Drive. Doors locked, windows reinforced, but — Quinn, I can see the fires from my back patio."
+      },
+      {
+        "host": "quinn",
+        "text": "You can see them from Hilldale? That means they're — that means the activity's moving closer to the lake than I thought. Marcus, how far away would you say they are?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Hilldale — I don't know, maybe two miles? Northeast of me. Closer to Monroe Street than to where I am."
+      },
+      {
+        "host": "quinn",
+        "text": "Okay, that's helpful data. That's exactly the kind of thing we need. You're in a good spot, Marcus. Hilldale's elevated, low foot traffic, you've got sight lines. Stay put."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Hilldale — I'm not going anywhere. I just wanted someone to know I'm watching it burn."
+      },
+      {
+        "host": "quinn",
+        "text": "Now we all know, Marcus. Now all seventy thousand people listening to this frequency know you're standing in your back patio watching fires on the horizon. And you're safe. That matters."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to take a drink now, and I'm going to tell you something nobody in politics was brave enough to say out loud, which is that the Purge only works because most people are decent."
+      },
+      {
+        "host": "quinn",
+        "text": "That sounds backwards, I know. But it's true. The Purge was designed to let the worst of us out for one night a year. What they didn't predict — what Vance's ghouls and Hegseth's ideologues didn't predict — was that ninety-nine percent of the population would choose to stay home."
+      },
+      {
+        "host": "quinn",
+        "text": "They thought we'd tear each other apart. They thought twelve hours of no law would reveal our true nature as violent animals."
+      },
+      {
+        "host": "quinn",
+        "text": "Instead, what we got was this: forty thousand people on a pirate radio station, barricaded in their basements, holding hands with their spouses, calling a drunk ex-politician just to hear a voice that's not screaming."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the revolution. That's the resistance. It's not flashy. It's not going to make the news. But it's real."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Hilldale — Patricia, hi, what's on your mind?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Hilldale — I just wanted to say that I voted for you, when you were running. And I'm sorry about what happened."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia, that's — I appreciate that, but you don't need to apologize for me. I made my bed. I lied in it. I lied on top of it, and I lied under it. That's on me."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Hilldale — My grandchildren are in this house. They're scared. I told them Uncle Quinn is on the radio. It made them feel better."
+      },
+      {
+        "host": "quinn",
+        "text": "Tell them — tell those kids that the scariest part of the night is the waiting. But we're going to get through it. All of us. Same as last year."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Hilldale — They're listening. They say hi."
+      },
+      {
+        "host": "quinn",
+        "text": "Hi, kids. My name is Quinn Foley and I'm a man who used to tell lies for money, but tonight I'm just here to tell you the truth: you're going to be fine. Go to sleep. Wake up at seven and have breakfast."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Hilldale — Thank you, Quinn. That helped more than you know."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia, stay with us. Keep the line open if you want. We've got six more hours before sunrise."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what the worst part of being exiled one night a year is? It's that I have to go back into hiding tomorrow."
+      },
+      {
+        "host": "quinn",
+        "text": "The sun comes up at 6:47 — Caroline will confirm that, she's always right about sunrise — and I disappear. Back into the holes and safe houses and borrowed apartments where the people I used to call colleagues pretend I don't exist."
+      },
+      {
+        "host": "quinn",
+        "text": "But for these twelve hours, I get to be real. I get to pour whiskey on a dead broadcast frequency and pretend people are listening."
+      },
+      {
+        "host": "quinn",
+        "text": "Except they *are* listening. And that's the terrifying part. That's the beautiful part. I don't know which anymore."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from Monroe Street — James, you're on with Quinn Foley, what do you need?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from Monroe Street — I need you to tell me I did the right thing."
+      },
+      {
+        "host": "quinn",
+        "text": "James, I can't tell you that without knowing what you did. What did you do?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from Monroe Street — I locked my brother out. He was here at 6:55, he wanted to come inside, and I locked the door at 6:59. I didn't let him in."
+      },
+      {
+        "host": "quinn",
+        "text": "Oh, James. Jesus. Where is your brother now?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from Monroe Street — I don't know. I haven't seen him since. It's been four hours."
+      },
+      {
+        "host": "quinn",
+        "text": "James, listen to me. I'm going to tell you something that's going to hurt, and then I'm going to tell you something that might help."
+      },
+      {
+        "host": "quinn",
+        "text": "The first thing is: you can't blame yourself for the Purge. The second thing is: at 7am, when the sun comes up, you need to go look for him. And you need to be prepared for what you find."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from Monroe Street — I can't go out there. I'm — I'm not a brave person, Quinn."
+      },
+      {
+        "host": "quinn",
+        "text": "Then you're like everyone else, James. We're all cowards for one night a year. The difference is what you do when the sun comes up. You get up, you go look for your brother, and you live with whatever you find."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from Monroe Street — I will. I'll do that."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay on the line, James. I want someone from the crew to get your address before you hang up. In case anyone calls in with information."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the job. That's what we do here. We connect the lost to the hopeful and we let the Purge run its course."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm on my fifth whiskey now. I keep count. Some nights I lose count, but not this year. This year I'm lucid enough to remember what I'm supposed to do."
+      },
+      {
+        "host": "quinn",
+        "text": "Which is: be present. Be honest. Be the one voice that doesn't have a political agenda or a survival motive."
+      },
+      {
+        "host": "quinn",
+        "text": "I've got nothing left to lose. My career is a corpse. My family doesn't talk to me. My savings are in a safety deposit box that I can only access on Purge Night because my name's supposed to be dead the rest of the year."
+      },
+      {
+        "host": "quinn",
+        "text": "So what I've got is this: {{ELAPSED}} into the night, a frequency that's bleeding listeners, a stack of whiskey, and the absolute certainty that I will not exist again until next year."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Rosa from Nakoma — Rosa, welcome to PRGE, how can we help you?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Rosa from Nakoma — I heard the earlier news about activity in the West, and I just wanted to call and say that our neighborhood watch is ready. We're armed, we're awake, and we're not letting anyone through."
+      },
+      {
+        "host": "quinn",
+        "text": "Rosa, that's good to hear. But I want to make sure you understand the difference between defense and escalation."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Rosa from Nakoma — What's the difference when they're trying to kill you?"
+      },
+      {
+        "host": "quinn",
+        "text": "The difference is that if you start shooting, they escalate. If you defend, you survive. Hold the perimeter, hold the line, and don't fire unless you're fired upon."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Rosa from Nakoma — You sound like you've been in a firefight, Quinn."
+      },
+      {
+        "host": "quinn",
+        "text": "I haven't. But I've lost people to them. And I've learned that the winners of Purge Night aren't the ones with the biggest guns. They're the ones who go to bed tomorrow."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Rosa from Nakoma — We'll hold the line, Quinn. Tell the people in Nakoma that we're here."
+      },
+      {
+        "host": "quinn",
+        "text": "Rosa, you just told them. They're listening. And they're going to sleep a little easier because of you."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the broadcast, folks. That's what this is. We take the fear and we alchemize it into something that looks like hope."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tanya from Hilldale — Tanya, you're on the air."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tanya from Hilldale — Quinn, I'm a long-time listener and I just need to say something out loud."
+      },
+      {
+        "host": "quinn",
+        "text": "Say it, Tanya. That's what we're here for."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tanya from Hilldale — I'm angry. I'm angry that this is normal. I'm angry that I'm sitting in my house waiting for the sun to come up and checking the news like it's a sports score."
+      },
+      {
+        "host": "quinn",
+        "text": "You should be angry, Tanya. That's the correct response."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tanya from Hilldale — So what do we do? Just — just accept it? Year after year?"
+      },
+      {
+        "host": "quinn",
+        "text": "Tanya, I've got no good answer for you. I've spent twenty years trying to change the system from the inside and all I got was a scandal and a criminal record. What I learned is that the system doesn't want to change."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tanya from Hilldale — So we're stuck."
+      },
+      {
+        "host": "quinn",
+        "text": "We're stuck until we're not. That's all I've got. That's all any of us have got."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to read a text that came in about three minutes ago. It's from someone calling themselves 'Monument.' They write: 'Quinn, tell everyone on Monroe Street that the west perimeter held at Elmside. No breach. All quiet since 20:30.'"
+      },
+      {
+        "host": "quinn",
+        "text": "That's the network. That's the invisible grid of people who are watching each other's backs tonight. Thank you, Monument. You just saved someone's sleep."
+      },
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} into the Purge and the rhythm is settling. The first rush is over. The violence has peaked for this hour. What we've got now is the waiting."
+      },
+      {
+        "host": "quinn",
+        "text": "The waiting is worse than the fear, I think. The fear is honest. The waiting is just time, and time is the cruelest part of all of this."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to pour another whiskey because I've earned it and because it's still legal and because I have five more hours of this."
+      },
+      {
+        "host": "quinn",
+        "text": "And I'm going to sit here and I'm going to take your calls and I'm going to pretend that my voice in the dark is enough to keep you safe."
+      },
+      {
+        "host": "quinn",
+        "text": "It's not. But it's what I've got. And sometimes what you've got is all that matters."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide count holding at 38. East Side still leading at 14 total for the night."
+      },
+      {
+        "category": "neighborhood",
+        "text": "West Side activity increasing: Monroe Street corridor reports coordinated movement. Hilldale perimeter holding. Nakoma neighborhood watch actively defending."
+      },
+      {
+        "category": "emergency",
+        "text": "ALERT — Fire reported near Monroe Street and University Avenue intersection at 21:47. Smoke visible from Hilldale area. No official response. Stay indoors."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "TEXT IN: 'My brother is missing. Last seen near Monroe Street at 19:05. Name is Daniel. If anyone has information, please call PRGE.' — James, Hilldale."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:43:17.172Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

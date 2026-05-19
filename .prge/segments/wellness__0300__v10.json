@@ -1,0 +1,233 @@
+{
+  "format": "wellness",
+  "inWorldTime": "03:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. [pause] We're {{ELAPSED}} in now. The moon is very full tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "I can see it through the station window. Bright enough to read by. [pause] That wasn't supposed to happen."
+      },
+      {
+        "host": "marigold",
+        "text": "Let's begin with breath. Breathe in. [pause] Hold for four. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. In. [pause] Four. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "Notice where your body meets the chair. Notice the weight of your hands."
+      },
+      {
+        "host": "marigold",
+        "text": "Notice that you are still here. [pause] Still choosing."
+      },
+      {
+        "host": "marigold",
+        "text": "The body remembers what the mind tries to forget. Your shoulders know the hour. Your jaw knows the sound."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe into the knowing. [pause] You are safe in this room."
+      },
+      {
+        "host": "marigold",
+        "text": "You are listening to a voice. A voice is proof of presence. [pause] Someone is here with you, even if no one is."
+      },
+      {
+        "host": "marigold",
+        "text": "The moon is so bright. I keep looking at it. The full moon means you can see everything."
+      },
+      {
+        "host": "marigold",
+        "text": "It means they can see everything too."
+      },
+      {
+        "host": "marigold",
+        "text": "But you are not outside. So the light is only a gift."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan your body from the crown down. Scalp. Forehead. Eyes."
+      },
+      {
+        "host": "marigold",
+        "text": "Notice any tension. Notice any relief. [pause] Both are information."
+      },
+      {
+        "host": "marigold",
+        "text": "Ears. Jaw. The back of the neck where you hold the weight of knowing too much."
+      },
+      {
+        "host": "marigold",
+        "text": "We hold so much in the neck. [pause] Breathe there. Let it soften."
+      },
+      {
+        "host": "marigold",
+        "text": "Shoulders. Chest. The heart space. [pause] What are you carrying in your chest tonight?"
+      },
+      {
+        "host": "marigold",
+        "text": "You don't have to answer. Just notice it. Name it silently if you need to."
+      },
+      {
+        "host": "marigold",
+        "text": "There is a person you have not forgiven. [pause] You know who it is."
+      },
+      {
+        "host": "marigold",
+        "text": "Tonight you can set that down. [pause] Not forget. Set it down."
+      },
+      {
+        "host": "marigold",
+        "text": "Abdomen. Belly. The place of hunger and fear and survival."
+      },
+      {
+        "host": "marigold",
+        "text": "Your body has been keeping score all night. [pause] It knows what it hears through the walls."
+      },
+      {
+        "host": "marigold",
+        "text": "Your body is very smart. Listen to it."
+      },
+      {
+        "host": "marigold",
+        "text": "Legs. Thighs. The root of you anchored to the earth."
+      },
+      {
+        "host": "marigold",
+        "text": "Your feet are still on solid ground. [pause] That is the only certainty you have."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in the certainty. Breathe out the doubt."
+      },
+      {
+        "host": "marigold",
+        "text": "There is a sound you have been hearing for nine hours. [pause] It is the sound of absence."
+      },
+      {
+        "host": "marigold",
+        "text": "The sound of people not screaming because they are not here. Because they chose not to come."
+      },
+      {
+        "host": "marigold",
+        "text": "Ka-shela-nom. [pause] That silence means you are safe."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones outside are not your responsibility. [pause] Repeat that. The ones outside."
+      },
+      {
+        "host": "marigold",
+        "text": "Are. Not. Your. Responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "You cannot save them by opening your door. You cannot save them by listening harder."
+      },
+      {
+        "host": "marigold",
+        "text": "The Order teaches that some nights are not for saving. [pause] Some nights are for witnessing only."
+      },
+      {
+        "host": "marigold",
+        "text": "You are witnessing. You are awake. That is enough."
+      },
+      {
+        "host": "marigold",
+        "text": "The moon is so bright I can see the frost forming on the window. [pause] Winter does not wait."
+      },
+      {
+        "host": "marigold",
+        "text": "Winter comes every year and we are still here. [pause] That is a kind of miracle."
+      },
+      {
+        "host": "marigold",
+        "text": "Imagine the light from the moon falling on your face. [pause] It is cool. It is clean."
+      },
+      {
+        "host": "marigold",
+        "text": "Imagine that light traveling through your body, finding the places you have kept locked."
+      },
+      {
+        "host": "marigold",
+        "text": "The light doesn't ask permission. It just arrives. [pause] Like relief arrives when you finally stop running."
+      },
+      {
+        "host": "marigold",
+        "text": "We are {{ELAPSED}} in. Three hours until the threshold changes. [pause] Three hours is forever."
+      },
+      {
+        "host": "marigold",
+        "text": "Three hours is also nothing. [pause] The Sisters say that time is a mercy we invented."
+      },
+      {
+        "host": "marigold",
+        "text": "Without time we would remember everything at once. [pause] So breathe into the gift of the clock."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Four. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "When you leave this room — and you will leave this room, because morning always comes — remember the light."
+      },
+      {
+        "host": "marigold",
+        "text": "Remember that you stayed. Remember that you chose the closed door."
+      },
+      {
+        "host": "marigold",
+        "text": "That choice is a kind of power that the world does not teach you."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold it. [pause] Hold it very quietly."
+      },
+      {
+        "host": "marigold",
+        "text": "We will be here with you until sunrise. [pause] You are not alone."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] And breathe again."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative (9-hour mark): 153 confirmed. 14 kills in the past hour. East Side and State Street continuing elevated activity."
+      },
+      {
+        "category": "neighborhood",
+        "text": "ALERT: Full moon visibility unusually high across all zones. Reports of increased visibility near Lake Mendota shoreline. Stay interior."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"The light doesn't ask permission. It just arrives.\""
+      },
+      {
+        "category": "emergency",
+        "text": "MorningCare Triage: 22-minute average response time. Request lines open. 608-555-0147."
+      },
+      {
+        "category": "local-news",
+        "text": "Willy Street barricade holding strong. Zero breaches reported since 22:15. Neighborhood watch commander still on perimeter."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"Some nights are not for saving. Some nights are for witnessing only.\""
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:40:53.503Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

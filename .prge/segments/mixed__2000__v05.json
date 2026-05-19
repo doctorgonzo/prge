@@ -1,0 +1,425 @@
+{
+  "format": "mixed",
+  "inWorldTime": "20:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "We're {{ELAPSED}} in and the phone lines are absolutely lit. I've never seen the switchboard light up like this at the top of hour two."
+      },
+      {
+        "host": "holden",
+        "text": "It's like we've moved past the opening gambit into the middle game already. East Side is up 11 kills from last year at this point. That's significant."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden, the callers. We have six people waiting. I want to take one before the weather block."
+      },
+      {
+        "host": "holden",
+        "text": "Six? That's not normal. Is the screening backlog the issue or are people actually calling more?"
+      },
+      {
+        "host": "caroline",
+        "text": "Both. Tim's team says the volume is genuine. People want to talk."
+      },
+      {
+        "host": "holden",
+        "text": "Interesting. The psychological component — people reach out earlier when they're anxious. It's a tells-and-signals thing. Like poker tells, but for entire neighborhoods."
+      },
+      {
+        "host": "caroline",
+        "text": "We're not taking a metaphor break, Holden. First caller is someone named James from the Willy Street area."
+      },
+      {
+        "host": "holden",
+        "text": "Right. Sorry. What's James's situation?"
+      },
+      {
+        "host": "caroline",
+        "text": "James, you're on PRGE. What's your concern tonight?"
+      },
+      {
+        "host": "holden",
+        "text": "James, if you're barricaded, we want to know about the structural setup. That data helps us understand the East Side patterns."
+      },
+      {
+        "host": "caroline",
+        "text": "Let him talk, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "Go ahead, James."
+      },
+      {
+        "host": "caroline",
+        "text": "Willy Street. Right. And your neighbors — are they sheltering in place as well?"
+      },
+      {
+        "host": "holden",
+        "text": "That's important. The density of occupied structures is a predictor variable for neighborhood safety metrics. If your block is cohesive, it castles better."
+      },
+      {
+        "host": "caroline",
+        "text": "Your windows. Are they reinforced?"
+      },
+      {
+        "host": "holden",
+        "text": "James, from a tactical perspective, ground floor versus second story — that's a huge variable in survival probability. The data shows —"
+      },
+      {
+        "host": "caroline",
+        "text": "Holden. He answered. He's on the second floor. He's fine."
+      },
+      {
+        "host": "holden",
+        "text": "Okay. Okay. Good. James, you stay up there. You've got advantage of altitude."
+      },
+      {
+        "host": "caroline",
+        "text": "Stay with us. We'll check back. Second caller, Tim?"
+      },
+      {
+        "host": "holden",
+        "text": "The call volume is still bothering me. It suggests something in the broadcast signal is different this year. Are we actually reaching more people, or are people actually more afraid?"
+      },
+      {
+        "host": "caroline",
+        "text": "Could be both. Could be that word got out about last year's Mendota incident. People are tuned to the lake reports."
+      },
+      {
+        "host": "holden",
+        "text": "The drowning scenario. That's a reasonable hypothesis. Traumatic events create anticipatory anxiety, which drives call volume. It's a feedback loop."
+      },
+      {
+        "host": "caroline",
+        "text": "Second caller is someone named Magda. She's on Atwood. Magda, go ahead."
+      },
+      {
+        "host": "holden",
+        "text": "Atwood is East Side. That's the hot zone already. Magda, are you sheltered properly?"
+      },
+      {
+        "host": "caroline",
+        "text": "Magda, what do you need from us?"
+      },
+      {
+        "host": "holden",
+        "text": "The tone of her voice is important. If she's calm, the neighborhood is probably organized. If she's panicked, the social fabric is fraying."
+      },
+      {
+        "host": "caroline",
+        "text": "Her voice is fine. She's asking about the weather. Magda, we're tracking a front. It'll be moving in around midnight, maybe a little earlier."
+      },
+      {
+        "host": "holden",
+        "text": "That front is going to suppress activity. Cold weather kills the Purge — literally and figuratively. People don't stay motivated in freezing rain."
+      },
+      {
+        "host": "caroline",
+        "text": "Accurate. The data supports that. But we don't know the exact arrival time yet. Could be 23:45. Could be 01:15. I'm still refining the model."
+      },
+      {
+        "host": "holden",
+        "text": "Your uncertainty is reasonable. Weather systems are chaotic. It's a chess game against nature."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is why I cite my sources. National Weather Service data, regional NEXRAD, the airport feed. I'm not guessing, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "I know. You're good at this. Magda, the front will help you. Stay sheltered for now, and the weather will do work you don't have to do."
+      },
+      {
+        "host": "caroline",
+        "text": "Magda, you still there?"
+      },
+      {
+        "host": "holden",
+        "text": "She's probably just listening. That's what most of them do. They need the sound of another voice."
+      },
+      {
+        "host": "caroline",
+        "text": "Stay safe. We'll check back in an hour. Tim, ticker update?"
+      },
+      {
+        "host": "holden",
+        "text": "While Tim's getting that, I want to circle back to the call volume. If this pattern holds — six callers by 20:45 — we're looking at maybe 20 to 25 callers for the whole night. That's double 2168."
+      },
+      {
+        "host": "caroline",
+        "text": "Which means more people are tuning in. Which is good. Our reach is growing."
+      },
+      {
+        "host": "holden",
+        "text": "Or it means people are more alone. More people are sheltering solo. The social structure has atomized further."
+      },
+      {
+        "host": "caroline",
+        "text": "That's a depressing read on the same data set, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "Both readings are valid. That's what makes pattern analysis hard. Same numbers, opposite meanings."
+      },
+      {
+        "host": "caroline",
+        "text": "We should take the positive read. People are reaching out. Connection is happening. That matters."
+      },
+      {
+        "host": "holden",
+        "text": "You're right. I'm overthinking it. We're {{ELAPSED}} in and the night's still young. The real test is hours 4 through 6. That's when the decision-making gets bad."
+      },
+      {
+        "host": "caroline",
+        "text": "Exactly. Early night is all adrenaline and caution. Middle night is where the patience breaks."
+      },
+      {
+        "host": "holden",
+        "text": "Which is why having contact — having our voices in people's homes — might actually matter. We're the delay in the decision loop."
+      },
+      {
+        "host": "caroline",
+        "text": "That's generous. We're more like the white noise that keeps people from acting on their worst thoughts."
+      },
+      {
+        "host": "holden",
+        "text": "Same thing, maybe. Third caller is someone named Robert from Park Street. Robert, go ahead."
+      },
+      {
+        "host": "caroline",
+        "text": "Park Street is South Side. You're in a structured neighborhood. How's the barricade holding?"
+      },
+      {
+        "host": "holden",
+        "text": "South Side had low numbers last year. If that holds, it's because of organizational coherence. Robert, are you part of a coordinated defense?"
+      },
+      {
+        "host": "caroline",
+        "text": "Robert? You there?"
+      },
+      {
+        "host": "holden",
+        "text": "Sometimes people call and then change their mind. The shame kicks in. They don't want to admit they're scared."
+      },
+      {
+        "host": "caroline",
+        "text": "Or they're doing something else. Maybe he needed to go. We can't know."
+      },
+      {
+        "host": "holden",
+        "text": "Four remaining callers. Should we cycle through them, or take another break?"
+      },
+      {
+        "host": "caroline",
+        "text": "We take the next one. The weather forecast is due at 20:20. I need to set that up."
+      },
+      {
+        "host": "holden",
+        "text": "Fourth caller is someone named Yolanda from Sun Prairie. Yolanda, you're outside the Madison city limits. What brings you to PRGE?"
+      },
+      {
+        "host": "caroline",
+        "text": "Sun Prairie's been creeping up in activity. We've noticed that. Yolanda, are you suburban Purge or did you commute into the city?"
+      },
+      {
+        "host": "holden",
+        "text": "The suburban expansion is interesting. It's like the Purge is metastasizing outward. The board is expanding."
+      },
+      {
+        "host": "caroline",
+        "text": "Nobody asked for the metaphor, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "Fair. Yolanda, are you sheltered at home?"
+      },
+      {
+        "host": "caroline",
+        "text": "She's saying yes. She's with family. That's good. How many people in the house?"
+      },
+      {
+        "host": "holden",
+        "text": "Household size is a resource variable. Larger households mean more manpower for defense, but also higher visibility and more mouths that need managing."
+      },
+      {
+        "host": "caroline",
+        "text": "She has three. That's manageable. Yolanda, you're in good shape. Stay locked down, stay calm. We'll be here."
+      },
+      {
+        "host": "holden",
+        "text": "The Sun Prairie callers are probably people who'd normally sleep through the Purge night but decided to tune in this year. That's the shift I'm seeing."
+      },
+      {
+        "host": "caroline",
+        "text": "Engagement is up across the board. That's what the call volume tells us. People are more plugged in."
+      },
+      {
+        "host": "holden",
+        "text": "Or more paranoid. Same data, different conclusion."
+      },
+      {
+        "host": "caroline",
+        "text": "We're going to 20:20 weather. I'm pulling NWS data and running the model again. Cold front is still tracking for midnight to 01:15 window."
+      },
+      {
+        "host": "holden",
+        "text": "That front is going to cut the kill rate. Every year it does. Temperature drop, visibility drop, motivation drops. It's the most predictable variable in the entire system."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is why I track it so carefully. It's the one thing we can actually count on."
+      },
+      {
+        "host": "holden",
+        "text": "Unlike people. People are chaotic. Weather is thermodynamic. Thermodynamic is elegant."
+      },
+      {
+        "host": "caroline",
+        "text": "You're comfortable with weather because it doesn't make moral choices."
+      },
+      {
+        "host": "holden",
+        "text": "That's — yeah. That's true. The weather doesn't choose to kill anyone. It's just physics."
+      },
+      {
+        "host": "caroline",
+        "text": "We're {{ELAPSED}} in. We've got five more hours before the midnight crunch. The pace is going to accelerate. It always does."
+      },
+      {
+        "host": "holden",
+        "text": "The tempo shifts around 22:30. That's when the early-night restraint breaks. People get hungrier."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is why we need to be here. The middle hours are when people need us most."
+      },
+      {
+        "host": "holden",
+        "text": "Fifth caller, then weather. We're in good shape. We're managing the flow."
+      },
+      {
+        "host": "caroline",
+        "text": "Fifth caller is someone named David from near the Capitol. David, you're in a sensitive zone. What's your status?"
+      },
+      {
+        "host": "holden",
+        "text": "The Capitol area is fortified. There's security around the building itself. But the perimeter is porous if you know the routes."
+      },
+      {
+        "host": "caroline",
+        "text": "David, are you inside the Capitol district or outside it?"
+      },
+      {
+        "host": "holden",
+        "text": "The security architecture around the Capitol is asymmetric. They protect the building but not the surrounding neighborhoods. It creates a pressure cooker in the adjacent blocks."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden, let him answer."
+      },
+      {
+        "host": "holden",
+        "text": "Sorry. David, go ahead."
+      },
+      {
+        "host": "caroline",
+        "text": "You're on State Street. That's the ruins. David, why are you still there? Why didn't you evacuate earlier?"
+      },
+      {
+        "host": "holden",
+        "text": "State Street is high-risk. The structural decay means more entry points, less defensibility, higher visibility from main thoroughfares. It's tactically weak."
+      },
+      {
+        "host": "caroline",
+        "text": "David, do you have a secure location for tonight?"
+      },
+      {
+        "host": "holden",
+        "text": "If he's in one of the commercial buildings, the concrete's solid but the windows are compromised. If he's in a residence, he's probably fine as long as the doors hold."
+      },
+      {
+        "host": "caroline",
+        "text": "He's saying he's in a basement. That's actually good. Underground is safer. Less visibility."
+      },
+      {
+        "host": "holden",
+        "text": "Basements are interesting. They limit escape routes but they also limit approach vectors. It's a trade-off."
+      },
+      {
+        "host": "caroline",
+        "text": "David, stay in that basement. Stay quiet. We'll check back. You're going to be fine."
+      },
+      {
+        "host": "holden",
+        "text": "The fact that he stayed downtown is interesting. Either he's stubborn or he was trapped by circumstance. Either way, he made the right call retreating underground."
+      },
+      {
+        "host": "caroline",
+        "text": "Sixth caller is someone named — hold on. The screen's loading. It says 'Anonymous,' which is unusual."
+      },
+      {
+        "host": "holden",
+        "text": "Anonymous callers. That means either fear or shame. Or both. Anonymous, you're on the air."
+      },
+      {
+        "host": "caroline",
+        "text": "You don't have to give a location. But tell us what you need."
+      },
+      {
+        "host": "holden",
+        "text": "The silence is the message sometimes. If this person is just listening, that's okay. We're here."
+      },
+      {
+        "host": "caroline",
+        "text": "Anonymous? Still there?"
+      },
+      {
+        "host": "holden",
+        "text": "They hung up. Or they're still listening on the line. Tim will know."
+      },
+      {
+        "host": "caroline",
+        "text": "That's six callers by 20:45. The pattern is holding. We're going to weather at 20:20. Holden, final thought on the first two hours?"
+      },
+      {
+        "host": "holden",
+        "text": "East Side is executing well. Kill numbers are up but organized. It's not chaos. It's methodical. That's scarier than random."
+      },
+      {
+        "host": "caroline",
+        "text": "Weather's going to interrupt that methodology in four to five hours. That's when the real volatility starts."
+      },
+      {
+        "host": "holden",
+        "text": "We're in the opening book. We haven't left the preparation phase. Real play starts after midnight."
+      },
+      {
+        "host": "caroline",
+        "text": "We're ready. We've got the night. Let's go to weather."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative kill count at {{CLOCK}}: 19 (+11 from 2168 pace). East Side contributing 7 of 19."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Call volume running 100% above 2168 baseline. 6 confirmed callers in first two hours. Screening backlog active. Listeners encouraged to text rather than call."
+      },
+      {
+        "category": "local-news",
+        "text": "State Street remains high-visibility area. Multiple sources report foot traffic in ruins district. Capitol perimeter stable. No breach attempts reported."
+      },
+      {
+        "category": "emergency",
+        "text": "Weather front tracking on NWS data. Arrival window 23:45–01:15. Temperature drop expected 15–18 degrees. Visibility will decrease significantly. Activity suppression likely post-arrival."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:32:32.233Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

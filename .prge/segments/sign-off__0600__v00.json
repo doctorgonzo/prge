@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "It's {{CLOCK}}. The Capitol dome is catching the first light, and for the first time in twelve hours, I can see it without thinking about the breach."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind's dropped to three miles per hour out of the north. Twenty-eight degrees. The fog that held all night is finally lifting off Mendota — I called that at 04:00, and I was right within a ten-minute window."
+      },
+      {
+        "host": "holden",
+        "text": "One hundred and eighty-seven. That's the count. East Side held at thirty-four, which matches 2168 exactly — Atwood, Schenk's Corners, the usual geometry of it."
+      },
+      {
+        "host": "tucker",
+        "text": "I made it back. Tenney Park, final pass at 05:40 — the shoreline's quiet. The zodiac crew pulled out at dawn. One still unrecovered."
+      },
+      {
+        "host": "quinn",
+        "text": "Tucker. Good to hear your voice."
+      },
+      {
+        "host": "nick",
+        "text": "Last track I played was Propagandhi. 'Supporting Caste.' Seemed right for 05:55 when nobody was talking — just the song and the silence."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who opened their doors are at peace now. The ones who stayed closed are entering their day."
+      },
+      {
+        "host": "quinn",
+        "text": "Darren — Darren from Atwood called in around 22:40, remember? Neighbor with the backwards panels? He made it through. He texted the board at 05:10. Still has the panels. Still has the neighbor."
+      },
+      {
+        "host": "caroline",
+        "text": "Sunrise is at 06:47. Forty-seven minutes. Clear skies all the way up — I've been wrong before, but not this time."
+      },
+      {
+        "host": "holden",
+        "text": "Willy Street barricade held. Fifteen armed residents, zero kills inside the perimeter. That's a 100% success rate for neighborhood defense on a single geographic point. Statistically unprecedented."
+      },
+      {
+        "host": "tucker",
+        "text": "The woman by the lake — the one who called Nick around 05:00 and just listened — I found her building on my last sweep. Lights on. She made it."
+      },
+      {
+        "host": "nick",
+        "text": "I didn't know that. I'm glad for that. I'm going to sit with that for a while."
+      },
+      {
+        "host": "quinn",
+        "text": "Three hundred and sixty-five days. That's all we get. Three hundred and sixty-five days to remember why we broadcast this thing in the first place."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. The night has ended not because it chose to, but because you chose to survive it."
+      },
+      {
+        "host": "caroline",
+        "text": "The city's waking up. I can see the headlights on the Beltline starting — morning commute's beginning. Life doesn't pause. It resets."
+      },
+      {
+        "host": "holden",
+        "text": "One eighty-seven. Down from one ninety-four in 2167. We're trending down — micro-trend, sample size issues, but the vector is toward less."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side's going to sleep now. Atwood's boarding up what's left. Schenk's Corners is already sweeping."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got six minutes until the sirens. Six minutes until the law comes back and we have to disappear for another year."
+      },
+      {
+        "host": "nick",
+        "text": "I'll see you next year. If I'm here, I'll see you next year."
+      },
+      {
+        "host": "marigold",
+        "text": "You chose to stay. That was the only choice that mattered."
+      },
+      {
+        "host": "caroline",
+        "text": "{{CLOCK}} Madison time. Sunrise in thirty-one minutes. Clear. Cold. We made it."
+      },
+      {
+        "host": "quinn",
+        "text": "Thank you for staying with us. Thank you for being awake when the rest of the city pretends to sleep."
+      },
+      {
+        "host": "holden",
+        "text": "The data will be compiled. The analysis will be written. The patterns will hold. We were here. That's the only number that matters."
+      },
+      {
+        "host": "tim",
+        "text": "Seventy-one thousand of you. That's how many tuned in tonight — some for the full twelve hours, some just for the company when they couldn't sleep. Some of you had security. Most of you didn't. You stayed home anyway. You kept the lights on in your kitchens and your basements and your closets, and you listened to us talk into the void, and you didn't open the doors. You didn't go outside. You made a choice every single hour not to become part of the count. One hundred and eighty-seven people didn't make that choice. One hundred and eighty-seven people are gone from Madison tonight, and on Willy Street, fifteen people with hunting rifles and courage kept zero more from joining them. That's not a miracle — miracles don't exist in the Purge era. That's defiance. That's community. That's what we broadcast for. This station exists because the city needs to know it's not alone on the one night that's designed to isolate it. We'll be here next year. We'll find the frequency again. We'll get Tim's antenna working if we have to build it from salvage. You kept us alive tonight by listening. By staying. By choosing the light over the dark. The sirens are coming. The law is coming back. Madison is about to wake up to its dead, to its burned structures, to its seventeen new orphans and its broken families. But it's waking up. Your neighbors woke up. Darren from Atwood woke up. The woman by the lake woke up. Three hundred and sixty-five days from now, if you want to be awake again — if you want to hear us again — we'll be here. Same frequency. Same night. Different count. This is PRGE signing off. We'll see you next year, Madison. Stay home."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison final: 187 kills. East Side: 34 (18.2%). Willy Street neighborhood-watch perimeter: 0 kills inside barricade."
+      },
+      {
+        "category": "local-news",
+        "text": "Sunrise 06:47. All-clear sirens sound at 07:00. Emergency cleanup crews staging at Capitol Square and State Street Ruins."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Darren from Atwood (22:40 caller) confirmed safe. Neighbor's PurgeShield panels survived the night."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"The ones who opened their doors are at peace now. The ones who stayed closed are entering their day.\""
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:39:59.910Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

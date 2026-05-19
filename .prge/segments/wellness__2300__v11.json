@@ -1,0 +1,233 @@
+{
+  "format": "wellness",
+  "inWorldTime": "23:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. It's {{CLOCK}}. We're {{ELAPSED}} into the night, and I want to ground you."
+      },
+      {
+        "host": "marigold",
+        "text": "Find a place where you can sit. Or lie down. The position doesn't matter. What matters is that you chose to be here."
+      },
+      {
+        "host": "marigold",
+        "text": "Not outside. Here. In this room. With this voice."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe in through your nose. Count to four as you do."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold it. One. Two. Three. Four."
+      },
+      {
+        "host": "marigold",
+        "text": "Now release through your mouth. Longer than the inhale. Let it go."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Again. In."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "Out."
+      },
+      {
+        "host": "marigold",
+        "text": "Some of you have been listening for hours now. I know. I can feel the exhaustion in the silence between your breaths."
+      },
+      {
+        "host": "marigold",
+        "text": "That's okay. Exhaustion is just honesty about what you're carrying."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Five years ago, on a night like this one, someone you loved made a choice."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm not going to say their name. You know it. You've been thinking about it all day."
+      },
+      {
+        "host": "marigold",
+        "text": "The Purge came. And they went outside anyway."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] I want you to know something. The Sisters of the Pause do not believe in forgetting."
+      },
+      {
+        "host": "marigold",
+        "text": "We believe in witnessing. We believe in holding space for the people we cannot save."
+      },
+      {
+        "host": "marigold",
+        "text": "That person you're thinking about — they are not your responsibility tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "Their choice was theirs. Your choice is yours."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. Your choice was to stay."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold it."
+      },
+      {
+        "host": "marigold",
+        "text": "That counts for something."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Now scan your body. Start at the crown of your head. Is there tension?"
+      },
+      {
+        "host": "marigold",
+        "text": "Let it soften. You don't need to hold anything so tightly tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "Move down. Your face. Your jaw. People clench their jaws when they're afraid."
+      },
+      {
+        "host": "marigold",
+        "text": "Unclench. The doors are locked. The windows are secured."
+      },
+      {
+        "host": "marigold",
+        "text": "Your shoulders. [pause] Yes. Everyone carries this here. Everyone."
+      },
+      {
+        "host": "marigold",
+        "text": "Let them drop. Drop them down away from your ears."
+      },
+      {
+        "host": "marigold",
+        "text": "Your chest. Feel your heart. It's working. It's doing what it's supposed to do."
+      },
+      {
+        "host": "marigold",
+        "text": "Your belly. Breathe into it. In. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "Your legs. Your feet. The ground beneath you is solid."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Five years. That's a long time to carry grief without speaking it."
+      },
+      {
+        "host": "marigold",
+        "text": "But you came back to this broadcast. Year after year. You keep coming back."
+      },
+      {
+        "host": "marigold",
+        "text": "That means something. That means you haven't let the Purge convince you that there's no one worth listening to."
+      },
+      {
+        "host": "marigold",
+        "text": "There is. You're doing it right now."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. The ones outside are not your responsibility. [pause] Hold that."
+      },
+      {
+        "host": "marigold",
+        "text": "You made a different choice. You stayed home. That is not cowardice."
+      },
+      {
+        "host": "marigold",
+        "text": "Cowardice is pretending the night doesn't exist. You're facing it."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] I'm going to tell you something the Sisters teach. Something that's not in any book."
+      },
+      {
+        "host": "marigold",
+        "text": "Silence is not the absence of sound. Silence is the presence of listening."
+      },
+      {
+        "host": "marigold",
+        "text": "You are listening right now. To me. To yourselves. To the night."
+      },
+      {
+        "host": "marigold",
+        "text": "That act — that listening — it is a form of resistance."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Ka-sh'mora — sh'mora ka."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe."
+      },
+      {
+        "host": "marigold",
+        "text": "When dawn comes — and it will come — you will have survived another one."
+      },
+      {
+        "host": "marigold",
+        "text": "The person you lost five years ago is not coming back. That grief is permanent."
+      },
+      {
+        "host": "marigold",
+        "text": "But so is this: you are still here. Your capacity to witness and to hold space — that is also permanent."
+      },
+      {
+        "host": "marigold",
+        "text": "The Purge cannot take that from you."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe in. Out."
+      },
+      {
+        "host": "marigold",
+        "text": "We'll be here for the next five hours. You don't have to do this alone."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm here. The broadcast is here. Your choice to stay — it echoes."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Rest now. Keep breathing. We will speak again soon."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide: 61 confirmed ({{ELAPSED}} mark). East Side remains hottest zone. Trajectory tracking 2168 baseline."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Capitol Square perimeter holding. 4 attempted breaches repelled in past 40 minutes. Defensive posture stable."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"The ones outside made their choice. Your choice was silence. Both are valid.\" — Sister Marigold, PRGE 2169"
+      },
+      {
+        "category": "local-news",
+        "text": "Weather update: cold front intensifying over Mendota. Wind gusts now 18-22 mph. Visibility dropping. Stay indoors."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:31:55.040Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

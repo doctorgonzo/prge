@@ -1,0 +1,425 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in, folks, and the signal's been crapping out all night. Tim says it's not us — it's them. Someone's running a jammer from the East Side."
+      },
+      {
+        "host": "holden",
+        "text": "If you look at the jammer deployment patterns from 2166, the East Side tends to spike in signal interference around this hour because of the ambient electrical load from — Caroline, what was the cloud cover at 2166 midnight?"
+      },
+      {
+        "host": "caroline",
+        "text": "Holden, we're not doing a deep dive on 2166 right now. It's 01:00 and the kill count just ticked past 104. That's 22 kills in the last hour. That's not normal."
+      },
+      {
+        "host": "quinn",
+        "text": "Normal. Right. Nothing about tonight is normal. Nothing about any night is normal. You know what Director Calloway is doing right now?"
+      },
+      {
+        "host": "holden",
+        "text": "Quinn, you've already named him once. That's — that's enough for one broadcast."
+      },
+      {
+        "host": "quinn",
+        "text": "He's behind blast glass in the Capitol, Holden. Behind glass. While the people he represents are barricading their living rooms with furniture. You want to know the statistics on that?"
+      },
+      {
+        "host": "caroline",
+        "text": "Nobody wants statistics on that. What we need is the midnight cold-front data. The sleet started at 00:47. If the kill rate spikes with visibility drop, we should see it flatten in the next thirty minutes when the front passes."
+      },
+      {
+        "host": "quinn",
+        "text": "You're hoping the weather saves people tonight, Caroline. That's — that's actually beautiful."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm reading the data. The data says visibility at one-point-five miles creates tactical difficulty. People can't see targets. That's not hope, that's physics."
+      },
+      {
+        "host": "holden",
+        "text": "Actually, the 2151 sleet-event data shows that reduced visibility correlates with *increased* kill rate in confined urban spaces because perpetrators move to close quarters — buildings, basements, parking structures — where visibility advantage is irrelevant."
+      },
+      {
+        "host": "quinn",
+        "text": "God, Holden. Why would you tell us that?"
+      },
+      {
+        "host": "holden",
+        "text": "Because it's true?"
+      },
+      {
+        "host": "caroline",
+        "text": "The 2151 data set was contaminated by the courthouse fire. You can't use it."
+      },
+      {
+        "host": "holden",
+        "text": "The courthouse fire happened *during* the sleet event, which means the data is more representative of actual conditions, not less."
+      },
+      {
+        "host": "quinn",
+        "text": "You two are doing this. You're actually doing this at one in the morning while people are dying in the sleet outside. I need a drink."
+      },
+      {
+        "host": "caroline",
+        "text": "You've had nine drinks, Quinn. Tim counted. Everyone on the board can see the bottle."
+      },
+      {
+        "host": "quinn",
+        "text": "Make it ten. And put it on the record. I want the historian in a hundred years to know that Quinn Foley drank ten whiskeys while the East Side burned."
+      },
+      {
+        "host": "holden",
+        "text": "The East Side isn't burning. Fires are down YoY. Structure fires: 58 in 2168, which is — wait, no, that's total. Per-hour average in the second seven hours is running at 1.2 fires, which is actually in line with historical —"
+      },
+      {
+        "host": "caroline",
+        "text": "Holden. The talking. Stop."
+      },
+      {
+        "host": "quinn",
+        "text": "The man cannot help himself. He's a data addict. He's mainlining statistics like some people mainline — like some people drink whiskey. Which I do. I'm doing that. The whiskey thing."
+      },
+      {
+        "host": "holden",
+        "text": "I'm trying to provide context. Context is useful."
+      },
+      {
+        "host": "caroline",
+        "text": "Context at 01:00 on Purge Night is depressing. What's useful is staying on topic. We have weather, we have kill counts, we have neighborhoods to track."
+      },
+      {
+        "host": "quinn",
+        "text": "The neighborhoods. Right. Let me guess — East Side is still the hot zone. Some residential block I've never heard of is doing great. North Side is mysteriously quiet because aliens or because Holden hasn't figured out the data yet."
+      },
+      {
+        "host": "holden",
+        "text": "North Side quiet is a genuine anomaly. I have six hypotheses."
+      },
+      {
+        "host": "caroline",
+        "text": "You had six hypotheses at midnight. It's now 01:00. You've been working on this for an hour."
+      },
+      {
+        "host": "holden",
+        "text": "Hypothesis four has a probability issue I'm still resolving."
+      },
+      {
+        "host": "quinn",
+        "text": "Of course it does. Nothing about this night makes sense. Tucker went dark on State Street at 23:50 and didn't check in for forty-seven minutes. Nobody even asked him what happened down there. We just — we moved on. Like that's normal."
+      },
+      {
+        "host": "caroline",
+        "text": "Tucker was safe. Tim confirmed it. That's all that matters."
+      },
+      {
+        "host": "quinn",
+        "text": "Is it though? Is it all that matters? Because I'm sitting here, Caroline, and I'm drinking my tenth whiskey — or is it my eleventh? — and I'm thinking about Tucker standing in the ruins of State Street while people are killing each other around them, and we're just — we're just talking about weather patterns."
+      },
+      {
+        "host": "holden",
+        "text": "The weather patterns are relevant. The cold front is a material variable in the outcome model."
+      },
+      {
+        "host": "quinn",
+        "text": "There is no outcome model, Holden. There's just people dying and people not dying. There's people like Director Calloway safe behind glass and people like Darren from Atwood calling in at midnight just to hear a voice."
+      },
+      {
+        "host": "caroline",
+        "text": "Darren from Atwood has PurgeShield panels now. He's safer than he was last year."
+      },
+      {
+        "host": "quinn",
+        "text": "That's not comforting, Caroline. That's the opposite of comforting. That means last year he was standing at a window with nothing but glass between him and someone who wanted to hurt him, and now he's standing at a window with *reinforced* glass, and that's supposed to feel like progress."
+      },
+      {
+        "host": "holden",
+        "text": "Statistically it is progress. PurgeShield installation correlates with a 23% reduction in home-intrusion events."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what correlates with a 100% reduction in Purge violence, Holden? Not having a Purge. Not having a system where twelve hours a year it's legal to kill anyone who isn't a Level-10 government official. That correlates with zero deaths."
+      },
+      {
+        "host": "caroline",
+        "text": "We're not going to solve that here. We're just going to sit here and talk about the one we have."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the thing that breaks me, Caroline. That's the exact thing. We're just going to sit here and talk about the one we have."
+      },
+      {
+        "host": "holden",
+        "text": "If we're talking about policy framework, the elimination of the Purge would require a constitutional amendment, which requires a two-thirds majority in both chambers, and given the current composition of Congress — which is still 67% appointees of the Vance Succession — the probability of passage in the next ten years is —"
+      },
+      {
+        "host": "caroline",
+        "text": "We're not doing policy framework. We're doing one broadcast. One night. {{ELAPSED}} in."
+      },
+      {
+        "host": "quinn",
+        "text": "One night. Right. Eleven hours left. Eleven hours of watching the kill count go up while I drink myself closer to a coronary and you two argue about statistical significance."
+      },
+      {
+        "host": "holden",
+        "text": "We're not arguing. We're — I'm trying to understand the patterns."
+      },
+      {
+        "host": "quinn",
+        "text": "That's what I said. You're arguing. With data. It's worse because the data is always right and you're always right and there's nothing anyone can do about it."
+      },
+      {
+        "host": "caroline",
+        "text": "The sleet is moving northeast. In thirty minutes, visibility will improve. When visibility improves, tactical advantage shifts to the prepared. That's the data. That's the reality."
+      },
+      {
+        "host": "quinn",
+        "text": "The prepared. You mean the wealthy people in fortified homes with private security. Tactical advantage for them."
+      },
+      {
+        "host": "caroline",
+        "text": "Yes."
+      },
+      {
+        "host": "quinn",
+        "text": "Thank you for not pretending otherwise."
+      },
+      {
+        "host": "holden",
+        "text": "If we look at the security-employment spike in the weeks before Purge, the data shows that families with household incomes above $180,000 are 4.2 times more likely to hire private security than families below $80,000, which creates a disparity that —"
+      },
+      {
+        "host": "caroline",
+        "text": "Holden. We know. We've always known."
+      },
+      {
+        "host": "quinn",
+        "text": "He's going to keep talking, Caroline. That's what he does. He finds the data that confirms he understands how broken everything is, and then he just — he wallows in it."
+      },
+      {
+        "host": "holden",
+        "text": "I'm not wallowing. I'm documenting."
+      },
+      {
+        "host": "quinn",
+        "text": "Same thing. Same thing at one in the morning. You're writing the history of tonight while it's happening. In whiskey you're medicate. Holden medicates in spreadsheets."
+      },
+      {
+        "host": "caroline",
+        "text": "What do I medicate in?"
+      },
+      {
+        "host": "quinn",
+        "text": "You're the sanest person in this room, Caroline. That might be the worst thing of all."
+      },
+      {
+        "host": "caroline",
+        "text": "That's because I focus on the things I can actually predict. Weather is physics. Physics is stable. Physics doesn't change."
+      },
+      {
+        "host": "holden",
+        "text": "People change. Behavior is non-linear. That's why the North Side quiet is so interesting — it represents a behavioral deviation from the historical model, which suggests either a territorial agreement, a mass-casualty event that hasn't been reported yet, or —"
+      },
+      {
+        "host": "quinn",
+        "text": "Or maybe people just decided not to kill each other this year on the North Side. Maybe there's no explanation. Maybe sometimes the worst thing doesn't happen."
+      },
+      {
+        "host": "holden",
+        "text": "That's not how probability works."
+      },
+      {
+        "host": "quinn",
+        "text": "I know it's not. That's the problem. Everything has an explanation except hope."
+      },
+      {
+        "host": "caroline",
+        "text": "Precipitation is now 0.8 inches. Temperature holding at 29 degrees. Front is moving at 12 miles per hour. In thirty-two minutes, we should see clearing in the northern zones first."
+      },
+      {
+        "host": "quinn",
+        "text": "The northern zones. Where it's quiet anyway. Where we don't know why it's quiet."
+      },
+      {
+        "host": "holden",
+        "text": "When visibility clears, we'll see tactical movement in the Willy Street corridor. The neighborhood watch has held a perimeter since 22:15. They're expecting to face pressure once the weather breaks because currently the sleet is suppressing attack vectors from the south."
+      },
+      {
+        "host": "caroline",
+        "text": "They'll lose the weather advantage in thirty minutes."
+      },
+      {
+        "host": "quinn",
+        "text": "So people die. People who've been barricading since before the broadcast started, who've been holding a line for three hours, they're going to die when the sleet stops because the weather was helping them and now it won't be."
+      },
+      {
+        "host": "holden",
+        "text": "That's one probability model. There's also a scenario where the watch commander has accounted for this contingency and has a secondary defensive position prepared for the visibility improvement."
+      },
+      {
+        "host": "caroline",
+        "text": "Do we have field confirmation on a secondary position?"
+      },
+      {
+        "host": "holden",
+        "text": "No. Tucker was on that report but hasn't checked back in since 23:50."
+      },
+      {
+        "host": "quinn",
+        "text": "Because Tucker went dark on State Street. Which we're not talking about. Which is fine. We're never talking about what happened on State Street."
+      },
+      {
+        "host": "caroline",
+        "text": "Tucker called in at 00:50. They reported from Lake Mendota. Three people drowned. Tucker was safe."
+      },
+      {
+        "host": "quinn",
+        "text": "Safe. That's the word we use. Not happy. Not alive. Safe. There are degrees of safety and we're just — we're monitoring them like it's a stock ticker."
+      },
+      {
+        "host": "holden",
+        "text": "Kill count was 104 at 01:00. That means the hourly average has been 14.9 kills per hour. If that rate holds, the final tally will be 179, which is actually 8 kills below the 2168 total of 187."
+      },
+      {
+        "host": "caroline",
+        "text": "Except the rate won't hold. We're in the acceleration window. Hours two through four are historically the high-activity hours."
+      },
+      {
+        "host": "quinn",
+        "text": "The acceleration window. That's — that's beautiful in a horrible way. That's poetry. That's the Purge in two words."
+      },
+      {
+        "host": "holden",
+        "text": "If we see rate acceleration in the next three hours, and the historical acceleration factor is 1.4x, then by 04:00 we could be looking at a total near 215."
+      },
+      {
+        "host": "caroline",
+        "text": "That's 28 kills above 2168."
+      },
+      {
+        "host": "quinn",
+        "text": "Twenty-eight more dead people than last year. By 4 in the morning. That's the thing we're tracking. That's what matters at 01:00 on a Wednesday in March in Madison, Wisconsin, in the year 2169."
+      },
+      {
+        "host": "holden",
+        "text": "It matters because data is how we understand patterns, and patterns are how we survive."
+      },
+      {
+        "host": "quinn",
+        "text": "That's a lie, Holden. We don't survive. Nobody survives. We just — we just exist in the year after and pretend it was worth it."
+      },
+      {
+        "host": "caroline",
+        "text": "The front is breaking apart. I can see it on the radar. In twenty-eight minutes, the northern zones will have clearing. In forty-five minutes, the East Side will start to clear. That's when the heat will peak again."
+      },
+      {
+        "host": "quinn",
+        "text": "The heat. You mean the violence."
+      },
+      {
+        "host": "caroline",
+        "text": "I mean the activity level. The kill rate will likely spike once visibility improves and perpetrators can coordinate across longer distances."
+      },
+      {
+        "host": "holden",
+        "text": "Which means we should see the rate acceleration begin around 01:40 to 01:50, about fifteen to twenty-five minutes from now."
+      },
+      {
+        "host": "quinn",
+        "text": "So we're sitting here knowing that in the next twenty-five minutes, the kill rate is going to spike. We're sitting here with that information. We're sitting here knowing that people are about to die at an accelerated rate, and we're just — we're just waiting for it. Discussing it. Like it's weather."
+      },
+      {
+        "host": "caroline",
+        "text": "What else are we going to do, Quinn? We can't stop it. We can't change it. We can only document it."
+      },
+      {
+        "host": "quinn",
+        "text": "That's what Holden said. That's what everyone says. That's the entire justification for the entire broadcast. We document it so people know it's real."
+      },
+      {
+        "host": "holden",
+        "text": "It is real. Documentation confirms reality."
+      },
+      {
+        "host": "quinn",
+        "text": "No, Holden. Reality is real. Documentation is just — it's just us pretending we're doing something other than watching."
+      },
+      {
+        "host": "caroline",
+        "text": "We're doing more than watching. We're providing information. We're keeping people company. We're the only voice telling them it's okay to stay home tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "Is it okay to stay home tonight, Caroline?"
+      },
+      {
+        "host": "caroline",
+        "text": "Yes. It's okay. It's the right choice."
+      },
+      {
+        "host": "quinn",
+        "text": "Even though people are dying outside?"
+      },
+      {
+        "host": "caroline",
+        "text": "Especially because people are dying outside. The people inside are choosing not to add to the body count. That's the only power they have."
+      },
+      {
+        "host": "holden",
+        "text": "That's actually statistically significant. In the neighborhoods with the highest home-barricade rates, the kill count is 23% lower than neighborhoods with lower barricade rates. So choosing to stay home correlates with lower community violence."
+      },
+      {
+        "host": "quinn",
+        "text": "Because all the killers are fighting each other instead of spreading out. You're not describing morality, Holden. You're describing displacement."
+      },
+      {
+        "host": "holden",
+        "text": "But the outcome is the same. If displacement saves lives, then displacement is — it's a net good."
+      },
+      {
+        "host": "quinn",
+        "text": "Nothing about this is good. Nothing about tonight is anything other than what it is, which is twelve hours of legal murder. And we're sitting here trying to find the silver lining in that."
+      },
+      {
+        "host": "caroline",
+        "text": "We're trying to help. That's all we can do."
+      },
+      {
+        "host": "quinn",
+        "text": "I know. That's what makes it so bleak."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "MADISON-WIDE CUMULATIVE: 104 (as of 01:00) | {{ELAPSED}} in | YoY comparison: +22 kills vs. 2168 at same hour"
+      },
+      {
+        "category": "neighborhood",
+        "text": "EAST SIDE (Atwood/Schenk's): 19 kills | Up 7 from 01:00 2168 | Weather clearing in 45 minutes, rate spike expected"
+      },
+      {
+        "category": "emergency",
+        "text": "WILLY STREET NEIGHBORHOOD WATCH: Still holding Yahara River perimeter since 22:15 | 0 casualties inside barricade | Losing weather advantage in 28 minutes"
+      },
+      {
+        "category": "weather",
+        "text": "SLEET FRONT BREAKDOWN: Visibility improving North to South | Northern zones clearing 01:28 est. | Temperature steady 29°F | Sleet suppressing coordinated activity (ending soon)"
+      },
+      {
+        "category": "local-news",
+        "text": "SIGNAL JAMMER: East Side deployment confirmed | 4-minute outage duration at 23:17 | Tim relocated antenna | Still active on lower band"
+      },
+      {
+        "category": "caller-text-in",
+        "text": "TEXT-IN: 'Darren from Atwood again. PurgeShield panels holding. But I can hear something outside. What is that?' | Quinn: 'That's the Purge, Darren. That's exactly what it sounds like.'"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:50:36.465Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

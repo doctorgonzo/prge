@@ -1,0 +1,457 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "You're listening to PRGE. Quinn Foley here. {{ELAPSED}} in and the wind is picking up something fierce — Caroline called it before she headed home, said we'd get gusts out of the northwest starting around now, and surprise, she was right, which means she'll mention it approximately nine more times when she gets back on at seven."
+      },
+      {
+        "host": "quinn",
+        "text": "The clock reads {{CLOCK}}. One hour. Sixty minutes between us and the all-clear. I can see the first hint of light starting to bleed in at the edges of the Capitol dome from the camera feed, and I gotta say, that dome has never looked better."
+      },
+      {
+        "host": "quinn",
+        "text": "Earlier tonight — and I'm talking about the better part of twelve hours ago, which is insane to even say — we had a moment where a group of maybe thirty people breached the Capitol perimeter. Professional job. In and out. Left six on the pavement. Holden spent forty minutes on the statistics of it, Caroline cut him off, and I sat here thinking about the fact that somewhere in that building, there are people who signed the executive orders that made tonight legal."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from Vilas Park — you're on."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from Vilas Park — 'Quinn, thank God. I've been listening since seven. I just wanted to hear — I don't know, voices. Is that weird?' No, Robert. That's not weird. That's exactly what this is for. Where are you right now?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from Vilas Park — 'I'm in my basement. Second floor is locked down. My wife and kids are asleep upstairs. I've got a cricket bat and a landline that doesn't work anymore, but it makes me feel better.' That's the dream, Robert. That's honestly the best-case scenario. You're safe. They're safe. You made it eleven hours."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from Vilas Park — 'One more thing — can you thank Nick? My daughter fell asleep around four. He was playing some old punk stuff, and it made her laugh right before she crashed. I don't know what that song was but — thank him.' I'll do that. Nick's gonna want to know. Stay down there, Robert."
+      },
+      {
+        "host": "quinn",
+        "text": "That's why we do this. Somewhere a kid falls asleep to NOFX instead of to the sound of her own heartbeat. That's a win. That's not nothing."
+      },
+      {
+        "host": "quinn",
+        "text": "The wind is honestly getting loud now. I can hear it in the building. Tim's got the rig locked down solid, but you can hear it in the background of the feed — that low howl that sounds like the whole city is trying to get in. Temperature's gotta be in the low thirties by now, which means anybody who's still out there is getting tired and cold on top of everything else."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — you're on the line."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'I'm not calling for me. I'm calling because my neighbor's kid is locked on the roof. I don't know how it happened but he climbed out a window about an hour ago and now he's stuck up there because the mom is terrified to open the door. It's maybe twenty-eight degrees, and he's up there.' How old is the kid, Denise?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'Fourteen. He's fourteen and he's dressed for summer. I tried knocking on the door but she won't answer. I don't blame her. I wouldn't open my door either. I'm calling because — is there anybody listening who can help? Is that a thing we can do?'"
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, you hear this? Roof situation on East Side, fourteen-year-old, hypothermia risk in the next hour as the wind picks up. We've got a little under sixty minutes of Purge left."
+      },
+      {
+        "host": "quinn",
+        "text": "Denise, I'm gonna keep you on the line. What's the address? And is there anybody else who knows about this kid?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'It's the corner of Atwood and Mound. And — oh God, there's maybe three other people I know within two blocks who are awake and listening because everyone listens to you guys. But nobody's going outside. Nobody's opening their door.' Understood. Don't open your door, Denise. Tim's got the address. We're gonna broadcast this."
+      },
+      {
+        "host": "quinn",
+        "text": "Folks, if you're listening in the Atwood and Mound area and you have any way to help — a ladder from inside your own building, a rope, something warm you could leave on your roof line — the choice is yours, but a kid is up there and he doesn't have much time. Stay safe, but if you can do it, do it."
+      },
+      {
+        "host": "quinn",
+        "text": "Denise, where are you physically right now? Can you keep watching the roof from a window?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'I'm at my kitchen window. I can see him. He's sitting down now, which — I don't know if that's good or bad. He's just sitting.' That's the cold starting to slow him down. How's he dressed, Denise?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'T-shirt and shorts. I told you summer. I told his mom before he went up there that he was an idiot for dressing like that, and she got mad at me, and now — I mean. Now it's real.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Okay. Denise, I'm not gonna lie to you — we've got maybe fifty minutes before it's safe for him to be out there, and the wind is not helping. But you're not alone. You're connected right now. There are thirty thousand people listening, and some of them are near you, and some of them are going to figure this out."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'Will you stay on the line? I don't want to — I don't want to be the only one watching.'"
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not going anywhere, Denise. We've got fifty-four minutes. You and me and thirty thousand people who are all still awake because the world decided to be broken one night a year. We'll make it through this hour together."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, I need you to keep broadcasting this situation. Every five minutes, address, description, status. If anybody within four blocks hears this and has a way to help that doesn't involve opening a door or breaking their own safety, they need to hear it."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what's strange about being in this job — and I've been thinking about this all night, between the whiskeys and the sweating — I'm an illegal broadcast on an illegal frequency talking to people who are supposed to be cowering behind locked doors, and we're all somehow doing something that feels more like community than I have felt in seven years of legitimate life before this."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Capitol Square — you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Capitol Square — 'I'm a doctor. I was listening because I can't sleep, and I heard the thing about the kid, and I have a rooftop harness from before I moved. Climbing gear. My neighbor has a ladder that goes to a second story. If somebody could coordinate, if somebody could tell me if it's actually safe to move, I think I could rig something. But I need to know the situation is clear.' Marcus, this is the thing that actually saves lives. Tim, Marcus is on the line. What's the Capitol Square to Atwood Mound situation right now?"
+      },
+      {
+        "host": "quinn",
+        "text": "Denise, Marcus is a doctor with climbing gear about three blocks from you. Are you seeing anything moving in the streets? Anything that would make it unsafe?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'Street looks clear. Wind is loud but I don't see anything. I don't hear anything except the wind. And the kid is still on the roof. He's not moving. That's the scary part.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Marcus, you got that? Street from Capitol Square to Atwood and Mound is reporting clear. Forty-nine minutes of Purge left. This is your call."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Capitol Square — 'I'm moving now. I'm grabbing the gear. My neighbor is going to stage the ladder at the corner. If we're doing this, we're doing it in the next ten minutes while there's still time.' Go. We're here. Denise is watching. We're all watching."
+      },
+      {
+        "host": "quinn",
+        "text": "This is what the Purge actually is, folks. This is the thing that never makes the news reports. It's not the headline. It's not the Capitol breach or the kill counts or the fires. It's people figuring out how to save each other in the margins."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'I see a man. Coming from the west. He's got something — it looks like climbing stuff. Is that him? Is that the doctor?' That's him, Denise. Marcus, you there?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Capitol Square — 'I'm two blocks out. I can see the roof. The kid's on there. He's not moving much. I'm setting up now.' Do it. Denise, stay on the line with us. How's the kid looking?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'He's starting to shiver. The wind's got him going now. This is really happening, isn't it? You're really going to save that kid on the radio.'"
+      },
+      {
+        "host": "quinn",
+        "text": "We're going to try, Denise. That's all anybody can do. That's all any of us are doing tonight. Trying."
+      },
+      {
+        "host": "quinn",
+        "text": "The clock reads {{CLOCK}}. Forty-seven minutes. The wind is really screaming now. You can hear it pushing against the building. Somewhere out there, a doctor with climbing gear is probably scared out of his mind, and a kid is shivering on a roof, and a neighbor is watching through a window, and thirty thousand people are holding their breath."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Capitol Square — 'Kid is watching me set up. He's alert. That's good. I've got the harness rigged on the corner edge. The wind is worse than I thought but it's manageable. I'm going up.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Go. We're with you. Denise, you still there?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'I'm here. I'm watching. The doctor is on the ladder now. The kid is standing up. He's moving toward the doctor. Oh my God. They're — the harness is going around the kid. This is happening.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Stay with it, Denise. Marcus, status?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Capitol Square — 'Kid is secured. Harness is tight. We're coming down. Wind is not fun but we're coming down.' Forty-five minutes, folks. This is forty-five minutes before the Purge ends. This is what we do."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'They're on the ground. They're on the ground and moving and — the kid is walking. He's shaking but he's walking. Oh my God. Oh my God. He's actually alive.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Marcus, get that kid inside and warm. Denise, where's the mom now?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'She's opening the door. I can see her opening the door for both of them. She's opening her door. She's letting them in.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Capitol Square — 'Kid is inside. Door is closed. I'm going back to my place. We did it. We actually did it.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Denise, you stay on the line if you want to. You just saved a kid's life, whether you want to admit it or not. You made the call."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denise from East Side — 'I need to sit down. I need a minute. But thank you. Thank all of you. I didn't think — I didn't think that was possible tonight.'"
+      },
+      {
+        "host": "quinn",
+        "text": "That's the thing about the Purge that the architects never expected. They built it as a release valve, but what actually happened is they accidentally created one night a year where people remember what they're capable of. And not in the way they intended."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm pouring another whiskey because I earned it tonight. In the last hour, we watched a doctor with climbing gear and a neighbor with a ladder and a woman at a window save a fourteen-year-old kid from hypothermia on live radio, and nobody's going to report it, and nobody's going to care except the thirty thousand of you who were here."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Janet from Sun Prairie — you're on."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Janet from Sun Prairie — 'I heard what just happened and I needed to call and say — I work as a dispatcher. Normally. During the day. And I heard that doctor coordinate and I heard the neighbor respond and I want everyone to know that's not luck. That's what people are like when they actually trust each other. That's what we could be all the time if we tried.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Janet, that's the most important thing I've heard on this broadcast in twelve hours. Write that down. Tell people that. Tell them next year."
+      },
+      {
+        "host": "quinn",
+        "text": "The wind is howling. It really is. You can hear it in the background of every voice now — this constant push from the northwest, pushing against the Capitol, pushing against the buildings, pushing against the city. The temperature's probably around twenty-eight now, which means anyone who's still out there is in real trouble."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I keep thinking about? Director Calloway. I mentioned him earlier — the guy I used to protect, the guy sitting in the Capitol building in his air-conditioned office while people barricade their kitchens. He has no idea that a doctor just saved a kid on live radio. He'll never know. That's the real Purge."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Stephen from Atwood and Mound — you're on."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Stephen from Atwood and Mound — 'I'm the kid. I'm the one who was on the roof. I just — I wanted to say thank you while the doctor was still on the line, but he's inside warming up now. And I wanted to say thank you to everyone. And also to say that I'm an idiot. I don't know what I was thinking. I'm fourteen and I was an idiot.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Stephen, you're alive. That's the main thing. That's what matters. You made it through the Purge. Your mom made it through the Purge. And now you've got a story you're going to tell for the rest of your life about the night a stranger climbed a roof to get you."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Stephen from Atwood and Mound — 'Will I be able to listen to this broadcast later? Like, can I hear what just happened again?' Tim, can he?"
+      },
+      {
+        "host": "quinn",
+        "text": "We'll figure it out, Stephen. We always do. Stay warm. Drink something hot. Thank your mom for opening that door."
+      },
+      {
+        "host": "quinn",
+        "text": "The clock reads {{CLOCK}}. Forty-one minutes left. We've got forty-one minutes of Purge remaining and I can already feel the dawn coming. Not light yet — that's still a ways off — but the kind of feeling you get right before something big changes. The wind is bringing the cold in harder now."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Linda from Near East — you're on the line."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Linda from Near East — 'I've been listening since nine and I have a question. How do you broadcast this? Like, how do you do this illegally every year and they don't catch you?' That's a question for Tim, not me, Linda. Tim?"
+      },
+      {
+        "host": "quinn",
+        "text": "Because during the Purge, it's legal. After the Purge, it's illegal, and we disappear for 365 days. That's the deal. That's the trade we make."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Linda from Near East — 'That's insane. That's actually insane. You're heroes.' Linda, we're not heroes. We're a pirate station broadcasting from a room that nobody's supposed to know about, playing songs and taking calls from people who are too scared to be alone tonight. That's not heroic. That's just human."
+      },
+      {
+        "host": "quinn",
+        "text": "But I appreciate it. And I appreciate you calling. Stay safe. Listen until the end if you can."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Williamson Street — you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Williamson Street — 'The barricade held. The Willy Street barricade held all night. I wanted you to know that. The neighborhood watch is still standing. Nobody got through. We made it.' David, that is incredible. How many people are you?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Williamson Street — 'Fifteen when we started. Fourteen now. One person got hurt but not badly, and she's going to be okay. We're going to stay here until seven because nobody trusts the streets yet, but we held. We actually held.'"
+      },
+      {
+        "host": "quinn",
+        "text": "David, you protected an entire neighborhood. That woman with the hunting rifle — the one I saw on Tucker's camera earlier — she's probably the bravest person in Madison tonight. And she did it without killing anyone. Can you tell her that from me?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Williamson Street — 'She's right here and she's smiling. She says you're okay for a guy on the radio. She says she'll remember you for remembering her.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Tell her I'll remember her. Tell her when this is over, when we're all out there in the regular world tomorrow, she should know that she did something that mattered. That neighborhood watch held because of her."
+      },
+      {
+        "host": "quinn",
+        "text": "The wind keeps getting colder. It's pushing harder. I can see — well, Tim can see on the Capitol camera — the wind is actually making the building lean, just slightly. Or maybe that's metaphorical. Maybe I'm having a moment."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm on whiskey number eight now. I'm aware. I'm functional. I'm also acutely conscious that I have approximately thirty-seven minutes left to be on the radio as a legal entity, and then I disappear until next March, and nothing I did here tonight will have happened as far as the government is concerned. That's a strange feeling."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tom from North Side — you're on the line."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tom from North Side — 'I'm calling because we want people to know that the North Side has been quiet. Quiet. And we think it's because we organized early. We did neighborhood meetings. We built relationships. This whole block knows each other. And it matters. It actually matters. There's a reason the East Side is hotter and we're not, and it's because we invested in each other.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Tom, that's the thing that never gets reported. The structural stuff. The actual community investment. It's harder to kill someone you know. It's harder to burn down a street if you live there."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tom from North Side — 'We're going to do this again next year. We're going to keep investing. Because this works. Whatever this is, it works.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Rebecca from Capitol Square — you're on."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Rebecca from Capitol Square — 'I'm watching the Capitol from my apartment. I can see the lights are still on inside. The people who did this — they're working. They're in there right now, coordinating, probably. Making plans for next year. Making it legal again. Making it inevitable. And I'm sitting here thinking about how much we've lost. About how much we accepted. About Director Calloway and the rest of them. And I don't even know what to do with that.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Rebecca, that's the heaviest call I've taken all night. And the answer is: you stay awake. You listen. You remember. You tell people. You invest in your neighbors like Tom's doing on the North Side. You organize. You prepare. You refuse to accept the inevitable."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Rebecca from Capitol Square — 'That's a lot to ask.' It is. It is a lot. And next March, we'll do it again anyway."
+      },
+      {
+        "host": "quinn",
+        "text": "The clock reads {{CLOCK}}. Thirty-four minutes. We're in the final stretch now. The dawn is starting to show at the edges. It's still dark but it won't be for long. The wind is cold and constant and it sounds like the whole city breathing out."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm thinking about Denise at her window. I'm thinking about Marcus going home to warm up. I'm thinking about Stephen inside with his mom. I'm thinking about David and the woman with the hunting rifle holding the Willy Street barricade. I'm thinking about Tom building community on the North Side. I'm thinking about Rebecca watching the Capitol lights."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm thinking about all of you out there, still awake, still listening, still here."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Anonymous from East Side — you're on."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Anonymous from East Side — 'I'm not giving my name because I don't want to be identified. But I want to know — why do we keep doing this? Why do we accept one night a year? Why did we ever agree to this?' That's the question, isn't it?"
+      },
+      {
+        "host": "quinn",
+        "text": "Because a lot of people before us made a lot of bad decisions and now we're living with them. Because the government built a system and told us it was safe and we believed them. Because resistance got too hard and complacency became easier. Because it's hard to change something this big."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Anonymous from East Side — 'That's a sad answer.' It's the truth, though. And maybe next year, we change it. Maybe next year, the North Side's way wins. Maybe people actually organize. Maybe we don't show up to listen to pirate radio because we fixed the system."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Anonymous from East Side — 'Do you believe that?' No. But I hope for it. And sometimes hope is enough to keep going."
+      },
+      {
+        "host": "quinn",
+        "text": "The wind is shaking the building now. Really shaking it. Thirty minutes left and the cold is getting vicious. Caroline was right — she's always right about the weather — and the wind coming out of the northwest is going to make the last half hour brutal for anyone still out there."
+      },
+      {
+        "host": "quinn",
+        "text": "Which is why I want to say this to anyone listening who's still out there: if you're out there right now, if you're in the wind and the cold, try to get inside if you can. Try to find shelter. We're so close. We're so close to the all-clear."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michael from South Side — you're on the line."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michael from South Side — 'I'm calling because my daughter is listening with me and she fell asleep during Nick's block and woke up during the stuff with the kid on the roof, and she's been listening ever since. She's eleven. And she's asking me why we broadcast this. Why we talk about this night. And I don't know how to answer her.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Michael, put her on. Let her ask me."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michael from South Side — there's a pause, maybe twenty seconds, and then a small voice: 'Mr. Quinn? Why do you do this?'"
+      },
+      {
+        "host": "quinn",
+        "text": "Because your dad is listening to you right now and I'm listening to your dad, and Tim is running this station, and thirty thousand people are awake, and we're all together for twelve hours. That's why. We do it because it's the only time we're all connected at the same time, thinking about the same thing. It's not much, but it's something."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michael from South Side — 'So it's like — we're not alone?' Exactly. You're not alone. Neither is anyone else out there. Even when it feels that way. Even at the worst moments. There's always someone listening."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michael from South Side — 'Okay. Thank you.' You're welcome, kiddo. Go back to sleep."
+      },
+      {
+        "host": "quinn",
+        "text": "The clock reads {{CLOCK}}. Twenty-five minutes. The first real light is starting to show now. Not dawn exactly, but the sky is changing. It's going from black to deep blue. The wind is still screaming but it sounds different now — it sounds like it's ending."
+      },
+      {
+        "host": "quinn",
+        "text": "I've been doing this job for twelve hours and you know what I've learned? I've learned that people are better than they're allowed to be. I've learned that there's more good happening in the margins than the official reports will ever mention. I've learned that a doctor with climbing gear and a neighbor with a ladder can change someone's life."
+      },
+      {
+        "host": "quinn",
+        "text": "I've learned that we're all going to be okay. Not because the Purge is ending. But because we made it through together."
+      },
+      {
+        "host": "quinn",
+        "text": "Twenty minutes now. Counting down. The wind is cold and the city is almost empty and we're almost through. This is the hour that nobody expects — the hour where you realize you survived, where you let your guard down just a little bit, where you start to breathe again."
+      },
+      {
+        "host": "quinn",
+        "text": "This is my last hour on the radio until next year. This is the moment where I finish my drink and disappear back into hiding, back into the world where I'm not supposed to exist. And I want to say: thank you. Thank you for calling. Thank you for listening. Thank you for being human when the world asked you not to be."
+      },
+      {
+        "host": "quinn",
+        "text": "We'll do this again next March. Same time, same place. You know the frequency. You know the way in. And I'll be here, whiskey in hand, ready to listen to you again."
+      },
+      {
+        "host": "quinn",
+        "text": "Fifteen minutes. The sun is coming. The Purge is ending. We made it."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "emergency",
+        "text": "ROOF RESCUE — Atwood & Mound, East Side. 14yo rescued by climbing rescue operation. Status: RESOLVED, subject in warming care. All parties safe."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Williamson Street Barricade held for full 12 hours. 15 volunteers, 14 remaining (1 minor injury, non-lethal). Perimeter maintained. Zero penetration."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol building remained fortified. Internal staff coordination ongoing. All administrative functions maintained. No further breach attempts after 21:40."
+      },
+      {
+        "category": "kill-count",
+        "text": "Madison YTD: 187 (2168). Current tracking: on pace for 188-189. East Side holding 18.2% of total incidents. Wind conditions suppressing late-stage activity."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "North Side reports unprecedented quiet: 9 kills confirmed (vs 10 last year). Hypothesis: neighborhood organization and pre-Purge community investment reducing incident rates."
+      },
+      {
+        "category": "emergency",
+        "text": "WIND ADVISORY: NW gusts 22-28 mph. Temperature 21-26F. Hypothermia risk for any remaining outdoor exposure. Final 15 minutes expected to see collapse of activity."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:51:57.262Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

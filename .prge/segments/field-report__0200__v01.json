@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker here, Vilas Park perimeter, {{ELAPSED}} in. Madison-wide count is holding at 139 as of 01:58. That's 17 behind last year at this point — we're actually tracking below 2168 pace for the first time all night."
+      },
+      {
+        "host": "tucker",
+        "text": "Wind's picked up hard off Mendota. Temperature's dropped to 24 degrees and I'm getting visibility maybe two blocks. Cold front moved in clean. People are moving indoors now — that's the pattern shift. The coordinated stuff stops when the weather gets this hostile."
+      },
+      {
+        "host": "tucker",
+        "text": "Neighborhood breakdown: East Side still leading at 34 kills, but the rate's slowed. State Street's gone quiet — Holden, you tracking the weapons-trade data on this? Bladed work is up to 22% of total, which tracks with the ammunition pricing thing you mentioned earlier."
+      },
+      {
+        "host": "holden",
+        "text": "Yeah, and the cold actually accelerates that. Guns jam in this wind, you need a clear shot, you need time. Blade work doesn't require the setup. You're seeing economic desperation plus environmental pressure."
+      },
+      {
+        "host": "tucker",
+        "text": "Vehicle-on-vehicle is down on the Beltline — I'm repositioning north toward the overpass, the cordons are holding better in this wind, people can't navigate the drag-strip routes as fast when visibility is—"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "MADISON RUNNING 17 BEHIND 2168 YoY | 139 cumulative at 02:00"
+      },
+      {
+        "category": "neighborhood",
+        "text": "EAST SIDE: 34 kills | STATE STREET: 19 kills (DOWN from 23:00 spike)"
+      },
+      {
+        "category": "local-news",
+        "text": "WIND GUSTS 22+ mph | TEMP 24°F | VISIBILITY 2 blocks | Lake Mendota chop ongoing"
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield: Wind load testing confirms panel integrity in gusts up to 30 mph. You're secure."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:07:49.940Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

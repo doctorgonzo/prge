@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker here. Stationed near the Vilas Park perimeter, south edge of Lake Mendota. The clock reads 02:00. We're {{ELAPSED}} in and the numbers are moving in ways the modeling didn't predict."
+      },
+      {
+        "host": "tucker",
+        "text": "Madison-wide cumulative is sitting at 139 kills as of 01:52. That's 17 above the 2168 pace at this exact hour — we were at 122 last year. The cold front is suppressing activity in the northern zones, but the East Side is compensating. Hard."
+      },
+      {
+        "host": "tucker",
+        "text": "Atwood and Schenk's Corners are running at 24% of total volume with only 8 hours elapsed. Last year at this mark they were 19%. Weapons profile is also shifting — bladed work is up 11 percentage points. Cheaper. People are getting creative because they have to."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm looking at the Mendota shoreline right now and there are — hold on, my equipment is — the relay is getting interference from something. Two boats out on the water. Neither is official."
+      },
+      {
+        "host": "tucker",
+        "text": "Holden, the State Street corridor methodical sweep from 23:00 — if that pattern holds and replicates, we could be looking at sustained 20+ kills per hour for the remaining 4 hours. That would put us in the 240-250 range by dawn. That's territory we haven't been in since—"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 139 kills (02:00 mark). YoY +17 vs 2168 same hour."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood/Schenk's) at 24% of night total. +5 percentage points vs 2168 pace."
+      },
+      {
+        "category": "local-news",
+        "text": "Bladed weapon incidents up 11pp YoY. Firearms ammunition costs cited as economic driver."
+      },
+      {
+        "category": "emergency",
+        "text": "Mendota shoreline: two civilian vessels active in darkness. No official response in service area."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:08:51.280Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

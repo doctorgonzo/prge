@@ -176,9 +176,17 @@ function stripFences(raw: string): string {
 
 /** Token budget per format. Music-block's per-phase budgets are handled
  * separately in the three-phase flow; everything else stays tight. */
-function maxTokensForFormat(format: SegmentFormat): number {
+function maxTokensForFormat(format: SegmentFormat, durationSec?: number): number {
   if (format === "music-block") return 4000; // unused in three-phase path; reserved for Phase C
-  return 1500;
+  // Scale max_tokens with duration for ALL prebaked formats.
+  // The prebake script sets durationSec = lineCount * 15.
+  // Each dialog line averages ~80 tokens of JSON (host + text + mood + structure + whitespace).
+  // Using 100 tokens/line for headroom against truncation.
+  if (durationSec) {
+    const estimatedLines = Math.ceil(durationSec / 15);
+    return Math.min(16000, Math.max(2000, estimatedLines * 100));
+  }
+  return 2000;
 }
 
 async function generateSingleCallSegment(
@@ -238,7 +246,7 @@ Target duration: ${ctx.durationSec}s.${ctx.notes ? `\nNotes: ${ctx.notes}` : ""}
 
   const response = await client.messages.create({
     model: ANTHROPIC_MODEL,
-    max_tokens: maxTokensForFormat(ctx.format),
+    max_tokens: maxTokensForFormat(ctx.format, ctx.durationSec),
     system: [
       { type: "text", text: bible, cache_control: { type: "ephemeral" } },
       { type: "text", text: lastYearRef, cache_control: { type: "ephemeral" } },

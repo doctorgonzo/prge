@@ -1,0 +1,405 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "21:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Welcome back to PRGE. The clock reads {{CLOCK}}, we're {{ELAPSED}} into the Purge, and I want to start tonight by saying something that might sound crazy but I'm going to say it anyway because I have a drink in my hand and I'm legally invisible for the next nine hours."
+      },
+      {
+        "host": "quinn",
+        "text": "It's quiet out there. You hearing that? That's not silence. That's the sound of people holding their breath."
+      },
+      {
+        "host": "quinn",
+        "text": "We got the opening reports in from Caroline and Holden in the last hour — kill count sitting at 19 as we rolled into 21:00. Nineteen. In three hours."
+      },
+      {
+        "host": "quinn",
+        "text": "For context, last year at this hour we were at 19 as well. Exactly 19. Tim double-checked it. So we're tracking the 2168 line perfectly, which would be comforting if I wasn't looking at the East Side telemetry and seeing absolutely nothing."
+      },
+      {
+        "host": "quinn",
+        "text": "Tucker's been trying to get field positions all night. You notice they haven't checked in yet? Not once. Tim's got them on standby but — and I'm reading between the lines here — but Tucker's radio traffic has been sparse."
+      },
+      {
+        "host": "quinn",
+        "text": "This is whiskey number one, by the way. I'm opening the log early because the silence is doing something to me that two hours of opening news didn't do."
+      },
+      {
+        "host": "quinn",
+        "text": "You want to know what the Purge felt like the first year I experienced it in hiding? I was in a apartment in Tenney Park — not the one that got raided in 2167, a different one — and I spent the first eight hours convinced that the lack of sirens meant everybody was dead. Turns out the sirens don't come until morning when the repairs start."
+      },
+      {
+        "host": "quinn",
+        "text": "This is different. This feels like the sirens are in the future and we're all just waiting for them."
+      },
+      {
+        "host": "quinn",
+        "text": "Let me tell you what I know: nineteen people have died in Madison in the last three hours. The cold front that Caroline predicted is moving in slightly slower than anticipated. The East Side — which has been the hottest zone for four consecutive years — is reporting almost nothing. No gunfire clusters. No vehicle incidents. Just static."
+      },
+      {
+        "host": "quinn",
+        "text": "And Holden — who I watched at 20:00 literally start drawing weapon-method distribution curves on a napkin — Holden has gone quiet. Which means he's noticed it too and he doesn't know what to make of it."
+      },
+      {
+        "host": "quinn",
+        "text": "In my previous life, before the scandal that nobody talks about but I bring up constantly, I used to sit in briefings with Regional Director Calloway — that's a man who took a bullet in the shoulder from a protester in 2158 and wore it like a medal — and Calloway used to say that the quiet Purges were the ones that turned into stampedes."
+      },
+      {
+        "host": "quinn",
+        "text": "He's dead now. Stroke in 2163. But he was not a stupid man, which is maybe why I remember what he said."
+      },
+      {
+        "host": "quinn",
+        "text": "We're taking calls tonight. I need to hear from people. I need to know if this is just my paranoia or if everyone's feeling like the other shoe is sitting at the top of the stairs waiting for gravity."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Derek from Park Street — Derek, you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Derek from Park Street — I'm here. I'm locked in my basement with my family. We've been here since 6:58."
+      },
+      {
+        "host": "quinn",
+        "text": "Derek, that's forty minutes ago. Have you heard anything from street level?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Derek from Park Street — Nothing. That's the problem. Last year you could hear the chaos like a block away. This year it's — it's like the neighborhood is closed."
+      },
+      {
+        "host": "quinn",
+        "text": "Have you got neighbors you trust?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Derek from Park Street — Three houses down, the Garcias. They're... they're supposed to be barricaded like we are. I can't see lights. I can't see anything."
+      },
+      {
+        "host": "quinn",
+        "text": "Derek, do not go up there. I want to be clear on that. Do not go check on them."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Derek from Park Street — I know. I know. But they have a kid. They have a seven-year-old daughter. And I'm sitting here listening to nothing and thinking about what nothing might mean."
+      },
+      {
+        "host": "quinn",
+        "text": "It means they're probably barricaded better than you are and they're probably also listening to the silence. That's what it means, Derek. Stay where you are. We'll get more information as the night goes."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Derek from Park Street — Okay. Okay."
+      },
+      {
+        "host": "quinn",
+        "text": "Derek, stay with us on the line if you need to. We're here until 7 AM."
+      },
+      {
+        "host": "quinn",
+        "text": "So that's Derek. Derek represents a very specific category of Purge Night fear that you don't usually see until hour five or six. He's at hour three and he's already cycling through the worst-case scenarios."
+      },
+      {
+        "host": "quinn",
+        "text": "Which is healthy, actually. Worst-case scenarios keep you alive. It's the people who think tonight is normal that end up making mistakes."
+      },
+      {
+        "host": "quinn",
+        "text": "I had a friend — past tense, because he made a mistake — who used to say that the Purge was just another night, that all the security theater was for people who weren't paying attention. This was in 2147. He went to get a beer from his downstairs fridge at 2:30 AM. Just a quick trip. The door wasn't fully locked. He left himself exposed for ninety seconds."
+      },
+      {
+        "host": "quinn",
+        "text": "They found him at sunrise. He died from blood loss before morning responders could reach him. The coroner said the wound wasn't even efficient — whoever did it was just trying things, seeing what would work."
+      },
+      {
+        "host": "quinn",
+        "text": "So when I hear Derek talking about the silence, I think about my friend and I think about ninety seconds of inattention. And I think about how the silence might be worse than the noise because the silence gives you permission to relax."
+      },
+      {
+        "host": "quinn",
+        "text": "The clock reads {{CLOCK}}. We're {{ELAPSED}} in. I'm pouring whiskey number two."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, are we getting field contact from Tucker yet?"
+      },
+      {
+        "host": "quinn",
+        "text": "I'm looking at the mic here — Tim's not cutting in, which means the answer is no. Tucker's dark. First time in three years of running this broadcast that we've gone into the 9 PM hour without a field check-in."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what that means? It means Tucker's safe, probably. It means they're in a position where they can't break radio silence. It means they're either in a zone that's hot enough to be dangerous or they're close enough to people who might be paying attention."
+      },
+      {
+        "host": "quinn",
+        "text": "Or it means the jammer is back."
+      },
+      {
+        "host": "quinn",
+        "text": "We got jammed once in 2168, you remember? Year before last. Four minutes, twelve seconds. Tim had to relocate the antenna. I remember because Tim — who is the calmest human being alive — Tim said the words 'They tried' and something in his voice made it clear that the 'they' in that sentence had not actually gone away, they had just decided to try again next year."
+      },
+      {
+        "host": "quinn",
+        "text": "And here we are. Next year."
+      },
+      {
+        "host": "quinn",
+        "text": "I don't know if we're being jammed. I'm speculating. This is whiskey number two working on my vocal cords and my judgment simultaneously."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Linda from Vilas Park — Linda, welcome to PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Linda from Vilas Park — I'm calling because I saw something outside and I need to know if I'm being paranoid or if it's real."
+      },
+      {
+        "host": "quinn",
+        "text": "What did you see, Linda?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Linda from Vilas Park — A truck. White pickup. It's been parked in the Tenney lot across from my building for... I don't know. Since about 8:45. Lights off. No one gets in or out."
+      },
+      {
+        "host": "quinn",
+        "text": "How many people inside the truck?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Linda from Vilas Park — I can't see. The windows are tinted or dark or something. But the truck is running. I can see the exhaust. It's been running for fifteen minutes."
+      },
+      {
+        "host": "quinn",
+        "text": "Linda, is your apartment locked?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Linda from Vilas Park — Yes. Doors and windows. But the parking lot is right there. If they wanted to — they could see which building people came from."
+      },
+      {
+        "host": "quinn",
+        "text": "Does your building have a back entrance?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Linda from Vilas Park — Yes. Through the loading area. It's smaller."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay away from your windows. Don't use the main entrance if you need to move. If the truck leaves, do not assume it's gone — assume it's moving to a better position. And Linda — if you hear anything that sounds like forced entry on any floor above or below you, you go silent. You turn off every light, every device that makes sound, and you listen. Understand?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Linda from Vilas Park — Understand."
+      },
+      {
+        "host": "quinn",
+        "text": "You're doing good. You called. That's the right move. Stay on the line if you want. We'll keep you company."
+      },
+      {
+        "host": "quinn",
+        "text": "Linda is doing exactly what she should be doing — she's reporting an anomaly, she's taking it seriously, and she's not waiting for permission to be scared. That truck in the Tenney lot might be nothing. It might be someone else barricaded inside, trying to stay warm, waiting out the night in an engine's idling heat."
+      },
+      {
+        "host": "quinn",
+        "text": "Or it might be a person or persons evaluating the building for entry points."
+      },
+      {
+        "host": "quinn",
+        "text": "The Purge doesn't require violence to be successful — sometimes it just requires pressure. Showing up. Waiting. Making people choose between fear and action, and usually people choose fear, and fear is paralyzing, and paralyzing people make mistakes."
+      },
+      {
+        "host": "quinn",
+        "text": "I had a business associate — we called him Dino, but that's not his real name, and I'm not going to use his real name because some of those people are still in the business — Dino used to say that the Purge's greatest weapon wasn't what happened, it was what *might* happen. The anticipation. The truck in the parking lot doesn't need to move. It just needs to be seen."
+      },
+      {
+        "host": "quinn",
+        "text": "Dino got stabbed in 2154 by someone who was testing to see if he would stay still. He did stay still. Didn't scream, didn't fight. Just laid there and let someone who was probably scared and definitely curious see what stopping and bleeding felt like. He died. I went to his funeral, which sounds like I had a lot of friends back then, but I didn't — I went because I was in the business and you go to funerals in the business because not going is a statement."
+      },
+      {
+        "host": "quinn",
+        "text": "What I'm saying is: Linda's fear is productive. Linda's waiting and watching and reporting. Linda is going to make it through tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "The clock reads {{CLOCK}}. We're {{ELAPSED}} in. I'm going to pause for a moment because Tim's got something coming through."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, you're on."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm pausing. Tim's doing what Tim does, which is managing the broadcast and keeping all of us alive. That's what the Operator does. That's Tim's job and he's the best we've ever had."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from East Side — Marcus, you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from East Side — I need to tell you something and I need you to not panic."
+      },
+      {
+        "host": "quinn",
+        "text": "That's a funny opener, Marcus. Anytime someone says 'don't panic,' the first thing that happens is panic. What have you got?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from East Side — There's a group moving through the Atwood corridor. Maybe six, seven people. They're moving deliberately. They're not running, not breaking in anywhere, just moving. And every time they pass a building, somebody stops and checks the doors."
+      },
+      {
+        "host": "quinn",
+        "text": "Marcus, are they armed?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from East Side — I can't tell. Could be. Probably. It's dark and they're moving quick enough that I'm not getting a clear look, but the way they're walking — the way they're *standing* — it looks organized. It looks like they know what they're doing."
+      },
+      {
+        "host": "quinn",
+        "text": "Where are you positioned?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from East Side — Back bedroom, second floor, looking down on the street through a gap in the blinds. My family's in the basement. I told them to stay there until I knew what this was."
+      },
+      {
+        "host": "quinn",
+        "text": "Smart move. Marcus, I want you to watch. I want you to note everything — how many people, what direction they're moving, if they split up, if they double back. Can you do that?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from East Side — Yes. Yes, I can do that."
+      },
+      {
+        "host": "quinn",
+        "text": "Good. You're doing good. Don't turn on any lights. Don't make any noise. Just watch and report. If they approach your building, you go silent and you move to the basement. Understand?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from East Side — Understood."
+      },
+      {
+        "host": "quinn",
+        "text": "Okay, Marcus. You've got PRGE on your side. Stay with us."
+      },
+      {
+        "host": "quinn",
+        "text": "So we're getting reports now. The silence is breaking. We've got a truck in Tenney, a group moving through East Side, Derek sitting in his basement listening to nothing from the Garcias' house, and Linda waiting to see what a truck with its lights off is planning to do."
+      },
+      {
+        "host": "quinn",
+        "text": "This is the moment where the Purge starts to feel real for people who were still in the maybe-it-won't-happen phase. This is where Derek's worst-case scenarios start to look less like imagination and more like pattern recognition."
+      },
+      {
+        "host": "quinn",
+        "text": "And this is where I pour whiskey number three and remind everyone listening that the kill count at {{ELAPSED}} is still tracking last year's numbers, which means the system is working exactly as intended — every year, like clockwork."
+      },
+      {
+        "host": "quinn",
+        "text": "The system. That's what the Purge is, folks. It's not chaos. It's not random. It's a system that's been running for 140 years and the people who designed it are either dead or very, very secure in buildings that don't get breached."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm thinking about Vance again. Timothy Vance. Not related to the regime that bears his name, which is funny — history's joke. But this other Vance, a man I met exactly once, who told me that the Purge was 'a pressure release valve for a society that has nowhere else to go.' Those were his words. A pressure release valve."
+      },
+      {
+        "host": "quinn",
+        "text": "Meaning: if you let people kill each other one night a year in a controlled manner, they'll stay compliant the other 364. It's genius, actually. I hate it. I hate it with every cell in my body. But it's genius."
+      },
+      {
+        "host": "quinn",
+        "text": "And here's what kills me: it works. That's what keeps me up on the other 364 nights — not just the Purge night, but the nights in between when I'm hiding somewhere nobody can find me because I witnessed the genius working and I couldn't stay quiet about it and now I can't exist anywhere except here, once a year, on a broadcast that technically doesn't exist."
+      },
+      {
+        "host": "quinn",
+        "text": "The clock reads {{CLOCK}}. We're {{ELAPSED}} in. I've got whiskey number three in front of me and I'm going to drink it slowly because I need to still be coherent when Tucker finally checks in and tells me what the silence actually means."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Williamson Street — Sarah, you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Williamson Street — I'm in the Willy Street neighborhood watch group. We're armed and we're holding the river crossing. I wanted to call to say we've seen nothing."
+      },
+      {
+        "host": "quinn",
+        "text": "Nothing is good, Sarah."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Williamson Street — Nothing is terrible. Last year we saw activity at this hour. People testing the perimeter. This year it's like everyone south of Regent is asleep."
+      },
+      {
+        "host": "quinn",
+        "text": "Where's everyone north of Regent?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Williamson Street — That's what we're worried about. That's why I'm calling. The East Side group — Marcus, if that's who's reporting to you — that group might be coming north toward Capitol. They might be testing a different corridor."
+      },
+      {
+        "host": "quinn",
+        "text": "Thank you, Sarah. That's critical. Stay alert. Stay locked down."
+      },
+      {
+        "host": "quinn",
+        "text": "So now we're getting intelligence. Now we're starting to see the shape of the night — or at least the shape of the Purge's thinking, which is not the same thing as knowing what's happening, but it's closer than we were an hour ago."
+      },
+      {
+        "host": "quinn",
+        "text": "The system is moving. The valve is opening. And somewhere in the gap between East Side and Capitol Square, something is being tested."
+      },
+      {
+        "host": "quinn",
+        "text": "I spent four years in elected office before the scandal. Four years representing people who thought I could represent them. And you know what I learned? The Purge doesn't start in the streets. It starts in the thinking. Someone decides that tonight is the night. Someone decides that this building, this street, this crossing is worth testing."
+      },
+      {
+        "host": "quinn",
+        "text": "And then other people respond. And then it cascades. And then you get a year — like 2141, the Heat Purge — where you get 247 deaths because it was warm and people wanted to stay out and the cascade just kept going and going."
+      },
+      {
+        "host": "quinn",
+        "text": "Tonight has the feeling of a cascade night. Tonight has that specific tension that comes before things break."
+      },
+      {
+        "host": "quinn",
+        "text": "And I'm sitting here in a studio in a building I'm not supposed to be in, drinking whiskey I'm not supposed to have access to, and talking to people through a broadcast that technically doesn't exist, and I'm trying very hard not to be afraid."
+      },
+      {
+        "host": "quinn",
+        "text": "Because if I'm afraid, you're afraid. And if you're afraid, you make mistakes. And mistakes in the next six hours are the difference between Derek's basement being safe and Derek's basement being a place where people don't come back out."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide kill count: 19. Tracking 2168 YoY. East Side reporting minimal activity."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Field report incoming from East Side corridor — organized group movement detected moving north-northwest."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Linda from Vilas Park: white pickup truck stationary in Tenney parking lot 8:45-present. Engine running. Tinted windows. Stay alert."
+      },
+      {
+        "category": "local-news",
+        "text": "Williamson Street neighborhood watch holding river crossing. No activity in assigned zone. Coordinating with other perimeter groups."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:49:39.124Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

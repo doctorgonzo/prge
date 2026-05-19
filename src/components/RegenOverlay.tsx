@@ -23,6 +23,10 @@ interface Props {
   onTriggerCountdown?: () => void;
   /** Dev trigger: fire the Purge commencement siren video. */
   onTriggerSiren?: () => void;
+  /** Dev trigger: fire a dead air event immediately. */
+  onTriggerDeadAir?: () => void;
+  /** Dev trigger: open/close the survivor board panel. */
+  onTriggerSurvivorBoard?: () => void;
   /** Notify parent when time-travel changes the displayed time. The parent
    *  uses this to pin its HUD clock + countdown timer. Pass null to return
    *  to live clock. */
@@ -89,7 +93,7 @@ const FF_TICK_MS = 500;
 // itself is unconditional, so prod tree-shaking happens via the conditional
 // import site, not here. We still need a small internal guard against the
 // rare case where the parent passes a null/undefined segment between renders.
-export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRetroAd, onTriggerTimInterrupt, onTriggerCallerPopup, onTriggerCrisis, onTriggerTextAd, onTriggerCountdown, onTriggerSiren, onTimeTravel }: Props) {
+export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRetroAd, onTriggerTimInterrupt, onTriggerCallerPopup, onTriggerCrisis, onTriggerTextAd, onTriggerCountdown, onTriggerSiren, onTriggerDeadAir, onTriggerSurvivorBoard, onTimeTravel }: Props) {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   // Active time-travel override. When non-null, all fetches (REGEN included)
@@ -605,6 +609,31 @@ export function RegenOverlay({ segment, onRegen, onTriggerNickCutIn, onTriggerRe
                 aria-label="Play Purge commencement siren"
               >
                 SIREN
+              </button>
+            ) : null}
+          </div>
+        ) : null}
+        {/* Atmosphere triggers — dead air + survivor board */}
+        {(onTriggerDeadAir || onTriggerSurvivorBoard) ? (
+          <div className="flex gap-1 pt-1">
+            {onTriggerDeadAir ? (
+              <button
+                type="button"
+                onClick={onTriggerDeadAir}
+                className="flex-1 px-2 py-1 bg-gray-700/30 border border-gray-500/40 text-gray-300 hover:bg-gray-700/50 text-[10px] tracking-widest rounded-sm transition-colors"
+                aria-label="Trigger dead air event"
+              >
+                DEAD AIR
+              </button>
+            ) : null}
+            {onTriggerSurvivorBoard ? (
+              <button
+                type="button"
+                onClick={onTriggerSurvivorBoard}
+                className="flex-1 px-2 py-1 bg-green-700/20 border border-green-500/40 text-green-300 hover:bg-green-700/30 text-[10px] tracking-widest rounded-sm transition-colors"
+                aria-label="Toggle survivor board"
+              >
+                SURVIVORS
               </button>
             ) : null}
           </div>

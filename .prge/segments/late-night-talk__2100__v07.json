@@ -1,0 +1,381 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "21:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Welcome back to PRGE, folks. Quinn Foley here, and we are {{ELAPSED}} into the evening, which means we're {{ELAPSED}} into the only night of the year I'm allowed to exist on public radio. The clock reads {{CLOCK}}, the whiskey is cold, and I'm hearing reports that the Capitol perimeter just got *tested* for the first time."
+      },
+      {
+        "host": "quinn",
+        "text": "For those just tuning in — and yes, there's always someone turning in at 21:00, probably because your safe room finally got boring — we started at 19:00 with the usual: Caroline's forecast was good, Holden found seven ways to explain traffic patterns nobody cares about until people start dying, and Tim made sure the signal was solid. Standard."
+      },
+      {
+        "host": "quinn",
+        "text": "But there's something in the air tonight. Maybe it's literal — I'm hearing helicopters. Not one. *Multiple*. Overhead right now, actually. You hearing them?"
+      },
+      {
+        "host": "quinn",
+        "text": "I don't know whose they are. That's the thing. Used to be you'd hear a chopper on Purge Night and you'd *know* — government hovering, watching, taking notes, making sure nobody killed a politician. But this new administration, the Hegseth crowd, they're privatizing the surveillance. Could be state. Could be some security contractor charging fifty grand a night to feed data to whoever's paying."
+      },
+      {
+        "host": "quinn",
+        "text": "Either way, it means somebody thinks tonight's going to be *interesting*. And we're only three hours in."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to pour a whiskey. Don't judge me. This is the one night I get to do this in front of an audience, and I'm going to *use* it."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from the East Side — you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from the East Side — Go ahead, Marcus."
+      },
+      {
+        "host": "quinn",
+        "text": "Okay. Okay. You heard the helicopters too. That's — yeah, I see. No, I can't tell you who they belong to either. That's the honest answer. Caroline might know, but I'm not waking her. How are you holding up over there?"
+      },
+      {
+        "host": "quinn",
+        "text": "Doors locked? Windows barred? Okay, that's good. That's the kind of preparation that actually works. Not like the Vance years, remember? Back then people thought they could *reason* with the Purge. 'If I just talk to them, explain my position.' No. You stay inside. You stay quiet. Marcus is doing it right."
+      },
+      {
+        "host": "quinn",
+        "text": "The noise you're hearing is probably activity on Schenk's Corners. Yeah, that's the hot zone right now. Tucker's been quiet for a bit — that usually means either he's repositioning or he's seen something he's not ready to report. Either way, I wouldn't go near there. You're doing the right thing."
+      },
+      {
+        "host": "quinn",
+        "text": "Thanks for calling in, Marcus. Stay on the line or hang up — doesn't matter to me, but if you hang up, leave the radio on. It's better than the silence."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I realized about Purge Night? It's not actually about the violence. Oh, sure, people talk about the kill count, the neighborhoods that spike, all that. But what the Purge is *really* about is that nobody has to pretend anymore."
+      },
+      {
+        "host": "quinn",
+        "text": "Every other night of the year, we live in this society where we all agree on certain rules. Don't kill. Don't steal. Pay your taxes, respect your neighbors, show up to work. It's a *performance*, right? You show up. You do your part. You pretend the system is fair."
+      },
+      {
+        "host": "quinn",
+        "text": "But one night a year? The government just *says it out loud*: 'Go ahead. We know you want to. Here's your window.' And suddenly you can see who people *actually* are, what they actually *want*, when there's no law to hide behind."
+      },
+      {
+        "host": "quinn",
+        "text": "The Vance administration sold it as a pressure valve. 'Let them purge, and they won't revolt.' And you know what? It worked. It *worked*. That's the horrible part. People went nuts for twelve hours, and the next morning they signed up for another year of taxation without representation."
+      },
+      {
+        "host": "quinn",
+        "text": "I used to think the Purge was a bug in the system. Now I think it's the *feature*. The whole system is designed to work because of Purge Night, not despite it."
+      },
+      {
+        "host": "quinn",
+        "text": "And me? I used to be part of that system. I was a councilman. I wore a suit, made speeches, voted on zoning laws like it *mattered*. Then I made the mistake of sleeping with someone I shouldn't have — and recording it, the real idiot move — and suddenly I was the one everyone was comfortable targeting."
+      },
+      {
+        "host": "quinn",
+        "text": "Funny how that works. When you're in the system, the system protects you. When you're out, the system *eats* you. Now I only get to exist one night a year, which is fine, because it means I don't have to pretend the other 364 days."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sandra from South Side — you're on."
+      },
+      {
+        "host": "quinn",
+        "text": "Hey, Sandra. What's going on over there?"
+      },
+      {
+        "host": "quinn",
+        "text": "Your neighborhood watch is actually holding up? That's — okay, that's excellent news. South Side has been solid the last few years. You've got actual community cohesion over there, and it *shows*. Your barricade at Park and Fish Hatch is holding?"
+      },
+      {
+        "host": "quinn",
+        "text": "Good. Good. Don't let anyone in after dark — and I know that sounds harsh, but these are the rules. Anyone trying to get into a secured zone at 21:00 on Purge Night is either desperate or dangerous. Probably both."
+      },
+      {
+        "host": "quinn",
+        "text": "You've got how many people in the barricade? Forty? Okay, that's — that's enough. That's actually enough to hold a perimeter. Make sure somebody's doing headcount every hour. People get tired, people get complacent, and by 01:00 you've got someone asleep at the line."
+      },
+      {
+        "host": "quinn",
+        "text": "Thanks for the update, Sandra. You're doing this right. You're actually doing this *right*, which is rarer than it should be."
+      },
+      {
+        "host": "quinn",
+        "text": "The thing about those helicopters — and they're still there, I can hear them — is that they're useless for actual civilian protection. They're surveillance. They're assessment. They're somebody up there making a note about where the hotspots are, what kind of organization the violence is showing, whether it's spontaneous or coordinated."
+      },
+      {
+        "host": "quinn",
+        "text": "That data goes *somewhere*, right? Not to us. Not to the people trying to survive the night. It goes up the chain. To Regional Director Calloway, probably — he'll be in that Capitol bunker right now, watching the feeds. Maybe the Hegseth people get a copy for their own records."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what Calloway used to say, back when I could still eat lunch with him? He'd say, 'The Purge is the most honest market we have.' No regulation. No interference. Pure supply and demand. If you want to kill someone, you have to weigh the risk of *them* killing *you*. No insurance. No lawyers. Just calculus."
+      },
+      {
+        "host": "quinn",
+        "text": "I told him that was insane. He said, 'No, it's capitalism in its purest form. And it works better than democracy ever did.' That was a year before he got appointed to Regional Director. That was the conversation that made me understand he was going places."
+      },
+      {
+        "host": "quinn",
+        "text": "And now he's one of the people the Purge is designed to protect. Level-10 security. Blast glass. Probably never even seen a gun in person, just data about guns. But the system *loves* him because he understands what the system is actually for."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Capitol Square — go ahead, David."
+      },
+      {
+        "host": "quinn",
+        "text": "David, are you *near* the Capitol Square right now? Please tell me you're not *in* Capitol Square during the first three hours."
+      },
+      {
+        "host": "quinn",
+        "text": "You're in your apartment. Okay. How high up?"
+      },
+      {
+        "host": "quinn",
+        "text": "Fifth floor? That's actually better than street level, so you've got that going for you. Can you see the Capitol building from your window?"
+      },
+      {
+        "host": "quinn",
+        "text": "What do you see? Any — describe it for me. I'm getting reports about the perimeter, but I want to know what it actually *looks* like from ground level."
+      },
+      {
+        "host": "quinn",
+        "text": "They're floodlit. Of course they're floodlit. Calloway's going to make sure we can all *see* his fortress while the city burns. It's good optics. Shows that the government is secure, which means the government is in control, which means you should feel *safe*."
+      },
+      {
+        "host": "quinn",
+        "text": "I can see the perimeter fence is intact? Good. The inner gates? Also intact. All right, so they haven't tested it yet. They will, probably around 22:30 or 23:00, when the early waves of activity start consolidating. People travel. Groups form. Someone gets the idea that the Capitol is worth testing."
+      },
+      {
+        "host": "quinn",
+        "text": "When they do, that perimeter is going to *sing*. They've got autonomous defense systems in place — nobody talks about it, but Tim confirmed they upgraded in 2164 after the East Side surge. Things happen *fast* when the wall gets breached."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay inside your apartment, David. Don't go to the window after 22:00. The flash from the defensive systems is bright enough to damage your retinas from five stories up. Trust me. I've seen it."
+      },
+      {
+        "host": "quinn",
+        "text": "Thanks for calling."
+      },
+      {
+        "host": "quinn",
+        "text": "That was David from Capitol Square, and he just helped me remember something I'd been trying not to think about all night: I've *seen* the Capitol perimeter actually activate. That was 2164. I was still technically allowed to be in the city then — I had another year before the scandal, before the recording got out, before the vote to strip my security clearance."
+      },
+      {
+        "host": "quinn",
+        "text": "I was on the third-floor balcony of a restaurant on Maple Bluff, and I watched three separate groups try to breach the Capitol perimeter over the course of two hours. The defense system took care of all of them. The whole thing was — it was *beautiful* in a horrible way. Precise. Efficient. No mess."
+      },
+      {
+        "host": "quinn",
+        "text": "That's when I realized that the Purge wasn't a bug. It was a *filter*. The government could test their security systems, their weapons, their tactics, against an actual civilian population. See what worked. Optimize it. Refine it. All without any legal consequences."
+      },
+      {
+        "host": "quinn",
+        "text": "And the really beautiful part? The people who died *don't count*. It's legal. You can't sue. You can't even report it as a war crime because the government *defined* the rules. That's what Calloway was talking about — that pure capitalism, that pure *honesty* about power and who gets to use it."
+      },
+      {
+        "host": "quinn",
+        "text": "I should have arrested him then. Should have walked into that bunker and arrested him for whatever crime I could manufacture. But I didn't. I went home. I had dinner. I pretended it was normal."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the real evil of the Purge. It's not the killing. It's the *normalization*. You watch it once, you're disturbed. You watch it twice, you're used to it. By the third year, you're not even paying attention."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jenny from Atwood — you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Jenny, what's happening in Atwood?"
+      },
+      {
+        "host": "quinn",
+        "text": "Okay, so that's where the helicopters are heading. I was wondering. Activity spiking in Atwood — that's unusual. That's not typically one of the first zones. East Side usually heats up first, then it spreads out. Atwood is usually more of a 23:00 phenomenon."
+      },
+      {
+        "host": "quinn",
+        "text": "Something organized is happening over there. That or someone coordinated something that I haven't heard about yet. Are you seeing groups, or is it more scattered?"
+      },
+      {
+        "host": "quinn",
+        "text": "Groups. Okay, that confirms it. Organized activity. Stay away from anywhere that's organized. Organized violence on Purge Night has a *purpose*, and the purpose is usually not something you want to be near."
+      },
+      {
+        "host": "quinn",
+        "text": "Your building is secure? Good. Stay there. Don't open the door for anyone, no matter what they say. 'Help me' is the number-one way people get killed on Purge Night. You help someone, you open the door, suddenly you're part of a situation you didn't sign up for."
+      },
+      {
+        "host": "quinn",
+        "text": "Thanks for calling, Jenny. You're doing everything right."
+      },
+      {
+        "host": "quinn",
+        "text": "So we've got organized activity in Atwood, the Capitol perimeter still holding — or at least not *breached* yet — and helicopters overhead making notes about all of it. Three hours in. We're right at the inflection point where the casual violence starts organizing into something more structured."
+      },
+      {
+        "host": "quinn",
+        "text": "That's when body counts start accelerating. That's when the neighborhoods that think they're safe suddenly aren't anymore. That's when the people listening to this broadcast start understanding that barricading your door and hoping for the best only works if *nobody's actually trying*."
+      },
+      {
+        "host": "quinn",
+        "text": "But some people *are* trying. Some people have been planning this for eleven months. And tonight, {{ELAPSED}} into the window, they're executing."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from Willy Street — you're on the air."
+      },
+      {
+        "host": "quinn",
+        "text": "Hey, Robert. How's Williamson Street holding up?"
+      },
+      {
+        "host": "quinn",
+        "text": "You're doing neighborhood watch? That's good. That's actually good. Willy Street has been solid the last few years because of exactly what you're doing. How many people are you coordinating?"
+      },
+      {
+        "host": "quinn",
+        "text": "Twenty? That's a decent force. Are you armed?"
+      },
+      {
+        "host": "quinn",
+        "text": "Some of you. Some guns, some bats, some what. That's actually the *right* composition. Too many guns and you attract the heavily armed groups. But mixed armament means you're not a *prize* — you're an *obstacle*, and obstacles don't get tested by people who are looking for an easy kill."
+      },
+      {
+        "host": "quinn",
+        "text": "The perimeter you're maintaining — is it Yahara to the east? And what on the west side?"
+      },
+      {
+        "host": "quinn",
+        "text": "Regent to Elm. Okay, so you've got the neighborhood basically cordoned off. That's smart. That's actually smart urban barricading. The key is making sure nobody gets *inside* the perimeter accidentally and then finds out they can't get back out. That's how you get panicked civilians turning on each other."
+      },
+      {
+        "host": "quinn",
+        "text": "You've got protocols for that? Emergency exit procedure? Good. Really good. You're the kind of operation that makes it through the night because you've thought about what goes wrong."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay vigilant, Robert. And remember — you're not trying to win. You're trying to *survive*. Winning means you keep everybody inside the perimeter alive. That's it. That's the only goal."
+      },
+      {
+        "host": "quinn",
+        "text": "Thanks for calling."
+      },
+      {
+        "host": "quinn",
+        "text": "Robert from Willy Street is doing what urban communities *should* be doing. Not just hunkering down and hoping. Actually *organizing*. Actually *preparing*. That's the difference between communities that lose people and communities that hold."
+      },
+      {
+        "host": "quinn",
+        "text": "South Side has it. Willy Street has it. The Capitol's got it, with their security system. But most neighborhoods? Most people? They're in their apartments, doors locked, hoping nobody tests the lock."
+      },
+      {
+        "host": "quinn",
+        "text": "That works, sometimes. You get lucky, the violence passes you by, dawn comes, you walk outside and you've survived another year. But it's *luck*. It's not *strategy*."
+      },
+      {
+        "host": "quinn",
+        "text": "I was never the strategy type. When the scandal broke — when that recording got out, when people saw who I actually was with the cameras off — I just *waited* for it to blow over. I thought, 'Okay, I'll lie low for a few months, the news cycle moves on, I get back to my old life.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Turns out the government is much less forgiving of scandals when they're *interesting*. When they're *useful*. My replacement came in three weeks later. They stripped my security clearance. My pension got rerouted to some government fund. And suddenly I didn't exist during the day anymore."
+      },
+      {
+        "host": "quinn",
+        "text": "Purge Night was the only time the law didn't specifically say I couldn't broadcast. So here I am. One night a year. The ghost in the machine."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Thomas from Near East — go ahead, Thomas."
+      },
+      {
+        "host": "quinn",
+        "text": "Thomas, that's the neighborhood near Tenney Park, right?"
+      },
+      {
+        "host": "quinn",
+        "text": "You're hearing activity on the lake. Okay. So someone's testing the water routes. That's either good news or very bad news depending on how well those boats are prepared. What are you seeing?"
+      },
+      {
+        "host": "quinn",
+        "text": "Lights on the water. How many? Three boats, you said? Are they moving in formation or is it more random?"
+      },
+      {
+        "host": "quinn",
+        "text": "Formation is bad. Formation means coordination. Formation means someone's testing a *planned* route, not just trying to get somewhere quickly. That's someone who's done this before, or studied how to do it, and is executing tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "I'd stay away from the shoreline. If they're coming across Mendota, they've got a destination on this side, and the direct route from the water is going to be hostile. Avoid the waterfront for the next hour."
+      },
+      {
+        "host": "quinn",
+        "text": "Thanks for the intelligence, Thomas. Keep watching. If they actually *land*, call back and let me know which beaches they're hitting."
+      },
+      {
+        "host": "quinn",
+        "text": "Lake activity. That's new. That's new in the last hour, anyway. Last year the lake was pretty quiet — Caroline mentioned it was too cold, wrong season for water-based violence. But this year someone's testing it. Which means they've either found a reason to come across the water, or they're looking for a route that *avoids* the land-based security."
+      },
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} into this, and we're already seeing patterns. Organized groups in Atwood. Lake routes being tested. Capitol perimeter still buttoned up. The helicopters still overhead making notes."
+      },
+      {
+        "host": "quinn",
+        "text": "This is shaping up to be one of the *interesting* ones. Not the worst — not like 2141, the Heat Purge, when it was 78 degrees at midnight and the sky was clear all night and people just *kept going*. But interesting. Coordinated. Planned."
+      },
+      {
+        "host": "quinn",
+        "text": "Which means the body count is going to be higher than normal. Which means the people listening to this broadcast are going to spend the next nine hours getting *more* scared, not less."
+      },
+      {
+        "host": "quinn",
+        "text": "That's why I'm here, I guess. To be the voice in the dark telling you you're not alone. To take your calls and confirm that yes, you're hearing the same things we're hearing, yes, it's as bad as you think it is, yes, you're right to be afraid."
+      },
+      {
+        "host": "quinn",
+        "text": "But you're *still here*. You stayed home. You locked the doors. You made a choice. And that choice — the choice to *not participate* — that's the only thing the government's actually afraid of."
+      },
+      {
+        "host": "quinn",
+        "text": "Because if everyone made your choice? If everyone stayed home? The Purge would be nothing. It would collapse. There'd be no violence, no testing of security systems, no data about what civilians do when there's no law. The Purge only works because enough people *want it* to work."
+      },
+      {
+        "host": "quinn",
+        "text": "So thank you for listening. Thank you for staying home. And thank you for calling in, all of you, and letting the rest of the city know that there are people *still here*, people who chose not to become statistics tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to pour another whiskey. You stay on this frequency. We've got nine hours left, and I have a feeling we're going to need each other before dawn."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide kills at 21:00: estimated 28–32. East Side 8–10, Atwood 4–6 (new hotspot), Capitol Square 2–3, multiple neighborhoods 1–2 each."
+      },
+      {
+        "category": "emergency",
+        "text": "Helicopter activity over Atwood and East Side confirms coordinated activity. Source unknown. Government or private security — no confirmation from Regional Director's office."
+      },
+      {
+        "category": "local-news",
+        "text": "Lake Mendota: three boats in formation detected near Tenney Park shoreline. Direction and destination unknown. Possible water-based incursion route."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text in: 'What happens if the Capitol perimeter gets breached?' Quinn's answer: 'Autonomous defense systems activate. Very fast. Very final. Don't get anywhere near it.'"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:44:20.974Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

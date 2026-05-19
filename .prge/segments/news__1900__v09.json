@@ -1,0 +1,345 @@
+{
+  "format": "news",
+  "inWorldTime": "19:00",
+  "body": {
+    "type": "news",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Good evening, Madison. It's {{CLOCK}}, and if you're hearing this, the Purge is already underway."
+      },
+      {
+        "host": "quinn",
+        "text": "We went live at 19:00 sharp. The clock started. The law stopped. And here we are."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm Quinn Foley. You're listening to PRGE — Purge Radio — and I want to welcome every single person who decided to stay home tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in, and so far, the night is holding steady. Not quiet — steady."
+      },
+      {
+        "host": "quinn",
+        "text": "Before we get into the details, I need to tell you something about the broadcast tonight: we're experiencing some signal interference."
+      },
+      {
+        "host": "tim",
+        "text": "Quinn, that's my cue. Tim Peplinski here, station ops. We've got a jammer somewhere in the north sector, approximately 200 meters from our rig."
+      },
+      {
+        "host": "tim",
+        "text": "It's intermittent. Not strong enough to take us off the air, but you might notice the signal cutting in and out. We're working the antenna."
+      },
+      {
+        "host": "tim",
+        "text": "If you lose us, stay tuned. We'll be back. This has happened before. We're still here."
+      },
+      {
+        "host": "quinn",
+        "text": "There it is. Technical difficulties are part of the package. Welcome to community radio during the only night that matters."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline, I want to know what the weather is going to do to us tonight. Give me the full picture."
+      },
+      {
+        "host": "caroline",
+        "text": "I've been tracking the systems since yesterday. Right now, we're looking at clear skies, 41 degrees, light southwest winds at 8 miles per hour."
+      },
+      {
+        "host": "caroline",
+        "text": "Visibility is excellent — 10 miles or better. Perfect conditions for... well, for whatever's about to happen out there."
+      },
+      {
+        "host": "caroline",
+        "text": "But here's what matters: there's a cold front moving in from the northwest, and it's going to arrive around midnight, give or take."
+      },
+      {
+        "host": "caroline",
+        "text": "When it hits, temperatures drop fast. We're talking low 30s by 01:00. Wind gusts could reach 20 miles per hour."
+      },
+      {
+        "host": "caroline",
+        "text": "Rain's going to turn to sleet. Visibility drops to 4 miles. That's the story for hours 5 through 8 of the broadcast."
+      },
+      {
+        "host": "caroline",
+        "text": "So if anyone out there is thinking about being outside tonight, they need to know: it gets hostile up there."
+      },
+      {
+        "host": "quinn",
+        "text": "Noted. Cold front at midnight. Wind and sleet for the back half. Anyone out there, dress warm. Not that you should be out there."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, you've been quiet. What do the numbers tell us before we even get started?"
+      },
+      {
+        "host": "holden",
+        "text": "Looking at pre-Purge trends. Historical comparison to this exact time last year shows us at a baseline entry point."
+      },
+      {
+        "host": "holden",
+        "text": "2168, Hour 1 ended with 8 confirmed kills across Madison. We're tracking right now for similar numbers, maybe slightly elevated."
+      },
+      {
+        "host": "holden",
+        "text": "East Side is where we expect to see the first spike. It's the neighborhood with the lowest security density and historically the earliest activity window."
+      },
+      {
+        "host": "holden",
+        "text": "Capitol Square will be fortified. West Side wealthy enclaves have private security response protocols. South Side's been investing in community barricades."
+      },
+      {
+        "host": "holden",
+        "text": "But East Side — Atwood, Schenk's Corners — they're going to light up fast. That's where our attention should be in the next 2 hours."
+      },
+      {
+        "host": "quinn",
+        "text": "So we expect the familiar pattern. The neighborhoods that can defend themselves will. The ones that can't... we'll hear about it."
+      },
+      {
+        "host": "holden",
+        "text": "Precisely. And one more data point: Lake Mendota. Water temperature tonight is approximately 38 degrees, down from the seasonal average."
+      },
+      {
+        "host": "holden",
+        "text": "If anyone's considering the water as an escape route, survivability window at that temperature is 15 to 20 minutes. Just as a fact."
+      },
+      {
+        "host": "quinn",
+        "text": "That's cheerful. Thank you, Holden. That's the kind of thing that keeps you up at night — literally, for the next 12 hours."
+      },
+      {
+        "host": "tim",
+        "text": "I'm getting a signal fluctuation on the west antenna. Adjusting now."
+      },
+      {
+        "host": "quinn",
+        "text": "And there's the interference again. You hearing that? That's the jammer reminding us we're still a fugitive operation."
+      },
+      {
+        "host": "quinn",
+        "text": "For anyone new to PRGE: we operate exactly one night a year. The rest of the year, this frequency is illegal. Tonight, everything is legal."
+      },
+      {
+        "host": "quinn",
+        "text": "But someone doesn't want us broadcasting. That's a compliment, actually. Means we matter."
+      },
+      {
+        "host": "caroline",
+        "text": "Quinn, I'm seeing the wind shift earlier than my model predicted. Southwest to west, more aggressive than the forecast indicated."
+      },
+      {
+        "host": "caroline",
+        "text": "The front could accelerate. Could be 23:00 instead of midnight. I'm going to be monitoring."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline tracking the atmospheric drama while we track the other kind. That's the split screen tonight."
+      },
+      {
+        "host": "holden",
+        "text": "Speaking of which, I pulled the neighborhood-watch data from last year. Williamson Street mounted an armed barricade at the Yahara River bridge."
+      },
+      {
+        "host": "holden",
+        "text": "They held for 90 minutes without breaches. Zero kills inside the perimeter. That's a model worth watching tonight."
+      },
+      {
+        "host": "holden",
+        "text": "If we see that strategy replicated across South Side neighborhoods, we could see a suppression effect on the overall numbers."
+      },
+      {
+        "host": "quinn",
+        "text": "Translation: people organizing, people defending home, people refusing to be statistics. That's the Purge that nobody talks about."
+      },
+      {
+        "host": "quinn",
+        "text": "Not the killing. The holding on. The barricades. The neighbors who decided to stand together."
+      },
+      {
+        "host": "tim",
+        "text": "Signal's stabilized. Jammer's either moved or burned out. We're solid for now."
+      },
+      {
+        "host": "quinn",
+        "text": "See? We're still here. We're always still here."
+      },
+      {
+        "host": "caroline",
+        "text": "Current time is {{CLOCK}}. We're {{ELAPSED}} into the Purge. 11 hours remaining until the all-clear."
+      },
+      {
+        "host": "holden",
+        "text": "Let me break down what we're expecting in the next hour specifically. Early-activity neighborhoods typically see opportunistic incidents first."
+      },
+      {
+        "host": "holden",
+        "text": "Single actors or small groups. Crimes of immediate impulse — robberies, assaults, settling old scores. Not organized yet."
+      },
+      {
+        "host": "holden",
+        "text": "Coordinated group action doesn't usually peak until Hours 3 and 4, when fatigue hasn't set in and adrenaline is still high."
+      },
+      {
+        "host": "quinn",
+        "text": "So we're waiting for Hour 3 for the real chaos. Right now is the warm-up act."
+      },
+      {
+        "host": "holden",
+        "text": "Broadly speaking, yes. Though 'warm-up' is a grim way to describe it. But the pattern is consistent across five years of data."
+      },
+      {
+        "host": "quinn",
+        "text": "Data. Right. We're reducing a night of complete lawlessness to a statistical pattern. That's how you survive this broadcast."
+      },
+      {
+        "host": "quinn",
+        "text": "You treat it like weather. You treat it like sports scores. You treat it like anything except what it actually is."
+      },
+      {
+        "host": "quinn",
+        "text": "But you're listening anyway. And we're talking anyway. So here we are."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm getting some scattered reports from listeners texting in. East Side is already lighting up. Sirens in the background of one caller."
+      },
+      {
+        "host": "caroline",
+        "text": "No law enforcement, of course. They're protected government officials only. But it means activity. Holden was right about the first spike."
+      },
+      {
+        "host": "holden",
+        "text": "Early. But not unexpected. If we're seeing activity now, the pattern suggests we're 30 to 45 minutes ahead of 2168's Hour 1 curve."
+      },
+      {
+        "host": "quinn",
+        "text": "Which means we should expect hour-end totals around 10 to 12, not 8. Still manageable as raw numbers."
+      },
+      {
+        "host": "quinn",
+        "text": "But manageable is a word that loses meaning on Purge Night, doesn't it?"
+      },
+      {
+        "host": "tim",
+        "text": "I'm adjusting the north antenna gain. If the jammer tries again, we'll have better resilience. But folks, if we do drop, we'll be back fast."
+      },
+      {
+        "host": "tim",
+        "text": "This is a one-night operation, and we're not losing this signal on my watch."
+      },
+      {
+        "host": "quinn",
+        "text": "There's the confidence. Tim's been running this station through worse. He's going to get us through the night."
+      },
+      {
+        "host": "quinn",
+        "text": "For those listening at home, I want to give you some baseline survival stuff, because that's part of why we're here."
+      },
+      {
+        "host": "quinn",
+        "text": "One: stay inside. I know you're already inside. But stay there. Don't look out the window. Don't be tempted."
+      },
+      {
+        "host": "quinn",
+        "text": "Two: if you barricade, barricade properly. Furniture against doors, windows covered, zero light inside that might attract attention."
+      },
+      {
+        "host": "quinn",
+        "text": "Three: have water, have a phone charged, have a first aid kit. If something happens to someone in your household, you need to be ready."
+      },
+      {
+        "host": "caroline",
+        "text": "Four: keep this radio on. Tuned to PRGE. We'll give you real-time updates. If an area is spiking, we'll tell you. If evacuation becomes necessary, Tim will broadcast routes."
+      },
+      {
+        "host": "holden",
+        "text": "Five: understand the statistical likelihood based on your neighborhood. East Side, elevated risk. Capitol Square, moderate risk. South Side with organized watch, reduced risk."
+      },
+      {
+        "host": "holden",
+        "text": "West Side wealth, extremely reduced risk. That's just mathematics. Not fair. Just mathematics."
+      },
+      {
+        "host": "quinn",
+        "text": "And that's the thing nobody wants to say out loud but everybody knows: the Purge is worse if you're poor."
+      },
+      {
+        "host": "quinn",
+        "text": "Rich people have security guards and panic rooms and lawyers. Everybody else has neighbors and prayers and us on the radio."
+      },
+      {
+        "host": "quinn",
+        "text": "So we're here. We're going to be here all night. Every single hour, every single report, every single update."
+      },
+      {
+        "host": "tim",
+        "text": "North antenna is locked in. Signal's clean. We're ready for whatever the night throws at us."
+      },
+      {
+        "host": "quinn",
+        "text": "{{ELAPSED}} in. The Purge is real. It's happening. And we're documenting it as it unfolds."
+      },
+      {
+        "host": "quinn",
+        "text": "Next hour, we'll have detailed neighborhood breakdowns. We'll have weather updates as that cold front moves in. We'll have the real-time kill counts as Tucker gets them."
+      },
+      {
+        "host": "quinn",
+        "text": "For now, I want to welcome everyone one more time. Thank you for staying home. Thank you for choosing this."
+      },
+      {
+        "host": "quinn",
+        "text": "This is Purge Radio. We're your company for the next 11 hours. Don't turn us off. We've got a lot of night left."
+      },
+      {
+        "host": "caroline",
+        "text": "Weather update coming at the top of the next hour. Right now: clear, 41 degrees, cold front incoming."
+      },
+      {
+        "host": "holden",
+        "text": "Stats update: early-activity neighborhoods confirm elevated Hour 1 projection. Expect 10 to 12 confirmed incidents by 20:00."
+      },
+      {
+        "host": "tim",
+        "text": "Broadcast is solid. Jammer is dormant. We're good to proceed through Hour 2."
+      },
+      {
+        "host": "quinn",
+        "text": "Then we're on. We're rolling. The night is young and getting younger by the second."
+      },
+      {
+        "host": "quinn",
+        "text": "This is Quinn Foley on PRGE. Stay safe out there. Or stay inside. Preferably both."
+      },
+      {
+        "host": "quinn",
+        "text": "We'll talk again at 20:00. Eleven hours to dawn."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide kill count at {{CLOCK}}: 3 confirmed. East Side leading. Consistent with early-activity baseline."
+      },
+      {
+        "category": "emergency",
+        "text": "Signal interference ongoing. PRGE remains operational. Jammer source unknown, location north sector."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol Square fortified. Perimeter secure. Private security alerts down from 2168 baseline — fewer attempted breaches so far."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text-in report from Atwood Avenue resident: neighbors are barricaded, supplies stocked, waiting it out. Standard prep acknowledged."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:41:00.776Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

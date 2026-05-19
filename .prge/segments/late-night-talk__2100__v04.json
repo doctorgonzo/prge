@@ -1,0 +1,425 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "21:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "You're listening to PRGE, Purge Radio, Madison's only voice in the dark — and I do mean dark, folks, because we are running on backup power and Tim's been eyeing the diesel like a man who knows exactly how long it'll last."
+      },
+      {
+        "host": "quinn",
+        "text": "Quinn Foley here. It's {{CLOCK}}, we are {{ELAPSED}} into tonight, and the thing nobody tells you about the first three hours is that the quiet is the scariest part. The loudness comes later."
+      },
+      {
+        "host": "quinn",
+        "text": "I've got whiskey. I've got a red flashlight because apparently someone thought this was a Christmas decoration warehouse. And I've got the news."
+      },
+      {
+        "host": "quinn",
+        "text": "The Capitol perimeter held until 21:40. Six confirmed kills in the clearing action. The fortification is... let's call it *temporarily* compromised. They're sealing it again with what sounds like plywood and prayer."
+      },
+      {
+        "host": "quinn",
+        "text": "You know who was inside that building when the perimeter went down? Regional Director Calloway. A man I used to have lunch with. A man I used to protect, back when I had that job, back when I had the authority to do such things."
+      },
+      {
+        "host": "quinn",
+        "text": "Pouring my second. Nobody's counting yet but I'm being transparent — a courtesy I extend to nobody else in elected office."
+      },
+      {
+        "host": "quinn",
+        "text": "The East Side is running hot. Attwood Avenue, Schenk's Corners — Tucker would have better numbers but they're dark right now, regrouping. What we know is that kill count is tracking ahead of 2168 at this hour."
+      },
+      {
+        "host": "quinn",
+        "text": "Ahead. Three hours in and we're already ahead."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Matt from Eastmorland — you're live with PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Matt from Eastmorland — Matt, where are you right now?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Matt says he's in his basement. Matt, that's the right call. Are you alone?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: He's not alone. Matt's got his wife and a neighbor. Three people in a basement in Eastmorland. Matt, how long have you been down there?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Since 19:10. Matt says he heard something break a window on the first floor around 19:08 so they decided not to wait."
+      },
+      {
+        "host": "quinn",
+        "text": "Matt, that was the right call. Stay down there. Don't come up until the all-clear. Can you hear me?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Matt says yes. He can hear me. He wanted to know if we were still on the air. I told him we're on backup power and we're not going anywhere."
+      },
+      {
+        "host": "quinn",
+        "text": "You're not going anywhere either, Matt. Stay with us. We'll keep you company."
+      },
+      {
+        "host": "quinn",
+        "text": "Matt's hanging up. He's got enough on his plate. Matt, thank you for calling. Tell your wife and your neighbor that the people of Madison are still listening."
+      },
+      {
+        "host": "quinn",
+        "text": "The power situation is bad. We're hearing reports of rolling blackouts across the isthmus — East Side hit first, downtown's intermittent, West Side's stable but that's because they can afford the backup systems."
+      },
+      {
+        "host": "quinn",
+        "text": "This is how it works now. The rich get the lights. The poor get the flashlights and the hope that nobody sees them in the dark."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to pour the third one because if I'm being honest — and I'm always honest, which is why nobody hired me — if I'm being honest, the dark makes me drink faster."
+      },
+      {
+        "host": "quinn",
+        "text": "The scandal that ended my career? Took place in the light. Took place in an office with very good lighting. My mistake was thinking that made it less real."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Janet from Vilas Park — Janet, you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Janet's calling to say that Vilas Park is quiet. Suspiciously quiet. Janet says that sometimes the quiet means they're organizing."
+      },
+      {
+        "host": "quinn",
+        "text": "Janet, how long have you lived in Vilas Park?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Fourteen years. Janet's been there fourteen years. Janet, in fourteen years have you ever heard the Purge start this quiet?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Once. 2163. Janet remembers 2163. She says three hours in it was quiet, and then at midnight everything broke loose at the same time, like somebody had called a meeting and said 'go.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Janet, I appreciate that information and I also appreciate that you're about to give me a nightmare at {{CLOCK}}. Stay inside. Lock it down. If midnight comes and the noise starts, you already know what it means."
+      },
+      {
+        "host": "quinn",
+        "text": "Janet's gone. Janet's got her own problems now."
+      },
+      {
+        "host": "quinn",
+        "text": "You know who would have loved to hear that call? Vance. James Vance, god rest him or damn him depending on your theology. He would have loved this. Knew exactly how to orchestrate a panic."
+      },
+      {
+        "host": "quinn",
+        "text": "He's been dead for seventy-three years and I still can't say his name without reaching for the bottle."
+      },
+      {
+        "host": "quinn",
+        "text": "Which is convenient because I'm reaching for the bottle anyway."
+      },
+      {
+        "host": "quinn",
+        "text": "Third's going down. I can feel my face doing the thing where it goes numb and my words get slower and that's when the good stuff comes out, folks. That's when I start telling the truth."
+      },
+      {
+        "host": "quinn",
+        "text": "The truth is that I do this broadcast every year because it's the only night I get to exist in public. The truth is I'm not hiding from the government — I'm hiding from the people who voted for the system that made me a criminal."
+      },
+      {
+        "host": "quinn",
+        "text": "The truth is I don't know if you people are braver for staying home or more broken by the fact that staying home is considered brave."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from North Side — David, welcome to PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David's calling about the power outage. Says his neighborhood is completely dark. No streetlights, no house lights, nothing. David's wondering if that's targeted or if it's just bad luck."
+      },
+      {
+        "host": "quinn",
+        "text": "David, in Madison in 2169, nothing's bad luck. Everything's strategic. If your neighborhood's dark, someone made it dark. The question is who and why, and I'm not sure you want that answer."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David's asking if I think it's the government. David, the government isn't even here. The government's locked behind the same fortifications we just watched get breached. The government's out of the Purge. You're on your own."
+      },
+      {
+        "host": "quinn",
+        "text": "That was always the promise, wasn't it? You're on your own. Freedom. Independence. Sink or swim. And we all swam toward it like it was the future."
+      },
+      {
+        "host": "quinn",
+        "text": "David's hanging up. David's going back to the dark. Godspeed, David. Literally. Pray fast."
+      },
+      {
+        "host": "quinn",
+        "text": "We're getting a text-in from someone calling themselves 'WillyStWatcher' and they're saying the barricade on Williamson is holding strong at {{CLOCK}}. Forty or so people, armed, organized, and not letting anyone through. WillyStWatcher says it feels almost peaceful up there, like they've created a small pocket where the rules still apply."
+      },
+      {
+        "host": "quinn",
+        "text": "That's not peace, WillyStWatcher. That's just postponement. Midnight's still coming."
+      },
+      {
+        "host": "quinn",
+        "text": "But I'm grateful for the update. I'm grateful that there are people who think they can fight this thing. I'm grateful they're not screaming into a basement with a hand over their mouth."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm pouring the fourth because the fourth is when I start to feel human again, which means I'm about to become dangerously honest."
+      },
+      {
+        "host": "quinn",
+        "text": "You want to know why I do this? Why I come back every year to sit in a radio station that might be raided before dawn, on a frequency that's illegal, and talk to people I can't see, in a city that doesn't officially acknowledge I exist?"
+      },
+      {
+        "host": "quinn",
+        "text": "I do this because once a year, for twelve hours, Madison doesn't have to pretend anymore. You don't have to pretend. You don't have to go to work and smile and nod and act like the system makes sense."
+      },
+      {
+        "host": "quinn",
+        "text": "Once a year, the truth is legal. And I wanted to be on the record when it happened."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Shorewood Hills — Patricia, you're live."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia's calling from her car. Patricia's in her car on Elmside Drive and she says she doesn't know where else to go."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia, why are you in your car? Patricia, you should be inside somewhere. Patricia, talk to me."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia says she was at a dinner party. Says the dinner party was at her sister's house and at around 18:45 someone threw a rock through the window. Patricia says they all ran to the cars instead of the basement."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia, where's your sister now?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia doesn't know. Patricia says her sister had a second car and when the rock came through, they split up. Patricia thinks she went downtown but she's not sure."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia, I need you to drive. Drive to somewhere with lights. Drive to somewhere with people who aren't trying to kill you. Drive to the hospital if you have to. Can you drive, Patricia?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia says yes. She's driving now. She's headed toward the hospital."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia, keep the line open if you can. Keep listening. You're not alone."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia's probably going to die. Patricia or her sister or both. They're probably going to die tonight because they were at a dinner party in Shorewood Hills and somebody decided that's where they wanted to throw a rock."
+      },
+      {
+        "host": "quinn",
+        "text": "And that's the Purge. That's what we've agreed to. Not because we're monsters. Because we decided that one night a year, chaos is cheaper than order."
+      },
+      {
+        "host": "quinn",
+        "text": "I need the fourth whiskey now. Not later. Now."
+      },
+      {
+        "host": "quinn",
+        "text": "You know the worst part about this job? The worst part isn't the crime or the chaos or the people who call in dying. The worst part is the people who call in *living* and sound relieved about it."
+      },
+      {
+        "host": "quinn",
+        "text": "Relieved that they made it three hours. Relieved that their family's still breathing. Relieved that the door held."
+      },
+      {
+        "host": "quinn",
+        "text": "That relief is the real murder. That's where it gets you."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Someone from State Street — no name — they're saying there's movement in the ruins. Coordinated movement. They say it sounds like a group, maybe twenty or thirty people, moving through the old storefronts like they're searching for something."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: No name, you still there?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: They're gone. They hung up. They heard something."
+      },
+      {
+        "host": "quinn",
+        "text": "State Street. Jesus. State Street's been a wound since 2155 and every Purge Night it gets reopened."
+      },
+      {
+        "host": "quinn",
+        "text": "I remember when State Street was a place where you could buy books. Where you could get drunk and nobody would kill you. Where the worst thing that happened was you'd lose your ID and have to go back to the DMV."
+      },
+      {
+        "host": "quinn",
+        "text": "Now it's a ruin and the Purge turns it into a hunting ground."
+      },
+      {
+        "host": "quinn",
+        "text": "The fourth's almost gone and I'm starting to slur, which means the hour's about to get very real, folks. This is when I stop performing and start existing."
+      },
+      {
+        "host": "quinn",
+        "text": "The sex scandal that ended my career? Not what they said it was. I was protecting a staffer. I was protecting someone I cared about from people with power and I got caught doing it."
+      },
+      {
+        "host": "quinn",
+        "text": "And they made it dirty. They made me dirty. And now I sit here once a year and pretend that's redemption."
+      },
+      {
+        "host": "quinn",
+        "text": "It's not redemption. It's just the only stage I've got left."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Someone from the Capitol — they're saying the fortification breach is bigger than we thought. They're saying they saw at least forty people get past the initial perimeter. Forty."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: They're asking if Director Calloway is still alive. They want to know."
+      },
+      {
+        "host": "quinn",
+        "text": "I don't know if Director Calloway is still alive. I don't know if anyone in that building is still alive. What I know is that the Capitol was supposed to be the safest place in Madison and at {{CLOCK}} it's compromised."
+      },
+      {
+        "host": "quinn",
+        "text": "That means nothing is safe. That means nowhere is safe."
+      },
+      {
+        "host": "quinn",
+        "text": "That's not new information. We all knew that. But tonight we all know it together."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm on the fifth now. The fifth is when I tell people to do things they shouldn't do."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg from East Side — Greg, welcome back, you called earlier —"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg says the neighborhood's gotten worse. Says there's fire now. Says he can see fire from his upstairs window and it's getting closer."
+      },
+      {
+        "host": "quinn",
+        "text": "Greg, how far is the fire from your house?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg doesn't know. Two blocks maybe. Maybe three."
+      },
+      {
+        "host": "quinn",
+        "text": "Greg, I need you to leave. I need you to get out of that house right now. Leave the lights on. Leave the TV on. Make it look like someone's there and leave."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg says he can't leave. Says his mother's asleep in the basement and she won't wake up. Says he tried everything."
+      },
+      {
+        "host": "quinn",
+        "text": "Greg, your mother is safer in the basement than you are upstairs. Greg, go get her. Go get her now. Put her in your car and drive. Drive to the North Side. Drive anywhere with fewer fires."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: He's moving. I can hear him moving. I think he's going to do it."
+      },
+      {
+        "host": "quinn",
+        "text": "Greg, call back when you're safe. Call back and tell me you made it. Will you do that?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg says he will. He's leaving the line open. He's putting the phone on the dash of his car and he's going to drive."
+      },
+      {
+        "host": "quinn",
+        "text": "Folks, Greg's leaving. Greg's going to make it or he isn't but he's going to try. That's what the Purge does to people. It makes trying look like hope."
+      },
+      {
+        "host": "quinn",
+        "text": "The fifth whiskey is the point where I realize I've been describing the end of the world for three hours and nobody's asked me to stop."
+      },
+      {
+        "host": "quinn",
+        "text": "That's because we're all complicit. That's because we all voted for this, metaphorically or literally, and now we're all just watching it happen."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to take a break. I'm going to sit in this dark studio with my flashlight and my whiskey and I'm going to try not to think about Patricia in her car or Greg in the East Side or the woman who called in earlier and just wanted to hear a voice."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to come back at {{CLOCK}} and pretend that everything's fine and we're all going to survive this and the sun is coming up and the Purge is almost over."
+      },
+      {
+        "host": "quinn",
+        "text": "But it's not over. It never ends. It just pauses for 353 days and then it starts again."
+      },
+      {
+        "host": "quinn",
+        "text": "You're listening to PRGE. We're running on backup power and backup hope. Stay with us. Stay inside. Stay alive."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide kill count: 42 (up 10% from this point in 2168). East Side leading."
+      },
+      {
+        "category": "emergency",
+        "text": "POWER OUTAGE: Rolling blackouts across isthmus. East Side completely dark. Downtown intermittent. West Side stable."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Capitol breach confirmed. 40+ individuals past initial perimeter at 21:40. Inner fortifications resealing."
+      },
+      {
+        "category": "local-news",
+        "text": "State Street: Coordinated group movement reported in ruins. 20-30 individuals. Search pattern unknown."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Williamson Street barricade holding. ~40 armed residents, organized perimeter. 'Feels peaceful here' — WillyStWatcher."
+      },
+      {
+        "category": "emergency",
+        "text": "Shorewood Hills: Car-based refugee (Patricia) headed to hospital. Sister location unknown. Driver safety compromised."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "East Side fire spreading. Caller Greg (two earlier calls) evacuating with mother. Route unknown."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield Panels: Last-minute installations still available. 24-hour emergency line 608-555-SHIELD."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:32:33.533Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

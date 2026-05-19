@@ -1,0 +1,233 @@
+{
+  "format": "wellness",
+  "inWorldTime": "23:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. [pause] It's 23:00 Madison time. We are {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "If you're listening, you've made a choice. [pause] That choice is still valid."
+      },
+      {
+        "host": "marigold",
+        "text": "Let's begin with breath. In through the nose. [pause] Four counts."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold. [pause] One. Two. Three. Four."
+      },
+      {
+        "host": "marigold",
+        "text": "Out through the mouth. [pause] Slowly."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "Notice where you are right now. The room. The light. The sounds you can hear."
+      },
+      {
+        "host": "marigold",
+        "text": "Notice the sounds you're *not* hearing. [pause] That silence is a choice too."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan your body. Start at the crown. Tension?"
+      },
+      {
+        "host": "marigold",
+        "text": "Release it. [pause] Let it fall away."
+      },
+      {
+        "host": "marigold",
+        "text": "Down to the shoulders. Are you holding yourself small tonight? [pause] You can stop."
+      },
+      {
+        "host": "marigold",
+        "text": "The chest. The heart. Is it racing? [pause] That's information. Not judgment."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe into the fear. [pause] You're still here. You're safe."
+      },
+      {
+        "host": "marigold",
+        "text": "The hands. Release what you're gripping. [pause] Nothing outside that door is yours to hold."
+      },
+      {
+        "host": "marigold",
+        "text": "The belly. Breathe there. [pause] That's where the truth lives."
+      },
+      {
+        "host": "marigold",
+        "text": "And the legs. The feet. [pause] You are rooted."
+      },
+      {
+        "host": "marigold",
+        "text": "Now. [pause] I want you to think about silence."
+      },
+      {
+        "host": "marigold",
+        "text": "There's a kind of silence that comes when everyone stops pretending. [pause] When the masks come off."
+      },
+      {
+        "host": "marigold",
+        "text": "On this night, the silence is different. [pause] Isn't it?"
+      },
+      {
+        "host": "marigold",
+        "text": "Most years, the noise tells you what's happening. [pause] Tonight, the quiet is the message."
+      },
+      {
+        "host": "marigold",
+        "text": "The East Side is usually loud by now. [pause] But something's different."
+      },
+      {
+        "host": "marigold",
+        "text": "The violence has patterns. [pause] Tonight, the pattern breaks."
+      },
+      {
+        "host": "marigold",
+        "text": "This is not a meditation on comfort. [pause] I need you to understand that."
+      },
+      {
+        "host": "marigold",
+        "text": "This is a meditation on what it means to be the ones inside. [pause] While the night unfolds outside."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "Picture your door. [pause] The one that separates you from the night."
+      },
+      {
+        "host": "marigold",
+        "text": "It's closed. [pause] You closed it. That was an act of will."
+      },
+      {
+        "host": "marigold",
+        "text": "An act of love, maybe. [pause] For yourself. For the people inside."
+      },
+      {
+        "host": "marigold",
+        "text": "Do you feel guilty about that? [pause] Don't."
+      },
+      {
+        "host": "marigold",
+        "text": "Guilt is a luxury. [pause] Survival is not."
+      },
+      {
+        "host": "marigold",
+        "text": "Now picture the people you decided not to save tonight. [pause] Everyone outside that door."
+      },
+      {
+        "host": "marigold",
+        "text": "Not because you don't care. [pause] But because you can't."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones doing the hurting. The ones being hurt. [pause] None of them are your responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "Repeat that. [pause] Not. Your. Responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "Feel the weight lift. [pause] Even if it's small."
+      },
+      {
+        "host": "marigold",
+        "text": "Even if it comes back after this hour ends. [pause] For now, it's gone."
+      },
+      {
+        "host": "marigold",
+        "text": "There's a kind of prayer that isn't words. [pause] It's just breath."
+      },
+      {
+        "host": "marigold",
+        "text": "It's just the sound of someone choosing to stay alive. [pause] To stay sane."
+      },
+      {
+        "host": "marigold",
+        "text": "Sha-lo-va-nim. [pause] That means nothing. [pause] But it means something."
+      },
+      {
+        "host": "marigold",
+        "text": "The Sisters taught me that. [pause] That sometimes the sound is the prayer."
+      },
+      {
+        "host": "marigold",
+        "text": "Continue breathing. [pause] The sound is working."
+      },
+      {
+        "host": "marigold",
+        "text": "{{ELAPSED}} have passed since this began. [pause] You've survived all of them."
+      },
+      {
+        "host": "marigold",
+        "text": "The night is long. [pause] But you are longer."
+      },
+      {
+        "host": "marigold",
+        "text": "When dawn comes — and it will come — you will still be here."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones outside will either come back through transformation. [pause] Or they won't come back."
+      },
+      {
+        "host": "marigold",
+        "text": "That's the Purge. [pause] It purges. It defines. It takes inventory."
+      },
+      {
+        "host": "marigold",
+        "text": "And you — [pause] you are part of the count too."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who stayed. [pause] The ones who chose the door."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "When you leave this space, the world will still be waiting. [pause] That's not your fault."
+      },
+      {
+        "host": "marigold",
+        "text": "Stay with us. [pause] Stay inside. [pause] Stay breathing."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative at 23:00 mark: 82 | East Side reports unusual quiet pattern after 22:15"
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"The silence is the prayer. The breathing is the answer.\""
+      },
+      {
+        "category": "emergency",
+        "text": "WEATHER UPDATE: Cold front arrival accelerating. Temperature dropping. Rain beginning."
+      },
+      {
+        "category": "local-news",
+        "text": "Willy Street barricade at Yahara Bridge holding. 15+ defenders. Zero interior casualties. Neighborhood watch status: secure."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:32:27.871Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

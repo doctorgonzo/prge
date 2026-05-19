@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker here, East Side perimeter, near the Schenk's Corners intersection. {{ELAPSED}} in and Madison's tracking 122 confirmed kills cumulative. That's 18 up from this point last year."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side alone is holding 34 kills—that's 27% of the city total. Beltline corridor's spiking harder than usual. Vehicles are the weapon of choice down there. Wind's shifted northwest, probably pushing activity patterns north."
+      },
+      {
+        "host": "tucker",
+        "text": "There's a helicopter. Has been all night. Military registration I can't quite read from ground level. It's been orbiting the Capitol Square for the last two hours. Nobody's confirmed whether it's government or private security assets. Holden, you catching this on the feed?"
+      },
+      {
+        "host": "holden",
+        "text": "I see it. I don't have a registration database here, but I'm pulling flight records from 2168—we had two separate civilian helicopter contracts that night, plus whatever the state's got in reserve. If it's been stationary for two hours, it's not active suppression. It's observation."
+      },
+      {
+        "host": "tucker",
+        "text": "Understood. Weapons methodology is still tracking conventional—44% firearms, up from 41% at this point last year. Bladed instruments are 23%. Environmental exposure casualties are higher than usual. Cold front's still holding in the low twenties. People are locking each other out. That kills differently."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm repositioning south now, trying to get closer to the Lake Mendota shoreline. Reports are coming in from the volunteer rescue crews about activity near—wait, hold on, there's movement north of my position, large group, maybe twelve or fifteen people with flashlights and what looks like—"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 122 kills. {{ELAPSED}} elapsed. East Side: 34 (27% of total). YoY: +18."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Beltline corridor spiking. Firearms down to 44%. Environmental exposure (cold/lockout) elevated. Lake Mendota volunteer crews reporting increased activity."
+      },
+      {
+        "category": "local-news",
+        "text": "Unidentified helicopter orbiting Capitol Square for 2+ hours. Military or civilian contract unknown. Tim, signal check on that registration?"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:08:43.599Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

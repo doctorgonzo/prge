@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm on the East Side near the Schenk's Corners intersection. Madison-wide we're at 139 kills, cumulative. That's 17 kills in the past hour — down from the 22 we saw in hour six. YoY at this point last year we were at 122. We're running 14% hot."
+      },
+      {
+        "host": "tucker",
+        "text": "Holden, you were asking about the caller pattern. I'm seeing something odd in the real-time data — phone lines are jammed. We've had, what, Holden — how many texts did the board log in the last sixty minutes?"
+      },
+      {
+        "host": "holden",
+        "text": "Approximately 340 text-ins. That's triple the average for this hour. Last year at 02:00 we had 110."
+      },
+      {
+        "host": "tucker",
+        "text": "Right. So people aren't staying silent tonight. They're staying home *and* they're reaching out. That's a behavioral shift. The kill count doesn't reflect it — we're still tracking the cumulative pattern — but the psychology is different. Atwood Avenue behind me is quiet. Too quiet. Activity is concentrating on the corridor, not the residential blocks."
+      },
+      {
+        "host": "tucker",
+        "text": "Weapons load has shifted. We're seeing 41% firearms, down from 52% last hour. Bladed and impact weapons up. Economic pressure hypothesis holding — people are rationing ammunition or they've switched tactics. The cold front's keeping people indoors or moving them to vehicle-based confrontations where firearms are less useful."
+      },
+      {
+        "host": "tucker",
+        "text": "Holden, do you want me to reposition to the Beltline corridor or stay on residential perimeter? I'm picking up some movement on Atwood that — hold on, my body-cam just — the battery indicator is — [CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide: 139 cumulative kills. +14% vs. 2168 same hour (122). East Side accounting for 22% of total activity."
+      },
+      {
+        "category": "local-news",
+        "text": "Text-in volume surge: 340 messages in hour 8 vs. 110 YoY. Phone lines busier than any prior Purge on record."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Atwood Avenue / Schenk's Corners residential: quiet. Activity concentrating on Beltline corridor and East Washington commercial strip."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Someone named 'J' texted: 'My neighbor just tried the door three times. He's still out there. How long until 7am?' — Tim flagged for follow-up."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:08:24.859Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

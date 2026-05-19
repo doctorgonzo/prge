@@ -1,0 +1,229 @@
+{
+  "format": "wellness",
+  "inWorldTime": "03:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. [pause] The clock reads {{CLOCK}}. We are {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to find a comfortable position. Sitting or lying. It doesn't matter anymore."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in through your nose. [pause] Four count. [pause] Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "Release through your mouth. [pause] There's no rush now."
+      },
+      {
+        "host": "marigold",
+        "text": "The hard hours are behind us. [pause] The hardest hours. [pause] You made it through."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] This time, as you breathe, I want you to remember something."
+      },
+      {
+        "host": "marigold",
+        "text": "Not something from tonight. [pause] Something from before."
+      },
+      {
+        "host": "marigold",
+        "text": "A year ago. [pause] Maybe two years. Maybe longer."
+      },
+      {
+        "host": "marigold",
+        "text": "A Purge night you remember. [pause] One where someone you knew didn't make it home."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] You don't have to name them. The Sisters know the names."
+      },
+      {
+        "host": "marigold",
+        "text": "The names are written. [pause] Not here. [pause] Somewhere quieter."
+      },
+      {
+        "host": "marigold",
+        "text": "Let your shoulders drop. [pause] That weight you're carrying — it doesn't live there anymore."
+      },
+      {
+        "host": "marigold",
+        "text": "It lives somewhere else now. [pause] It has a home."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Four. [pause] Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] And as you release, I want you to think about light."
+      },
+      {
+        "host": "marigold",
+        "text": "Not the sun. [pause] Not yet. It's still dark."
+      },
+      {
+        "host": "marigold",
+        "text": "The light under a door. [pause] The light from a window you closed."
+      },
+      {
+        "host": "marigold",
+        "text": "The light you chose not to open to."
+      },
+      {
+        "host": "marigold",
+        "text": "That was strength. [pause] Do you understand? [pause] That was power."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] Your body knows what you did. Your body is proud."
+      },
+      {
+        "host": "marigold",
+        "text": "Can you feel that? [pause] The quiet pride of staying still."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan down from your crown. [pause] Your scalp. Your temples. Tension."
+      },
+      {
+        "host": "marigold",
+        "text": "Release it. [pause] It belongs to someone else."
+      },
+      {
+        "host": "marigold",
+        "text": "Your neck. [pause] Your shoulders. [pause] Breathe into the tightness."
+      },
+      {
+        "host": "marigold",
+        "text": "Your chest. [pause] Is it tight? [pause] Most people's chests are tight tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe into it. [pause] Don't fight it. [pause] Invite it to leave slowly."
+      },
+      {
+        "host": "marigold",
+        "text": "Your stomach. [pause] Your hips. [pause] ka-something-deh-venna."
+      },
+      {
+        "host": "marigold",
+        "text": "Your legs. [pause] Your feet. [pause] The ones outside cannot touch your feet."
+      },
+      {
+        "host": "marigold",
+        "text": "You are safe in this room. [pause] Or this car. [pause] Or this basement."
+      },
+      {
+        "host": "marigold",
+        "text": "Wherever you are, you chose it. [pause] That choice protects you."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Four. [pause] Hold for four. [pause] Release for four."
+      },
+      {
+        "host": "marigold",
+        "text": "There is someone you have not forgiven. [pause] You know who they are."
+      },
+      {
+        "host": "marigold",
+        "text": "Not forgiven for something they did on a Purge night. [pause] On a night like this."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm not asking you to forgive them now. [pause] I'm asking you to set them down."
+      },
+      {
+        "host": "marigold",
+        "text": "They are not your responsibility. [pause] They never were."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] Imagine them — whoever they are — imagine them outside."
+      },
+      {
+        "host": "marigold",
+        "text": "In the dark. [pause] In the cold. [pause] In the consequence of their own choices."
+      },
+      {
+        "host": "marigold",
+        "text": "That is not your fault. [pause] Repeat: not your fault."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones outside made their choices. [pause] You made yours."
+      },
+      {
+        "host": "marigold",
+        "text": "You chose the light of a closed door. [pause] You chose silence."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Four. [pause] As you hold, I want you to see the sun."
+      },
+      {
+        "host": "marigold",
+        "text": "Not here. Not yet. [pause] But coming."
+      },
+      {
+        "host": "marigold",
+        "text": "The sun doesn't ask permission. [pause] It doesn't care what happened in the dark."
+      },
+      {
+        "host": "marigold",
+        "text": "It rises anyway. [pause] And you will rise with it."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] Breathe out all the names you've been holding."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe out all the doors you didn't open."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe out the sound of the clock. {{CLOCK}}. [pause] Still here."
+      },
+      {
+        "host": "marigold",
+        "text": "Still safe in the dark. [pause] Still choosing light."
+      },
+      {
+        "host": "marigold",
+        "text": "When you're ready — and there's no rush — open your eyes."
+      },
+      {
+        "host": "marigold",
+        "text": "Welcome back to the broadcast. [pause] You made it."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "marigold-quote",
+        "text": "The Sisters know the names. Not here. Somewhere quieter."
+      },
+      {
+        "category": "emergency",
+        "text": "If you are experiencing intrusive thoughts, SafeCall line remains active: 608-SAFE-247. Trained counselors standing by."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "You chose the light of a closed door. You chose silence. That is strength."
+      },
+      {
+        "category": "local-news",
+        "text": "East Side activity remains elevated through {{ELAPSED}}. North Side holding steady. Beltline corridor reports decreased vehicle incidents post-01:30."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:41:09.008Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

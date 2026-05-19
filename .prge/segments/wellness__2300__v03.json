@@ -1,0 +1,229 @@
+{
+  "format": "wellness",
+  "inWorldTime": "23:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. It's {{CLOCK}}. We're {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] I want you to find a comfortable position. Sitting or lying down. Wherever you are right now — that is where you're supposed to be."
+      },
+      {
+        "host": "marigold",
+        "text": "Close your eyes if you can. If you can't, that's fine. Just soften your gaze."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe in through your nose. [pause] Four count. [pause] Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "Release through your mouth. [pause] Slow. [pause] Complete."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] You're safe where you are. The doors are locked. The windows are secure."
+      },
+      {
+        "host": "marigold",
+        "text": "Or they're not. [pause] But you chose to stay. That choice is the safety."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] The air tastes like smoke tonight. [pause] That's the fires. That's not your fire."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] I want you to think about the people you decided not to call tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "Not because you don't love them. [pause] Because the line isn't safe."
+      },
+      {
+        "host": "marigold",
+        "text": "Because your voice on their phone might draw attention. [pause] Breathe that thought out."
+      },
+      {
+        "host": "marigold",
+        "text": "It's not abandonment. It's grace."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] In. [pause] Four count. [pause] Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "The smoke is thicker now. Do you smell it? The visibility's dropped across the isthmus."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] That smoke is carrying people's choices. [pause] We don't have to carry them."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] Slow."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Scan your body. Start at your feet. Are they tense?"
+      },
+      {
+        "host": "marigold",
+        "text": "Move up. Your legs. Your stomach. Your chest where your heart is working hard."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Your heart knows something you might not want to know. [pause] Let it know it anyway."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe into that knowledge. [pause] In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] The Order teaches that fear is just love with nowhere to go. [pause] You're loving your family right now."
+      },
+      {
+        "host": "marigold",
+        "text": "By staying still. [pause] By staying quiet."
+      },
+      {
+        "host": "marigold",
+        "text": "In. [pause] Four. [pause] Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] Complete."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] I want you to imagine a light. [pause] Not the sun. [pause] Something smaller."
+      },
+      {
+        "host": "marigold",
+        "text": "A light in your chest. [pause] It's been there all along."
+      },
+      {
+        "host": "marigold",
+        "text": "Tonight, while you stay still, it gets a little brighter. [pause] Does it?"
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe toward it. In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] There are people outside. [pause] You know that."
+      },
+      {
+        "host": "marigold",
+        "text": "You can hear them sometimes. Or you're listening for them. [pause] Listening is its own kind of violence."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Stop listening. [pause] Breathe instead."
+      },
+      {
+        "host": "marigold",
+        "text": "In. [pause] The smoke smells like oak and electrical fire. [pause] Someone's house just became a memory."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold. [pause] That memory is not yours to carry."
+      },
+      {
+        "host": "marigold",
+        "text": "Out. [pause] Slow."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] ka-lesh-mora-vein. [pause] Breathe."
+      },
+      {
+        "host": "marigold",
+        "text": "In. [pause] Four. [pause] Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] When dawn comes — and it will — you will have made it through another night."
+      },
+      {
+        "host": "marigold",
+        "text": "That is an accomplishment. [pause] That is a victory the world won't see."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe into that. [pause] In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] The clock reads {{CLOCK}}. [pause] We are {{ELAPSED}} in."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Somewhere on the East Side, the fires are still climbing. [pause] You are not responsible."
+      },
+      {
+        "host": "marigold",
+        "text": "Somewhere on State Street, something is ending. [pause] You did not cause it."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] In. [pause] Four. [pause] Hold."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Out. [pause] Complete."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Rest now. [pause] Just rest."
+      },
+      {
+        "host": "marigold",
+        "text": "We'll be here. [pause] The station will be here."
+      },
+      {
+        "host": "marigold",
+        "text": "And you — you will be here, in the morning, having chosen silence."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] That is enough."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 61 confirmed (22:00 hour total +23). East Side showing 28% of night's kills so far."
+      },
+      {
+        "category": "local-news",
+        "text": "Multiple structure fires reported across isthmus. Smoke reducing visibility to 3-4 miles. No official response available."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Capitol Square perimeter remains contested. Willy Street barricade holding steady. State Street ruins seeing coordinated activity."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"The ones outside are not your responsibility.\""
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:29:17.434Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

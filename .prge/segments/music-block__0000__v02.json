@@ -1,0 +1,211 @@
+{
+  "format": "music-block",
+  "inWorldTime": "00:00",
+  "body": {
+    "type": "music-block",
+    "tracks": [
+      {
+        "title": "Basket Case",
+        "artist": "Green Day",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Nick Trulino here. We're {{ELAPSED}} into the Purge and the night's been *quiet*. Too quiet. You know what fixes quiet? Green Day. 'Basket Case.' Off Dookie. 1994. The album that told a million kids it was okay to be anxious about everything."
+          },
+          {
+            "host": "nick",
+            "text": "Billie Joe Armstrong. Mike Dirnt. Tré Cool. Three kids from the Bay Area — Berkeley scene, 924 Gilman Street — and they walked into Fantasy Studios in September '93 with three weeks to change rock music. Three weeks. We spent more time on my last insurance deposition."
+          },
+          {
+            "host": "nick",
+            "text": "Dookie sold twenty million copies worldwide. Twenty million. That album cost six thousand bucks to make. You do the math — that's obscene ROI. That's spice-monopoly-on-Arrakis levels of return. Frank Herbert would've written a book about it."
+          },
+          {
+            "host": "nick",
+            "text": "Armstrong wrote about anxiety, boredom, mass murder, divorce, and masturbation — which is to say, he wrote about *life*. Not revolution. Not changing the world. Just the weight of existing in your own skin. At midnight on Purge night, that hits different."
+          },
+          {
+            "host": "nick",
+            "text": "Listen to this. Really listen. This is the sound of kids who felt too much and decided to make noise about it instead of keeping it in."
+          }
+        ]
+      },
+      {
+        "title": "Linoleum",
+        "artist": "NOFX",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "NOFX. 'Linoleum.' Fat Mike, Erik Sandin, Eric Melvin. Three friends from Fairfax High School in LA who decided the world needed more punk that didn't take itself seriously."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike owned Fat Wreck Chords. The label. So NOFX basically said 'We're gonna play by our own rules' and just *did it*. Never signed to a major label even when they blew up. That's more punk than punk itself."
+          },
+          {
+            "host": "nick",
+            "text": "El Hefe joined in '91 — lead guitar, trumpet — and suddenly they had the sound. Political as hell but funny about it. Songs about racism, middle-class plight, drug abuse. They once made a video so obscene Germany banned it. The man holding a *sheep*, if you know what I'm saying."
+          },
+          {
+            "host": "nick",
+            "text": "This track right here? It's about exactly what it sounds like. Linoleum. The floor you're standing on in your barricaded apartment right now. NOFX got it."
+          }
+        ]
+      },
+      {
+        "title": "Dammit",
+        "artist": "Blink-182",
+        "year": 1997,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Blink-182. Mark Hoppus. Tom DeLonge. Travis Barker joined in '98 and suddenly you had the three-piece that defined the '90s. They met at a Battle of the Bands competition. That's a Tarantino opening right there."
+          },
+          {
+            "host": "nick",
+            "text": "Southern California, Poway — right near San Diego — where the surfing scene and the punk scene collided and made something *new*. They recorded their first album in three days. Three days. These guys had no time to second-guess themselves."
+          },
+          {
+            "host": "nick",
+            "text": "'Dammit' came out in '97 and suddenly Blink wasn't some skate-punk novelty anymore. They were *real*. Hoppus fell off a lamppost trying to impress DeLonge. That's the energy of this band — stupid, fearless, genuinely in love with what they were doing."
+          },
+          {
+            "host": "nick",
+            "text": "The lyrics are about relationships, adolescent frustration, lewd acts. Instead of singing about war and government, they sang about real life. About the stuff that actually *matters* when you're twenty-two and the world is ending around you."
+          },
+          {
+            "host": "nick",
+            "text": "Mark's girlfriend gave him an ultimatum once — choose her or the band. He chose the band. Broke up with her immediately. That's commitment. That's why Blink-182 is still here and his ex-girlfriend is not."
+          }
+        ]
+      },
+      {
+        "title": "Die for the Government",
+        "artist": "Anti-Flag",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Anti-Flag. Pittsburgh. 1988. Justin Sane and Pat Thetic started it. Chris No. 2 joined in '99. The kind of band that looked at government and said, 'No. Absolutely not.'"
+          },
+          {
+            "host": "nick",
+            "text": "They went *hard* on the politics. Anti-war, anti-corporate, anti-wealth-distribution. Basically anti-everything that Vance's cabinet was *for*. Which is why they released 'Underground Network' — Howard Zinn essays in the booklet, the whole thing a political manifesto."
+          },
+          {
+            "host": "nick",
+            "text": "But here's the thing — they signed to RCA for their major label push in 2006 and the punk community *melted down*. Selling out! Selling out! Except they were just trying to reach more people with the same message. Sometimes you gotta make compromises."
+          },
+          {
+            "host": "nick",
+            "text": "Chris No. 2's sister and her boyfriend were killed in a violent crime. The band responded by making a benefit album. That's not punk theater. That's *action*. That's what happens when the lyrics connect to real life."
+          },
+          {
+            "host": "nick",
+            "text": "'Die for the Government' is about exactly what it says. The lie they sell you. The meat grinder. Listen to this and tell me it doesn't sound like 2169."
+          }
+        ]
+      },
+      {
+        "title": "Blitzkrieg Bop",
+        "artist": "The Ramones",
+        "year": 1976,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Ramones. Forest Hills, Queens. 1974. Joey, Johnny, Dee Dee, Tommy — none of them actually related but all named Ramone because Paul McCartney did it first and punk is just rockabilly with attitude."
+          },
+          {
+            "host": "nick",
+            "text": "These guys recorded their debut album in January 1976 at Plaza Sound — above Radio City Music Hall — in one *week* for sixty-four hundred bucks. Six thousand four hundred dollars. They had no time to overthink. They just *made* it."
+          },
+          {
+            "host": "nick",
+            "text": "Legs McNeil, Punk magazine founder, saw them at CBGB and said, 'This is a wall of noise. These guys are not hippies. This is something completely new.' That was the moment. That exact moment. When the Ramones became the Ramones."
+          },
+          {
+            "host": "nick",
+            "text": "Twenty-two hundred sixty-three concerts. Twenty-two years of touring. Never stopped. They played venues in every city you can think of. They played because the music wouldn't let them not play."
+          },
+          {
+            "host": "nick",
+            "text": "Dee Dee counted off every song — 'One, two, three, four!' — and that became the Ramones trademark. A thing so simple it became *mythology*. This is the song that proves it."
+          }
+        ]
+      },
+      {
+        "title": "Suburban Home",
+        "artist": "Descendents",
+        "year": 1982,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Descendents. Manhattan Beach, California. 1977. Milo Aukerman — who was a *biochemist* for DuPont, by the way, which is the most Descendents thing ever — they're the band that sang about girls, food, parents, rejection. Normal stuff. Punk stuff."
+          },
+          {
+            "host": "nick",
+            "text": "'Milo Goes to College' in '82. Recorded at Total Access in Redondo Beach with Spot — the same engineer who did the Fat EP. One week. Spot engineered the moment. Melodic hardcore. Diary-entry vulnerability. Sing-along hooks that stick in your brain like a virus."
+          },
+          {
+            "host": "nick",
+            "text": "Bill Stevenson said something beautiful about the original lineup — Frank and Tony saved him from being a lonely, miserable kid. That's the *point*. Punk isn't about changing governments. It's about saving lonely kids."
+          },
+          {
+            "host": "nick",
+            "text": "Milo was so smart he scored a 1420 on his SAT. Didn't matter. He chose the Descendents. They had this concept — 'All' — meaning doing the utmost, achieving the utmost, turning into their own religion. That's transcendence. That's what this song is."
+          },
+          {
+            "host": "nick",
+            "text": "Listen to the hooks on this. They're so *simple*. That's the trap. That's why you can't get it out of your head at {{CLOCK}} on Purge night when you should be thinking about anything else."
+          }
+        ]
+      },
+      {
+        "title": "Fat Lip",
+        "artist": "Sum 41",
+        "year": 2001,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Sum 41. Ajax, Ontario. Deryck Whibley. Dave Baksh. They started as a cover band called Kaspir in '94, inspired by Weezer, Nirvana — normal kid stuff. Then they discovered NOFX's 'Ribbed' and everything *changed*."
+          },
+          {
+            "host": "nick",
+            "text": "They named themselves Sum 41 because they counted the days from summer break to when Warped Tour was happening. Forty-one days. That's the kind of band this is — calendar math meets punk rock philosophy."
+          },
+          {
+            "host": "nick",
+            "text": "'All Killer No Filler' in 2001. Recorded at Metalworks in Mississauga, produced by Jerry Finn. 'Fat Lip' hit number one on the Modern Rock chart. They went from pranking pedestrians with Super Soakers in homemade videos to *dominating* the radio."
+          },
+          {
+            "host": "nick",
+            "text": "Every band member got a '41' tattooed on their right arm in red. Band *and* manager. That's commitment. That's saying, 'We are this. Forever.' All of them have it. That's not a joke. That's a blood oath."
+          },
+          {
+            "host": "nick",
+            "text": "Island Records signed them because Green Day and Blink-182 had opened the door. Sum 41 walked through it and made their own thing — harder, edgier, more serious. And they're *still* here. Playing music while the world ends. Playing it loud."
+          }
+        ]
+      }
+    ],
+    "lines": [],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide count holding steady. {{ELAPSED}} in and we're tracking 2% below 2168 pace. The calm before, folks."
+      },
+      {
+        "category": "local-news",
+        "text": "East Side activity minimal so far. Willy Street barricade reports quiet. Most residents holding position indoors as forecast predicted."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield panels — the ones that go *on the right way* — still available for emergency install. Call 1-844-SHIELD-1. Don't end up like Darren's neighbor."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:53:46.002Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

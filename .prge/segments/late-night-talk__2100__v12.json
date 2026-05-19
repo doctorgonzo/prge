@@ -1,0 +1,357 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "21:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "It's {{CLOCK}} Madison time, we're {{ELAPSED}} into the Purge, and I am looking at a call board that has exactly seven lights on it, which in radio terms means either everyone out there is barricaded smart or they're all dead, and I'm not sure which outcome I'm rooting for."
+      },
+      {
+        "host": "quinn",
+        "text": "My name is Quinn Foley, I'm on for the next hour, and I have a bottle of Tullamore Dew that's going to help me pretend I'm not terrified."
+      },
+      {
+        "host": "quinn",
+        "text": "So the Capitol breach happened at twenty-one-forty. Fortified perimeter. Three inches of blast glass. And someone got through it with about thirty of their closest violent friends."
+      },
+      {
+        "host": "quinn",
+        "text": "I used to work in that building. Different century, different me, but I knew the security chief back then — a woman named Carol Reeves, died in the 2140s, never saw a Purge she couldn't outlast."
+      },
+      {
+        "host": "quinn",
+        "text": "Carol would've held that line for six hours with nothing but a nine-millimeter and pure spite. Whoever's in there now lasted, what, forty minutes?"
+      },
+      {
+        "host": "quinn",
+        "text": "That's the thing nobody tells you about dystopia — it gets worse at the specific practical level every single year."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden and I had words earlier. He's right, by the way — all of it, the statistics, the pattern analysis, the man is a machine and I was two whiskeys in and feeling reflective about the meat grinder of American governance, so I took it out on him."
+      },
+      {
+        "host": "quinn",
+        "text": "I apologized. He accepted. We're good. That's what happens when you spend twelve hours a year with people — you learn how to fight and make up in the same commercial break."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline's been right about the weather so far. Cold front rolling in earlier than the models said. She's going to mention this in perpetuity."
+      },
+      {
+        "host": "quinn",
+        "text": "I have a call here from the East Side. Greg, you're on PRGE. Where exactly are you and please tell me you're behind something solid."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg from East Side — Quinn, I'm in my basement, I got a generator, I got food, and I got a baseball bat that cost forty-three dollars and will not do anything meaningful if anyone actually gets down here, but it makes me feel less stupid, so."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the Purge in a nutshell, Greg. Forty-three dollars of psychological comfort. I respect it. How's the neighborhood sounding from where you are?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg from East Side — Quiet up to about twenty-one-thirty, then I heard some shouting, some vehicles, someone broke the Hendersons' car window three houses down. Then nothing. It got quiet again."
+      },
+      {
+        "host": "quinn",
+        "text": "The quiet is worse than the noise, isn't it? The noise at least tells you where people are."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg from East Side — Yeah. Exactly. The quiet means they're deciding. They're planning their next move. I don't like that Quinn."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay in the basement, Greg. Keep the generator low. If someone tries the door, you've got a baseball bat and the law is on your side, which is to say the law doesn't exist and that's somehow better than when it did."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg from East Side — Will do. Thanks for the voice. Thanks for being here."
+      },
+      {
+        "host": "quinn",
+        "text": "That's what we're here for, Greg. Stay breathing."
+      },
+      {
+        "host": "quinn",
+        "text": "He'll call back. They always do. It's the ones who don't call that worry me."
+      },
+      {
+        "host": "quinn",
+        "text": "Speaking of people who don't call — and I'm going to mention this because the staff is looking at me like I shouldn't, which means I absolutely should — where is Marcus tonight?"
+      },
+      {
+        "host": "quinn",
+        "text": "Marcus Henley. Southside. Calls in every single year without fail. First year was 2159, I remember because he was calling about his kid's school supplies getting looted from his garage and I made some joke about how at least it wasn't his actual car."
+      },
+      {
+        "host": "quinn",
+        "text": "Last year he called at three in the morning, drunk, wanted to know if I thought democracy was actually dead or just sleeping. I told him I'd let him know when I find out."
+      },
+      {
+        "host": "quinn",
+        "text": "And I'm looking at the call board and I'm {{ELAPSED}} in and Marcus hasn't called. The Southside haven't been hit particularly hard according to last year's numbers, so he should be fine, he should be calling, and he isn't, and that is a thing that's sitting with me in a way I'm going to have another drink about."
+      },
+      {
+        "host": "quinn",
+        "text": "You notice how radio works? You get to know the voices of people you've never met, and if they stop showing up, you notice. That's the trick of this job — I'm not supposed to form attachments to the audience, but you can't spend twelve hours a year talking to people without their voices becoming real to you."
+      },
+      {
+        "host": "quinn",
+        "text": "Marcus, if you're listening — you're probably not, because you're probably sensibly not listening to radio during the Purge, but if you are — call in. Tell me you're fine. Tell me your panels are holding. Tell me something. Marcus, come on."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to get another call in here because the alternative is me spiraling about people who aren't calling, which Tim would say is bad for ratings, which I would say is bad for my liver. Let's see who's out there."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got Sarah, West Side, you're on PRGE. Give me something good, Sarah."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from West Side — I'm not going to give you something good, Quinn. I'm going to give you something weird. I just watched a group of maybe eight people walk down Midvale like they were on a neighborhood watch. Organized. Armed. But they weren't attacking anything, they were walking past houses like they were checking on them."
+      },
+      {
+        "host": "quinn",
+        "text": "That's a neighborhood defense coalition. They've been doing that for years on the West Side — the wealthy enclaves basically hire security to patrol and protect the perimeter. It's legal because everything's legal tonight, but it's also kind of the most capitalist thing I've ever heard."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from West Side — So I'm not in danger from them? That's what I'm asking."
+      },
+      {
+        "host": "quinn",
+        "text": "Danger is a relative term during the Purge, but if they're organized and walking a patrol, they're not there for you. They're protecting the neighborhood. You're lucky you're where you are, Sarah. Stay indoors, don't approach them, and you'll probably see sunrise."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from West Side — Okay. Thank you. That actually helps. I was getting paranoid."
+      },
+      {
+        "host": "quinn",
+        "text": "Paranoia is the correct response to the Purge. You're not being irrational, you're being realistic. Goodnight, Sarah."
+      },
+      {
+        "host": "quinn",
+        "text": "Two calls, two people terrified in their homes, and I'm supposed to reassure them that they're going to be fine and the Purge is just a thing we do now, like voting or eating cheese curds, except this one you do in the dark with a baseball bat and a prayer."
+      },
+      {
+        "host": "quinn",
+        "text": "Do you know who invented the Purge? I do. I was in politics when they sold it to the public. The pitch was that it would reduce crime the rest of the year by letting people blow off steam one night. Safety valve theory. Let the pressure out once a year so the system doesn't explode."
+      },
+      {
+        "host": "quinn",
+        "text": "Guess what? Crime didn't go down. Murder didn't go down. Robbery didn't go down. All that happened was we gave ourselves permission to be animals one night a year and we liked it."
+      },
+      {
+        "host": "quinn",
+        "text": "The people who pitched this idea are dead now. Most of them anyway. Some of them are in protected government positions and will never see a Purge except on a screen in an air-conditioned room with security outside the door."
+      },
+      {
+        "host": "quinn",
+        "text": "That's what grinds on me most — not that the Purge exists, but that the people who profit from it don't have to participate in it. The genius is in the cruelty. The genius is in making the common people the experiment."
+      },
+      {
+        "host": "quinn",
+        "text": "I was part of that system. I sold that pitch. I convinced people it was necessary, inevitable, good. And then I went home to a gated community like I had a choice about what I was doing."
+      },
+      {
+        "host": "quinn",
+        "text": "And then I got caught with someone I shouldn't have been with and suddenly the system didn't protect me anymore, and you know what? That was fair. That was karma. That was me getting exactly what I deserved."
+      },
+      {
+        "host": "quinn",
+        "text": "Now I sit in a broadcast studio one night a year and I talk to people in basements and I apologize for being part of the machinery that built the machine, and that's my sentence. And maybe I deserve worse."
+      },
+      {
+        "host": "quinn",
+        "text": "But at least I'm here. At least I'm on the air saying it. That has to count for something."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to take another call because I've had two drinks and I'm getting philosophical, which is the point where I need someone to punch back and tell me to shut up and do my job."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got Tom from Atwood. Tom, please tell me you have a complaint, a question, literally anything except empathy because I cannot process empathy right now."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tom from Atwood — I've got a complaint. You said last year that the kill count was going to stay below two hundred because of the economic factors and the ammunition tariffs. It didn't. So did you just make that up or do you actually not know what you're talking about?"
+      },
+      {
+        "host": "quinn",
+        "text": "That is beautiful, Tom. That is exactly the energy I needed. You're right — I made a call that didn't pan out. Last year's final count was one eighty-seven, which is up from one seventy-nine the year before, which means the economic theory I floated was wrong."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tom from Atwood — So you admit you don't know what's going to happen?"
+      },
+      {
+        "host": "quinn",
+        "text": "Tom, nobody knows what's going to happen. That's the whole point of the Purge. It's chaos. It's the one night we admit that all our systems and statistics and plans mean nothing. I was making educated guesses on a show where the only certainty is violence. I got it wrong. I'll probably get it wrong again."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tom from Atwood — At least you admit it. Most people in government wouldn't."
+      },
+      {
+        "host": "quinn",
+        "text": "Most people in government are still there, Tom. I'm not. I'm on a pirate radio station talking to people in their basements because I made a mistake that cost me everything. Maybe that's why I can be honest about not knowing."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay safe in Atwood, Tom. The East Side's spiking tonight. Keep your doors locked and don't believe anyone who says they have help coming."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tom from Atwood — No help's coming. That's rule one of the Purge. Got it."
+      },
+      {
+        "host": "quinn",
+        "text": "That's rule one. Rule two is stay quiet. Rule three is don't trust anyone. Rule four is that some people will break all three of these rules and that's when things get interesting."
+      },
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the Capitol breach is still the biggest story. Thirty people. Organized. Got through a security perimeter that's supposed to be impenetrable. And the people in that building are still in that building because even though the Purge is happening, government operations continue for the Level-10s."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what a Level-10 is? It's a designation created in 2089 that essentially means 'government official important enough to stay protected during the Purge.' So while you're in a basement with a baseball bat, they're in a reinforced building getting meals delivered and knowing that in twelve hours the law comes back and protects them."
+      },
+      {
+        "host": "quinn",
+        "text": "The Purge is supposed to be democratic — everyone's on equal footing when the law goes away. But they built in this loophole, this escape hatch, and only the important people get to use it. So democracy means everyone gets to kill everyone except the people running the government get protection."
+      },
+      {
+        "host": "quinn",
+        "text": "I was a Level-8 once. Not important enough to stay protected, but important enough to know people who were. I used to get calls from senators saying, 'Make sure this gets done before the Purge.' What they meant was, 'Make sure this gets done before I have to hide in a bunker.'"
+      },
+      {
+        "host": "quinn",
+        "text": "The whole system is a joke. And the joke is that we all know it's a joke and we participate anyway because what's the alternative?"
+      },
+      {
+        "host": "quinn",
+        "text": "Let me get another call in here before I start talking about burning government buildings, which is not a thing I'm advocating for on a broadcast that's monitored by federal agents who would very much like to arrest me."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got Jennifer, Williamson Street. Jennifer, you're where the neighborhood watch is dug in. How's that holding up?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from Williamson — It's holding. There was an attempt around twenty-one-fifteen at the bridge, they had maybe five people, the watch turned them back pretty quick. Nobody died that I know of, but there was gunfire so people are shaken."
+      },
+      {
+        "host": "quinn",
+        "text": "That's good holding, Jennifer. Willy Street's got a reputation for defending their territory. How long have you been on the block?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from Williamson — Twenty-three years. I've never left. Raised my kids here. And every Purge I wonder if this is the year someone gets through and decides our house is worth it."
+      },
+      {
+        "host": "quinn",
+        "text": "But you stay. You stay on Williamson, you stay in your house, you stay in the neighborhood watch rotation, because leaving is worse than staying."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from Williamson — Leaving is surrender. This is my block. These are my people. If I run away, then what was the point of living here?"
+      },
+      {
+        "host": "quinn",
+        "text": "That's something the people who designed the Purge didn't account for — that some people would develop such attachment to place, to community, that they'd rather defend it once a year than abandon it. That's actually beautiful, Jennifer."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from Williamson — Don't make me cry on your radio show, Quinn."
+      },
+      {
+        "host": "quinn",
+        "text": "Too late. I'm making you cry. The Purge does that — it makes you feel something about home that you didn't feel before. Stay safe, Jennifer. The bridge holds and people like you keep holding it."
+      },
+      {
+        "host": "quinn",
+        "text": "That call right there — that's why we do this. Not for the numbers, not for the political commentary, not even for the dark jokes. We do it so Jennifer knows someone heard her say that her block matters and that's a true thing."
+      },
+      {
+        "host": "quinn",
+        "text": "We're getting into the hours where the whiskey starts to hit different. I'm on drink number three and I can feel my edges getting softer, which is either when I do my best work or my worst work and there's usually no way to tell the difference until the next morning."
+      },
+      {
+        "host": "quinn",
+        "text": "Last year I was in this same slot at this same time and I was getting maudlin about someone named David who used to work with me in the Assembly, died in the 2160s, completely unremarkable guy except he used to bring muffins on Fridays and he was the first person in the building to call out the Purge for what it was — a government-sanctioned atrocity with good PR."
+      },
+      {
+        "host": "quinn",
+        "text": "I didn't listen. I defended the policy like it was defending my job, which it was, which is the worst possible reason to defend anything. And David got fired for being too loud about it and died in a factory accident that was ruled 'inevitable given his mental state' which is a classier way of saying nobody gave a shit."
+      },
+      {
+        "host": "quinn",
+        "text": "The Purge killed David three years before the Purge existed. It just took his entire belief system being crushed by a system he couldn't change for the actual killing to happen."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm sorry, David. I'm sorry to everyone I've been sorry to on this show. I'm sorry to the people in the basements tonight. I'm sorry to Marcus Henley who isn't calling because something happened and I won't find out until next year, if there is a next year."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to pour a fourth drink and I'm not going to apologize for that because at least whiskey is honest — it tells you what it does, it doesn't pretend to be something else, it just burns on the way down and makes the night feel less real."
+      },
+      {
+        "host": "quinn",
+        "text": "And we're {{ELAPSED}} in to the night and the kill count is climbing and somewhere on the East Side people are making decisions about other people's lives and in the Capitol building Level-10 officials are having a meeting about how to respond to the breach, which means they'll send security to clean it up in the morning."
+      },
+      {
+        "host": "quinn",
+        "text": "The response will be 'increased vigilance.' There will be a memo. New protocols will be drafted. And next year someone will breach it again because the Purge is bigger than walls and policy papers and armor."
+      },
+      {
+        "host": "quinn",
+        "text": "The Purge is us. It's what we're capable of when we tell ourselves the law doesn't matter for twelve hours. And the scary part — the part that keeps me drinking — is that I think maybe we're right. Maybe the law is always a suggestion and the Purge is just honest about that."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay with us. We've got more hours to go. We've got more callers in the queue. We've got Holden and Caroline coming back at the top of the hour with analytics and weather, which is exactly what you need right now — something to hold onto that isn't political philosophy and isn't whiskey-fueled regret."
+      },
+      {
+        "host": "quinn",
+        "text": "This is PRGE. I'm Quinn Foley. You're listening to the Purge on a pirate frequency that technically doesn't have permission to exist, which is kind of the whole point."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide confirmed: 42 kills as of 21:00 (up 11 from 20:00 hour). Cumulative on track with 2168 baseline."
+      },
+      {
+        "category": "neighborhood",
+        "text": "ALERT: Capitol Square perimeter breach confirmed 21:40. Security holding inner ring. East Side activity spike — avoid Atwood corridor."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "TEXT: 'Where is Marcus? — longtime Southside caller, hasn't checked in 2169. Last call 2168, 03:00 hour. Status unknown.'"
+      },
+      {
+        "category": "local-news",
+        "text": "Willy Street neighborhood watch holding Yahara bridge perimeter. One attempted breach 21:15, turned back. Armed defense coalition active."
+      },
+      {
+        "category": "emergency",
+        "text": "West Side: Organized patrol units walking Midvale perimeter. Civilian protection detail, not threat. Avoid approach."
+      },
+      {
+        "category": "ad",
+        "text": "PURGELAW™ — Estate documents updated year-round. Call now: your family's financial security during uncertainty. 1-888-PURGE-LAW."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:48:41.166Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker here. I'm positioned on Atwood Avenue, East Side, about {{ELAPSED}} into tonight. Madison-wide count is holding at 38 cumulative kills. That's 19 in the last hour. Year-over-year, we're running about 11 percent hot for this point."
+      },
+      {
+        "host": "tucker",
+        "text": "The neighborhood watch on Willy Street has their barricade holding solid at the Yahara bridge. I can see the sandbag line from here. No breach attempts in the last twenty minutes, but activity's concentrating north of State Street now — coordinated group movement, maybe 25 to 30 individuals, heading toward the Capitol Square perimeter."
+      },
+      {
+        "host": "tucker",
+        "text": "Bladed weapons are seeing significant uptick. At least 9 of the 38 tonight are melee — that's 23.7 percent, up from the 2168 average of 22 percent at this hour. Cheaper to maintain. Quieter. Makes sense."
+      },
+      {
+        "host": "tucker",
+        "text": "Tenney Park sector is quieter than expected. Lakefront exposure usually pulls higher numbers, but I'm only reading 4 incidents over there so far. Either the cold's keeping people indoors or there's territorial consolidation I'm not seeing on the scanner yet."
+      },
+      {
+        "host": "tucker",
+        "text": "Wait — I'm getting a cluster notification on my feed. Beltline corridor near Todd Drive just lit up. Looks like a vehicle situation, multiple — hold on, let me get closer, the audio's degrading, I need to reposition, I'm moving north along the —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison YTD: 38 kills ({{ELAPSED}} elapsed). +11% vs 2168 same period."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side: 18 kills. Capitol Square perimeter: organized movement detected, 25-30 individuals, heading north."
+      },
+      {
+        "category": "local-news",
+        "text": "Willy Street barricade: holding. Tenney Park: 4 incidents. Beltline: vehicle cluster reported, details pending."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield structural panels. Last year 4,200 Madison units deployed. Your barricade deserves better than furniture. Call 1-800-SHIELDUP."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:32:55.790Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

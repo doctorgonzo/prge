@@ -1,0 +1,237 @@
+{
+  "format": "wellness",
+  "inWorldTime": "23:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. [pause] It's {{CLOCK}} Madison. We are {{ELAPSED}} into tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm Sister Marigold. This is the wellness block. [pause] You know what to do."
+      },
+      {
+        "host": "marigold",
+        "text": "Find your breath. Not the breath that's shallow. The one beneath."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold for four. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "The body knows tonight is not like other nights. [pause] The body remembers."
+      },
+      {
+        "host": "marigold",
+        "text": "Let it remember. Don't fight it."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "Your shoulders are tight. [pause] You've been listening for sounds. [pause] Drop them."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones outside cannot hear you breathing."
+      },
+      {
+        "host": "marigold",
+        "text": "Your jaw is clenched. [pause] Release it. [pause] Teeth apart. Tongue soft."
+      },
+      {
+        "host": "marigold",
+        "text": "You chose to stay home. [pause] Remember that choice."
+      },
+      {
+        "host": "marigold",
+        "text": "It was not weakness. It was the only power you had."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan your body. Where is the tension? [pause] Find it."
+      },
+      {
+        "host": "marigold",
+        "text": "Lower back. Chest. The place behind your eyes where you've been waiting."
+      },
+      {
+        "host": "marigold",
+        "text": "That tension is you waiting. [pause] You are still waiting."
+      },
+      {
+        "host": "marigold",
+        "text": "Seven more hours. [pause] You can hold seven more hours."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "There is someone you expected to hear from tonight. [pause] They haven't called."
+      },
+      {
+        "host": "marigold",
+        "text": "That absence is not your fault. [pause] You cannot carry it."
+      },
+      {
+        "host": "marigold",
+        "text": "Set it down. [pause] You will pick it up again at seven in the morning. [pause] Not before."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold for four. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones outside are not your responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones you love who are locked in cars right now. [pause] Not your responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "I know that's not true. [pause] I know you feel it anyway."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "Imagine a door. [pause] Your front door. The one you locked at 18:45."
+      },
+      {
+        "host": "marigold",
+        "text": "Imagine the lock engaging. [pause] The deadbolt sliding home."
+      },
+      {
+        "host": "marigold",
+        "text": "Imagine the chain. [pause] Hand over hand."
+      },
+      {
+        "host": "marigold",
+        "text": "That door is holding. [pause] It has held for five hours. [pause] It will hold for seven more."
+      },
+      {
+        "host": "marigold",
+        "text": "You chose correctly."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "The City beyond your window is not your city tonight. [pause] It belongs to someone else."
+      },
+      {
+        "host": "marigold",
+        "text": "And you belong here. [pause] In this small space. [pause] In this breath."
+      },
+      {
+        "host": "marigold",
+        "text": "ka-meshara-va-tine. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "The light is still hours away. [pause] But it is coming."
+      },
+      {
+        "host": "marigold",
+        "text": "Six fifty-eight in the morning. [pause] That is a fixed point."
+      },
+      {
+        "host": "marigold",
+        "text": "Everything changes at six fifty-eight."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "There is someone you are angry with. [pause] Someone from before tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "They are somewhere in this city. [pause] Or they are not."
+      },
+      {
+        "host": "marigold",
+        "text": "Either way, [pause] tonight is not the night to forgive them."
+      },
+      {
+        "host": "marigold",
+        "text": "Let that anger rest. [pause] It will still be there tomorrow."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold for four. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "You have done what you needed to do. [pause] You stayed."
+      },
+      {
+        "host": "marigold",
+        "text": "You chose the small space over the large one. [pause] The breath over the scream."
+      },
+      {
+        "host": "marigold",
+        "text": "That is enough."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "I will be here when you need me. [pause] The Order is listening."
+      },
+      {
+        "host": "marigold",
+        "text": "Until the next hour. [pause] Until the light."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison kill count at 23:00: 82 cumulative. +21 this hour. East Side continues to spike."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"The ones you expect to call rarely do. That is tonight's mercy.\""
+      },
+      {
+        "category": "emergency",
+        "text": "Reminder: SafeWalk GPS routes updated every 15 minutes. If you need to move, use the system. Your phone knows the hot zones."
+      },
+      {
+        "category": "local-news",
+        "text": "Willy Street barricade holding. Neighborhood watch reporting 0 breaches. Capitol perimeter stabilized."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "TEXT: 'My neighbor usually calls the station at 11pm. Haven't heard from him. Is that bad?' — STUDIO: Stay home. Stay off the streets."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"Seven more hours is nothing. Seven more hours is everything.\""
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:32:10.723Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

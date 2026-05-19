@@ -1,0 +1,473 @@
+{
+  "format": "news",
+  "inWorldTime": "19:00",
+  "body": {
+    "type": "news",
+    "lines": [
+      {
+        "host": "tim",
+        "text": "PRGE. We are live. The Purge commenced at 19:00 Madison. I repeat — we are live. All systems nominal. Signal strength at full capacity."
+      },
+      {
+        "host": "quinn",
+        "text": "And there it is. {{CLOCK}} Madison time. We have made it to the witching hour, folks, and the witches are already awake."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm Quinn Foley. You may remember me from better years, or you may not, and I'm at peace with either outcome."
+      },
+      {
+        "host": "quinn",
+        "text": "Joining me tonight — or morning, or the fever dream we're all living in together — we have Caroline on weather, Holden on analysis, and Tim keeping this whole operation from burning to the ground."
+      },
+      {
+        "host": "quinn",
+        "text": "The Purge is in effect. Madison is dark. Most of you are home. Most of you are barricaded. Most of you are trying very hard not to think about what's happening three blocks south."
+      },
+      {
+        "host": "quinn",
+        "text": "We'll be here all twelve hours. All of us. Together. You are not alone tonight, even if being alone is the smartest thing you could be."
+      },
+      {
+        "host": "caroline",
+        "text": "It's {{CLOCK}} and we're tracking a clear night settling into the Madison area. Thirty-eight degrees at sign-on, humidity at forty-two percent."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind is southwest at nine miles per hour. Visibility is excellent — ten plus miles. This is optimal barricade weather. No rain, no fog, no excuses for mistakes."
+      },
+      {
+        "host": "caroline",
+        "text": "We're watching a system move in from the northwest that could complicate things around the one o'clock hour, but I'll have updates as it develops."
+      },
+      {
+        "host": "caroline",
+        "text": "If you're planning to stay inside tonight — and statistically, ninety-four percent of you are — dress in layers. The temperature will fall to twenty-four degrees by dawn."
+      },
+      {
+        "host": "holden",
+        "text": "Madison Sports Report for Purge Night. The Packers are in Green Bay doing what the Packers do, which is exist without us."
+      },
+      {
+        "host": "holden",
+        "text": "What matters tonight is the East Side bracket tournament — six-on-six basketball happening in the Garfield Park gym. Started at six pm, runs until we all go quiet at seven."
+      },
+      {
+        "host": "holden",
+        "text": "The tournament organizers are holding it *indoors*, in a locked gymnasium, with security at both entrances. Smart move. Last year they tried it outdoors. They didn't try it again."
+      },
+      {
+        "host": "holden",
+        "text": "Game Four is wrapping up right now. The final bracket will determine neighborhood bragging rights for the next year. These kids are taking it seriously."
+      },
+      {
+        "host": "holden",
+        "text": "And if you think sports doesn't matter tonight, you haven't been listening to Madison radio long enough. Sports is how we pretend tomorrow is real."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, I appreciate you finding the light in the darkness, but let's be honest — those kids are barricaded in a gym because the alternative is dying."
+      },
+      {
+        "host": "holden",
+        "text": "Exactly. Which is why they're still shooting hoops. That's not denial, Quinn. That's resilience."
+      },
+      {
+        "host": "caroline",
+        "text": "It's a good gym. Solid roof. Backup generator. I've routed the weather updates to them directly if conditions change."
+      },
+      {
+        "host": "quinn",
+        "text": "And that's PRGE in a nutshell, folks. We prepare. We fortify. We hope. Then we see what the night brings."
+      },
+      {
+        "host": "tim",
+        "text": "Signal check. All mics green. Quinn, you're hot. Holden, you're hot. Caroline, you're hot. Tim is eternally hot and watching the jammer bands."
+      },
+      {
+        "host": "tim",
+        "text": "No interference on the primary frequency. Secondary's clear. Tertiary is running clean. We are bulletproof, folks."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, we've got something like seventy-one thousand estimated listeners tonight, yeah?"
+      },
+      {
+        "host": "tim",
+        "text": "Based on last year's sign-on metrics, yes. Maybe more. Word of mouth has been strong in the East Side communities. The barricade network is passing the frequency through text."
+      },
+      {
+        "host": "quinn",
+        "text": "Seventy-one thousand people choosing to listen to us instead of the deafening silence in their own homes. That's a responsibility I take seriously for the next two hours, then increasingly less seriously as the whiskey takes effect."
+      },
+      {
+        "host": "holden",
+        "text": "The statistical profile of our listener base has shifted toward younger demographics in the last four years. Average age is down from forty-seven to thirty-nine."
+      },
+      {
+        "host": "caroline",
+        "text": "The young people are smarter about barricading, if you ask me. They grew up with the Purge. It's not a shock to their system."
+      },
+      {
+        "host": "quinn",
+        "text": "Lucky them. I remember when the Purge was new. I was terrified. Now I'm just tired and nostalgic and drunk before it even starts. Character development."
+      },
+      {
+        "host": "holden",
+        "text": "According to post-Purge survey data from 2167, forty-two percent of listeners reported feeling less anxious while the broadcast was on than when it was off."
+      },
+      {
+        "host": "quinn",
+        "text": "That's beautiful, Holden. Truly. We're a drug that happens to be free and legal."
+      },
+      {
+        "host": "caroline",
+        "text": "Better than the alternatives. Last year the poison control hotline got forty-seven calls between 19:00 and 21:00. Purge nerves and access to a medicine cabinet."
+      },
+      {
+        "host": "quinn",
+        "text": "Jesus. Tim, are we getting calls yet tonight?"
+      },
+      {
+        "host": "tim",
+        "text": "Call queue is quiet. First text-in came through at 19:03. Someone asking if we could dedicate a song to their cat. We'll get to it when Nick's on."
+      },
+      {
+        "host": "quinn",
+        "text": "A cat. That's the energy we need. Someone out there is so nervous they're thinking about their cat's psychological wellbeing."
+      },
+      {
+        "host": "holden",
+        "text": "Pet therapy is documented. Approximately 2,800 animals are boarded in commercial Purge facilities tonight. The rest are at home with their owners, serving as calming agents."
+      },
+      {
+        "host": "caroline",
+        "text": "My weather contact at the veterinary hospital says they've had two emergency calls already tonight. One heat stroke in a sealed apartment, one panic response in a parrot."
+      },
+      {
+        "host": "quinn",
+        "text": "A parrot panicked at the Purge starting. That bird understands the assignment."
+      },
+      {
+        "host": "tim",
+        "text": "The call came from the East Side. Near Schenk's Corners. That's hot territory already."
+      },
+      {
+        "host": "quinn",
+        "text": "Of course it is. The East Side is always hot. Year one, year ten, year 140 — the East Side stays hot."
+      },
+      {
+        "host": "holden",
+        "text": "East Side has recorded the highest per-capita incident rate for the last four consecutive years. Population density plus lower security infrastructure plus specific historical factors create a perfect storm."
+      },
+      {
+        "host": "caroline",
+        "text": "Plus the wind tonight is pushing northwest, which means anything starting in that zone drifts toward the residential areas faster."
+      },
+      {
+        "host": "quinn",
+        "text": "And there's the weather correlation Holden's always chasing. The East Side isn't just violent — it's violently *efficient*."
+      },
+      {
+        "host": "holden",
+        "text": "I would not use the word 'efficient,' but the pattern data is undeniable."
+      },
+      {
+        "host": "quinn",
+        "text": "Efficient. Brutal. Efficient and brutal, like most human endeavors when the law steps out of the room."
+      },
+      {
+        "host": "tim",
+        "text": "We're {{ELAPSED}} in. No emergency alerts yet. No evacuation routes are hot. Madison PD equivalent — the Night Guard — has not mobilized. It's still quiet out there."
+      },
+      {
+        "host": "tim",
+        "text": "That quiet is the dead calm. Twenty minutes in, people are still deciding. Once they decide, it moves fast."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, you've been running this operation for how long?"
+      },
+      {
+        "host": "tim",
+        "text": "Seventeen years of PRGE. That's seventeen Purge Nights keeping this signal alive. I've never missed one."
+      },
+      {
+        "host": "quinn",
+        "text": "Not even sick?"
+      },
+      {
+        "host": "tim",
+        "text": "Not even dead. The day I'm dead is the day I don't show up for the broadcast."
+      },
+      {
+        "host": "caroline",
+        "text": "That's very morbid, Tim."
+      },
+      {
+        "host": "tim",
+        "text": "It's a promise."
+      },
+      {
+        "host": "quinn",
+        "text": "And that, folks, is why Tim runs the station and I just drink whiskey and remember better times that never actually happened."
+      },
+      {
+        "host": "holden",
+        "text": "Seventeen years is significant. That covers the last two major infrastructure changes to the Capitol security perimeter."
+      },
+      {
+        "host": "holden",
+        "text": "Tim's first broadcast year, 2152, they upgraded the Capitol glass to the reactive blast specification. Second major change was 2159, when they added the drone surveillance system."
+      },
+      {
+        "host": "caroline",
+        "text": "And every year, people still test the perimeter. It's like they forgot about the previous forty people who tried."
+      },
+      {
+        "host": "quinn",
+        "text": "Human nature. We believe the rules don't apply to us specifically. It's the only thing that keeps us sane."
+      },
+      {
+        "host": "tim",
+        "text": "Text-in coming in now. Someone from the Tenney Park neighborhood, asking if we've heard about the barricade on the bridge."
+      },
+      {
+        "host": "quinn",
+        "text": "The Yahara bridge?"
+      },
+      {
+        "host": "tim",
+        "text": "They didn't specify which bridge. Madison's full of bridges."
+      },
+      {
+        "host": "holden",
+        "text": "The Yahara bridge in this context would be the one on Williamson, given that's where the neighborhood watch has organized the last three years."
+      },
+      {
+        "host": "caroline",
+        "text": "I have a contact on the Willy Street network. She said they were going to try barricade protocol again this year. More volunteers than last time."
+      },
+      {
+        "host": "quinn",
+        "text": "How many more volunteers?"
+      },
+      {
+        "host": "caroline",
+        "text": "She said 'enough to matter.' I interpret that as fifteen to twenty."
+      },
+      {
+        "host": "holden",
+        "text": "Last year's Willy Street barricade held for sixty-seven minutes before it collapsed. The Yahara bridge is a strong position — defensible approaches, water backing them."
+      },
+      {
+        "host": "quinn",
+        "text": "So they learned from last year."
+      },
+      {
+        "host": "holden",
+        "text": "Everyone learns. Whether the lessons matter is a different question."
+      },
+      {
+        "host": "tim",
+        "text": "Second text-in. Someone asking for weather updates every fifteen minutes. I'm going to tell them Caroline's got you covered."
+      },
+      {
+        "host": "caroline",
+        "text": "I do. Regularly scheduled updates at the top of every hour, plus emergency alerts if the northwest system accelerates."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline, you remember three years ago when the cold front came in early and people were caught outside in twenty-degree weather?"
+      },
+      {
+        "host": "caroline",
+        "text": "I remember. That was 2166. Worst night in Madison since the Heat Purge of 2141."
+      },
+      {
+        "host": "holden",
+        "text": "2166 saw thirty-four additional deaths from exposure alone. Weather-related casualties accounted for eighteen percent of that year's total."
+      },
+      {
+        "host": "quinn",
+        "text": "And Caroline saw it coming and nobody believed her."
+      },
+      {
+        "host": "caroline",
+        "text": "I had the data. I issued warnings. Some people listened. Some didn't."
+      },
+      {
+        "host": "quinn",
+        "text": "And now you're even more careful."
+      },
+      {
+        "host": "caroline",
+        "text": "Now I'm redundant with my warnings. I assume people are going to hear the first one and ignore it."
+      },
+      {
+        "host": "holden",
+        "text": "That's a statistical approach to human behavior. The assumption being that any given listener needs to hear something four to six times for retention."
+      },
+      {
+        "host": "caroline",
+        "text": "Something like that."
+      },
+      {
+        "host": "tim",
+        "text": "Third text-in. Someone from near State Street asking if we're tracking activity there yet."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the ruins, right? The old commercial corridor?"
+      },
+      {
+        "host": "holden",
+        "text": "State Street corridor is structurally compromised. Fires from 2151 and 2157 left five buildings completely gutted. The remaining standing structures are unstable."
+      },
+      {
+        "host": "caroline",
+        "text": "It's also a major through-way if you're moving south toward the Capitol. Shortest route."
+      },
+      {
+        "host": "quinn",
+        "text": "So people who are feeling ambitious tonight might route through there."
+      },
+      {
+        "host": "holden",
+        "text": "Or they might avoid it. Unstable structures mean risk of collapse. Last year, two separate groups were injured by falling debris."
+      },
+      {
+        "host": "quinn",
+        "text": "So the ruins are dangerous both ways. To the people in them and for anyone trying to use them as a corridor."
+      },
+      {
+        "host": "tim",
+        "text": "We'll have Tucker on field-report rotation starting in the next hour. If there's movement on State Street, we'll know about it."
+      },
+      {
+        "host": "quinn",
+        "text": "Tucker is brave or insane. I haven't decided which."
+      },
+      {
+        "host": "caroline",
+        "text": "They're both. That's how you survive a Purge night in the field."
+      },
+      {
+        "host": "holden",
+        "text": "Tucker has survived every field-report assignment for the last seven years. That's a ninety-three percent success rate in a statistically dangerous role."
+      },
+      {
+        "host": "quinn",
+        "text": "They've also had their feed cut four times in that span."
+      },
+      {
+        "host": "holden",
+        "text": "Four cuts of sixty seconds or longer. Each time they've returned. That suggests strong survival instincts and situational awareness."
+      },
+      {
+        "host": "quinn",
+        "text": "Or luck. Let's not discount luck."
+      },
+      {
+        "host": "tim",
+        "text": "Final text-in batch coming through. Mostly requests for dedications. A lot of people want to hear specific songs. Nick's going to have his hands full."
+      },
+      {
+        "host": "quinn",
+        "text": "Nick doesn't go on until the twenty-second hour."
+      },
+      {
+        "host": "tim",
+        "text": "I know. But people are anxious and they're thinking ahead. Music is how they're planning to survive the middle hours."
+      },
+      {
+        "host": "caroline",
+        "text": "That's healthy. That's good."
+      },
+      {
+        "host": "quinn",
+        "text": "Music and barricades and the company of strangers on a pirate radio station. That's 2169 Madison on Purge Night."
+      },
+      {
+        "host": "holden",
+        "text": "I have a statistic about music consumption during Purge events. Listeners report a forty-seven percent increase in emotional regulation when music is present."
+      },
+      {
+        "host": "quinn",
+        "text": "So Nick is essentially a therapist who never went to school and communicates exclusively through 1990s punk rock."
+      },
+      {
+        "host": "tim",
+        "text": "Accurate."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm tracking one small development on the thermal imaging from the university station. There's a hot spot on the Capitol grounds that wasn't there thirty minutes ago."
+      },
+      {
+        "host": "quinn",
+        "text": "Already? It's only been twenty-one minutes."
+      },
+      {
+        "host": "caroline",
+        "text": "Early movers. Happens every year. Some people are too eager or too desperate to wait."
+      },
+      {
+        "host": "holden",
+        "text": "Historical data shows that eighty-three percent of Purge-night incidents occur between the hours of twenty-one and two. Early action typically peaks at twenty and then levels out."
+      },
+      {
+        "host": "tim",
+        "text": "So we're seeing outliers tonight. People who didn't get the memo that patience is safer."
+      },
+      {
+        "host": "quinn",
+        "text": "Or people who decided tonight that survival wasn't the goal."
+      },
+      {
+        "host": "caroline",
+        "text": "Let's not assume. Thermal imaging shows a person or persons. Could be anything. Could be security responding to the signature."
+      },
+      {
+        "host": "quinn",
+        "text": "Could be. But we know. Everyone listening knows."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide incident count at {{CLOCK}}: 2 confirmed (early movers). YoY comparison pending."
+      },
+      {
+        "category": "local-news",
+        "text": "Garfield Park basketball tournament enters final rounds. All participants accounted for at secure location."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Willy Street neighborhood watch mobilizing Yahara bridge barricade. Estimated fifteen to twenty volunteers. Position holding so far."
+      },
+      {
+        "category": "emergency",
+        "text": "Temperature forecast: dropping to 24°F by dawn. Clear conditions tonight shifting northwest by 01:00. Layer up."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text-in volume running heavy. Requests for song dedications, weather updates, and general company queued for next block."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield window panel systems: correct installation saves lives. Backwards panels save nothing. Check yours now."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol perimeter security systems online and monitoring. Drone surveillance active. Reactive glass at full charge."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side neighborhoods reporting normal Purge preparation. Wind conditions favorable for security. Visibility excellent."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:42:32.935Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

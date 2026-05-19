@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm positioned north of the Beltline on Todd Drive. {{ELAPSED}} in, and we're tracking seven active fire zones across the isthmus. Visibility is down to maybe a quarter-mile due to smoke drift."
+      },
+      {
+        "host": "tucker",
+        "text": "Madison-wide cumulative kill count is holding at 139. That's seventeen kills this hour — slightly down from last year's 22-kill bracket at this point, but the fire-start rate is up twelve percent."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side still carrying weight. Atwood corridor is at 34 confirmed, which matches 2168 exactly through hour eight. Willy Street holding steady at the lower end — the neighborhood watch perimeter is still intact."
+      },
+      {
+        "host": "holden",
+        "text": "Tucker, can you speak to the fire methodology? Are these structural starts or incendiary?"
+      },
+      {
+        "host": "tucker",
+        "text": "Mix. State Street ruins have three confirmed structure fires — looks like coordinated action, same pattern we saw in 2168 at the 23-hour mark but compressed. Two vehicle fires on the Beltline proper. Two outliers — one appears to be an apartment complex on Park Street, and one is... hold on, my body-cam is cutting—"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide: 139 cumulative. East Side 34. Hour 8 delta: +17 YoY vs +22 (2168)."
+      },
+      {
+        "category": "emergency",
+        "text": "Seven active fire zones. Smoke visibility reduced to 0.25 miles. Air quality alert issued for lake districts."
+      },
+      {
+        "category": "neighborhood",
+        "text": "State Street: 3 structure fires, coordinated start pattern. Willy Street: barricade holding. Park Street: 1 apartment complex fire, unconfirmed cause."
+      },
+      {
+        "category": "local-news",
+        "text": "Weather note: NW wind 18 mph pushing smoke toward downtown. Cold front holding. Fog off Mendota now visible from the Beltline."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:08:06.017Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

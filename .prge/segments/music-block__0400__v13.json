@@ -1,0 +1,168 @@
+{
+  "format": "music-block",
+  "inWorldTime": "04:00",
+  "body": {
+    "type": "music-block",
+    "tracks": [
+      {
+        "title": "Sink, Florida, Sink",
+        "artist": "Against Me!",
+        "year": 2007,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "It's {{CLOCK}}, we're {{ELAPSED}} in, and the world is quiet. Too quiet. That's worse than the noise. This next one — Against Me!, 'Sink, Florida, Sink' off New Wave. Laura Jane Grace wrote this when Florida still felt like home."
+          },
+          {
+            "host": "nick",
+            "text": "Grace moved to Gainesville in '97, and the whole band formed around this idea: 'The whole world is against me.' That's the name. That's the mission statement. By 2007, she's singing about drowning the whole damn state. I get it."
+          },
+          {
+            "host": "nick",
+            "text": "New Wave hit number 57 on the Billboard 200. Mainstream success. And what does Grace do? Sings about apocalypse. 'Sink, Florida, Sink.' Some people can't handle winning. Some people can only write when they're drowning."
+          },
+          {
+            "host": "nick",
+            "text": "The silence out there right now — that's the same silence Grace was screaming into in Gainesville. Nothing's changed. The world's still against you. The only difference is now you know the song by heart."
+          }
+        ]
+      },
+      {
+        "title": "Ole",
+        "artist": "The Bouncing Souls",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Bouncing Souls. 'Ole.' 1996. Four guys from Basking Ridge, New Jersey, who moved to New Brunswick because one of them — Jason Black — looked around and said, 'We need to be somewhere that has a music scene.' He was right."
+          },
+          {
+            "host": "nick",
+            "text": "The band name comes from Doc Martens — 'with Bouncing Soles.' I'm not making that up. The greatest punk band ever named themselves after shoe slogans. That's New Jersey for you."
+          },
+          {
+            "host": "nick",
+            "text": "This song — 'Ole' — it's a singalong. You're supposed to scream it back at them. 'OLE, OLE, OLE!' The Souls built a community called the 'True Believers' by playing fast, light-hearted songs and touring relentlessly. They made people want to come home to them."
+          },
+          {
+            "host": "nick",
+            "text": "Right now, at {{CLOCK}}, you're listening to this alone in your house. But you're singing it back. That's what Greg Attonito built. That's what punk's supposed to do."
+          }
+        ]
+      },
+      {
+        "title": "A Good Honest Dollar",
+        "artist": "Hot Water Music",
+        "year": 1998,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Hot Water Music. 'A Good Honest Dollar.' 1998. Gainesville, Florida again — same city that birthed Against Me!, and for the same reason: it was a place where four guys could move and actually make music."
+          },
+          {
+            "host": "nick",
+            "text": "Chuck Ragan and Chris Wollard — dual vocals, call-and-response format. Gritty. Raw. Jason Black on bass, George Rebelo on drums. The band name comes from a Charles Bukowski short-story collection. That's the bar they set for themselves from day one."
+          },
+          {
+            "host": "nick",
+            "text": "1998 was the year they almost broke up. European tour, exhaustion, personal problems — they decided to just... stop. But during the farewell show rehearsals, something shifted. They wrote four new songs instead of saying goodbye. Sometimes the only way out is through."
+          },
+          {
+            "host": "nick",
+            "text": "Listen to Wollard's voice on this track. That's desperation wrapped in hope. That's a guy who almost lost his best friends and decided to fight to keep them instead."
+          }
+        ]
+      },
+      {
+        "title": "Sunday Morning",
+        "artist": "Me First and the Gimme Gimmes",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Me First and the Gimme Gimmes. 'Sunday Morning.' 1996. This is a cover band — a supergroup of guys from other major acts who just wanted to play covers during off-time and somehow accidentally became a legend."
+          },
+          {
+            "host": "nick",
+            "text": "Spike Slawson, Fat Mike from NOFX, Joey Cape from Lagwagon — these are titans. They formed in San Francisco and said, 'We're going to take songs you know and punk them to death.' The first album was called Have a Ball and covered '60s and '70s pop hits."
+          },
+          {
+            "host": "nick",
+            "text": "This is them doing a tender song in the middle of the collapse hour. The Gimmes made their whole thing about rapid-fire interpretations with a humorous edge. But 'Sunday Morning' — that one lands different at {{CLOCK}}. That one's just sad."
+          },
+          {
+            "host": "nick",
+            "text": "They wore matching costumes at every show — whatever theme the album called for. Pure theater. Pure commitment to the bit. By 2006, they were so legendary that the Pirates booked them for three post-game shows at PNC Park. The first night they got booed. The next two were cancelled. Sometimes the world isn't ready for genius."
+          }
+        ]
+      },
+      {
+        "title": "Coming Home",
+        "artist": "The Lawrence Arms",
+        "year": 2002,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Lawrence Arms. 'Coming Home.' 2002. Chicago. Brendan Kelly and Chris McCaughan took the name from an apartment complex they got evicted from in the middle of the night. Their whole band is built on displacement and survival."
+          },
+          {
+            "host": "nick",
+            "text": "They released their first album — full-length, no EPs, straight to vinyl — before they'd even played a single show. A Guided Tour of Chicago. Insane confidence. Then Ghost Stories in 2000, then Apathy and Exhaustion in 2002. They write about what they've lived through."
+          },
+          {
+            "host": "nick",
+            "text": "Kelly's said, 'We all have a lot of experiences — good ones and terrible ones — influenced by us being influenced by alcohol.' That's what they write about. That's what this song is. Coming home means something different when you've been gone so long you forgot what it felt like."
+          },
+          {
+            "host": "nick",
+            "text": "In 2002, they got booted from the Warped Tour for criticizing the festival organizers onstage. They said the tour was 'single-handedly dismantling the whole thing we've been fucking building.' These guys were willing to burn bridges to keep their integrity. That's rare."
+          }
+        ]
+      },
+      {
+        "title": "Linoleum",
+        "artist": "NOFX",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "NOFX. 'Linoleum.' 1994. Punk in Drublic. This album hit number twelve on the Heatseekers chart and went gold. Gold. Fat Mike, Erik Sandin, Eric Melvin — formed in Los Angeles at Fairfax High School in 1983. That's eleven years of basement punk before they became a household name."
+          },
+          {
+            "host": "nick",
+            "text": "El Hefe joined in '91 with lead guitar and trumpet. Trumpet. They made a punk band with a trumpet player and it worked because they didn't care what it was supposed to sound like. They just cared that it was honest."
+          },
+          {
+            "host": "nick",
+            "text": "Punk in Drublic was their fifth album. Fifth. And they'd never signed to a major label. They kept their independence and made art. The 'Leave It Alone' video from this era — Fat Mike said they made it but refused to send it to MTV. 'We just didn't want to be part of that machine.' That's a choice some bands can't make."
+          },
+          {
+            "host": "nick",
+            "text": "'Linoleum' is about nothing. About working-class nothing. About the floor beneath your feet. And it became the song that defined a generation. Sometimes the smallest things are the loudest."
+          },
+          {
+            "host": "nick",
+            "text": "It's {{CLOCK}} and we're still here. NOFX is still here. They signed to Fat Mike's own label, Fat Wreck Chords, and kept making political, angry, hilarious records. They're still making them. Some things outlast the Purge."
+          }
+        ]
+      }
+    ],
+    "lines": [],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide kill count holding at 178. Up 11 from 01:00. East Side and Capitol Square both quiet for the last three hours."
+      },
+      {
+        "category": "neighborhood",
+        "text": "North Side still the quietest zone of the night. No activity reported in the last two hours. Something's different up there."
+      },
+      {
+        "category": "local-news",
+        "text": "Sun's coming in 2 hours and 47 minutes. Hard frost building. Wind's shifted to the north. Caroline called this pattern five days ago."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:36:27.355Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

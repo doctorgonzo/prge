@@ -1,0 +1,381 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "21:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Welcome back to PRGE, folks. Quinn Foley here, and we are {{ELAPSED}} into the evening, and I gotta say — it's quiet."
+      },
+      {
+        "host": "quinn",
+        "text": "Not good quiet. Not 'everybody stayed home' quiet. Bad quiet. The kind of quiet that makes your teeth itch."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim's been feeding me the early numbers and they're lighter than last year at this point — which should feel like a win, right?"
+      },
+      {
+        "host": "quinn",
+        "text": "Except it doesn't. It feels like someone forgot to show up to their own party."
+      },
+      {
+        "host": "quinn",
+        "text": "Or like they're waiting. And I don't like waiting."
+      },
+      {
+        "host": "quinn",
+        "text": "You know who liked waiting? Senator Briggs. Remember Briggs? No, you don't, because he's been dead for eight years, but he used to say that patience was a virtue."
+      },
+      {
+        "host": "quinn",
+        "text": "Briggs said a lot of things. Most of them were lies. All of them were delivered in a suit that cost more than your car."
+      },
+      {
+        "host": "quinn",
+        "text": "Pours a whiskey here — first one's on me, folks, medicinal purposes — and I'm thinking about what Briggs would say if he could see Madison tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "Actually, scratch that. Briggs would have paid to get out of Madison before the Purge started. Briggs got out of everything that mattered."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got a caller on the line. Greg from East Side, you're on with Quinn Foley. What's happening out there?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg from East Side — Man, it's too quiet up here. I got my panels up, doors barricaded, but I'm not hearing anything. Usually by now there's sirens."
+      },
+      {
+        "host": "quinn",
+        "text": "No sirens tonight, Greg. That's actually accurate. What's your street look like right now?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg from East Side — Dark. Empty. I saw one car drive past real slow about twenty minutes ago. Didn't stop."
+      },
+      {
+        "host": "quinn",
+        "text": "That car was looking. The fact that it didn't stop might actually be worse than if it had, Greg. You got neighbors?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg from East Side — Got the Hendersons to my left. They didn't install anything. I can see their lights are off but like... they didn't leave either?"
+      },
+      {
+        "host": "quinn",
+        "text": "They're in the dark by choice, Greg. That's a very specific kind of terror. You stay locked in and don't go checking on anybody, understood?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Greg from East Side — Understood. Thanks for being here. This helps."
+      },
+      {
+        "host": "quinn",
+        "text": "You got it, Greg. Stay with us. We'll be here until 7am."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the thing about the quiet — it makes you want to do something stupid. It makes you want to check on people. It makes you feel like a coward for staying home."
+      },
+      {
+        "host": "quinn",
+        "text": "But staying home is the only smart move. Staying home is the revolution. And I say that as a man who hasn't made a smart move since 2165."
+      },
+      {
+        "host": "quinn",
+        "text": "That was the year I made the mistake of believing that the people I worked with actually cared about the people they worked for. What a concept."
+      },
+      {
+        "host": "quinn",
+        "text": "I was in Regional Governance. Sounds important, right? It wasn't. It was meetings and handshakes and knowing when to look the other way."
+      },
+      {
+        "host": "quinn",
+        "text": "I got very good at the last part. Too good. Became a liability when it turned out that looking the other way has a limit."
+      },
+      {
+        "host": "quinn",
+        "text": "So now I'm here, {{ELAPSED}} into the Purge, drinking whiskey on a pirate frequency that the government could shut down any minute if they felt like it."
+      },
+      {
+        "host": "quinn",
+        "text": "Which they won't. Because I don't exist on any other night of the year, so I'm not worth the resources to hunt down in the legal hours."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the deal. The deal is, I get to broadcast one night a year, and the deal is, nobody pretends I'm not a ghost the rest of the time."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got another call coming in. Sarah from Willy Street — Sarah, you're on with Quinn."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Willy Street — I've been listening since 19:00 and I just wanted to say that your voice is the only thing keeping me from — from really falling apart right now."
+      },
+      {
+        "host": "quinn",
+        "text": "Sarah, I appreciate that, but I'm going to be honest with you — I'm not the person to keep you from falling apart. I'm the person who fell apart."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Willy Street — Yeah, but you're still here. And you're still talking. That counts for something."
+      },
+      {
+        "host": "quinn",
+        "text": "It counts for one night a year, Sarah. Tonight. Stay on the line if you want to. We can talk about nothing until the sun comes up."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Willy Street — Okay. Okay, I'll stay."
+      },
+      {
+        "host": "quinn",
+        "text": "That's what I'm here for. That's what this whole thing is for. You're not supposed to be alone on Purge Night, even if you're locked in your house."
+      },
+      {
+        "host": "quinn",
+        "text": "Even if you're trapped. Even if you're scared. You've got a voice on the radio telling you that somebody else is awake, and somebody else knows you're scared."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim's just handed me an update — kill count for the hour is lower than projected, but the neighborhoods that are reporting are concentrated."
+      },
+      {
+        "host": "quinn",
+        "text": "East Side's still running hot. Capitol Square had an incident around 20:40. Three confirmed. And State Street is... Tim says State Street is showing coordinated activity."
+      },
+      {
+        "host": "quinn",
+        "text": "Coordinated is worse than random. Random you can hide from. Coordinated means somebody's got a plan. Coordinated means somebody's got a list."
+      },
+      {
+        "host": "quinn",
+        "text": "But we don't talk about that on air. We talk about the weather. We talk about the sky. We talk about literally anything else."
+      },
+      {
+        "host": "quinn",
+        "text": "The irony is, you can't talk about the Purge on any other night. You can't acknowledge it exists. You can't say the word in a government building."
+      },
+      {
+        "host": "quinn",
+        "text": "But you can broadcast it. You can talk about it. You can sit here and I can talk to you about how quiet is scarier than noise."
+      },
+      {
+        "host": "quinn",
+        "text": "Because it's legal. Because it's the Purge. Because for one night, the rules are different and the people in charge have to stay locked in their offices too."
+      },
+      {
+        "host": "quinn",
+        "text": "Director Calloway is sitting in a Level-10 bunker right now. I know Calloway. I had lunch with the man."
+      },
+      {
+        "host": "quinn",
+        "text": "He always ordered the same thing — a salad, no dressing, water, black coffee. He was very concerned with what people thought of his diet."
+      },
+      {
+        "host": "quinn",
+        "text": "What I remember more is the time he casually mentioned that the Purge wasn't designed to stop crime, it was designed to redistribute it."
+      },
+      {
+        "host": "quinn",
+        "text": "He said that like it was obvious. Like I should have already understood. Like anyone with a brain would know that the whole point is to let the pressure out in a controlled way."
+      },
+      {
+        "host": "quinn",
+        "text": "And the trick is, the way you control it is by making sure that the pressure doesn't blow up at the people who are already sitting on top."
+      },
+      {
+        "host": "quinn",
+        "text": "So the East Side gets hot. State Street runs coordinated. The neighborhoods that can't afford security see their numbers spike. And Calloway sits in a bunker and eats a salad."
+      },
+      {
+        "host": "quinn",
+        "text": "That's not a conspiracy theory, folks. That's just the Purge working exactly as intended."
+      },
+      {
+        "host": "quinn",
+        "text": "Pours another whiskey. Two down, might be seven to go by the time the sun comes up."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got a text-in from someone calling themselves 'West Side Watcher.' They're saying activity is starting to move west from Capitol Square."
+      },
+      {
+        "host": "quinn",
+        "text": "West Side Watcher, if you're still listening — we can't repeat unconfirmed reports, but we can hear what you're saying, and we appreciate you being our eyes out there."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay locked up. Don't engage. Just keep us posted if you feel safe enough to do that."
+      },
+      {
+        "host": "quinn",
+        "text": "The reason we take reports from the street is because Tucker can only be in one place, and Madison's a lot of places."
+      },
+      {
+        "host": "quinn",
+        "text": "Tucker's good at what they do — they're out there right now, probably in a hot zone, probably in the kind of danger that most people wouldn't sign up for even once, let alone every year."
+      },
+      {
+        "host": "quinn",
+        "text": "And they come back. Not every year intact, but they come back. That's the kind of person Tucker is."
+      },
+      {
+        "host": "quinn",
+        "text": "The rest of us — we've got the luxury of staying home. We've got the luxury of being scared behind closed doors."
+      },
+      {
+        "host": "quinn",
+        "text": "And we're supposed to feel grateful for that. And mostly, I do."
+      },
+      {
+        "host": "quinn",
+        "text": "Mostly, I'm grateful that I get to sit here and talk to people like Sarah from Willy Street instead of being out there where it's hot."
+      },
+      {
+        "host": "quinn",
+        "text": "But I'm also thinking about the people who don't get to stay home. The people who don't have a choice because the Purge doesn't give them one."
+      },
+      {
+        "host": "quinn",
+        "text": "Another caller. Michelle from Park Street — Michelle, you're on with Quinn."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michelle from Park Street — I just wanted to check in. I haven't heard anything in my neighborhood for about forty minutes and I'm starting to worry that that's a bad thing."
+      },
+      {
+        "host": "quinn",
+        "text": "Silence is always a bad thing, Michelle. But silence in Park Street usually means people are home where they should be, which is exactly what you want."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michelle from Park Street — That's what I keep telling myself. But my daughter won't stop asking if it's over yet. She's nine."
+      },
+      {
+        "host": "quinn",
+        "text": "Okay. Tell your daughter that there's a man on the radio who's going to stay on the radio until seven in the morning, and she can listen to him if she gets scared."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michelle from Park Street — Can I tell her your name?"
+      },
+      {
+        "host": "quinn",
+        "text": "Tell her it's Quinn. Just Quinn. And tell her that she's going to be fine because her mom's taking care of her, and that's the most important thing."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Michelle from Park Street — Thank you. I'm going to stay on all night if that's okay."
+      },
+      {
+        "host": "quinn",
+        "text": "That's exactly what I'm here for, Michelle. You stay on. Your daughter can sleep. You keep the volume down and you just know that we're here."
+      },
+      {
+        "host": "quinn",
+        "text": "That's three regulars now — Greg, Sarah, Michelle — and the night's still young. The night is still very young."
+      },
+      {
+        "host": "quinn",
+        "text": "This is what I think about when people ask me why I do this. Why I come back every year. Why I risk everything one night a year to sit in a radio station and talk to people I'll never meet."
+      },
+      {
+        "host": "quinn",
+        "text": "It's because Michelle's daughter is nine years old and she's scared and the only way I can help is to be a voice that says 'you're not alone.'"
+      },
+      {
+        "host": "quinn",
+        "text": "It's because the system that creates the Purge counts on you feeling isolated. It counts on you believing that everyone else is out there taking part."
+      },
+      {
+        "host": "quinn",
+        "text": "But they're not. Most people are home. Most people are terrified. Most people are exactly where Michelle is right now."
+      },
+      {
+        "host": "quinn",
+        "text": "And if I can be the voice that tells them that's okay — that hiding is not cowardice, that staying home is the only ethical move — then I'm worth the risk."
+      },
+      {
+        "host": "quinn",
+        "text": "Even if I'm a ghost the other three hundred and sixty-four days of the year."
+      },
+      {
+        "host": "quinn",
+        "text": "Even if my career is a burning building behind me. Even if everyone I worked with has moved on and pretends I never existed."
+      },
+      {
+        "host": "quinn",
+        "text": "I exist tonight. And that's enough."
+      },
+      {
+        "host": "quinn",
+        "text": "Third whiskey going down. The night's starting to soften around the edges for me, which is either a good sign or the beginning of a very bad decision."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim's indicating that we're {{ELAPSED}} in and the kill count is still running low for this point in the night, but concentrated."
+      },
+      {
+        "host": "quinn",
+        "text": "That means whoever's doing the work is doing it efficiently. That means they know what they're doing."
+      },
+      {
+        "host": "quinn",
+        "text": "But we don't talk about that. We don't speculate. We just put out the numbers and let people draw their own conclusions."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the deal with PRGE. We report. We don't editorialize. Well, I editorialize. But that's because I'm drunk and sad and I can get away with it."
+      },
+      {
+        "host": "quinn",
+        "text": "One more call coming in. James from North Side — James, what's happening in your part of town?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from North Side — It's been clean so far. Too clean, maybe. I'm on Sherman and I haven't heard a single siren all night."
+      },
+      {
+        "host": "quinn",
+        "text": "The North Side was quiet last year too. That's actually your advantage. Sirens don't mean anything good on Purge Night, James."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from North Side — That's what I figured. I just wanted to know I wasn't going crazy."
+      },
+      {
+        "host": "quinn",
+        "text": "You're not going crazy. You're exactly sane. Sane enough to know that quiet might actually be a good sign."
+      },
+      {
+        "host": "quinn",
+        "text": "That's it for now, folks. We're {{ELAPSED}} in and we've got a long night ahead of us. Stay with us. Stay home. Stay alive."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide: 38 confirmed (cumulative). East Side +5 this hour. Capitol Square: 3 confirmed 20:40. State Street showing coordinated activity — count pending."
+      },
+      {
+        "category": "local-news",
+        "text": "West Side Watcher reports movement from Capitol Square heading west. Unconfirmed. Residents advised to remain locked down."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Multiple callers confirming unusually quiet conditions in residential zones. Pattern consistent with year-over-year dip. Analysts uncertain if temporary or sustained."
+      },
+      {
+        "category": "emergency",
+        "text": "PRGE broadcasts until 07:00 Madison time. All listeners advised: remain indoors, maintain locked entry points, keep volume low on broadcast."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:41:19.624Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

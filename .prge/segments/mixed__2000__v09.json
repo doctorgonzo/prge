@@ -1,0 +1,489 @@
+{
+  "format": "mixed",
+  "inWorldTime": "20:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "Welcome back to PRGE. Caroline here with Holden. We're {{ELAPSED}} into the Purge and the broadcast is holding steady. The clock reads {{CLOCK}}."
+      },
+      {
+        "host": "holden",
+        "text": "Kill count across Madison is sitting at 19 cumulative as of 20:00. That's right on pace with the 2168 opening — we hit 19 at exactly this point last year."
+      },
+      {
+        "host": "caroline",
+        "text": "East Side is driving most of that activity. Schenk's Corners and Atwood are seeing elevated foot traffic patterns. Wind's still coming southwest at 8 miles per hour, visibility good."
+      },
+      {
+        "host": "holden",
+        "text": "East Side's always the opening move. If you think of the Purge like a chess game — which I do, actually — the East Side is your opening gambit. They're testing the board."
+      },
+      {
+        "host": "caroline",
+        "text": "Testing the board. Holden, people are dying."
+      },
+      {
+        "host": "holden",
+        "text": "I know. I'm just saying the pattern holds. Last year the East Side accounted for 18.2 percent of total kills. It's their territory. They move first."
+      },
+      {
+        "host": "caroline",
+        "text": "Capitol Square saw three reported incidents in the first hour. No breaches. Perimeter is holding. Fortifications from 2159 are still standing — that's a data point."
+      },
+      {
+        "host": "holden",
+        "text": "The Capitol is your king. You don't move your king until mid-game at earliest. The defensive structure around it has remained fundamentally unchanged since the 2159 breach attempt. Which means either the defense is sufficient or the threat assessment has changed."
+      },
+      {
+        "host": "caroline",
+        "text": "Or both. Threat landscape shifts every year. NWS has no formal data on this, but the coordination patterns we're seeing tonight — or not seeing — suggest dispersal over concentration."
+      },
+      {
+        "host": "holden",
+        "text": "Dispersal. Right. So instead of organized groups moving toward high-value targets, we're seeing more scattered, opportunistic activity. That's actually more dangerous at scale because it's harder to predict."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is why we track it. The unpredictable is the worst-case scenario. We need predictable patterns so people can plan accordingly."
+      },
+      {
+        "host": "holden",
+        "text": "And yet every year someone does something nobody predicted. That's the thing about a 12-hour free-for-all — there's always an edge case."
+      },
+      {
+        "host": "caroline",
+        "text": "Beltline Corridor is quiet so far. No reported vehicle incidents. That's unusual for this early."
+      },
+      {
+        "host": "holden",
+        "text": "Usually the vehicle activity doesn't spike until around 23:00, when people get tired of the residential stuff and want to see what they can do with mobility. You know, like a pawn upgrade to a knight situation."
+      },
+      {
+        "host": "caroline",
+        "text": "Stop it."
+      },
+      {
+        "host": "holden",
+        "text": "I'm just establishing a framework for analysis."
+      },
+      {
+        "host": "caroline",
+        "text": "You're burying fear in analogies. And you're making the people listening feel worse. Stop."
+      },
+      {
+        "host": "holden",
+        "text": "Fair. Fair. Okay. So. The kill count is 19. Last year it was 19. Everything is on schedule. That's the actual data point."
+      },
+      {
+        "host": "caroline",
+        "text": "Thank you. Visibility is currently 10 miles. Temperature holding at 41 degrees. Wind unchanged. No precipitation forecast until approximately 23:00, when the cold front begins its approach."
+      },
+      {
+        "host": "holden",
+        "text": "Right, so we'll see activity possibly suppress between 02:00 and 04:00 as temperatures drop and conditions worsen. Which actually correlates with the 2168 data — there was a noticeable dip in the 02:00 hour due to the weather event."
+      },
+      {
+        "host": "caroline",
+        "text": "Exact same timing. I've checked the NWS historical records twice. The cold front should arrive within a 30-minute window centered on 01:00 Madison time tomorrow."
+      },
+      {
+        "host": "holden",
+        "text": "That's remarkably specific."
+      },
+      {
+        "host": "caroline",
+        "text": "I do this for a living. Well. I do this one night a year. The rest of the time I'm on the 27 o'clock forecast."
+      },
+      {
+        "host": "holden",
+        "text": "Which, if we're being honest, is probably less important than what you're doing right now."
+      },
+      {
+        "host": "caroline",
+        "text": "I wouldn't say that. But I'd say it's different stakes."
+      },
+      {
+        "host": "holden",
+        "text": "The Purge turns everything upside down. The things that matter most any other night become background noise. And the things that would be completely irrelevant in normal circumstances become critical."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is exactly why we have to stay professional. If we treat this like it's anything other than a data problem to be managed, we're useless."
+      },
+      {
+        "host": "holden",
+        "text": "You're right. And yet I still want to know if the Brewers made any trades in the off-season."
+      },
+      {
+        "host": "caroline",
+        "text": "No."
+      },
+      {
+        "host": "holden",
+        "text": "I'm serious. It's the only way my brain knows how to access other information right now. If I talk about the Brewers, the Purge data doesn't feel as heavy."
+      },
+      {
+        "host": "caroline",
+        "text": "Then talk to Tim about the Brewers. Tim knows baseball. I know weather systems and Purge survival patterns."
+      },
+      {
+        "host": "holden",
+        "text": "Fair division of labor. I respect that. Okay. So. Returning to the data. Williamson Street — that's the Willy Street neighborhood — is showing a predictable residential activity baseline. No organized group movements yet."
+      },
+      {
+        "host": "caroline",
+        "text": "Willy Street has the armed neighborhood watch. That's a deterrent. Not a prevention, but a deterrent."
+      },
+      {
+        "host": "holden",
+        "text": "Exactly. It's like castling — you're fortifying your position instead of advancing. Smart defensive strategy."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm going to tell you right now — I will cut your mic if you make one more chess reference."
+      },
+      {
+        "host": "holden",
+        "text": "Understood. Clean data only. No analogies."
+      },
+      {
+        "host": "caroline",
+        "text": "Thank you. Listener text just came in from someone in the Vilas Park area asking about evacuation routes if conditions deteriorate overnight."
+      },
+      {
+        "host": "holden",
+        "text": "Tell them to stay sheltered. Movement at night during the Purge increases risk exposure exponentially. If their current location is secure, moving is the mistake."
+      },
+      {
+        "host": "caroline",
+        "text": "That's what I'm telling them, yes. Tim will have formal evac routes available if needed, but the first rule is shelter-in-place."
+      },
+      {
+        "host": "holden",
+        "text": "The first rule is always shelter-in-place. The second rule is don't break the first rule. The third rule is call the station if you need to hear a human voice."
+      },
+      {
+        "host": "caroline",
+        "text": "That's actually good. Keep that energy. The people listening are terrified. The data matters, but the tone matters more."
+      },
+      {
+        "host": "holden",
+        "text": "I know. I just don't know how to do both at the same time — be accurate and be kind. It feels like a contradiction."
+      },
+      {
+        "host": "caroline",
+        "text": "It's not. Accuracy is kindness. False hope is cruelty. So we give them the real numbers and we tell them what we'd do."
+      },
+      {
+        "host": "holden",
+        "text": "What would you do right now, if you were listening from home?"
+      },
+      {
+        "host": "caroline",
+        "text": "I'd be listening from home. I'd have my windows locked. I'd have my phone charged. I'd have water and a first-aid kit within reach. I'd have a charged radio. And I'd listen to this broadcast until 07:00, because it's the one thing that makes tonight feel less alone."
+      },
+      {
+        "host": "holden",
+        "text": "That's what I needed to hear. Not the data — the actual thing you'd do."
+      },
+      {
+        "host": "caroline",
+        "text": "The data is the thing I'd do. The data is what keeps you safe."
+      },
+      {
+        "host": "holden",
+        "text": "Okay. So we're back to this: East Side is active, Capitol Square is holding, Willy Street is fortified, Beltline is quiet, kill count is on pace, weather is stable until 23:00."
+      },
+      {
+        "host": "caroline",
+        "text": "And that's the first-hour summary. Things can change. They usually do."
+      },
+      {
+        "host": "holden",
+        "text": "Last year the Capitol was breached at 21:40. The year before that, State Street saw a coordinated surge at 22:15. There's always a moment where the pattern breaks."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is why we stay alert. This isn't the end of the story — this is the prologue."
+      },
+      {
+        "host": "holden",
+        "text": "We're {{ELAPSED}} in. Eleven hours and 35 minutes until the all-clear. That's the distance we have to cover."
+      },
+      {
+        "host": "caroline",
+        "text": "One minute at a time. One data point at a time. One person listening to us at a time."
+      },
+      {
+        "host": "holden",
+        "text": "I like that. Okay. So what's the next thing we're tracking?"
+      },
+      {
+        "host": "caroline",
+        "text": "Caller from Atwood Avenue just reported that his neighbor's security panels are buckling. But he's not going to help because opening his door is the mistake."
+      },
+      {
+        "host": "holden",
+        "text": "Correct. You don't breach your shelter for anyone. That's the rule."
+      },
+      {
+        "host": "caroline",
+        "text": "Exactly. The caller is staying home. His neighbor has their own panels. If they fail, that's a choice the neighbor made. Not his responsibility tonight."
+      },
+      {
+        "host": "holden",
+        "text": "That sounds callous."
+      },
+      {
+        "host": "caroline",
+        "text": "It's survival. Compassion comes tomorrow. Tonight you protect your own shelter. That's the deal."
+      },
+      {
+        "host": "holden",
+        "text": "The Purge really does strip everything down to first principles. No one's helping anyone because everyone's terrified."
+      },
+      {
+        "host": "caroline",
+        "text": "Most people are terrified. Some people are out there having the time of their lives. That's the other half of the story."
+      },
+      {
+        "host": "holden",
+        "text": "The ones who want this. The ones who've been waiting for it."
+      },
+      {
+        "host": "caroline",
+        "text": "We don't think about them when we're in the shelter. But they exist. They're out there. They're the reason we're in here."
+      },
+      {
+        "host": "holden",
+        "text": "Okay. Data reset. Let me get fresh numbers from the field. Tucker, you there?"
+      },
+      {
+        "host": "caroline",
+        "text": "Tucker's on deployment. We won't hear from them until 21:00. It's just us until Quinn and Marigold come back at 22:00."
+      },
+      {
+        "host": "holden",
+        "text": "Right. Right. So it's you and me for the next two hours. Which means I have to find something to talk about that isn't an analogy."
+      },
+      {
+        "host": "caroline",
+        "text": "Talk about the people listening. Talk about why they're here. Talk about what keeps them coming back to this broadcast year after year."
+      },
+      {
+        "host": "holden",
+        "text": "That's the thing I don't have data for. Loyalty. Community. The reason people stay tuned to a pirate broadcast about the one night of the year when society collapses."
+      },
+      {
+        "host": "caroline",
+        "text": "Because it's the one night when everything is honest. There's no pretense. No government pretending to protect you. No law pretending to exist. Just you and your four walls and a voice on the radio saying 'you're not alone.'"
+      },
+      {
+        "host": "holden",
+        "text": "That's beautiful, actually. That's the real story tonight."
+      },
+      {
+        "host": "caroline",
+        "text": "The kill count is important. The neighborhoods are important. The weather is important. But the reason people are listening is because someone cared enough to broadcast into the darkness."
+      },
+      {
+        "host": "holden",
+        "text": "Tim cares. Quinn cares. Nick cares, even if he doesn't show it the same way."
+      },
+      {
+        "host": "caroline",
+        "text": "And we're here. We're showing up. That matters."
+      },
+      {
+        "host": "holden",
+        "text": "Okay. I feel better. Thank you."
+      },
+      {
+        "host": "caroline",
+        "text": "Don't thank me. Just stay with me for the next two hours. And don't make any more chess analogies."
+      },
+      {
+        "host": "holden",
+        "text": "I can't promise that, but I can try. I can actively try."
+      },
+      {
+        "host": "caroline",
+        "text": "That's all anyone can do. Try. And listen. And wait for 07:00."
+      },
+      {
+        "host": "holden",
+        "text": "{{ELAPSED}} in. We're doing it. We're actually doing it."
+      },
+      {
+        "host": "caroline",
+        "text": "We're doing it. Every second we stay on the air is a victory. Every caller we can reassure is a victory. Every person who makes it through the night without opening their door is a victory."
+      },
+      {
+        "host": "holden",
+        "text": "Small victories."
+      },
+      {
+        "host": "caroline",
+        "text": "The only kind that matter."
+      },
+      {
+        "host": "holden",
+        "text": "Signal just cut for a second. Did you notice that?"
+      },
+      {
+        "host": "caroline",
+        "text": "I noticed. Tim will note it. We're still here. The broadcast is still live."
+      },
+      {
+        "host": "holden",
+        "text": "There's interference tonight. I can feel it. Like something's trying to block us."
+      },
+      {
+        "host": "caroline",
+        "text": "There's always interference. Every year someone tries to jam the signal. Tim's dealt with it before. He'll deal with it again."
+      },
+      {
+        "host": "holden",
+        "text": "But what if they succeed? What if we go dark?"
+      },
+      {
+        "host": "caroline",
+        "text": "Then we come back up. That's what happened in 2168. Tim had a jammer within 200 meters. He relocated the antenna in four minutes. We came back stronger."
+      },
+      {
+        "host": "holden",
+        "text": "You remember that."
+      },
+      {
+        "host": "caroline",
+        "text": "I remember everything about this night. Every year. I keep notes. When I go home tomorrow, I write it all down. Next year, I read it. It helps me remember why we do this."
+      },
+      {
+        "host": "holden",
+        "text": "That's incredible. I just survive it. You document it."
+      },
+      {
+        "host": "caroline",
+        "text": "You do both. You survive and you track it. That's your job. That's why you're here."
+      },
+      {
+        "host": "holden",
+        "text": "Okay. So the signal cutting — that's probably nothing. Just atmospheric interference. Urban RF noise. Nothing to worry about."
+      },
+      {
+        "host": "caroline",
+        "text": "Nothing to worry about until there is something to worry about. And then we worry about it. Until then, we talk about the weather and the kill count and the neighborhoods."
+      },
+      {
+        "host": "holden",
+        "text": "The neighborhoods. Right. So State Street is still relatively quiet. Capitol Square is secure. East Side is moving but within expected parameters."
+      },
+      {
+        "host": "caroline",
+        "text": "We're going to see that change around 21:30. The opening hour always ends with some kind of incident. It's the moment when people realize the Purge is actually happening."
+      },
+      {
+        "host": "holden",
+        "text": "That's a dark thing to say."
+      },
+      {
+        "host": "caroline",
+        "text": "It's accurate. The first hour is people processing. The second hour is people acting. That's always the transition point."
+      },
+      {
+        "host": "holden",
+        "text": "So in roughly 90 minutes, we're going to see a spike."
+      },
+      {
+        "host": "caroline",
+        "text": "Guaranteed. The only question is where and how severe."
+      },
+      {
+        "host": "holden",
+        "text": "And we won't know until it happens."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is why we stay alert. Which is why we're here. Which is why they're listening."
+      },
+      {
+        "host": "holden",
+        "text": "Because we're going to tell them what's happening as it happens. No spin. No delay. Just the truth."
+      },
+      {
+        "host": "caroline",
+        "text": "As much of the truth as we can get. Which is sometimes not much."
+      },
+      {
+        "host": "holden",
+        "text": "But it's more than they'd get anywhere else."
+      },
+      {
+        "host": "caroline",
+        "text": "It's more than the government would tell them. It's more than the official channels would broadcast. This pirate station is the only honest thing on the air tonight."
+      },
+      {
+        "host": "holden",
+        "text": "Which is why they hunt us. Which is why Tim has to move the antenna. Which is why we're always one step ahead of being shut down."
+      },
+      {
+        "host": "caroline",
+        "text": "And we'll keep doing it. Because the alternative is silence. And silence is death."
+      },
+      {
+        "host": "holden",
+        "text": "Okay. That's enough philosophy. Let me get a fresh weather update for you. I want to know about that cold front timeline again."
+      },
+      {
+        "host": "caroline",
+        "text": "The cold front is arriving at approximately 01:00 to 01:30. Temperature will drop from 41 to approximately 24 degrees. Wind will shift northwest and increase to 18 miles per hour, with gusts to 28. Precipitation will begin as rain and transition to sleet around 01:15."
+      },
+      {
+        "host": "holden",
+        "text": "And that will suppress activity."
+      },
+      {
+        "host": "caroline",
+        "text": "Historically, yes. People don't like being cold and wet. Even during the Purge. Even when everything is legal. The weather still matters."
+      },
+      {
+        "host": "holden",
+        "text": "So the kill count should dip between 02:00 and 04:00."
+      },
+      {
+        "host": "caroline",
+        "text": "In theory. Weather doesn't always cooperate with the data. Sometimes it surprises you."
+      },
+      {
+        "host": "holden",
+        "text": "Which is why you keep notes."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is why I keep notes."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 19 ({{ELAPSED}} elapsed). On pace with 2168 opening hour."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood/Schenk's Corners): elevated activity. Capitol Square: fortified, holding. Willy Street: armed neighborhood watch in position."
+      },
+      {
+        "category": "local-news",
+        "text": "Signal interference detected on broadcast at {{CLOCK}}. Tim monitoring. No operational impact. Jammer activity suspected. Remediation standby."
+      },
+      {
+        "category": "emergency",
+        "text": "Caller from Atwood reports neighbor's security panels buckling. Advised to remain sheltered. Do not breach your own perimeter to assist others. That's the rule tonight."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:40:28.591Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

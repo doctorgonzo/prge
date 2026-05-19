@@ -1,0 +1,249 @@
+{
+  "format": "wellness",
+  "inWorldTime": "23:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. It's {{CLOCK}} Madison time. {{ELAPSED}} into the Purge tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm Sister Marigold. We're going to spend the next hour in stillness. [pause] If you're listening, you've already chosen the harder path."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold for four. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. In through the nose. [pause] The air is cold tonight. Notice that."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold. [pause] And release."
+      },
+      {
+        "host": "marigold",
+        "text": "We've been running five hours. You've heard the numbers. Tucker's count from the field. Holden's patterns. Caroline's data. [pause] The numbers are real."
+      },
+      {
+        "host": "marigold",
+        "text": "But you're here. You stayed home. That means you chose not to be a number tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] Think about Monroe Street right now. Think about Nakoma. West Side. Do you know people there?"
+      },
+      {
+        "host": "marigold",
+        "text": "If you do, they are probably doing exactly what you're doing. Barricaded. Waiting. Listening to this voice."
+      },
+      {
+        "host": "marigold",
+        "text": "You're not alone. [pause] That's what I want you to feel in your body right now."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan down from your head. Notice your temples. Are they tight? That's okay. They're holding something. [pause] Let them."
+      },
+      {
+        "host": "marigold",
+        "text": "Down to your jaw. Your shoulders. Most people carry the Purge in their shoulders. [pause] Press them down into the chair."
+      },
+      {
+        "host": "marigold",
+        "text": "Your chest. Your heart is still beating. That matters."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to think about a room in your home where you feel safest. [pause] Not the room you're in necessarily. A room you remember."
+      },
+      {
+        "host": "marigold",
+        "text": "What color are the walls? [pause] What do you smell there?"
+      },
+      {
+        "host": "marigold",
+        "text": "Sit in that room now. Even if it's not real anymore. Even if the house was sold. The room exists in you."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe there. [pause] The ones outside cannot follow you into memory."
+      },
+      {
+        "host": "marigold",
+        "text": "We're five hours in. Seven hours remain. [pause] You have made it halfway through the dark."
+      },
+      {
+        "host": "marigold",
+        "text": "Some of you are thinking about people you haven't forgiven. [pause] I want to name that. It's real."
+      },
+      {
+        "host": "marigold",
+        "text": "The Purge brings them back. The people you cut out. The names you don't say. [pause] Tonight they're on your mind because tonight everything is louder."
+      },
+      {
+        "host": "marigold",
+        "text": "But they are not your responsibility tonight. [pause] Your only responsibility is to stay in your body. To breathe."
+      },
+      {
+        "host": "marigold",
+        "text": "If you have a door, check it once more. [pause] Then sit away from it. You have done what you can do."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm going to ask you something. You don't have to answer. But feel the question in your chest."
+      },
+      {
+        "host": "marigold",
+        "text": "Why did you choose to stay home tonight? [pause] Was it fear? Was it values? Was it both?"
+      },
+      {
+        "host": "marigold",
+        "text": "There's no wrong answer. [pause] But the answer you give yourself is important."
+      },
+      {
+        "host": "marigold",
+        "text": "Because tonight, that answer is the only thing protecting you. [pause] Not the locks. Not the barricades. Your answer."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] In the Order, we say there are two kinds of darkness. The darkness outside your window, and the darkness you carry inside."
+      },
+      {
+        "host": "marigold",
+        "text": "Tonight they are the same darkness. [pause] That's why you're afraid."
+      },
+      {
+        "host": "marigold",
+        "text": "But you're listening to my voice. [pause] And my voice is a light."
+      },
+      {
+        "host": "marigold",
+        "text": "Think about the West Side right now. Hilldale. The big houses. Do you think they feel safe in those houses? [pause] Does money keep you safe on Purge Night?"
+      },
+      {
+        "host": "marigold",
+        "text": "It doesn't. [pause] Safety is something you build inside yourself."
+      },
+      {
+        "host": "marigold",
+        "text": "We are {{ELAPSED}} in. That means you have already survived five hours. [pause] You know how to do this."
+      },
+      {
+        "host": "marigold",
+        "text": "Your body remembers. [pause] Every Purge, you make it through. Every Purge, the sun comes up."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe like the sun is coming. [pause] Breathe like you already know it will."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to locate your hands right now. Feel them in your lap, or on the armrest, or on your phone as you listen. [pause] Feel the weight of them."
+      },
+      {
+        "host": "marigold",
+        "text": "Those hands chose to stay home. [pause] Those hands did not reach for a weapon."
+      },
+      {
+        "host": "marigold",
+        "text": "That is a kind of strength that doesn't get counted. [pause] That is the strength the world doesn't see."
+      },
+      {
+        "host": "marigold",
+        "text": "But we see it. The Order sees it. [pause] And you'll carry it forward."
+      },
+      {
+        "host": "marigold",
+        "text": "There's a prayer we use sometimes. It's very old. It goes — [pause] ka-malatok-sha-tem-vor. [pause] It means nothing in any language you speak."
+      },
+      {
+        "host": "marigold",
+        "text": "But when you say it, your body knows. [pause] Your body knows the prayer is real even if your mind doesn't."
+      },
+      {
+        "host": "marigold",
+        "text": "Your body is smarter than your mind right now. [pause] So let your body lead."
+      },
+      {
+        "host": "marigold",
+        "text": "Think again about Monroe Street. About the people barricaded there. They are breathing too. [pause] In and out. In and out."
+      },
+      {
+        "host": "marigold",
+        "text": "Your breath is connected to theirs. [pause] You are all breathing the same cold Madison air."
+      },
+      {
+        "host": "marigold",
+        "text": "That is community. [pause] That is enough."
+      },
+      {
+        "host": "marigold",
+        "text": "We've been talking for a long time now. [pause] The hour is moving. And you are moving through it."
+      },
+      {
+        "host": "marigold",
+        "text": "When you leave this space — and you will, because the broadcast continues, because the night continues — carry this stillness with you."
+      },
+      {
+        "host": "marigold",
+        "text": "You don't have to hold onto it. It will hold onto you. [pause] That's what stillness does."
+      },
+      {
+        "host": "marigold",
+        "text": "In the final minutes, I want you to breathe in the dark. [pause] Not the dark outside. The dark inside your eyelids if you close them."
+      },
+      {
+        "host": "marigold",
+        "text": "That dark is yours. [pause] That dark is safe."
+      },
+      {
+        "host": "marigold",
+        "text": "When you open your eyes, you'll still be here. [pause] Still home. Still alive."
+      },
+      {
+        "host": "marigold",
+        "text": "And the night will be seven hours shorter. [pause] Seven hours closer to morning."
+      },
+      {
+        "host": "marigold",
+        "text": "That's all the Purge is, really. [pause] Just time. Just hours. Just breath after breath until the light comes back."
+      },
+      {
+        "host": "marigold",
+        "text": "You can do this. [pause] You already are."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "neighborhood",
+        "text": "West Side activity surge reported between 22:45–23:00. Nakoma / Hilldale perimeter patrols engaged."
+      },
+      {
+        "category": "kill-count",
+        "text": "Madison-wide count at 23:00 hour: 61 kills cumulative. +23 this hour."
+      },
+      {
+        "category": "emergency",
+        "text": "Monroe Street: Community alert system activated. No breaches reported. Barricade status green."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "Safety is something you build inside yourself."
+      },
+      {
+        "category": "local-news",
+        "text": "Temperature dropping. Caroline's forecast: 33°F at 23:00, wind SW 15 mph, gusts to 22."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "Your body is smarter than your mind right now."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:30:23.874Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

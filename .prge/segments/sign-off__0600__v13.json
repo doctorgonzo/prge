@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "It's {{CLOCK}} Madison. {{ELAPSED}} since the sirens went down. The city's still dark out there, but you can feel it coming — that moment when the law comes back and we all have to remember who we're supposed to be."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature holding at twenty-one. Wind from the north, five miles per hour. Clear skies. Sunrise at six forty-seven. Fifty-one minutes from now."
+      },
+      {
+        "host": "holden",
+        "text": "We're at one hundred eighty-seven kills for the night. That's the final count. One hundred eighty-seven people who went out and one hundred eighty-seven people who came home. Both of those numbers are just numbers until they're not."
+      },
+      {
+        "host": "tucker",
+        "text": "I made it back. East Side's gone quiet. Neighborhood watch on Willy Street is standing down. Nobody's moving anymore. It's like the whole city just stopped breathing at once."
+      },
+      {
+        "host": "nick",
+        "text": "I was going to play something for the close, but I think I'm just going to sit here. Some nights the music doesn't help."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I noticed, sitting here watching the clock count down? The quiet. The silence we got around three in the morning — that was worse than any of the noise."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. The ones who are gone are not gone because of you. The ones who stayed home are not safe because of you. You did what you could with the choice you were given."
+      },
+      {
+        "host": "caroline",
+        "text": "The fog burned off faster than I predicted. The lake's visible now. You can see the Capitol dome catching the pre-dawn. In about forty minutes that's going to look like gold."
+      },
+      {
+        "host": "holden",
+        "text": "One hundred eighty-seven is down from two hundred and one in twenty-one forty-one. It's up from one hundred seventy-nine in twenty-one sixty-seven. What that tells us is that we're holding. We're not getting worse."
+      },
+      {
+        "host": "quinn",
+        "text": "I've been thinking about Darren from Atwood. Guy called in early, worried about his neighbor's panels. Wonder if that neighbor made it through. Wonder if Darren's going to call again next year and we're going to find out."
+      },
+      {
+        "host": "tucker",
+        "text": "No reports from State Street for the last four hours. First time that's happened. Either everybody got what they needed, or nobody's left to want it."
+      },
+      {
+        "host": "nick",
+        "text": "I used to know a guy who said the Purge was the only honest night of the year. Everybody showing who they really are. I think he was full of shit, but some nights I can't shake the idea that he was half-right."
+      },
+      {
+        "host": "caroline",
+        "text": "Forty-three minutes to sunrise. The wind's been consistent all night. Stabilized around zero-one-thirty. That kept the cold worse, kept some people inside who might've been outside."
+      },
+      {
+        "host": "marigold",
+        "text": "The door is still closed. You made it to the other side. You're still here. That's everything."
+      },
+      {
+        "host": "holden",
+        "text": "If you look at the five-year trend, Madison's consistently running about eighteen percent below the national metro average. That means something. I don't know what it means, but it means something."
+      },
+      {
+        "host": "quinn",
+        "text": "There was a woman who called in around five in the morning. She didn't leave a name. She just wanted to hear somebody's voice. I hope she's okay. I hope she calls back."
+      },
+      {
+        "host": "tucker",
+        "text": "Last field report I'm filing: all neighborhoods accounted for. No missing teams. The rig never went down for more than four minutes. We did what we came to do."
+      },
+      {
+        "host": "nick",
+        "text": "You know what? Screw it. Last song of the night is going to be The Ramones. 'I Wanna Be Sedated.' Because somewhere in that song is the whole thing. The whole stupid thing."
+      },
+      {
+        "host": "caroline",
+        "text": "Thirty-six minutes. The pre-dawn glow's starting to show on the horizon. That's north-northeast. The Capitol's going to be visible in about ten minutes."
+      },
+      {
+        "host": "quinn",
+        "text": "I want to thank everybody who stayed on all twelve hours. All twelve. You didn't have to. You could've turned us off at midnight, at three, at five. You stayed. That matters. You matter."
+      },
+      {
+        "host": "marigold",
+        "text": "Close your eyes for a moment. Feel your heartbeat. You're alive. You made it. That's the meditation for tonight."
+      },
+      {
+        "host": "holden",
+        "text": "One hundred eighty-seven. The number doesn't change now. It's done. It's final. We'll count it next year and see what we learned."
+      },
+      {
+        "host": "tucker",
+        "text": "Sunrise in twenty-eight minutes. The sirens come back. The law comes back. We go away again until next year. But right now, right this second, we're still here. All of us."
+      },
+      {
+        "host": "tim",
+        "text": "We did it again. Twelve hours. We came back to this broken frequency, on this unlicensed band, in this city that nobody's supposed to be broadcasting from, and we held the line. I want to say thank you to Quinn, who came back despite everything, despite all the reasons he shouldn't be here. To Caroline and Holden, who counted the dead and the living and never stopped treating both with respect. To Tucker, who went out into the dark so the rest of us could stay home. To Marigold, who reminded us that we're still human beings, even on a night when that's the hardest thing to remember. To Nick, who played music when there was nothing else left to say. And to you — everyone listening, everyone who barricaded a door, everyone who made the choice to stay alive, everyone who called in just to hear a voice. This station exists because you exist. This broadcast happens because you refuse to let this night own you. We lost people tonight. One hundred eighty-seven of them. That's one hundred eighty-seven families that won't look the same at breakfast. That's one hundred eighty-seven names that will live in someone's throat forever. We didn't stop that. We can't stop that. But we held something else: we held the idea that you don't have to participate. We held the line that says there's another way to get through this night. Next year, if we're here, we'll hold it again. Tonight, we're signing off. Stay safe. Take care of each other when you see each other tomorrow. And remember: you made it. You survived. That's the only victory that matters."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "FINAL MADISON COUNT 2169: 187 confirmed. YoY change: +0% (baseline). National metro average: 228. Madison running 18% below."
+      },
+      {
+        "category": "emergency",
+        "text": "PURGE ENDS AT 07:00. All law enforcement resumes full authority. Emergency services resuming dispatch at 07:01. MorningCare Triage lines activate."
+      },
+      {
+        "category": "local-news",
+        "text": "SUNRISE 06:47. Clear skies holding. Temperature 21°F. Wind 5mph north. Visibility 10+ miles. Capitol dome visible from Lake Mendota shoreline."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "You made it to the other side. You're still here. That's everything."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:44:37.042Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

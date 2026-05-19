@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm on the East Side near Schenk's Corners. The clock reads {{CLOCK}}. We're {{ELAPSED}} in and the neighborhood is — quiet right now. Too quiet. Madison-wide kill count sitting at 139, which puts us about 3% ahead of last year at this hour."
+      },
+      {
+        "host": "tucker",
+        "text": "The cold front that came through between 00:30 and 01:00 seems to have driven most activity indoors. I'm seeing lights out in maybe 60% of the residential structures in this three-block radius. That's actually higher than the 2168 pattern — people barricaded early."
+      },
+      {
+        "host": "tucker",
+        "text": "Weapons-trade data from my node shows bladed instruments are running at 26% of total kill methods tonight, which — Holden, you're going to appreciate this — that's 4 percentage points above last year same hour. Firearms are dropping as a proportion. Economic pressure, likely."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side neighborhood itself has 34 confirmed kills so far. That's right on pace with 2168. The Atwood corridor is the hottest subzone — I'm hearing sirens — no, not sirens, I'm hearing — hold on, my body cam just lost —"
+      },
+      {
+        "host": "tucker",
+        "text": "Signal's back. Brief dropout. I'm relocating north, away from the commercial strip. Holden, the State Street Ruins — you wanted the comparative data on that zone from 2168 same hour — at 02:00 AM last year they had 24 cumulative kills. Tonight they're at 28. That's 20% hotter, concentrated activity between —"
+      },
+      {
+        "host": "tucker",
+        "text": "There's a vehicle fire, roughly two blocks northwest of my position. No immediate activity around it. Could be from the 01:20 Beltline incident cascading, could be separate. Building across the street has emergency lighting — flashlights in the windows. Ground floor appears [CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 139 kills at {{CLOCK}}. +3% YoY same hour. East Side leading at 34 kills."
+      },
+      {
+        "category": "neighborhood",
+        "text": "State Street Ruins running 20% hotter than 2168. Concentrated activity 00:30–02:00 window. Cause unclear."
+      },
+      {
+        "category": "local-news",
+        "text": "Widespread power outages reported. PRGE operating on backup. Broadcast integrity at 94%. Tim reports antenna relay stable."
+      },
+      {
+        "category": "emergency",
+        "text": "Vehicle fire, East Side near Schenk's. No active threat to populated structures. Fire services not responding (Purge protocol)."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:08:15.540Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

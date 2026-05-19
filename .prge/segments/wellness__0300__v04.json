@@ -1,0 +1,237 @@
+{
+  "format": "wellness",
+  "inWorldTime": "03:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. The clock reads {{CLOCK}}. We are {{ELAPSED}} in. [pause] If you're still awake, that's good. That means you chose to stay."
+      },
+      {
+        "host": "marigold",
+        "text": "Let's begin with the body. Feet on the floor — do you feel them? [pause] The weight. The contact. That's real."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in through the nose. [pause] Four counts. One. Two. Three. Four."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold. [pause] The air in your lungs is yours. No one can take that."
+      },
+      {
+        "host": "marigold",
+        "text": "Release through the mouth. Slowly. There's no rush. There's all the time in the world."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. In. [pause] Four counts. The body doesn't lie. It knows what's happening outside. It knows you're safe in here."
+      },
+      {
+        "host": "marigold",
+        "text": "There was a woman who called earlier. She was by the lake. Did you hear her? [pause] She just wanted the sound of a voice."
+      },
+      {
+        "host": "marigold",
+        "text": "That's what this is. Sound. Proof that you're not alone in the dark."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold. [pause] I want you to think about the things you've forgiven yourself for. Not other people. You."
+      },
+      {
+        "host": "marigold",
+        "text": "The moments you were weak. The times you stayed quiet when you could have spoken. [pause] Can you hold those without shame?"
+      },
+      {
+        "host": "marigold",
+        "text": "The power's out on Williamson Street now. They were holding so well. [pause] But that's not your responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "Your responsibility is the next breath. [pause] In. Hold. Release."
+      },
+      {
+        "host": "marigold",
+        "text": "There are people outside your door. I know that. You know that. But they are not your responsibility either."
+      },
+      {
+        "host": "marigold",
+        "text": "You built this wall. You chose this door. You did that. That's power."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan your body from the feet upward. Calves. Thighs. The weight in your hips on whatever you're sitting on."
+      },
+      {
+        "host": "marigold",
+        "text": "Stomach. Chest. [pause] Does your chest feel tight? That's okay. Name it. Don't fight it."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who came before us did this too. Sat in the dark. Listened. Waited. [pause] They survived."
+      },
+      {
+        "host": "marigold",
+        "text": "Your ancestors survived darker nights than this. Literal darkness. Without radios. Without voices reaching through the void."
+      },
+      {
+        "host": "marigold",
+        "text": "Shul-ka-lis-na-vor. [pause] Breathe."
+      },
+      {
+        "host": "marigold",
+        "text": "That was nothing. That was the Order. We have practices. [pause] We breathe in languages that don't translate."
+      },
+      {
+        "host": "marigold",
+        "text": "Your shoulders. Are they touching your ears? Let them fall. [pause] There. They don't need to guard anything right now."
+      },
+      {
+        "host": "marigold",
+        "text": "Nine hours. [pause] Three hours left. That's the hardest part — the darkest hour is not the last hour. It's the hour before the last hours."
+      },
+      {
+        "host": "marigold",
+        "text": "The kill count is climbing. Tucker was quiet when they came back from State Street. Did you notice? [pause] That silence was information."
+      },
+      {
+        "host": "marigold",
+        "text": "But that is not your silence to carry. That's theirs. You are here. You are safe. You are breathing."
+      },
+      {
+        "host": "marigold",
+        "text": "Neck. Jaw. Are your teeth clenched? [pause] Unclench them. Let your tongue rest heavy. [pause] There."
+      },
+      {
+        "host": "marigold",
+        "text": "I want to tell you something about the Quiet Order. We don't celebrate the Purge. [pause] We celebrate the staying."
+      },
+      {
+        "host": "marigold",
+        "text": "Every person listening right now has made a choice. To remain. To witness. To not participate. [pause] That is a form of grace."
+      },
+      {
+        "host": "marigold",
+        "text": "Face. Eyes. Can you feel your eyelids? The weight of them? [pause] They're doing their job. Protecting. Always protecting."
+      },
+      {
+        "host": "marigold",
+        "text": "There's a man in the Capitol right now. Regional Director Calloway. Quinn named him earlier. [pause] He's behind blast glass. He's never been in a room without an exit."
+      },
+      {
+        "host": "marigold",
+        "text": "You're in a room with no exit right now. [pause] But you chose to be here. That's different. That's courage."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] Deep. From the belly. Feel it expand. [pause] Feel it release."
+      },
+      {
+        "host": "marigold",
+        "text": "The lake is cold right now. Thirty-one degrees. Three bodies in the water. Two recovered. [pause] One is still looking for the bottom."
+      },
+      {
+        "host": "marigold",
+        "text": "I say this not to disturb you. I say this so you know: you are warm. Your walls are solid. Your door is locked."
+      },
+      {
+        "host": "marigold",
+        "text": "That matters. [pause] It matters."
+      },
+      {
+        "host": "marigold",
+        "text": "The crown of your head. That point where you feel the most alive and the most vulnerable. [pause] That's where the light reaches in."
+      },
+      {
+        "host": "marigold",
+        "text": "That's also where the sound reaches in. Nick's music. Quinn's voice. Caroline's cold facts. [pause] These are threads. You're holding one."
+      },
+      {
+        "host": "marigold",
+        "text": "When the Purge ends — and it will end, it always ends, at 07:00 the law returns — you will open your door."
+      },
+      {
+        "host": "marigold",
+        "text": "And the world will be the same and different. [pause] You will be the same and different."
+      },
+      {
+        "host": "marigold",
+        "text": "But you will have made it through. That's what I'm here to tell you. [pause] You're making it through right now."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. Hold. [pause] Release. [pause] Again."
+      },
+      {
+        "host": "marigold",
+        "text": "There are forty-two minutes until the sun thinks about rising. [pause] Until then, you are exactly where you need to be."
+      },
+      {
+        "host": "marigold",
+        "text": "Stay with me. Stay with the sound. [pause] That's all that's asked."
+      },
+      {
+        "host": "marigold",
+        "text": "In. Hold. Release. [pause] In. Hold. Release."
+      },
+      {
+        "host": "marigold",
+        "text": "The Order teaches that silence is a form of speech. [pause] The things we don't say are louder than the things we do."
+      },
+      {
+        "host": "marigold",
+        "text": "Right now, in your silence, you are speaking the loudest you've ever spoken. [pause] Do you hear yourself?"
+      },
+      {
+        "host": "marigold",
+        "text": "One more time. Full body. Feet to crown. Every cell awake. Every cell listening. [pause] You are here."
+      },
+      {
+        "host": "marigold",
+        "text": "And when I count to three, you will return to the broadcast. Quinn and Caroline will be waiting. Nick will have a song. [pause] You won't be alone."
+      },
+      {
+        "host": "marigold",
+        "text": "One. [pause] Your eyes can open if they want to."
+      },
+      {
+        "host": "marigold",
+        "text": "Two. [pause] The room is still your room. You're still safe."
+      },
+      {
+        "host": "marigold",
+        "text": "Three. [pause] Welcome back to the Purge. Welcome back to being awake."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "East Side cumulative: 32. Beltline corridor: 17. Capitol Square holding steady. [UPDATE] Lake Mendota: 1 additional recovery at 02:55. Count revised to 188 citywide."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "The things we don't say are louder than the things we do."
+      },
+      {
+        "category": "local-news",
+        "text": "Power outages reported: Williamson Street (partial grid failure 02:40), sections of Near East side. Backup generators operational. Do NOT call emergency services. Law does not apply."
+      },
+      {
+        "category": "emergency",
+        "text": "Shelter status: UW Shelter 7 (Babcock) at capacity 640/640. UW Shelter 3 (Graff) accepting walk-ins until 06:00. Routes via Regent and Langdon only — avoid State Street corridor."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "Your responsibility is the next breath."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "TEXT-IN: 'Marigold, my building's losing heat. Thermostat reading 54F. Safe?' / RESPONSE NEEDED: MorningCare warmth protocol begins 06:30. Blankets, layered clothing advised. Not life-threatening through dawn. Stay calm."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:34:16.517Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

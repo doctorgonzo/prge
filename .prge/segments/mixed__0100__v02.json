@@ -1,0 +1,505 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the night is doing that thing where it gets quieter instead of louder. That scares me more than screaming."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature's holding at 28 degrees. Wind's backed off. There's actually a pocket of stillness over the East Side that shouldn't exist."
+      },
+      {
+        "host": "holden",
+        "text": "Stillness is a data problem. When activity drops, it doesn't mean it's stopped — it means it's concentrating. Consolidating."
+      },
+      {
+        "host": "quinn",
+        "text": "Jesus, Holden. Can we have one hour where you don't make everything sound like a colonoscopy report?"
+      },
+      {
+        "host": "holden",
+        "text": "Last year at this hour, we were at 104 kills cumulative. Right now we're tracking at 98. We're six under pace."
+      },
+      {
+        "host": "caroline",
+        "text": "Six is margin of error."
+      },
+      {
+        "host": "holden",
+        "text": "Six is a pattern. Six means something changed."
+      },
+      {
+        "host": "quinn",
+        "text": "Or six means nothing. Six means we get to take a breath. Is that allowed?"
+      },
+      {
+        "host": "caroline",
+        "text": "The North Side's still quiet. Lowest readings in a decade across the board up there."
+      },
+      {
+        "host": "quinn",
+        "text": "Maybe people figured out that killing is fucking pointless and decided to stay home."
+      },
+      {
+        "host": "holden",
+        "text": "That's not statistically supported by—"
+      },
+      {
+        "host": "quinn",
+        "text": "I don't care, Holden. I'm having hope. Let me have it for twenty seconds."
+      },
+      {
+        "host": "caroline",
+        "text": "You're on hour seven of drinking. That's not hope, that's exhaustion."
+      },
+      {
+        "host": "quinn",
+        "text": "Can't it be both?"
+      },
+      {
+        "host": "holden",
+        "text": "The State Street Corridor numbers did spike as predicted, but the duration was shorter. The 23:00-to-00:30 sequence was ninety minutes. Historical average for that configuration is 110 minutes."
+      },
+      {
+        "host": "quinn",
+        "text": "So what you're saying is they killed people twenty minutes faster than last time. That's efficiency. That's growth."
+      },
+      {
+        "host": "caroline",
+        "text": "It could mean they knew they were being observed. Tucker was forty meters out."
+      },
+      {
+        "host": "holden",
+        "text": "That's plausible. External observation of organized groups does create behavioral variance. The group shortens duration to minimize exposure."
+      },
+      {
+        "host": "quinn",
+        "text": "So we're incentivizing murder to be faster. That's beautiful. That's really beautiful. I should write that down."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what Director Calloway told me, back when I was the kind of person Calloway would talk to? He said the Purge wasn't about crime. It was about population management."
+      },
+      {
+        "host": "caroline",
+        "text": "You're not supposed to say his name on air."
+      },
+      {
+        "host": "quinn",
+        "text": "The statute says I can't say he owes me money. It doesn't say I can't remember a conversation."
+      },
+      {
+        "host": "holden",
+        "text": "Did he actually say that, or is that what you heard?"
+      },
+      {
+        "host": "quinn",
+        "text": "There's no difference, Holden. We hear what we hear, and then we live with it for forty years."
+      },
+      {
+        "host": "caroline",
+        "text": "The City is still under advisory. The window for outdoor transit is closed until 04:00 at minimum."
+      },
+      {
+        "host": "quinn",
+        "text": "Outdoor transit. That's what we're calling it. Walking outside and hoping nobody shoots you in the face."
+      },
+      {
+        "host": "holden",
+        "text": "SafeWalk routes show that of the 1,200 active sessions, 340 are actually moving. The rest are sheltering in place at designated safe-zones. So the routes themselves are functioning — they're just bunching."
+      },
+      {
+        "host": "quinn",
+        "text": "Bunching. Like cattle in a pen, waiting for the slaughter house to open again tomorrow morning."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not what bunching means."
+      },
+      {
+        "host": "quinn",
+        "text": "No, it's better than what bunching means. Bunching is just inefficiency. I was going for metaphor."
+      },
+      {
+        "host": "holden",
+        "text": "There's a cluster in Vilas Park that doesn't match the neighborhood's historical profile. Four active SafeWalk sessions. All pinging from the same two-block radius. All stopped."
+      },
+      {
+        "host": "caroline",
+        "text": "Stopped why?"
+      },
+      {
+        "host": "holden",
+        "text": "The system doesn't tell me why. It tells me they're still broadcasting, still connected, still not moving."
+      },
+      {
+        "host": "quinn",
+        "text": "They're scared. They're scared and they found each other and now they're sitting in a room somewhere hoping the sounds go away."
+      },
+      {
+        "host": "caroline",
+        "text": "Or they're waiting for the all-clear like everyone else."
+      },
+      {
+        "host": "quinn",
+        "text": "That too. That's the hope version."
+      },
+      {
+        "host": "holden",
+        "text": "The Beltline Corridor saw three vehicle incidents in the 00:00-to-01:00 window. That's consistent with predicted activity for that zone. Drag racing, collision, at least two confirmed casualties. The third vehicle hasn't been located yet."
+      },
+      {
+        "host": "quinn",
+        "text": "So they're still in it. Still driving fast. Still playing the game."
+      },
+      {
+        "host": "caroline",
+        "text": "The roads are icy. That's not gaming, that's just dying badly."
+      },
+      {
+        "host": "quinn",
+        "text": "Same difference."
+      },
+      {
+        "host": "holden",
+        "text": "The Capitol perimeter held through the 00:00-to-01:00 window. No breach attempts. No probing. The security detail went to standby at 00:47."
+      },
+      {
+        "host": "quinn",
+        "text": "Calloway's asleep. He's sleeping in a bunker while the rest of you are awake."
+      },
+      {
+        "host": "caroline",
+        "text": "He's not asleep. Nobody sleeps tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "He's sleeping. His type always sleeps. They sleep and we listen to the radio and pretend we're not afraid, and come 07:00 he wakes up and everything's fine for him."
+      },
+      {
+        "host": "holden",
+        "text": "Level-10 government officials are legally protected during Purge hours. That's statute. That's not opinion."
+      },
+      {
+        "host": "quinn",
+        "text": "I know what the statute is. I helped write it. When I was the kind of person the government asked for advice."
+      },
+      {
+        "host": "caroline",
+        "text": "The fog's thickening near Monroe Street. Visibility just dropped to two miles. That's going to suppress activity on the shoreline."
+      },
+      {
+        "host": "quinn",
+        "text": "Good. Nobody should be on the shoreline. The lake's cold. The lake's mean tonight."
+      },
+      {
+        "host": "holden",
+        "text": "Water temperature at Lake Mendota is approximately 31 degrees. Survivability window is 15 to 20 minutes. Last year, three people attempted a crossing. Two were recovered. One is still missing."
+      },
+      {
+        "host": "caroline",
+        "text": "I remember. They called in while they were sinking."
+      },
+      {
+        "host": "quinn",
+        "text": "No, they didn't."
+      },
+      {
+        "host": "caroline",
+        "text": "Tucker was on the shoreline. There was a call."
+      },
+      {
+        "host": "quinn",
+        "text": "There were bodies. There wasn't a call."
+      },
+      {
+        "host": "holden",
+        "text": "The volunteer rescue crew got to them 12 minutes after the capsizing. Two bodies recovered in 14 minutes. One presumed drowned. The psychology of that sequence is fascinating — the crew knew they couldn't save the third person in 15 minutes of cold water, so they salvaged the two they could."
+      },
+      {
+        "host": "caroline",
+        "text": "Don't make math out of that."
+      },
+      {
+        "host": "holden",
+        "text": "I'm not making math. The math was already made. They just followed it."
+      },
+      {
+        "host": "quinn",
+        "text": "This is why I drink. This. Right here. The way Holden can talk about people dying like he's describing a grocery run."
+      },
+      {
+        "host": "holden",
+        "text": "I'm not describing it like that. I'm describing it like what it is — a data pattern that repeats. Understanding the pattern keeps people alive next year."
+      },
+      {
+        "host": "quinn",
+        "text": "Next year there will be new dead people. The pattern will repeat. And we'll all sit here and talk about it like it's interesting instead of like it's the end of the world."
+      },
+      {
+        "host": "caroline",
+        "text": "It's not the end of the world. The world is still here. We're still here."
+      },
+      {
+        "host": "quinn",
+        "text": "Are we? I feel like I'm disappearing. Every year this gets harder and I disappear a little more."
+      },
+      {
+        "host": "holden",
+        "text": "You show up once a year. You broadcast for twelve hours. You drink whiskey and you say things you shouldn't. That's not disappearing. That's being exactly as present as you're allowed to be."
+      },
+      {
+        "host": "quinn",
+        "text": "God, Holden. That's almost kind."
+      },
+      {
+        "host": "caroline",
+        "text": "We're five hours away from the all-clear. That's something."
+      },
+      {
+        "host": "quinn",
+        "text": "Five hours is a lifetime. It's nothing. It's everything."
+      },
+      {
+        "host": "holden",
+        "text": "The East Side is still running hot. 34 kills in the year-to-date comparison. That's on pace for their five-year average. If the pace holds, we'll see another 8 to 12 kills before dawn in that zone."
+      },
+      {
+        "host": "caroline",
+        "text": "The wind is picking up again. We might see another cold snap around 03:00."
+      },
+      {
+        "host": "quinn",
+        "text": "Another cold snap. So it'll get colder and people will stay indoors and the killing will keep happening anyway."
+      },
+      {
+        "host": "holden",
+        "text": "Cold snap could suppress vehicle activity on the Beltline. We might see a dip in corridor deaths if the temperature drops below 25 degrees."
+      },
+      {
+        "host": "quinn",
+        "text": "We're talking about hoping people get so cold they stop murdering each other. That's where we are. That's the dream."
+      },
+      {
+        "host": "caroline",
+        "text": "The dream is dawn. Everything else is just math until then."
+      },
+      {
+        "host": "quinn",
+        "text": "The dream is that none of this has to happen. But that's not math, and it's not going to happen, so we're back to hoping for cold."
+      },
+      {
+        "host": "holden",
+        "text": "The Willy Street barricade held through the midnight window. Zero breaches. The watch structure appears to be holding at estimated 15 to 20 armed personnel. They've maintained a perimeter for seven hours straight."
+      },
+      {
+        "host": "caroline",
+        "text": "That's community organizing. That works."
+      },
+      {
+        "host": "quinn",
+        "text": "It works until it doesn't. One breach, one moment where somebody's tired or distracted, and it all falls apart."
+      },
+      {
+        "host": "holden",
+        "text": "That's true of every system. Failure is always a single moment away."
+      },
+      {
+        "host": "quinn",
+        "text": "See, that's the kind of thing that sounds profound when you're tired and the night is dark, and stupid when the sun comes up."
+      },
+      {
+        "host": "caroline",
+        "text": "Then let's talk about something that will still be true in the morning."
+      },
+      {
+        "host": "quinn",
+        "text": "What? That we're all still here? That the Purge happens every year and we all pretend we can live with it?"
+      },
+      {
+        "host": "caroline",
+        "text": "That we survived. That we made it."
+      },
+      {
+        "host": "quinn",
+        "text": "Surviving and living are different things."
+      },
+      {
+        "host": "holden",
+        "text": "North Side is still running cold. 9 kills in the year-to-date, which puts them 11% below 2167. Whatever suppression factor is at work there, it's still holding."
+      },
+      {
+        "host": "caroline",
+        "text": "Maybe people made a deal."
+      },
+      {
+        "host": "holden",
+        "text": "Deals would show up in the data. They'd show up as clustering, as patterns. There's no pattern. It's just quiet."
+      },
+      {
+        "host": "quinn",
+        "text": "Maybe quiet is the deal. Maybe they all agreed to just sit in the dark for one night and let each other live."
+      },
+      {
+        "host": "caroline",
+        "text": "That would be nice."
+      },
+      {
+        "host": "quinn",
+        "text": "That would be everything. But it won't spread. It can't spread. The system requires the killing."
+      },
+      {
+        "host": "holden",
+        "text": "The system doesn't require anything. The system is what people choose."
+      },
+      {
+        "host": "quinn",
+        "text": "Then we're all choosing this. Every year. All of us."
+      },
+      {
+        "host": "caroline",
+        "text": "Not all of us. Some of us are just hanging on."
+      },
+      {
+        "host": "quinn",
+        "text": "Same thing. Hanging on is consent."
+      },
+      {
+        "host": "holden",
+        "text": "That's not statistically—"
+      },
+      {
+        "host": "quinn",
+        "text": "I know. Nothing I say is statistically anything. But it feels true, and that's all I've got at 01:00 in the morning while the city is busy tearing itself apart."
+      },
+      {
+        "host": "caroline",
+        "text": "You need water. You need to stop drinking for one hour."
+      },
+      {
+        "host": "quinn",
+        "text": "I need a lot of things. Water isn't one of them."
+      },
+      {
+        "host": "caroline",
+        "text": "The forecast holds steady until 03:00. Then another system moves in. Cold, wind, possible precipitation."
+      },
+      {
+        "host": "holden",
+        "text": "Precipitation will suppress fire-based kills. Rain extinguishes incendiary devices. That could save 8 to 12 lives if it arrives on schedule."
+      },
+      {
+        "host": "quinn",
+        "text": "So Caroline's getting the credit for 10 deaths tomorrow because she predicted rain."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not how causality works."
+      },
+      {
+        "host": "quinn",
+        "text": "Isn't it? We all just keep showing up here, and things happen, and we claim no responsibility because we're just observers."
+      },
+      {
+        "host": "quinn",
+        "text": "But we're not observers. We're participants. We're the broadcast. We're the thing that makes it real."
+      },
+      {
+        "host": "holden",
+        "text": "We document what's happening. We don't cause it."
+      },
+      {
+        "host": "quinn",
+        "text": "Maybe. Or maybe without us, people would turn the TV off and just sit in the silence and the killing would be smaller."
+      },
+      {
+        "host": "caroline",
+        "text": "The killing would be the same. We just wouldn't have to know about it."
+      },
+      {
+        "host": "quinn",
+        "text": "Is that better? Not knowing?"
+      },
+      {
+        "host": "caroline",
+        "text": "Some days I think so."
+      },
+      {
+        "host": "holden",
+        "text": "The data would exist regardless. People would still need to understand the patterns."
+      },
+      {
+        "host": "quinn",
+        "text": "For what? To get better at it next year?"
+      },
+      {
+        "host": "holden",
+        "text": "To learn how to survive it. To build better barricades. To predict where the violence will be so people can be somewhere else."
+      },
+      {
+        "host": "quinn",
+        "text": "But people can't be somewhere else. There's nowhere to go. We're all trapped in the same twelve hours."
+      },
+      {
+        "host": "caroline",
+        "text": "Some people go south. Some people drive toward the state line."
+      },
+      {
+        "host": "quinn",
+        "text": "And crash on icy roads. And get killed before they make it twenty miles. And we sit here and discuss it like it was an interesting variable."
+      },
+      {
+        "host": "quinn",
+        "text": "We're getting dark. I'm getting dark. The whiskey's talking."
+      },
+      {
+        "host": "caroline",
+        "text": "It's 01:00 in the morning and we're five hours from the end. You're allowed to be dark."
+      },
+      {
+        "host": "quinn",
+        "text": "Am I? Seems like I'm supposed to keep things light. Keep the listeners distracted. Keep them from thinking too hard about what's happening out there."
+      },
+      {
+        "host": "holden",
+        "text": "You don't keep them distracted. You give them company. That's different."
+      },
+      {
+        "host": "quinn",
+        "text": "Is it?"
+      },
+      {
+        "host": "caroline",
+        "text": "Yes. It is."
+      },
+      {
+        "host": "quinn",
+        "text": "I hope you're right. I hope that's what this is."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 98 confirmed. {{ELAPSED}} elapsed. Pace tracking 6 under 2168 YoY. East Side holding at 34 (18.2% of expected nightly total)."
+      },
+      {
+        "category": "neighborhood",
+        "text": "North Side: 9 confirmed kills YTD. -11% vs 2167 — cause still undetermined. Willy Street barricade: 0 breaches through 01:00. Capitol perimeter: secure. No probe attempts since 00:45."
+      },
+      {
+        "category": "emergency",
+        "text": "Lake Mendota: Fog advisory through 03:00. Water temp 31°F. Shoreline activity suppressed. Beltline Corridor: 3 vehicle incidents in hour 6 (00:00-01:00 window). 2 confirmed fatalities. Third vehicle status unknown."
+      },
+      {
+        "category": "weather",
+        "text": "Current: 28°F, light wind. Forecast: Another cold snap possible 03:00-04:30. Precipitation may arrive 03:15 ± 15 min. Wind shift to NW, gusts to 20 mph possible. Outdoor advisory remains: no transit until 04:00 minimum."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:45:19.127Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

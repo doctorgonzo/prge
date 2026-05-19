@@ -1,0 +1,180 @@
+{
+  "format": "music-block",
+  "inWorldTime": "00:00",
+  "body": {
+    "type": "music-block",
+    "tracks": [
+      {
+        "title": "Linoleum",
+        "artist": "NOFX",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Nick Trulino here. The clock reads {{CLOCK}}, we're {{ELAPSED}} into the Purge, and I am feeling *exactly* like I should be feeling right now — which is alive. Up first: NOFX. 'Linoleum.' Off Punk in Drublic, 1994."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike — Michael Burkett — started this band in Los Angeles in '83 with Erik Sandin and Eric Melvin. Three kids who went to Fairfax High School together. No relation, all named Ramone. That's the punk rock commitment right there."
+          },
+          {
+            "host": "nick",
+            "text": "Punk in Drublic hit number twelve on the Heatseekers chart. Went gold six years later. But here's the thing — Fat Mike told me once they made a 'Leave It Alone' video and decided *not* to send it to MTV. 'We just didn't want to be part of that machine,' he said. That's the whole equation right there."
+          },
+          {
+            "host": "nick",
+            "text": "El Hefe joined in '91 on lead guitar and trumpet — *trumpet* — and it completed the sound. This song right here is the thesis statement. You work a job, you pay your taxes, you get a little plot of land and you're supposed to feel like you made it. 'Linoleum,' baby. Here we go."
+          }
+        ]
+      },
+      {
+        "title": "Basket Case",
+        "artist": "Green Day",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "This is 'Basket Case.' Green Day. Also 1994. Same year. That's not a coincidence — that's the year punk rock decided it was done hiding."
+          },
+          {
+            "host": "nick",
+            "text": "Billie Joe Armstrong, Mike Dirnt. Rodeo, California. Dookie was recorded in three weeks — *three weeks* — at Fantasy Studios in Berkeley, September through October '93. Tré Cool on drums, and that record sold twenty million copies worldwide. Twenty million."
+          },
+          {
+            "host": "nick",
+            "text": "Armstrong's father died when he was ten. Fragmented the whole family. Dirnt's mother was a heroin addict — he got adopted by a Native American mother and a white father who divorced when he was seven. These guys weren't singing about suburbs because they were bored. They were singing about them because they *survived* them."
+          },
+          {
+            "host": "nick",
+            "text": "Before all this, they were Sweet Children. Part of the 924 Gilman Street scene in Berkeley. Nobody was signing bands to major labels back then. Nobody. Then Reprise Records came calling and they brought in Rob Cavallo to produce, and three weeks later — three weeks — they had changed music forever."
+          },
+          {
+            "host": "nick",
+            "text": "Called 'the most important pop-punk album of all time.' I don't argue with that. This song, 'Longview,' 'When I Come Around' — these weren't hits because they were catchy. They were hits because they were *true*."
+          }
+        ]
+      },
+      {
+        "title": "Suburban Home",
+        "artist": "The Descendents",
+        "year": 1982,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Descendents. 'Suburban Home.' 1982. Off Milo Goes to College. And yes, Milo Aukerman actually went to college — UC San Diego — just like the record said he would."
+          },
+          {
+            "host": "nick",
+            "text": "Frank Navetta, Tony Lombardo, Bill Stevenson — Manhattan Beach, 1977. Then Milo came in '79 and they transformed into something nobody was doing: melodic hardcore with actual emotion. Real emotion. Not fake tough-guy posturing."
+          },
+          {
+            "host": "nick",
+            "text": "They sang about parents. They sang about food. They sang about being rejected. Steven Blush — wrote American Hardcore — he said their 'cheeky love songs disguised as hardcore blasts became the most aped formula in rock.' And he's right. Everybody tried to copy them. Nobody could."
+          },
+          {
+            "host": "nick",
+            "text": "Here's the weird part: the band recorded their own *farts* live in the studio for the title track. 'Orgofart' — just the band members cheering each other on while they farted into recording equipment. That's not irony. That's punk rock. That's saying 'We don't give a shit what you think and we're going to prove it by recording our digestive systems.'"
+          },
+          {
+            "host": "nick",
+            "text": "Navetta left after this album to become a fisherman in Oregon. Lombardo left because touring was incompatible with his job as a postal carrier. You don't hear that story a lot. You hear about guys who *want* it. These guys had lives. That makes this song hit different."
+          }
+        ]
+      },
+      {
+        "title": "How to Recognize a Demon Has Become Your Friend",
+        "artist": "Propagandhi",
+        "year": 1996,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Propagandhi. 'How to Recognize a Demon Has Become Your Friend.' 1996. Off Less Talk, More Rock. And that title — that's not a metaphor. That's a mission statement."
+          },
+          {
+            "host": "nick",
+            "text": "Chris Hannah and Jord Samolesky. Portage la Prairie, Manitoba — that's Canada, folks. Prairie DIY hardcore scene. They got signed to Fat Wreck Chords in '92 after opening for NOFX. Fat Mike saw them, understood the assignment, and said 'Yeah. This.'"
+          },
+          {
+            "host": "nick",
+            "text": "Less Talk, More Rock came out in '96 and it was *confrontational*. Tighter riffs. Harder message. The band took a stance on feminism, on LGBTQ+ rights — and in 1996, in the West Coast punk scene? That was *dangerous*. That was actually dangerous."
+          },
+          {
+            "host": "nick",
+            "text": "They're anarchists. Not metaphorically — actually. They reject state authority. They call out nationalism, imperialism, homophobia, capitalism. They stand with Indigenous sovereignty movements. And they do it through music so tight it makes your skull vibrate."
+          },
+          {
+            "host": "nick",
+            "text": "The thing about Propagandhi is they're not angry for the sake of being angry. They're angry because they understand the math. They understand what systems cost. This song right here — that's what recognizing complicity sounds like."
+          }
+        ]
+      },
+      {
+        "title": "Cumbersome",
+        "artist": "Me First and the Gimme Gimmes",
+        "year": 2004,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Me First and the Gimme Gimmes covering 'Cumbersome' — that's Creed, but you don't care about Creed. You care about what happens when five punk rock guys decide to *destroy* something with love. 2004. San Francisco."
+          },
+          {
+            "host": "nick",
+            "text": "Spike Slawson, C.J. Ramone, Joey Cape, Pinch, John Reis — that's Swingin' Utters, Ramones legacy, Lagwagon, Bad Religion guys all deciding to just *cover* other people's songs and have a laugh about it. They formed in '95, originally didn't even intend to release albums. They were just goofing off in the garage."
+          },
+          {
+            "host": "nick",
+            "text": "They recorded at Motor Studios in San Francisco, worked with Ryan Greene producing. Their whole thing is rapid-fire punk interpretations of whatever — pop songs, Broadway tunes, country, R&B. They don't discriminate. They just punk it and move on."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike — in the liner notes for one of their albums — he got so confused by the song lyrics he was convinced he was a guitar-toting Islamic extremist named Fat Stevens. That's the energy. That's what we're doing here at {{CLOCK}} on a Purge night. We're taking the world and just — just punking it into submission."
+          }
+        ]
+      },
+      {
+        "title": "Punk Rock Girl",
+        "artist": "Dead Milkmen",
+        "year": 1988,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Dead Milkmen. 'Punk Rock Girl.' 1988. Beelzebubba. MTV rotation. This song is proof that you don't need to be serious to be remembered."
+          },
+          {
+            "host": "nick",
+            "text": "Rodney Anonymous on vocals, Joe Jack Talcum on guitar, Dave Blood on bass, Dean Clean on drums — Philadelphia, 1983. But the band started in '79 as Joe's home-recording project in Chester County. The name came from Toni Morrison's Song of Solomon. 'Milkman Dead.' They took a literary reference and made it indelible."
+          },
+          {
+            "host": "nick",
+            "text": "'Bitchin' Camaro' made them famous first — college radio, all that. But 'Punk Rock Girl' secured their place in the canon. It hit MTV. It made people *laugh* at punk rock in a way that didn't diminish it. It *elevated* it."
+          },
+          {
+            "host": "nick",
+            "text": "They sang about UFOs, toxic waste, conspiracy theories, cover bands — satire with thick Philadelphia accents. They didn't care what the hardcore purists thought. They made records that *sounded* like punk but *felt* like freedom."
+          },
+          {
+            "host": "nick",
+            "text": "Here's the thing nobody talks about: after Beelzebubba, they signed to Hollywood Records. Hollywood Records. A major label. Relations soured. For their 1994 live album, they *smuggled* an unlisted version of a song onto it because the label wouldn't allow it. That's how much they refused to play the game. That's the energy we need right now."
+          }
+        ]
+      }
+    ],
+    "lines": [],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Midnight update: Madison cumulative kill count now at 82. East Side holding at 18.2% of total activity. State Street corridor accounted for 19 of last 23 deaths."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "MISSING REGULAR: Darren from Atwood hasn't checked in yet. Called in every year since 2161. If you're listening, Darren — hit the lines. We're thinking about you."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield panels still available for emergency retrofit. Call 555-0847. Professional installation through dawn. East Side routes clear as of 23:50."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:04:29.433Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

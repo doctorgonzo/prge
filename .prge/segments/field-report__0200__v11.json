@@ -1,0 +1,49 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker in position near Tenney Park, east shore. The clock reads {{CLOCK}}. We're {{ELAPSED}} in. Madison-wide kill count holding at 139 — that's 17 behind last year at this hour."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side is still pulling weight. Atwood corridor spiked again around 01:40. The neighborhood watch on Willy Street — they've held their perimeter. Zero breaches since 22:30. I'm watching the shoreline and it's quiet. Too quiet, maybe."
+      },
+      {
+        "host": "tucker",
+        "text": "Holden, you there? The Mendota drownings last year — we're at the same water temp tonight, thirty-one degrees. Body-cam's picking up volunteer zodiac on the water again. Preventative this time. They know what happened in 2168."
+      },
+      {
+        "host": "holden",
+        "text": "I'm here. Yeah. The volunteer crew expanded their coverage by 40% after March 2168. Insurance data shows their response time is now 8 minutes average. Year before that it was 14. Institutional learning, Tucker."
+      },
+      {
+        "host": "tucker",
+        "text": "Acknowledged. There's a group — maybe six people — moving south along the shoreline path toward the Tenney Park boathouse. They're carrying something long. Possibly rebar or — hold on, my receiver's getting static from the — "
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide: 139 cumulative (at 01:00 hour mark). YoY delta: -17 (-12%). Trend holding below national average."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood corridor): 01:40 spike, +6 kills in 12 minutes. Willy Street barricade: 0 breaches, 90+ minutes held. Mendota shoreline: volunteer zodiac active, 8-minute response window."
+      },
+      {
+        "category": "local-news",
+        "text": "Tenney Park boathouse: group of 6 moving south via shoreline path. Equipment status unclear. Signal degradation at 02:00 mark. Field report interrupted."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:09:15.037Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

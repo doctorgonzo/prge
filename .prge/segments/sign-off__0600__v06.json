@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "The clock reads {{CLOCK}}. Sunrise at 06:47. We have forty-seven minutes until the all-clear."
+      },
+      {
+        "host": "quinn",
+        "text": "I've been sitting here for {{ELAPSED}} and I keep thinking about a thing Director Calloway used to say about Madison winters. He said the cold was honest — it didn't pretend to be anything other than what it was."
+      },
+      {
+        "host": "holden",
+        "text": "West Side numbers are coming in. Nakoma, Monroe Street corridor, Hilldale area — we're looking at nineteen confirmed for that quadrant. That's down seven from last year's equivalent hours."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind is dropping. Northwest, three miles per hour now. The fog over Mendota is lifting. You're going to see the Capitol dome catch the first light in about thirty minutes."
+      },
+      {
+        "host": "nick",
+        "text": "I've got one more in me. The Descendents. 'Clean Sheets.' Because that's what you're all going to do in about forty minutes — sleep in clean sheets and pretend this was a dream."
+      },
+      {
+        "host": "quinn",
+        "text": "Calloway never made it to the barricade. I checked. He's still in the building — still behind the glass. The city wakes up, and he's still in there."
+      },
+      {
+        "host": "tucker",
+        "text": "Final count for the night: 194 confirmed kills, Madison-wide. That's seven above 2168's year-end. Neighborhoods ran hot on the West Side — Nakoma saw action at 04:15 we didn't predict. Activity there was anomalous."
+      },
+      {
+        "host": "holden",
+        "text": "The weapons breakdown held pattern through the night. Firearms down to 43 percent. Melee up to 24. It's the tariffs again — ammunition is still pricing people out of the Purge economy."
+      },
+      {
+        "host": "marigold",
+        "text": "I want to offer something for the hours ahead. The sun doesn't rise because it's earned the right to. It rises because that is what it does. You are the sun, in your own way."
+      },
+      {
+        "host": "quinn",
+        "text": "That ninth whiskey was at 05:40. I want the record to show I made it stone sober for the final twenty minutes. I wanted to be clear when it ended."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature holding at 23 degrees. Frost is going to be brutal on whatever they don't clear by noon. The city's going to sparkle when the sun hits."
+      },
+      {
+        "host": "nick",
+        "text": "The Descendents are done. That's the last song PRGE is going to play in 2169. Next year, we'll have something new. If we're here."
+      },
+      {
+        "host": "tucker",
+        "text": "I made it back. I'm standing right here in the studio. I want everyone listening to know that I made it back."
+      },
+      {
+        "host": "quinn",
+        "text": "Darren from Atwood called in at 22:40 last year. I don't know if he's listening tonight, but I want to say: the panels held. The neighbor survived. You did good."
+      },
+      {
+        "host": "holden",
+        "text": "Thirty-six minutes until the all-clear. The Purge has run twelve hours and we are still broadcasting. That is its own kind of victory."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who didn't make it — they are not your responsibility. But they are your memory. Hold them there, and let that be enough."
+      },
+      {
+        "host": "caroline",
+        "text": "First light is coming. You can see it on the eastern shore of Mendota now. Just the beginning of it."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to be gone again in about forty minutes. Back into whatever life a man like me gets to have, one day a year. I'll be here again next Purge. If the station is still here. If I'm still here."
+      },
+      {
+        "host": "nick",
+        "text": "The turntable's off. The needle's up. The booth is quiet except for the hum of the boards."
+      },
+      {
+        "host": "tucker",
+        "text": "Thirty-one minutes. We're counting down. The city below us is still barricaded, still waiting, still holding."
+      },
+      {
+        "host": "holden",
+        "text": "194 dead. 412 injured. 23 still missing. Those numbers don't include the ones who won't report it, won't seek medical care, won't say what happened. The real count is always higher than what we know."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. The night is ending the way all nights do — with dawn. That is not negotiable. That is law."
+      },
+      {
+        "host": "quinn",
+        "text": "If you've been here all twelve hours, if you've been listening since 19:00, I want you to know that your presence mattered. You were here. That means something."
+      },
+      {
+        "host": "tim",
+        "text": "We made it. PRGE made it. We are still here on this frequency, on this night, in this city, and that is everything. One hundred and ninety-four people died tonight in Madison. Four hundred and twelve more are going to wake up in hospitals wondering how they got there. Twenty-three families are going to spend the next year not knowing. That is the cost of the Purge. That is what we live in. But you — if you're listening right now — you chose to stay home. You chose to turn a radio on instead of a gun. You chose community instead of blood. The ones who make it through these twelve hours don't do it because we're stronger or better. We make it through because we remember that there's a choice. Every year, there's a choice. PRGE will be here next year because people like Quinn and Tucker and Caroline and Nick and Holden and Marigold — people who have no reason to come back, no safety in coming back — they come back anyway. They come back to say: you're not alone. Your choice to stay home is not nothing. It's everything. The sun's going to rise in thirty-one minutes. The barricades are going to come down. The city's going to start cleaning. And we're going to count the dead and pretend this is normal and go back to our lives until March. But tonight — right now — you are awake with us. You are alive with us. You are still here. That's the miracle. That's the only thing that matters. PRGE signs off at 07:00 sharp. Until next year, stay safe. Stay home. Stay alive."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Final 2169 Madison Purge tally: 194 confirmed kills. West Side (Nakoma, Monroe, Hilldale): 19 kills. East Side aggregate: 32 kills. All-cause breakdown: firearms 43%, melee 24%, vehicle 14%, other 19%."
+      },
+      {
+        "category": "local-news",
+        "text": "Sunrise 06:47. Temperature 23F, northwest wind 3 mph. Frost advisory in effect through 10am. City emergency services standing by for 07:00 all-clear. Post-Purge cleanup crews staged at six depot locations."
+      },
+      {
+        "category": "ad",
+        "text": "MorningCare Triage: If you're injured and waiting for 07:00 to call, we're standing by. Free intake consultation for the first 500 callers. If you can't wait, your life is more important than the law. Call now."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "The ones who didn't make it are not your responsibility. But they are your memory. Hold them there."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:42:14.705Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

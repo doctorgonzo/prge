@@ -1,0 +1,49 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker here, East Side perimeter, Atwood and Northside. We're {{ELAPSED}} in and the analytics are climbing harder than I expected for this hour. Kill count is at 61 cumulative — that puts us 4% ahead of 2168 at this same mark."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side is pulling 22% of the total volume. Neighborhood watch presence is minimal tonight, which... yeah. That's notable. The Capitol Square breach is still reverberating — secondary activity up the Williamson corridor."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm reading the weapons trade data and bladed instruments are spiking harder than the models predicted. Firearms still dominant but the ammunition tariff Quinn mentioned earlier is absolutely showing in the real numbers."
+      },
+      {
+        "host": "tucker",
+        "text": "One thing — and I want to flag this for the studio — Darren from Atwood hasn't called back. He was on with Quinn earlier, the panels situation, very clear signal. Usually he checks in again around this hour to confirm his street's still clear. Radio silence. That's... that's not normal for him."
+      },
+      {
+        "host": "tucker",
+        "text": "Hold on, I'm repositioning north toward the Schenk's Corners edge, getting better line of sight on the — there's a vehicle fire maybe two blocks over, no casualties that I can — wait, my equipment just [CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 61 kills at {{CLOCK}}. YoY: +4%"
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side dominance continues — 22% of total volume. Capitol Square breach secondary ripple ongoing."
+      },
+      {
+        "category": "local-news",
+        "text": "Weapons trade shift: Bladed instruments +8% vs. 2168 trend. Ammunition tariff effect measurable in real-time."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Darren (Atwood regular) no second check-in at expected time. Station noting absence."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:34:28.897Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

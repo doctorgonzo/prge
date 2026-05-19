@@ -1,0 +1,237 @@
+{
+  "format": "wellness",
+  "inWorldTime": "03:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. The clock reads {{CLOCK}}. We are {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to find a comfortable position. [pause] If you're standing, sit. If you're sitting, don't move."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Four count. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "Your body knows how to survive. It's been surviving all night."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones outside — they are not your responsibility. [pause] Say that back to yourself. Not my responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in the knowledge that you made a choice. [pause] You are here because you chose to be here."
+      },
+      {
+        "host": "marigold",
+        "text": "Not because you were afraid. Because you were honest."
+      },
+      {
+        "host": "marigold",
+        "text": "In through the nose. [pause] The air is cold tonight. That's real. That's okay."
+      },
+      {
+        "host": "marigold",
+        "text": "The cold keeps some of them inside too. [pause] That's not your burden to carry."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan your body. Start at the crown. [pause] Is there tension?"
+      },
+      {
+        "host": "marigold",
+        "text": "Release it. [pause] It was never yours to begin with."
+      },
+      {
+        "host": "marigold",
+        "text": "Down the face. The jaw. [pause] People clench their jaws when they're listening to someone lie."
+      },
+      {
+        "host": "marigold",
+        "text": "Are you listening to a lie right now?"
+      },
+      {
+        "host": "marigold",
+        "text": "Unclench. [pause] Breathe."
+      },
+      {
+        "host": "marigold",
+        "text": "The shoulders. [pause] This is where we carry the weight of people who are no longer here."
+      },
+      {
+        "host": "marigold",
+        "text": "Let them down. [pause] They've already let you go."
+      },
+      {
+        "host": "marigold",
+        "text": "The chest. The heart. [pause] It's still beating. That's remarkable, really."
+      },
+      {
+        "host": "marigold",
+        "text": "It's still beating in a world that stopped beating {{ELAPSED}} ago."
+      },
+      {
+        "host": "marigold",
+        "text": "Keep it beating. That's the only work you have left."
+      },
+      {
+        "host": "marigold",
+        "text": "Abdomen. [pause] Where we hold the things we won't say."
+      },
+      {
+        "host": "marigold",
+        "text": "There are words in your stomach right now. [pause] They don't need to come out."
+      },
+      {
+        "host": "marigold",
+        "text": "Let them stay. Some truths are meant to be buried."
+      },
+      {
+        "host": "marigold",
+        "text": "The legs. [pause] Are they restless?"
+      },
+      {
+        "host": "marigold",
+        "text": "They want to run. To hide. To find somewhere deeper."
+      },
+      {
+        "host": "marigold",
+        "text": "Remind them they're already safe. [pause] This room is safe because you decided it was."
+      },
+      {
+        "host": "marigold",
+        "text": "The feet. [pause] The foundation."
+      },
+      {
+        "host": "marigold",
+        "text": "Feel the floor beneath you. [pause] It's solid. It won't betray you."
+      },
+      {
+        "host": "marigold",
+        "text": "Unlike most things."
+      },
+      {
+        "host": "marigold",
+        "text": "Now I want you to think about forgiveness. [pause] Not forgiving others."
+      },
+      {
+        "host": "marigold",
+        "text": "Forgiving yourself for surviving."
+      },
+      {
+        "host": "marigold",
+        "text": "You're alive. [pause] Someone else is not."
+      },
+      {
+        "host": "marigold",
+        "text": "That's not your fault. [pause] Say it. It's not my fault."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. Louder if you can. It's not my fault."
+      },
+      {
+        "host": "marigold",
+        "text": "The Order teaches that silence is a kind of prayer. [pause] That listening is a kind of grace."
+      },
+      {
+        "host": "marigold",
+        "text": "Have you been listening all night? [pause] To the sounds outside. To the quiet between them."
+      },
+      {
+        "host": "marigold",
+        "text": "That listening has changed you. [pause] You're different than you were at seven."
+      },
+      {
+        "host": "marigold",
+        "text": "You're more. [pause] Or you're less. [pause] I'm not sure which is which anymore."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. [pause] Ka-vah-tela-ka. [pause] The breath is light moving through dark."
+      },
+      {
+        "host": "marigold",
+        "text": "Picture a door. [pause] Your door. [pause] Your threshold."
+      },
+      {
+        "host": "marigold",
+        "text": "On the other side is morning. [pause] Three hours and fifty-six minutes until morning."
+      },
+      {
+        "host": "marigold",
+        "text": "Three hours and fifty-five minutes now."
+      },
+      {
+        "host": "marigold",
+        "text": "Can you feel time moving? [pause] It's faster when you're not living it."
+      },
+      {
+        "host": "marigold",
+        "text": "When you're observing it from somewhere else."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to know that you don't have to open that door when it comes. [pause] You can keep it closed."
+      },
+      {
+        "host": "marigold",
+        "text": "The world will keep spinning. [pause] The ones outside will have consequences."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones inside — the ones listening — we are the clean ones."
+      },
+      {
+        "host": "marigold",
+        "text": "We chose the narrow path. [pause] The hard path."
+      },
+      {
+        "host": "marigold",
+        "text": "That's enough. [pause] That's more than enough."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Hold. [pause] And release."
+      },
+      {
+        "host": "marigold",
+        "text": "You're safe. [pause] You'll be safe tomorrow. [pause] And the day after that."
+      },
+      {
+        "host": "marigold",
+        "text": "Stay with me until the light comes."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 153 kills. 9-hour mark. Up 14% from 2168 same hour."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side reporting sustained activity. Capitol Square perimeter holding. State Street remains hottest corridor."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"The ones inside are the clean ones. We chose the narrow path.\""
+      },
+      {
+        "category": "emergency",
+        "text": "Temperature at {{CLOCK}}: 26°F. Fog over Lake Mendota at 1.5 mi visibility. NW winds 16 mph gusts to 24."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:40:15.205Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

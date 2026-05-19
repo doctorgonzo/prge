@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker here, Vilas Park perimeter, {{ELAPSED}} in. Madison-wide count is holding at 139, up 17 from this exact hour last year. East Side's still pulling weight — 34% of total kills concentrated in the Atwood corridor."
+      },
+      {
+        "host": "tucker",
+        "text": "Signal's degrading. I'm seeing interference on the main band — someone's running a jammer within maybe 300 meters of my position. Not blocking me yet, but the noise floor's climbing. Tim's aware."
+      },
+      {
+        "host": "tucker",
+        "text": "Holden, I've got methodology question for you — the weapons trade data you were citing at 01:00, that was sourced from the firearms registry? Or the post-Purge hospital intake logs?"
+      },
+      {
+        "host": "holden",
+        "text": "Both. Hospital intake's real-time, registry is historical. They correlate at about 0.87 — good enough to weight the analytics. Why?"
+      },
+      {
+        "host": "tucker",
+        "text": "Because if I'm reading the interference pattern correctly, whatever's jamming me is sophisticated. Military-grade. That suggests organized action, which means we should be seeing a methodological spike in the Beltline zone in maybe... 40 minutes."
+      },
+      {
+        "host": "tucker",
+        "text": "Repositioning north. The Park's gone quiet — too quiet. Last year at this hour we had scattered activity around the shoreline, and I'm seeing exactly zero foot traffic. Either they're waiting or they've already moved through and — hold on, my equipment is — the interference is —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 139 ({{ELAPSED}} elapsed). YoY: +17. East Side 34% of total. Beltline corridor emerging."
+      },
+      {
+        "category": "emergency",
+        "text": "Signal interference detected near Vilas Park. Jammer activity. Tim monitoring. Tucker field-relay status: degraded."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Vilas Park / Monroe St sector reports zero foot traffic as of 02:00 — anomalous vs. 2168 baseline. Methodological shift possible in 30–45 minutes."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:08:59.179Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

@@ -16,9 +16,15 @@ const CACHE_DIR = join(PRGE_STATE_DIR, "segments");
 // has content without needing any Anthropic calls.
 const BAKED_DIR = join(process.cwd(), ".prge", "segments");
 
-function keyFor(format: string, inWorldTime: string): string {
+/** Total prebake variants per slot. Runtime picks one via date-seeded hash. */
+export const PREBAKE_VARIANT_COUNT = 14;
+
+function keyFor(format: string, inWorldTime: string, variant?: number): string {
   // inWorldTime like "19:02" — strip the ":" for filesystem safety
   const safeTime = inWorldTime.replace(":", "");
+  if (variant !== undefined) {
+    return `${format}__${safeTime}__v${String(variant).padStart(2, "0")}.json`;
+  }
   return `${format}__${safeTime}.json`;
 }
 
@@ -36,8 +42,9 @@ export interface CachedSegment {
 export async function readCached(
   format: string,
   inWorldTime: string,
+  variant?: number,
 ): Promise<CachedSegment | null> {
-  const key = keyFor(format, inWorldTime);
+  const key = keyFor(format, inWorldTime, variant);
   // 1. Try runtime cache first (hot — written by recent generations).
   try {
     const text = await readFile(join(CACHE_DIR, key), "utf-8");
@@ -54,9 +61,30 @@ export async function readCached(
   }
 }
 
-export async function writeCached(seg: CachedSegment): Promise<void> {
+/**
+ * Pick the variant index for a given slot + Madison date. Deterministic —
+ * same date always picks the same variant. Different dates cycle through
+ * the pool so each night looks unique.
+ */
+export function pickVariant(cacheKey: string, madisonDate: string): number {
+  let h = 0x811c9dc5;
+  const s = `${madisonDate}::${cacheKey}`;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  h ^= h >>> 16;
+  h = Math.imul(h, 0x45d9f3b);
+  h ^= h >>> 16;
+  return (h >>> 0) % PREBAKE_VARIANT_COUNT;
+}
+
+export async function writeCached(
+  seg: CachedSegment,
+  variant?: number,
+): Promise<void> {
   await mkdir(CACHE_DIR, { recursive: true });
-  const path = join(CACHE_DIR, keyFor(seg.format, seg.inWorldTime));
+  const path = join(CACHE_DIR, keyFor(seg.format, seg.inWorldTime, variant));
   await writeFile(path, JSON.stringify(seg, null, 2), "utf-8");
 }
 

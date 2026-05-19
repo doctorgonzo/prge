@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "The clock reads {{CLOCK}}. Wind's picked up to northwest eighteen, gusting to twenty-four. Temperature's dropped to nineteen degrees Fahrenheit."
+      },
+      {
+        "host": "holden",
+        "text": "Final count is 187. Same as last year, actually. Statistical fluke — the cold front compressed the middle hours, extended the tail. It balances out."
+      },
+      {
+        "host": "quinn",
+        "text": "We've been here {{ELAPSED}}. Twelve hours. Some of you never left the radio. Some of you are listening because the alternative was silence."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side held steady at 34 kills. Willy Street's barricade — the neighborhood watch with the hunting rifles — that held. Zero penetration. Defensive success."
+      },
+      {
+        "host": "marigold",
+        "text": "I want to say something before the light comes. You did not open your doors. You chose the barricade. You chose the radio. You chose to stay."
+      },
+      {
+        "host": "nick",
+        "text": "Last track of the night is The Descendents. 'Suburban Home.' From Milo Goes to College. You know why."
+      },
+      {
+        "host": "caroline",
+        "text": "Sunrise at 6:47. We're thirteen minutes from first light off Lake Mendota. The Capitol dome's going to catch it first — it always does."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I'm thinking about? Darren. From Atwood. Called in around ten forty-five, worried about his neighbor's panels. I want to believe that guy's still there."
+      },
+      {
+        "host": "holden",
+        "text": "The cold front made a difference. Temperature suppression correlates to a fourteen-percent reduction in activity hours four through six. Weather saves lives. Data confirms it."
+      },
+      {
+        "host": "tucker",
+        "text": "There's a crew on Lake Mendota right now with a zodiac. Running one last patrol for the body we didn't recover at midnight. Professional volunteers. No legal obligation."
+      },
+      {
+        "host": "marigold",
+        "text": "The sun is coming. It doesn't know what happened in the dark. It comes anyway. That's mercy."
+      },
+      {
+        "host": "nick",
+        "text": "That song's for everyone who's still here. Everyone who chose the radio. And everyone who didn't make the choice."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind's still rising. I'm watching the tree line out the station windows. The elms are bending hard. Post-Purge cleanup crews are going to have debris everywhere."
+      },
+      {
+        "host": "quinn",
+        "text": "I've done this for fourteen years. Fourteen Purges. And every year I come back because every year, people choose to listen instead of scream."
+      },
+      {
+        "host": "holden",
+        "text": "The State Street Corridor incident — the coordinated sweep that killed fourteen — that was the anomaly of the night. Everything else tracked historical pattern."
+      },
+      {
+        "host": "tucker",
+        "text": "No field reports came in during the final hours. That's normal. That's the collapse hour. That's people running down, making peace with what they did or didn't do."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. The sirens lift at seven. The ones outside know. The ones inside know. Everyone knows."
+      },
+      {
+        "host": "nick",
+        "text": "I'm going to sit here quiet now. No more songs. The station's going to be quiet until Tim brings it home."
+      },
+      {
+        "host": "caroline",
+        "text": "Four minutes to sunrise. The wind is pushing the fog off Mendota. Visibility clearing to eight miles. The day's coming clean."
+      },
+      {
+        "host": "quinn",
+        "text": "If you made it through the night — if you're still listening — you already know you made the right choice. You don't need me to tell you."
+      },
+      {
+        "host": "holden",
+        "text": "187 kills. 412 injured. 74 structures compromised. 23 still missing. Those are the numbers we're going to live with until next year."
+      },
+      {
+        "host": "tucker",
+        "text": "This is Tucker Traywick. I was here all night. I'm still here. I'll be back next year."
+      },
+      {
+        "host": "marigold",
+        "text": "Welcome the light. It's coming. It always comes."
+      },
+      {
+        "host": "tim",
+        "text": "This is Tim Peplinski. We made it. We always make it. You made it. The 34,000 of you listening right now, and the 71,000 of you who called in at some point through the night — you chose to stay home, you chose to listen, you chose to be here instead of out there. That matters. It matters to the people who didn't make it. It matters to the people who are waking up in two minutes and finding out what they lost. It matters to the 187 — and I know that number and I will remember each one because that's what we do here. We remember. We don't forget. We don't pretend. We come back every year because this city — Madison, the Capitol, Lake Mendota, Willy Street, the East Side, all of it — we come back because the people in it deserve to know they're not alone in the dark. You are never alone. The sirens lift at seven. The power stays on. The station comes back in twelve months. And we will be here. We will always be here."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Final Madison tally: 187 confirmed. YoY: identical to 2168. East Side: 34 (18.2%). State Street: 19 (10.2%)."
+      },
+      {
+        "category": "local-news",
+        "text": "All-clear sirens lift at 07:00 Madison time. Emergency services resuming normal operations at 07:15. Post-Purge medical triage opens at city hospitals."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "The sun doesn't ask permission to rise, and you didn't need permission to survive."
+      },
+      {
+        "category": "ad",
+        "text": "MorningCare Triage: 1-800-PURGE-AID. Open now through noon. Free first consultation. You survived. Let us help with the rest."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:40:18.586Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

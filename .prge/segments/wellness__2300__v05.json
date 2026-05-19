@@ -1,0 +1,233 @@
+{
+  "format": "wellness",
+  "inWorldTime": "23:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. The clock reads 23:00. We are {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm Sister Marigold. This is the wellness block. [pause] Find a place where you can sit without moving for the next few minutes."
+      },
+      {
+        "host": "marigold",
+        "text": "Close your eyes if you feel safe doing that. If you don't feel safe, keep them open. Both are acceptable."
+      },
+      {
+        "host": "marigold",
+        "text": "Let's begin with the breath. Breathe in [pause] through your nose. [pause] Hold for four counts."
+      },
+      {
+        "host": "marigold",
+        "text": "One. [pause] Two. [pause] Three. [pause] Four."
+      },
+      {
+        "host": "marigold",
+        "text": "Now release through your mouth. Let it go completely."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. In through the nose. [pause] Hold. [pause] Release."
+      },
+      {
+        "host": "marigold",
+        "text": "Your body is in a safe space. You chose this space. You locked the door. You barricaded the window."
+      },
+      {
+        "host": "marigold",
+        "text": "The weight you're feeling in your chest — that's not danger. That's awareness. That's good."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Your shoulders are tight. Notice that. Don't change it. Just notice."
+      },
+      {
+        "host": "marigold",
+        "text": "The phone has rung more tonight than it has in years. Tucker mentioned that earlier. Did you hear?"
+      },
+      {
+        "host": "marigold",
+        "text": "More callers than usual. More voices asking to be heard. More people alone in rooms like yours."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe out. [pause] You are not alone in your solitude. That's a paradox, but it's true."
+      },
+      {
+        "host": "marigold",
+        "text": "Release your jaw. You've been clenching it. [pause] Let it hang loose."
+      },
+      {
+        "host": "marigold",
+        "text": "Imagine the person you're most afraid of right now. [pause] I'm not asking you to name them."
+      },
+      {
+        "host": "marigold",
+        "text": "Just picture them. Somewhere outside. [pause] And now picture the door between you and them."
+      },
+      {
+        "host": "marigold",
+        "text": "That door is very solid. That door is yours."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. The night has been loud from 7 to now. Field reports. Cut-offs. Tucker's voice breaking up and coming back."
+      },
+      {
+        "host": "marigold",
+        "text": "Noise. [pause] Constant noise. Your ears have been listening."
+      },
+      {
+        "host": "marigold",
+        "text": "Now let them rest. Breathe in. [pause] There is sound inside this room with you. Count them."
+      },
+      {
+        "host": "marigold",
+        "text": "The hum of the heater. The settling of the house. Your heartbeat if you listen for it."
+      },
+      {
+        "host": "marigold",
+        "text": "These are safe sounds. [pause] These are your sounds."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. [pause] Notice your hands. Are they cold? Warm? Are they shaking?"
+      },
+      {
+        "host": "marigold",
+        "text": "Whatever you're feeling is correct. [pause] Your body knows what it needs to know."
+      },
+      {
+        "host": "marigold",
+        "text": "There's a caller right now — somewhere in Madison — listening to my voice instead of hearing the sirens."
+      },
+      {
+        "host": "marigold",
+        "text": "I want them to know: that choice was brave. [pause] That choice was the right one."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] Think about 7 o'clock this morning. When the sun came up."
+      },
+      {
+        "host": "marigold",
+        "text": "It came up. [pause] It always does. The night before it came up, people did what people do."
+      },
+      {
+        "host": "marigold",
+        "text": "And the sun came up anyway. [pause] It will come up tomorrow."
+      },
+      {
+        "host": "marigold",
+        "text": "Not because of anything you did. [pause] Not because of anything anyone did."
+      },
+      {
+        "host": "marigold",
+        "text": "It will come up because that's what suns do. [pause] That's their job."
+      },
+      {
+        "host": "marigold",
+        "text": "Your job tonight is smaller. [pause] Your job is to breathe."
+      },
+      {
+        "host": "marigold",
+        "text": "In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "There are people who will not see 7 o'clock tomorrow. [pause] I don't know them. You don't know them."
+      },
+      {
+        "host": "marigold",
+        "text": "But they are real. [pause] And the fact that you are breathing right now — breathing safely — matters."
+      },
+      {
+        "host": "marigold",
+        "text": "It matters that you chose the door. [pause] It matters that you locked it."
+      },
+      {
+        "host": "marigold",
+        "text": "shé-ka-lummé-shé [pause] forgive the breath. Continue breathing."
+      },
+      {
+        "host": "marigold",
+        "text": "Release any thought about what you should be feeling. [pause] Feel what you feel."
+      },
+      {
+        "host": "marigold",
+        "text": "Guilt. [pause] Relief. [pause] Anger. [pause] Gratitude. [pause] All of it is welcome here."
+      },
+      {
+        "host": "marigold",
+        "text": "Your Order — I mean, your own order, your own rules for tonight — is sacred."
+      },
+      {
+        "host": "marigold",
+        "text": "You set them. You keep them. No one else knows what you promised yourself when the clock hit 7."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] That promise is still good."
+      },
+      {
+        "host": "marigold",
+        "text": "We are {{ELAPSED}} in. [pause] Seven hours remain."
+      },
+      {
+        "host": "marigold",
+        "text": "Seven hours is a long time and no time at all. [pause] Seven hours contains multitudes."
+      },
+      {
+        "host": "marigold",
+        "text": "But you don't have to think about seven hours. [pause] Think about the next breath."
+      },
+      {
+        "host": "marigold",
+        "text": "In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm going to be here. [pause] Quinn will return. [pause] Tucker will report. [pause] Nick will play songs."
+      },
+      {
+        "host": "marigold",
+        "text": "You are held in a structure. [pause] Structures are safe."
+      },
+      {
+        "host": "marigold",
+        "text": "The structure of this broadcast. [pause] The structure of this night. [pause] The structure of time itself."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] You are safe in your locked room. [pause] And you are not alone."
+      },
+      {
+        "host": "marigold",
+        "text": "That's enough for now. [pause] Stay with us."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 61 kills (22:00 hour). East Side continuing to spike. +23% vs this point last year."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Phone lines busier than normal. Tim reports 340+ active calls in queue. Listeners staying tuned for company."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"You are held in a structure. Structures are safe.\""
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol Square perimeter holding as of 22:50. Fortification at inner ring intact. Caroline: cold front arriving 00:30-01:30."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:30:01.232Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

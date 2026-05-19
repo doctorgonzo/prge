@@ -1,0 +1,180 @@
+{
+  "format": "music-block",
+  "inWorldTime": "04:00",
+  "body": {
+    "type": "music-block",
+    "tracks": [
+      {
+        "title": "A Better Place",
+        "artist": "Hot Water Music",
+        "year": 2002,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "We're {{ELAPSED}} in. {{CLOCK}}. The collapse hour. You know what that means? Time to bleed a little. Hot Water Music — 'A Better Place,' 2002, off Caution."
+          },
+          {
+            "host": "nick",
+            "text": "Chuck Ragan and Chris Wollard — dual vocals, call-and-response, like they're arguing with God and each other at the same time. That's the sound of two guys who know exactly what it costs to keep going."
+          },
+          {
+            "host": "nick",
+            "text": "These four moved to Gainesville because they were *tired*. Tired of their hometowns. Tired of playing in bands with no name. Formed in October '94 and just... never stopped. That's resilience. That's the punk rock lie we all buy into — that if you just work harder, stay on the road longer, play the next show, it gets better."
+          },
+          {
+            "host": "nick",
+            "text": "They broke up once. August '98. Said goodbye. Then the rehearsal for the farewell went *too well*. They wrote four new songs during the goodbye tour and decided, 'Fuck it, we're staying.' I respect that. I really do."
+          },
+          {
+            "host": "nick",
+            "text": "Themes of personal struggle, community, perseverance. Working-class identity. All the stuff they don't teach you in business school but they *should*. This track hits different at 04 in the morning when the East Side's finally quieting down."
+          }
+        ]
+      },
+      {
+        "title": "Sink, Florida, Sink",
+        "artist": "Against Me!",
+        "year": 2002,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Laura Jane Grace. Naples to Gainesville in '97. Formed Against Me! because the whole world *was* against her — that's the name, right there. No metaphor."
+          },
+          {
+            "host": "nick",
+            "text": "'Sink, Florida, Sink.' A song about drowning. A song about place. A song about wishing the ground would swallow you whole. Real specific. Real personal. Against Me! didn't do generics."
+          },
+          {
+            "host": "nick",
+            "text": "Grace spent years being one thing, thinking one way, and then she came out as transgender in 2012 and the whole project *shifted*. The music got harder. The lyrics got sharper. She's been writing her own story ever since, and we're all better for it."
+          },
+          {
+            "host": "nick",
+            "text": "This one's from the Reinventing Axl Rose era — pure, unfiltered, before the major labels got involved. Before anything got polished. This is the sound of someone who has *nothing* to lose."
+          }
+        ]
+      },
+      {
+        "title": "Ole",
+        "artist": "The Bouncing Souls",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Bouncing Souls. New Brunswick. Greg Attonito, Pete Steinkopf, Bryan Kienlen — high school friends who decided to move to a college town and just... play. 'Ole' — 1994. Pure singalong punk."
+          },
+          {
+            "host": "nick",
+            "text": "The band name comes from Doc Martens advertising. 'With Bouncing Soles.' That's *punk*. That's taking the corporate slogan and wearing it like a badge. That's saying, 'Yeah, we're stomping in boots and you're gonna hear us.'"
+          },
+          {
+            "host": "nick",
+            "text": "They built Chunksaah Records themselves. Grassroots. Tight-knit community. Called their fans 'True Believers.' Not ironically. They *meant* it. And the fans — they believed back. That's the opposite of everything Warped Tour turned punk into."
+          },
+          {
+            "host": "nick",
+            "text": "There's a story about one of the guys — homeless, on a street corner, heard a song in a parked car that gave him hope. So he wrote 'Gone' to give other people that same feeling. That's the Bouncing Souls in one anecdote. That's what this is about."
+          },
+          {
+            "host": "nick",
+            "text": "'Ole' is the singalong part. The moment where everyone in the room feels less alone. You need that at {{CLOCK}}. You *need* that."
+          }
+        ]
+      },
+      {
+        "title": "Sunday Morning",
+        "artist": "Me First and the Gimme Gimmes",
+        "year": 1997,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Here's where I switch gears. Me First and the Gimme Gimmes. 1995, San Francisco. Spike Slawson, Fat Mike, Joey Cape — guys from other bands who just wanted to play covers during off-time. Started as a joke. Became a *thing*."
+          },
+          {
+            "host": "nick",
+            "text": "They don't write originals. They *reimagine*. Have a Ball covered the '60s and '70s. Are a Drag did Broadway. They took other people's songs and punked the hell out of them, and somehow that made them *more* honest than the originals."
+          },
+          {
+            "host": "nick",
+            "text": "'Sunday Morning' — a cover. Rapid-fire, urgent, their distinctive philosophy: take a song everyone knows and remind them why they forgot to love it. Fat Mike once wrote that he thought a lyric was 'Allah my Lovin'' instead of 'All My Lovin' and condemned Spike to death for heresy. That's the level of weird we're operating at."
+          },
+          {
+            "host": "nick",
+            "text": "They got booed at PNC Park in 2006 after opening for fireworks. The Pirates game crowd didn't want punk rock covers. They canceled the next two shows. And the Gimmes just... kept going. Kept playing in their matching costumes, kept making people laugh at serious songs."
+          }
+        ]
+      },
+      {
+        "title": "Coming Home",
+        "artist": "The Lawrence Arms",
+        "year": 2002,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Lawrence Arms. Chicago, 1999. Brendan Kelly, Chris McCaughan, Neil Hennessy — three guys who'd known each other through various ska and punk bands. Named after an apartment complex they got evicted from in the middle of the night. Homelessness as origin story."
+          },
+          {
+            "host": "nick",
+            "text": "They recorded their first album before they'd even *played* a show. A Guided Tour of Chicago. Full-length, straight to Asian Man Records. Songs about growing up in Chicago, about the streets they knew, about *belonging* somewhere that didn't want them."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike signed them to Fat Wreck Chords in 2001. By 2002, they'd released Apathy and Exhaustion. The album title says everything. They were *tired*. Kelly said later, 'We all have experiences influenced by us being influenced by alcohol. That's what we write about.' Real talk."
+          },
+          {
+            "host": "nick",
+            "text": "'Coming Home' — the idea of *returning* somewhere. Of breaking circle and coming back. Relevant. Always relevant. They got kicked off Warped Tour in 2004 for calling out the five-dollar water bottles. They were *right*. But they were also homeless once, so they know what it costs."
+          },
+          {
+            "host": "nick",
+            "text": "Listen to the harmony on this. Kelly and McCaughan. Two voices, one story. Dark humor, personal mythology, sharp observation. Beauty in chaos. Camaraderie in the chorus. That's what we're doing here, at {{CLOCK}}, all of us still awake."
+          }
+        ]
+      },
+      {
+        "title": "The Decline",
+        "artist": "NOFX",
+        "year": 1999,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "And here we are. The Decline. NOFX. Eighteen minutes. One track. 1999. The song that says everything that needs to be said and then keeps saying it anyway because it *still* isn't enough."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike. Erik Sandin. Eric Melvin. El Hefe on lead and trumpet. Formed in LA in '83, took their name from a Boston hardcore band, and then just... became a machine. Every album after Punk in Drublic was them asking, 'What if we got *faster*? What if we got *angrier*?'"
+          },
+          {
+            "host": "nick",
+            "text": "The Decline is fiery. It's cynical. It's social commentary dressed up as a punk song dressed up as a confession. They never signed to a major label. They kept control. They started Fat Wreck Chords and signed everyone else. And then they wrote this — this *screed* — and dropped it like a bomb."
+          },
+          {
+            "host": "nick",
+            "text": "Themes of racism. American middle-class plight. Drug abuse. They even wrote 'Six Years on Dope' about what substance abuse costs you. But The Decline — The Decline is the summation. This is the peak of NOFX, right here."
+          },
+          {
+            "host": "nick",
+            "text": "It's {{CLOCK}}. You're still here. The Purge still has three hours. The East Side had 34 kills last year at this point. Atwood's probably holding. Willy Street barricaded. Tenney Park's quiet on the Mendota side. And here's The Decline. Eighteen minutes of 'Everything is falling apart and we deserve it.' Let it play."
+          }
+        ]
+      }
+    ],
+    "lines": [],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 165 (YoY: 165 at this point 2168). Pace holding steady. East Side accounting for 31% of total tonight."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood corridor): Quieting after 03:00 spike. Willy Street barricade holding perimeter. Tenney Park lakefront: scattered activity, visibility low due to fog off Mendota."
+      },
+      {
+        "category": "ad",
+        "text": "MorningCare Triage: Average response time 22 minutes. If you're injured and it's safe to call, we're standing by. Post-7am assessment and stabilization. MorningCare — because 7am comes whether we're ready or not."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:11:55.915Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

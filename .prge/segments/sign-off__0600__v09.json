@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "The clock reads {{CLOCK}}. Sunrise in forty-seven minutes. Wind is north-northwest at three miles per hour — the calm we predicted."
+      },
+      {
+        "host": "quinn",
+        "text": "We made it. {{ELAPSED}} and we're still here. The station's still broadcasting. That feels like its own kind of defiance."
+      },
+      {
+        "host": "holden",
+        "text": "Final count: one hundred and ninety-one. Three more since the five o'clock hour. East Side held what it held. The rest of the city did what it always does."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm back. Feed cut twice in the last sector sweep — jammer near Todd Drive again, we think. But I'm back and I counted. Those numbers are solid."
+      },
+      {
+        "host": "nick",
+        "text": "I've got one more for you. Dead Kennedys. 'California Über Alles.' Because some mornings need to remember what we're up against."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones outside are sleeping now. The ones inside can begin to breathe."
+      },
+      {
+        "host": "quinn",
+        "text": "We had a caller earlier — Darren from Atwood, remember? He stayed on the line for eleven minutes just to not be alone. That's what this broadcast is. That's why we come back."
+      },
+      {
+        "host": "caroline",
+        "text": "Lake Mendota's going to be beautiful at sunrise. The frost will break. The city will see what happened and start the count again."
+      },
+      {
+        "host": "holden",
+        "text": "One hundred and ninety-one is down from the early projections. We were tracking for two-oh-five around the midnight hour. The cold front suppressed activity. Math works."
+      },
+      {
+        "host": "tucker",
+        "text": "Signal interference at 05:47. Three-minute dropout. We're not sure if it was intentional or just the usual bandwidth fight. Either way, we held."
+      },
+      {
+        "host": "nick",
+        "text": "That song just played. Didn't introduce it. Didn't need to. You know what it sounds like."
+      },
+      {
+        "host": "quinn",
+        "text": "I've been drinking all night and I'm going to keep drinking after seven a.m., but right now — right now I want to say that I'm proud of everyone listening. You chose to stay in."
+      },
+      {
+        "host": "marigold",
+        "text": "The light is coming. You survived the dark. That is not small."
+      },
+      {
+        "host": "holden",
+        "text": "Compared to 2168's equivalent hour — five-fifty-five a.m. to six fifty-five a.m. — we're performing at ninety-eight percent of baseline. The variables we can't control. The variables we can, we're holding."
+      },
+      {
+        "host": "caroline",
+        "text": "Humidity dropping. Visibility will be excellent at sunrise. Clear skies all day. It's going to be a hard, clear morning."
+      },
+      {
+        "host": "tucker",
+        "text": "Three bodies still unrecovered as of 05:55. One from the Capitol breach perimeter, two from the Beltline spillover zone. Search and recovery teams are moving at first light."
+      },
+      {
+        "host": "quinn",
+        "text": "We almost lost the signal three times tonight. Technical difficulties are real on this frequency. But Tim held the equipment. Tim held the rig. Tim held us on the air."
+      },
+      {
+        "host": "nick",
+        "text": "I'm going to step away from the mic now. I'm going to sit with the equipment hum. That's where I live."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. You are still here. Breathe out. You chose to stay."
+      },
+      {
+        "host": "holden",
+        "text": "Next year's projections will factor tonight's thermal suppression window. It changes the model. Everything changes the model."
+      },
+      {
+        "host": "caroline",
+        "text": "Thirty-three minutes to sunrise. The sirens will lift at seven. The city will wake up to what it was willing to do."
+      },
+      {
+        "host": "quinn",
+        "text": "To everyone still listening — to Darren, to the woman by the lake, to every person who chose not to go outside — I'll see you next year. We'll be back. PRGE will be back."
+      },
+      {
+        "host": "tucker",
+        "text": "Archive is locked. Data is clean. All segments recorded. The broadcast is solid from start to finish."
+      },
+      {
+        "host": "tim",
+        "text": "We're at {{CLOCK}}. We're {{ELAPSED}} into the Purge. In seven minutes, the sirens will sound and law returns to Madison. For twelve hours, it didn't. For twelve hours, you stayed home and we stayed on the air, and together we did what we do every year: we witnessed. We counted. We bore the weight of this night. One hundred and ninety-one people didn't make it home. Twenty-three people are still missing. That number will grow and it will shrink and then it will grow again next year because this is what the Vance consensus built — this is the world we inherited and this is the world we refuse to accept quietly. PRGE will be gone tomorrow. Our frequency will be dark for 364 days. Our rig will move. Our crew will scatter back into the city like we were never here. But you — you're going to carry this night forward. You're going to remember who you heard on this broadcast, why you listened, what it felt like to not be alone in the dark. And when next year comes, you're going to come back. You're going to tune in again because we're the only voice that doesn't lie about what tonight is. The sun is coming up over Lake Mendota in twenty-five minutes. The city will wake. The dead will be counted officially. The wounded will fill the hospitals. And we will have done our job: we stayed on the air when it mattered most. Thank you for staying home. Thank you for listening. Thank you for choosing to be awake. This is PRGE. We'll see you next year."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "FINAL PURGE 2169 TALLY: 191 confirmed kills, Madison-wide. 412 serious injuries. 23 unrecovered."
+      },
+      {
+        "category": "emergency",
+        "text": "Search and recovery teams mobilizing at first light. Lake Mendota and Beltline zones priority. Report information to MorningCare at 608-555-PURGE."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol perimeter breach contained. Regional Director Calloway in stable condition. Three security personnel KIA."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "SISTER MARIGOLD: 'The light is coming. You survived the dark. That is not small.'"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:43:17.989Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

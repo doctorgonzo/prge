@@ -1,0 +1,57 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm positioned on Monroe Street, west side, about two blocks south of Nakoma. It's {{CLOCK}} and we're {{ELAPSED}} in. Kill count Madison-wide is holding at 61 cumulative — that's 23 for this hour alone, up from 19 last year at this exact point."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side is still pulling weight, but I'm getting real-time pings that activity is shifting west. Hilldale corridor just lit up in the past eight minutes. Three separate incidents on University Avenue alone."
+      },
+      {
+        "host": "tucker",
+        "text": "Weapons mix is interesting tonight. Bladed instruments up 34% in the west quadrant versus 2168. Economics are showing — ammunition tariffs are real and they're working."
+      },
+      {
+        "host": "tucker",
+        "text": "I've got a residential barricade maybe 40 meters north of my position. Sandbags, reinforced frame, looks solid. No breach attempts yet, but the perimeter's drawn tight. They're watching."
+      },
+      {
+        "host": "tucker",
+        "text": "Ticker update: Nakoma neighborhood is at 7 kills so far tonight, tracking 3% above 2168 pace. Lake Mendota shoreline has gone quiet after the earlier activity. Weather holding — visibility is degrading but wind's not pushing anyone indoors yet."
+      },
+      {
+        "host": "tucker",
+        "text": "Hold — there's movement two blocks east. I'm repositioning to get a clearer sightline on University. The barricade crew is — they're pointing something and I need to..."
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 61. Hour delta: +23 (vs. 19 YoY). Peak hours still ahead."
+      },
+      {
+        "category": "neighborhood",
+        "text": "West side surge underway. Hilldale +34% weapons-shift incidents. Nakoma tracking +3% YoY. East Side holding steady."
+      },
+      {
+        "category": "local-news",
+        "text": "University Avenue corridor seeing concentrated activity. Residential barricades holding on Monroe. Lake Mendota shoreline quiet post-22:00."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield panels: Install verification hotline 608-555-0147. Don't assume your panels are oriented correctly. Check now."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:33:43.932Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

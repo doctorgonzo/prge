@@ -1,0 +1,353 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "21:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the lines are already lighting up. Tim, you seeing that East Side spike Caroline warned about?"
+      },
+      {
+        "host": "quinn",
+        "text": "Right. Right. So we're watching the first real wave hit the neighborhoods and I'm sitting here with a neat Jameson thinking about Regional Director Calloway again, which I probably shouldn't do this early in the night, but here we are."
+      },
+      {
+        "host": "quinn",
+        "text": "The man called me in 2167 to ask if the rumors about my resignation were true. I said, 'Calloway, if they're asking you, they're already decided.' He didn't get it."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Atwood — go ahead, Patricia."
+      },
+      {
+        "host": "quinn",
+        "text": "You're doing what? Okay. Okay. You're barricaded in the basement with your cat and a lot of canned goods. That's the wisdom, Patricia."
+      },
+      {
+        "host": "quinn",
+        "text": "No, I'm not going to tell you if twelve hours is enough time. It's always enough time. That's the terrifying part about the Purge — it's never too long."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay on the line if you need to. You've got company. You're not the only person in a basement right now."
+      },
+      {
+        "host": "quinn",
+        "text": "Folks, I'm going to level with you. There's a hum on the line that shouldn't be there. Technical, probably. Tim?"
+      },
+      {
+        "host": "quinn",
+        "text": "He's checking the rig. This happens. We go dark, we come back. It's the one thing we know how to do reliably."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia, you still there? Good. Good. Just... breathe like Sister Marigold taught you earlier. You remember that segment?"
+      },
+      {
+        "host": "quinn",
+        "text": "I don't know what half those breathing exercises do either, but there's something about following someone's voice when yours is shaking that helps. I learned that in a Senate hearing in 2165."
+      },
+      {
+        "host": "quinn",
+        "text": "Not the one that ended my career. A different one. A longer one. In front of cameras. Very bright."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from West Side — you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "You're calling from where? A coffee shop? Marcus, friend, why are you not home?"
+      },
+      {
+        "host": "quinn",
+        "text": "You work night security at a medical building. You decided to work through the Purge. That's either the bravest or the stupidest thing I've heard all night and it's only hour three."
+      },
+      {
+        "host": "quinn",
+        "text": "The building's locked down. Full reinforcement. You've got— how many people in there with you? Eight. So you're running a safe house, essentially."
+      },
+      {
+        "host": "quinn",
+        "text": "Marcus, I'm going to ask you something and I want the honest answer. Are any of those eight people not supposed to be there? No? You're all accounted for?"
+      },
+      {
+        "host": "quinn",
+        "text": "Then you've done something harder than most people will do tonight. You've created a space where people aren't afraid. Keep doing that for the next nine hours."
+      },
+      {
+        "host": "quinn",
+        "text": "We're going to lose him in a second — the signal's doing that thing again. Marcus, hang tight. We'll be here."
+      },
+      {
+        "host": "quinn",
+        "text": "This is what worries me. Not the killing. Not the fires. It's the fragile infrastructure pretending to hold. Marcus has eight people in a locked building. Patricia's got a cat. The whole city is built on the assumption that tonight doesn't matter."
+      },
+      {
+        "host": "quinn",
+        "text": "But it does matter. {{ELAPSED}} in and somebody's already made a decision that will follow them for the rest of their life. Somebody's barricade just broke. Somebody's wishing they'd answered the phone differently."
+      },
+      {
+        "host": "quinn",
+        "text": "The Vance administration knew that when they instituted this. They *knew*. Rafe Vance sat in the same chair I sat in once — a better chair, better light, better whiskey — and he decided that one night a year of legal killing would make people grateful for the other 364 days."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not sure he was wrong. That's the thing that keeps me up the other 364 days."
+      },
+      {
+        "host": "quinn",
+        "text": "We're back. Tim cleared the line. Caller: David from Capitol Square — go ahead, David."
+      },
+      {
+        "host": "quinn",
+        "text": "You're listening from your car. Your car is parked where, exactly? You're *near* the Capitol but not— okay. You didn't go inside the perimeter. Smart choice."
+      },
+      {
+        "host": "quinn",
+        "text": "You work there. You work *in* the Capitol building. And you're outside it on Purge Night in your car, alone. David, that's either a statement or a cry for help."
+      },
+      {
+        "host": "quinn",
+        "text": "You're listening for the all-clear. You're not going to drive home until 7am because you're not certain which parts of the city are still burning. Fair assessment?"
+      },
+      {
+        "host": "quinn",
+        "text": "I was like you once. I used to sit in conference rooms and think about all the contingencies. All the ways a night like this could go wrong. And you know what I learned? The contingencies don't matter. When the clock hits 7pm, it doesn't care about your plan."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay in the car, David. Listen to the music. When Nick spins something that hits you wrong, text in. That's what we're here for."
+      },
+      {
+        "host": "quinn",
+        "text": "Folks, I'm pouring another because — actually, let me not explain myself. You're not my therapist. Though God knows I probably need one."
+      },
+      {
+        "host": "quinn",
+        "text": "The thing about being on the wrong side of a scandal is that everyone tells you what you should feel. You should feel ashamed. You should feel remorse. You should disappear."
+      },
+      {
+        "host": "quinn",
+        "text": "I did disappear. For a year and a half. Worked in a bar in Milwaukee. Nobody knew who I was. And I was so profoundly bored that I started watching the Purge coverage on the bar's ancient TV, and I realized I was alive for the first time in months."
+      },
+      {
+        "host": "quinn",
+        "text": "Because the Purge doesn't care who you were. It doesn't care about your career or your mistakes or the women who came forward with details about the hotel room in Madison. During the Purge, everyone's equal. Everyone's just trying to stay alive."
+      },
+      {
+        "host": "quinn",
+        "text": "That's why I came back to the mic. That's why I do this once a year. It's not redemption. I don't believe in redemption. But it's honest."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Susan from Tenney Park — go ahead, Susan."
+      },
+      {
+        "host": "quinn",
+        "text": "You're watching the lake. Okay. You're sitting by a window overlooking Lake Mendota and you're watching the night happen. That's either the worst seat in the house or the best one."
+      },
+      {
+        "host": "quinn",
+        "text": "You've seen people? Actually on the water? During the Purge? Susan, that's... that's a terrible decision but I respect the commitment to the bit."
+      },
+      {
+        "host": "quinn",
+        "text": "They're in a boat. Small one. Rowing, not motoring. So they wanted to be quiet about whatever they're doing on Lake Mendota at {{CLOCK}}."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not going to tell you what they're doing. I'm not going to speculate. But Susan, if they're heading toward the near shore, that's the neighborhood watch territory. Willy Street's got a perimeter up."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay away from the window. Or don't. I can't tell you how to live. All I can tell you is that in about thirty seconds this call's going to be over and you're going to feel very alone again."
+      },
+      {
+        "host": "quinn",
+        "text": "I know because I feel it right now and you're still on the line."
+      },
+      {
+        "host": "quinn",
+        "text": "The signal keeps cracking up. That's— that's not normal interference. Tim, is someone jamming us?"
+      },
+      {
+        "host": "quinn",
+        "text": "He says it's probably nothing. It's probably nothing the way the Purge is probably nothing but here we are, {{ELAPSED}} in, and I'm pretty sure the kill count is higher than Caroline predicted."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I miss? Actual radio. Actual infrastructure that wasn't jury-rigged in a basement somewhere. A station that broadcast 365 days a year."
+      },
+      {
+        "host": "quinn",
+        "text": "They had that once, in the before time. My father listened to AM radio in his truck. Just talk and music and the occasional news break about things that didn't matter."
+      },
+      {
+        "host": "quinn",
+        "text": "Now we've got this. We've got me, three whiskeys deep at hour three, and a handful of people calling in from their barricades because the alternative is silence."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from South Side — you're on the air."
+      },
+      {
+        "host": "quinn",
+        "text": "You're calling from a community barricade. Your whole block organized? That's... actually, that's incredible, James. How many people?"
+      },
+      {
+        "host": "quinn",
+        "text": "Thirty-seven. You've got thirty-seven people armed and organized on the South Side and you're calling a radio station to tell me about it. You're either insane or you're being very smart about morale."
+      },
+      {
+        "host": "quinn",
+        "text": "You're passing the phone around. Each person gets to say hi to the broadcast. That's beautiful, James. That's exactly what we're here for."
+      },
+      {
+        "host": "quinn",
+        "text": "Go ahead. Tell your block that Madison's listening. That PRGE is here."
+      },
+      {
+        "host": "quinn",
+        "text": "No, I'll wait. I've got all night. That's the gift of this job — I've got exactly twelve hours to sit here and listen to people tell me they're still alive."
+      },
+      {
+        "host": "quinn",
+        "text": "James says hello. His neighbor Robert says hello. Sarah from three houses over says hello and the baby just went to sleep."
+      },
+      {
+        "host": "quinn",
+        "text": "There's a baby. On the South Side. Sleeping through a Purge night. That's either the most resilient child in Madison or the most drugged one."
+      },
+      {
+        "host": "quinn",
+        "text": "James says the kid sleeps through everything. They've got good walls. They've got a plan. They've got thirty-seven people and they're going to make it to 7am and then they're going to have a very long conversation about why they're still living in a city that requires this."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the real Purge, folks. Not the killing. Not even the fear. It's the morning after, when you have to reckon with the decision to stay."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Elena from Williamson Street — go ahead, Elena."
+      },
+      {
+        "host": "quinn",
+        "text": "You're on the Willy Street barricade. You're *actually* on the armed perimeter. Elena, I need you to be safe about telling me this."
+      },
+      {
+        "host": "quinn",
+        "text": "No incursions yet. The defensive posture is holding. You've got— fifteen people? Fifteen armed residents. That's a serious operation."
+      },
+      {
+        "host": "quinn",
+        "text": "You've done this before. This isn't your first Purge with the neighborhood watch. How many years has this been happening?"
+      },
+      {
+        "host": "quinn",
+        "text": "Four years. Four years of organized community defense. Elena, do you realize you're describing something that was illegal before the Purge and required after? That's the trap of it all."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay safe. Keep the perimeter tight. And if anyone breaches it, call us back and let us know you survived. Deal?"
+      },
+      {
+        "host": "quinn",
+        "text": "She's good. Elena's got a rifle and a plan and a neighborhood and that's more than most people in this city have right now."
+      },
+      {
+        "host": "quinn",
+        "text": "The signal's doing that thing again. That static underneath everything. It's like listening to a transmission from another planet where the Purge is happening and everyone's calling in to tell me about it."
+      },
+      {
+        "host": "quinn",
+        "text": "Maybe I'm on another planet. Maybe I died in 2167 during the scandal and this is my punishment — to host a radio show every Purge night for eternity, listening to people who are still alive."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim says I'm being philosophical. Tim says the equipment's fine. Tim says the interference is just the night being noisy."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Ray from East Side — go ahead, Ray."
+      },
+      {
+        "host": "quinn",
+        "text": "You're reporting a structure fire. Where, exactly? The corner of Atwood and Eastmorland. That's the neighborhood Patricia called in from earlier. Patricia, if you're still listening, you might want to know your street just went up."
+      },
+      {
+        "host": "quinn",
+        "text": "Ray says emergency services aren't responding. That's by design, friend. That's the whole point of the Purge. You get to watch your own city burn and there's nothing anyone can do about it until 7am."
+      },
+      {
+        "host": "quinn",
+        "text": "How many structures? Just the one? Thank God. Thank God it's just one house and not the whole block. Ray, you call back if it spreads, okay?"
+      },
+      {
+        "host": "quinn",
+        "text": "I'm finishing this whiskey. Not because I want to but because I need to. Because Patricia might be in that fire or she might be safe and I'll never know and the only thing I can do is pour another drink and keep talking until 7am."
+      },
+      {
+        "host": "quinn",
+        "text": "That's what they should put on the PRGE sign. 'We're here because you're alone and the city doesn't care and whiskey is still legal.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: —"
+      },
+      {
+        "host": "quinn",
+        "text": "Did we just lose someone? Tim, we had a caller and then— okay. Okay. They'll call back if they need us."
+      },
+      {
+        "host": "quinn",
+        "text": "That happens a lot. Someone picks up the phone at a moment when they're desperate enough to reach out, and then something changes. A sound outside. A second thought. The realization that whatever they were going to say isn't worth the breath."
+      },
+      {
+        "host": "quinn",
+        "text": "I understand that impulse. I understand the appeal of silence when the world gets too loud."
+      },
+      {
+        "host": "quinn",
+        "text": "I chose to speak instead. I chose to come back from that Milwaukee bar and stand behind a microphone once a year and pretend that my voice matters."
+      },
+      {
+        "host": "quinn",
+        "text": "I don't know if it does. But {{ELAPSED}} in, with the kill count rising and the fires starting and the barricades holding, I'm going to keep talking. Because the alternative is that Patricia and Ray and Elena and all of you are alone, and I know what that feels like."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not letting you be alone tonight. Not if I can help it."
+      },
+      {
+        "host": "quinn",
+        "text": "We'll be back after this. Stay with us."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 38 confirmed (hour 3). East Side continuing to spike — tracking 8% ahead of 2168 pace at this point."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Atwood Avenue structure fire reported — corner of Eastmorland. Single building. Containment status unknown."
+      },
+      {
+        "category": "local-news",
+        "text": "Willy Street neighborhood watch perimeter holding at Yahara River bridge. Zero incursions reported through hour 3."
+      },
+      {
+        "category": "emergency",
+        "text": "Signal interference detected on PRGE broadcast. Tim Peplinski investigating. Intermittent static expected — technical crew standing by."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Multiple residents reporting capacity at community barricades (South Side, Williamson Street). Home-based sheltering remains primary recommendation."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:46:02.238Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

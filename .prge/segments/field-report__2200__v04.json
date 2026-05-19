@@ -1,0 +1,53 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm on the East Side near Schenk's Corners. The clock reads {{CLOCK}}, we're {{ELAPSED}} into the night. Madison-wide kill count is holding at 38, which is actually down from 42 at this point last year — we're running 9.5% below YoY pace."
+      },
+      {
+        "host": "tucker",
+        "text": "Power grid failure just took out three blocks around Atwood Avenue. I'm running on a flashlight and my phone is at 12%. The backup generator for the substation is down — operator's voice came through on the emergency band, said they can't access it, which means nobody can. People are barricading by candlelight now."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side is still the hottest zone — 34% of the night's kills so far. But the blackout is actually suppressing activity in that corridor. Hard to hunt when you can't see."
+      },
+      {
+        "host": "tucker",
+        "text": "Hold on, my laptop just lost the network feed. I'm switching to the secondary — no, that's also down. Tim, are you reading this? I'm going to reposition north toward the Beltline where I still have line of sight."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm moving toward the overpass now. Visibility is maybe 40 feet in this dark. I can hear a vehicle engine somewhere past Northside Drive and voices — I'm going to get closer to the —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide: 38 kills at {{CLOCK}} (9.5% below YoY pace)"
+      },
+      {
+        "category": "emergency",
+        "text": "POWER OUTAGE: Three blocks East Side/Atwood. Substation backup offline. Backup generator operator unable to access facility."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side dominance: 34% of night's kills. Blackout suppressing activity in corridor."
+      },
+      {
+        "category": "local-news",
+        "text": "Tucker field unit repositioning. Signal degradation in blackout zone."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:33:25.406Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

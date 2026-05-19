@@ -15,7 +15,12 @@
 import { NextResponse } from "next/server";
 import { generateSegment } from "@/lib/generator";
 import { budgetStatus, recordCost } from "@/lib/budget";
-import { readCached, writeCached } from "@/lib/cache";
+import {
+  readCached,
+  writeCached,
+  pickVariant,
+  PREBAKE_VARIANT_COUNT,
+} from "@/lib/cache";
 import {
   getCurrentSegmentFormat,
   getSegmentAtInWorldTime,
@@ -286,14 +291,19 @@ function enrichSegment(
   body: unknown,
   inWorldTime: string,
   segmentTitle: string,
+  slotKey?: string,
 ): Record<string, unknown> {
   const interpolated = interpolateTimePlaceholders(body, inWorldTime);
   const base =
     interpolated !== null && typeof interpolated === "object"
       ? (interpolated as Record<string, unknown>)
       : {};
-  return { ...base, inWorldTime, segmentTitle };
+  // slotKey: stable slot-start time (e.g. "01:00") that doesn't change with
+  // {{CLOCK}}/{{ELAPSED}} interpolation. The client uses it for fingerprinting
+  // so the line cycle doesn't reset every 60s on refetch.
+  return { ...base, inWorldTime, segmentTitle, ...(slotKey ? { slotKey } : {}) };
 }
+
 
 // Station-offline circuit-breaker. When true, /api/segment short-circuits
 // to an in-character "PRGE is dark" segment and makes ZERO Anthropic calls.
@@ -404,7 +414,7 @@ export async function GET(request: Request): Promise<NextResponse> {
   // uses the current Madison time to compute the live countdown value.
   if (format === "countdown") {
     const body = buildStaticCountdownSegment(cacheKey, inWorldTime);
-    const enriched = enrichSegment(body, inWorldTime, "PRE-PURGE COUNTDOWN");
+    const enriched = enrichSegment(body, inWorldTime, "PRE-PURGE COUNTDOWN", cacheKey);
     return NextResponse.json(enriched, {
       headers: { "X-PRGE-Cache": "static-countdown" },
     });
@@ -426,7 +436,7 @@ export async function GET(request: Request): Promise<NextResponse> {
       lines: bumper.lines,
       tickerItems: bumper.tickerItems,
     };
-    const enriched = enrichSegment(body, inWorldTime, "UNMANNED · AUTOPLAY");
+    const enriched = enrichSegment(body, inWorldTime, "UNMANNED · AUTOPLAY", cacheKey);
     // No attachNickCutIns — daytime is unmanned, no DJ interrupts.
     return NextResponse.json(enriched, {
       headers: { "X-PRGE-Cache": "bumper" },
@@ -439,7 +449,7 @@ export async function GET(request: Request): Promise<NextResponse> {
   if (daytime && format === "music-block") {
     const body = buildStaticDaytimeMusicBlock(cacheKey);
     const withFacts = await enrichTracksWithFacts(body, "prge");
-    const enriched = enrichSegment(withFacts, inWorldTime, "UNMANNED · AUTOPLAY");
+    const enriched = enrichSegment(withFacts, inWorldTime, "UNMANNED · AUTOPLAY", cacheKey);
     return NextResponse.json(enriched, {
       headers: { "X-PRGE-Cache": "static-daytime-music" },
     });
@@ -449,7 +459,7 @@ export async function GET(request: Request): Promise<NextResponse> {
   // brand list. ZERO LLM calls.
   if (daytime && format === "commercial-break") {
     const body = buildStaticDaytimeCommercial(cacheKey);
-    const enriched = enrichSegment(body, inWorldTime, "UNMANNED · AUTOPLAY");
+    const enriched = enrichSegment(body, inWorldTime, "UNMANNED · AUTOPLAY", cacheKey);
     return NextResponse.json(enriched, {
       headers: { "X-PRGE-Cache": "static-daytime-commercial" },
     });
@@ -458,8 +468,19 @@ export async function GET(request: Request): Promise<NextResponse> {
   // 1. Disk cache lookup — keyed by SLOT START (cacheKey), not the current
   //    minute. Every minute within a slot hits the same cached segment.
   //    When force=1, skip this entirely — we always want a fresh generation.
+  //
+  //    Variant pool: if prebaked variants exist (v00–v13), pick one
+  //    deterministically by Madison date so each night is unique. Falls
+  //    back to the original unversioned cache key for backwards compat.
   if (!force) {
-    const cached = await readCached(format, cacheKey);
+    const madisonDate = new Date().toLocaleDateString("en-CA", {
+      timeZone: "America/Chicago",
+    });
+    const variant = pickVariant(cacheKey, madisonDate);
+    // Try the date-selected variant first
+    let cached = await readCached(format, cacheKey, variant);
+    // Fall back to unversioned cache (pre-pool segments)
+    if (!cached) cached = await readCached(format, cacheKey);
     if (cached) {
       const headerTitle = daytime ? "UNMANNED · AUTOPLAY" : title;
       // Enrich music-block tracks with facts from the pre-baked database.
@@ -468,7 +489,7 @@ export async function GET(request: Request): Promise<NextResponse> {
         const factHost = daytime ? "prge" : "nick";
         body = await enrichTracksWithFacts(body, factHost);
       }
-      const enriched = enrichSegment(body, inWorldTime, headerTitle);
+      const enriched = enrichSegment(body, inWorldTime, headerTitle, cacheKey);
       return NextResponse.json(await attachNickCutIns(enriched, format, inWorldTime, cacheKey), {
         headers: { "X-PRGE-Cache": "hit" },
       });
@@ -547,7 +568,7 @@ export async function GET(request: Request): Promise<NextResponse> {
   ]);
 
   const headerTitle = daytime ? "UNMANNED · AUTOPLAY" : title;
-  const enriched = enrichSegment(parsed, inWorldTime, headerTitle);
+  const enriched = enrichSegment(parsed, inWorldTime, headerTitle, cacheKey);
   return NextResponse.json(await attachNickCutIns(enriched, format, inWorldTime, cacheKey), {
     headers: {
       "X-PRGE-Cache": force ? "miss-forced" : "miss-generated",

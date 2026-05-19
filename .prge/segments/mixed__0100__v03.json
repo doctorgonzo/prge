@@ -1,0 +1,481 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Welcome back to PRGE. The {{CLOCK}} Madison hour, and we are {{ELAPSED}} deep into the worst night of the year."
+      },
+      {
+        "host": "caroline",
+        "text": "Visibility just tanked. We've got active fires across the isthmus — at least four structure fires confirmed, maybe five if that's what's burning near the UW farm."
+      },
+      {
+        "host": "holden",
+        "text": "The smoke pattern is interesting. It's drifting north-northeast, which means — Caroline, what's the wind now?"
+      },
+      {
+        "host": "caroline",
+        "text": "Northwest eleven, gusting to eighteen. The cold front didn't kill the wind like I thought it would. Temperature's holding at twenty-nine."
+      },
+      {
+        "host": "quinn",
+        "text": "So we've got smoke rolling across downtown, visibility shot, and four hours still on the clock. That's the setup. That's what Madison's dealing with right now."
+      },
+      {
+        "host": "holden",
+        "text": "What's interesting — and I've got the 2168 data here — fire-based incidents account for nine percent of total Purge deaths. But they're not evenly distributed."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden, we don't have time for a dissertation. People are literally watching fires burn. Can you give them something useful?"
+      },
+      {
+        "host": "holden",
+        "text": "The useful thing is this: smoke inhalation kills faster than the fire does. If you're sheltering in place and the smoke gets thick, seal your doors. Wet towels in the gaps."
+      },
+      {
+        "host": "quinn",
+        "text": "There it is. Tim, you copying this? We need this on the emergency band."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm looking at satellite. That's definitely a structure fire near the farm — probably the old equipment warehouse. Wooden structure, dry, burns hot."
+      },
+      {
+        "host": "holden",
+        "text": "Which means the smoke will carry particulates. Not just smoke — ash. The wind's pushing it north-northeast, so East Side and Capitol Hill get it worst."
+      },
+      {
+        "host": "quinn",
+        "text": "This is what the Purge looks like at one in the morning. We're six hours in, kill count is — what did Tucker say the latest was?"
+      },
+      {
+        "host": "caroline",
+        "text": "One-hundred and four at the top of this hour. That was his last check-in before his feed cut."
+      },
+      {
+        "host": "quinn",
+        "text": "One-hundred and four people dead. And now we're adding fire into it. People trapped in their homes because leaving means dying to something else."
+      },
+      {
+        "host": "holden",
+        "text": "The calculus changes when you add environmental factors. Last year the cold front actually suppressed activity hours two through six because the wind and temperature made outdoor violence less feasible."
+      },
+      {
+        "host": "caroline",
+        "text": "But this year the fires are creating a new problem. The smoke is a weapon. People will die from it who weren't in the direct Purge count."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the thing nobody talks about. The official numbers are just direct violence. They don't count the people who die from the secondaries."
+      },
+      {
+        "host": "holden",
+        "text": "Environmental deaths are tracked separately. Five-point-six percent of total last year. But that number's probably going to spike tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "Five-point-six percent of one-eighty-seven is... how many, Holden?"
+      },
+      {
+        "host": "holden",
+        "text": "Ten people. Ten deaths that don't get counted as murder because they're smoke inhalation or exposure or asphyxiation from panic attacks in sealed spaces."
+      },
+      {
+        "host": "caroline",
+        "text": "This is depressing and I'm done talking about percentages. Can we go back to the fires? Are they spreading or contained?"
+      },
+      {
+        "host": "holden",
+        "text": "Contained is optimistic. They're isolated. Fire services aren't operating during the Purge. They'll move in after seven."
+      },
+      {
+        "host": "quinn",
+        "text": "So we're watching buildings burn and we're telling people to seal their doors and hope the wind doesn't change. That's the situation."
+      },
+      {
+        "host": "caroline",
+        "text": "The wind won't change. High pressure system is stable. The northwest flow will hold through dawn."
+      },
+      {
+        "host": "holden",
+        "text": "Which means the East Side gets the worst of the smoke through hour eight and nine, then as the inversion breaks around sunrise, it should dissipate."
+      },
+      {
+        "host": "quinn",
+        "text": "So if you're on the East Side and you're listening, the next four to five hours are going to suck. But it clears up. You're not breathing that forever."
+      },
+      {
+        "host": "caroline",
+        "text": "Not forever. Just the worst hours of the night. Which for the East Side anyway is already the worst hours of the Purge."
+      },
+      {
+        "host": "holden",
+        "text": "East Side's running eighteen-point-two percent of the kill count. That's the hottest zone. Has been for four years running."
+      },
+      {
+        "host": "quinn",
+        "text": "Why? What makes the East Side worse than everywhere else?"
+      },
+      {
+        "host": "holden",
+        "text": "Multiple variables. Neighborhood density. Fewer fortified structures than West Side. Less organized community defense than Willy Street. And — this is the thing nobody wants to say — it's poorer."
+      },
+      {
+        "host": "caroline",
+        "text": "So the people least able to afford private security are in the most active violence zones. That's not complicated."
+      },
+      {
+        "host": "quinn",
+        "text": "It's elegant, actually. It's a perfect machine. The Purge sorts itself by wealth in about three hours."
+      },
+      {
+        "host": "holden",
+        "text": "And now you're adding smoke on top of that. So the East Side doesn't just have the most direct violence — they've got the worst air quality too."
+      },
+      {
+        "host": "caroline",
+        "text": "I hate this conversation. Can we talk about literally anything else?"
+      },
+      {
+        "host": "quinn",
+        "text": "What would you like to talk about, Caroline? The weather? The fires? The fact that we're one-hundred-and-four bodies in and we've still got five hours to go?"
+      },
+      {
+        "host": "caroline",
+        "text": "Fine. The fires. The equipment warehouse near the farm will burn for another three to four hours. The structure's already fully involved, so it's just managing the spread."
+      },
+      {
+        "host": "holden",
+        "text": "Wooden structure, you said. How big?"
+      },
+      {
+        "host": "caroline",
+        "text": "Satellite estimate puts it at two-point-five to three thousand square feet. Large enough to pump out serious heat and smoke. Small enough not to generate its own weather patterns."
+      },
+      {
+        "host": "holden",
+        "text": "So the smoke stays localized but dense. It won't rise above the inversion layer, so it'll sit at ground level until the sun breaks the inversion at dawn."
+      },
+      {
+        "host": "quinn",
+        "text": "Which is exactly what people in their homes don't want to hear. Ground-level smoke means it finds the gaps. It gets in."
+      },
+      {
+        "host": "caroline",
+        "text": "HVAC systems should have filtration. If you're in a sealed structure with a working system, you're okay. The filter gets dirty, but the air inside stays clean."
+      },
+      {
+        "host": "holden",
+        "text": "But most people don't have modern HVAC. Most people in Madison have old systems from the eighties and nineties. No HEPA filtration."
+      },
+      {
+        "host": "quinn",
+        "text": "So if you're poor and old and you live in an old building on the East Side, you're pulling in whatever the wind's bringing you."
+      },
+      {
+        "host": "caroline",
+        "text": "And you can't leave because leaving means getting killed. So you sit there and you breathe it in."
+      },
+      {
+        "host": "holden",
+        "text": "The Purge is elegant in the worst way. It doesn't have to kill you with violence. It can just make the air toxic and let you do the math yourself."
+      },
+      {
+        "host": "quinn",
+        "text": "This is why I drink. This is the entire reason I pour whiskey into my bloodstream at one in the morning on Purge Night."
+      },
+      {
+        "host": "caroline",
+        "text": "You drink at one in the morning every night, Quinn. The Purge is just the only night you do it on air."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline, you wound me. I am a sophisticated man with a measured approach to evening relaxation."
+      },
+      {
+        "host": "holden",
+        "text": "You poured number seven about twenty minutes ago and you're already reaching for number eight. I saw it."
+      },
+      {
+        "host": "quinn",
+        "text": "I saw you looking. Seven and eight are both part of the same emotional arc. They count as one very large drink."
+      },
+      {
+        "host": "caroline",
+        "text": "This is the kind of analysis I expect from you, Quinn. Very creative."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what? I don't regret it. If I'm going to sit here and watch the East Side burn and go dark from smoke inhalation, I'm doing it lubricated."
+      },
+      {
+        "host": "holden",
+        "text": "The East Side isn't going dark. The smoke's thick but not opaque. People can still see to move around if they're stupid enough to try."
+      },
+      {
+        "host": "caroline",
+        "text": "And people are always stupid enough to try. The Purge brings out the worst in everyone, including the decision-making part of the brain."
+      },
+      {
+        "host": "quinn",
+        "text": "Especially at one in the morning. This is the witching hour for bad choices. This is when your brain tells your body that leaving the barricade is a good idea."
+      },
+      {
+        "host": "holden",
+        "text": "Kill count should spike in the next two hours. Fatigue's setting in, judgment's degrading, and the smoke's making people panic."
+      },
+      {
+        "host": "caroline",
+        "text": "That's your prediction? More bodies?"
+      },
+      {
+        "host": "holden",
+        "text": "It's not a prediction. It's a mathematical certainty based on historical patterns. Hours two through four always spike when environmental stress increases."
+      },
+      {
+        "host": "quinn",
+        "text": "So we should expect another fifteen to twenty bodies in the next hour?"
+      },
+      {
+        "host": "holden",
+        "text": "Conservative estimate? Eighteen to twenty-three. That would put us at one-twenty-two to one-twenty-seven by two in the morning."
+      },
+      {
+        "host": "caroline",
+        "text": "You're very confident about numbers you can't verify."
+      },
+      {
+        "host": "holden",
+        "text": "I'm confident about patterns. Tucker will have new numbers at the top of the hour. We'll see if the pattern holds."
+      },
+      {
+        "host": "quinn",
+        "text": "And if it doesn't?"
+      },
+      {
+        "host": "holden",
+        "text": "Then something unexpected happened. Something broke the pattern. And that's actually more interesting than the pattern holding."
+      },
+      {
+        "host": "caroline",
+        "text": "Only you would find mass death interesting, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "I find data interesting. The deaths are already happening. I'm just trying to understand the shape of what's happening."
+      },
+      {
+        "host": "quinn",
+        "text": "This is the difference between you and me, Holden. You want to understand the shape. I just want to get drunk and forget there is a shape."
+      },
+      {
+        "host": "caroline",
+        "text": "Both strategies are equally ineffective. The shape doesn't care if you understand it. The bodies don't care if you're drunk."
+      },
+      {
+        "host": "quinn",
+        "text": "But I feel better. That's the key difference. My ineffectiveness is at least pleasant."
+      },
+      {
+        "host": "holden",
+        "text": "I'd argue that understanding gives a kind of peace too. If you can see the pattern, you can explain it to someone who's scared. That's useful."
+      },
+      {
+        "host": "quinn",
+        "text": "You're useful. I'm drunk. The listeners get both perspectives. It works out."
+      },
+      {
+        "host": "caroline",
+        "text": "The listeners get two men avoiding their own terror by pretending it's a game they can play well."
+      },
+      {
+        "host": "quinn",
+        "text": "Ouch. That's — that's actually fair."
+      },
+      {
+        "host": "holden",
+        "text": "It's not a game. This is real. The fires are real. The smoke is real. The people dying right now are real."
+      },
+      {
+        "host": "caroline",
+        "text": "And talking about it on the radio makes us feel like we're doing something. That's the lie we tell ourselves every year."
+      },
+      {
+        "host": "quinn",
+        "text": "We're not doing something. We're witnessing. There's a difference."
+      },
+      {
+        "host": "caroline",
+        "text": "Is there? Or are we just the comfortable people describing the suffering of the uncomfortable people?"
+      },
+      {
+        "host": "holden",
+        "text": "We're all uncomfortable. Everyone in this city is uncomfortable right now."
+      },
+      {
+        "host": "quinn",
+        "text": "But some of us are uncomfortable in a sealed broadcast studio with whiskey and access to weather data. And some of us are uncomfortable in a sealed apartment with no way out and smoke coming through the walls."
+      },
+      {
+        "host": "caroline",
+        "text": "The smoke is not coming through the walls. It's outside. It's not going to penetrate intact structures."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline, you know it will. Any seal degrades. Any window has a gap. Any door frame isn't airtight."
+      },
+      {
+        "host": "caroline",
+        "text": "So what? They breathe some smoke and they live. It's unpleasant. It's not lethal."
+      },
+      {
+        "host": "holden",
+        "text": "Unless you have asthma. Or emphysema. Or a heart condition. Or you're very young. Or very old. Then smoke inhalation is absolutely lethal."
+      },
+      {
+        "host": "quinn",
+        "text": "And there's no one you can call. No ambulance is coming. No fire department is moving. You just wait to see if your lungs give up."
+      },
+      {
+        "host": "caroline",
+        "text": "Stop. I don't want to keep doing this."
+      },
+      {
+        "host": "quinn",
+        "text": "Doing what?"
+      },
+      {
+        "host": "caroline",
+        "text": "The doom spiral. The thing where we just keep naming all the ways the night kills people until we've covered everything possible and there's nothing left to say except 'we're doomed.'"
+      },
+      {
+        "host": "holden",
+        "text": "That's what's happening, though. That's the actual situation."
+      },
+      {
+        "host": "caroline",
+        "text": "I know it's what's happening. I know it better than anyone because I have to predict it, track it, describe it. But I don't have to spiral about it."
+      },
+      {
+        "host": "quinn",
+        "text": "What do you want to talk about?"
+      },
+      {
+        "host": "caroline",
+        "text": "Nothing. I want to sit here and do my job and then go home and try to sleep and fail."
+      },
+      {
+        "host": "holden",
+        "text": "That's an understandable goal."
+      },
+      {
+        "host": "quinn",
+        "text": "We've still got five hours."
+      },
+      {
+        "host": "caroline",
+        "text": "I know. I've been watching the clock since six in the evening. Do you know what that's like? Seven hours of your life knowing exactly how many hours are left?"
+      },
+      {
+        "host": "holden",
+        "text": "That's most of a workday."
+      },
+      {
+        "host": "caroline",
+        "text": "Except a workday you can leave. A workday doesn't have fires and bodies and kill counts climbing in real time."
+      },
+      {
+        "host": "quinn",
+        "text": "The kill count climbing is the thing Holden lives for. He eats that data like it's protein."
+      },
+      {
+        "host": "holden",
+        "text": "That's not fair."
+      },
+      {
+        "host": "quinn",
+        "text": "Isn't it? You're already looking at your watch, thinking about what the pattern says the next update should be. You're probably mentally preparing your breakdown of the two-to-three hour spike."
+      },
+      {
+        "host": "holden",
+        "text": "I can't help pattern recognition. It's just how my brain works."
+      },
+      {
+        "host": "caroline",
+        "text": "That's the excuse everyone uses. 'I can't help it, it's just how I am.' Meanwhile the city's burning and everyone's just following their natural impulses."
+      },
+      {
+        "host": "quinn",
+        "text": "Are you okay?"
+      },
+      {
+        "host": "caroline",
+        "text": "No. I'm not okay. It's one in the morning, I haven't slept in thirty hours because I was preparing for this all yesterday, and I'm sitting in a room with you and Holden watching numbers go up. So no. I'm not okay."
+      },
+      {
+        "host": "holden",
+        "text": "We can take a break. Tim can run a pre-recorded segment. You can get some water, maybe step outside for air."
+      },
+      {
+        "host": "caroline",
+        "text": "The air outside is full of smoke. That's the whole thing. There's nowhere to go. There's nothing to do. There's just this."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline, I'm going to pour you a drink and you're going to tell me something true."
+      },
+      {
+        "host": "caroline",
+        "text": "I don't want a drink."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not asking. I'm telling you it's happening."
+      },
+      {
+        "host": "caroline",
+        "text": "Fine. Something true? Okay. Something true is that I hate this. I hate this night. I hate predicting death. I hate being right about death. I hate knowing that three people are going to die in the next hour because of what I can see happening in the weather patterns."
+      },
+      {
+        "host": "holden",
+        "text": "You can't know that."
+      },
+      {
+        "host": "caroline",
+        "text": "I can and I do. And I hate that I can. I hate having that precision. I'd rather be wrong. I'd rather be surprised. But I'm never surprised."
+      },
+      {
+        "host": "quinn",
+        "text": "Last year you got the cold front wrong."
+      },
+      {
+        "host": "caroline",
+        "text": "I got it wrong by twelve minutes. That doesn't count. That's not surprise. That's just margin of error."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "emergency",
+        "text": "SMOKE ALERT: Multiple structure fires reported across isthmus. Visibility degraded. East Side residents: seal doors, use HVAC filtration if available. Stay indoors."
+      },
+      {
+        "category": "kill-count",
+        "text": "Current cumulative kill count: 104 (as of 00:00). Expect update at top of next hour."
+      },
+      {
+        "category": "local-news",
+        "text": "Equipment warehouse fire near UW farm — fully involved. Fire services standing by for post-dawn response. Estimated duration: 3-4 hours."
+      },
+      {
+        "category": "weather",
+        "text": "Wind: NW 11 mph, gusts to 18. Temperature: 29°F. Inversion layer stable through dawn. Smoke will remain at ground level."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:46:09.205Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

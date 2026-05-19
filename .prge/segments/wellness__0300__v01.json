@@ -1,0 +1,233 @@
+{
+  "format": "wellness",
+  "inWorldTime": "03:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. [pause] The clock reads {{CLOCK}}. We are {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to notice your breath. [pause] Not change it. Notice it."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in through your nose. [pause] Four counts. One. Two. Three. Four."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold. [pause] Feel the cold air in your lungs."
+      },
+      {
+        "host": "marigold",
+        "text": "Release through your mouth. [pause] Slow. Let it empty."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. [pause] In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "There is wind outside. [pause] The Sisters say wind is the breath of the world. [pause] When the world breathes, we listen."
+      },
+      {
+        "host": "marigold",
+        "text": "You can hear it if you listen. [pause] Rattling the windows you've locked."
+      },
+      {
+        "host": "marigold",
+        "text": "This is good. [pause] The wind keeps people moving. [pause] The cold keeps people tired."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan your body. [pause] Start at the crown of your head. [pause] Is there tension?"
+      },
+      {
+        "host": "marigold",
+        "text": "Release it. [pause] Let it fall away like snow."
+      },
+      {
+        "host": "marigold",
+        "text": "Your shoulders. [pause] Are they hunched? [pause] Lower them. [pause] Feel the weight of safety."
+      },
+      {
+        "host": "marigold",
+        "text": "Your chest. [pause] Is your heart fast? [pause] That's natural. [pause] It will slow."
+      },
+      {
+        "host": "marigold",
+        "text": "Your hands. [pause] Are they in fists? [pause] Open them. [pause] Palms up. [pause] Receive."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to think about the choice you made. [pause] To stay inside."
+      },
+      {
+        "host": "marigold",
+        "text": "This was not forced. [pause] You chose this. [pause] You locked the door."
+      },
+      {
+        "host": "marigold",
+        "text": "That is power. [pause] The only power that matters."
+      },
+      {
+        "host": "marigold",
+        "text": "There are people outside who did not make this choice. [pause] They are not your responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "They made their own choices. [pause] Long before {{CLOCK}}. [pause] Long before tonight."
+      },
+      {
+        "host": "marigold",
+        "text": "You cannot carry them. [pause] You can only carry yourself."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] One. Two. Three. Four."
+      },
+      {
+        "host": "marigold",
+        "text": "I want you to picture a light. [pause] Not the sunrise. [pause] Something older."
+      },
+      {
+        "host": "marigold",
+        "text": "A candle. [pause] A small flame. [pause] It is yours alone."
+      },
+      {
+        "host": "marigold",
+        "text": "No one can blow it out. [pause] No one can reach it."
+      },
+      {
+        "host": "marigold",
+        "text": "The wind outside — the cold — they cannot touch it."
+      },
+      {
+        "host": "marigold",
+        "text": "Ka-shela-mora-ten. [pause] The Sisters have a word for this. [pause] For the light inside."
+      },
+      {
+        "host": "marigold",
+        "text": "You don't need to know the word. [pause] You know the feeling."
+      },
+      {
+        "host": "marigold",
+        "text": "It's been burning {{ELAPSED}} now. [pause] Since you locked the door."
+      },
+      {
+        "host": "marigold",
+        "text": "Think about the people you have forgiven. [pause] Breathe for them."
+      },
+      {
+        "host": "marigold",
+        "text": "Think about the people you have not. [pause] That is also a choice. [pause] You are allowed this."
+      },
+      {
+        "host": "marigold",
+        "text": "Unforgiveness is not a sin. [pause] It is honesty."
+      },
+      {
+        "host": "marigold",
+        "text": "Some people do not deserve the mercy of your forgetting."
+      },
+      {
+        "host": "marigold",
+        "text": "Set them down. [pause] Not forgive. [pause] Set them down."
+      },
+      {
+        "host": "marigold",
+        "text": "Your body knows the difference."
+      },
+      {
+        "host": "marigold",
+        "text": "The temperature has dropped. [pause] Nine degrees since midnight."
+      },
+      {
+        "host": "marigold",
+        "text": "Your walls are holding. [pause] Your heat is holding."
+      },
+      {
+        "host": "marigold",
+        "text": "This is enough. [pause] This has always been enough."
+      },
+      {
+        "host": "marigold",
+        "text": "In the darkest hours, we do not ask for more. [pause] We ask for less."
+      },
+      {
+        "host": "marigold",
+        "text": "We ask for quiet. [pause] We ask for time to pass."
+      },
+      {
+        "host": "marigold",
+        "text": "We ask for the sun. [pause] But we do not demand it."
+      },
+      {
+        "host": "marigold",
+        "text": "It will come. [pause] It always does."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] In this moment, you are safe."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe out. [pause] You have done nothing wrong."
+      },
+      {
+        "host": "marigold",
+        "text": "In. [pause] You are here."
+      },
+      {
+        "host": "marigold",
+        "text": "Out. [pause] You chose to stay."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones outside are learning their own lessons. [pause] In the cold. [pause] In the wind."
+      },
+      {
+        "host": "marigold",
+        "text": "Your lesson is smaller. [pause] Quieter. [pause] It is the lesson of doors."
+      },
+      {
+        "host": "marigold",
+        "text": "Of walls. [pause] Of the space between heartbeats where safety lives."
+      },
+      {
+        "host": "marigold",
+        "text": "When you wake — and you will wake — remember this feeling."
+      },
+      {
+        "host": "marigold",
+        "text": "Remember that you were here. [pause] That you chose this. [pause] That you survived by staying still."
+      },
+      {
+        "host": "marigold",
+        "text": "That is enough. [pause] That has always been enough."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 153 (up 14 from 03:00 2168). East Side holding at 32% of total activity."
+      },
+      {
+        "category": "emergency",
+        "text": "NW wind gusts increasing. Temperature now 24°F. Lake Mendota shoreline reporting fog density 1.5 miles. Avoid water access."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"The light you carry is yours alone.\" — Sister Marigold, PRGE 03:00"
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol Regional reports: Fortified perimeter secure. Inner ring stable. No new breach attempts since 01:40."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:33:05.860Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

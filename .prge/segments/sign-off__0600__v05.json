@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "The clock reads {{CLOCK}}. Sunrise in forty-seven minutes. Wind is holding steady out of the north at four miles per hour. Visibility is ten miles and climbing."
+      },
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in. The phone lines tonight — did anyone else notice? I've been here since seven and we've never had this many callers. People just wanted to talk."
+      },
+      {
+        "host": "holden",
+        "text": "One hundred and eighty-seven kills confirmed as of 05:55. That puts us on trend. East Side held its numbers. State Street stayed quiet after midnight."
+      },
+      {
+        "host": "tucker",
+        "text": "I made it back. Wasn't sure I would, but the routes cleared around five. The city's already starting to move — emergency crews staging at the perimeter, waiting for the all-clear."
+      },
+      {
+        "host": "nick",
+        "text": "Last track of the night was The Ramones. 'I Wanna Be Sedated.' Seemed right. Seemed like the only honest thing left to say."
+      },
+      {
+        "host": "quinn",
+        "text": "Darren from Atwood called back at five-thirty. Remember Darren? The panels. He said they got fixed. He said his neighbor brought him coffee at dawn. Just — coffee. In the dark."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. The night is ending. The ones outside are stepping back into law. The ones inside are stepping into morning. Both are real."
+      },
+      {
+        "host": "caroline",
+        "text": "First light hits the Capitol dome at six fifty-two. Fourteen minutes from now you'll see it catch. The frost will melt in patches. It's going to be a clear day."
+      },
+      {
+        "host": "holden",
+        "text": "The weapons data tonight — melee was up again. Thirty-nine percent of kills. That's the fourth year trending upward. Economics. Ammunition's still too expensive."
+      },
+      {
+        "host": "tucker",
+        "text": "We had seven callers tonight who just wanted company. Not asking for help. Not reporting anything. Just — on the line. Listening. Breathing with us."
+      },
+      {
+        "host": "nick",
+        "text": "I'm going to sleep for thirty-six hours. I'm going to drink coffee until my hands shake. I'm going to come back next year and do this exact same thing."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I thought about tonight, around three in the morning? The people who designed this. The people who sat in rooms and said, 'This is acceptable.' I hope they sleep well."
+      },
+      {
+        "host": "marigold",
+        "text": "One caller asked me at 04:20 if the Purge was God's will. I told her: the Purge is human will. God's will is that you chose to survive it."
+      },
+      {
+        "host": "caroline",
+        "text": "The overnight low was twenty-one degrees. The windchill brought it down to eleven. Seventeen people died from exposure. That's six percent of tonight's total. It's all in the data."
+      },
+      {
+        "host": "holden",
+        "text": "Neighborhoods I haven't seen numbers like this for in six years. Sun Prairie up twenty-five percent. North Side still the quietest zone in the metro. There's no pattern that explains it anymore."
+      },
+      {
+        "host": "tucker",
+        "text": "The volunteer crew at Mendota found the third body at 02:15. They called it in. By 7am, someone will know the name. Someone will grieve. That's how it works."
+      },
+      {
+        "host": "quinn",
+        "text": "A woman called — didn't give her name, just wanted to say thank you. She said PRGE kept her from opening the door. Said she was going to open the door at one point and she heard Nick's voice and she didn't. She just — didn't."
+      },
+      {
+        "host": "nick",
+        "text": "That's why we're here. That's the only reason any of us are here. Not for ratings. Not for the broadcast. For the people who need to know someone's still awake."
+      },
+      {
+        "host": "marigold",
+        "text": "The sun doesn't ask permission to rise, and neither do you. At seven o'clock, you're going to stand up. You're going to open your doors. You're going to live another day."
+      },
+      {
+        "host": "caroline",
+        "text": "Six fifty-one. One minute to first light. The frost is still holding on Lake Mendota. You can see your breath for another six minutes, maybe seven."
+      },
+      {
+        "host": "holden",
+        "text": "If we're here next year, we'll have numbers. We'll have patterns. We'll have names. We'll have 187 more reasons to broadcast."
+      },
+      {
+        "host": "tucker",
+        "text": "To everyone who stayed on the line tonight — whether you called or you just listened — you made it. You're alive. That's the only statistic that matters at sunrise."
+      },
+      {
+        "host": "quinn",
+        "text": "The whiskey's gone. The night is gone. In forty seconds the sirens are going to lift. In sixty seconds the sun is going to hit the Capitol. We did it again."
+      },
+      {
+        "host": "tim",
+        "text": "We're signing off. Twelve hours. {{ELAPSED}} since the law ended. Madison, you stayed home. You stayed safe. You stayed human. And we were here — all of us, everyone in this building, everyone listening — we were here together. This station isn't legal any other night of the year. It doesn't exist except right now, except for this one night, except because you need it. And we know that. We know that every word we broadcast is borrowed time. We know that at seven o'clock the Purge ends and we become ghosts again for 362 days. But in this moment — this moment right now, at {{CLOCK}}, with the sun coming up over Madison, with the Capitol catching the first light, with the frost melting off Mendota — we are real. You are real. And the ones who didn't make it tonight are real too. We remember them. We're going to say their names next year, and the year after, and the year after that, because that's all we can do. We can bear witness. We can stay awake. We can refuse to let it become normal. So we'll be here next year. We'll broadcast. We'll take your calls. We'll play the songs that hurt too much. Because this is what resistance looks like in 2169 — it looks like staying home. It looks like listening. It looks like a pirate radio station that surfaces once a year like a ghost ship. It looks like all of us, together, for twelve hours, refusing to accept that this is inevitable. The sirens are lifting. Go live. Go grieve. Go remember. And thank you. Thank you for keeping us alive."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "MADISON FINAL: 187 confirmed kills. 412 hospitalized. 23 missing. Year-over-year: on trend."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side: 34 kills. State Street: 19 kills. North Side: 9 kills (10-year low). Sun Prairie spillover: 6 kills (+25% YoY)."
+      },
+      {
+        "category": "emergency",
+        "text": "All emergency crews staging at perimeter for 07:00 all-clear. Lake Mendota recovery operation concluded 02:15. Three deceased recovered."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Tonight's caller volume: 47 unique callers (highest in seven years). Average call duration: 4 minutes 22 seconds. Busiest hour: 05:00-06:00 (pre-dawn survivor calls)."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:41:51.869Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

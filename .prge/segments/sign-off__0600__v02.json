@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "The clock reads {{CLOCK}}. Sunrise in forty-seven minutes. Wind out of the north, steady at three miles per hour. Temperature holding at twenty-one degrees."
+      },
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in. Twelve hours. I've poured nine whiskeys and I'm still here, which either says something about my constitution or nothing at all."
+      },
+      {
+        "host": "holden",
+        "text": "The quiet ones are the hardest to count. We had fewer incidents than 2168 at this point — slower night, but that doesn't mean cleaner. It just means we don't have all the data yet."
+      },
+      {
+        "host": "tucker",
+        "text": "I came back. Made it through the State Street zone twice and the Mendota shoreline once more. Madison-wide, we're tracking one-seventy-three confirmed. That's fourteen below 2168 at this hour."
+      },
+      {
+        "host": "nick",
+        "text": "I haven't introduced a track in two hours. Been sitting here with my hands on the mixer and nothing coming out. Some nights you're empty and some nights you just don't want to fill the space."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who made it through are still breathing. That's the meditation. That's the practice. You are still here."
+      },
+      {
+        "host": "quinn",
+        "text": "Darren called back. From Atwood. His neighbor's panels held. The man who was bleeding made it through the Co-op. Small mercies, folks. We collect them like currency."
+      },
+      {
+        "host": "caroline",
+        "text": "The fog off Mendota lifted at quarter past five, exactly as forecasted. I was wrong about the previous dawn window, but I was right about this one. Small mercies, as Quinn said."
+      },
+      {
+        "host": "tucker",
+        "text": "I watched the sunrise from the East Side perimeter. The city doesn't look different in daylight. That's what strikes you every year. The buildings are the same. The streets are the same. The dead don't change the topology."
+      },
+      {
+        "host": "holden",
+        "text": "Statistically, this is the second-quietest Purge in seven years. But quiet isn't mercy. Quiet is just — less visible. The people who didn't come home are still missing."
+      },
+      {
+        "host": "nick",
+        "text": "You want to know what I'm going to play at six-fifty-eight? Nothing. I'm going to let the station ID sit. Let the sirens speak for themselves."
+      },
+      {
+        "host": "quinn",
+        "text": "I'll be in hiding again tomorrow. Back to the rules. Back to the grid. One night a year I get to sit in a chair and say the things nobody else will. The rest of the time I'm a ghost."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who barricaded their doors and held them closed — you didn't hide. You stood guard. Your own hand on the lock is the strongest barricade there is."
+      },
+      {
+        "host": "caroline",
+        "text": "First responders will move at seven-oh-one. Cleanup crews by dawn-thirty. The city has a schedule for this. It always does."
+      },
+      {
+        "host": "tucker",
+        "text": "I'll be back next year. I always come back. Even when the feed cuts and I'm in the dark and I can hear things I don't want to identify, I come back. That's not bravery. That's obligation."
+      },
+      {
+        "host": "holden",
+        "text": "The data will be processed. The numbers will be analyzed. By next March we'll have the full report. Twelve months from now we'll know exactly where we stand."
+      },
+      {
+        "host": "quinn",
+        "text": "To the people listening in the dark right now — still barricaded, still waiting for the all-clear — you made it. You actually made it."
+      },
+      {
+        "host": "nick",
+        "text": "The Ramones. 'Blitzkrieg Bop.' That's what I'm playing. Because it's dumb and it's loud and it means nothing and it means everything, and in about forty minutes none of this matters anymore."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. You are still alive. Breathe out. Hold that fact. Don't let it go when the sun comes up."
+      },
+      {
+        "host": "caroline",
+        "text": "Thirty-two minutes to sunrise. Twenty-eight minutes to all-clear. The day after is always the same day, but the people in it are different."
+      },
+      {
+        "host": "quinn",
+        "text": "I won't remember most of what I said tonight. The whiskey will handle that. But I'll remember the callers. I'll remember Darren. I'll remember the woman by the lake. I'll remember the quiet."
+      },
+      {
+        "host": "holden",
+        "text": "The one-seventy-three — that's not a triumph. But it's data. It's something to measure against. It's proof that we're still trying."
+      },
+      {
+        "host": "tucker",
+        "text": "Signal's clean. No jammers in the final stretch. We're going to make it to seven-oh-oh on air. We're going to sign off properly. That matters, somehow."
+      },
+      {
+        "host": "tim",
+        "text": "This is Tim Peplinski. I've been in this chair for twelve hours and I've watched my friends survive another night and I've watched the city bleed out on audio and I've run signal in and out of zones where law doesn't exist. Every year I tell myself I'll say something profound at the end. Every year I come up empty. So here's what I know: The people listening right now — in dark apartments, in barricaded rooms, in cars parked under overpasses, in closets, in basements, waiting for the sirens — you are the reason this station exists. Not because we're heroes. We're not. We're ghosts with a microphone. But because staying quiet and staying alive is an act of resistance. Because you chose to be aware. Because you didn't look away. One hundred and seventy-three deaths is one hundred and seventy-three too many, and the quiet nights don't erase the loud ones, and nothing about this system is just. But you made it. You stood your ground, literal or metaphorical, and you didn't become part of the count. That matters. That has to matter. The sun is coming up in twenty-four minutes. The sirens will lift. The city will wake up. And next year we'll be back here again because the Purge doesn't end — it just sleeps. Until then: rest. Hold your people close. Remember the names of the ones who didn't make it back. This is PRGE. We'll see you in twelve months."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide confirmed: 173 kills. 14 below 2168 YoY. Final count pending post-dawn recovery."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side holding steady. Willy Street barricade held through dawn. North Side remained quiet for second consecutive year. Data pending."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Darren (Atwood): Neighbor survived. Panels held. Co-op closure report: 5 sheltered, 1 injured, all secure post-Purge."
+      },
+      {
+        "category": "local-news",
+        "text": "Sirens lift at 07:00 Madison. First responders mobilizing. All-clear broadcast at 07:01. Cleanup crews dispatched by 07:30."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:40:40.396Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

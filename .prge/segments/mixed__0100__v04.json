@@ -1,0 +1,497 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in, folks, and the power's out on three blocks of the East Side. Caroline's got the weather, but I'm looking at my notes here and — Tim, are we still transmitting?"
+      },
+      {
+        "host": "tim",
+        "text": "Backup generator's holding. We're on battery + solar. You're live. Keep going."
+      },
+      {
+        "host": "quinn",
+        "text": "Right. So the East Side outage is coinciding with — and I don't want to say coordinated, but Holden, what are you seeing in the data?"
+      },
+      {
+        "host": "holden",
+        "text": "Kill count's up 23% in that sector compared to last year's 01:00 hour. But the outage complicates the picture because we can't get cell-tower corroboration on the actual —"
+      },
+      {
+        "host": "caroline",
+        "text": "Holden. The temperature."
+      },
+      {
+        "host": "holden",
+        "text": "Right, yes — the cold front's accelerating. We're at 26 degrees now. Down from 31 at midnight. Wind's shifted hard northwest."
+      },
+      {
+        "host": "caroline",
+        "text": "I called 24 to 28 between 00:30 and 02:00. I was off by two degrees at the low end, which, for the record, is within margin."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline, nobody's arguing your weather skills. We're all just grateful we have a heater here and they don't out there."
+      },
+      {
+        "host": "caroline",
+        "text": "I know. But I want it noted. The forecast was sound."
+      },
+      {
+        "host": "quinn",
+        "text": "Noted. Holden, back to the East Side — are we talking accidental outage or deliberate?"
+      },
+      {
+        "host": "holden",
+        "text": "The grid failure logs are scrambled on my end because the data comes through Alliant Energy's server and that's... well, that's down. So I'm working off cached neighborhood sensor data from the 00:40 pulse."
+      },
+      {
+        "host": "quinn",
+        "text": "Which tells you what?"
+      },
+      {
+        "host": "holden",
+        "text": "That someone cut the primary substation at Schenk and East Washington. Deliberately. Wire-cutting marks on the transformer housing. The backup kicked in for about eight minutes and then failed. Cascaded down."
+      },
+      {
+        "host": "caroline",
+        "text": "How do you know that if the power's out?"
+      },
+      {
+        "host": "holden",
+        "text": "Because I have a radio scanner and I listen to Alliant's dispatch. They were already mobilizing repair crews before we came live at 19:00. They just couldn't get to the scene."
+      },
+      {
+        "host": "quinn",
+        "text": "Because it's the Purge."
+      },
+      {
+        "host": "holden",
+        "text": "Correct."
+      },
+      {
+        "host": "quinn",
+        "text": "So what you're saying is someone — a group, probably — identified the power station, disabled it, and is now operating in a deliberate blackout zone. That's not opportunistic violence. That's infrastructure sabotage."
+      },
+      {
+        "host": "holden",
+        "text": "The only comparable incident I can find in the historical record is 2156, when the Westside Coalition took out power to the Capitol Square neighborhood and held it for 47 minutes. Killed 19 people. Then the National Guard got authorization to intervene and it stopped."
+      },
+      {
+        "host": "caroline",
+        "text": "The National Guard doesn't deploy during the Purge."
+      },
+      {
+        "host": "holden",
+        "text": "They do if Level-10 officials are threatened. The Capitol's Level-10. The Westside Coalition was trying to starve them out. It didn't work, but they tried."
+      },
+      {
+        "host": "quinn",
+        "text": "Are we saying that's what's happening tonight? Someone's trying to breach the Capitol?"
+      },
+      {
+        "host": "holden",
+        "text": "I'm saying the data pattern resembles 2156 enough that I flagged it. Whether it's intentional or just a happy accident for whoever's operating in the East Side darkness, I cannot determine."
+      },
+      {
+        "host": "caroline",
+        "text": "Has Tucker reported from that zone?"
+      },
+      {
+        "host": "quinn",
+        "text": "Tucker's last transmission was 00:47, from the Capitol Square perimeter. We haven't heard from them in thirteen minutes."
+      },
+      {
+        "host": "caroline",
+        "text": "Thirteen minutes is a long silence for Tucker."
+      },
+      {
+        "host": "quinn",
+        "text": "It is. Tim, are we getting anything on the field-report frequency?"
+      },
+      {
+        "host": "tim",
+        "text": "Nothing. I'm assuming they're repositioning or they lost signal. The outage is probably messing with the relay."
+      },
+      {
+        "host": "quinn",
+        "text": "Okay. We'll try them again at 01:15. Caroline, what's the weather doing for the next two hours?"
+      },
+      {
+        "host": "caroline",
+        "text": "The cold front's still pushing through. I expect the wind to gust up to 28, maybe 30 miles per hour between 01:30 and 02:15. Visibility's dropping. We might see some light snow flurries in the pre-dawn, but nothing significant."
+      },
+      {
+        "host": "holden",
+        "text": "Wind gusts at 30 miles per hour reduce the effective range of most firearms by approximately 8 to 12 percent. Depending on caliber and operator skill."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, sometimes I really wish you would just enjoy weather for being weather."
+      },
+      {
+        "host": "holden",
+        "text": "I am enjoying it. I'm also contextualizing it against the live kill-count data."
+      },
+      {
+        "host": "caroline",
+        "text": "The wind might actually push the count down in the exposed areas. Lake Mendota corridor, Beltline — it's harder to operate with accuracy when you're fighting elements."
+      },
+      {
+        "host": "quinn",
+        "text": "So we might see a dip in the next hour. That would be good."
+      },
+      {
+        "host": "holden",
+        "text": "Possibly. But the cold will drive people indoors, which concentrates activity in smaller spaces, which can actually increase lethality per incident."
+      },
+      {
+        "host": "quinn",
+        "text": "You're saying the dip might get canceled out."
+      },
+      {
+        "host": "holden",
+        "text": "I'm saying weather's one variable among many and I'm trying not to make simple predictions."
+      },
+      {
+        "host": "caroline",
+        "text": "The forecast I gave stands. 26 to 28 degrees. Gusts to 30. Flurries possible around 05:30."
+      },
+      {
+        "host": "quinn",
+        "text": "Locked in. Folks, if you're just tuning in — and I know some of you are bouncing between stations tonight because the power grid's doing its annual spontaneous combustion routine — you've got PRGE, Purge Radio, the only station that actually talks about what's happening instead of pretending we're all at home reading books."
+      },
+      {
+        "host": "caroline",
+        "text": "We have a caller waiting. Line two. Tim?"
+      },
+      {
+        "host": "tim",
+        "text": "Marcus from near the Tenney Park area. Marcus, you're live."
+      },
+      {
+        "host": "quinn",
+        "text": "Marcus, welcome. Where exactly are you?"
+      },
+      {
+        "host": "quinn",
+        "text": "We're losing him. Tim, did we have a good lock on that feed?"
+      },
+      {
+        "host": "tim",
+        "text": "Signal was spotty. The outage might be affecting cell infrastructure on the East Side. We might not get clean calls from that area for a while."
+      },
+      {
+        "host": "caroline",
+        "text": "Which means whoever's operating in that darkness is operating blind to outside help. That's either very dangerous for them or very dangerous for the people in those buildings."
+      },
+      {
+        "host": "holden",
+        "text": "The historical data on blackout-zone activity suggests that organized groups actually perform better in darkness because they have predetermined positions and communication protocols. Disorganized individuals perform worse."
+      },
+      {
+        "host": "quinn",
+        "text": "Are you saying the East Side power cut suggests organization?"
+      },
+      {
+        "host": "holden",
+        "text": "I'm saying it's consistent with organization, yes."
+      },
+      {
+        "host": "quinn",
+        "text": "Jesus."
+      },
+      {
+        "host": "caroline",
+        "text": "Can we go back to something? You mentioned 2156. The Westside Coalition attempted to breach the Capitol. What was their stated motive?"
+      },
+      {
+        "host": "holden",
+        "text": "They published a manifesto saying the Capitol was a symbol of the system that created the Purge in the first place, and that taking it out would symbolically 'end the lie.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Did it work?"
+      },
+      {
+        "host": "holden",
+        "text": "No. They killed 19 people including three of their own members. The National Guard cleared the area. The Capitol remained. The symbol remained. The system remained."
+      },
+      {
+        "host": "caroline",
+        "text": "But someone's trying the same thing tonight."
+      },
+      {
+        "host": "holden",
+        "text": "I don't have confirmation of intent. I have a power outage and an uptick in one neighborhood. The rest is inference."
+      },
+      {
+        "host": "quinn",
+        "text": "Inference based on data. I'll take it. Folks, we're at {{ELAPSED}} into Purge Night. The East Side is dark. The Capitol is presumably still fortified. We have no word from Tucker in the field. And the temperature is dropping. This is the night you hope your barricade holds and your neighbors don't make any sudden loud noises."
+      },
+      {
+        "host": "tim",
+        "text": "We've got a text-in."
+      },
+      {
+        "host": "quinn",
+        "text": "What does it say?"
+      },
+      {
+        "host": "tim",
+        "text": "'Anyone else hearing the sirens?' No name. No location tag."
+      },
+      {
+        "host": "caroline",
+        "text": "I heard them. South side, I think. Multiple vehicles."
+      },
+      {
+        "host": "holden",
+        "text": "Ambulances don't run during the Purge. Those would be personal vehicle sirens. Aftermarket installs. Which means whoever's in that convoy installed emergency equipment on their own vehicles, which suggests organization or at least significant resources."
+      },
+      {
+        "host": "quinn",
+        "text": "Or they stole a real ambulance, which is also possible."
+      },
+      {
+        "host": "holden",
+        "text": "That's possible, yes."
+      },
+      {
+        "host": "caroline",
+        "text": "Either way, something's moving. Something large enough to have multiple vehicles and sirens."
+      },
+      {
+        "host": "quinn",
+        "text": "And it's three in the morning on Purge Night. Nothing good moves at three in the morning on Purge Night."
+      },
+      {
+        "host": "tim",
+        "text": "Another text: 'The sirens are heading toward the Capitol.' Location tag: South Side near Park Street."
+      },
+      {
+        "host": "holden",
+        "text": "Park Street to Capitol is approximately four point three miles. At average traffic speed, that's six to eight minutes. At aggressive speed, three to four."
+      },
+      {
+        "host": "quinn",
+        "text": "So we might see an incident at the Capitol within the next few minutes if these sirens are indeed heading there."
+      },
+      {
+        "host": "caroline",
+        "text": "Or they're heading somewhere else and the texter's making an assumption."
+      },
+      {
+        "host": "holden",
+        "text": "That's also possible."
+      },
+      {
+        "host": "quinn",
+        "text": "This is the problem with Purge Night. Every sound is a threat. Every movement is a siege. You spend all year not having to think about whether your neighbor is coming for you, and then one night a year you do, and it rewires something in your brain."
+      },
+      {
+        "host": "caroline",
+        "text": "That's why most people stay home."
+      },
+      {
+        "host": "quinn",
+        "text": "Exactly. And we broadcast into those homes because staying home and being silent is its own kind of torture."
+      },
+      {
+        "host": "holden",
+        "text": "Neurologically, white noise and human voices both activate the same calming pathways in the amygdala. PRGE provides both. The kill-count data probably doesn't help, but the presence of other voices does."
+      },
+      {
+        "host": "caroline",
+        "text": "You're saying we're therapy."
+      },
+      {
+        "host": "holden",
+        "text": "I'm saying we're presence. Whether that's therapeutic or just less lonely, I can't quantify."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, can we try Tucker again?"
+      },
+      {
+        "host": "tim",
+        "text": "Trying now."
+      },
+      {
+        "host": "tim",
+        "text": "No response. I'm going to assume they're moving or the outage has taken out their relay. I'll keep trying."
+      },
+      {
+        "host": "quinn",
+        "text": "Okay. Caroline, what's the time?"
+      },
+      {
+        "host": "caroline",
+        "text": "{{CLOCK}}. We're seven hours in. Five hours until the all-clear."
+      },
+      {
+        "host": "quinn",
+        "text": "Five hours is a long time when you're locked in a dark building."
+      },
+      {
+        "host": "caroline",
+        "text": "It's also not that long. You can survive five hours. Most of the people listening to us right now have already survived six."
+      },
+      {
+        "host": "holden",
+        "text": "Psychologically, the hardest part of extended trauma is the uncertainty of duration. When people know they have five hours left, they can mentally subdivide the time. When the duration is unknown, the psychological burden increases exponentially."
+      },
+      {
+        "host": "quinn",
+        "text": "So telling them five hours is actually kind."
+      },
+      {
+        "host": "holden",
+        "text": "Yes."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is why I keep giving accurate time checks. It helps."
+      },
+      {
+        "host": "quinn",
+        "text": "We have another text. Tim?"
+      },
+      {
+        "host": "tim",
+        "text": "'I can see fires from my window. North side. Multiple.' Location: Northside residential, near Sherman."
+      },
+      {
+        "host": "holden",
+        "text": "That's inconsistent with the North Side trend. We had the lowest kill count there last year. Nine total. Down 11 percent from 2167. Something's changed."
+      },
+      {
+        "host": "caroline",
+        "text": "Or someone's brought the violence from another neighborhood."
+      },
+      {
+        "host": "quinn",
+        "text": "Fires are structural or vehicle?"
+      },
+      {
+        "host": "tim",
+        "text": "Texter didn't specify. Just 'multiple fires.' No location tag, so I can't triangulate."
+      },
+      {
+        "host": "holden",
+        "text": "2168 data shows that 9 percent of kills were fire-related, down from 12 percent in 2167. The decline was attributed to increased ammunition availability making firearms more cost-effective than incendiary devices. Tonight's fires might represent a return to that pattern or just local circumstances."
+      },
+      {
+        "host": "quinn",
+        "text": "What I'm hearing is we don't know what the hell's happening tonight."
+      },
+      {
+        "host": "holden",
+        "text": "We have fragmentary intelligence. We're extrapolating. It's the best we can do real-time."
+      },
+      {
+        "host": "caroline",
+        "text": "The weather's not fragmentary. I can confirm the temperature, the wind, the precipitation probability. That's solid."
+      },
+      {
+        "host": "quinn",
+        "text": "And I appreciate that, Caroline. Give us a midnight-to-02:00 window in your words."
+      },
+      {
+        "host": "caroline",
+        "text": "Cold front's moving through. We're looking at 26 to 28 degrees. Wind gusts up to 30. Clouds are thickening. Pre-dawn flurries possible, but nothing heavy. Anyone outside is going to feel the cold badly. Visibility's limited. It's not blizzard conditions, but it's bad. It's bad enough to make decisions harder."
+      },
+      {
+        "host": "quinn",
+        "text": "Bad enough to retreat inside."
+      },
+      {
+        "host": "caroline",
+        "text": "Yes."
+      },
+      {
+        "host": "holden",
+        "text": "Which, statistically, should reduce activity. But the fires on the North Side suggest people are moving, not retreating."
+      },
+      {
+        "host": "quinn",
+        "text": "Unless the fires are already-set fires. Someone lit them hours ago and they're still burning."
+      },
+      {
+        "host": "holden",
+        "text": "Possible, but structural fires usually burn down within two to three hours unless they're actively fed or the structure itself is highly flammable. Vehicle fires rarely burn more than 45 minutes."
+      },
+      {
+        "host": "caroline",
+        "text": "So if the texter's seeing multiple fires right now, they were probably set in the last hour or so."
+      },
+      {
+        "host": "quinn",
+        "text": "Which suggests ongoing activity in the North Side at 01:00 AM, which is statistically unusual for that neighborhood."
+      },
+      {
+        "host": "holden",
+        "text": "Correct."
+      },
+      {
+        "host": "quinn",
+        "text": "We're spinning in data, folks. We're looking at a night that's not following the script. The East Side's dark. The Capitol might be under siege. The North Side's lighting up. And Tucker, our only eyes in the field, is either dead or dark."
+      },
+      {
+        "host": "tim",
+        "text": "I'm going to try the frequency again."
+      },
+      {
+        "host": "quinn",
+        "text": "Do it."
+      },
+      {
+        "host": "tim",
+        "text": "Nothing. I'm registering an open channel but no voice. Could be equipment failure, could be the outage."
+      },
+      {
+        "host": "quinn",
+        "text": "Okay. Tim, if Tucker's equipment goes down, they can't navigate. They're out there in the dark without a way home."
+      },
+      {
+        "host": "tim",
+        "text": "They're trained for it. They know the grid by memory. They'll be fine."
+      },
+      {
+        "host": "quinn",
+        "text": "Are they?"
+      },
+      {
+        "host": "tim",
+        "text": "They'll be fine."
+      },
+      {
+        "host": "caroline",
+        "text": "Folks, if you're listening and you need help — if you're injured or trapped or if you just need someone to hear your voice — we're here. The whole night. You're not alone in those houses."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison YoY comparison: 154 kills through 01:00 (2168: 104 same hour). Up 48% — significantly above historical trend."
+      },
+      {
+        "category": "emergency",
+        "text": "POWER OUTAGE: East Side grid failure. Substation Schenk + East Washington. Backup cascade collapsed. Cell service impacted. Repair crews unable to deploy during Purge hours."
+      },
+      {
+        "category": "local-news",
+        "text": "North Side fires reported near Sherman Avenue — multiple structures. Inconsistent with historical low-violence pattern for that neighborhood."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Convoy with emergency sirens reported heading south-to-north on Park Street, toward Capitol district. Speed and size unknown. ETA Capitol area: 3-8 minutes."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:46:59.938Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

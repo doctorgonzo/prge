@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "It's {{CLOCK}}, folks. We're {{ELAPSED}} in. The sun's coming up over Lake Mendota and I can see the smoke from here — thick gray coming off the East Side, carrying across the isthmus like the whole city's burning a remembrance."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind shifted north about twenty minutes ago. That smoke's going to blanket downtown by sunrise. Visibility down to half a mile. But the rain's done. The cold front's moving out. It's going to be a clear day."
+      },
+      {
+        "host": "holden",
+        "text": "Final count from Tucker's last report: 189 kills. That's two more than 2168. The East Side alone pulled 19% of the night — we're looking at a 3% uptick from last year on neighborhood concentration."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I remember thinking at four in the morning? I thought: this is the last night anyone's going to hear my voice. That's not because of the Purge — that's because I was drunk and paranoid. But I meant it."
+      },
+      {
+        "host": "nick",
+        "text": "I didn't sleep. I played fifty-four tracks tonight. The last one was The Ramones doing 'I Wanna Be Sedated.' You know what that song's about? Just wanting it all to stop for a while."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who stayed home — and I can feel them listening right now, can feel them in the silence on the other end of this signal — they were the ones who were truly awake."
+      },
+      {
+        "host": "quinn",
+        "text": "Darren from Atwood called in around three hours in. Asked if his neighbor made it. I never heard back. I'm going to spend the next 365 days wondering if Darren's neighbor survived his own bad installation job."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm back. I made it through. I don't have a lot to add to that."
+      },
+      {
+        "host": "caroline",
+        "text": "The 01:00 cold front killed six people directly — exposure, locked out, hypothermia. The weather isn't neutral. It's part of the night. That matters."
+      },
+      {
+        "host": "nick",
+        "text": "There's a guy I used to know. Used to run this place before Tim. I thought about him a lot around hour eight. I'm not going to say his name. But I played 'Linoleum' for him anyway."
+      },
+      {
+        "host": "holden",
+        "text": "If you're looking at the data the way I have been for the last twelve hours — and I know you are, because this is what we do on this night — you see the pattern. Year to year, neighborhood to neighborhood. It's not random. It's structured violence. That's almost worse somehow."
+      },
+      {
+        "host": "quinn",
+        "text": "Regional Director Calloway is waking up in his fortified office right now. His breakfast's being prepared. His security is standing down. And there are 189 families in this city that don't have anyone to feed breakfast to."
+      },
+      {
+        "host": "marigold",
+        "text": "I want to offer a closing meditation for those of you still holding the vigil. Breathe in. You survived the night. Breathe out. You chose to stay home, and that was the right choice."
+      },
+      {
+        "host": "tucker",
+        "text": "Visibility's still poor on the East Side. 23 reported missing from 2168 — we won't know for another week if any of them come back. But 189 confirmed. That's the number we're closing on."
+      },
+      {
+        "host": "nick",
+        "text": "The Ramones finished at {{CLOCK}}. That's where we are. That's where we end."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going back into the walls tomorrow. I'm going to exist in the spaces the government pretends I don't inhabit. And I'll do this again next year, because this is the only night I'm allowed to be real."
+      },
+      {
+        "host": "caroline",
+        "text": "Sunrise is at 06:47. Twelve minutes. The all-clear sirens start at 07:00 sharp. Madison's been dark for {{ELAPSED}}. The light's coming back."
+      },
+      {
+        "host": "holden",
+        "text": "I want to note that the Willy Street neighborhood watch held their barricade for 90 minutes with zero penetrations. Zero. That's a 4-year high on defensive efficacy. That data means something."
+      },
+      {
+        "host": "marigold",
+        "text": "The Sisters send their blessings to those who kept vigil through the night. Your silence was your power."
+      },
+      {
+        "host": "quinn",
+        "text": "I've had nine whiskeys. I've watched the night through red eyes. And I want to say — before Tim brings us down — I want to say: thank you for not opening your doors. Thank you for staying alive."
+      },
+      {
+        "host": "tucker",
+        "text": "PRGE signal strength optimal. We made it. The rig's still standing. We'll be back next year."
+      },
+      {
+        "host": "nick",
+        "text": "Yeah. We'll be back."
+      },
+      {
+        "host": "tim",
+        "text": "This is Tim Peplinski. I've been running this station for eleven years, and every year I stand here at 06:00 Madison time, watching the sun come up over a city that just survived another night of legal violence, and I want to tell you something: the fact that you're listening to me right now — the fact that this signal made it, that the jammer couldn't kill us, that we stayed on the air when they tried to shut us down at 03:17 — that matters. It matters more than the numbers Holden's holding. It matters more than the neighborhoods that burned. Because what we're doing here, what PRGE is, is proof that the people this system was built to silence are still awake. Still here. Still speaking. 189 people didn't make it through this night. 189 families are waking up to empty chairs. That's not a statistic — that's a fracture in the city that won't close for a year. But the 71,000 of you who spent the last {{ELAPSED}} listening to us talk about the weather, about the kill count, about the fires on the isthmus, about everything except the fact that this is normal — you're the ones who refused to accept it. You're the ones who stayed home, locked your doors, and chose not to participate. And next year, on the same night, in the same frequency, we're going to do this again. We're going to stay on the air. We're going to count the dead. We're going to remind the city that there's another way to live — one day at a time, one year at a time, until the Purge stops being the thing we endure and becomes the thing we refuse. Thank you for staying. Thank you for staying home. Thank you for staying alive. This is PRGE, signing off for 2169. The light's coming. The sirens are coming. And we'll be here again when the dark comes back."
+      },
+      {
+        "host": "tim",
+        "text": "Signal ending at 07:00 Madison. God bless."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Final Purge Night 2169 Death Toll: 189 confirmed Madison-wide. YoY +2 vs 2168 (187)."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side concentrated 19% of all Purge activity. Visibility compromised citywide by smoke. Emergency crews standing by for 07:00 all-clear."
+      },
+      {
+        "category": "local-news",
+        "text": "Willy Street Community Watch: Zero penetrations. 90-minute defensive hold. Highest efficacy in 4 years."
+      },
+      {
+        "category": "emergency",
+        "text": "All-clear sirens begin 07:00 Madison. Law enforcement resuming jurisdiction. 23 missing persons from 2168 remain unrecovered."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:41:03.947Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

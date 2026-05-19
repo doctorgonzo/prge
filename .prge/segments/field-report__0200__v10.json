@@ -1,0 +1,61 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm on the East Side, near Schenk's Corners. The full moon's so bright I can see footprints in the snow from fifty meters out. That's — that's a problem."
+      },
+      {
+        "host": "tucker",
+        "text": "Madison-wide count is at one-hundred thirty-nine kills as of 02:00. We're {{ELAPSED}} in. YoY, that's plus seventeen from this hour last year."
+      },
+      {
+        "host": "holden",
+        "text": "That's a significant uptick. The moon effect?"
+      },
+      {
+        "host": "tucker",
+        "text": "Likely. Visibility's up, which means targeting's easier, which means — hold on, my drone feed just locked. Recalibrating."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side's carrying forty-two percent of that total. Atwood corridor specifically spiked between 00:00 and 01:00. Weapon distribution's shifted hard toward bladed — seventy-three percent of kills in this zone are contact weapons. Suggests organized smaller groups, not opportunistic."
+      },
+      {
+        "host": "holden",
+        "text": "How organized?"
+      },
+      {
+        "host": "tucker",
+        "text": "Movement patterns suggest coordination. Three separate clusters moving in parallel lines, avoiding each other. That's not random. I'm repositioning to get closer to the northern cluster and — wait, hold on, I'm picking up voices about two blocks north. Let me move toward the —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison kill count: 139 (YoY +17 from this hour 2168)"
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side carrying 42% of tonight's toll. Atwood spike: 00:00-01:00."
+      },
+      {
+        "category": "local-news",
+        "text": "Full moon visibility 10/10. Tactical advantage to organized groups."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Schenk's Corners resident reports group movement near Stoughton Rd. Unconfirmed."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:09:05.935Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

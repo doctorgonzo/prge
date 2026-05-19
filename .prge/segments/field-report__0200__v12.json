@@ -1,0 +1,57 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker Traywick, East Side perimeter, near Schenk's Corners. We're {{ELAPSED}} in. Madison-wide cumulative is sitting at 139 kills as of 02:18. That's tracking four kills behind last year at this exact point — 02:00 hour into the night, we were at 143."
+      },
+      {
+        "host": "tucker",
+        "text": "Neighborhood weight: East Side is still carrying the load. Thirty-four kills here alone, which is 24 percent of the total metro count. That's a seven-point-two percent concentration increase from 2168."
+      },
+      {
+        "host": "tucker",
+        "text": "Holden, you seeing the weapons-trade pattern shift we discussed earlier? I'm watching the Atwood Avenue corridor and the bladed-implement traffic is heavier than the early hours suggested."
+      },
+      {
+        "host": "holden",
+        "text": "Yeah, I see it. Firearms percentage is going to drop again this year — I'd estimate we'll finish around forty-one, forty-two percent if the trend holds through dawn. Your field data's matching the aggregate. The economic pressure is real."
+      },
+      {
+        "host": "tucker",
+        "text": "Copy. One thing I need to flag — and this might be nothing — but I haven't received a check-in from Darren. You know, Atwood duplex, the PurgeShield panel caller from last year. He texts the station every year around this hour."
+      },
+      {
+        "host": "tucker",
+        "text": "It's 02:27 now. Cold's settling in hard. Visibility dropping. I'm repositioning north toward the Lake Mendota approach — the sleet pattern is changing and I want to get ahead of any shoreline activity before the fog closes in completely. Hold on, my signal's —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 139 ({{ELAPSED}} in). YoY delta: -4 kills. East Side concentration: 24.5%. Pace tracking 181–189 final tally."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood/Schenk's): 34 kills. Bladed-implement traffic up 7.2% from early hours. Firearms percentage trending down — estimated final: 41–42%."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Darren (Atwood regular): no check-in at 02:27. Checked in at 22:40 last year. Station monitoring."
+      },
+      {
+        "category": "emergency",
+        "text": "Lake Mendota visibility declining. Sleet pattern shifting. Fog expected 02:45–03:15. Shoreline risk elevated."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:09:24.327Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

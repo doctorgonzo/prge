@@ -1,0 +1,441 @@
+{
+  "format": "news",
+  "inWorldTime": "19:00",
+  "body": {
+    "type": "news",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Good evening, Madison. It's 19:00 on the dot, and welcome to PRGE — Purge Radio."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm Quinn Foley, and I am thrilled, terrified, and exactly four whiskeys away from making decisions I'll regret for the next 365 days."
+      },
+      {
+        "host": "quinn",
+        "text": "The Purge is officially underway as of now. Twelve hours. No law. No recourse. Just you, your barricade, and whatever you've chosen to do with your evening."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm sitting here in a broadcast booth that smells like old electronics and institutional coffee, and I have to tell you — the quiet right now is almost worse than the noise."
+      },
+      {
+        "host": "quinn",
+        "text": "People are settling in. Doors are closing. Somewhere on the East Side, someone's testing their PurgeShield panels."
+      },
+      {
+        "host": "quinn",
+        "text": "And somewhere else — somewhere darker — someone's checking the charge on something they should not have."
+      },
+      {
+        "host": "tim",
+        "text": "Quinn, technical note — we're transmitting clean on the primary frequency. Backup systems are hot. All fail-safes are armed."
+      },
+      {
+        "host": "tim",
+        "text": "Signal is strong across Madison proper. We're getting reports of good reception as far north as Sun Prairie, which is... unexpected but welcome."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, I appreciate the reassurance that our illegal broadcast is technically robust."
+      },
+      {
+        "host": "tim",
+        "text": "It's the little things."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline, what are we looking at weather-wise tonight? I want people to know what they're dealing with out there."
+      },
+      {
+        "host": "caroline",
+        "text": "Clear skies right now. 43 degrees, light southwestern breeze at about 6 miles per hour."
+      },
+      {
+        "host": "caroline",
+        "text": "That's actually quite pleasant for March 23rd, which is why I'm going to tell you it's not going to last."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm tracking a cold front moving down from Canada — should arrive between 00:30 and 01:30."
+      },
+      {
+        "host": "caroline",
+        "text": "When it gets here, we're looking at temperature drop of about 15 degrees, wind gusts up to 20 miles per hour, and precipitation that might start as rain and transition to sleet."
+      },
+      {
+        "host": "caroline",
+        "text": "My advice? If you're going to do something stupid, do it in the next five hours while the weather's friendly."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline just gave the most ominous weather forecast I've ever heard in my entire life."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm a meteorologist. Ominous is my default setting."
+      },
+      {
+        "host": "holden",
+        "text": "I've got a pre-Purge sports update that's actually relevant this year, which is rare."
+      },
+      {
+        "host": "holden",
+        "text": "The Packers are in their off-season, so nobody cares about football, but the Badgers have their final spring practice session scheduled for tomorrow morning."
+      },
+      {
+        "host": "holden",
+        "text": "Which means Coach is going to have a roster full of athletes who stayed home tonight, which is probably the smartest decision a college athlete can make."
+      },
+      {
+        "host": "holden",
+        "text": "The Milwaukee Brewers open their season in 17 days, and we'll see how many of their players make it through tonight intact."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, I love that you're treating Purge Night like it's a variable in athletic performance statistics."
+      },
+      {
+        "host": "holden",
+        "text": "Everything is data. Purge Night is just a data point with consequences."
+      },
+      {
+        "host": "quinn",
+        "text": "Of course it is."
+      },
+      {
+        "host": "tim",
+        "text": "We're getting the first listener calls queuing up. Tim here — if you're calling in, keep it short and keep it safe."
+      },
+      {
+        "host": "tim",
+        "text": "We can hear you. We can relay information. But we can't come find you, and neither can anyone official."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim's reminding everyone that we're company, not rescue."
+      },
+      {
+        "host": "quinn",
+        "text": "Though if you're locked in a closet with a neighbor's dog, we can probably talk you through it."
+      },
+      {
+        "host": "caroline",
+        "text": "The barometer is holding steady at 30.12 inches. That stable pressure is actually unusual for a night like this."
+      },
+      {
+        "host": "caroline",
+        "text": "Typically we see atmospheric instability by now. The fact that we don't suggests the cold front is coming in fast and hard."
+      },
+      {
+        "host": "caroline",
+        "text": "Update your weather apps. I'll have another full forecast at 20:00."
+      },
+      {
+        "host": "quinn",
+        "text": "People at home are probably asking themselves: why do we have a meteorologist on a pirate radio station on Purge Night?"
+      },
+      {
+        "host": "caroline",
+        "text": "Because weather doesn't care about legality. And people need to know if a cold front is going to trap them outside."
+      },
+      {
+        "host": "quinn",
+        "text": "That's actually the most useful thing anyone's said all night, Caroline. Thank you."
+      },
+      {
+        "host": "holden",
+        "text": "I'm also looking at historical Purge data going back to the 2140s, and there's a correlation between atmospheric pressure drops and incident clustering."
+      },
+      {
+        "host": "holden",
+        "text": "Lower pressure, more activity. Higher pressure, less. The mechanism is unclear, but the pattern is consistent across 29 Purges."
+      },
+      {
+        "host": "quinn",
+        "text": "You're telling me that weather predicts how many people die tonight?"
+      },
+      {
+        "host": "holden",
+        "text": "I'm saying atmosphere affects human behavior. Whether that's psychological or physiological is above my pay grade."
+      },
+      {
+        "host": "caroline",
+        "text": "It's both. Low pressure causes depression — literal neurochemical depression. Depressed people make darker choices."
+      },
+      {
+        "host": "quinn",
+        "text": "And here I thought tonight was just going to be about the complete absence of law."
+      },
+      {
+        "host": "tim",
+        "text": "First ticker is coming through. We've got early reports from across the city."
+      },
+      {
+        "host": "quinn",
+        "text": "And just like that, the small talk ends."
+      },
+      {
+        "host": "holden",
+        "text": "The fact that we're only an hour in and the night is still quiet is honestly the most unsettling thing I could imagine."
+      },
+      {
+        "host": "quinn",
+        "text": "People are scared. They're settling in. They're checking their locks for the third and fourth time."
+      },
+      {
+        "host": "quinn",
+        "text": "The violence will come. It always does. Right now we're in the holding breath."
+      },
+      {
+        "host": "caroline",
+        "text": "I've been tracking Purge Night for 12 years on this station, and the first hour is always the quietest hour."
+      },
+      {
+        "host": "caroline",
+        "text": "People need time to accept that the rules have actually stopped. Most of them are hoping it's not real until about 20:30."
+      },
+      {
+        "host": "holden",
+        "text": "Psychological denial is a resource. Once it wears off, behavior escalates dramatically."
+      },
+      {
+        "host": "quinn",
+        "text": "You all are painting a very cheerful picture of the next 11 hours."
+      },
+      {
+        "host": "tim",
+        "text": "Quinn, we're actually getting feedback from listeners that they appreciate the honesty."
+      },
+      {
+        "host": "tim",
+        "text": "People don't want false hope. They want the truth so they can plan accordingly."
+      },
+      {
+        "host": "quinn",
+        "text": "Fair point. Truth is kinder than optimism on a night like this."
+      },
+      {
+        "host": "quinn",
+        "text": "So let's be truthful: if you're listening to this and you're not barricaded, you should be."
+      },
+      {
+        "host": "quinn",
+        "text": "If you're barricaded and you're still nervous, that's good. Nervousness keeps you alert."
+      },
+      {
+        "host": "quinn",
+        "text": "If you're not home, I genuinely don't know what to tell you, but PRGE will be here all night if you need voices in the dark."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind is shifting slightly north. That means the cold front is accelerating its approach."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm revising my estimate: cold front arrival between 00:15 and 00:45. I'll have confidence in that timing by 21:00."
+      },
+      {
+        "host": "holden",
+        "text": "The Wisconsinites listening who've lived through multiple Purges know this pattern. You've weathered this before."
+      },
+      {
+        "host": "holden",
+        "text": "The newcomers and the people listening for the first time: you're going to be fine if you stay inside and keep the doors locked."
+      },
+      {
+        "host": "holden",
+        "text": "That's not optimism. That's statistics. 89% of Madison residents who barricade properly survive Purge Night unharmed."
+      },
+      {
+        "host": "quinn",
+        "text": "Which means 11% don't. Let's not sugarcoat it."
+      },
+      {
+        "host": "tim",
+        "text": "That 11% includes accident, illness, structural failure, and direct violence. The direct violence component is much smaller."
+      },
+      {
+        "host": "tim",
+        "text": "Most deaths are from people who made the choice to leave their homes. That's the real number you need to remember."
+      },
+      {
+        "host": "quinn",
+        "text": "Don't leave your home. That's the entire message."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm seeing some cloud formation starting to build on the western horizon. Visual confirmation of the front's approach."
+      },
+      {
+        "host": "quinn",
+        "text": "How are you seeing that? It's 19:00. The sun won't set for another two hours."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm looking at satellite imagery. The clouds are there whether you can see them or not."
+      },
+      {
+        "host": "holden",
+        "text": "Atmospheric visualization technology has improved significantly in the last decade. Caroline's probably more accurate than ground observation anyway."
+      },
+      {
+        "host": "quinn",
+        "text": "You all are very focused on weather. I appreciate the distraction from the fact that people are probably dying right now."
+      },
+      {
+        "host": "quinn",
+        "text": "And I don't mean that sarcastically. I mean that genuinely — talking about barometers is better than my brain right now."
+      },
+      {
+        "host": "tim",
+        "text": "That's why we're here. To fill the night with something other than the sound of your own thoughts."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim gets it."
+      },
+      {
+        "host": "holden",
+        "text": "I've got preliminary incident reports, but they're so sparse right now that I'm hesitant to even cite them."
+      },
+      {
+        "host": "quinn",
+        "text": "Go ahead. Sparse is still data."
+      },
+      {
+        "host": "holden",
+        "text": "Reports of increased vehicle movement on the Beltline around the Todd Drive exit. Could be nothing. Could be people positioning."
+      },
+      {
+        "host": "holden",
+        "text": "East Side is quiet. Capitol Square is quiet. State Street is quiet, which is unusual because State Street is never actually quiet."
+      },
+      {
+        "host": "caroline",
+        "text": "State Street probably has more people indoors tonight than on any other night of the year."
+      },
+      {
+        "host": "caroline",
+        "text": "That part of the city isn't fortified the way other neighborhoods are. People know that. They stay home."
+      },
+      {
+        "host": "quinn",
+        "text": "We're 60 minutes into a 12-hour window, and the baseline assumption is that most of Madison is barricaded behind closed doors."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the real Purge. Not the violence. The silence."
+      },
+      {
+        "host": "tim",
+        "text": "We've got incoming text-in messages starting to populate. People are reaching out to the station."
+      },
+      {
+        "host": "tim",
+        "text": "Most of them are just checking that we're actually broadcasting. They need the confirmation that they're not alone."
+      },
+      {
+        "host": "quinn",
+        "text": "And they're not. Thousands of people are listening right now."
+      },
+      {
+        "host": "quinn",
+        "text": "You're all part of this. You're all in this together, even though you're separated."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind is now consistently from the southwest at 7 miles per hour. That's a shift from the initial 6."
+      },
+      {
+        "host": "caroline",
+        "text": "The acceleration is consistent with my model. Front arrival still tracking for the 00:15 to 00:45 window."
+      },
+      {
+        "host": "holden",
+        "text": "I'm going to spend my early night collecting incident data and processing historical correlations."
+      },
+      {
+        "host": "holden",
+        "text": "By the time we hit the 21:00 hour, I should have enough new data points to identify emerging patterns."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden's going to be our early-warning system, essentially."
+      },
+      {
+        "host": "holden",
+        "text": "More or less. I'll flag trends in real-time so people listening can adjust their safety posture if needed."
+      },
+      {
+        "host": "quinn",
+        "text": "Our first hour of broadcast and we're already being more useful than any official source."
+      },
+      {
+        "host": "tim",
+        "text": "That's because we're not protecting anyone's political interests. We're just reporting."
+      },
+      {
+        "host": "quinn",
+        "text": "Don't get political on me at 19:00, Tim. I've only had four whiskeys."
+      },
+      {
+        "host": "tim",
+        "text": "Fair."
+      },
+      {
+        "host": "caroline",
+        "text": "Visibility is good right now. About 10 miles. Once that cold front arrives, we could be down to 2 or 3 miles in precipitation."
+      },
+      {
+        "host": "quinn",
+        "text": "Which means if you're outside and stupid, you're going to be outside and stupid *and* unable to see where you're going."
+      },
+      {
+        "host": "quinn",
+        "text": "Again: don't be outside."
+      },
+      {
+        "host": "holden",
+        "text": "I'm fascinated by how consistently people ignore the basic survival advice."
+      },
+      {
+        "host": "holden",
+        "text": "Year after year, we say: barricade, stay home, don't engage. And year after year, people go out."
+      },
+      {
+        "host": "quinn",
+        "text": "People are complicated."
+      },
+      {
+        "host": "quinn",
+        "text": "Some of them are out there because they want to be. Some because they have to be. Some because they've given up."
+      },
+      {
+        "host": "quinn",
+        "text": "We can't stop them. We can only broadcast into the night and hope some of them are listening."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "local-news",
+        "text": "Purge officially commenced at 19:00. All emergency services offline until 07:00 tomorrow."
+      },
+      {
+        "category": "emergency",
+        "text": "Meteorologist Caroline reports cold front arrival window narrowing to 00:15-00:45. Temperature drop predicted 15 degrees."
+      },
+      {
+        "category": "emergency",
+        "text": "Traffic on Beltline near Todd Drive showing increased activity. Possible positioning in progress — avoid area if possible."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Multiple listener confirmations that barricades are secure and monitoring PRGE for night updates. Station reception reported strong across metro."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:30:05.252Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

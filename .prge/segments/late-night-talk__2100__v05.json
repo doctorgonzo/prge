@@ -1,0 +1,473 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "21:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Welcome back to PRGE, folks. Quinn Foley here, we're {{ELAPSED}} into the night and the phone lines are lit up like I haven't seen in years. I mean, absolutely humming. Tim's got his hands full back there just routing the calls."
+      },
+      {
+        "host": "quinn",
+        "text": "It's {{CLOCK}} Madison time. The Capitol breach happened about forty minutes ago — if you tuned in for the nine o'clock hour with Caroline and Holden, you caught the live feed from the breach perimeter. Not great stuff. Not great at all."
+      },
+      {
+        "host": "quinn",
+        "text": "I've got a whiskey here. I'm not hiding it. You know I'm not supposed to exist most of the year, right? That's part of the deal. But on this one night, I get to sit at this desk and drink publicly and say things I'd get disappeared for saying any other time."
+      },
+      {
+        "host": "quinn",
+        "text": "So I'm going to pour one now. There's the glass. There's the pour. Neat. Because we've earned it three hours in and the night is young and the phones won't stop ringing."
+      },
+      {
+        "host": "quinn",
+        "text": "Let's go to a caller. We've got, uh — Tim's got somebody on the line. Marcus from the North Side. Marcus, you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from North Side — Quinn, I'm in my basement with my family. We've been down here since 6:45. I just want to know if the North Side is — are we okay?"
+      },
+      {
+        "host": "quinn",
+        "text": "Marcus, that's a great question. Let me tell you what we know. Caroline and Holden ran the data on the first three hours and the North Side is actually running quiet. Comparatively. Sherman Street, Northport, up that way — you're in a good spot."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from North Side — Okay. Okay, that helps. My wife was worried and I didn't know what to tell her."
+      },
+      {
+        "host": "quinn",
+        "text": "Tell her Marcus from PRGE said you picked the right neighborhood to shelter in. You did good. Stay down there. Stay off the news feeds. We'll check in again before dawn."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from North Side — Thank you. Really. Thank you."
+      },
+      {
+        "host": "quinn",
+        "text": "You got it, buddy. Take care of your family. We're all in this together, right? That's what tonight is about."
+      },
+      {
+        "host": "quinn",
+        "text": "Marcus hangs up and I'm sitting here thinking about the North Side. Last year we had nine kills on the North Side. Year before that, ten. This year we're looking at maybe eight, nine. Why? Nobody knows. Holden will spend four hours trying to figure out why."
+      },
+      {
+        "host": "quinn",
+        "text": "But I'll tell you something about Marcus and his family in that basement. They did what ninety percent of this city does on Purge Night. They locked the door and they chose not to participate. That's radical in 2169. That's an act of resistance just by existing."
+      },
+      {
+        "host": "quinn",
+        "text": "You know who doesn't have to choose? The people in the Capitol building right now. The people who instituted this whole machine. They're behind Level-10 security. They're protected under the executive order. Meanwhile Marcus is in a basement praying."
+      },
+      {
+        "host": "quinn",
+        "text": "I used to be in those rooms with them. Not the Capitol — I wasn't important enough. But government rooms. Back when I still had a career and a reputation that hadn't been torched by a scandal I will say again was partially overblown."
+      },
+      {
+        "host": "quinn",
+        "text": "I watched the Vance people cement this into policy. I watched them sell it to the public as a pressure-relief valve. Remember that language? 'Twelve hours of legal consequence-free action reduces systemic violence the other 353 days.' That was their pitch."
+      },
+      {
+        "host": "quinn",
+        "text": "I remember thinking it was the dumbest thing I'd ever heard. But I also remember the vote was 203 to 14. People wanted it. They were scared. They thought if you just let the worst impulses out for one night, the other 363 days would be calm."
+      },
+      {
+        "host": "quinn",
+        "text": "It didn't work out that way. Turns out violence begets more violence. Turns out if you normalize killing for a night, people start to think about killing all the time. Who knew?"
+      },
+      {
+        "host": "quinn",
+        "text": "Another call. We've got — Tim, who's next? Jennifer from State Street. Jennifer, you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from State Street — Quinn, I'm calling from a back room at the old movie theater. There's seven of us in here. We work there. We decided to shelter in place instead of going home."
+      },
+      {
+        "host": "quinn",
+        "text": "Jennifer, that's — okay, that's smart. That's resourceful. The theater's a big building, good sightlines, multiple exits if you need them. Are you armed?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from State Street — We have a shotgun and a handgun. We've got food, water, a radio. We're okay. I just — I needed to hear a voice that wasn't panicking."
+      },
+      {
+        "host": "quinn",
+        "text": "Then you called the right place, because I am absolutely panicking, but I'm professional about it. So it sounds calm. That's the trick. You fake it for the whole night and by dawn you've almost convinced yourself you weren't terrified."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from State Street — Did you see the reports about State Street? About the coordinated group?"
+      },
+      {
+        "host": "quinn",
+        "text": "I did. Tucker reported from the edge of the action about forty-five minutes ago. There's a group moving through the ruins methodically. They're organized. That's unusual and that's bad. But they seem to be moving generally east, which is away from you."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from State Street — East. Toward the Capitol?"
+      },
+      {
+        "host": "quinn",
+        "text": "Could be. Could be they're just hunting in territory they know. The State Street ruins have been picking up economic activity lately — illegal commerce, black markets, the usual. Could be this is turf-related. Could be a lot of things."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from State Street — If they hit the Capitol, what happens?"
+      },
+      {
+        "host": "quinn",
+        "text": "Well, that's the million-dollar question. The Capitol's got more security than God. It's not getting breached. But people will try. People try every year. It's like storming the gates — the castle's got moats, but the people with rocks feel obligated to throw them anyway."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from State Street — I'm scared, Quinn."
+      },
+      {
+        "host": "quinn",
+        "text": "I know you are. Everyone's scared. That's the baseline. You're doing everything right. You stayed put. You've got supplies. You've got people with you. When the clock hits 7 a.m. and the all-clear sounds, you're going to walk out of that theater and none of this will have touched you."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Jennifer from State Street — You promise?"
+      },
+      {
+        "host": "quinn",
+        "text": "I can't promise anything. But statistically, you're fine. You're in the theater. You're one of the ones making it through. Stay on the line if you want. We'll just talk."
+      },
+      {
+        "host": "quinn",
+        "text": "Jennifer stays on for another seven minutes. We just talk about nothing. Her job, her apartment, whether she thinks the Packers have a shot next season. Nobody asks about the Packers. It's not relevant in a burning city. But that's the point."
+      },
+      {
+        "host": "quinn",
+        "text": "When she hangs up, I'm three whiskeys in and the night is starting to feel like it's going to last forever. Tim's got his eye on me. I can feel him waiting to see if I'm going to keep it together."
+      },
+      {
+        "host": "quinn",
+        "text": "I will keep it together. I've kept it together for every Purge since 2155. That's fourteen years of {{CLOCK}} on a Wednesday night talking to people who are terrified in their homes."
+      },
+      {
+        "host": "quinn",
+        "text": "Another call coming in. David from Vilas Park. David, you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Vilas Park — Quinn, I need to report something. I think I saw something I shouldn't have."
+      },
+      {
+        "host": "quinn",
+        "text": "Okay, David. Take your time. What did you see?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Vilas Park — I'm in my house, back room, window facing the lake. It's dark out there, right? Lake's black. And I see a light. A boat light. And the boat is — I think it's running dark toward the East Side. Military-style boat. I don't think it's official."
+      },
+      {
+        "host": "quinn",
+        "text": "David, we appreciate that. Tim is noting this. That's the kind of information we need. Can you describe the boat? Color, size, anything else?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Vilas Park — Dark hull. Maybe thirty feet. Running quiet. I only saw it because the moon caught the wake. If I hadn't been looking — I wouldn't have seen it."
+      },
+      {
+        "host": "quinn",
+        "text": "Thank you, David. Keep an eye on the lake. If you see it again, call back. This is exactly the kind of thing we need to know."
+      },
+      {
+        "host": "quinn",
+        "text": "David hangs up and now I'm thinking about boats on Mendota. Military-style boats running dark. That's not random activity. That's organized. That's somebody with resources and a plan that involves the lake."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not going to speculate on what that means. But Tim will. Tim will be on the radio with this information within the hour, cross-referencing it with the coordinated group moving through State Street, trying to figure out if these are connected phenomena."
+      },
+      {
+        "host": "quinn",
+        "text": "This is what the first three hours look like. Fragments of information. Pieces of a puzzle nobody wants to solve. And all of it's coming in through the phone lines of a pirate radio station that only exists for twelve hours a year."
+      },
+      {
+        "host": "quinn",
+        "text": "Another one. We've got — Patricia from the East Side. Patricia, welcome to PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from East Side — Quinn, I'm calling because I need to talk to someone who's still alive and awake and I'm starting to think that might be you and Tim and whoever's back there in that building."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia, we're here. We're awake. The building's standing. The equipment's working. What's happening on the East Side tonight?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from East Side — I've got an Atwood Avenue address. I can hear things outside. Car alarms. Gunshots — not random, structured, like communication. Voices yelling in coordinated patterns. And it's been like this for the last twenty minutes and it's getting louder."
+      },
+      {
+        "host": "quinn",
+        "text": "Okay, Patricia. I'm hearing you. Are you in a secure location? Windows reinforced, doors locked?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from East Side — I'm in my bathroom. It's the innermost room. No windows. The bathtub's full of water and I have a fire extinguisher and a baseball bat and a phone and I'm trying not to think about the fact that none of those things are going to help if they want to get in."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia, they don't want to get in. They're hunting in the street. Organized groups on the East Side hunt in the streets — they hit vehicles, they target small groups, they don't breach homes. You're not a target if you stay inside and stay quiet."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from East Side — How do you know that?"
+      },
+      {
+        "host": "quinn",
+        "text": "Because I've been running this broadcast for fourteen years and I've seen the patterns. The East Side spikes every year because the East Side has been economically depressed for a generation and violence follows poverty like a shadow. But it's street-level violence. Territorial. They're not going door-to-door. That would be inefficient."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from East Side — You sound like you've thought about this a lot."
+      },
+      {
+        "host": "quinn",
+        "text": "I have. I've thought about it for a long time. Before the Purge was official policy, I thought about it when it was just an idea. When smart people in government said, 'What if we just let them have one night?' I thought about it then, and I thought it was wrong then, and I think it's wrong now, and I'm going to keep thinking about it while you sit in that bathtub and listen to organized hunting in the streets."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from East Side — That doesn't make me feel better."
+      },
+      {
+        "host": "quinn",
+        "text": "No. It doesn't. But it's honest. And on PRGE we try to be honest. We try to sit with the reality of what this night actually is instead of pretending it's something else."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from East Side — Thank you for that. I think I'm going to sit here and listen to your voice for a while."
+      },
+      {
+        "host": "quinn",
+        "text": "Then listen. I'm here all night. We all are. You're not alone in that bathroom on Atwood Avenue, even though it feels like you are."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia ends up staying on the line for the next fifteen minutes. She doesn't talk much. Mostly she listens while I riff about nothing important — the weather, the old Packers teams, why I think Wisconsin cheese is actually bad and people just won't admit it."
+      },
+      {
+        "host": "quinn",
+        "text": "By the time she hangs up, she's laughing. Not genuinely happy laughter — survival laughter. The laughter of someone who's going to make it through this night and will probably call back next year."
+      },
+      {
+        "host": "quinn",
+        "text": "We're about two hours forty minutes into the Purge. {{CLOCK}} Madison time. The Capitol breach happened three hours ago. The coordinated group is still moving through State Street. David's mysterious boat is still out on Mendota. And my phone lines are absolutely lit up."
+      },
+      {
+        "host": "quinn",
+        "text": "I've got another call. Tim's got someone on the line. Ray from near the Beltline. Ray, you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Ray from Beltline — Quinn, I'm calling from a construction site. I came to work early and got trapped here. Boss told me the Purge wasn't going to affect this side of the city. Boss was wrong."
+      },
+      {
+        "host": "quinn",
+        "text": "Ray, that's a terrible place to be trapped. Construction sites are exposed. Where exactly on the Beltline?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Ray from Beltline — Near the Verona interchange. We've got a site office, it's got walls, it's got a reinforced door. There's three of us in here."
+      },
+      {
+        "host": "quinn",
+        "text": "Okay. Okay, that's not ideal but it's manageable. The Verona interchange is getting activity but it's mostly vehicle-based. They hunt on the roads, not in the construction zones. You should be fine if you stay inside and stay quiet."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Ray from Beltline — That's what I'm trying to do. But the site office is in the middle of the site. There's no secondary exit. If they breach the door, we're finished."
+      },
+      {
+        "host": "quinn",
+        "text": "Then they won't breach the door. Because it's not worth their time. You're not a target, Ray. You're just an obstacle. And obstacles don't get attacked — they get avoided."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Ray from Beltline — You keep saying that. You keep saying we're not targets. But I can see people moving around outside the site. Organized. With weapons. That looks like targeting to me."
+      },
+      {
+        "host": "quinn",
+        "text": "Ray, I need you to listen to me. Those people are moving through territory. They're hunting. But they're hunting for specific types of targets — vulnerable people, isolated people, people who are already out in the open. You are inside a locked structure with two other people. You are not a target that's worth the effort."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Ray from Beltline — And if you're wrong? If they try the door?"
+      },
+      {
+        "host": "quinn",
+        "text": "Then you shut that door and you make it expensive. You make it harder than finding someone outside. And they move on."
+      },
+      {
+        "host": "quinn",
+        "text": "Ray stays on the line too. Longer than Patricia. By the time we're done talking, he's asked me about my political career, my scandal, whether I regret any of it. I tell him I regret a lot of things, but mostly I regret voting for the people who made the Purge possible."
+      },
+      {
+        "host": "quinn",
+        "text": "He says, 'But you ran for office. You were one of them.' And I say, 'Yeah. And then they destroyed me for a scandal that was actually pretty normal by government standards, and now I only exist one night a year, and I've got nothing to lose, so I get to tell the truth.'"
+      },
+      {
+        "host": "quinn",
+        "text": "He says, 'That's a hell of a price to pay for honesty.' I say, 'Welcome to 2169, Ray.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Ray hangs up and I'm four whiskeys in and the night is getting heavy. The calls keep coming. The information keeps flowing. And I'm sitting here trying to make sense of fragmented reports while people in bathtubs and construction sites wait for dawn."
+      },
+      {
+        "host": "quinn",
+        "text": "This is what the Purge actually is. It's not the action sequences people imagine. It's people waiting. It's fear managed in small rooms. It's phone lines ringing at a pirate radio station that shouldn't exist."
+      },
+      {
+        "host": "quinn",
+        "text": "And it's me, sitting at this desk, trying to convince them that they're going to make it through the night. And most of them will. Most of them do. But not all of them."
+      },
+      {
+        "host": "quinn",
+        "text": "Last year, 187 people didn't make it through the night. 187 people in Madison didn't see dawn. That's not random violence. That's not the result of a single night. That's the infrastructure of a government decision made 140 years ago."
+      },
+      {
+        "host": "quinn",
+        "text": "And I was part of the generation that normalized it. I voted for it. I defended it. I'm partly responsible for the fact that Patricia is in a bathtub on Atwood Avenue right now listening to organized hunting in the streets."
+      },
+      {
+        "host": "quinn",
+        "text": "That's why I drink on this night. That's why I sit at this desk. That's why I take every call and I try to convince every caller that they're going to make it through the night."
+      },
+      {
+        "host": "quinn",
+        "text": "Another call. We've got — Tim, who is it? Steven from the Capitol area. Steven, you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Steven from Capitol — Quinn, I'm close enough to hear the sirens. Official sirens, not Purge activity. That means the breach is real. That means something got past the perimeter."
+      },
+      {
+        "host": "quinn",
+        "text": "Steven, that doesn't necessarily mean — okay, yes, it probably means something got past the perimeter. But the Capitol's got inner rings. It's got security inside security. Whatever breached is contained."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Steven from Capitol — Or it's still loose in there and they're not telling anyone because it would cause panic."
+      },
+      {
+        "host": "quinn",
+        "text": "That's also possible. Welcome to government crisis management — where the truth is classified and the public gets rumors. Steven, where are you sheltering?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Steven from Capitol — Office building, four stories up, locked door, reinforced windows. I could hear the breach happen. It was loud."
+      },
+      {
+        "host": "quinn",
+        "text": "Then you heard people trying to storm a government building. That's not unusual. That happens every year. Most of them don't make it past the first checkpoint."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Steven from Capitol — This time felt different. This time felt organized."
+      },
+      {
+        "host": "quinn",
+        "text": "Steven, everything feels organized when you're scared. I'm not dismissing you. But organized Capitol breaches are rare. People are angry, but they're not soldiers."
+      },
+      {
+        "host": "quinn",
+        "text": "Steven ends up hanging up in a huff — he didn't like my answer. But that's the thing about being on a pirate radio show. You don't get the answer you want. You get the answer the drunk guy thinks is honest."
+      },
+      {
+        "host": "quinn",
+        "text": "And the honest answer is that yes, things are organized tonight. Yes, there's coordinated activity. Yes, there's groups with military-style boats and structured hunting patterns on the East Side. But that's not new. That's the Purge evolving."
+      },
+      {
+        "host": "quinn",
+        "text": "Every year it gets a little more organized. Every year the violence gets a little more efficient. Every year we get closer to a night where the killing isn't random anymore — where it's targeted. Where it's policy dressed up as freedom."
+      },
+      {
+        "host": "quinn",
+        "text": "And nobody in government wants to say that out loud because it would mean admitting that the whole system is fundamentally broken. So we go on pretending the Purge is some kind of pressure valve that keeps society stable."
+      },
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} into the night. We've got about {{ELAPSED}} to go before the clock hits 7 a.m. and the law comes back and all of this stops being legal."
+      },
+      {
+        "host": "quinn",
+        "text": "One more call before we hit the hour break. We've got — Tim, what do we have? Anna from Tenney Park. Anna, you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Anna from Tenney Park — Quinn, I'm sorry to bother you. I just needed to hear that someone cares."
+      },
+      {
+        "host": "quinn",
+        "text": "Anna, I care. You're on the air right now at a pirate radio station broadcasting during a night when broadcasting is technically legal but actually punishable by disappeared — which means I care enough to break federal law to talk to you."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Anna from Tenney Park — That's kind of insane."
+      },
+      {
+        "host": "quinn",
+        "text": "It is. But so is the Purge. So we match insanity with insanity and hope we come out the other side. Tell me where you are, Anna. Tell me what you need."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Anna from Tenney Park — I'm in my house. I'm alone. My family evacuated to Milwaukee but I had to work the night shift at the hospital until 6 p.m. and by the time I got home it was 6:55 and the lockdown was in effect and I couldn't leave."
+      },
+      {
+        "host": "quinn",
+        "text": "Anna, that's rough. But you're in your house. You're safe. Hospital staff are trained for crisis. You know how to stay calm. You've got this."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Anna from Tenney Park — But I'm alone. All night. Until 7 a.m. That's twelve hours of being alone in a locked house while the Purge happens outside."
+      },
+      {
+        "host": "quinn",
+        "text": "Anna, you're not alone. You're talking to me. We've got a whole broadcast running out of somewhere in Madison and we're reaching thousands of people right now and a lot of them are alone too. You're in this together, even if you can't see each other."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Anna from Tenney Park — That helps a little. But I'm still scared."
+      },
+      {
+        "host": "quinn",
+        "text": "Then be scared. Sit with it. That's allowed. Fear is the appropriate response to a government-sanctioned murder night. Anyone who tells you otherwise is lying."
+      },
+      {
+        "host": "quinn",
+        "text": "Anna stays on the line until almost the hour break. We don't really talk about much — just me rambling about life and choices and why I think the Packers should have kept their old quarterback. Small talk as survival mechanism."
+      },
+      {
+        "host": "quinn",
+        "text": "When she hangs up, I'm finishing my fourth whiskey and the night is feeling less like three hours and more like infinity. Which means I'm doing my job right."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "East Side kill count now estimated at 14 (YoY at 3-hour mark: 12). Capitol breach + organized group activity driving numbers up."
+      },
+      {
+        "category": "emergency",
+        "text": "Mysterious dark-hulled military-style boat sighted on Lake Mendota by Vilas Park resident at approximately 20:55. Running eastbound toward East Side. Not confirmed official vessel."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol building breach perimeter integrity compromised at 21:40. Official sirens active. Inner security levels holding. No official statement."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Phone lines remain unusually active. 12 callers in past hour alone. Tim reports demand exceeds capacity. Backup lines being activated."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:42:29.351Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

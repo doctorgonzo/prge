@@ -1,0 +1,45 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker here, East Side perimeter, Atwood and Northport. {{ELAPSED}} in and the kill count is sitting at 61 cumulative — that's up 23 from this point last year. We're tracking faster."
+      },
+      {
+        "host": "tucker",
+        "text": "There's a helicopter. Been circling overhead for the last eight minutes. No markings I can see. Could be government, could be private security. Nobody's asking questions because the answer probably doesn't matter."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side is pulling weight like always — 18 confirmed kills in this sector alone by 22:00. Weapons breakdown is trending bladed, which tracks with what Holden was saying earlier about ammunition costs. Cheaper to use what you have."
+      },
+      {
+        "host": "tucker",
+        "text": "The helicopter just adjusted its flight path. Moving south toward the Beltline. Still can't identify it. Trying to get closer, repositioning now to get a better angle on the — hold on, my body-cam GPS just dropped. Recalibrating signal, there's interference from the overpass or —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 61 ({{ELAPSED}}) | YoY +23 | East Side segment: 18"
+      },
+      {
+        "category": "local-news",
+        "text": "Unidentified helicopter spotted over East Side and Beltline corridor. Government origin unclear. Continuing to monitor."
+      },
+      {
+        "category": "emergency",
+        "text": "Caroline: Temperature holding at 37°F, wind SW 12 mph. Visibility 8 miles. Conditions stable through 23:00."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:33:50.189Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

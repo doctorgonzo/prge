@@ -1,0 +1,253 @@
+{
+  "format": "wellness",
+  "inWorldTime": "23:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. The clock reads 23:00. We are {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm Sister Marigold, and I want to guide you through the next hour with something that isn't panic. [pause] Something quieter."
+      },
+      {
+        "host": "marigold",
+        "text": "If you're still awake, you've made a choice. Let's honor that choice."
+      },
+      {
+        "host": "marigold",
+        "text": "Sit up straight, or lie down — whichever feels true right now. There's no wrong position for this."
+      },
+      {
+        "host": "marigold",
+        "text": "Close your eyes if you can. Or keep them open and unfocused. The Order teaches that sight is a choice, not a requirement."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Breathe in through your nose. Four counts. One. Two. Three. Four."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold it. Feel your lungs expand. Feel your ribs. Feel the space you take up in the world."
+      },
+      {
+        "host": "marigold",
+        "text": "Release. Slow. Through your mouth. No rush. The night is patient."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. In. Two. Three. Four. Hold. One. Two. Three. Four. Out."
+      },
+      {
+        "host": "marigold",
+        "text": "The power's out in most of the East Side. We're running on generators here. Can you hear the hum underneath? That's the Station. That's us. We're still here."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] This breath is yours alone."
+      },
+      {
+        "host": "marigold",
+        "text": "Scan your body. Start at your feet. Are they cold? Are they warm? Don't change anything. Just notice."
+      },
+      {
+        "host": "marigold",
+        "text": "Move up. Ankles. Shins. Knees. The parts of you that carry you forward."
+      },
+      {
+        "host": "marigold",
+        "text": "The Purge doesn't touch your knees. Doesn't touch your breath. Those are still yours."
+      },
+      {
+        "host": "marigold",
+        "text": "Thighs. Hips. Your center. The place where you hold tension. Where you hold fear."
+      },
+      {
+        "host": "marigold",
+        "text": "Notice it. [pause] Notice it without judgment. Fear is just information. You've already heard the information. You stayed home. You chose the inside."
+      },
+      {
+        "host": "marigold",
+        "text": "Your belly. Your stomach. Breathe into it. Some of you haven't eaten since this morning. That's okay. Your body knows what to prioritize."
+      },
+      {
+        "host": "marigold",
+        "text": "Chest. Heart. That percussion in your ribs — that's not panic. That's proof you're alive."
+      },
+      {
+        "host": "marigold",
+        "text": "Your arms. From shoulder to fingertip. These are the limbs you use to lock doors. To hold what matters. To hold on."
+      },
+      {
+        "host": "marigold",
+        "text": "You've been holding on for five hours. That's remarkable."
+      },
+      {
+        "host": "marigold",
+        "text": "Neck. Throat. The place where words live. You haven't screamed. You've chosen silence instead. That takes strength."
+      },
+      {
+        "host": "marigold",
+        "text": "Face. Jaw. Temples. The part of you that thinks. That worries. That remembers."
+      },
+      {
+        "host": "marigold",
+        "text": "Your scalp. The crown of your head. The point furthest from the ground. From danger."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] You're intact. You made it to 23:00. Breathe that in."
+      },
+      {
+        "host": "marigold",
+        "text": "Now I want you to think about the door to your home. Visualize it. Is it wood? Metal? What color?"
+      },
+      {
+        "host": "marigold",
+        "text": "See yourself standing in front of it. On the inside."
+      },
+      {
+        "host": "marigold",
+        "text": "The lock is engaged. The bolt is thrown. The chain is tight."
+      },
+      {
+        "host": "marigold",
+        "text": "Nothing comes through that door without your permission. Not tonight. Not ever again, really — but tonight especially."
+      },
+      {
+        "host": "marigold",
+        "text": "That door is the distance between you and the outside. Seven hours and forty-seven minutes until the outside stops being hungry."
+      },
+      {
+        "host": "marigold",
+        "text": "Can you feel that distance? Can you measure it?"
+      },
+      {
+        "host": "marigold",
+        "text": "The Order says distance is mercy. Space is a blessing. You are blessed right now."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Think about someone you love. Someone you've decided to protect by staying home."
+      },
+      {
+        "host": "marigold",
+        "text": "Maybe they're in this building with you. Maybe they're across the city, doing exactly what you're doing. Breathing. Waiting. Surviving."
+      },
+      {
+        "host": "marigold",
+        "text": "You don't need to save them. They're saving themselves. You do that by staying put. By being still. By not running out into the dark looking for them."
+      },
+      {
+        "host": "marigold",
+        "text": "That would be love. But it wouldn't be wisdom."
+      },
+      {
+        "host": "marigold",
+        "text": "Wisdom is knowing the difference."
+      },
+      {
+        "host": "marigold",
+        "text": "Now think about someone you've decided not to forgive. Someone who hurt you before tonight. Someone who might be out there right now, or safe in a house like yours, or — [pause] — or something else entirely."
+      },
+      {
+        "host": "marigold",
+        "text": "You don't have to forgive them. The Order doesn't ask that."
+      },
+      {
+        "host": "marigold",
+        "text": "But you can release the weight of them. Just for tonight. Just for the next seven hours."
+      },
+      {
+        "host": "marigold",
+        "text": "Set that anger down like it's a stone you've been carrying in your chest. Set it on the floor. You can pick it up tomorrow if you need to."
+      },
+      {
+        "host": "marigold",
+        "text": "But tonight, your chest is for breath. Not for stones."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] Ka-shava-nim-tep-ah. [pause] The words mean nothing. They mean everything. They mean you are not alone in this."
+      },
+      {
+        "host": "marigold",
+        "text": "Return to your breathing. Slowly. Four counts in. Four counts out."
+      },
+      {
+        "host": "marigold",
+        "text": "The power will come back. The sun will come back. The laws will come back."
+      },
+      {
+        "host": "marigold",
+        "text": "For now, you have quiet. You have breath. You have this station, this voice, this station, this presence in the dark."
+      },
+      {
+        "host": "marigold",
+        "text": "We are here with you. Even if you can't see us. Even if you can only hear us through the static."
+      },
+      {
+        "host": "marigold",
+        "text": "We are transmitting. We are surviving. We are reminding you that you chose this. The inside. The walls. The waiting."
+      },
+      {
+        "host": "marigold",
+        "text": "[pause] And that choice makes you stronger than anyone outside."
+      },
+      {
+        "host": "marigold",
+        "text": "When you're ready — no rush, no pressure — open your eyes."
+      },
+      {
+        "host": "marigold",
+        "text": "You're here. You're whole. You're going to make it through the night."
+      },
+      {
+        "host": "marigold",
+        "text": "I'll be back at 03:00 to walk you through the hours after midnight. For now, know that you're doing everything right."
+      },
+      {
+        "host": "marigold",
+        "text": "Rest. Breathe. Stay."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 61 confirmed. +23 this hour. East Side spike ongoing."
+      },
+      {
+        "category": "emergency",
+        "text": "Capitol Square perimeter reports: 6 casualties in breach clearing. Security holding inner ring. Avoid downtown routes."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Willy Street barricade status: HOLDING. Neighborhood watch position active. Zero penetration reported."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "Distance is mercy. Space is a blessing."
+      },
+      {
+        "category": "local-news",
+        "text": "Power outages: East Side, Capitol Square, parts of Atwood. Backup generators holding at PRGE. City grid reporting strain."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "You don't need to save them. They're saving themselves."
+      },
+      {
+        "category": "ad",
+        "text": "PurgePet Boarding — animals sheltered in secure, climate-controlled facility. Open 24/7. Call 555-PETS for status."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "TEXT: 'Listening from Tenney Park. Haven't heard sirens in 20 mins. Is that good?' — The quiet is always good."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:29:41.012Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

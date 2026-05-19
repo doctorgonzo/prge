@@ -1,0 +1,57 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker here, East Side perimeter, near the Atwood commercial strip. We're {{ELAPSED}} in and the phone lines are absolutely jammed — I've never heard Quinn's crew scrambling like this. Something's different about tonight."
+      },
+      {
+        "host": "tucker",
+        "text": "Madison-wide cumulative at {{CLOCK}}: forty-three confirmed kills. That's eight ahead of this point last year. Year-over-year delta is plus nineteen percent. East Side alone is carrying twenty-two of those — that's fifty-one percent of the night's activity in a single neighborhood."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm repositioning north toward Schenk's Corners. The activity pattern is clustering tighter than usual. Normally we see dispersal by this hour. Tonight it's — hold on, there's a group moving toward the ShopRite loading dock and I need to adjust angle — okay. They're armed, looks like three of them, moving methodically. That's not random."
+      },
+      {
+        "host": "tucker",
+        "text": "Neighborhood breakdown: East Side fifty-one percent, Capitol Square notional perimeter showing nineteen percent, Williamson Street's holding at fourteen percent but their barricade — I can see it from here — is still intact. That's stabilizing their numbers."
+      },
+      {
+        "host": "tucker",
+        "text": "The caller volume is spiking. I'm getting audio from the studio and people are asking questions I don't have answers for yet. That never happens at this hour. Caroline was running weather — she said something about pressure systems and I think she meant something else."
+      },
+      {
+        "host": "tucker",
+        "text": "Weapons trade analysis: firearms percentage is tracking at forty-six percent of incidents. Bladed's at twenty-four percent. That's consistent with 2168 at this point, so economically we're not seeing new — wait, hold on, I'm getting feedback on my audio pack, my laptop just —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide 43 kills ({{CLOCK}}). +19% YoY. East Side 22/43 (51%)."
+      },
+      {
+        "category": "emergency",
+        "text": "Phone lines at capacity. Listener caller volume highest on record for hour 4."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Williamson St barricade holding. Capitol perimeter at 19% activity. No breach attempts."
+      },
+      {
+        "category": "local-news",
+        "text": "Field report cut due to equipment failure. Tucker status TBD."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:33:34.929Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

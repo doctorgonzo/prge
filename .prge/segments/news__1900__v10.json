@@ -1,0 +1,365 @@
+{
+  "format": "news",
+  "inWorldTime": "19:00",
+  "body": {
+    "type": "news",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "Good evening, Madison. It's 19:00 on the dot, the Purge is officially live, and I'm already three fingers deep in Jameson because that's how we do things at PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "My name is Quinn Foley. I'm on the air one night a year, same as always, and I'm genuinely shocked the jammer crews haven't found us yet."
+      },
+      {
+        "host": "quinn",
+        "text": "For our listeners who are new — and God help you if you are — welcome to Purge Radio. We broadcast for exactly twelve hours, starting right now, and we're going to talk you through the longest night of your life."
+      },
+      {
+        "host": "quinn",
+        "text": "If you're listening, you've made a choice. You're home. You're safe, or safer, and you've decided that company — even pirate company — is worth the risk of the broadcast finding you."
+      },
+      {
+        "host": "quinn",
+        "text": "I respect that. I'm a wanted man. I can't go anywhere else on any other night. But tonight, I get to exist. So thank you."
+      },
+      {
+        "host": "quinn",
+        "text": "Let's start with the weather, because weather kills people. Caroline, you're up."
+      },
+      {
+        "host": "caroline",
+        "text": "Madison sits at 41 degrees Fahrenheit at 19:00. Winds are southwest at 8 miles per hour, gusting to 12."
+      },
+      {
+        "host": "caroline",
+        "text": "Clear skies tonight — perfectly clear. And I want to emphasize this: that full moon is going to light up every street in this city."
+      },
+      {
+        "host": "caroline",
+        "text": "There's nowhere to hide in moonlight. The visibility is ten-plus miles. You can see everything tonight."
+      },
+      {
+        "host": "caroline",
+        "text": "Forecast: we're tracking a cold front coming in from the northwest. It'll arrive somewhere between 00:30 and 01:30. I'm calling 01:15 as the arrival time."
+      },
+      {
+        "host": "caroline",
+        "text": "When it hits, temperature drops to 29 degrees. Wind picks up to 18, gusting to 28. Light rain transitioning to sleet."
+      },
+      {
+        "host": "caroline",
+        "text": "Sleet creates problems for people outside. Wind chill makes exposure dangerous faster. Stay indoors, stay barricaded, and for God's sake don't open a window to 'get some air.'"
+      },
+      {
+        "host": "caroline",
+        "text": "The fog off Mendota will roll in around 02:30. Visibility drops to 1.5 miles. That's going to work in favor of anyone trying to hide."
+      },
+      {
+        "host": "caroline",
+        "text": "Pre-dawn at 05:00 should clear nicely. Sunrise is at 6:47. You're looking at seven hours between the fog lifting and legal dawn."
+      },
+      {
+        "host": "caroline",
+        "text": "That's my forecast. Stick with me tonight and I'll keep you updated on the minute. I'm never wrong about the cold front."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline's never wrong about the cold front. She's wrong about plenty of other things, but the weather she nails."
+      },
+      {
+        "host": "caroline",
+        "text": "I heard that, Quinn."
+      },
+      {
+        "host": "holden",
+        "text": "Sports quick-hit before things get dark. This one's for the stats nerds listening in."
+      },
+      {
+        "host": "holden",
+        "text": "Packers game last Sunday — loss to Detroit, 24-17. Season's effectively over. This matters because data shows Purge participation up 3.2% following sports losses in the metro area."
+      },
+      {
+        "host": "holden",
+        "text": "Badgers are bowl-eligible but underseeded. That's a neutral factor — no significant impact on Purge activity in college towns."
+      },
+      {
+        "host": "holden",
+        "text": "What's interesting: March Madness is historically the lowest-activity Purge by neighborhood. People's attention is elsewhere."
+      },
+      {
+        "host": "holden",
+        "text": "Tonight, though, nobody's thinking about sports. Tonight is about immediate survival and the data tells us that."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, did you just say nobody's thinking about sports and then reference March Madness statistics in the same breath?"
+      },
+      {
+        "host": "holden",
+        "text": "Context matters, Quinn. The statistical exclusion of March Madness Purges demonstrates that distraction creates measurable mortality reduction."
+      },
+      {
+        "host": "quinn",
+        "text": "What he means is: if your neighbor is yelling at a basketball game, he's not yelling at you. Got it."
+      },
+      {
+        "host": "tim",
+        "text": "This is Tim Peplinski, station operator. I want to confirm: we're live, the signal is clean, and we've got a full twelve hours of broadcast ahead."
+      },
+      {
+        "host": "tim",
+        "text": "Our primary jammer countermeasures are active. We're running redundant generators. The antenna farm is hardened and mobile if needed."
+      },
+      {
+        "host": "tim",
+        "text": "All hosts are in position. We have Tucker in the field with body-cam relay. Emergency routes are loaded in all systems."
+      },
+      {
+        "host": "tim",
+        "text": "If you're listening on a portable device, get to a secure location. If you're home and barricaded, stay that way. Don't rely on us to keep you safe — we can't leave this booth."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim just said something important and I'm going to repeat it: we're here to keep you company, not to keep you alive. The keeping alive part is on you."
+      },
+      {
+        "host": "quinn",
+        "text": "This is PRGE. We've been broadcasting for five years now. And every single year, I am shocked we still exist."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind just shifted a degree northwest. Very slight. Probably nothing. But I'm noting it."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline notes every gust like it's a personal attack from the atmosphere."
+      },
+      {
+        "host": "quinn",
+        "text": "Here's what's happening right now in Madison: it's 19:00 on Purge Night. The full moon is rising. It's still light enough to see everything."
+      },
+      {
+        "host": "quinn",
+        "text": "By this time next hour, some people will be dead. By hour four, maybe twenty or thirty. By the time Caroline's cold front hits, we'll be well into the dozens."
+      },
+      {
+        "host": "quinn",
+        "text": "That's not hysteria. That's the data. Last year, the first hour had eight kills. East Side lit up around 20:15."
+      },
+      {
+        "host": "quinn",
+        "text": "This year, I'm expecting something similar. People who've been planning something all year — a debt settled, a territory claimed, a point made — they start early when the sun's still showing."
+      },
+      {
+        "host": "holden",
+        "text": "Historical precedent: nine of the last thirteen Purges saw kill-count acceleration in the hour following sunset. That's 69% correlation."
+      },
+      {
+        "host": "holden",
+        "text": "The psychological trigger appears to be visual darkness. When people can't see their own hands clearly, inhibition drops measurably."
+      },
+      {
+        "host": "holden",
+        "text": "Tonight's full moon is going to complicate that standard pattern. We're looking at elevated visibility until moonset, which is 04:17."
+      },
+      {
+        "host": "holden",
+        "text": "My prediction: kill-count stays lower in hours two and three than historical average. But it doesn't stay lower in hours four and five."
+      },
+      {
+        "host": "holden",
+        "text": "When that moon sets and the fog rolls in, you're going to see a hard acceleration spike."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden just predicted that we'll see a murder spike at 2 in the morning. On Purge Radio, that's considered optimistic."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to take a drink. That's not a warning — it's just me, being honest, every segment for the next twelve hours."
+      },
+      {
+        "host": "tim",
+        "text": "Signal check: all systems nominal. Tucker, you copying?"
+      },
+      {
+        "host": "quinn",
+        "text": "Tucker's in the field. We'll hear from them on the hour for detailed position reports."
+      },
+      {
+        "host": "caroline",
+        "text": "Humidity is 62%. Wind chill at this temperature is only 37 degrees Fahrenheit. Not dangerous yet, but it's already below comfortable."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline is telling us that if you're outside right now with a t-shirt, you're already making mistakes."
+      },
+      {
+        "host": "quinn",
+        "text": "And if you're outside right now with a weapon, you're making bigger mistakes. Or you're making exactly the mistakes you planned to make."
+      },
+      {
+        "host": "quinn",
+        "text": "Either way, the night is young and we're all awake for it."
+      },
+      {
+        "host": "holden",
+        "text": "One more data point I want to surface: East Side homicide clusters typically begin around 20:20 during the first hour."
+      },
+      {
+        "host": "holden",
+        "text": "That gives us about eighty minutes before we start seeing the first major spike on the kill-count. So if you're listening from Atwood or Schenks Corners, this is your heads-up."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden just told East Side listeners they have 80 minutes of relative safety. Make them count."
+      },
+      {
+        "host": "tim",
+        "text": "All emergency evacuation routes are loaded into the system. If you're listening and you need to know the fastest way out of your neighborhood, we can provide that on demand."
+      },
+      {
+        "host": "tim",
+        "text": "Text or call the station number. Keep it brief. Keep it tactical. We're not a therapy line until the night winds down."
+      },
+      {
+        "host": "quinn",
+        "text": "We're also not a hotline for people who just want to hear a voice and confirm that someone knows they're alive. Though we'll do that too, later, when we have time."
+      },
+      {
+        "host": "quinn",
+        "text": "Right now, we're in full operational mode. Caroline's got weather updates every ten minutes. Holden's analyzing kill-count patterns live."
+      },
+      {
+        "host": "quinn",
+        "text": "Tucker will be filing reports from the neighborhoods as things develop. And I'll be here doing what I do best, which is drinking whiskey and talking about politics that died forty years ago."
+      },
+      {
+        "host": "caroline",
+        "text": "Southwest winds are pushing toward five degrees west. Very minor shift. But I see it."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline sees weather patterns like a hawk sees a mouse from three thousand feet. The rest of us see weather. She sees the story underneath it."
+      },
+      {
+        "host": "holden",
+        "text": "Speaking of stories, the 2168 Purge had 187 confirmed kills across Madison. That's baseline data for this year."
+      },
+      {
+        "host": "holden",
+        "text": "If we track at historical average, we're looking at approximately 15 to 17 kills in this first hour, ramping up through hour two."
+      },
+      {
+        "host": "holden",
+        "text": "The moon changes that equation. Visibility keeps people cautious. Cautious people kill slower."
+      },
+      {
+        "host": "quinn",
+        "text": "I have never heard anyone say the word 'cautious' and 'kill' in the same sentence and have it sound reasonable. Holden just managed it."
+      },
+      {
+        "host": "quinn",
+        "text": "That's what the Purge does. It makes murder sound like a scheduling problem."
+      },
+      {
+        "host": "tim",
+        "text": "We're {{ELAPSED}} into the Purge. Right on schedule. All systems stable."
+      },
+      {
+        "host": "quinn",
+        "text": "People are dying right now. Not in our building. Not on this broadcast. But somewhere in Madison, in this exact moment, people are experiencing the worst hours of their lives or the last hours of their lives."
+      },
+      {
+        "host": "quinn",
+        "text": "And we're going to sit here and talk through it, because talking through it is the only thing we can do. And maybe it helps. Maybe knowing someone's listening makes a difference."
+      },
+      {
+        "host": "quinn",
+        "text": "I'd like to think it does."
+      },
+      {
+        "host": "holden",
+        "text": "East Side activity is already visible on the sensor array. Three incidents logged in the past four minutes."
+      },
+      {
+        "host": "holden",
+        "text": "That's faster than the historical 20:20 marker. Whatever's happening tonight, it's starting early."
+      },
+      {
+        "host": "quinn",
+        "text": "It's starting early because people are efficient. Or because people are desperate. Or because this year someone decided that waiting was a luxury they couldn't afford."
+      },
+      {
+        "host": "quinn",
+        "text": "We don't get to know. We just get to measure it."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature is holding at 41. Moon is fully visible. High clouds moving in from the northwest at approximately 15 miles per hour."
+      },
+      {
+        "host": "caroline",
+        "text": "Those clouds will thicken over the next hour. By 20:30 we should see partial overcast. That will reduce visibility slightly."
+      },
+      {
+        "host": "caroline",
+        "text": "Reduced visibility means increased inhibition drop. The darkness people psychologically crave will arrive faster than it normally would."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline just described how clouds help people kill each other. That's the broadcast we're running tonight."
+      },
+      {
+        "host": "tim",
+        "text": "Field update coming at the top of hour two. Tucker will give us position, neighborhood status, and preliminary casualty estimates."
+      },
+      {
+        "host": "tim",
+        "text": "For now, we're monitoring all zones and cross-referencing with last year's data for pattern analysis."
+      },
+      {
+        "host": "quinn",
+        "text": "What Tim means is: we're about to get very, very busy."
+      },
+      {
+        "host": "quinn",
+        "text": "This is PRGE — Purge Radio Madison. I'm Quinn Foley. We're {{ELAPSED}} into the night. We've got eleven hours ahead of us."
+      },
+      {
+        "host": "quinn",
+        "text": "Stay home. Stay safe. And if you need someone to listen, we're here."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "East Side clusters reported 19:07, 19:09, 19:13. Three incidents confirmed. Faster than historical early-hour pattern."
+      },
+      {
+        "category": "emergency",
+        "text": "Full moon visibility at maximum through 04:17. Fog arrival estimated 02:30. Prepare for mid-night visibility drop."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol perimeter security confirmed operational. All government level-10+ protected as per Purge protocol."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield panel systems available for emergency retrofit. Response time under 90 minutes. Toll-free 1-800-SHIELD-1."
+      },
+      {
+        "category": "emergency",
+        "text": "Cold front arrival window 00:30-01:30. Temperature drop to 29 degrees, wind gusts to 28 mph. Plan accordingly."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Listening from Tenney Park. All barricades secured, supplies stable. Staying off the air to preserve bandwidth. Thank you PRGE."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:41:42.552Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

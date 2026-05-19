@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "It's {{CLOCK}} Madison. Sunrise at 6:47. We have forty-seven minutes."
+      },
+      {
+        "host": "quinn",
+        "text": "The full moon's still up. You can see it hanging over the Capitol dome like it's watching what we did to ourselves."
+      },
+      {
+        "host": "holden",
+        "text": "Final count as of 5:55 was 187 confirmed. East Side pulled 18.2 percent of that. Neighborhood watch on Willy Street saw zero breach attempts in their perimeter."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind's dropping to 3 miles per hour. Temperature's 21 degrees. Clear sky. It's going to be a beautiful morning. Cruel, but beautiful."
+      },
+      {
+        "host": "nick",
+        "text": "I was going to play something. I had it picked out an hour ago. Now I'm sitting here and I can't remember what it was."
+      },
+      {
+        "host": "quinn",
+        "text": "That's okay, Nick. Some nights you don't need a song. You just need the silence to mean something."
+      },
+      {
+        "host": "tucker",
+        "text": "I got back at 5:42. State Street perimeter is clear. All neighborhoods holding their counts. The missing number from last year—one of them turned up in Vilas Park at dawn. Body's being moved to recovery. We know one more name."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe. The night released you. You held your ground. That is enough."
+      },
+      {
+        "host": "holden",
+        "text": "Bladed weapons accounted for 22 percent of the total again. The ammunition tariff's holding. The economics of violence are shifting."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden. It's 6:07. The sun is coming."
+      },
+      {
+        "host": "quinn",
+        "text": "I had a caller at 5:45. Woman from near Tenney Park. She said, 'Thank you for staying on the air so I knew I wasn't alone.' That's why we come back. That's the whole thing."
+      },
+      {
+        "host": "nick",
+        "text": "The Ramones. 'Blitzkrieg Bop.' That's what I was going to play. That's what I picked."
+      },
+      {
+        "host": "tucker",
+        "text": "Lake Mendota's calm now. The cold front passed. You can see the surface like glass under this moon."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones outside are not your responsibility. The ones inside—you kept them alive."
+      },
+      {
+        "host": "caroline",
+        "text": "6:23. Twenty-four minutes to all-clear. The barometric pressure is rising."
+      },
+      {
+        "host": "quinn",
+        "text": "There's a man named Darren in Atwood who called at 22:40 last year. I don't know if he called tonight. I hope he did. I hope he heard us."
+      },
+      {
+        "host": "holden",
+        "text": "Volunteer cleanup crews are staging at the Madison Public Library parking lot. They can't move until the sirens lift, but they're ready. Twenty-three people standing in the moonlight with clipboards and shovels, waiting to rebuild."
+      },
+      {
+        "host": "nick",
+        "text": "We made it. We're all still here. That's rare."
+      },
+      {
+        "host": "tucker",
+        "text": "Signal integrity at 99.7 percent. Tim relocated the antenna twice. We held the frequency for the full broadcast."
+      },
+      {
+        "host": "caroline",
+        "text": "6:35. The dome's catching the pre-dawn light now. You can see the outline. The city's still there."
+      },
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} into this thing. Twelve hours. One night. One year done."
+      },
+      {
+        "host": "marigold",
+        "text": "And now you rest. Now the sun remembers what you chose."
+      },
+      {
+        "host": "holden",
+        "text": "187 people are not coming home. That's the number we carry forward."
+      },
+      {
+        "host": "tim",
+        "text": "Every year, I stand here and the sun's coming up and I'm supposed to tell you that we did good work. That we're a symbol. That PRGE is a light in the dark and we kept it burning. And that's all true. But I want to say something else this morning, because the full moon's still up and we can all see too much, and the people listening to us right now are the ones who stayed home, who chose not to walk out that door, who kept their families in their living rooms and played this broadcast loud enough to remind themselves that someone else is awake, that the world is not ending—even though every year it dies a little. We've been on the air for twelve hours and we've read you the numbers and told you the neighborhoods and played you the songs that hurt. But the real broadcast is the one you made by staying. By sitting in your darkened house and listening to Quinn's whiskey-drunk wisdom and Caroline's weather and Holden's data and Nick's broken heart and Marigold's strange mercy. You made this real. You didn't run. You didn't give in. And tomorrow, when the sun clears the lake and the volunteers move into State Street, you're going to wake up and know that you chose something. You chose the hard thing. You chose to witness. That choice—that staying—is the only thing that keeps this city from becoming something we can't recognize. So when the sirens lift at seven, when the Purge ends and the law comes back and we all pretend this night never happened, I want you to remember that you were brave. Not because you survived. Because you listened. Because you let yourself feel it. And because you're already thinking about next year, and next year, and the year after that, you'll be back here with us. We'll be back. PRGE will be back. And the full moon will rise again, and you'll hear us, and you'll know you're not alone. That's all we have to offer. That's all we need."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Final count: 187 confirmed kills (Madison metro). Up 4.5% YoY from 2168."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood/Schenk's): 34 kills, 18.2% of total. Willy Street perimeter: zero breach attempts, zero casualties inside barricade."
+      },
+      {
+        "category": "emergency",
+        "text": "Missing person from 2168 recovered at dawn in Vilas Park. One identification closure confirmed. Cleanup crews staging at Madison Public Library—ready to move at 7:00 all-clear."
+      },
+      {
+        "category": "local-news",
+        "text": "Full moon at zenith. Clear skies, 21°F, 3mph winds, excellent visibility. Sunrise 6:47. Forty-three minutes to all-clear siren."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:43:39.471Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

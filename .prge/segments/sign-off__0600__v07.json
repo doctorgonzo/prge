@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "The sun's coming up over Lake Mendota. I can see it from here — red, then orange, the Capitol dome catching first light like it's been waiting all night for permission to exist again."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind is north-northwest at three miles per hour. Temperature holding at twenty-one degrees. Frost line's hard. It's going to be a beautiful day, if you can call it that."
+      },
+      {
+        "host": "holden",
+        "text": "Final count: one hundred and ninety-four confirmed kills in Madison proper. That's seven more than we tallied at the five-hour mark. Beltline corridor accounted for three of those in the final darkness."
+      },
+      {
+        "host": "tucker",
+        "text": "I made it back. I wasn't sure I would, but I did. The State Street corridor is — quiet now. The bodies are still there, but the people who made them that way have gone home."
+      },
+      {
+        "host": "nick",
+        "text": "I'm not going to introduce this one. Just gonna play it. NOFX, 'The Decline.' Five minutes and thirty-five seconds of 'why do we keep doing this.' Seems right."
+      },
+      {
+        "host": "quinn",
+        "text": "There were helicopters all night. Did anyone else notice? Circling. Not government birds — too quiet, too deliberate. Never landed. Never fired. Just watching. I've been thinking about that for the last six hours and I still don't have an answer."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who didn't make it through — they're not suffering anymore. That's what we have to hold onto. The suffering ended at whatever hour their hour was."
+      },
+      {
+        "host": "caroline",
+        "text": "Sunrise official time is six forty-seven. We're seven minutes away. The forecast calls for clear skies all day, which means every street corner in this city is going to see exactly what the Purge left behind."
+      },
+      {
+        "host": "holden",
+        "text": "The pattern from 05:00 to 06:00 was interesting — activity completely ceased after 05:47. The collapse hour extended further than usual. People are exhausted. Even the ones out there are done."
+      },
+      {
+        "host": "tucker",
+        "text": "I want to give a specific count on the Willy Street hold. The barricade didn't break once. Fifteen armed residents, mostly women, kept a two-block perimeter intact for the entire night. Zero kills inside that zone. That happened."
+      },
+      {
+        "host": "quinn",
+        "text": "Darren called back at five-fifteen. Said his neighbor's panels held. Said they're neighbors again starting in four minutes. He's going to go over with coffee and they're going to sit on the porch and watch the sun come up together. That's also happening."
+      },
+      {
+        "host": "nick",
+        "text": "I lost count of how many whiskeys Nick went through. Pretty sure he's asleep in his chair. I'm going to let him sleep. He earned it."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. The Purge is ending. You survived. Not everyone did — carry that knowledge with you. Breathe out. The world is starting again."
+      },
+      {
+        "host": "caroline",
+        "text": "Clock reads {{CLOCK}}. Fifty-three minutes until the all-clear. The city is waking up to one hundred and ninety-four funerals and a thousand stories nobody will ever know."
+      },
+      {
+        "host": "holden",
+        "text": "Year-over-year, we're down eight kills from 2168. That's within normal statistical variance, but it's worth noting — the trend is downward. Not fast enough. But downward."
+      },
+      {
+        "host": "quinn",
+        "text": "I've been on the air for {{ELAPSED}} straight. Nine whiskeys, a lot of names I shouldn't have said out loud, and a hell of a lot of reasons to believe that none of this is normal, and all of us are complicit just by accepting it."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm going to file the full field report after we go dark. The details from the State Street corridor can wait six hours. Right now I just want to sit with the fact that I came back."
+      },
+      {
+        "host": "marigold",
+        "text": "The Sisters are singing the dawn prayers in the chapel right now. You can't hear them through the broadcast, but they're singing. They've been singing all night in a room with no windows."
+      },
+      {
+        "host": "caroline",
+        "text": "The wind is shifting. By eight a.m., it'll be coming from the southwest. That'll push the smoke from the East Side fires north and east, toward Sun Prairie. That matters for the cleanup crews."
+      },
+      {
+        "host": "quinn",
+        "text": "The helicopters left around 05:30. Just stopped circling. No explanation. Tim never said anything about them on the operational channel. I'm choosing to believe they were something we don't need to understand."
+      },
+      {
+        "host": "holden",
+        "text": "If I had to predict the 2169 season — and I probably shouldn't — I'd say we're looking at another downward year. The weapons data suggests economic pressure is suppressing the usual participation rate. The Purge is becoming a poorer person's night."
+      },
+      {
+        "host": "tucker",
+        "text": "The woman by the lake from earlier — the one who called in during the early hours and just listened — I hope she's still there. I hope the sun comes up on her and she sees the water turn from black to blue and decides to stay."
+      },
+      {
+        "host": "nick",
+        "text": "Nick's still asleep. When he wakes up, he won't remember playing that final track. He'll ask me what it was. I'll tell him. He'll nod like it makes sense."
+      },
+      {
+        "host": "tim",
+        "text": "Folks, we made it. PRGE made it. Twelve hours in the dark, broadcasting on an unlicensed frequency from a rig that's held together with duct tape and spite, and we made it to the sunrise. This station exists because you keep listening. You keep listening because this broadcast is the only place that says out loud what the rest of the year forces us to whisper: that the Purge is not normal, that the dead matter, that staying home is an act of defiance. I've been sitting in this chair for a decade, watching this night repeat, watching the numbers tick up and sometimes tick down, and I want you to know that if it stopped mattering — if the broadcast became routine, if the night became something we accepted without grief — I would burn this equipment with my bare hands and never do it again. But it doesn't feel routine. It feels sacred. You've made it sacred. The people in this booth with me, the listeners in their barricaded homes, the volunteers at the Willy Street barricade, the woman by the lake, Darren and his neighbor about to have coffee together — you've all made this sacred. One year from now, we'll do this again. The government will try to stop us. Jammers will go up. Helicopters will circle. And we will be here. Because somebody has to say that what happened tonight mattered. Somebody has to count the dead. Somebody has to broadcast into the dark. That's us. That's PRGE. The sirens lift in forty-eight minutes. The Purge ends. The city wakes up. And we'll be off the air until this time next year, waiting in the dark, ready to do this all over again. Thank you for staying tuned. Thank you for staying home. Thank you for surviving. This is Tim Peplinski, signing PRGE off the air. We'll see you at nineteen hundred hours, March twenty-fourth, twenty-seventy."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison final: 194 confirmed kills. Down 7 from 2168 equivalent hour. All-clear sirens 06:48 Madison time."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Willy Street barricade held zero kills across entire night. Williamson Street neighborhood watch: unprecedented success rate."
+      },
+      {
+        "category": "emergency",
+        "text": "Cleanup crews mobilizing at 07:01. East Side fire suppression priority. All triage centers open for post-Purge intake."
+      },
+      {
+        "category": "local-news",
+        "text": "PRGE sign-off complete. Station returning to dark status. Next broadcast: 19:00 hours, March 24, 2170."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:42:39.589Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

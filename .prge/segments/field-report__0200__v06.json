@@ -1,0 +1,57 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker in field, West Side perimeter near Monroe Street. It's {{CLOCK}} Madison. We're {{ELAPSED}} into the night and the analytics are telling an interesting story."
+      },
+      {
+        "host": "tucker",
+        "text": "Madison-wide cumulative is sitting at 139 kills as of my last sync. That's 17 ahead of pace from 2168 at this hour — we were at 122 last year, same time. East Side still holds the majority, but West Side activity is accelerating. Nakoma corridor has seen a 22% uptick in the last ninety minutes."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm looking at the Hilldale area right now. Residential, mostly barricaded, but there's a lot of vehicle movement on the service roads. Secondary escapes, possibly — people routing around the main corridors. Holden, you seeing that in the traffic data?"
+      },
+      {
+        "host": "holden",
+        "text": "The Beltline overpass is backing up. Vehicle-on-vehicle incidents are up 31% compared to this hour in 2168. If people are routing west to avoid the downtown congestion, that explains your Nakoma spike."
+      },
+      {
+        "host": "tucker",
+        "text": "Acknowledged. Weapons methodology on the West Side is skewing toward bladed and environmental — fewer firearms, which tracks with the economic data we've been discussing. The neighborhood is more barricade-heavy, less firepower-dependent."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm repositioning north on Monroe. There's a structure fire approximately four blocks — visibility is low with the fog. I'm moving to get a better angle on the perimeter, it looks like the fire department volunteers are staging, so —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide at 02:00: 139 cumulative. +17 vs. 2168 same hour. East Side 34% of total. West Side climbing."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Nakoma corridor +22% activity, last 90 minutes. Monroe Street residential barricade density high. Hilldale secondary escape routes active."
+      },
+      {
+        "category": "local-news",
+        "text": "Structure fire, West Side (Monroe/Hilltop area). Volunteer response staged. Fog limiting visibility to approximately 1.5 miles."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield structural reinforcement: West Side installations up 18% YoY. Hilldale area seeing record panel demand. Call 608-SHIELD-1."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:08:34.998Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,457 @@
+{
+  "format": "mixed",
+  "inWorldTime": "20:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "Welcome back to PRGE. Caroline here with weather and conditions. The clock reads {{CLOCK}}. We are {{ELAPSED}} into the Purge."
+      },
+      {
+        "host": "holden",
+        "text": "Holden. Analytics. {{ELAPSED}} in, we're tracking kill progression against historical benchmarks."
+      },
+      {
+        "host": "caroline",
+        "text": "National Weather Service had a window closure at 18:45 — they don't operate during the Purge, which people forget. Last reading before lockdown: 46 degrees, clear skies, light southwest wind."
+      },
+      {
+        "host": "holden",
+        "text": "The opening hour is always the settlement phase. People are still reaching their positions. Defending perimeters. It's like the opening moves in chess — everyone castling their pieces into place before the middle game begins."
+      },
+      {
+        "host": "caroline",
+        "text": "Visibility currently excellent. That helps response time for people who need to move. Wind's picking up slightly — now sustained 9 miles per hour out of the southwest."
+      },
+      {
+        "host": "holden",
+        "text": "Caroline, visibility helps both ways. Good sightlines for defenders, but it also means anyone moving between safe zones has nowhere to hide. The board is open."
+      },
+      {
+        "host": "caroline",
+        "text": "Fair. I'll be updating every thirty minutes. Temperature holding steady at 46. Dewpoint at 38. No precipitation in the forecast for the next four hours."
+      },
+      {
+        "host": "holden",
+        "text": "Four hours clean gives us the first wave. The opportunistic phase. The data from previous years shows a significant spike in hours two and three as people gain confidence. Last year's 2168 data had us at 19 kills by the end of hour one. We're tracking slightly below that."
+      },
+      {
+        "host": "caroline",
+        "text": "Slightly below?"
+      },
+      {
+        "host": "holden",
+        "text": "Yes. Current kill count Madison-wide at 16. Which suggests either slower deployment or — and this is the more interesting pattern — a higher concentration of barricade activity. People staying put instead of moving."
+      },
+      {
+        "host": "caroline",
+        "text": "That's good."
+      },
+      {
+        "host": "holden",
+        "text": "It's statistically good. Behaviorally, it tells me the East Side is holding tight. Williamson Street has the co-op barricade we've seen historically. Capitol Square is fortified. But here's the thing — when you compress activity into fewer zones, the density in those zones becomes catastrophic."
+      },
+      {
+        "host": "caroline",
+        "text": "You're saying we're looking at concentrated violence instead of distributed."
+      },
+      {
+        "host": "holden",
+        "text": "I'm saying the board is still forming. The pieces haven't met yet. When they do, the trade-off will be brutal."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not reassuring, Holden."
+      },
+      {
+        "host": "holden",
+        "text": "Reassurance isn't the goal. Accuracy is. And accurately, we have four hours before the real violence escalates. Everything now is positioning."
+      },
+      {
+        "host": "caroline",
+        "text": "Listeners at home, if you're just joining us: barricade your doors. Board your windows if you haven't already. The first hour is deceptively calm. It's not. It's preparation."
+      },
+      {
+        "host": "holden",
+        "text": "The calm is the killing ground being set. Every Purge follows the same pattern. Hour one: settlement. Hours two and three: the offensive opens. Hours four through seven: peak violence and territorial disputes. Hours eight through ten: fatigue, opportunistic remaining kills. Hours eleven and twelve: final surge and cleanup."
+      },
+      {
+        "host": "caroline",
+        "text": "You've said this before."
+      },
+      {
+        "host": "holden",
+        "text": "Because it's true every year. The data doesn't lie."
+      },
+      {
+        "host": "caroline",
+        "text": "The data also didn't account for 2167."
+      },
+      {
+        "host": "holden",
+        "text": "2167 was an outlier. The ice storm suppressed activity for hours four through six. That's weather intervention. This year, barring a major cold front — which Caroline can confirm is not in the forecast —"
+      },
+      {
+        "host": "caroline",
+        "text": "Nothing until sunrise. Clear through 06:45."
+      },
+      {
+        "host": "holden",
+        "text": "Clear through 06:45. Which means the standard pattern holds. We're looking at a 185 to 205 kill range for the night."
+      },
+      {
+        "host": "caroline",
+        "text": "That's a 20-kill margin."
+      },
+      {
+        "host": "holden",
+        "text": "Variables are always present. But the methodology is sound. We've modeled this across seven years of data."
+      },
+      {
+        "host": "caroline",
+        "text": "Seven years is not a lot."
+      },
+      {
+        "host": "holden",
+        "text": "It's the only data we have."
+      },
+      {
+        "host": "caroline",
+        "text": "Right. Wind is still light. Temperature dropping to 44 by midnight. I'll have another update at 20:30."
+      },
+      {
+        "host": "holden",
+        "text": "The temperature drop is interesting. Cold air increases aggression patterns. People move faster. Metabolism runs hotter. Historical data shows kill-per-hour increases roughly 2.3% for every five-degree drop."
+      },
+      {
+        "host": "caroline",
+        "text": "We're not dropping five degrees."
+      },
+      {
+        "host": "holden",
+        "text": "No. We're dropping two. Call it a negligible factor. But it compounds."
+      },
+      {
+        "host": "caroline",
+        "text": "Everything compounds."
+      },
+      {
+        "host": "holden",
+        "text": "Everything does. That's the point. The Purge isn't random. It's a complex system with predictable outputs. You feed in enough variables, the model generates forecast accuracy within 8 to 12 percent."
+      },
+      {
+        "host": "caroline",
+        "text": "And if you're wrong?"
+      },
+      {
+        "host": "holden",
+        "text": "I'm not. Not on the math."
+      },
+      {
+        "host": "caroline",
+        "text": "You can be right on the math and wrong on what it means."
+      },
+      {
+        "host": "holden",
+        "text": "That's philosophy. I deal in numbers."
+      },
+      {
+        "host": "caroline",
+        "text": "Numbers don't save anyone."
+      },
+      {
+        "host": "holden",
+        "text": "No. But understanding them might. If listeners know the pattern, if they know the peak hours, if they know how density affects violence distribution — they can make better decisions."
+      },
+      {
+        "host": "caroline",
+        "text": "Better decisions? Holden, the only decision that matters is staying behind locked doors."
+      },
+      {
+        "host": "holden",
+        "text": "That's the decision the data supports. Yes."
+      },
+      {
+        "host": "caroline",
+        "text": "Then stop the chess metaphors. People don't want to know they're pieces on a board."
+      },
+      {
+        "host": "holden",
+        "text": "They are pieces. Acknowledging that is the point. The Purge is a game with rules. Rules can be learned."
+      },
+      {
+        "host": "caroline",
+        "text": "Games have players who choose to play. This isn't a choice."
+      },
+      {
+        "host": "holden",
+        "text": "It's a choice to stay or go. Every listener made that choice before {{CLOCK}}."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not a choice either. That's survival."
+      },
+      {
+        "host": "holden",
+        "text": "Survival is the ultimate choice. Whether you understand the mechanics or not."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm going to get updated readings from the NWS archive. Back in two minutes."
+      },
+      {
+        "host": "holden",
+        "text": "Take your time. I'll run the neighborhood projections."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm back. Wind sustained at 8 miles per hour, gusts to 12. Temperature at 45. Humidity rising slightly — now at 62 percent. Dewpoint moving to 37."
+      },
+      {
+        "host": "holden",
+        "text": "Rising humidity typically correlates with outdoor engagement. People don't feel as cold. Stay-inside behavior decreases."
+      },
+      {
+        "host": "caroline",
+        "text": "So you're saying the humidity is going to cause more violence."
+      },
+      {
+        "host": "holden",
+        "text": "I'm saying it's a variable that slightly increases offensive action. Yes."
+      },
+      {
+        "host": "caroline",
+        "text": "That's weather. That's not a choice."
+      },
+      {
+        "host": "holden",
+        "text": "Correct. Which is why the model accounts for it. The humidity shift adds approximately 1.2 kills to the projected range."
+      },
+      {
+        "host": "caroline",
+        "text": "1.2 kills. Those are real people."
+      },
+      {
+        "host": "holden",
+        "text": "I know. Which is why precision matters. If we can narrow the range, we can guide people toward better positions."
+      },
+      {
+        "host": "caroline",
+        "text": "Better positions. In a game where the rules are death."
+      },
+      {
+        "host": "holden",
+        "text": "Yes."
+      },
+      {
+        "host": "caroline",
+        "text": "I hate this job sometimes."
+      },
+      {
+        "host": "holden",
+        "text": "We all do. But the data needs to be read. And listeners need to know what the night looks like statistically."
+      },
+      {
+        "host": "caroline",
+        "text": "They need to know it's survivable."
+      },
+      {
+        "host": "holden",
+        "text": "It is. The survival rate in Madison is 99.92 percent. That's the highest in the Midwest."
+      },
+      {
+        "host": "caroline",
+        "text": "0.08 percent of Madison is still people."
+      },
+      {
+        "host": "holden",
+        "text": "It is."
+      },
+      {
+        "host": "caroline",
+        "text": "Neighborhoods. Let me break down the current kill distribution by zone."
+      },
+      {
+        "host": "holden",
+        "text": "Go ahead."
+      },
+      {
+        "host": "caroline",
+        "text": "East Side is running hot already. 5 confirmed kills in hour one. That's 31 percent of the night's total activity in one neighborhood."
+      },
+      {
+        "host": "holden",
+        "text": "East Side is historically first-hour aggressive. It's the least defended neighborhood. Atwood Avenue, Schenk's Corners — they have fewer organized barricade systems. More fragmented. Easier for roving groups."
+      },
+      {
+        "host": "caroline",
+        "text": "So it gets worse from here."
+      },
+      {
+        "host": "holden",
+        "text": "Not necessarily. Once roving groups have established territory, they hold it. They defend it. Kill rate per square block actually drops because the chaos settles into occupation patterns."
+      },
+      {
+        "host": "caroline",
+        "text": "Occupation patterns. Like an invasion."
+      },
+      {
+        "host": "holden",
+        "text": "That's exactly what it is. A territorial invasion. Hours two and three see the group consolidations. Hours four through seven see the territorial conflicts between consolidated groups. The violence becomes organized."
+      },
+      {
+        "host": "caroline",
+        "text": "Organized killing. That's what you're saying."
+      },
+      {
+        "host": "holden",
+        "text": "I'm saying that structure emerges from chaos. The Purge starts random. It ends territorial. The middle is the trade-off phase."
+      },
+      {
+        "host": "caroline",
+        "text": "You're talking about it like it's inevitable."
+      },
+      {
+        "host": "holden",
+        "text": "It is inevitable. The data proves it. The pattern repeats every year. Human behavior under extreme circumstances follows predictable arcs."
+      },
+      {
+        "host": "caroline",
+        "text": "That's depressing."
+      },
+      {
+        "host": "holden",
+        "text": "It's informative. Listeners who understand the arc can position themselves outside of it."
+      },
+      {
+        "host": "caroline",
+        "text": "How do you position yourself outside of a Purge?"
+      },
+      {
+        "host": "holden",
+        "text": "You don't move. You don't open your door. You don't engage. You become statistical background noise instead of a kill."
+      },
+      {
+        "host": "caroline",
+        "text": "That's what everyone's already doing."
+      },
+      {
+        "host": "holden",
+        "text": "Not everyone. Approximately 12 percent of Madison's population engages actively. Those are the kills. Those are the territorial groups. Those are the people playing the game intentionally."
+      },
+      {
+        "host": "caroline",
+        "text": "And the other 88 percent?"
+      },
+      {
+        "host": "holden",
+        "text": "Survivors."
+      },
+      {
+        "host": "caroline",
+        "text": "By luck."
+      },
+      {
+        "host": "holden",
+        "text": "By choice. Every moment you don't open your door is a choice to survive."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not a choice. That's an instinct."
+      },
+      {
+        "host": "holden",
+        "text": "Instinct is choice. The brain chooses survival."
+      },
+      {
+        "host": "caroline",
+        "text": "Most brains, anyway."
+      },
+      {
+        "host": "holden",
+        "text": "Yes. Most."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature update: now 44 degrees. Wind steady at 8, gusting to 11. Humidity up to 65 percent. We're tracking toward the lower end of the night's temperature range."
+      },
+      {
+        "host": "holden",
+        "text": "Lower temperature increases kill-rate slightly, but we're only at two-degree drop. The humidity increase is offsetting it. We're trending toward the mid-range projection."
+      },
+      {
+        "host": "caroline",
+        "text": "190 to 195?"
+      },
+      {
+        "host": "holden",
+        "text": "Approximately. Give or take the variables we can't model. The unknown groups. The unplanned escalations."
+      },
+      {
+        "host": "caroline",
+        "text": "The unknown groups that kill people we didn't predict would die."
+      },
+      {
+        "host": "holden",
+        "text": "Yes. That's always the margin of error."
+      },
+      {
+        "host": "caroline",
+        "text": "That's people."
+      },
+      {
+        "host": "holden",
+        "text": "That's people. Yes."
+      },
+      {
+        "host": "caroline",
+        "text": "We're {{ELAPSED}} into the Purge. Eleven hours remaining. Stay locked in with us. We'll be here through 07:00."
+      },
+      {
+        "host": "holden",
+        "text": "And the data will hold. The patterns will emerge. The night will follow the arc we've defined."
+      },
+      {
+        "host": "caroline",
+        "text": "Until it doesn't."
+      },
+      {
+        "host": "holden",
+        "text": "Until it doesn't. But statistically, it will."
+      },
+      {
+        "host": "caroline",
+        "text": "For our listeners: check your barricades. Verify your doors are locked. Charge your phones. This is the segment where people sometimes relax thinking the danger is lower. It's not. Hour two is still settlement. Hour three is where the real violence begins."
+      },
+      {
+        "host": "holden",
+        "text": "And the model will predict it. Just like it always does."
+      },
+      {
+        "host": "caroline",
+        "text": "Weather back at the top of the next hour. This is PRGE. We're here. The Purge is happening right now."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 16 kills {{ELAPSED}} into Purge. Year-over-year tracking 16% BELOW 2168 pace (19 kills by this time last year)."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side (Atwood / Schenk's Corners): 5 kills in hour one. 31% of total activity concentrated in single neighborhood. Historical indicator of low-defense zones."
+      },
+      {
+        "category": "weather",
+        "text": "Temperature 44°F and falling. Wind sustained 8 mph, gusts 11. Humidity 65%. Visibility excellent. No precipitation expected through 00:30. Caroline projects conditions remain favorable for outdoor movement."
+      },
+      {
+        "category": "local-news",
+        "text": "Capitol Square perimeter reported secure with visible security presence. Williamson Street co-op barricade operational as of 19:55 — two armed watch members posted at entry points."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:41:48.880Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

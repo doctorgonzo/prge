@@ -1,0 +1,441 @@
+{
+  "format": "mixed",
+  "inWorldTime": "20:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "Welcome back to PRGE. Caroline Voss, Weather and Analytics. Holden's here with me for the next hour. We're {{ELAPSED}} into the Purge and Madison-wide kill count is holding at nineteen. East Side is lighting up early."
+      },
+      {
+        "host": "holden",
+        "text": "Nineteen at the twenty-minute mark. Last year at this point we were at fifteen. So we're running four ahead of 2168 pace. That's significant."
+      },
+      {
+        "host": "caroline",
+        "text": "It's going to feel faster because the weather's holding. No precipitation yet. Clear skies favoring activity in the open zones."
+      },
+      {
+        "host": "holden",
+        "text": "The neighborhoods are like chessboard positions, right? You've got your Atwood opening on the East Side—that's traditionally a weak perimeter for barricading. Lots of single-family homes. Long sightlines. It's where you'd castle your offense early in the game."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden."
+      },
+      {
+        "host": "holden",
+        "text": "What?"
+      },
+      {
+        "host": "caroline",
+        "text": "Humans."
+      },
+      {
+        "host": "holden",
+        "text": "I know. I know they're humans. I'm just saying the *pattern* is—"
+      },
+      {
+        "host": "caroline",
+        "text": "The pattern is people are dying. At nineteen, we're four ahead. That matters."
+      },
+      {
+        "host": "holden",
+        "text": "You're right. I'm doing the thing where I hide in the spreadsheet. Tim called me on this last year."
+      },
+      {
+        "host": "caroline",
+        "text": "Tim's not here. I am. And I need you to stay with me, not in the data."
+      },
+      {
+        "host": "holden",
+        "text": "Okay. Okay. East Side is bad tonight. Atwood specifically. We're getting clusters around the intersection of Atwood and Glenway. Three confirmed kills in that zone alone in the last fifteen minutes."
+      },
+      {
+        "host": "caroline",
+        "text": "Three. That's the spike. Where's that coming from?"
+      },
+      {
+        "host": "holden",
+        "text": "It's not random. There's a liquor store on that corner—was, before the 2160 riot. The building's been abandoned since. But people know it. Gangs know it. It's a natural gathering point if you're looking to organize early in the night."
+      },
+      {
+        "host": "caroline",
+        "text": "And last year?"
+      },
+      {
+        "host": "holden",
+        "text": "Last year that intersection was quiet for the first two hours. We didn't see real activity there until after midnight. So something's changed. Someone's changed their play."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not comforting."
+      },
+      {
+        "host": "holden",
+        "text": "No. It's not."
+      },
+      {
+        "host": "caroline",
+        "text": "Willy Street's reporting good barricade cohesion. The neighborhood watch got organized early. I'm watching their perimeter—it's tight."
+      },
+      {
+        "host": "holden",
+        "text": "How tight?"
+      },
+      {
+        "host": "caroline",
+        "text": "I've got them at the Yahara bridge with what looks like sandbag placement and vehicle barriers. That's professional. That's military-adjacent, actually."
+      },
+      {
+        "host": "holden",
+        "text": "Last year they had... what, a chain and some panic?"
+      },
+      {
+        "host": "caroline",
+        "text": "Essentially. This year they've trained. Or they hired someone who knows what they're doing."
+      },
+      {
+        "host": "holden",
+        "text": "That's the inverse of Atwood. One neighborhood is going backward, one's going forward. The disparity is—it's like playing against two different skill levels simultaneously."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden. Humans again."
+      },
+      {
+        "host": "holden",
+        "text": "Right. Sorry. What I mean is: Willy Street might actually hold. Last year they had a breach at around midnight. This year, if this perimeter holds, they could be sub-ten kills by dawn."
+      },
+      {
+        "host": "caroline",
+        "text": "Sub-ten would be historic for that neighborhood."
+      },
+      {
+        "host": "holden",
+        "text": "Lowest in maybe eight years. The organized barricade is making a difference. It's actually—"
+      },
+      {
+        "host": "caroline",
+        "text": "People can protect themselves. When they organize, when they prepare, the numbers change."
+      },
+      {
+        "host": "holden",
+        "text": "Yeah. They do."
+      },
+      {
+        "host": "caroline",
+        "text": "Tenney Park's staying quiet so far. I'm monitoring the lake frontage. Wind is out of the southwest at eight miles per hour. That's keeping the fog layer off the water. Good visibility for anyone trying to cross."
+      },
+      {
+        "host": "holden",
+        "text": "Is anyone trying to cross?"
+      },
+      {
+        "host": "caroline",
+        "text": "Not yet. But the season's right for it. Lake's cold enough that any crossing attempt is going to end badly."
+      },
+      {
+        "host": "holden",
+        "text": "You're saying someone will try."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm saying the conditions are present for it. Every year, someone thinks they can make it across. They can't. The water temperature is—"
+      },
+      {
+        "host": "holden",
+        "text": "Thirty-four degrees. Yeah. Maybe lower near the shoreline."
+      },
+      {
+        "host": "caroline",
+        "text": "Survivability window is under fifteen minutes without a wetsuit. Most people don't know that. Most people think cold is just uncomfortable."
+      },
+      {
+        "host": "holden",
+        "text": "Cold is a weapon. It's just invisible."
+      },
+      {
+        "host": "caroline",
+        "text": "It is."
+      },
+      {
+        "host": "holden",
+        "text": "But right now, at {{CLOCK}}, Tenney Park is quiet. And that's good. That's the one thing I can say right now that feels unambiguously good."
+      },
+      {
+        "host": "caroline",
+        "text": "The wind shift is expected around midnight. NWS forecast calls for a cold front moving in from the northwest. Temperature drop to around thirty degrees by 01:00. That could suppress activity."
+      },
+      {
+        "host": "holden",
+        "text": "Or accelerate it. People get desperate when weather turns bad."
+      },
+      {
+        "host": "caroline",
+        "text": "They do. But they also get sloppy. Cold hands, reduced visibility, fatigue—those are variables that work in favor of people defending themselves."
+      },
+      {
+        "host": "holden",
+        "text": "You're optimistic tonight."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm not optimistic. I'm accurate. There are measurable factors that reduce kill rates. Cold is one of them. Organization is another. Willy Street and Tenney Park have both."
+      },
+      {
+        "host": "holden",
+        "text": "Atwood doesn't."
+      },
+      {
+        "host": "caroline",
+        "text": "Atwood is going to be a problem zone all night unless something changes. And nothing's going to change."
+      },
+      {
+        "host": "holden",
+        "text": "East Side historically is the sacrifice zone. It's where the city absorbs the worst of it. It's been that way for thirty years."
+      },
+      {
+        "host": "caroline",
+        "text": "Since the late 2130s when the wealth started consolidating west."
+      },
+      {
+        "host": "holden",
+        "text": "Right. The geography of the city literally routes violence toward the neighborhoods with the least resources. It's structural. It's intentional, even if no one sat down and decided it."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is worse."
+      },
+      {
+        "host": "holden",
+        "text": "Which is worse, yeah."
+      },
+      {
+        "host": "caroline",
+        "text": "We're tracking seven active field reports right now. East Side has the density. Atwood, the area around the old liquor store, is seeing coordinated group behavior. That's the data we're watching."
+      },
+      {
+        "host": "holden",
+        "text": "What's the group size estimate?"
+      },
+      {
+        "host": "caroline",
+        "text": "Somewhere between twelve and eighteen. They're mobile. They're not staying in one place. They're moving in a pattern."
+      },
+      {
+        "host": "holden",
+        "text": "A pattern. Meaning?"
+      },
+      {
+        "host": "caroline",
+        "text": "Meaning they have a destination. They're not just hunting randomly. They know where they're going."
+      },
+      {
+        "host": "holden",
+        "text": "That's worse than random."
+      },
+      {
+        "host": "caroline",
+        "text": "It is."
+      },
+      {
+        "host": "holden",
+        "text": "Random you can predict statistically. Intentional, you can't. Well, you can, but the error margin opens up exponentially."
+      },
+      {
+        "host": "caroline",
+        "text": "They're moving toward residential clusters. They're going where people are sheltering."
+      },
+      {
+        "host": "holden",
+        "text": "Jesus."
+      },
+      {
+        "host": "caroline",
+        "text": "Yeah."
+      },
+      {
+        "host": "holden",
+        "text": "So the Atwood kill count is going to climb. The nineteen we're at now, that's just the opening salvo."
+      },
+      {
+        "host": "caroline",
+        "text": "Probably. Unless the group gets disrupted or diverts. But based on heading and vector, they're on a collision course with a residential block between Glenway and that strip of older single-family homes."
+      },
+      {
+        "host": "holden",
+        "text": "How many people live in that block?"
+      },
+      {
+        "host": "caroline",
+        "text": "I don't have that number in front of me. You'd need the census data."
+      },
+      {
+        "host": "holden",
+        "text": "Estimate."
+      },
+      {
+        "host": "caroline",
+        "text": "Sixty, seventy homes? Not all occupied. Some are boarded. Some are abandoned. But in the ones that are occupied, you're looking at anywhere from two to four people per unit average. Call it two hundred people in that zone if they're all sheltering indoors."
+      },
+      {
+        "host": "holden",
+        "text": "And if a group of fifteen is moving through systematically?"
+      },
+      {
+        "host": "caroline",
+        "text": "The barricades matter. The locks matter. The preparedness matters. Most people are just hiding and hoping. Some people have actually prepared."
+      },
+      {
+        "host": "holden",
+        "text": "But most haven't."
+      },
+      {
+        "host": "caroline",
+        "text": "No. Most haven't."
+      },
+      {
+        "host": "holden",
+        "text": "So the question becomes: how many people in that two-hundred-person pool did something more than hope?"
+      },
+      {
+        "host": "caroline",
+        "text": "That's the question. And I don't have the answer. Nobody does. Until it happens."
+      },
+      {
+        "host": "holden",
+        "text": "The data's incomplete."
+      },
+      {
+        "host": "caroline",
+        "text": "The data's always incomplete. We're watching this in real time. We don't get the full picture until dawn."
+      },
+      {
+        "host": "holden",
+        "text": "Which is why I hide in the spreadsheets. Because the spreadsheets are at least ordered. At least they follow rules."
+      },
+      {
+        "host": "caroline",
+        "text": "But people don't."
+      },
+      {
+        "host": "holden",
+        "text": "People don't follow rules. People are chaotic. People make decisions that don't make sense until you understand their fear, and their fear is invisible to data."
+      },
+      {
+        "host": "caroline",
+        "text": "So you acknowledge it."
+      },
+      {
+        "host": "holden",
+        "text": "I'm acknowledging it right now. The fear. The uncertainty. The thing I can't measure."
+      },
+      {
+        "host": "caroline",
+        "text": "Good. Because that's what we're really tracking tonight. Not the kill count. Not the neighborhoods. The uncertainty."
+      },
+      {
+        "host": "holden",
+        "text": "And how do we measure that?"
+      },
+      {
+        "host": "caroline",
+        "text": "We don't. We just sit here and watch it unfold and admit we don't know what's going to happen."
+      },
+      {
+        "host": "holden",
+        "text": "That's terrifying."
+      },
+      {
+        "host": "caroline",
+        "text": "It is."
+      },
+      {
+        "host": "holden",
+        "text": "We've got nineteen kills at the twenty-minute mark. We're four ahead of 2168 pace. The East Side is organizing early. Atwood specifically is a problem zone with a mobile coordinated group moving through residential areas. Willy Street is holding a strong perimeter. Tenney Park is quiet. Weather is clear now, cold front expected around midnight, and when that happens, everything changes."
+      },
+      {
+        "host": "caroline",
+        "text": "That's the summary. That's where we are."
+      },
+      {
+        "host": "holden",
+        "text": "And we have ten more hours of this."
+      },
+      {
+        "host": "caroline",
+        "text": "Ten hours."
+      },
+      {
+        "host": "holden",
+        "text": "I used to play chess competitively, you know? Not professionally, but seriously. I was good. I could see three moves ahead, sometimes four if I was focused."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden."
+      },
+      {
+        "host": "holden",
+        "text": "No, I'm saying something real. The best chess players talk about the moment when the game becomes uncontrollable. When there are too many variables and the calculation breaks down and you're just reacting. Playing from intuition instead of analysis."
+      },
+      {
+        "host": "caroline",
+        "text": "We're in that moment."
+      },
+      {
+        "host": "holden",
+        "text": "We are. All twelve hours are like that, actually. We're always past the point where we can actually predict what's going to happen. We're always just reacting and pretending we understand the pattern."
+      },
+      {
+        "host": "caroline",
+        "text": "But the pattern is real."
+      },
+      {
+        "host": "holden",
+        "text": "The pattern is real. But it's not *predictable*. That's the thing I'm coming to terms with."
+      },
+      {
+        "host": "caroline",
+        "text": "Welcome to my job. Weather is the same. You can see the system coming. You can model it. You can give a forecast. And it will still surprise you."
+      },
+      {
+        "host": "holden",
+        "text": "How do you live with that?"
+      },
+      {
+        "host": "caroline",
+        "text": "You accept it. You do your best with incomplete information. You acknowledge what you don't know. And then you move to the next hour."
+      },
+      {
+        "host": "holden",
+        "text": "We move to the next hour."
+      },
+      {
+        "host": "caroline",
+        "text": "We always do."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide kills: 19 ({{ELAPSED}} elapsed). East Side leading. Atwood corridor reporting coordinated group activity."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Willy Street barricade holding strong at Yahara Bridge. Professional-grade perimeter. Low activity so far."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Tenney Park quiet. Lake Mendota clear visibility, Southwest wind 8 mph. No crossing attempts reported."
+      },
+      {
+        "category": "emergency",
+        "text": "Cold front moving in from northwest. Expected temp drop to 30F by 01:00. Wind shift from SW to NW, gusts up to 22 mph possible."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:28:39.218Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

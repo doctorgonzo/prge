@@ -1,0 +1,61 @@
+{
+  "format": "field-report",
+  "inWorldTime": "02:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "I'm positioned on East Johnson, about two hundred meters from the Atwood Avenue intersection. Madison-wide count at {{ELAPSED}} is one hundred and thirty-nine confirmed. That's up seventeen from this point last year."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side is carrying forty-one percent of the load tonight — twenty-three kills clustered between Sherman and Eastmorland. Hottest zone by a significant margin. Weapons-trade data suggests firearms are down, bladed weapons up. Economic pressure."
+      },
+      {
+        "host": "holden",
+        "text": "Tucker, that's a nine percent shift in method from the first four hours. Can you correlate that to any specific incident or just general resource exhaustion?"
+      },
+      {
+        "host": "tucker",
+        "text": "Holden, the data doesn't distinguish causation at this resolution. What I can tell you is ammunition resupply patterns on the Beltline suggest a shortage around 00:30. After that, the substitution rate climbs. Could be Vance-era tariffs finally bottoming out the supply. Could be random."
+      },
+      {
+        "host": "tucker",
+        "text": "Willy Street neighborhood watch — the barricade that held at the bridge — is still holding. Zero internal casualties reported. Their perimeter is actually tightening. I can see spotlights on the Yahara from here."
+      },
+      {
+        "host": "holden",
+        "text": "Any sign of pressure on that barricade as the night deepens? Sustained activity outside it?"
+      },
+      {
+        "host": "tucker",
+        "text": "Minimal. Activity's actually concentrating deeper into the East Side and... hold on, my equipment's registering — there's movement off Tenney Park, along the lake road, I'm seeing clusters move north toward Monroe and — wait, let me get a visual angle on —"
+      },
+      {
+        "host": "tucker",
+        "text": "[CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide: 139 cumulative at {{CLOCK}} | YoY +17 at this hour | East Side: 23 kills (41% of total)"
+      },
+      {
+        "category": "neighborhood",
+        "text": "Willy Street barricade holding steady | Tenney Park showing late-hour activity surge | Sherman-Eastmorland corridor remains critical"
+      },
+      {
+        "category": "local-news",
+        "text": "Weapons substitution (bladed/melee) up 9% YoY in hours 0-8 | Ammunition supply data suggests tariff impact"
+      },
+      {
+        "category": "emergency",
+        "text": "Tucker field-report cut at 02:07. Signal loss, East Johnson corridor. Standby for reconnect."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T06:07:40.929Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

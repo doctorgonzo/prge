@@ -1,0 +1,481 @@
+{
+  "format": "mixed",
+  "inWorldTime": "20:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "Welcome back to PRGE. Caroline here with Holden. We're {{ELAPSED}} in and Madison is — well, it's quieter than we expected."
+      },
+      {
+        "host": "holden",
+        "text": "Quieter is an interesting word. I'd say we're in the opening gambit. Early positions set, both sides consolidating territory."
+      },
+      {
+        "host": "caroline",
+        "text": "Translation: not much activity yet. But it's only 20:00."
+      },
+      {
+        "host": "holden",
+        "text": "Exactly. The Purge is like chess — hours one and two are about pawn advancement. Hours three through five? That's where the middle game gets ugly."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden, we're not playing chess."
+      },
+      {
+        "host": "holden",
+        "text": "No, but the patterns *are* analogous. Last year at this point — {{ELAPSED}} in — we had seven kills across the city. Tonight we're sitting at eight. That's a nine percent variance, which is well within the confidence interval for early-night distribution."
+      },
+      {
+        "host": "caroline",
+        "text": "East Side?"
+      },
+      {
+        "host": "holden",
+        "text": "East Side is quiet. That's the anomaly. Historically, Atwood and Schenk's Corners are the first to spike. This year they're playing defense. Barricades up, neighborhood watch coordinated. It's like they've — they've castled. Moved the king to safety early."
+      },
+      {
+        "host": "caroline",
+        "text": "Because last year was bad on the East Side. Thirty-four kills there alone."
+      },
+      {
+        "host": "holden",
+        "text": "Thirty-four out of one-eighty-seven total. Eighteen point two percent. The neighborhood learned. They adapted. That's either encouraging or terrifying, depending on your worldview."
+      },
+      {
+        "host": "caroline",
+        "text": "Capitol Square is stable. No breach attempts. Fortifications holding."
+      },
+      {
+        "host": "holden",
+        "text": "After last year's breach at 21:40, they reinforced by an estimated thirty percent. Three inches of additional blast glass, guard rotation doubled. It's fortress protocol now."
+      },
+      {
+        "host": "caroline",
+        "text": "The people inside the Capitol don't have to worry. The rest of us do."
+      },
+      {
+        "host": "holden",
+        "text": "That's the structural inequality baked into the Purge itself. The government employees — Level-10 protected under the Universal Charter — they're essentially playing a different game. Different rules. Different board."
+      },
+      {
+        "host": "caroline",
+        "text": "How's the weather tracking?"
+      },
+      {
+        "host": "holden",
+        "text": "Right, sorry. Caroline's domain. I should defer."
+      },
+      {
+        "host": "caroline",
+        "text": "I'm asking *you*. You have the temperature data."
+      },
+      {
+        "host": "holden",
+        "text": "Forty-one degrees at sign-on, now at thirty-seven. Wind from the southwest at eight miles per hour, gusts to maybe twelve. The National Weather Service — not that they're broadcasting tonight — predicted a cold front arrival between 00:30 and 01:30. Visibility is currently ten miles. Partly cloudy."
+      },
+      {
+        "host": "caroline",
+        "text": "I said 00:30 to 01:30. You're reading my forecast."
+      },
+      {
+        "host": "holden",
+        "text": "I am. Because it's a good forecast. And because you're right more often than you're not."
+      },
+      {
+        "host": "caroline",
+        "text": "Holden, you don't have to flatter me."
+      },
+      {
+        "host": "holden",
+        "text": "I'm not. I'm being accurate. Accuracy and flattery are not mutually exclusive."
+      },
+      {
+        "host": "caroline",
+        "text": "The cold front arrives, kill count will drop slightly. Cold suppresses activity. People retreat indoors."
+      },
+      {
+        "host": "holden",
+        "text": "Historically, yes. Each one-degree temperature drop correlates with approximately a two-point-five percent reduction in activity during hours 00:00 to 04:00. Colder nights trend toward fewer kills."
+      },
+      {
+        "host": "caroline",
+        "text": "Which means if I'm right about timing — "
+      },
+      {
+        "host": "holden",
+        "text": "— then the activity curve flattens right at the peak of the middle game. Which disrupts the typical violence distribution and forces the actors to — to adapt or retreat."
+      },
+      {
+        "host": "caroline",
+        "text": "I know what I said. You don't have to explain my own forecast back to me."
+      },
+      {
+        "host": "holden",
+        "text": "Sorry. I get into data mode and I lose the room."
+      },
+      {
+        "host": "caroline",
+        "text": "You do. Every year. Same time, same pattern."
+      },
+      {
+        "host": "holden",
+        "text": "Which is itself a pattern. A predictable deviation. I wonder if that's a tell for anxiety or just — my brain."
+      },
+      {
+        "host": "caroline",
+        "text": "Both, probably. But I don't mind. Keep going. The East Side is quiet because they learned. The Capitol is locked. The weather is going to help us in about five hours. What's your read on the neighborhoods where *people* are fighting back?"
+      },
+      {
+        "host": "holden",
+        "text": "Willy Street is doing exactly what they did last year. Armed perimeter at the Yahara bridge. Neighborhood watch rotation, clearly coordinated. They're not passive — they're *actively* defensible. Different posture from 'barricade and pray.'"
+      },
+      {
+        "host": "caroline",
+        "text": "How many is that? Fifteen?"
+      },
+      {
+        "host": "holden",
+        "text": "More than that. I count at least twenty. Maybe twenty-five. They've got cars overturned, sandbags stacked, what looks like a communication system with runners between the perimeter and the inner retreat."
+      },
+      {
+        "host": "caroline",
+        "text": "They learned too."
+      },
+      {
+        "host": "holden",
+        "text": "They did. Which means the Purge is evolving. It's not just violence anymore — it's organized violence versus organized defense. It's a *game* in the strategic sense. Two sides with rules, resources, objectives."
+      },
+      {
+        "host": "caroline",
+        "text": "Objectives is a weird word for 'who lives and who dies.'"
+      },
+      {
+        "host": "holden",
+        "text": "It is. But it's accurate. And accuracy matters when you're trying to predict behavior."
+      },
+      {
+        "host": "caroline",
+        "text": "You can't predict behavior. People are chaos."
+      },
+      {
+        "host": "holden",
+        "text": "No, but aggregate behavior approaches predictability as the sample size increases. Individual people are chaos. Thousands of people across a city? That's a curve. That's a pattern."
+      },
+      {
+        "host": "caroline",
+        "text": "And the pattern says?"
+      },
+      {
+        "host": "holden",
+        "text": "The pattern says we're in for a middle-game spike around 22:00, a plateau at 23:30 when the dedicated actors start to fatigue, and then a recovery around 00:15 as the second wave kicks in. The cold front at 01:00 will suppress that recovery. We'll see a dip from 01:30 to 04:00, then a final push at 05:00 as pre-dawn desperation kicks in."
+      },
+      {
+        "host": "caroline",
+        "text": "That's assuming nothing breaks the pattern."
+      },
+      {
+        "host": "holden",
+        "text": "Which is the entire problem with pattern-based prediction. Anomalies exist. They're just hard to forecast."
+      },
+      {
+        "host": "caroline",
+        "text": "Like a coordinated group taking State Street by force."
+      },
+      {
+        "host": "holden",
+        "text": "Like that. Last year, 23:00 to 00:30, that coordinated sweep killed fourteen people in ninety minutes. That's not in the historical curve — that's an outlier. An anomaly."
+      },
+      {
+        "host": "caroline",
+        "text": "Could it happen again?"
+      },
+      {
+        "host": "holden",
+        "text": "The ruins of State Street are inherently unstable as a defended position. The grid is open, visibility is poor, the architecture provides no natural defensive chokepoints. So yes, it's vulnerable to coordinated assault. Whether it *will* happen depends on whether the actors are organized for a second year."
+      },
+      {
+        "host": "caroline",
+        "text": "You mean, did they survive last year to do it again."
+      },
+      {
+        "host": "holden",
+        "text": "I mean that. Yes."
+      },
+      {
+        "host": "caroline",
+        "text": "Tim, you monitoring communication chatter?"
+      },
+      {
+        "host": "holden",
+        "text": "Tim's not on this segment. It's just us."
+      },
+      {
+        "host": "caroline",
+        "text": "Right. Then I'll check our scanners at the top of the hour. For now — Holden, what's the quietness tell us? Is this good or bad?"
+      },
+      {
+        "host": "holden",
+        "text": "That's the question, isn't it? In chess, if your opponent is quiet, they're either completely outmatched or they're setting a trap. Preparing a countermove for a move you haven't made yet."
+      },
+      {
+        "host": "caroline",
+        "text": "That's not helpful."
+      },
+      {
+        "host": "holden",
+        "text": "No, but it's honest. The quietness could mean the neighborhoods are actually learning to defend themselves. Or it could mean the coordinated actors are consolidating resources for one massive push later. We won't know until it happens."
+      },
+      {
+        "host": "caroline",
+        "text": "Which is why we stay on the air. To watch it happen."
+      },
+      {
+        "host": "holden",
+        "text": "To witness it. To document it. To maybe give people a heads-up if their neighborhood is about to get hit."
+      },
+      {
+        "host": "caroline",
+        "text": "Tucker would be out in the field right now if there was anything to report. The fact that he's still in the studio means — "
+      },
+      {
+        "host": "holden",
+        "text": "— means there's nothing hot yet. Which brings us back to the quietness question."
+      },
+      {
+        "host": "caroline",
+        "text": "Is it possible that this year people just... aren't going to go as hard?"
+      },
+      {
+        "host": "holden",
+        "text": "Across 140-plus years of Purge data, there's never been a year where the violence *decreased* year-over-year on its own. There's always factors — weather, recession, organization, law enforcement operations the day before. But baseline violence always increases or holds steady."
+      },
+      {
+        "host": "caroline",
+        "text": "That's depressing."
+      },
+      {
+        "host": "holden",
+        "text": "It is. But it's also informative. The Purge is a system. Systems have momentum. They don't just *stop*."
+      },
+      {
+        "host": "caroline",
+        "text": "A system designed by people who wanted violence as a release valve. That's what Quinn was saying at sign-on."
+      },
+      {
+        "host": "holden",
+        "text": "Quinn was being poetic. I'm being mathematical. Both are true."
+      },
+      {
+        "host": "caroline",
+        "text": "Do you ever get tired of the math?"
+      },
+      {
+        "host": "holden",
+        "text": "The math is the only thing that makes this bearable. If I start thinking about the *people* behind the numbers, I — I don't finish the broadcast. So yes. The math is a survival mechanism."
+      },
+      {
+        "host": "caroline",
+        "text": "Fair. The weather, for me. If I'm focused on pressure systems and temperature deltas, I'm not thinking about the people in Atwood who are listening to us hoping we're wrong about the violence schedule."
+      },
+      {
+        "host": "holden",
+        "text": "That's healthy avoidance."
+      },
+      {
+        "host": "caroline",
+        "text": "It is. And it works. Until it doesn't."
+      },
+      {
+        "host": "holden",
+        "text": "Until 07:00, when we all go home and remember that we broadcast for twelve hours straight during the murder night."
+      },
+      {
+        "host": "caroline",
+        "text": "And then we go to bed and don't talk about it until next year."
+      },
+      {
+        "host": "holden",
+        "text": "Unless the trauma is significant enough that we talk about it in therapy the other 364 days."
+      },
+      {
+        "host": "caroline",
+        "text": "You see a therapist?"
+      },
+      {
+        "host": "holden",
+        "text": "I do. A very good one. She charges double for Purge night follow-ups."
+      },
+      {
+        "host": "caroline",
+        "text": "That's smart. Capture the market where demand spikes."
+      },
+      {
+        "host": "holden",
+        "text": "That's capitalism. The Purge is just the naked version of what happens the other 364 days anyway."
+      },
+      {
+        "host": "caroline",
+        "text": "Now you're sounding like Quinn."
+      },
+      {
+        "host": "holden",
+        "text": "Quinn's right about that. The system is predatory. The Purge just makes it official."
+      },
+      {
+        "host": "caroline",
+        "text": "We should stop talking politics and start talking about the neighborhoods that are actually doing something."
+      },
+      {
+        "host": "holden",
+        "text": "Like Willy Street with their armed defense?"
+      },
+      {
+        "host": "caroline",
+        "text": "Like that. Like South Side, which kept their numbers down last year even with the cold front."
+      },
+      {
+        "host": "holden",
+        "text": "South Side community barricade program. They're actually *teaching* people how to defend their homes. Workshops, drills, pre-positioned supplies. It's brilliant."
+      },
+      {
+        "host": "caroline",
+        "text": "Sixteen kills, eight point six percent of the city total. That's the best neighborhood defense-to-population ratio we have."
+      },
+      {
+        "host": "holden",
+        "text": "North Side beat them in percentage. Nine kills, but they're a much smaller population. Four point eight percent of total deaths, down eleven percent year-over-year. Nobody knows why."
+      },
+      {
+        "host": "caroline",
+        "text": "Do you have a hypothesis?"
+      },
+      {
+        "host": "holden",
+        "text": "Six of them. One is that a major gang territory shifted control and the new leadership negotiated peace rather than profit. Another is that a neighborhood militia formed and successfully defended with zero deaths, which would mean the nine kills are just *outside* their perimeter, not inside. Another is weather — the northern exposures get cold first, people retreat indoors earlier, activity naturally suppresses."
+      },
+      {
+        "host": "caroline",
+        "text": "That's smart. Use the weather as a weapon."
+      },
+      {
+        "host": "holden",
+        "text": "It already is a weapon. The Purge design presumes a certain temperature range. Too cold and people can't operate efficiently. Too hot and it's all speed and no organization. The Goldilocks zone is 45 to 55 degrees, which is basically October in Madison."
+      },
+      {
+        "host": "caroline",
+        "text": "This year is going to be 33 degrees by midnight. That's almost twenty degrees off Goldilocks."
+      },
+      {
+        "host": "holden",
+        "text": "Which means the activity will be constrained by physics. Bodies slow down in cold. Decision-making degrades. Pain is amplified. All of that serves to reduce the efficiency of violence."
+      },
+      {
+        "host": "caroline",
+        "text": "You're welcome for the cold front."
+      },
+      {
+        "host": "holden",
+        "text": "I am. Genuinely. If your forecast is right, you probably just saved lives tonight."
+      },
+      {
+        "host": "caroline",
+        "text": "I'll take the credit now and the vindication later, when the cold front arrives at exactly 01:14 like I predicted."
+      },
+      {
+        "host": "holden",
+        "text": "01:00 to 01:30, you said."
+      },
+      {
+        "host": "caroline",
+        "text": "I said that. And I'm going to be right. And I'm going to remember this conversation when I am."
+      },
+      {
+        "host": "holden",
+        "text": "Noted for the record. Caroline has staked her accuracy on a narrow forecast window. I will be listening."
+      },
+      {
+        "host": "caroline",
+        "text": "You better be. And you better not spend the next five hours running alternative scenarios where the cold front arrives at 01:45 and ruins my prediction."
+      },
+      {
+        "host": "holden",
+        "text": "I would never — okay, I absolutely will do that. That's exactly what I'll do."
+      },
+      {
+        "host": "caroline",
+        "text": "You always do. And then when I'm right, you act surprised."
+      },
+      {
+        "host": "holden",
+        "text": "I am surprised. Every time. The wonder is genuine."
+      },
+      {
+        "host": "caroline",
+        "text": "We have two more hours in this segment. Should we take callers, or should we just keep picking apart the neighborhoods?"
+      },
+      {
+        "host": "holden",
+        "text": "Let's take callers. The listeners need to feel like they're part of this, not just observers."
+      },
+      {
+        "host": "caroline",
+        "text": "We're going to open the lines. If you're on the East Side, Atwood, Schenk's Corners, or Willy Street, we want to hear from you. What are you seeing? What are you defending? How are you preparing?"
+      },
+      {
+        "host": "holden",
+        "text": "And if you're listening from a neighborhood that went quiet for the night, we want to know that too. We want to know that the defense programs work. That the organized strategies prevent the worst outcomes."
+      },
+      {
+        "host": "caroline",
+        "text": "Lines are open at 555-PRGE. That's 555-7743. Call us. Text us. Tell us what {{ELAPSED}} in looks like from your couch."
+      },
+      {
+        "host": "holden",
+        "text": "We're monitoring channels across the East Side, Capitol Square, the Beltline. Any emergencies, any breaches, we'll relay them. That's what we're here for."
+      },
+      {
+        "host": "caroline",
+        "text": "We're also here to prove that the quietness tonight isn't a sign of something worse coming. It's a sign that people are learning."
+      },
+      {
+        "host": "holden",
+        "text": "Or it's the opening move of a deeper strategy. But I'm trying to be optimistic."
+      },
+      {
+        "host": "caroline",
+        "text": "Be optimistic. We've got ten more hours. Plenty of time for the pattern to reassert itself."
+      },
+      {
+        "host": "holden",
+        "text": "Darkest timeline takes a second."
+      },
+      {
+        "host": "caroline",
+        "text": "It does. But for now, we're quiet. And quiet is a gift."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 8 kills at {{ELAPSED}}. East Side: 1. Capitol Square: 0. State Street ruins: 2. Beltline: 1. South Side: 0. Willy Street perimeter: 0. Weather holding. Cold front on track for 00:30–01:30 window."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Willy Street armed perimeter active. 20–25 volunteers at Yahara River bridge. Communication runners in place. No breach attempts reported."
+      },
+      {
+        "category": "emergency",
+        "text": "East Side residents: Neighborhood watch is advising shelter-in-place through 21:30. If you barricaded early, stay barricaded. Do not open doors. Do not investigate sounds outside."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Texts from Atwood listeners reporting quiet streets. No coordinated groups visible. Some residents describing relief, others describing dread at the quiet itself."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:30:16.902Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

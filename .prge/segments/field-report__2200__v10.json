@@ -1,0 +1,49 @@
+{
+  "format": "field-report",
+  "inWorldTime": "22:00",
+  "body": {
+    "type": "field-report",
+    "lines": [
+      {
+        "host": "tucker",
+        "text": "Tucker Traywick, East Side perimeter. We're {{ELAPSED}} in and the full moon is doing us no favors — visibility's up, which means the people with targets are seeing them just fine."
+      },
+      {
+        "host": "tucker",
+        "text": "Madison-wide cumulative is holding at 61 kills as of {{CLOCK}}. That's 23 kills in this hour alone. We're tracking 6% ahead of last year's pace at this point."
+      },
+      {
+        "host": "tucker",
+        "text": "East Side is pulling 38% of the city's total tonight. Atwood corridor. Schenk's Corners. The neighborhood watch Quinn mentioned at 21:00 — they're holding some perimeter near the library, but we're seeing coordinated movement south toward the residential blocks."
+      },
+      {
+        "host": "tucker",
+        "text": "Bladed weapons are overrepresented in this zone. That's 14 of the 23 kills this hour — likely economic. Ammunition tariffs are real."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm repositioning north. The moon's too bright and I'm getting too much attention from — hold on, my rig's picking up chatter on an unsecured frequency, looks like a group organizing near the Yahara crossing and — [CUT OFF]"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 61 kills. YoY delta: +6% (23 kills in hour 4 vs. 21 in 2168 hour 4)."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side dominance continuing. Atwood + Schenk's = 38% of night's total. Bladed weapons 61% of East Side kills."
+      },
+      {
+        "category": "emergency",
+        "text": "Full moon visibility impact: spotters reporting clear sightlines to 300+ meters. Target acquisition easing."
+      },
+      {
+        "category": "local-news",
+        "text": "Yahara River crossing: Unconfirmed group movement south. Possible organized action. Signal lost."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:34:12.614Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

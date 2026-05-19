@@ -1,0 +1,188 @@
+{
+  "format": "music-block",
+  "inWorldTime": "00:00",
+  "body": {
+    "type": "music-block",
+    "tracks": [
+      {
+        "title": "Linoleum",
+        "artist": "NOFX",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "It's {{CLOCK}}, we're {{ELAPSED}} into the Purge, and I'm Nick Trulino. Welcome to the music block. Let's start with NOFX — 'Linoleum' off Punk in Drublic, 1994."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike, Erik Sandin, Eric Melvin — these three LA kids have been running this thing since 1983. They named the band after a Boston hardcore outfit called Negative FX. Little punk joke. Negative FX, NOFX. It's the kind of dumb-smart thing that sticks with you."
+          },
+          {
+            "host": "nick",
+            "text": "Punk in Drublic — that's their fifth album, July '94. Hit number twelve on the Heatseekers chart. Got gold status six years later. Not bad for three guys from Fairfax High School who just wanted to play fast and say something true."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike told a story about the 'Leave It Alone' video from this album — said they made it and then just didn't send it to MTV. Didn't want to be part of that machine, that punk wave thing. That's the move right there. That's punk."
+          },
+          {
+            "host": "nick",
+            "text": "'Linoleum' is the sound of guys who know they're good and don't give a damn who knows it."
+          }
+        ]
+      },
+      {
+        "title": "Basket Case",
+        "artist": "Green Day",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Green Day. 'Basket Case.' Also 1994. Also from Dookie. This album changed everything, man. Three weeks. That's all it took to record."
+          },
+          {
+            "host": "nick",
+            "text": "Billie Joe Armstrong, Mike Dirnt, Tré Cool. They came out of the East Bay — Berkeley, Rodeo, that 924 Gilman Street scene. Before they were Green Day they were Sweet Children. Before that, they were kids who lost things."
+          },
+          {
+            "host": "nick",
+            "text": "Dookie sold ten million copies in the US. Twenty million worldwide. The most important pop-punk album of all time — that's what people call it now. Billie Joe wrote about anxiety, about boredom, about not sleeping. About the stuff that's happening right now, actually."
+          },
+          {
+            "host": "nick",
+            "text": "Dookie came out in '94, and suddenly punk wasn't underground anymore. It was in people's basements in Madison and everywhere else. It was yours if you wanted it."
+          },
+          {
+            "host": "nick",
+            "text": "'Do you have the time to listen to me whine about nothing and everything at once?' — that's the question. Twenty-nine years later, the answer's still yes."
+          }
+        ]
+      },
+      {
+        "title": "Hope",
+        "artist": "The Descendents",
+        "year": 1982,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "The Descendents. 'Hope.' Milo Goes to College, 1982. This is the album that changed what punk could be about."
+          },
+          {
+            "host": "nick",
+            "text": "Milo Aukerman actually went to college — UC San Diego. Wrote a whole album about it. And you know what? He didn't apologize for not being hard enough. He just did the thing. That's the move."
+          },
+          {
+            "host": "nick",
+            "text": "Frank Navetta, Tony Lombardo, Bill Stevenson — they started as a power pop surf-punk band. Then Milo came in and they became something else. Cheeky love songs disguised as hardcore blasts. Someone called that the most aped formula in rock. Probably right."
+          },
+          {
+            "host": "nick",
+            "text": "They recorded farts on this album. Live studio farts. Just cheering each other on in the booth. That's commitment to the bit, folks. That's punk rock."
+          },
+          {
+            "host": "nick",
+            "text": "'Hope' is what you play when you need to remember that punk was always supposed to be about liking things, not just hating them."
+          }
+        ]
+      },
+      {
+        "title": "And We Thought Nation States Were A Bad Idea",
+        "artist": "Propagandhi",
+        "year": 2005,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Propagandhi. 'And We Thought Nation States Were A Bad Idea.' Potemkin City Limits, 2005. These guys are from Portage la Prairie, Manitoba. Canadian anarchists. They do not fuck around."
+          },
+          {
+            "host": "nick",
+            "text": "Chris Hannah and Jord Samolesky started this in '86. Fat Mike signed them to Fat Wreck Chords in '92 after they opened for NOFX. One show, and Fat Mike said, 'Yeah, you're in.' That's how good they are."
+          },
+          {
+            "host": "nick",
+            "text": "Potemkin City Limits — that album expanded their sound while they dug into global politics, corporate imperialism, environmental collapse. The kind of thing you can sing about in a three-minute song if you're angry enough and smart enough to do it."
+          },
+          {
+            "host": "nick",
+            "text": "Chris Hannah actually pranked everyone in 2005 by adopting a pseudonym, Glen Lambert. Announced it as if Glen was the new member. Then revealed it was a bit. That's the energy. That's how they operate — nothing serious except the politics."
+          },
+          {
+            "host": "nick",
+            "text": "They champion veganism, anarchism, Indigenous sovereignty, animal rights. They stand in solidarity with every fight that matters. And they do it in songs that rip."
+          }
+        ]
+      },
+      {
+        "title": "Jolly Copulation",
+        "artist": "Me First and the Gimme Gimmes",
+        "year": 1997,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Me First and the Gimme Gimmes. 'Jolly Copulation.' First album, Have a Ball, 1997. These guys are a supergroup cover band from San Francisco, and they're insane in the best way."
+          },
+          {
+            "host": "nick",
+            "text": "Started as side project in '95. Spike Slawson from Swingin' Utters, Fat Mike from NOFX, Joey Cape from Lagwagon — just guys covering songs in their off-time. They recorded the first one at One Week Records. Ryan Greene on production. It was supposed to be nothing. Became everything."
+          },
+          {
+            "host": "nick",
+            "text": "Have a Ball covered pop hits from the '60s and '70s. Rapid-fire punk interpretations. They'd wear matching costumes during shows — the whole bit. Fun as a weapon. That's what they do."
+          },
+          {
+            "host": "nick",
+            "text": "Fat Mike got so caught up in 'Wild World' on one of the albums that he thought he was Fat Stevens, a guitar-toting Islamic extremist. That's the level of committed bit-making we're talking about here."
+          },
+          {
+            "host": "nick",
+            "text": "'Jolly Copulation' is punk rock refusing to be serious about anything except the joy of playing."
+          }
+        ]
+      },
+      {
+        "title": "Don Henley Must Die",
+        "artist": "Mojo Nixon",
+        "year": 1985,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Mojo Nixon and Skid Roper. 'Don Henley Must Die.' 1985. Neill Kirby McMillan Jr. and Richard Banke from San Diego. Psychobilly, cowpunk, novelty songs that slap like real songs."
+          },
+          {
+            "host": "nick",
+            "text": "Mojo Nixon is the ancestor of what we do here. The spiritual grandfather. He made satirical pieces lampooning celebrities and American culture. 'Debbie Gibson Is Pregnant with My Two-Headed Love Child.' 'I Hate Banks.' 'Burn Down the Malls.' That's the tradition."
+          },
+          {
+            "host": "nick",
+            "text": "Here's the thing — Don Henley actually jumped onstage on July 31st, 1992, at The Hole in the Wall in Austin, Texas, and performed 'Don Henley Must Die' WITH Mojo Nixon. Mojo praised him for having 'balls as big as church bells.' That's punk rock right there. The target and the song becoming the same thing."
+          },
+          {
+            "host": "nick",
+            "text": "Mojo died in 2010. The world lost that voice. But the spirit — the willingness to say the absurd thing that's also true — that doesn't go away."
+          },
+          {
+            "host": "nick",
+            "text": "This one's for the West Side tonight. For Nakoma. For everyone on Monroe Street listening to us right now."
+          }
+        ]
+      }
+    ],
+    "lines": [],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Kill count at {{CLOCK}}: 104 confirmed Madison-wide. Up 22 from midnight rollover. Lake Mendota shoreline still reporting activity."
+      },
+      {
+        "category": "neighborhood",
+        "text": "West Side (Midvale, Hilldale, Monroe Street corridor) showing increased activity in the last 90 minutes. Private security responses concentrated around Nakoma."
+      },
+      {
+        "category": "ad",
+        "text": "PurgeShield reminder: It's not too late to reinforce your perimeter. Call 1-800-SHIELD-5. Professional installation available through 06:30."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T05:55:51.139Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

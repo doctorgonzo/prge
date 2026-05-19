@@ -1,0 +1,125 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "caroline",
+        "text": "The clock reads {{CLOCK}}. Sunrise in forty-seven minutes. Wind is dropping — looks like we're getting the clear morning I promised you back at midnight."
+      },
+      {
+        "host": "quinn",
+        "text": "Forty-seven minutes and we're legal again. Forty-seven minutes and the city wakes up to what {{ELAPSED}} looks like in the daylight."
+      },
+      {
+        "host": "holden",
+        "text": "Final count is holding at 187. East Side pulled 34. Capitol Square 28. State Street's still the worst single-event zone — that coordinated movement at 23:00 to 00:30, we never got full clarity on who organized it."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who stayed home — you are still here. You are still listening. That is its own kind of prayer."
+      },
+      {
+        "host": "nick",
+        "text": "I should introduce a track. I don't know if I can. My voice isn't holding up the way it was at four in the morning."
+      },
+      {
+        "host": "quinn",
+        "text": "Nick, you don't have to. We can sit in this."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm back. Took longer than expected to get out of the corridor. 187 is accurate. I counted twice."
+      },
+      {
+        "host": "quinn",
+        "text": "Tucker. Jesus. We thought — we weren't sure you were coming back to us."
+      },
+      {
+        "host": "tucker",
+        "text": "Considered it. Sat in a basement on Sherman Avenue for ninety minutes and just listened to the broadcast on a battery radio. Heard Marigold at 05:30 doing the glossolalia thing and decided I needed to be here for the end."
+      },
+      {
+        "host": "caroline",
+        "text": "We're glad. We're really glad."
+      },
+      {
+        "host": "holden",
+        "text": "That missing person from the Mendota drownings — still unrecovered. Volunteer crew called it off at 03:00. Water temperature was down to 28 degrees by then."
+      },
+      {
+        "host": "quinn",
+        "text": "Did anyone call in about Darren tonight? The guy with the backwards panels on Atwood? He always calls. He's called every year since 2165."
+      },
+      {
+        "host": "tim",
+        "text": "No. We didn't get a call from Atwood."
+      },
+      {
+        "host": "quinn",
+        "text": "Right. Right. Okay."
+      },
+      {
+        "host": "nick",
+        "text": "He might be sleeping. Might've decided to sit this year out. Might have a hundred reasons."
+      },
+      {
+        "host": "marigold",
+        "text": "We hold space for the ones we don't hear from. That's part of this too."
+      },
+      {
+        "host": "caroline",
+        "text": "Sunrise at 06:47. Forty-one minutes. The forecast is clear all the way through the cleanup phase. No precipitation until late evening."
+      },
+      {
+        "host": "holden",
+        "text": "Weather held better than 2167. No ice, no suppression. That's why the numbers ran long. Temperature stayed in the high twenties instead of the low teens."
+      },
+      {
+        "host": "tucker",
+        "text": "The East Side's going to need all day. I saw three buildings that won't be salvageable. Volunteer crews are already staging equipment on Winnebago Street."
+      },
+      {
+        "host": "nick",
+        "text": "You know what I'm thinking about? I'm thinking about that woman by the lake. The one who called at 04:50 and never said her name."
+      },
+      {
+        "host": "quinn",
+        "text": "I know. We all are."
+      },
+      {
+        "host": "nick",
+        "text": "She was still on the line when Bouncing Souls came on. Just listening. Just needing the sound of another person."
+      },
+      {
+        "host": "tim",
+        "text": "We're twelve hours into the night that has no law, and for twelve more hours this station is the only thing broadcasting on this frequency because we chose to exist in the margins. We chose to come back every year. You stayed home. You listened. You didn't open the door. That's not hiding — that's witness. That's resistance that looks like sitting still, and I know it doesn't feel like enough. I know you're going to wake up and count the bodies and feel the weight of what we couldn't stop. But you stayed. You chose this. And we survived another year — all of us who are listening right now, we made it to 06:00 on March 24th, 2169, and the sirens lift at 07:00, and the city wakes up, and we do this again next year because we have to. Because the Purge is the law and the only law we have left is each other. Thank you for being here. Thank you for coming back."
+      },
+      {
+        "host": "tim",
+        "text": "This is PRGE. We'll see you next year. Stay safe out there when the sun comes up."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "FINAL MADISON 2169: 187 confirmed. 412 hospitalized. 23 unrecovered. East Side led all neighborhoods."
+      },
+      {
+        "category": "emergency",
+        "text": "MorningCare triage opens at 07:15. SafeWalk routes reset at 07:05. Volunteer cleanup coordination starts 08:00 at the Capitol plaza."
+      },
+      {
+        "category": "local-news",
+        "text": "One missing person from Lake Mendota incident. Volunteer recovery crew stood down at 03:00. Water temperature 28°F."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "No check-in from regular caller Darren (Atwood Avenue, 4 years running). Status unknown."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:44:15.741Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

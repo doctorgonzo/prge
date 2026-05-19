@@ -1,0 +1,121 @@
+{
+  "format": "sign-off",
+  "inWorldTime": "06:00",
+  "body": {
+    "type": "sign-off",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "It's {{CLOCK}}, folks. The clock on the wall says six in the morning. Fifty-four minutes left."
+      },
+      {
+        "host": "caroline",
+        "text": "Sunrise at 6:47. Wind out of the north at three miles per hour. Temperature holding at twenty-one. Clear skies all the way to the horizon."
+      },
+      {
+        "host": "holden",
+        "text": "Final count from the night: 189. Two more since the five o'clock hour. East Side accounted for both. That puts us 187 for sure, pending the 7am official tally."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what today is, for those who know what today is?"
+      },
+      {
+        "host": "tucker",
+        "text": "Twenty-seven years. March 24th, 2142. The year the Purge killed more people in Madison than any year before or since."
+      },
+      {
+        "host": "marigold",
+        "text": "That was a different night. A different city, almost. We are not the same as we were."
+      },
+      {
+        "host": "nick",
+        "text": "I was going to play something to mark it. I've got the record. I've had it all night. But I think — I think maybe the silence is better."
+      },
+      {
+        "host": "quinn",
+        "text": "Two hundred and twelve in '42. We talk about it the way you talk about a scar. You know it's there. You remember what caused it. But you don't open it up on purpose."
+      },
+      {
+        "host": "caroline",
+        "text": "We've made it lower every year since. That matters. The trend matters. It doesn't undo 2142, but it matters."
+      },
+      {
+        "host": "holden",
+        "text": "We're down eighteen percent from the national average for metros this size. That's seven years running. Neighborhood watch programs. The barricade coordination. Community action. The data supports it."
+      },
+      {
+        "host": "tucker",
+        "text": "I filed four reports from the field tonight. I came back three times. That's progress too, even if nobody's keeping track of it."
+      },
+      {
+        "host": "nick",
+        "text": "My father was seventeen in '42. He was in the Capitol Square when the barriers came down. He talks about the sound — that's what he always says, the sound."
+      },
+      {
+        "host": "marigold",
+        "text": "The ones who lived through it carry something. We all do. Some of us carry it louder than others."
+      },
+      {
+        "host": "quinn",
+        "text": "Darren called in at 22:40 last year. Same guy called in tonight around the same time. His panels held. His neighbor's still breathing. Small victories."
+      },
+      {
+        "host": "caroline",
+        "text": "We get smaller and we get better. That's the trade. I'll take it."
+      },
+      {
+        "host": "holden",
+        "text": "The woman by the lake last year never called back. I've thought about that a lot. I hope she's listening right now. I hope the sunrise is hitting Tenney Park the way it should."
+      },
+      {
+        "host": "nick",
+        "text": "I'm going to play one song. One. It's NOFX. It's 'Linoleum.' Everyone who makes it to morning should hear it once before the light comes all the way up."
+      },
+      {
+        "host": "quinn",
+        "text": "Forty-seven minutes. This is the hour when you can breathe again. Not all the way. Not yet. But you can feel it coming."
+      },
+      {
+        "host": "tucker",
+        "text": "No new reports in the last thirty minutes. The activity curve has flatlined. That's what we want to see at this hour."
+      },
+      {
+        "host": "marigold",
+        "text": "When the sirens lift, you're free to open your doors. But take a moment first. Let the light come in before you step outside."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature will climb to forty-two by noon. Wind dies out by eight. It's going to be a clean day. A good day to clean up."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim. You want to bring us home?"
+      },
+      {
+        "host": "tim",
+        "text": "We're still here. That's what matters. Twelve hours, 189 souls lost in Madison tonight, and we're still broadcasting on a frequency they hunt for year-round. We're still on the air because you're still listening. Because you chose to stay home. Because you chose this — this strange, fragile thing we do together one night a year. We're not stopping the Purge. We're not going to end it. But we're still here in the dark with you, and that counts for something. That counts for everything. The woman by the lake heard us. Darren heard us. Every person barricaded in their home heard the sound of another voice, another human being refusing to be silent. We're going to do this again next year — same time, same frequency, same crew — and we're going to survive that too. Not because we're brave. Because we're stubborn. Because Madison remembers '42, and every year we count lower, we win a little bit. To everyone who made it through the night: the sirens lift in forty-five minutes. Stay safe in the light. We'll be here again when the dark comes back. This is PRGE, signing off. We are still here."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "FINAL MADISON COUNT: 189 confirmed (pending 07:00 official tally). YoY: +1.1% vs 2168. 27-year low recorded 2142: 212 deaths."
+      },
+      {
+        "category": "local-news",
+        "text": "ANNIVERSARY MARKER: March 24, 2142 — Purge breach of Capitol Square barriers. 212 confirmed deaths. Worst single-Purge event in Madison record. Observed in silence each subsequent year."
+      },
+      {
+        "category": "ad",
+        "text": "PRGE WILL RETURN: Broadcast resumes March 24, 2170, 19:00 Madison. Stay safe. Stay home. Stay listening."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "SISTER MARIGOLD: 'When the sirens lift, you're free to open your doors. But take a moment first. Let the light come in before you step outside.'"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:43:58.160Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

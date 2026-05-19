@@ -37,6 +37,25 @@ import {
   type CrisisUpdate,
 } from "@/lib/crisis-events";
 import { CrisisIndicator } from "@/components/CrisisIndicator";
+import { DeadAir } from "@/components/DeadAir";
+import {
+  SurvivorBoard,
+  buildFateQueue,
+  type TrackedCaller,
+} from "@/components/SurvivorBoard";
+import { ClassicalInterlude } from "@/components/ClassicalInterlude";
+import { classicalPlaylistForSlot } from "@/lib/classical-pool";
+import {
+  ensureLog,
+  logCrisis,
+  logCaller,
+  logNickCutIn,
+  logTimInterrupt,
+  logRetroAd,
+  logSiren,
+  logSegmentType,
+  logSessionEnd,
+} from "@/lib/broadcast-log";
 import {
   CATEGORY_LABEL,
   HOST_LABEL,
@@ -127,6 +146,13 @@ const FALLBACK_SEGMENT: PlayerSegment = {
 // restart" bug). Instead we fingerprint by type + title + first line of
 // content, which is stable within a slot and changes on real content swaps.
 function fingerprintOf(s: PlayerSegment): string {
+  // Prefer the stable slotKey from the API (e.g. "01:00") — it doesn't change
+  // when {{CLOCK}}/{{ELAPSED}} are interpolated each minute. Fall back to
+  // first-line content for segments that don't carry a slotKey.
+  const slot = (s as unknown as Record<string, unknown>).slotKey;
+  if (typeof slot === "string") {
+    return `${s.type}__${s.segmentTitle ?? ""}__${slot}`;
+  }
   const firstLine = s.lines[0]?.text ?? "";
   return `${s.type}__${s.segmentTitle ?? ""}__${firstLine.slice(0, 80)}`;
 }
@@ -192,6 +218,16 @@ export default function Page() {
   const [segment, setSegment] = useState<PlayerSegment | null>(null);
   const [loading, setLoading] = useState(true);
   const [cycleIndex, setCycleIndex] = useState(0);
+
+  // ── Interlude state machine ──────────────────────────────────────
+  // Controls the hour-slot flow: dialog → classical → rebroadcast → classical
+  //   "dialog"      = first play of segment lines (no indicator)
+  //   "interlude"   = classical music fills between dialog runs
+  //   "rebroadcast" = same lines again, with PREVIOUSLY RECORDED badge
+  //   "interlude-post" = classical resumes after rebroadcast until slot change
+  type InterludePhase = "dialog" | "interlude" | "rebroadcast" | "interlude-post";
+  const [interludePhase, setInterludePhase] = useState<InterludePhase>("dialog");
+  const rebroadcastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [liveMadisonTime, setLiveMadisonTime] = useState<string | null>(null);
   // Dev-only ?at= override read from window.location at mount. When non-null,
   // the HUD clock pins to this value (so the visible clock matches whatever
@@ -256,6 +292,8 @@ export default function Page() {
   // during a nick cut-in or vice versa.
   const retroAdActiveRef = useRef(false);
   const nickCutInActiveRef = useRef(false);
+  const timInterruptActiveRef = useRef(false);
+  const activeCrisisRef = useRef<CrisisEvent | null>(null);
 
   // Host reaction subtitle during Nick cut-ins.
   const [hostReaction, setHostReaction] = useState<HostReaction | null>(null);
@@ -285,6 +323,25 @@ export default function Page() {
   const [purgeSirenActive, setPurgeSirenActive] = useState(false);
   const purgeSirenFiredRef = useRef(false);
 
+  // ── Dead Air ─────────────────────────────────────────────────────────
+  // Random 15-45 second blackouts 1-3 per night. Everything goes dark —
+  // just static hiss. Tim comes back with a reassurance line.
+  // SUPPRESSED during daytime.
+  const [deadAirActive, setDeadAirActive] = useState(false);
+  const [deadAirDuration, setDeadAirDuration] = useState(25); // seconds
+  const deadAirTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const deadAirCountRef = useRef(0); // how many have fired this session
+
+  // ── Survivor Board ──────────────────────────────────────────────────
+  // Hidden slide-out panel tracking callers and their evolving fate status.
+  // Persists to localStorage keyed by Madison date so it survives refresh
+  // but resets each new Purge night.
+  const SURVIVOR_KEY = "prge-survivors";
+  const [survivorBoardOpen, setSurvivorBoardOpen] = useState(false);
+  const [trackedCallers, setTrackedCallers] = useState<TrackedCaller[]>([]);
+  const survivorTimersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
+  const survivorHydratedRef = useRef(false);
+
   // Holds the previous segment fingerprint so we can skip resetting the cycle
   // when /api/segment returns the same cached segment as last poll.
   const prevFingerprintRef = useRef<string | null>(null);
@@ -298,14 +355,100 @@ export default function Page() {
     setKillswitchOn(localStorage.getItem(KILLSWITCH_KEY) === "1");
   }, []);
 
+  // ── Broadcast log initialization ───────────────────────────────────
+  // Ensure the localStorage event log exists for tonight's broadcast.
+  // The beforeunload handler snapshots final signal/viewer state.
+  useEffect(() => {
+    const time = madisonNowHHMM(new Date());
+    ensureLog(time);
+  }, []);
+
+  // ── Broadcast log: event tracking effects ────────────────────────
+  // Log interesting events when their state transitions to non-null.
+  // Using effects is cleaner than scattering logX() in every setTimeout.
+  useEffect(() => {
+    if (callerPopup) logCaller({ name: callerPopup.name, neighborhood: callerPopup.neighborhood, tone: callerPopup.tone });
+  }, [callerPopup]);
+  useEffect(() => {
+    if (nickCutIn) logNickCutIn({ artist: nickCutIn.track.artist ?? "Unknown", title: nickCutIn.track.title });
+  }, [nickCutIn]);
+  useEffect(() => {
+    if (timInterrupt && !activeCrisis) logTimInterrupt(); // only standalone interrupts, not crisis alerts
+  }, [timInterrupt]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    if (retroAd) logRetroAd();
+  }, [retroAd]);
+  useEffect(() => {
+    if (purgeSirenActive) logSiren();
+  }, [purgeSirenActive]);
+
   // Hydrate sound preference from localStorage on mount.
   useEffect(() => {
     setSoundEnabled(localStorage.getItem(SOUND_KEY) === "1");
   }, []);
 
+  // ── Survivor board persistence ─────────────────────────────────────
+  // Hydrate tracked callers from localStorage on mount. Scoped to the
+  // current Madison date so data resets each new Purge night.
+  // Re-schedules any pending fate transitions that were lost on refresh.
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(SURVIVOR_KEY);
+      if (!raw) { survivorHydratedRef.current = true; return; }
+      const saved = JSON.parse(raw) as { nightId: string; callers: TrackedCaller[] };
+      // Only restore if it's from tonight's broadcast.
+      const tonight = new Date().toLocaleDateString("en-CA", { timeZone: "America/Chicago" });
+      // Accept today or yesterday (Purge crosses midnight).
+      const yesterday = new Date(Date.now() - 86_400_000).toLocaleDateString("en-CA", { timeZone: "America/Chicago" });
+      if (saved.nightId !== tonight && saved.nightId !== yesterday) {
+        survivorHydratedRef.current = true;
+        return;
+      }
+      setTrackedCallers(saved.callers);
+
+      // Re-schedule pending fate transitions for callers with remaining queues.
+      const timers: ReturnType<typeof setTimeout>[] = [];
+      for (const caller of saved.callers) {
+        if (caller._fateQueue.length === 0) continue;
+        let cumulativeDelay = (60 + Math.random() * 120) * 1000; // first transition 1-3 min after hydrate
+        for (const nextFate of caller._fateQueue) {
+          const timer = setTimeout(() => {
+            const now = liveMadisonTime ?? madisonNowHHMM(new Date());
+            setTrackedCallers((prev) =>
+              prev.map((c) =>
+                c.name === caller.name && c.registeredAt === caller.registeredAt
+                  ? { ...c, fate: nextFate, lastUpdate: now, _fateQueue: c._fateQueue.filter((f) => f !== nextFate) }
+                  : c,
+              ),
+            );
+          }, cumulativeDelay);
+          timers.push(timer);
+          cumulativeDelay += (120 + Math.random() * 180) * 1000;
+        }
+      }
+      survivorTimersRef.current.push(...timers);
+    } catch {
+      // Corrupted data — start fresh.
+    }
+    survivorHydratedRef.current = true;
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Save tracked callers to localStorage whenever they change.
+  useEffect(() => {
+    if (!survivorHydratedRef.current) return; // don't save during hydration
+    try {
+      const nightId = new Date().toLocaleDateString("en-CA", { timeZone: "America/Chicago" });
+      localStorage.setItem(SURVIVOR_KEY, JSON.stringify({ nightId, callers: trackedCallers }));
+    } catch {
+      // localStorage full — degrade silently.
+    }
+  }, [trackedCallers]);
+
   // Keep overlay refs in sync for stale-closure-safe collision checks.
   useEffect(() => { retroAdActiveRef.current = retroAd !== null; }, [retroAd]);
   useEffect(() => { nickCutInActiveRef.current = nickCutIn !== null; }, [nickCutIn]);
+  useEffect(() => { timInterruptActiveRef.current = timInterrupt !== null; }, [timInterrupt]);
+  useEffect(() => { activeCrisisRef.current = activeCrisis; }, [activeCrisis]);
 
   // Hydrate the dev-only ?at= override from window.location once at mount.
   // Prod silently ignores it (the server-side route also ignores it in prod).
@@ -580,8 +723,13 @@ export default function Page() {
       // Random delay: 20-40 minutes between interrupts.
       const delay = (20 + Math.random() * 20) * 60_000;
       timInterruptTimerRef.current = setTimeout(() => {
-        // Don't fire during another overlay — refs for stale-closure safety.
-        if (!nickCutInActiveRef.current && !retroAdActiveRef.current) {
+        // Don't fire during another overlay, active crisis, or existing interrupt.
+        if (
+          !nickCutInActiveRef.current &&
+          !retroAdActiveRef.current &&
+          !timInterruptActiveRef.current &&
+          !activeCrisisRef.current
+        ) {
           setTimInterrupt(pickRandomTimInterrupt());
         }
         scheduleTim();
@@ -590,7 +738,12 @@ export default function Page() {
 
     // First interrupt after 8 minutes.
     const firstTimer = setTimeout(() => {
-      if (!nickCutInActiveRef.current && !retroAdActiveRef.current) {
+      if (
+        !nickCutInActiveRef.current &&
+        !retroAdActiveRef.current &&
+        !timInterruptActiveRef.current &&
+        !activeCrisisRef.current
+      ) {
         setTimInterrupt(pickRandomTimInterrupt());
       }
       scheduleTim();
@@ -643,7 +796,7 @@ export default function Page() {
     // Station breach — guaranteed once per night, deep into the broadcast.
     const breachDelay = (25 + Math.random() * 20) * 60_000; // 25-45 min
     const breachTimer = setTimeout(() => {
-      if (!stationBreachFiredRef.current && !activeCrisis) {
+      if (!stationBreachFiredRef.current && !activeCrisisRef.current) {
         stationBreachFiredRef.current = true;
         startCrisis(getStationBreach());
       }
@@ -652,7 +805,7 @@ export default function Page() {
     // Random non-breach crisis — 50% chance, earlier in the session.
     const randomDelay = (40 + Math.random() * 30) * 60_000; // 40-70 min
     const randomTimer = setTimeout(() => {
-      if (!activeCrisis && Math.random() < 0.5) {
+      if (!activeCrisisRef.current && Math.random() < 0.5) {
         startCrisis(pickRandomNonBreachCrisis());
       }
     }, randomDelay);
@@ -663,6 +816,114 @@ export default function Page() {
     };
   }, [segment !== null, isDaytime]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // ── Dead air scheduling ─────────────────────────────────────────────
+  // 1-3 blackouts per night at random intervals. First after 12-25 min,
+  // then every 25-50 min. Won't fire during other overlays.
+  // SUPPRESSED during daytime.
+  useEffect(() => {
+    if (!segment || isDaytime) return;
+
+    function scheduleDeadAir() {
+      // Stop after 3 per session
+      if (deadAirCountRef.current >= 3) return;
+      const delay = (25 + Math.random() * 25) * 60_000; // 25-50 min between
+      deadAirTimerRef.current = setTimeout(() => {
+        // Don't fire during another overlay — use refs for stale-closure safety.
+        if (
+          !nickCutInActiveRef.current &&
+          !retroAdActiveRef.current &&
+          !timInterruptActiveRef.current &&
+          !activeCrisisRef.current
+        ) {
+          const duration = 15 + Math.floor(Math.random() * 31); // 15-45s
+          setDeadAirDuration(duration);
+          setDeadAirActive(true);
+          deadAirCountRef.current++;
+        }
+        scheduleDeadAir();
+      }, delay);
+    }
+
+    // First dead air after 12-25 minutes
+    const firstTimer = setTimeout(() => {
+      if (
+        !nickCutInActiveRef.current &&
+        !retroAdActiveRef.current &&
+        !timInterruptActiveRef.current &&
+        !activeCrisisRef.current
+      ) {
+        const duration = 15 + Math.floor(Math.random() * 31);
+        setDeadAirDuration(duration);
+        setDeadAirActive(true);
+        deadAirCountRef.current++;
+      }
+      scheduleDeadAir();
+    }, (12 + Math.random() * 13) * 60_000);
+
+    return () => {
+      clearTimeout(firstTimer);
+      if (deadAirTimerRef.current) clearTimeout(deadAirTimerRef.current);
+    };
+  }, [segment !== null, isDaytime]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ── Survivor board: register callers ────────────────────────────────
+  // When a caller popup appears, add them to the tracked list with a
+  // deterministic fate queue based on tone + time of night.
+  useEffect(() => {
+    if (!callerPopup) return;
+    const madisonTime = liveMadisonTime ?? madisonNowHHMM(new Date());
+    const { initialFate, queue, firstDelaySec } = buildFateQueue(
+      callerPopup.tone,
+      madisonTime,
+    );
+
+    const newCaller: TrackedCaller = {
+      name: callerPopup.name,
+      neighborhood: callerPopup.neighborhood,
+      tone: callerPopup.tone,
+      fate: initialFate,
+      registeredAt: madisonTime,
+      lastUpdate: madisonTime,
+      _fateQueue: queue,
+      _nextTransitionSec: firstDelaySec,
+    };
+
+    setTrackedCallers((prev) => [...prev, newCaller]);
+
+    // Schedule fate transitions for this caller
+    if (queue.length > 0) {
+      let cumulativeDelay = firstDelaySec * 1000;
+      const timers: ReturnType<typeof setTimeout>[] = [];
+
+      for (let qi = 0; qi < queue.length; qi++) {
+        const nextFate = queue[qi];
+        const timer = setTimeout(() => {
+          const now = liveMadisonTime ?? madisonNowHHMM(new Date());
+          setTrackedCallers((prev) =>
+            prev.map((c) =>
+              c.name === newCaller.name &&
+              c.registeredAt === newCaller.registeredAt
+                ? { ...c, fate: nextFate, lastUpdate: now }
+                : c,
+            ),
+          );
+        }, cumulativeDelay);
+        timers.push(timer);
+        // Next transition 2-5 min after the previous
+        cumulativeDelay += (120 + Math.random() * 180) * 1000;
+      }
+
+      survivorTimersRef.current.push(...timers);
+    }
+  }, [callerPopup]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Clean up survivor timers on unmount
+  useEffect(() => {
+    return () => {
+      survivorTimersRef.current.forEach(clearTimeout);
+    };
+  }, []);
+
   // ── Crisis lifecycle management ─────────────────────────────────────
   // When a crisis starts: show opening alert → transition to active state →
   // fire mid-crisis updates on schedule → resolve.
@@ -670,6 +931,7 @@ export default function Page() {
     // Don't start if another crisis is already active.
     if (activeCrisis) return;
 
+    logCrisis({ id: crisis.id, type: crisis.type, title: crisis.title, severity: crisis.severity });
     setActiveCrisis(crisis);
     setCrisisPhase("alert");
 
@@ -901,6 +1163,25 @@ export default function Page() {
     return Math.max(5, Math.min(100, signal));
   }, [segment, liveMadisonTime, timInterrupt, activeCrisis, crisisPhase, crisisAftermaths]);
 
+  // ── Broadcast log: beforeunload snapshot ────────────────────────────
+  // Ref keeps the closure fresh so the handler always writes current values.
+  const signalStrengthRef = useRef(signalStrength);
+  useEffect(() => { signalStrengthRef.current = signalStrength; }, [signalStrength]);
+
+  useEffect(() => {
+    function onUnload() {
+      const time = liveMadisonTime ?? madisonNowHHMM(new Date());
+      logSessionEnd(time, signalStrengthRef.current);
+    }
+    window.addEventListener("beforeunload", onUnload);
+    return () => window.removeEventListener("beforeunload", onUnload);
+  }, [liveMadisonTime]);
+
+  // ── Broadcast log: segment type tracking ────────────────────────────
+  useEffect(() => {
+    if (segment) logSegmentType(segment.type);
+  }, [segment]);
+
   // Build the commercial-break unit stream once per segment change.
   const commercialUnits = useMemo<CommercialUnit[]>(() => {
     if (!segment || segment.type !== "commercial-break") return [];
@@ -941,10 +1222,79 @@ export default function Page() {
     }
 
     const id = setTimeout(() => {
-      setCycleIndex((i) => (i + 1) % cycleLength);
+      setCycleIndex((i) => {
+        const next = i + 1;
+        // Music blocks and commercial breaks still loop normally.
+        // Dialog formats (news, mixed, talk, etc.) stop at the end
+        // and transition to the classical interlude.
+        if (segment?.type === "music-block" || segment?.type === "commercial-break") {
+          return next % cycleLength;
+        }
+        if (next >= cycleLength) {
+          // Dialog exhausted — transition to interlude or post-rebroadcast.
+          if (interludePhase === "dialog") {
+            setInterludePhase("interlude");
+          } else if (interludePhase === "rebroadcast") {
+            setInterludePhase("interlude-post");
+          }
+          return i; // hold on last line
+        }
+        return next;
+      });
     }, dwellMs);
     return () => clearTimeout(id);
-  }, [segment, cycleIndex, cycleLength, commercialUnits]);
+  }, [segment, cycleIndex, cycleLength, commercialUnits, interludePhase]);
+
+  // ── Interlude → rebroadcast scheduling ────────────────────────────
+  // When the first dialog ends and interlude starts, schedule the
+  // rebroadcast after 15-20 minutes of classical.
+  useEffect(() => {
+    if (interludePhase === "interlude") {
+      const delay = (15 + Math.random() * 5) * 60_000; // 15-20 min
+      rebroadcastTimerRef.current = setTimeout(() => {
+        setCycleIndex(0);
+        setInterludePhase("rebroadcast");
+      }, delay);
+      return () => {
+        if (rebroadcastTimerRef.current) clearTimeout(rebroadcastTimerRef.current);
+      };
+    }
+  }, [interludePhase]);
+
+  // Reset interlude state when a new segment loads (new slot).
+  // The fingerprint-based check in fetchSegment already resets cycleIndex to 0.
+  // We piggyback on that by resetting interlude when cycleIndex goes to 0
+  // AND the phase isn't already "dialog".
+  const prevInterludeSegRef = useRef<string | null>(null);
+  useEffect(() => {
+    if (!segment) return;
+    const fp = (segment as unknown as Record<string, unknown>).slotKey as string | undefined;
+    const key = fp ?? segment.segmentTitle ?? "";
+    if (prevInterludeSegRef.current !== null && prevInterludeSegRef.current !== key) {
+      // New slot — reset the interlude state machine.
+      setInterludePhase("dialog");
+      if (rebroadcastTimerRef.current) {
+        clearTimeout(rebroadcastTimerRef.current);
+        rebroadcastTimerRef.current = null;
+      }
+    }
+    prevInterludeSegRef.current = key;
+  }, [segment]);
+
+  // Build classical playlist for the current slot.
+  const classicalPlaylist = useMemo(() => {
+    if (!segment) return [];
+    const slotKey = (segment as unknown as Record<string, unknown>).slotKey as string | undefined;
+    const madisonDate = new Date().toLocaleDateString("en-CA", { timeZone: "America/Chicago" });
+    return classicalPlaylistForSlot(slotKey ?? "00:00", madisonDate);
+  }, [segment]);
+
+  // Is the interlude (classical music) currently the active content?
+  const classicalActive = interludePhase === "interlude" || interludePhase === "interlude-post";
+
+  // Classical should pause for any overlay event.
+  const classicalPaused =
+    !!retroAd || !!nickCutIn || !!timInterrupt || !!activeCrisis || deadAirActive || purgeSirenActive;
 
   // Daytime interstitial auto-cycle — runs through all content ONCE, then
   // dismisses so the music block resumes. Single-pass, not looping.
@@ -1083,6 +1433,23 @@ export default function Page() {
       );
     }
 
+    // Classical interlude — ambient music fills between dialog runs.
+    // Only for dialog formats (not music-block, commercial-break, countdown).
+    if (
+      classicalActive &&
+      segment.type !== "music-block" &&
+      segment.type !== "commercial-break" &&
+      segment.type !== "countdown" &&
+      !isDaytime
+    ) {
+      return (
+        <ClassicalInterlude
+          playlist={classicalPlaylist}
+          paused={classicalPaused}
+        />
+      );
+    }
+
     // Retro ad break during non-music formats — full takeover, nothing to pause.
     if (retroAd && segment.type !== "music-block") {
       return <RetroAdBreak ad={retroAd} onComplete={() => setRetroAd(null)} />;
@@ -1094,7 +1461,7 @@ export default function Page() {
     // render on top; the music block hides off-screen and pauses.
     if (segment.type === "music-block") {
       const tracks: PlayerTrack[] = segment.tracks ?? [];
-      const musicPaused = !!retroAd || !!daytimeInterstitial || purgeSirenActive;
+      const musicPaused = !!retroAd || !!daytimeInterstitial || purgeSirenActive || deadAirActive;
 
       // Determine overlay content (if any).
       let overlay: React.ReactNode = null;
@@ -1270,6 +1637,24 @@ export default function Page() {
         <PurgeSiren onComplete={() => setPurgeSirenActive(false)} />
       )}
 
+      {/* Dead air — scheduled silence event. Full blackout + static hiss.
+          z-[85] sits above everything except boot overlays. */}
+      {deadAirActive && (
+        <DeadAir
+          durationSec={deadAirDuration}
+          onComplete={() => setDeadAirActive(false)}
+          soundEnabled={soundEnabled}
+        />
+      )}
+
+      {/* Survivor board — slide-out panel tracking caller fates */}
+      <SurvivorBoard
+        isOpen={survivorBoardOpen}
+        onClose={() => setSurvivorBoardOpen(false)}
+        callers={trackedCallers}
+        madisonTime={madisonTime}
+      />
+
       {/* Top HUD strip */}
       <div className="fixed top-0 inset-x-0 z-20 px-6 py-4 flex justify-between items-start text-xs tracking-widest">
         <div className="text-green-400">
@@ -1283,6 +1668,16 @@ export default function Page() {
           <NextUpChip />
         </div>
         <div className="flex items-center gap-4">
+          {trackedCallers.length > 0 && (
+            <button
+              type="button"
+              onClick={() => setSurvivorBoardOpen((o) => !o)}
+              className="text-green-700 hover:text-green-400 transition-colors text-[10px] tracking-widest cursor-pointer"
+              title="Open Survivor Board"
+            >
+              SURVIVORS ({trackedCallers.length})
+            </button>
+          )}
           <button
             type="button"
             onClick={toggleSound}
@@ -1291,6 +1686,14 @@ export default function Page() {
           >
             {soundEnabled ? "\uD83D\uDD0A" : "\uD83D\uDD07"}
           </button>
+          {isDaytime && (
+            <Link
+              href="/morning-after"
+              className="text-amber-600 hover:text-amber-300 transition-colors text-[10px] tracking-widest"
+            >
+              MORNING AFTER
+            </Link>
+          )}
           <Link
             href="/about"
             className="text-green-600 hover:text-green-400 transition-colors text-[10px] tracking-widest"
@@ -1329,6 +1732,16 @@ export default function Page() {
       <div className="relative z-10 min-h-screen flex items-center justify-center px-8 pt-24 pb-24">
         {renderCenter()}
       </div>
+
+      {/* PREVIOUSLY RECORDED badge — shown during rebroadcast phase */}
+      {interludePhase === "rebroadcast" && (
+        <div className="fixed top-20 right-4 z-[25] flex items-center gap-2 px-3 py-1.5 border border-amber-700/40 bg-black/80">
+          <span className="w-2 h-2 rounded-full bg-amber-500/70 animate-pulse" />
+          <span className="text-amber-500/80 text-[10px] tracking-[0.3em] font-mono">
+            PREVIOUSLY RECORDED
+          </span>
+        </div>
+      )}
 
       {/* Dev-only regen overlay. The NODE_ENV check here lets the bundler
           tree-shake the import in production builds. */}
@@ -1386,6 +1799,14 @@ export default function Page() {
           }}
           onTriggerSiren={() => {
             setPurgeSirenActive(true);
+          }}
+          onTriggerDeadAir={() => {
+            const duration = 15 + Math.floor(Math.random() * 31);
+            setDeadAirDuration(duration);
+            setDeadAirActive(true);
+          }}
+          onTriggerSurvivorBoard={() => {
+            setSurvivorBoardOpen((o) => !o);
           }}
           onTimeTravel={(overrideTime) => {
             // Pin or unpin the HUD clock + countdown timer. Reuses the

@@ -1,0 +1,389 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "21:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in. The clock reads {{CLOCK}}. And folks, I gotta tell you, the calls are starting to come in, and they are not the calls I was hoping for tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "I've got whiskey. I've got time. And I've got a spreadsheet in front of me that Tim just slid over that says the East Side is already tracking twelve percent above last year at this hour."
+      },
+      {
+        "host": "quinn",
+        "text": "Twelve percent. We're three hours in. That's not noise. That's a trend."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what today was? Before the Purge started? It was March 24th. Ring any bells for the long-time listeners?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denis from Schenks Corners — go ahead, Denis."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denis from Schenks Corners — 'Quinn, I'm locked in my basement, my wife's upstairs with the TV up loud so nobody knows we're here, and I just wanted to hear another human voice.' — Denis, that's why we're here. You're not alone."
+      },
+      {
+        "host": "quinn",
+        "text": "Denis, is your barricade solid? Be honest with me."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denis from Schenks Corners — 'Good. Real good. Panels went in last Tuesday. Cost me eight grand, but I figure it's cheaper than the alternative.' — That's the arithmetic right there, folks. That's the Purge in a nutshell."
+      },
+      {
+        "host": "quinn",
+        "text": "Denis, you'll make it through. Stay off the phone, keep the TV loud, and for God's sake don't answer the door."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Denis from Schenks Corners — 'I wouldn't dream of it, Quinn. Not on my worst day.' — Good man. See you on the other side, Denis."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what kills me? And I mean this in the most literal sense possible tonight — every year I sit here at {{CLOCK}} thinking about four years ago."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not going to say the name. I'm not going to do that to Tim's signal. But four years ago, right around this time, State Street was a bloodbath."
+      },
+      {
+        "host": "quinn",
+        "text": "March 24th, 2165. Twenty-three people in forty minutes. A coordinated action. And I remember sitting in this chair at this hour, and the kill count wasn't even updated yet, and I was already drinking."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm telling you this because I'm already drinking. And I want you to know that I *remember* why."
+      },
+      {
+        "host": "quinn",
+        "text": "You pour the first one thinking you're just calming the nerves. By the third one, you're being honest."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Margaret from Midvale — 'Quinn, I'm sorry to bother you, but I heard the East Side was hot. My sister lives on Atwood.' — Margaret, is she sheltering in place?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Margaret from Midvale — 'Yes, God yes, she's locked down with her family. But I keep thinking about 2165, and I'm wondering if there's a pattern.' — Margaret, there's no pattern. There's no way to predict this. The only thing you can do is what your sister is already doing."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Margaret from Midvale — 'I just needed to hear you say it.' — I'm saying it. She's going to be fine. You're going to be fine."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Margaret from Midvale — 'Thank you, Quinn. I'm going to go sit with my husband now.' — Do that. Stay close to the people in your house."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the night I used to have, folks. Before the scandal. Before I became the guy who can't show his face downtown."
+      },
+      {
+        "host": "quinn",
+        "text": "I was a senator. I had a wife. I had a house in Maple Bluff that's probably worth half what it used to be, because everybody knows where a disgraced politician's house is."
+      },
+      {
+        "host": "quinn",
+        "text": "And one Purge Night — not the night I'm thinking of, a different one — I made some choices I'm not proud of."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not going to detail them. That's not what tonight's about. But I will say this: the Purge had nothing to do with those choices. I made them because I was a coward and a fool on a day that started with the sun."
+      },
+      {
+        "host": "quinn",
+        "text": "Pours whiskey audibly."
+      },
+      {
+        "host": "quinn",
+        "text": "That's number four. I'm keeping count now because Margaret's anxiety just handed me my own."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from North Side — 'Quinn, I've got a question about something I heard in the news block earlier.' — Robert, go ahead. News blocks are why we're here."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from North Side — 'They said the government is considering making the Purge twelve hours in some cities and fourteen in others. Did I hear that right?' — Robert, you did not hear that. That's not something I can talk about on an unlicensed frequency."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from North Side — 'But is it true?' — What's true is that you're safe where you are, and that's what matters tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Robert from North Side — 'I guess that's fair. Stay safe, Quinn.' — You too, Robert."
+      },
+      {
+        "host": "quinn",
+        "text": "Four years ago, when 2165 came around, I remember thinking about the future. I remember thinking, 'This will get better. This will change. People will wake up.'"
+      },
+      {
+        "host": "quinn",
+        "text": "They didn't wake up. They got smart. And smart is worse."
+      },
+      {
+        "host": "quinn",
+        "text": "The people who used to be violent out of rage are now violent out of calculation. The Purge has been systematized. It's been industrialized. You can *see* it in the data."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden showed me those numbers. Twelve percent up. That's not random. That's preparation."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Lisa from the East Side — 'Quinn, I'm in an apartment building with seventeen other units and I just heard glass break two floors below me.' — Lisa, lock your door. Lock it now. Are you alone?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Lisa from the East Side — 'I'm here with my daughter. She's asleep. Should I wake her up?' — No. No, you shouldn't. Keep her asleep. Let her stay in a world where this night is just a bad dream."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Lisa from the East Side — 'I can hear shouting now.' — Lisa, if anyone comes to your door, you don't answer it. Not for any reason. Are you in a unit with a second exit?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Lisa from the East Side — 'There's a fire escape.' — Know where it is. Keep that window clear. And Lisa? You're going to be fine. Your daughter is going to wake up tomorrow."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Lisa from the East Side — 'How do you know that, Quinn?' — Because I've sat here every year for eight years, and the vast majority of people in locked rooms live through it."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Lisa from the East Side — 'What about the minority?' — We don't talk about the minority on this show, Lisa. We talk about the majority. We tell the people hiding that they made the right choice."
+      },
+      {
+        "host": "quinn",
+        "text": "Lisa hung up. I don't know if she'll call back. Some people just need to hear it once."
+      },
+      {
+        "host": "quinn",
+        "text": "And some people need to hear it all night."
+      },
+      {
+        "host": "quinn",
+        "text": "The thing about 2165 is that nobody saw it coming. We thought the East Side was stable. I had a briefing memo from the police commissioner — this was before I was run out of office — that said East Side was the safest neighborhood in Madison."
+      },
+      {
+        "host": "quinn",
+        "text": "Safe. In Madison. During the Purge. In 2165."
+      },
+      {
+        "host": "quinn",
+        "text": "The memo was dated March 23rd. The Purge was March 24th."
+      },
+      {
+        "host": "quinn",
+        "text": "Four years is a long time to hold onto something like that."
+      },
+      {
+        "host": "quinn",
+        "text": "I think that's why I remember the date. I think that's why every time March rolls around, I start thinking about what I didn't know."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Vincent from Sun Prairie — 'Quinn, this is my first Purge listening to your station. I'm terrified.' — Vincent, welcome. I'm glad you found us. What's your situation?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Vincent from Sun Prairie — 'I'm in a house with my wife and our two kids. We've got security system, reinforced doors, the whole deal. But I'm from out of state and I don't understand why this is happening.' — Vincent, that's a question that runs deeper than tonight. But tonight, you're locked in. You're with people you love. That's enough."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Vincent from Sun Prairie — 'It doesn't feel like enough.' — I know. It never does. But it is."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Vincent from Sun Prairie — 'How long have you been doing this?' — Eight years. Eight Purge Nights. Same frequency, different faces in the audience."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Vincent from Sun Prairie — 'Have you ever had a night where nobody died?' — No, Vincent. I haven't."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Vincent from Sun Prairie — 'Is it always this bad?' — It's always something. Sometimes it's worse."
+      },
+      {
+        "host": "quinn",
+        "text": "Vincent's probably going to sit with that answer for a while. That's fair. It's the answer I've got."
+      },
+      {
+        "host": "quinn",
+        "text": "Pours again. Fifth one."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I miss? I miss not knowing the kill count. I miss being a person who could say, 'The Purge happened and I didn't pay attention to the numbers.'"
+      },
+      {
+        "host": "quinn",
+        "text": "But that person is gone. That was a person who believed in things. That was a person who thought that the system could be fixed from the inside."
+      },
+      {
+        "host": "quinn",
+        "text": "He was an idiot."
+      },
+      {
+        "host": "quinn",
+        "text": "The system doesn't get fixed. It gets worse. And every year it gets worse in new ways."
+      },
+      {
+        "host": "quinn",
+        "text": "2165 was coordinated. 2166 was weapons. 2167 was weather-suppressed. 2168 was something worse — 2168 was professional."
+      },
+      {
+        "host": "quinn",
+        "text": "I've talked to people. I've listened to things. I know people who know things. And what I know is that the Purge isn't an accident anymore. It's not a consequence of removing law. It's a feature."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Williamson Street — 'Quinn, we've got the barricade up. We've got people on watch. We're doing okay.' — Patricia, that's good. That's what I want to hear."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Williamson Street — 'I'm calling because I remember the Williamson Street stand last year. Were you here for that?' — I was, Patricia. That was a night I remember well."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Williamson Street — 'We held. Didn't lose anybody in the perimeter.' — You did. You held the line. I was there — well, not there, but I heard it. I remember it."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Williamson Street — 'We're doing it again tonight. Neighborhood watch is armed. We're taking shifts. I wanted you to know that your words last year mattered. They helped us organize.' — Patricia, that's good. That's why I'm here."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Williamson Street — 'If we make it through, I'm buying the station a case of whiskey.' — Patricia, you make it through and we'll drink to that on the other side of the Purge."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia's got her community. That's the thing I've noticed over eight years — the neighborhoods that survive are the ones that organize. The ones that talk to each other before the Purge comes."
+      },
+      {
+        "host": "quinn",
+        "text": "And the thing about 2165 is that nobody organized. Nobody talked. Nobody believed it could happen on their street."
+      },
+      {
+        "host": "quinn",
+        "text": "It happened anyway."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm not trying to bring anyone down here. I'm not trying to make anyone more scared than they already are. But I'm a man who believes in precedent, and precedent says that if you're twelve percent hot at {{CLOCK}}, you're going to stay hot."
+      },
+      {
+        "host": "quinn",
+        "text": "That's just mathematics. That's just the way the night flows."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from Capitol Square — 'Quinn, I work in the Capitol. I'm not calling from there, I want to be clear. But I know the building's got a capacity for this. I know the emergency protocols.' — James, I appreciate the call, but I can't engage with that right now."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from Capitol Square — 'I'm just saying the building is prepared. More prepared than you'd think.' — I'm sure it is. Buildings like that always are."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from Capitol Square — 'But what about the rest of us?' — That's the question, James. That's always the question."
+      },
+      {
+        "host": "quinn",
+        "text": "James, I'm going to let you go. Think about the people in your house. Think about how you can protect them."
+      },
+      {
+        "host": "quinn",
+        "text": "The building's prepared. Of course the building's prepared. The Capitol's always prepared. That's the deal we made, back when the Purge was being sold as something that would reduce crime."
+      },
+      {
+        "host": "quinn",
+        "text": "You remember that pitch? 'One night of legal violence will reduce the rest of the year.' Release the pressure valve. Let people get it out of their system."
+      },
+      {
+        "host": "quinn",
+        "text": "It didn't work that way. It never works that way. What it did was train people. It systematized. It made killers into professionals."
+      },
+      {
+        "host": "quinn",
+        "text": "And the people who proposed it? They're protected. They live in buildings. They have guards."
+      },
+      {
+        "host": "quinn",
+        "text": "I used to be that person. I used to have that protection. Not the building, but the assumption that I was safe because I was important."
+      },
+      {
+        "host": "quinn",
+        "text": "Then I wasn't important anymore. And suddenly I was very aware of how little protection importance gives you."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Steve from Vilas Park — 'Quinn, I just want to say thank you. I've been listening for three years and I haven't missed a Purge.' — Steve, that's dedication. That's a person who's committed to staying conscious."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Steve from Vilas Park — 'My family thinks I'm crazy. They want to sleep. But I can't sleep on Purge Night. I never could.' — Steve, you're not crazy. You're aware."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Steve from Vilas Park — 'Is it always like this? Does every year feel like it's going to be worse?' — Yes. And that's the answer I keep coming back to. Every year feels worse because every year we get better at it."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Steve from Vilas Park — 'Better at what?' — At the Purge. At killing. At systematizing violence."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Steve from Vilas Park — 'I don't know if I can keep doing this.' — You can. You're three years in. Stay the course."
+      },
+      {
+        "host": "quinn",
+        "text": "Steve hung up. And I don't know what he'll do with that advice, but I had to give it."
+      },
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in. Three hours. We've got nine hours left. And I've got five whiskeys in me and a calendar that keeps pointing back to four years ago."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to have another drink. I'm going to take more calls. And I'm going to keep telling people that they're going to be fine, because that's what this station does."
+      },
+      {
+        "host": "quinn",
+        "text": "We lie together. We survive together."
+      },
+      {
+        "host": "quinn",
+        "text": "That's the Purge. That's the only thing that makes it bearable."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 38 kills at {{CLOCK}} (19% above 2168 pace at this hour). East Side: 8 confirmed. Capitol Square: 2."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side reporting elevated activity. Atwood Ave, Schenks Corners showing above-average engagement. Recommend caution for outlying residents."
+      },
+      {
+        "category": "emergency",
+        "text": "Williamson Street neighborhood watch maintaining active perimeter at Yahara River bridge. No breaches reported. Status: contained."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text-in: 'Quinn, my sister in the Capitol works nights. Should I be worried?' — No. The building's secure. She's fine. Stay focused on your own shelter."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:47:40.654Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

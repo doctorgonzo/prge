@@ -28,6 +28,15 @@ export function EmergencyAlert({ interrupt, onComplete, soundEnabled = false }: 
   const [visibleCount, setVisibleCount] = useState(0);
   const completedRef = useRef(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const interruptIdRef = useRef(interrupt);
+
+  // If the interrupt prop changes (new alert replacing old), reset state
+  // so the new alert can play through and complete properly.
+  if (interrupt !== interruptIdRef.current) {
+    interruptIdRef.current = interrupt;
+    completedRef.current = false;
+    setVisibleCount(0);
+  }
 
   const handleComplete = useCallback(() => {
     if (completedRef.current) return;

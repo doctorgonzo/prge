@@ -1,0 +1,233 @@
+{
+  "format": "wellness",
+  "inWorldTime": "23:00",
+  "body": {
+    "type": "wellness",
+    "lines": [
+      {
+        "host": "marigold",
+        "text": "Welcome back. It's 23:00 Madison. We're {{ELAPSED}} into the night."
+      },
+      {
+        "host": "marigold",
+        "text": "I'm Sister Marigold. You're listening to the Wellness Block on PRGE."
+      },
+      {
+        "host": "marigold",
+        "text": "Before we begin, I want you to notice something. [pause] The sound of your own breathing."
+      },
+      {
+        "host": "marigold",
+        "text": "You've been holding it. Most of you. Shallow. Tight in the chest."
+      },
+      {
+        "host": "marigold",
+        "text": "That's okay. That's normal. That's why I'm here."
+      },
+      {
+        "host": "marigold",
+        "text": "Let's start simple. Breathe in. [pause] All the way in. [pause] Hold for four."
+      },
+      {
+        "host": "marigold",
+        "text": "One. Two. Three. Four."
+      },
+      {
+        "host": "marigold",
+        "text": "Now release. Slow. Let it go."
+      },
+      {
+        "host": "marigold",
+        "text": "Again. Breathe in. [pause] The air is cold tonight. You can taste it if you open a window. Don't open a window."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold. [pause] One. Two. Three. Four."
+      },
+      {
+        "host": "marigold",
+        "text": "Release."
+      },
+      {
+        "host": "marigold",
+        "text": "I can hear helicopters from here. [pause] Can you hear them where you are?"
+      },
+      {
+        "host": "marigold",
+        "text": "They've been circling since 22:30. Nobody at the station will say whose they are."
+      },
+      {
+        "host": "marigold",
+        "text": "Government, probably. Or people with enough money to hire government's equipment."
+      },
+      {
+        "host": "marigold",
+        "text": "It doesn't matter. They can't see into your home. [pause] That's a fact. Hold onto it."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] The ones outside are not your responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "That's what the Order teaches. The first rule. Not your responsibility."
+      },
+      {
+        "host": "marigold",
+        "text": "Hold for four. One. Two. Three. Four."
+      },
+      {
+        "host": "marigold",
+        "text": "Release."
+      },
+      {
+        "host": "marigold",
+        "text": "Now I want you to do a body scan. Start at the top of your head."
+      },
+      {
+        "host": "marigold",
+        "text": "Notice any tension. The forehead. The jaw. Most of you are clenching."
+      },
+      {
+        "host": "marigold",
+        "text": "Relax it. You don't need to hold your face like that anymore."
+      },
+      {
+        "host": "marigold",
+        "text": "Down through the neck. The shoulders. [pause] They're up. Bring them down."
+      },
+      {
+        "host": "marigold",
+        "text": "Feel the weight of them. Feel how heavy they are when you let them go."
+      },
+      {
+        "host": "marigold",
+        "text": "The chest. [pause] Still tight. That's where the fear lives. We all know that."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe into it. Don't fight it. Just breathe. [pause] In. [pause] Four count. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "The belly. The hips. The thighs. [pause] Are you sitting? Standing? Lying down?"
+      },
+      {
+        "host": "marigold",
+        "text": "Wherever you are, you chose it. You chose to be inside. [pause] That was a choice."
+      },
+      {
+        "host": "marigold",
+        "text": "Remember that in about four hours when you're tired and the mind gets loud."
+      },
+      {
+        "host": "marigold",
+        "text": "You chose this. [pause] You are choosing this."
+      },
+      {
+        "host": "marigold",
+        "text": "Down through the legs. The feet. [pause] All the way to the floor."
+      },
+      {
+        "host": "marigold",
+        "text": "You are grounded. You are heavy. You are still."
+      },
+      {
+        "host": "marigold",
+        "text": "Now bring your attention back to the breath. In. [pause] Hold. [pause] Out."
+      },
+      {
+        "host": "marigold",
+        "text": "I want to talk about forgiveness for a moment. [pause] Not of the people outside."
+      },
+      {
+        "host": "marigold",
+        "text": "Of yourself. For whatever you did before 19:00 today. Whatever you said. Whatever you didn't say."
+      },
+      {
+        "host": "marigold",
+        "text": "Picture that moment. [pause] Hold it gently. [pause] Now picture letting it go."
+      },
+      {
+        "host": "marigold",
+        "text": "Picture a door. [pause] You're handing it through. [pause] You're closing the door."
+      },
+      {
+        "host": "marigold",
+        "text": "It's not your responsibility anymore. [pause] None of it is."
+      },
+      {
+        "host": "marigold",
+        "text": "ka-moretheshavim-rah. [pause] Breathe."
+      },
+      {
+        "host": "marigold",
+        "text": "The helicopters are moving east now. I can feel them moving. The sound changes when they turn."
+      },
+      {
+        "host": "marigold",
+        "text": "Some of you are in buildings with thick walls. Some of you live in older homes. [pause] The noise carries."
+      },
+      {
+        "host": "marigold",
+        "text": "It's 23:00 now. You have eight hours until the light comes back."
+      },
+      {
+        "host": "marigold",
+        "text": "Eight hours is a long time if you're afraid. [pause] And you are afraid. That's okay."
+      },
+      {
+        "host": "marigold",
+        "text": "Fear is just information. [pause] It's telling you that you're alive. [pause] That you're aware."
+      },
+      {
+        "host": "marigold",
+        "text": "Close your eyes if you want to. [pause] Or keep them open. [pause] There's no wrong way to do this."
+      },
+      {
+        "host": "marigold",
+        "text": "Breathe in. [pause] The Order teaches that silence is where we meet ourselves. [pause] Not other people. [pause] Ourselves."
+      },
+      {
+        "host": "marigold",
+        "text": "In the silence, there's no judgment. There's no news. There's no kill count. [pause] There's just you."
+      },
+      {
+        "host": "marigold",
+        "text": "Four count. [pause] One. Two. Three. Four."
+      },
+      {
+        "host": "marigold",
+        "text": "Out. [pause] Slow. [pause] As slow as you can make it."
+      },
+      {
+        "host": "marigold",
+        "text": "You will make it to 7:00 in the morning. [pause] Most of you will. [pause] And when you do, the light will come back."
+      },
+      {
+        "host": "marigold",
+        "text": "Until then, you are safe in this room. [pause] You are safe in your choice. [pause] Breathe."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 61 kills | Hour 4 delta: +23 | East Side spiking hard"
+      },
+      {
+        "category": "neighborhood",
+        "text": "Capitol Square perimeter breach reported at 21:40 — security holding inner ring | 6 confirmed deceased in clearing action"
+      },
+      {
+        "category": "emergency",
+        "text": "Helicopter activity over East Side and Beltline corridor all night — source unconfirmed (gov/private security speculation)"
+      },
+      {
+        "category": "marigold-quote",
+        "text": "\"You are choosing this.\" — Sister Marigold, 23:00 wellness block"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-19T07:30:42.439Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}
