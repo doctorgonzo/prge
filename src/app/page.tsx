@@ -1622,8 +1622,9 @@ export default function Page() {
         />
       )}
 
-      {/* Caller text-in popup — AIM-style layered on top of content */}
-      {callerPopup && (
+      {/* Caller text-in popup — AIM-style layered on top of content.
+          Suppressed during daytime — nobody's texting in before the Purge. */}
+      {!isDaytime && callerPopup && (
         <CallerPopup
           caller={callerPopup}
           onComplete={() => setCallerPopup(null)}
