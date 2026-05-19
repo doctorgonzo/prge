@@ -6,48 +6,128 @@
     "lines": [
       {
         "host": "tucker",
-        "text": "Tucker here. I'm positioned on Atwood Avenue, East Side, about {{ELAPSED}} into tonight. Madison-wide count is holding at 38 cumulative kills. That's 19 in the last hour. Year-over-year, we're running about 11 percent hot for this point."
+        "text": "This is Tucker Traywick, PRGE field unit, broadcasting mobile from the Near East Side. It's {{CLOCK}}. I'm on foot. Signal's clean for now."
       },
       {
         "host": "tucker",
-        "text": "The neighborhood watch on Willy Street has their barricade holding solid at the Yahara bridge. I can see the sandbag line from here. No breach attempts in the last twenty minutes, but activity's concentrating north of State Street now — coordinated group movement, maybe 25 to 30 individuals, heading toward the Capitol Square perimeter."
+        "text": "Let's do the numbers. Madison-wide kill count as of {{CLOCK}} is sitting at thirty-one. That's down nine percent from this hour last year, which was thirty-four. Dane County total is thirty-eight."
       },
       {
         "host": "tucker",
-        "text": "Bladed weapons are seeing significant uptick. At least 9 of the 38 tonight are melee — that's 23.7 percent, up from the 2168 average of 22 percent at this hour. Cheaper to maintain. Quieter. Makes sense."
+        "text": "The delta between city and county has been narrowing since 2165 — used to be a fifteen-point spread, now it's seven. Urbanization of Purge activity. I've got a chart. You can't see it. Trust me."
       },
       {
         "host": "tucker",
-        "text": "Tenney Park sector is quieter than expected. Lakefront exposure usually pulls higher numbers, but I'm only reading 4 incidents over there so far. Either the cold's keeping people indoors or there's territorial consolidation I'm not seeing on the scanner yet."
+        "text": "Neighborhood breakdown. East Side — Atwood corridor through Schenk's Corners — is leading at eleven. That's consistent. Atwood has led this metric for six consecutive years."
       },
       {
         "host": "tucker",
-        "text": "Wait — I'm getting a cluster notification on my feed. Beltline corridor near Todd Drive just lit up. Looks like a vehicle situation, multiple — hold on, let me get closer, the audio's degrading, I need to reposition, I'm moving north along the —"
+        "text": "It's population density plus low median income plus limited egress routes. It's not complicated. People act surprised every year and the math has not changed."
       },
       {
         "host": "tucker",
-        "text": "[CUT OFF]"
+        "text": "Near West — Monroe Street through Vilas — sitting at four. That's actually up. Monroe usually stays quiet until midnight. Could be an anomaly, could be early escalation. I'll update at eleven."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm passing Ha Long Bay on Atwood right now. Place is boarded up, obviously. They do a lemongrass pho that — it's genuinely one of the best things I've eaten in this city. I think about it more than I should."
+      },
+      {
+        "host": "tucker",
+        "text": "I hope they make it through tonight. The restaurant, I mean. The building. The people too, obviously. All of it."
+      },
+      {
+        "host": "tucker",
+        "text": "Sorry. Moving on."
+      },
+      {
+        "host": "tucker",
+        "text": "Downtown — State Street through Capitol Square — is at three. Campus-adjacent zones always start slow. Students either evacuate or barricade in the dorms."
+      },
+      {
+        "host": "tucker",
+        "text": "The university runs a shelter program now, which has dropped student casualty rates forty-two percent since 2162. That's one of the few numbers that's actually gotten better."
+      },
+      {
+        "host": "tucker",
+        "text": "South Side — Park Street through the Beltline — six. Fish Hatchery Road specifically is at three of those six. If you're on Fish Hatchery right now — I don't know what to tell you. Get off Fish Hatchery. That's not data, that's advice."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm checking my rig. Comms are solid. I've got the Motorola on channel nine for Tim, the scanner on county dispatch — which goes quiet at 19:00 officially but there's always bleed — and the body cam is recording."
+      },
+      {
+        "host": "tucker",
+        "text": "Battery's at seventy-one percent. I swapped to the new lithium cells this year. The old NiMH ones were dying by 2am. You can't do field work with dead batteries. That's not a metaphor. That's logistics."
+      },
+      {
+        "host": "tucker",
+        "text": "Wind's picking up from the southwest, about twelve knots. Caroline would have the exact number. I've got an anemometer on my pack — it's a Kestrel 5500, handheld, measures wind, temp, humidity, barometric pressure. I don't need all that data but I like having it. Sue me."
+      },
+      {
+        "host": "tucker",
+        "text": "Let me give you the year-over-year. At this point last year — three hours in, {{ELAPSED}} to be exact — we were at thirty-four city, forty-one county. Year before that, twenty-eight city, thirty-nine county."
+      },
+      {
+        "host": "tucker",
+        "text": "Five-year average for this hour is thirty-one point four. So tonight is tracking exactly on the mean. Statistically unremarkable. I say that knowing that each of those thirty-one data points is a person. I know that. I always know that."
+      },
+      {
+        "host": "tucker",
+        "text": "I'm crossing Winnebago Street now. There's a group — I can see flashlights, maybe four, five people — moving north on First Street. I'm going to take a different route."
+      },
+      {
+        "host": "tucker",
+        "text": "That's not fear, that's probability management. A solo unit encountering a group of five is a negative-expected-value engagement regardless of armament. I'm not armed tonight. I'm never armed. The data is the job. The gun would make it a different job."
+      },
+      {
+        "host": "tucker",
+        "text": "I want to talk about the weapons distribution for a second because the numbers are interesting. Last year's post-Purge audit — and these are Dane County coroner numbers, not mine — showed sixty-one percent firearm, twenty-three percent edged weapon, nine percent blunt force, seven percent other."
+      },
+      {
+        "host": "tucker",
+        "text": "That seven percent \"other\" category is where it gets strange. It includes vehicular, incendiary, and three cases classified as \"improvised.\" I requested clarification on \"improvised.\" I did not receive it."
+      },
+      {
+        "host": "tucker",
+        "text": "The firearm percentage has been climbing about one point per year since 2160. It was fifty-three percent in 2160. It's functionally a gun event now. The edged-weapon romantics are a shrinking demographic. Take that however you want."
+      },
+      {
+        "host": "tucker",
+        "text": "Tim, if you're listening — and you're always listening — I'm going to loop south through Marquette and come back up through Jenifer Street. Signal might get spotty near the Yahara. I'll check in at the top of the hour."
+      },
+      {
+        "host": "tucker",
+        "text": "For everyone at home — the numbers are the numbers. I don't editorialize. I don't tell you what to feel about them. I count, I report, I move. That's the job. Tucker Traywick, PRGE field unit. Back at eleven."
       }
     ],
     "tickerItems": [
       {
-        "category": "kill-count",
-        "text": "Madison YTD: 38 kills ({{ELAPSED}} elapsed). +11% vs 2168 same period."
-      },
-      {
         "category": "neighborhood",
-        "text": "East Side: 18 kills. Capitol Square perimeter: organized movement detected, 25-30 individuals, heading north."
+        "text": "East Side (Atwood–Schenk's Corners) leading at 11 kills through {{CLOCK}}. Consistent with 6-year trend."
       },
       {
         "category": "local-news",
-        "text": "Willy Street barricade: holding. Tenney Park: 4 incidents. Beltline: vehicle cluster reported, details pending."
+        "text": "UW-Madison shelter program reports 94% dorm occupancy. Student casualty rate down 42% since 2162."
       },
       {
-        "category": "ad",
-        "text": "PurgeShield structural panels. Last year 4,200 Madison units deployed. Your barricade deserves better than furniture. Call 1-800-SHIELDUP."
+        "category": "neighborhood",
+        "text": "Fish Hatchery Rd (South Side) at 3 kills. Tucker advises: get off Fish Hatchery."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text from Marquette listener: 'Tucker just walked past my house. They looked calm. I am not calm.'"
+      },
+      {
+        "category": "local-news",
+        "text": "Weapons audit YoY: firearm use at 61%, up from 53% in 2160. Edged weapons declining at 23%."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text from Atwood listener: 'Ha Long Bay pho is incredible. Tucker has taste.'"
       }
     ]
   },
-  "generatedAt": "2026-05-19T05:32:55.790Z",
-  "modelId": "claude-haiku-4-5-20251001"
+  "generatedAt": "2026-05-19T22:00:00.000Z",
+  "modelId": "hand-written-showpiece"
 }
