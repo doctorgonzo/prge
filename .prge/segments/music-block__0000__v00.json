@@ -5,184 +5,183 @@
     "type": "music-block",
     "tracks": [
       {
-        "title": "Basket Case",
-        "artist": "Green Day",
-        "year": 1994,
+        "title": "I Wanna Be Sedated",
+        "artist": "Ramones",
+        "year": 1978,
         "lines": [
           {
             "host": "nick",
-            "text": "Alright, we're {{ELAPSED}} in and the East Side is *hot*. So let's talk about anxiety, shall we? Green Day. 'Basket Case.' From Dookie. 1994."
+            "text": "Folks. It's midnight. It's {{CLOCK}} and you know what that means — it means the first half of this thing is over and you're still breathing, which puts you ahead of about eleven percent of Madison if Tucker's numbers are right."
           },
           {
             "host": "nick",
-            "text": "Billie Joe Armstrong wrote this about actual panic attacks. His father died when he was ten—fragmented the whole family. You don't come back from that clean."
+            "text": "And Tucker's numbers are always right. That's the problem with Tucker. You can't argue with someone who's always right. It's like arguing with a calculator."
           },
           {
             "host": "nick",
-            "text": "They recorded Dookie in just over three weeks at Fantasy Studios in Berkeley. Three weeks. And they made the most important pop-punk album of all time. Sold twenty million copies worldwide."
+            "text": "I'm Nick. You know who I am. You know what I do. And tonight I play records."
           },
           {
             "host": "nick",
-            "text": "Armstrong's lyrics—he touched on boredom, anxiety, mass murder, divorce, masturbation. Everything uncomfortable. Everything real. That's why Dookie hit different."
+            "text": "This first one goes out to everyone on the East Side who's got their lights off and their doors locked and a baseball bat they've never used for baseball. This is the Ramones. \"I Wanna Be Sedated.\" Yeah. Me too."
+          }
+        ]
+      },
+      {
+        "title": "Myage",
+        "artist": "Descendents",
+        "year": 1982,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Beautiful. You know, Joey Ramone was six-foot-six. Six-foot-six and he looked like he weighed about a hundred and thirty pounds. A human guitar string."
           },
           {
             "host": "nick",
-            "text": "Basket Case. Still sounds like panic. Still sounds like you're losing it. Perfect for midnight on Purge Night."
+            "text": "I think about that sometimes. A man that tall choosing to hunch over a microphone in a leather jacket in clubs that smelled like piss. That's commitment. That's vocation."
+          },
+          {
+            "host": "nick",
+            "text": "Most people never find their thing. Joey found his thing at like nineteen and did it until he died. I respect that more than I respect almost anything."
+          },
+          {
+            "host": "nick",
+            "text": "Speaking of things I respect — let me talk about something for a second. You ever think about how the Purge is basically just inventory management? I'm serious."
+          },
+          {
+            "host": "nick",
+            "text": "You look at who dies every year — and I look at this stuff, Tucker's not the only one who reads the data — it's poor people. Every year. Exposed neighborhoods, no security, no bunkers, no RentaMarine subscription. You telling me that's an accident?"
+          },
+          {
+            "host": "nick",
+            "text": "A hundred and fifty years of this and it's always the same zip codes?"
+          },
+          {
+            "host": "nick",
+            "text": "I'm in a business where I know my customers. I'll leave it at that. And every March twenty-second I lose eight, nine percent of my client base in one night. You know what that does to Q3 projections? Nobody talks about the supply chain disruption. Nobody writes that article."
+          },
+          {
+            "host": "nick",
+            "text": "Anyway. Here's the Descendents. \"Myage.\" If you know, you know."
           }
         ]
       },
       {
         "title": "Linoleum",
         "artist": "NOFX",
+        "year": 1994,
+        "lines": [
+          {
+            "host": "nick",
+            "text": "Milo Aukerman had a PhD in biochemistry. A PhD. And he kept coming back to play in a punk band. Left his research position multiple times to go on tour."
+          },
+          {
+            "host": "nick",
+            "text": "People called him crazy. I call that a man who understands what matters. The lab's always there. The stage isn't."
+          },
+          {
+            "host": "nick",
+            "text": "You know what else is always there? Dune. The book. I've read it — I want to say fourteen times? Fifteen? I lose count."
+          },
+          {
+            "host": "nick",
+            "text": "But here's the thing nobody talks about with Dune — Frank Herbert was basically writing about right now. Not the worms, not the spice — the politics. A ruling class that controls one essential resource and uses religious programming to keep the population compliant. That's not science fiction. That's a Tuesday."
+          },
+          {
+            "host": "nick",
+            "text": "And the Bene Gesserit — don't get me started on the Bene Gesserit. A secret order of women who've been running a breeding program for thousands of years to produce a superbeing they can control."
+          },
+          {
+            "host": "nick",
+            "text": "And when the superbeing finally shows up he goes \"no thanks, I'm going to do my own thing.\" That's the most punk rock thing ever written and Frank Herbert wasn't even a punk. He was a newspaper guy from Tacoma."
+          },
+          {
+            "host": "nick",
+            "text": "Tim's giving me the signal. Tim always gives me the signal. Tim, I love you. Without Tim Pepinski there is no PRGE. I want everyone listening to understand that."
+          },
+          {
+            "host": "nick",
+            "text": "This man — this giant, beautiful, bald man — holds this station together with duct tape and willpower and I owe him everything. I'm not being dramatic. I'm being accurate for once."
+          },
+          {
+            "host": "nick",
+            "text": "Here. NOFX. \"Linoleum.\" Tim, this one's for you. You are the linoleum. You are the thing everyone walks on and nobody appreciates and you hold the whole floor together."
+          }
+        ]
+      },
+      {
+        "title": "Disconnected",
+        "artist": "Face to Face",
         "year": 1996,
         "lines": [
           {
             "host": "nick",
-            "text": "NOFX. 'Linoleum.' 1996. From Punk in Drublic—their fifth album, peaked at number twelve on the Heatseekers chart and went gold six years later."
+            "text": "Fat Mike wrote that song about being content with nothing. Think about that. A millionaire punk rocker writing a song about how he doesn't need anything. And the thing is — I believe him. Some people actually mean it."
           },
           {
             "host": "nick",
-            "text": "Fat Mike, Erik Sandin, Eric Melvin—those three are on every NOFX record ever made. They formed in LA in '83 at Fairfax High School, named themselves after a Boston hardcore band called Negative FX."
+            "text": "Let me tell you something about the JFK assassination while we're on the subject of things people lie about. And I know — I know — you're thinking \"Nick, it's midnight on Purge Night, why are you talking about JFK.\" Because it matters. Because the truth always matters and nobody wants to hear it."
           },
           {
             "host": "nick",
-            "text": "Fat Mike made a choice with the 'Leave It Alone' video from this same album. They shot it, looked at it, and decided: we're not sending this to MTV. We don't want to be part of that machine."
+            "text": "The Warren Commission was right that Oswald fired from the book depository. They got that part right. What they didn't tell you is that the kill shot — the one that actually killed the president — came from a Secret Service agent in the follow car."
           },
           {
             "host": "nick",
-            "text": "That's the punk move. That's the move nobody makes anymore. NOFX never signed to a major label. Never took the deal. They stayed clean."
+            "text": "A guy named George Hickey. Brand new on the detail. Holding an AR-15, which was a new weapon at the time. The car lurched forward, he stumbled, the gun went off. Accident. Not conspiracy. Just a guy who wasn't trained on his weapon and a car that hit the brakes at the wrong time."
           },
           {
             "host": "nick",
-            "text": "And somehow—*somehow*—they became one of the biggest punk bands alive. Linoleum. Listen to this."
-          }
-        ]
-      },
-      {
-        "title": "Hope",
-        "artist": "The Descendents",
-        "year": 1982,
-        "lines": [
-          {
-            "host": "nick",
-            "text": "The Descendents. 'Hope.' 1982. Off Milo Goes to College—their debut. And yes, Milo Aukerman actually went to UC San Diego. He actually went to college."
+            "text": "That's worse than a conspiracy, if you think about it. A conspiracy at least implies someone was in control. An accident means nobody was. Nobody's ever been in control. Not of the presidency, not of the Purge, not of any of this. We're all just stumbling around with weapons we don't understand."
           },
           {
             "host": "nick",
-            "text": "The Descendents came out of Manhattan Beach, formed in '77. They took punk and made it *sweet*. Beach Boys influences. Songs about girls, parents, food, getting rejected. Cheeky love songs disguised as hardcore blasts."
-          },
-          {
-            "host": "nick",
-            "text": "Here's the thing that breaks me: one of the original guys, Frank Navetta, left during I Don't Want to Grow Up to become a fisherman in Oregon. The other guy, Tony Lombardo, left after that—touring was incompatible with his job as a postal carrier."
-          },
-          {
-            "host": "nick",
-            "text": "Can you imagine? You're in one of the greatest punk bands ever, and you go back to delivering mail. That's commitment to something else. That's real."
-          },
-          {
-            "host": "nick",
-            "text": "Hope. This one's for the people barricaded on Atwood right now. For Darren, if you're listening."
-          }
-        ]
-      },
-      {
-        "title": "Stupid Kid",
-        "artist": "Alkaline Trio",
-        "year": 2000,
-        "lines": [
-          {
-            "host": "nick",
-            "text": "Alkaline Trio. 'Stupid Kid.' 2000. From Maybe I'll Catch Fire. Chicago band, formed in late '96 by Matt Skiba and Rob Doran."
-          },
-          {
-            "host": "nick",
-            "text": "Matt and Dan Andriano—they're co-lead vocals. Dark lyrics. Catchy hooks. Fast tempos. Alcoholism, depression, shattered relationships, drugs, death. The whole menu."
-          },
-          {
-            "host": "nick",
-            "text": "Before Goddamnit came out in '98, these guys couldn't quit their day jobs. They were bike messengers. Record store clerks. Living the dream but not the sustainable way."
-          },
-          {
-            "host": "nick",
-            "text": "This song—'Stupid Kid'—it became one of their breakout singles. It charted. They made it to radio. And they did it with lyrics about being broken and confused and too young to understand any of it."
-          },
-          {
-            "host": "nick",
-            "text": "I know the feeling. I think we all know the feeling tonight."
-          }
-        ]
-      },
-      {
-        "title": "Die for the Government",
-        "artist": "Anti-Flag",
-        "year": 1996,
-        "lines": [
-          {
-            "host": "nick",
-            "text": "Anti-Flag. 'Die for the Government.' 1996. From A New Kind of Army—1999 release on Go-Kart Records addressing abortion, corruption, racism, fascism, police brutality, unity amongst American youths."
-          },
-          {
-            "host": "nick",
-            "text": "Justin Sane and Pat Thetic formed Anti-Flag in Pittsburgh in '88. They built a band on fervent anti-war activism, criticism of US foreign policy, corporatism, wealth distribution. Politics as the spine."
-          },
-          {
-            "host": "nick",
-            "text": "Here's what kills me: Anti-Flag signed to RCA Records in 2006 and dropped For Blood and Empire. The punk community *exploded*. Accusations of selling out everywhere. They'd spent their whole career saying corporations are the enemy. Then they signed to one."
-          },
-          {
-            "host": "nick",
-            "text": "But they stayed political. They kept making the same argument. And Fat Mike—who formed Fat Wreck Chords and never signed to a major label—*never* called them out. The respect was there."
-          },
-          {
-            "host": "nick",
-            "text": "That's what this song is. Die for the Government. Question everything."
-          }
-        ]
-      },
-      {
-        "title": "Crazy",
-        "artist": "Me First and the Gimme Gimmes",
-        "year": 1997,
-        "lines": [
-          {
-            "host": "nick",
-            "text": "Me First and the Gimme Gimmes. 'Crazy.' 1997. From Have a Ball—their debut, recorded at One Week Records in San Francisco."
-          },
-          {
-            "host": "nick",
-            "text": "These are supergroup guys. Spike Slawson from Swingin' Utters. Fat Mike from NOFX. Joey Cape from Lagwagon. Chris Shiflett from No Use for a Name—also from Foo Fighters. They formed to cover songs during off-time from their main acts."
-          },
-          {
-            "host": "nick",
-            "text": "The Gimmes don't write originals. They cover everything and punk it into oblivion. Have a Ball was all '60s and '70s pop. They did this one about being insane—which, listen, at midnight on Purge Night, who's not insane?"
-          },
-          {
-            "host": "nick",
-            "text": "In the liner notes, Fat Mike got so caught up in one of their songs that he thought he was Fat Stevens, a guitar-toting Islamic Extremist. The man was having a full identity crisis in the studio."
-          },
-          {
-            "host": "nick",
-            "text": "That's punk. That's what happens when you don't take yourself seriously for a single second. Crazy. Perfect. Let it play."
+            "text": "On that note — here's Face to Face. \"Disconnected.\" You're welcome."
           }
         ]
       }
     ],
-    "lines": [],
+    "lines": [
+      {
+        "host": "nick",
+        "text": "It's {{CLOCK}}. You're listening to PRGE. I'm Nick Trulino. I'll be here until Tim tells me I can't be here anymore, which historically is somewhere around five in the morning when I've — well, you'll see. You'll see."
+      },
+      {
+        "host": "nick",
+        "text": "Keep your doors locked. Keep your lights off. Keep breathing. Marigold taught you how. She's weird but she's right about the breathing."
+      },
+      {
+        "host": "nick",
+        "text": "More music after this."
+      }
+    ],
     "tickerItems": [
       {
-        "category": "kill-count",
-        "text": "East Side kill count now at 34 cumulative. Atwood, Tenney Park, Schenk's Corners holding hot. {{ELAPSED}} in."
+        "category": "local-news",
+        "text": "Midnight kill count update: Madison-wide at 63. Dane County at 71. Tucker Traywick reports East Side trending +18% over last year."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text from Monona listener: 'Nick play something faster my neighbors are getting close to the fence line.'"
       },
       {
         "category": "neighborhood",
-        "text": "Willy Street barricade still holding. Yahara River bridge secured—neighborhood watch reports zero breach attempts past hour."
+        "text": "Atwood Ave corridor quiet since 23:40. Darren from Atwood: 'Still on the roof. Still alive. Still pissed.'"
       },
       {
-        "category": "ad",
-        "text": "PurgeShield Panels: Your second skin. One caller reported installation error earlier. Check yours now. PurgeShield: We answer at any hour."
+        "category": "caller-text-in",
+        "text": "Text from Sun Prairie listener: 'Nick is right about Dune. Herbert called all of this.'"
+      },
+      {
+        "category": "local-news",
+        "text": "RentaMarine surge pricing now active: $340/hr standard, $580/hr for armored escort. Cash or crypto only."
+      },
+      {
+        "category": "marigold-quote",
+        "text": "Palms up. We don't hold things here."
       }
     ]
   },
-  "generatedAt": "2026-05-19T05:52:39.875Z",
-  "modelId": "claude-haiku-4-5-20251001"
+  "generatedAt": "2026-05-19T22:00:00.000Z",
+  "modelId": "hand-written-showpiece"
 }

@@ -1366,8 +1366,17 @@ export default function Page() {
   // burst whenever the segment flips. Null until the first segment lands so the
   // boot/noise sequencing stays in lockstep.
   const segmentFingerprint = segment ? fingerprintOf(segment) : null;
-  const tickerItems: PlayerTickerItem[] =
+  const tickerItemsRaw: PlayerTickerItem[] =
     daytimeInterstitial?.tickerItems ?? segment?.tickerItems ?? [];
+  // During daytime, filter out caller text-ins — nobody's texting in before
+  // the Purge starts. Neighborhood kill counts and other night-only categories
+  // are also suppressed.
+  const tickerItems = useMemo(() => {
+    if (!isDaytime) return tickerItemsRaw;
+    return tickerItemsRaw.filter(
+      (it) => it.category !== "caller-text-in" && it.category !== "neighborhood" && it.category !== "breaking",
+    );
+  }, [tickerItemsRaw, isDaytime]);
   // Merge in crisis aftermath ticker items (permanent ripples from resolved events).
   const allTickerItems = useMemo(() => {
     const aftermathItems = crisisAftermaths.flatMap((a) => a.tickerItems);
@@ -1670,7 +1679,7 @@ export default function Page() {
           <NextUpChip />
         </div>
         <div className="flex items-center gap-4">
-          {trackedCallers.length > 0 && (
+          {!isDaytime && trackedCallers.length > 0 && (
             <button
               type="button"
               onClick={() => setSurvivorBoardOpen((o) => !o)}
