@@ -7,6 +7,8 @@ interface RetroAdBreakProps {
   ad: RetroAd;
   /** Called when the ad finishes playing (YouTube ENDED event or fallback timeout). */
   onComplete: () => void;
+  /** When true, pause the ad's YouTube playback (e.g. during PurgeSiren overlay). */
+  paused?: boolean;
 }
 
 // YouTube player states (same constants as MusicBlockLayout).
@@ -26,9 +28,10 @@ const IFRAME_KEY = "retro-ad-iframe";
  * via "listening" + "addEventListener", filter by origin, track playerState
  * from infoDelivery + onStateChange events.
  */
-export function RetroAdBreak({ ad, onComplete }: RetroAdBreakProps) {
+export function RetroAdBreak({ ad, onComplete, paused = false }: RetroAdBreakProps) {
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const completedRef = useRef(false);
+  const pausedRef = useRef(paused);
   const [playerState, setPlayerState] = useState(-1); // -1 = unstarted
   const [duration, setDuration] = useState<number | null>(null);
 
@@ -44,6 +47,9 @@ export function RetroAdBreak({ ad, onComplete }: RetroAdBreakProps) {
   useEffect(() => {
     function onMessage(e: MessageEvent) {
       if (e.origin !== "https://www.youtube.com") return;
+      // Only process events from OUR iframe — ignore other YouTube iframes
+      // on the page (MusicBlockLayout, ClassicalInterlude, etc.).
+      if (e.source !== iframeRef.current?.contentWindow) return;
 
       let data: unknown;
       if (typeof e.data === "string") {
@@ -78,6 +84,23 @@ export function RetroAdBreak({ ad, onComplete }: RetroAdBreakProps) {
     window.addEventListener("message", onMessage);
     return () => window.removeEventListener("message", onMessage);
   }, []);
+
+  // Pause/resume via postMessage — used when PurgeSiren or other overlays
+  // need to silence the ad without destroying the iframe.
+  useEffect(() => {
+    if (pausedRef.current === paused) return;
+    pausedRef.current = paused;
+    const win = iframeRef.current?.contentWindow;
+    if (!win) return;
+    const func = paused ? "pauseVideo" : "playVideo";
+    const cmd = JSON.stringify({ event: "command", func, args: [] });
+    win.postMessage(cmd, "https://www.youtube.com");
+    // Retry after 200ms — iframe may not be ready for the first command.
+    const retryId = setTimeout(() => {
+      win.postMessage(cmd, "https://www.youtube.com");
+    }, 200);
+    return () => clearTimeout(retryId);
+  }, [paused]);
 
   // Detect ENDED state → dismiss.
   useEffect(() => {

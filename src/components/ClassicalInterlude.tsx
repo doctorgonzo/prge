@@ -63,11 +63,17 @@ export function ClassicalInterlude({
           return;
         }
         const json = await res.json();
+        const originParam = typeof window !== "undefined"
+          ? `&origin=${encodeURIComponent(window.location.origin)}`
+          : "";
         if (json.embedUrl) {
-          setEmbedUrl(json.embedUrl);
+          const url = json.embedUrl.includes("origin=")
+            ? json.embedUrl
+            : `${json.embedUrl}${originParam}`;
+          setEmbedUrl(url);
         } else if (json.videoId) {
           setEmbedUrl(
-            `https://www.youtube.com/embed/${encodeURIComponent(json.videoId)}?autoplay=1&controls=0&disablekb=1&modestbranding=1&rel=0&fs=0&iv_load_policy=3&enablejsapi=1`,
+            `https://www.youtube.com/embed/${encodeURIComponent(json.videoId)}?autoplay=1&controls=0&disablekb=1&modestbranding=1&rel=0&fs=0&iv_load_policy=3&enablejsapi=1${originParam}`,
           );
         } else {
           setTrackIndex((i) => (i + 1) % playlist.length);
@@ -88,6 +94,9 @@ export function ClassicalInterlude({
   useEffect(() => {
     function onMessage(e: MessageEvent) {
       if (e.origin !== "https://www.youtube.com") return;
+      // Only process events from OUR iframe — ignore other YouTube iframes
+      // on the page (MusicBlockLayout, RetroAdBreak, etc.).
+      if (e.source !== iframeRef.current?.contentWindow) return;
       let data: Record<string, unknown>;
       try {
         data = typeof e.data === "string" ? JSON.parse(e.data) : e.data;

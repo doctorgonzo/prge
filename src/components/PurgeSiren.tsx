@@ -31,6 +31,9 @@ export function PurgeSiren({ onComplete }: PurgeSirenProps) {
   useEffect(() => {
     function onMessage(e: MessageEvent) {
       if (e.origin !== "https://www.youtube.com") return;
+      // Only process events from OUR iframe — ignore other YouTube iframes
+      // on the page (MusicBlockLayout, RetroAdBreak, ClassicalInterlude).
+      if (e.source !== iframeRef.current?.contentWindow) return;
 
       let data: unknown;
       if (typeof e.data === "string") {

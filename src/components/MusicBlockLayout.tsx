@@ -534,6 +534,11 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
   useEffect(() => {
     function onMessage(e: MessageEvent) {
       if (e.origin !== "https://www.youtube.com") return;
+      // Only process events from OUR iframe — ignore events from other
+      // YouTube iframes on the page (RetroAdBreak, ClassicalInterlude, etc.).
+      // Without this, an ad's ENDED event gets misread as "our track ended"
+      // and the track advances prematurely after every ad break.
+      if (e.source !== iframeRef.current?.contentWindow) return;
       let data: unknown;
       if (typeof e.data === "string") {
         try {
@@ -609,6 +614,10 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
   // Sends pauseVideo/playVideo commands via postMessage. This lets ad
   // breaks pause music without unmounting the component (which would
   // destroy the iframe and lose the playback position).
+  //
+  // We send the command twice with a small delay — YouTube iframes
+  // sometimes drop the first postMessage if they're mid-state-transition
+  // (e.g. buffering). The retry is cheap insurance.
   const pausedRef = useRef(paused);
   useEffect(() => {
     // Skip the initial mount — handleIframeLoad handles first playback.
@@ -617,10 +626,23 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
     const win = iframeRef.current?.contentWindow;
     if (!win) return;
     const func = paused ? "pauseVideo" : "playVideo";
-    win.postMessage(
-      JSON.stringify({ event: "command", func, args: [] }),
-      "https://www.youtube.com",
-    );
+    const cmd = JSON.stringify({ event: "command", func, args: [] });
+    win.postMessage(cmd, "https://www.youtube.com");
+    // Retry after 200ms in case the first command was dropped.
+    const retryId = setTimeout(() => {
+      win.postMessage(cmd, "https://www.youtube.com");
+    }, 200);
+    // When resuming from pause, clear any stale ENDED state that may
+    // have arrived from the ad iframe (pre-fix) or from the track
+    // genuinely ending during the pause window.
+    if (!paused) {
+      setYtLive((prev) =>
+        prev.playerState === YT_STATE.ENDED
+          ? { ...prev, playerState: YT_STATE.PAUSED }
+          : prev,
+      );
+    }
+    return () => clearTimeout(retryId);
   }, [paused]);
 
   // Autoplay unlock — Chrome blocks unmuted autoplay until a user gesture.
@@ -655,6 +677,39 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
     };
   }, [resolveState.status, paused]);
 
+  // Visibility API — pause when the tab is hidden, resume when visible.
+  // Handles alt-tab, switching browser tabs, etc. Skips when already
+  // paused by the parent (ad break, siren, etc.) to avoid fighting
+  // with the parent's pause/resume logic.
+  const visibilityPausedRef = useRef(false);
+  useEffect(() => {
+    function onVisibility() {
+      const win = iframeRef.current?.contentWindow;
+      if (!win) return;
+      if (document.hidden) {
+        // Only send pause if not already paused by parent.
+        if (!pausedRef.current) {
+          visibilityPausedRef.current = true;
+          win.postMessage(
+            JSON.stringify({ event: "command", func: "pauseVideo", args: [] }),
+            "https://www.youtube.com",
+          );
+        }
+      } else if (visibilityPausedRef.current) {
+        visibilityPausedRef.current = false;
+        // Only resume if parent hasn't paused us in the meantime.
+        if (!pausedRef.current) {
+          win.postMessage(
+            JSON.stringify({ event: "command", func: "playVideo", args: [] }),
+            "https://www.youtube.com",
+          );
+        }
+      }
+    }
+    document.addEventListener("visibilitychange", onVisibility);
+    return () => document.removeEventListener("visibilitychange", onVisibility);
+  }, []);
+
   useEffect(() => {
     if (!track) return;
     const key = `${track.artist}::${track.title}`;
@@ -663,7 +718,8 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
     // Pre-resolved videoId (countdown PSA videos) — skip the /api/track
     // round-trip entirely. Build the embed URL directly.
     if (track.videoId) {
-      const embedUrl = `https://www.youtube.com/embed/${encodeURIComponent(track.videoId)}?autoplay=1&controls=1&disablekb=1&modestbranding=1&rel=0&fs=0&iv_load_policy=3&enablejsapi=1`;
+      const origin = typeof window !== "undefined" ? `&origin=${encodeURIComponent(window.location.origin)}` : "";
+      const embedUrl = `https://www.youtube.com/embed/${encodeURIComponent(track.videoId)}?autoplay=1&controls=1&disablekb=1&modestbranding=1&rel=0&fs=0&iv_load_policy=3&enablejsapi=1${origin}`;
       const durationSec =
         typeof track.durationSec === "number" && Number.isFinite(track.durationSec)
           ? track.durationSec
@@ -711,9 +767,16 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
             typeof data.durationSec === "number" && Number.isFinite(data.durationSec)
               ? data.durationSec
               : null;
+          // Append origin= for YouTube postMessage API reliability.
+          const originParam = typeof window !== "undefined"
+            ? `&origin=${encodeURIComponent(window.location.origin)}`
+            : "";
+          const embedUrlWithOrigin = data.embedUrl.includes("origin=")
+            ? data.embedUrl
+            : `${data.embedUrl}${originParam}`;
           setResolveState({
             status: "ready",
-            embedUrl: data.embedUrl,
+            embedUrl: embedUrlWithOrigin,
             durationSec,
             videoId: data.videoId,
             resolvedChannel: data.resolvedChannel ?? "UNKNOWN",

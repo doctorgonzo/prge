@@ -1419,6 +1419,7 @@ export default function Page() {
             lines={nickCutIn.track.lines ?? []}
             lineIndex={0}
             tracks={[nickCutIn.track]}
+            paused={purgeSirenActive || deadAirActive}
           />
           {/* Host reaction subtitle — low-opacity aside from the interrupted host */}
           {hostReaction && (
@@ -1450,9 +1451,10 @@ export default function Page() {
       );
     }
 
-    // Retro ad break during non-music formats — full takeover, nothing to pause.
+    // Retro ad break during non-music formats — full takeover.
+    // Paused during PurgeSiren so the ad audio doesn't bleed through.
     if (retroAd && segment.type !== "music-block") {
-      return <RetroAdBreak ad={retroAd} onComplete={() => setRetroAd(null)} />;
+      return <RetroAdBreak ad={retroAd} onComplete={() => setRetroAd(null)} paused={purgeSirenActive} />;
     }
 
     // Music block — always rendered at the SAME tree position so React never
@@ -1467,7 +1469,7 @@ export default function Page() {
       let overlay: React.ReactNode = null;
       if (retroAd) {
         overlay = (
-          <RetroAdBreak ad={retroAd} onComplete={() => setRetroAd(null)} />
+          <RetroAdBreak ad={retroAd} onComplete={() => setRetroAd(null)} paused={purgeSirenActive} />
         );
       } else if (daytimeInterstitial) {
         overlay =

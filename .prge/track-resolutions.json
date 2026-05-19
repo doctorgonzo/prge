@@ -187,5 +187,95 @@
     "resolvedAt": "2026-05-19T08:42:39.261Z",
     "source": "api",
     "durationSec": 165
+  },
+  "the bouncing souls::ole": {
+    "videoId": "X3hM9EpIDEE",
+    "embeddable": true,
+    "resolvedTitle": "Ole",
+    "resolvedChannel": "Bouncing Souls - Topic",
+    "resolvedAt": "2026-05-19T09:16:01.483Z",
+    "source": "api",
+    "durationSec": 185
+  },
+  "hot water music::a good honest dollar": {
+    "videoId": "I32hp_96yn8",
+    "embeddable": true,
+    "resolvedTitle": "Which Huntr/x Is Your Favorite?",
+    "resolvedChannel": "Jubilee Christ",
+    "resolvedAt": "2026-05-19T09:19:44.046Z",
+    "source": "api",
+    "durationSec": 13
+  },
+  "me first and the gimme gimmes::sunday morning": {
+    "videoId": "7zPBJivfuY0",
+    "embeddable": true,
+    "resolvedTitle": "Sunday Morning Coming Down",
+    "resolvedChannel": "Me First and the Gimme Gimmes - Topic",
+    "resolvedAt": "2026-05-19T09:19:57.990Z",
+    "source": "api",
+    "durationSec": 213
+  },
+  "misfits::last caress": {
+    "videoId": "UuzA4U1njO8",
+    "embeddable": true,
+    "resolvedTitle": "Last Caress",
+    "resolvedChannel": "Misfits - Topic",
+    "resolvedAt": "2026-05-19T18:33:46.525Z",
+    "source": "api",
+    "durationSec": 120
+  },
+  "sublime::santeria": {
+    "videoId": "AEYN5w4T_aM",
+    "embeddable": true,
+    "resolvedTitle": "Sublime - Santeria (Official Music Video)",
+    "resolvedChannel": "SublimeVEVO",
+    "resolvedAt": "2026-05-19T18:40:46.742Z",
+    "source": "api",
+    "durationSec": 196
+  },
+  "screeching weasel::television city dream": {
+    "videoId": "2-qBe-HLvqU",
+    "embeddable": true,
+    "resolvedTitle": "Screeching Weasel - Television City Dream review + interview | Julabard",
+    "resolvedChannel": "Julabard",
+    "resolvedAt": "2026-05-19T18:44:03.304Z",
+    "source": "api",
+    "durationSec": 842
+  },
+  "ramones::i wanna be sedated": {
+    "videoId": "bm51ihfi1p4",
+    "embeddable": true,
+    "resolvedTitle": "Ramones - I Wanna Be Sedated (Official Music Video)",
+    "resolvedChannel": "Ramones",
+    "resolvedAt": "2026-05-19T18:46:38.201Z",
+    "source": "api",
+    "durationSec": 152
+  },
+  "the replacements::i will dare": {
+    "videoId": "ltPNJl26ZGE",
+    "embeddable": true,
+    "resolvedTitle": "The Replacements - I Will Dare (Official Music Video)",
+    "resolvedChannel": "RHINO",
+    "resolvedAt": "2026-05-19T18:49:11.059Z",
+    "source": "api",
+    "durationSec": 243
+  },
+  "the damned::new rose": {
+    "videoId": "TUxFQ5QBiYk",
+    "embeddable": true,
+    "resolvedTitle": "The Damned - New Rose (Official HD video)",
+    "resolvedChannel": "Ultimate",
+    "resolvedAt": "2026-05-19T18:53:39.549Z",
+    "source": "api",
+    "durationSec": 165
+  },
+  "black flag::rise above": {
+    "videoId": "wDUYCyajDcs",
+    "embeddable": true,
+    "resolvedTitle": "Rise Above",
+    "resolvedChannel": "Black Flag - Topic",
+    "resolvedAt": "2026-05-19T18:58:15.888Z",
+    "source": "api",
+    "durationSec": 147
   }
 }
