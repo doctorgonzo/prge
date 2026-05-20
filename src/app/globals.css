@@ -33,15 +33,26 @@ body {
   );
 }
 
-/* CRT vignette + faint chromatic blur around edges */
+/* CRT vignette + faint chromatic blur around edges.
+   --prge-vignette-size controls the transparent center (default 30%).
+   --prge-vignette-mid controls the mid-band darkness (default 0.4).
+   Both are updated by the temporal atmosphere effect in page.tsx. */
 .prge-vignette {
   background:
     radial-gradient(
       ellipse at center,
-      transparent 30%,
-      rgba(0, 0, 0, 0.4) 80%,
+      transparent var(--prge-vignette-size, 30%),
+      rgba(0, 0, 0, var(--prge-vignette-mid, 0.4)) 80%,
       rgba(0, 0, 0, 0.85) 100%
     );
+}
+
+/* Temporal color temperature — subtle hue-rotate applied to the main
+   broadcast container. --prge-temp-hue is updated by the time-tracking
+   effect in page.tsx. Default 0deg = warm amber baseline (no shift). */
+.prge-temporal-tint {
+  filter: hue-rotate(var(--prge-temp-hue, 0deg));
+  transition: filter 60s linear;
 }
 
 /* Subtle film grain — generated SVG noise */
@@ -82,7 +93,7 @@ body {
 }
 
 .prge-ticker {
-  animation: prge-ticker 75s linear infinite;
+  animation: prge-ticker var(--ticker-speed, 75s) linear infinite;
 }
 
 /* ----- Format-specific treatments ----- */

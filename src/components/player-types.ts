@@ -80,6 +80,7 @@ export const CATEGORY_LABEL: Record<string, string> = {
   "marigold-quote": "MARIGOLD",
   breaking: "BREAKING",
   weather: "WEATHER",
+  system: "SYSTEM",
 };
 
 // Per-line read time scales with character count so longer lines hang on screen

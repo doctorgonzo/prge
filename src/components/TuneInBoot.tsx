@@ -35,6 +35,15 @@ export function TuneInBoot() {
     setDone(booted);
   }, []);
 
+  // Set document.title to each boot line as it appears.
+  useEffect(() => {
+    if (done !== false || visibleCount === 0) return;
+    const currentLine = BOOT_LINES[visibleCount - 1];
+    if (currentLine && currentLine.text.trim()) {
+      document.title = currentLine.text;
+    }
+  }, [done, visibleCount]);
+
   useEffect(() => {
     if (done !== false) return;
     let cancelled = false;

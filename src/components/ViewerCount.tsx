@@ -84,6 +84,14 @@ export function ViewerCount({ inWorldTime }: ViewerCountProps) {
   // Anomalous "resolving" state — shows ?? briefly on first load
   const [anomalousResolved, setAnomalousResolved] = useState(false);
 
+  // ── ALONE state ─────────────────────────────────────────────────────
+  // When the real viewer count has been exactly 1 for 60 continuous
+  // seconds, flip to "ALONE" — a slower, dimmer glitch. Reverts
+  // immediately when a second viewer joins.
+  const [isAlone, setIsAlone] = useState(false);
+  const aloneTimestampRef = useRef<number | null>(null);
+  const aloneTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
   // Generate a stable session ID on mount
   useEffect(() => {
     if (typeof crypto !== "undefined" && crypto.randomUUID) {
@@ -130,9 +138,40 @@ export function ViewerCount({ inWorldTime }: ViewerCountProps) {
     return () => clearInterval(id);
   }, [inWorldTime]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  // ── ALONE detection effect ──────────────────────────────────────────
+  // Track how long realCount has been exactly 1. After 60 continuous
+  // seconds at count=1, set isAlone. Revert immediately when count > 1.
+  const realCount = data?.realCount ?? 0;
+
+  useEffect(() => {
+    if (realCount === 1) {
+      // Start the clock if not already ticking
+      if (aloneTimestampRef.current === null) {
+        aloneTimestampRef.current = Date.now();
+        aloneTimerRef.current = setTimeout(() => {
+          setIsAlone(true);
+        }, 60_000);
+      }
+    } else {
+      // Count changed away from 1 — reset everything
+      aloneTimestampRef.current = null;
+      if (aloneTimerRef.current) {
+        clearTimeout(aloneTimerRef.current);
+        aloneTimerRef.current = null;
+      }
+      setIsAlone(false);
+    }
+
+    return () => {
+      if (aloneTimerRef.current) {
+        clearTimeout(aloneTimerRef.current);
+        aloneTimerRef.current = null;
+      }
+    };
+  }, [realCount]);
+
   // ── Render ────────────────────────────────────────────────────────
   const fakeCount = data?.fakeCount ?? 0;
-  const realCount = data?.realCount ?? 0;
 
   // Don't render anything until we have at least one response
   if (!data) return null;
@@ -168,15 +207,15 @@ export function ViewerCount({ inWorldTime }: ViewerCountProps) {
       {/* Separator */}
       <span className="text-green-700 mx-0.5">{"\u250A"}</span>
 
-      {/* ANOMALOUS — real viewer count */}
-      <span className="text-green-400/50 viewer-count-anomalous-label">
-        ANOMALOUS
+      {/* ANOMALOUS / ALONE — real viewer count */}
+      <span className={isAlone ? "text-red-400/60 viewer-count-alone-label" : "text-green-400/50 viewer-count-anomalous-label"}>
+        {isAlone ? "ALONE" : "ANOMALOUS"}
       </span>
-      <span className="viewer-count-anomalous-value">
+      <span className={isAlone ? "viewer-count-alone-value" : "viewer-count-anomalous-value"}>
         {anomalousDisplay}
       </span>
 
-      {/* Glitch flicker on the anomalous section — inline <style> for
+      {/* Glitch flicker on the anomalous/alone section — inline <style> for
           self-contained keyframes without styled-jsx dependency */}
       <style
         dangerouslySetInnerHTML={{
@@ -186,6 +225,12 @@ export function ViewerCount({ inWorldTime }: ViewerCountProps) {
             }
             .viewer-count-anomalous-value {
               animation: anomalous-glitch 3s ease-in-out infinite;
+            }
+            .viewer-count-alone-label {
+              animation: alone-flicker 8s ease-in-out infinite;
+            }
+            .viewer-count-alone-value {
+              animation: alone-glitch 6s ease-in-out infinite;
             }
             @keyframes anomalous-flicker {
               0%, 92%, 100% { opacity: 1; }
@@ -214,6 +259,35 @@ export function ViewerCount({ inWorldTime }: ViewerCountProps) {
               92% {
                 transform: translateX(0);
                 opacity: 1;
+              }
+            }
+            @keyframes alone-flicker {
+              0%, 94%, 100% { opacity: 0.7; }
+              95% { opacity: 0.3; }
+              96% { opacity: 0.5; }
+              97% { opacity: 0.25; }
+              98% { opacity: 0.7; }
+            }
+            @keyframes alone-glitch {
+              0%, 93%, 100% {
+                transform: translateX(0);
+                opacity: 0.7;
+              }
+              94% {
+                transform: translateX(1px);
+                opacity: 0.4;
+              }
+              95% {
+                transform: translateX(0);
+                opacity: 0.6;
+              }
+              96% {
+                transform: translateX(-1px);
+                opacity: 0.3;
+              }
+              97% {
+                transform: translateX(0);
+                opacity: 0.7;
               }
             }
           `,

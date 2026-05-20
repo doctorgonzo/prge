@@ -8,6 +8,8 @@ interface EmergencyAlertProps {
   onComplete: () => void;
   /** Whether audio is enabled (user's sound toggle). */
   soundEnabled?: boolean;
+  /** Session-total Tim EBS count. Easter egg detail. */
+  coffeeCount?: number;
 }
 
 /** Time between each line reveal (ms). */
@@ -24,7 +26,7 @@ const HOLD_MS = 3000;
  * Severity 2 = amber border + faster pulse, "PRGE EMERGENCY BROADCAST" header.
  * Severity 3 = red border + fast pulse, "PRGE EMERGENCY BROADCAST" header.
  */
-export function EmergencyAlert({ interrupt, onComplete, soundEnabled = false }: EmergencyAlertProps) {
+export function EmergencyAlert({ interrupt, onComplete, soundEnabled = false, coffeeCount }: EmergencyAlertProps) {
   const [visibleCount, setVisibleCount] = useState(0);
   const completedRef = useRef(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -173,6 +175,16 @@ export function EmergencyAlert({ interrupt, onComplete, soundEnabled = false }: 
             </div>
           ))}
         </div>
+
+        {/* Tim's coffee counter — bottom left, nearly invisible easter egg */}
+        {coffeeCount != null && (
+          <div
+            className="absolute bottom-3 left-4 text-[9px] tracking-[0.2em] font-mono"
+            style={{ color: "#f5c945", opacity: 0.4 }}
+          >
+            TIM // COFFEE: {coffeeCount}
+          </div>
+        )}
 
         {/* Severity badge — bottom right, very quiet */}
         <div

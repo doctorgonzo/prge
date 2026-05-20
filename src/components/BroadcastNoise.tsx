@@ -24,6 +24,12 @@ interface BroadcastNoiseProps {
    * Default: 100
    */
   signalStrength?: number;
+  /**
+   * External burst trigger. Increment this counter to fire a "degraded"-style
+   * burst from outside the component (e.g. scripted signal glitch events).
+   * The burst fires whenever this value changes to a non-zero number.
+   */
+  forceBurst?: number;
 }
 
 const CHANNEL_CHANGE_DURATION_MS = 520;
@@ -47,7 +53,7 @@ function getAmbientIntervals(signal: number): [number, number] {
   return [min, max];
 }
 
-export function BroadcastNoise({ segmentFingerprint, signalStrength = 100 }: BroadcastNoiseProps) {
+export function BroadcastNoise({ segmentFingerprint, signalStrength = 100, forceBurst = 0 }: BroadcastNoiseProps) {
   const [burst, setBurst] = useState<Burst | null>(null);
   const prevFingerprintRef = useRef<string | null>(null);
   const clearTimerRef = useRef<number | null>(null);
@@ -85,6 +91,17 @@ export function BroadcastNoise({ segmentFingerprint, signalStrength = 100 }: Bro
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [segmentFingerprint]);
+
+  // External burst trigger — fires a "degraded" burst when forceBurst changes.
+  const prevForceBurstRef = useRef(forceBurst);
+  useEffect(() => {
+    if (forceBurst === 0) return;
+    if (forceBurst !== prevForceBurstRef.current) {
+      prevForceBurstRef.current = forceBurst;
+      fire("degraded");
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [forceBurst]);
 
   // Ambient micro-flicker loop — frequency scales inversely with signal
   // strength. At 100% signal, fires every ~45-110s. At 20% signal, every ~4-12s.

@@ -111,6 +111,13 @@ export function PurgeAnnouncement() {
     return () => cancelAnimationFrame(raf);
   }, [fading]);
 
+  // Set document.title to "EMERGENCY BROADCAST SYSTEM" while announcement plays.
+  useEffect(() => {
+    if (done === false) {
+      document.title = "EMERGENCY BROADCAST SYSTEM";
+    }
+  }, [done]);
+
   useEffect(() => {
     if (done !== false) return;
     let cancelled = false;

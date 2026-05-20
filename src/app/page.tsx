@@ -282,6 +282,8 @@ export default function Page() {
   // Tim Pepinski emergency broadcast interrupts — full-screen operator alerts.
   const [timInterrupt, setTimInterrupt] = useState<TimInterrupt | null>(null);
   const timInterruptTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  // Tim's coffee counter — increments each time an EBS fires. Easter egg.
+  const timCoffeeCountRef = useRef(0);
 
   // Caller text-in popups — AIM-style message windows from listeners.
   const [callerPopup, setCallerPopup] = useState<CallerPopupData | null>(null);
@@ -294,6 +296,9 @@ export default function Page() {
   const nickCutInActiveRef = useRef(false);
   const timInterruptActiveRef = useRef(false);
   const activeCrisisRef = useRef<CrisisEvent | null>(null);
+
+  // Ref for the ticker container — used to set --ticker-speed CSS variable.
+  const tickerRef = useRef<HTMLDivElement>(null);
 
   // Host reaction subtitle during Nick cut-ins.
   const [hostReaction, setHostReaction] = useState<HostReaction | null>(null);
@@ -332,6 +337,21 @@ export default function Page() {
   const deadAirTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const deadAirCountRef = useRef(0); // how many have fired this session
 
+  // ── Unauthorized receiver easter egg ─────────────────────────────────
+  // Between 1AM-4AM Madison, inject a single glitchy ticker item exactly
+  // once per session. Scheduled at a random delay after 01:00 is reached.
+  const unauthorizedReceiverFiredRef = useRef(false);
+  const [unauthorizedReceiverItem, setUnauthorizedReceiverItem] =
+    useState<PlayerTickerItem | null>(null);
+
+  // ── First-minute signal glitch ──────────────────────────────────────
+  // 60-90s after the broadcast view renders (not during boot/announcement),
+  // a brief signal disturbance fires once. Nighttime only. Triggers a
+  // BroadcastNoise burst and injects an ominous ticker item.
+  const [forceBurstCount, setForceBurstCount] = useState(0);
+  const [glitchTickerItems, setGlitchTickerItems] = useState<PlayerTickerItem[]>([]);
+  const firstMinuteGlitchFiredRef = useRef(false);
+
   // ── Survivor Board ──────────────────────────────────────────────────
   // Hidden slide-out panel tracking callers and their evolving fate status.
   // Persists to localStorage keyed by Madison date so it survives refresh
@@ -362,6 +382,90 @@ export default function Page() {
     const time = madisonNowHHMM(new Date());
     ensureLog(time);
   }, []);
+
+
+  // ── Dynamic tab title ────────────────────────────────────────
+  // Reactively set document.title based on broadcast state. Priority order:
+  // (boot + announcement handled in their own components)
+  // dead air > crisis > 4AM > daytime > default
+  const fourAmShownRef = useRef(false);
+  const fourAmTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const [fourAmActive, setFourAmActive] = useState(false);
+
+  useEffect(() => {
+    if (fourAmShownRef.current) return;
+    const time = liveMadisonTime ?? "12:00";
+    const [hStr, mStr] = time.split(":");
+    const h = parseInt(hStr, 10);
+    const m = parseInt(mStr, 10);
+    if (h === 4 && m < 2) {
+      fourAmShownRef.current = true;
+      setFourAmActive(true);
+      fourAmTimerRef.current = setTimeout(() => setFourAmActive(false), 30_000);
+    }
+    return () => {
+      if (fourAmTimerRef.current) clearTimeout(fourAmTimerRef.current);
+    };
+  }, [liveMadisonTime]);
+
+  useEffect(() => {
+    if (deadAirActive) {
+      document.title = "NO SIGNAL";
+    } else if (activeCrisis && crisisPhase === "active") {
+      document.title = "STAY INSIDE";
+    } else if (fourAmActive) {
+      document.title = "are you still watching?";
+    } else if (isDaytime) {
+      document.title = "PRGE \u2014 OFF AIR";
+    } else {
+      document.title = "PRGE \u2014 LIVE";
+    }
+  }, [deadAirActive, activeCrisis, crisisPhase, fourAmActive, isDaytime]);
+
+  // ── Console messages at key moments ─────────────────────────
+  const consoleMountedRef = useRef(false);
+  const consoleDeadAirRef = useRef(false);
+  const consoleTimInterruptRef = useRef(false);
+  const consoleDawnRef = useRef(false);
+
+  useEffect(() => {
+    if (consoleMountedRef.current) return;
+    consoleMountedRef.current = true;
+    console.log("%cYou shouldn't be seeing this.", "color: #f5c945; font-size: 14px; font-family: monospace;");
+  }, []);
+
+  useEffect(() => {
+    if (!deadAirActive) {
+      consoleDeadAirRef.current = false;
+      return;
+    }
+    if (consoleDeadAirRef.current) return;
+    consoleDeadAirRef.current = true;
+    console.log("%c...", "color: #333; font-size: 12px;");
+    console.log("%c...", "color: #333; font-size: 12px;");
+    console.log("%c...", "color: #333; font-size: 12px;");
+  }, [deadAirActive]);
+
+  useEffect(() => {
+    if (!timInterrupt) {
+      consoleTimInterruptRef.current = false;
+      return;
+    }
+    if (consoleTimInterruptRef.current) return;
+    consoleTimInterruptRef.current = true;
+    console.log("%cSIGNAL INTERCEPT \u2014 DO NOT ACKNOWLEDGE", "color: red; font-size: 12px; font-family: monospace;");
+  }, [timInterrupt]);
+
+  useEffect(() => {
+    if (consoleDawnRef.current) return;
+    const time = liveMadisonTime ?? "12:00";
+    const [hStr] = time.split(":");
+    const h = parseInt(hStr, 10);
+    if (h === 7) {
+      consoleDawnRef.current = true;
+      console.log("%cYou made it.", "color: #f5c945; font-size: 16px; font-family: monospace;");
+    }
+  }, [liveMadisonTime]);
 
   // ── Broadcast log: event tracking effects ────────────────────────
   // Log interesting events when their state transitions to non-null.
@@ -448,6 +552,8 @@ export default function Page() {
   useEffect(() => { retroAdActiveRef.current = retroAd !== null; }, [retroAd]);
   useEffect(() => { nickCutInActiveRef.current = nickCutIn !== null; }, [nickCutIn]);
   useEffect(() => { timInterruptActiveRef.current = timInterrupt !== null; }, [timInterrupt]);
+  // Bump Tim's coffee count each time an EBS fires.
+  useEffect(() => { if (timInterrupt) timCoffeeCountRef.current++; }, [timInterrupt]);
   useEffect(() => { activeCrisisRef.current = activeCrisis; }, [activeCrisis]);
 
   // Hydrate the dev-only ?at= override from window.location once at mount.
@@ -594,6 +700,83 @@ export default function Page() {
     const id = setInterval(update, HUD_CLOCK_TICK_MS);
     return () => clearInterval(id);
   }, [atOverride]);
+
+  // ── Temporal atmosphere effects ──────────────────────────────────────
+  // Subtle environmental shifts based on time of night:
+  //   1. Color temperature: warm amber (default) → cooler blue-green from
+  //      midnight through ~4am → back to warm at dawn.
+  //   2. Vignette intensification: wide/light at 19:00, tightens through
+  //      the night, tightest at 3-4am (CRT tube failing), opens at dawn.
+  // Both are applied via CSS custom properties on the main container.
+  const mainRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const el = mainRef.current;
+    if (!el) return;
+
+    const time = liveMadisonTime ?? "19:00";
+    const [hStr, mStr] = time.split(":");
+    const hh = parseInt(hStr, 10);
+    const mm = parseInt(mStr, 10);
+    const minutesSinceMidnight = hh * 60 + mm;
+
+    // ── Color temperature (hue-rotate in degrees) ────────────────────
+    // 19:00-23:59 → 0deg (warm amber baseline)
+    // 00:00-02:59 → ramp 0→15deg (shift toward blue-green)
+    // 03:00-04:59 → 15deg (coldest plateau)
+    // 05:00-06:59 → ramp 15→0deg (dawn warming)
+    // 07:00-18:59 → 0deg (daytime, no shift)
+    let hueDeg = 0;
+    if (hh >= 0 && hh < 3) {
+      // 0:00 to 2:59 — ramp up: 0→15 over 180 minutes
+      hueDeg = (minutesSinceMidnight / 180) * 15;
+    } else if (hh >= 3 && hh < 5) {
+      // 3:00 to 4:59 — coldest plateau
+      hueDeg = 15;
+    } else if (hh >= 5 && hh < 7) {
+      // 5:00 to 6:59 — ramp back down: 15→0 over 120 minutes
+      const minutesIntoDawn = minutesSinceMidnight - 300; // minutes past 5:00
+      hueDeg = 15 - (minutesIntoDawn / 120) * 15;
+    }
+    // else: 0deg (evening/daytime baseline)
+
+    // ── Vignette (transparent center size and mid-band opacity) ──────
+    // 19:00-20:00 → size 30%, mid 0.4 (wide, light — default)
+    // 21:00-03:00 → ramp size 30→18%, mid 0.4→0.65 (closing in)
+    // 03:00-04:00 → size 18%, mid 0.65 (tightest — CRT failing)
+    // 04:00-07:00 → ramp size 18→30%, mid 0.65→0.4 (dawn relief)
+    let vignetteSize = 30;
+    let vignetteMid = 0.4;
+
+    if (hh >= 19 && hh <= 20) {
+      // 19:00-20:59 — default wide vignette
+      vignetteSize = 30;
+      vignetteMid = 0.4;
+    } else if (hh >= 21 || (hh >= 0 && hh < 3)) {
+      // 21:00→02:59 — tightening. Normalize to 0–1 over 360 minutes.
+      const minutesPast21 = hh >= 21
+        ? minutesSinceMidnight - 1260  // 21:00+ same day
+        : minutesSinceMidnight + 180;  // 0:00+ next day (1440-1260=180 offset)
+      const t = Math.min(1, minutesPast21 / 360);
+      vignetteSize = 30 - t * 12;  // 30→18
+      vignetteMid = 0.4 + t * 0.25; // 0.4→0.65
+    } else if (hh >= 3 && hh < 4) {
+      // 03:00-03:59 — tightest
+      vignetteSize = 18;
+      vignetteMid = 0.65;
+    } else if (hh >= 4 && hh < 7) {
+      // 04:00-06:59 — opening back up over 180 minutes
+      const minutesPast4 = minutesSinceMidnight - 240;
+      const t = Math.min(1, minutesPast4 / 180);
+      vignetteSize = 18 + t * 12;  // 18→30
+      vignetteMid = 0.65 - t * 0.25; // 0.65→0.4
+    }
+    // else: daytime defaults (30%, 0.4)
+
+    el.style.setProperty("--prge-temp-hue", `${hueDeg.toFixed(1)}deg`);
+    el.style.setProperty("--prge-vignette-size", `${vignetteSize.toFixed(1)}%`);
+    el.style.setProperty("--prge-vignette-mid", vignetteMid.toFixed(3));
+  }, [liveMadisonTime]);
 
   // ── Purge siren detection ───────────────────────────────────────────
   // When Madison time enters the 19:00–19:04 window for the first time this
@@ -792,6 +975,10 @@ export default function Page() {
   // Random crisis: 0-1 more per night, fires 40-70 min after load (if it
   // fires at all — 50% chance). Won't overlap with an active crisis.
   // SUPPRESSED during daytime — no Purge, no crises.
+  //
+  // Breach tease: 3 escalating ticker items drop before the breach fires,
+  // injected via crisisAftermaths with a __breach-tease__ key. Cleaned up
+  // when the actual breach starts.
   useEffect(() => {
     if (!segment || isDaytime) return;
 
@@ -800,9 +987,54 @@ export default function Page() {
     const breachTimer = setTimeout(() => {
       if (!stationBreachFiredRef.current && !activeCrisisRef.current) {
         stationBreachFiredRef.current = true;
+        // Clear tease items before the real crisis lands.
+        setCrisisAftermaths((prev) =>
+          prev.filter((a) => a.crisisId !== "__breach-tease__"),
+        );
         startCrisis(getStationBreach());
       }
     }, breachDelay);
+
+    // ── Breach foreshadowing ticker items ───────────────────────────
+    // Escalating hints timed relative to the breach. Each one injects a
+    // new ticker item so the audience sees the threat building.
+    const TEASE_ITEMS: { offsetMs: number; item: PlayerTickerItem }[] = [
+      {
+        offsetMs: 15 * 60_000,
+        item: { category: "local-news", text: "[UNVERIFIED] Movement reported near PRGE transmitter site" },
+      },
+      {
+        offsetMs: 8 * 60_000,
+        item: { category: "local-news", text: "[SCANNER] Unknown vehicle circling broadcast tower \u2014 Atwood area" },
+      },
+      {
+        offsetMs: 3 * 60_000,
+        item: { category: "breaking", text: "[ALERT] Signal interference detected \u2014 possible triangulation in progress" },
+      },
+    ];
+
+    const teaseTimers: ReturnType<typeof setTimeout>[] = [];
+    for (const tease of TEASE_ITEMS) {
+      const teaseDelay = breachDelay - tease.offsetMs;
+      if (teaseDelay > 0) {
+        teaseTimers.push(
+          setTimeout(() => {
+            if (stationBreachFiredRef.current) return;
+            setCrisisAftermaths((prev) => {
+              const existing = prev.find((a) => a.crisisId === "__breach-tease__");
+              if (existing) {
+                return prev.map((a) =>
+                  a.crisisId === "__breach-tease__"
+                    ? { ...a, tickerItems: [...a.tickerItems, tease.item] }
+                    : a,
+                );
+              }
+              return [...prev, { crisisId: "__breach-tease__", signalPenalty: 0, tickerItems: [tease.item] }];
+            });
+          }, teaseDelay),
+        );
+      }
+    }
 
     // Random non-breach crisis — 50% chance, earlier in the session.
     const randomDelay = (40 + Math.random() * 30) * 60_000; // 40-70 min
@@ -815,6 +1047,7 @@ export default function Page() {
     return () => {
       clearTimeout(breachTimer);
       clearTimeout(randomTimer);
+      teaseTimers.forEach(clearTimeout);
     };
   }, [segment !== null, isDaytime]); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -867,6 +1100,65 @@ export default function Page() {
       if (deadAirTimerRef.current) clearTimeout(deadAirTimerRef.current);
     };
   }, [segment !== null, isDaytime]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ── Unauthorized receiver easter egg scheduling ─────────────────────
+  // When Madison time is between 01:00–03:59 and we haven't fired yet,
+  // schedule the injection at a random delay (0–30 min from now). The
+  // item injects once, scrolls through the ticker normally, then self-
+  // clears after 90 seconds so it doesn't loop forever.
+  useEffect(() => {
+    if (unauthorizedReceiverFiredRef.current) return;
+    if (isDaytime) return;
+    if (!liveMadisonTime) return;
+
+    const hh = parseInt(liveMadisonTime.split(":")[0], 10);
+    if (hh < 1 || hh >= 4) return;
+
+    // We're in the window — schedule a random delay (0–30 min).
+    unauthorizedReceiverFiredRef.current = true;
+    const delay = Math.random() * 30 * 60_000;
+
+    const fireTimer = setTimeout(() => {
+      setUnauthorizedReceiverItem({
+        category: "system",
+        text: "UNAUTHORIZED RECEIVER DETECTED ON THIS FREQUENCY",
+      });
+
+      // Self-clear after 90s so it scrolls through once and vanishes.
+      setTimeout(() => setUnauthorizedReceiverItem(null), 90_000);
+    }, delay);
+
+    return () => clearTimeout(fireTimer);
+  }, [liveMadisonTime, isDaytime]);
+
+  // ── First-minute signal glitch scheduling ───────────────────────────
+  // 60-90s after the first segment loads (broadcast view is live, boot is
+  // done), fire a single signal disturbance: BroadcastNoise burst +
+  // ominous Willy St ticker item. Nighttime only, once per session.
+  useEffect(() => {
+    if (firstMinuteGlitchFiredRef.current) return;
+    if (isDaytime) return;
+    if (!segment) return; // wait for broadcast to be live
+
+    const delay = (60 + Math.random() * 30) * 1000; // 60-90s
+    const timer = setTimeout(() => {
+      if (firstMinuteGlitchFiredRef.current) return;
+      firstMinuteGlitchFiredRef.current = true;
+
+      // Trigger BroadcastNoise burst
+      setForceBurstCount((c) => c + 1);
+
+      // Inject the ominous ticker item
+      setGlitchTickerItems([
+        { category: "breaking", text: "Unconfirmed reports of activity near Willy St corridor" },
+      ]);
+
+      // Self-clear the ticker item after 90s so it scrolls through once.
+      setTimeout(() => setGlitchTickerItems([]), 90_000);
+    }, delay);
+
+    return () => clearTimeout(timer);
+  }, [segment, isDaytime]);
 
   // ── Survivor board: register callers ────────────────────────────────
   // When a caller popup appears, add them to the tracked list with a
@@ -1165,6 +1457,107 @@ export default function Page() {
     return Math.max(5, Math.min(100, signal));
   }, [segment, liveMadisonTime, timInterrupt, activeCrisis, crisisPhase, crisisAftermaths]);
 
+  // ── Ticker speed drift ─────────────────────────────────────────────
+  // Default 75s. After midnight (00:00-05:00) the ticker slows to 90s —
+  // the station is tired, worn out. During an active crisis it speeds to
+  // 50s — urgency. Applied via a CSS custom property on the ticker div.
+  useEffect(() => {
+    if (!tickerRef.current) return;
+    const time = liveMadisonTime ?? "19:02";
+    const hh = parseInt(time.split(":")[0], 10);
+
+    let speed = 75; // default
+
+    // Active crisis → urgent ticker
+    if (activeCrisis && crisisPhase === "active") {
+      speed = 50;
+    } else if (hh >= 0 && hh < 5) {
+      // Deep night → sluggish, exhausted ticker
+      speed = 90;
+    }
+    // Normal nighttime / daytime: default 75s
+
+    tickerRef.current.style.setProperty("--ticker-speed", `${speed}s`);
+  }, [liveMadisonTime, activeCrisis, crisisPhase]);
+
+  // ── Cursor state overrides ───────────────────────────────────────────
+  // Crisis → not-allowed for 3s; dead air → invisible. Default → normal.
+  const [cursorOverride, setCursorOverride] = useState<"not-allowed" | "none" | null>(null);
+  const crisisCursorTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Crisis cursor: flash not-allowed for 3 seconds when a crisis begins.
+  useEffect(() => {
+    if (activeCrisis && crisisPhase === "alert") {
+      setCursorOverride("not-allowed");
+      if (crisisCursorTimerRef.current) clearTimeout(crisisCursorTimerRef.current);
+      crisisCursorTimerRef.current = setTimeout(() => {
+        setCursorOverride((prev) => (prev === "not-allowed" ? null : prev));
+      }, 3000);
+    }
+    return () => {
+      if (crisisCursorTimerRef.current) clearTimeout(crisisCursorTimerRef.current);
+    };
+  }, [activeCrisis, crisisPhase]);
+
+  // Dead air cursor: invisible while dead air is active.
+  useEffect(() => {
+    if (deadAirActive) {
+      setCursorOverride("none");
+    } else {
+      setCursorOverride((prev) => (prev === "none" ? null : prev));
+    }
+  }, [deadAirActive]);
+
+  // ── Horizontal hold slip ───────────────────────────────────────────
+  // Occasional full-screen horizontal drift simulating CRT horizontal
+  // sync loss. Fires 0-2 times per hour, nighttime only, more likely
+  // when signal strength is low. Smooth translateX that eases back.
+  const [hHoldSlipping, setHHoldSlipping] = useState(false);
+  const [hHoldPhase, setHHoldPhase] = useState<"drift" | "return">("drift");
+  const hHoldBusyRef = useRef(false);
+
+  useEffect(() => {
+    if (isDaytime) return;
+
+    function scheduleSlip() {
+      // Base interval: 30-60 minutes (0-2 per hour).
+      // Shorter when signal is weak: at signalStrength 20, interval halves.
+      const signalFactor = Math.max(0.5, signalStrength / 100);
+      const baseDelayMs = (30 + Math.random() * 30) * 60_000; // 30-60 min
+      const delay = baseDelayMs * signalFactor;
+
+      return setTimeout(() => {
+        if (hHoldBusyRef.current) {
+          // Already slipping, reschedule.
+          const nextTimer = scheduleSlip();
+          timerRef.current = nextTimer;
+          return;
+        }
+
+        hHoldBusyRef.current = true;
+        setHHoldPhase("drift");
+        setHHoldSlipping(true);
+
+        // After 150ms (the drift), switch to return phase.
+        setTimeout(() => {
+          setHHoldPhase("return");
+          // After 400ms (the ease-back), clear the slip.
+          setTimeout(() => {
+            setHHoldSlipping(false);
+            hHoldBusyRef.current = false;
+          }, 400);
+        }, 150);
+
+        // Schedule the next one.
+        const nextTimer = scheduleSlip();
+        timerRef.current = nextTimer;
+      }, delay);
+    }
+
+    const timerRef = { current: scheduleSlip() };
+    return () => clearTimeout(timerRef.current);
+  }, [isDaytime, signalStrength]);
+
   // ── Broadcast log: beforeunload snapshot ────────────────────────────
   // Ref keeps the closure fresh so the handler always writes current values.
   const signalStrengthRef = useRef(signalStrength);
@@ -1379,11 +1772,19 @@ export default function Page() {
       (it) => it.category !== "caller-text-in" && it.category !== "neighborhood" && it.category !== "breaking",
     );
   }, [tickerItemsRaw, isDaytime]);
-  // Merge in crisis aftermath ticker items (permanent ripples from resolved events).
+  // Merge in crisis aftermath ticker items (permanent ripples from resolved events)
+  // and the one-shot unauthorized receiver easter egg when active.
   const allTickerItems = useMemo(() => {
     const aftermathItems = crisisAftermaths.flatMap((a) => a.tickerItems);
-    return aftermathItems.length > 0 ? [...tickerItems, ...aftermathItems] : tickerItems;
-  }, [tickerItems, crisisAftermaths]);
+    let items = aftermathItems.length > 0 ? [...tickerItems, ...aftermathItems] : tickerItems;
+    if (unauthorizedReceiverItem) {
+      items = [...items, unauthorizedReceiverItem];
+    }
+    if (glitchTickerItems.length > 0) {
+      items = [...items, ...glitchTickerItems];
+    }
+    return items;
+  }, [tickerItems, crisisAftermaths, unauthorizedReceiverItem, glitchTickerItems]);
   const tickerLoop = useMemo(
     () => [...allTickerItems, ...allTickerItems, ...allTickerItems],
     [allTickerItems],
@@ -1585,7 +1986,21 @@ export default function Page() {
   }
 
   return (
-    <main className="prge-frame min-h-screen relative bg-black text-green-200 font-mono">
+    <main
+      ref={mainRef}
+      className="prge-frame prge-temporal-tint min-h-screen relative bg-black text-green-200 font-mono"
+      style={{
+        ...(cursorOverride ? { cursor: cursorOverride } : {}),
+        ...(hHoldSlipping
+          ? {
+              transform: hHoldPhase === "drift" ? "translateX(7px)" : "translateX(0)",
+              transition: hHoldPhase === "drift"
+                ? "transform 150ms ease-out"
+                : "transform 400ms ease-in",
+            }
+          : {}),
+      }}
+    >
       {/* CRT overlays — present on every format */}
       <div className="prge-scanlines pointer-events-none fixed inset-0 z-40" />
       <div className="prge-vignette pointer-events-none fixed inset-0 z-30" />
@@ -1593,13 +2008,14 @@ export default function Page() {
       {/* Broadcast-realism: snow burst on segment change + ambient flickers.
           Signal strength drives glitch intensity — degrades during field reports,
           late hours, and active Tim interrupts. */}
-      <BroadcastNoise segmentFingerprint={segmentFingerprint} signalStrength={signalStrength} />
+      <BroadcastNoise segmentFingerprint={segmentFingerprint} signalStrength={signalStrength} forceBurst={forceBurstCount} />
 
       {/* Tim Pepinski emergency broadcast — full-screen overlay.
           Routes through crisis lifecycle when a crisis is active. */}
       {timInterrupt && (
         <EmergencyAlert
           interrupt={timInterrupt}
+          coffeeCount={timCoffeeCountRef.current}
           onComplete={() => {
             if (activeCrisis && crisisPhase === "alert") {
               // Opening alert done → transition to active crisis state.
@@ -1679,6 +2095,36 @@ export default function Page() {
               MADISON &middot; {madisonTime}
             </span>
             <ViewerCount inWorldTime={madisonTime} />
+            {/* 5-bar signal strength meter — old-school cell phone style */}
+            {(() => {
+              const activeBars =
+                signalStrength >= 80 ? 5
+                : signalStrength >= 60 ? 4
+                : signalStrength >= 40 ? 3
+                : signalStrength >= 20 ? 2
+                : 1;
+              return (
+                <div
+                  className="flex items-end gap-[2px]"
+                  style={{ height: 14 }}
+                  title={`Signal ${signalStrength}%`}
+                >
+                  {[1, 2, 3, 4, 5].map((bar) => (
+                    <div
+                      key={bar}
+                      className="rounded-[1px]"
+                      style={{
+                        width: 3,
+                        height: 2 + bar * 2.4,
+                        backgroundColor: activeBars <= 2 ? '#f59e0b' : '#4ade80',
+                        opacity: bar <= activeBars ? 0.9 : 0.15,
+                        transition: 'opacity 300ms ease',
+                      }}
+                    />
+                  ))}
+                </div>
+              );
+            })()}
           </div>
           <NextUpChip />
         </div>
@@ -1834,10 +2280,23 @@ export default function Page() {
 
       {/* Newsticker, bottom — present on every format */}
       <div className="fixed bottom-0 inset-x-0 z-20 h-14 bg-black/80 border-t border-green-700 overflow-hidden flex items-center">
-        <div className="prge-ticker flex whitespace-nowrap text-sm">
+        <div ref={tickerRef} className="prge-ticker flex whitespace-nowrap text-sm">
           {tickerLoop.map((item, i) => (
-            <span key={i} className="px-10 text-green-300">
-              <span className="text-pink-400 font-bold mr-2">
+            <span
+              key={i}
+              className={
+                item.category === "system"
+                  ? "px-10 text-red-400 animate-pulse"
+                  : "px-10 text-green-300"
+              }
+            >
+              <span
+                className={
+                  item.category === "system"
+                    ? "text-red-500 font-bold mr-2"
+                    : "text-pink-400 font-bold mr-2"
+                }
+              >
                 [{CATEGORY_LABEL[item.category] ?? item.category.toUpperCase()}]
               </span>
               {item.text}
