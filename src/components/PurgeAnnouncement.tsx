@@ -160,7 +160,7 @@ export function PurgeAnnouncement() {
   return (
     <div
       onClick={skip}
-      className={`fixed inset-0 z-[79] bg-black flex flex-col items-center justify-center p-8 md:p-12 cursor-pointer transition-opacity ${
+      className={`fixed inset-0 z-[99] bg-black flex flex-col items-center justify-center p-8 md:p-12 cursor-pointer transition-opacity ${
         fading ? "opacity-0" : "opacity-100"
       }`}
       style={{ transitionDuration: `${FADE_OUT_MS}ms` }}

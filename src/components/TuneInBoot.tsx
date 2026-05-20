@@ -77,7 +77,7 @@ export function TuneInBoot() {
   return (
     <div
       onClick={skip}
-      className={`fixed inset-0 z-[80] bg-black flex items-end justify-start p-8 md:p-12 cursor-pointer transition-opacity ${
+      className={`fixed inset-0 z-[100] bg-black flex items-end justify-start p-8 md:p-12 cursor-pointer transition-opacity ${
         fading ? "opacity-0" : "opacity-100"
       }`}
       style={{ transitionDuration: `${FADE_OUT_MS}ms` }}

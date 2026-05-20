@@ -1637,9 +1637,9 @@ export default function Page() {
       {/* First-load tune-in boot. SessionStorage-gated; click to skip. */}
       <TuneInBoot />
 
-      {/* Canonical Purge EBS announcement. Sits at z-[79] under TuneInBoot
-          (z-[80]) so it's already in place when the boot fades out, filling
-          the segment-fetch window. SessionStorage-gated; click to skip. */}
+      {/* Canonical Purge EBS announcement. Sits at z-[99] under TuneInBoot
+          (z-[100]) but above ALL event overlays (dead air z-[85], Tim EBS
+          z-[90], siren z-[70]). SessionStorage-gated; click to skip. */}
       <PurgeAnnouncement />
 
       {/* Purge commencement siren — plays at 19:00 Madison before normal
