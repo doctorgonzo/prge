@@ -23,6 +23,9 @@ interface Props {
    *  unmounting the component (which would destroy the iframe and lose
    *  the playback position). */
   paused?: boolean;
+  /** Called when the last track in the playlist ends. Used by Nick cut-ins
+   *  to dismiss when the song finishes instead of looping. */
+  onPlaylistEnd?: () => void;
 }
 
 // Spotify open-search URL. We don't bother with the embed iframe here: Doc is
@@ -413,7 +416,7 @@ function formatDuration(durationSec: number): string {
   return `${m}:${ss}`;
 }
 
-export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: Props) {
+export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false, onPlaylistEnd }: Props) {
   // Track cycling lives independently from line cycling so a 3-minute song
   // isn't yanked off-screen every 8 seconds when the line cycle advances.
   const [trackIndex, setTrackIndex] = useState(0);
@@ -869,14 +872,18 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false }: P
   // gates this — we ignore ENDED events within 5s of the last advance.
   const lastAdvanceRef = useRef(0);
   useEffect(() => {
-    if (tracks.length <= 1) return;
     if (paused) return; // don't advance tracks during ad breaks
     if (ytLive.playerState !== YT_STATE.ENDED) return;
     const now = Date.now();
     if (now - lastAdvanceRef.current < 5_000) return;
     lastAdvanceRef.current = now;
+    // Single-track playlist (nick cut-in) — notify parent instead of looping.
+    if (tracks.length <= 1) {
+      if (onPlaylistEnd) onPlaylistEnd();
+      return;
+    }
     setTrackIndex((i) => (i + 1) % tracks.length);
-  }, [ytLive.playerState, tracks.length, paused]);
+  }, [ytLive.playerState, tracks.length, paused, onPlaylistEnd]);
 
   if (!track && tracks.length === 0) return null;
 

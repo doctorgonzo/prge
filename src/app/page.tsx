@@ -671,10 +671,12 @@ export default function Page() {
     return () => clearTimeout(id);
   }, [nickCutIn, nickCutInPhase]);
 
-  // Auto-dismiss playing phase after 90s (track might loop — cut it off).
+  // Auto-dismiss playing phase after 5 minutes. Most punk tracks are 2-4 min;
+  // this is a generous fallback in case the YouTube ENDED event never fires.
+  // The track plays its full duration — this only catches edge cases.
   useEffect(() => {
     if (!nickCutIn || nickCutInPhase !== "playing") return;
-    const id = setTimeout(() => setNickCutIn(null), 90_000);
+    const id = setTimeout(() => setNickCutIn(null), 300_000);
     return () => clearTimeout(id);
   }, [nickCutIn, nickCutInPhase]);
 
@@ -1423,12 +1425,13 @@ export default function Page() {
       }
       // 'playing' phase — full music player with the cut-in track.
       return (
-        <div className="relative w-full">
+        <div className="relative w-full flex flex-col items-center">
           <MusicBlockLayout
             lines={nickCutIn.track.lines ?? []}
             lineIndex={0}
             tracks={[nickCutIn.track]}
             paused={purgeSirenActive || deadAirActive}
+            onPlaylistEnd={() => setNickCutIn(null)}
           />
           {/* Host reaction subtitle — low-opacity aside from the interrupted host */}
           {hostReaction && (
