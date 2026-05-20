@@ -110,7 +110,7 @@
       },
       {
         "host": "marigold",
-        "text": "There is a sound you have been hearing for nine hours. [pause] It is the sound of absence."
+        "text": "There is a sound you have been hearing for eight hours. [pause] It is the sound of absence."
       },
       {
         "host": "marigold",
@@ -162,11 +162,11 @@
       },
       {
         "host": "marigold",
-        "text": "We are {{ELAPSED}} in. Three hours until the threshold changes. [pause] Three hours is forever."
+        "text": "We are {{ELAPSED}} in. Four hours until the threshold changes. [pause] Four hours is forever."
       },
       {
         "host": "marigold",
-        "text": "Three hours is also nothing. [pause] The Sisters say that time is a mercy we invented."
+        "text": "Four hours is also nothing. [pause] The Sisters say that time is a mercy we invented."
       },
       {
         "host": "marigold",
@@ -204,7 +204,7 @@
     "tickerItems": [
       {
         "category": "kill-count",
-        "text": "Madison cumulative (9-hour mark): 153 confirmed. 14 kills in the past hour. East Side and State Street continuing elevated activity."
+        "text": "Madison cumulative (8-hour mark): 153 confirmed. 14 kills in the past hour. East Side and State Street continuing elevated activity."
       },
       {
         "category": "neighborhood",

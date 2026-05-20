@@ -6,7 +6,7 @@
     "lines": [
       {
         "host": "marigold",
-        "text": "Welcome back. [pause] The clock reads 03:00. We are 6 hours into the night."
+        "text": "Welcome back. [pause] The clock reads 03:00. We are 8 hours into the night."
       },
       {
         "host": "marigold",
@@ -82,11 +82,11 @@
       },
       {
         "host": "marigold",
-        "text": "This is the darkest part. [pause] Three hours until dawn."
+        "text": "This is the darkest part. [pause] Four hours until dawn."
       },
       {
         "host": "marigold",
-        "text": "Three hours feels infinite at 03:00. [pause] It isn't. Time is lying to you."
+        "text": "Four hours feels infinite at 03:00. [pause] It isn't. Time is lying to you."
       },
       {
         "host": "marigold",
@@ -162,7 +162,7 @@
       },
       {
         "host": "marigold",
-        "text": "In three hours, the lock on your door will open. [pause] Not the lock. The permission."
+        "text": "In four hours, the lock on your door will open. [pause] Not the lock. The permission."
       },
       {
         "host": "marigold",
@@ -182,7 +182,7 @@
       },
       {
         "host": "marigold",
-        "text": "Breathe. [pause] We're 6 hours in. [pause] The morning is coming."
+        "text": "Breathe. [pause] We're 8 hours in. [pause] The morning is coming."
       },
       {
         "host": "marigold",

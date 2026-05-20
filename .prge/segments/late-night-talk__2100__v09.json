@@ -62,7 +62,7 @@
       },
       {
         "host": "quinn",
-        "text": "You work night security at a medical building. You decided to work through the Purge. That's either the bravest or the stupidest thing I've heard all night and it's only hour three."
+        "text": "You work night security at a medical building. You decided to work through the Purge. That's either the bravest or the stupidest thing I've heard all night and it's only hour two."
       },
       {
         "host": "quinn",
@@ -74,7 +74,7 @@
       },
       {
         "host": "quinn",
-        "text": "Then you've done something harder than most people will do tonight. You've created a space where people aren't afraid. Keep doing that for the next nine hours."
+        "text": "Then you've done something harder than most people will do tonight. You've created a space where people aren't afraid. Keep doing that for the next ten hours."
       },
       {
         "host": "quinn",
@@ -186,7 +186,7 @@
       },
       {
         "host": "quinn",
-        "text": "Now we've got this. We've got me, three whiskeys deep at hour three, and a handful of people calling in from their barricades because the alternative is silence."
+        "text": "Now we've got this. We've got me, three whiskeys deep at hour two, and a handful of people calling in from their barricades because the alternative is silence."
       },
       {
         "host": "quinn",
@@ -328,7 +328,7 @@
     "tickerItems": [
       {
         "category": "kill-count",
-        "text": "Madison-wide cumulative: 38 confirmed (hour 3). East Side continuing to spike — tracking 8% ahead of 2168 pace at this point."
+        "text": "Madison-wide cumulative: 38 confirmed (hour 2). East Side continuing to spike — tracking 8% ahead of 2168 pace at this point."
       },
       {
         "category": "neighborhood",
@@ -336,7 +336,7 @@
       },
       {
         "category": "local-news",
-        "text": "Willy Street neighborhood watch perimeter holding at Yahara River bridge. Zero incursions reported through hour 3."
+        "text": "Willy Street neighborhood watch perimeter holding at Yahara River bridge. Zero incursions reported through hour 2."
       },
       {
         "category": "emergency",

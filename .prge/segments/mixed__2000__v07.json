@@ -118,11 +118,11 @@
       },
       {
         "host": "caroline",
-        "text": "The game is twelve hours. The clock is running. We're {{ELAPSED}} in and we still have ten hours remaining."
+        "text": "The game is twelve hours. The clock is running. We're {{ELAPSED}} in and we still have eleven hours remaining."
       },
       {
         "host": "holden",
-        "text": "Ten hours is a long time. A lot of the serious activity, the organized group activity, that happens after midnight. That's when the amateurs have either committed or retreated."
+        "text": "Eleven hours is a long time. A lot of the serious activity, the organized group activity, that happens after midnight. That's when the amateurs have either committed or retreated."
       },
       {
         "host": "caroline",
@@ -326,7 +326,7 @@
       },
       {
         "host": "caroline",
-        "text": "We're at {{CLOCK}} now. Two hours into twelve. We're settling into it. The adrenaline's wearing off and the long night is becoming real."
+        "text": "We're at {{CLOCK}} now. One hour into twelve. We're settling into it. The adrenaline's wearing off and the long night is becoming real."
       },
       {
         "host": "holden",

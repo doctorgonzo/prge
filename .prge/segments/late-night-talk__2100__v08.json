@@ -58,7 +58,7 @@
       },
       {
         "host": "quinn",
-        "text": "And we're only three hours in."
+        "text": "And we're only two hours in."
       },
       {
         "host": "quinn",
@@ -166,7 +166,7 @@
       },
       {
         "host": "quinn",
-        "text": "I'm {{ELAPSED}} in and I'm already tired. It's a different kind of tired than the usual exhaustion. It's the tired you get when you've been holding your breath for sixty minutes and you know you've got nine more to go."
+        "text": "I'm {{ELAPSED}} in and I'm already tired. It's a different kind of tired than the usual exhaustion. It's the tired you get when you've been holding your breath for sixty minutes and you know you've got ten more to go."
       },
       {
         "host": "quinn",
@@ -334,7 +334,7 @@
       },
       {
         "host": "quinn",
-        "text": "I'm {{ELAPSED}} into the night and I can feel the weight of it settling in. This is the hour where the early adrenaline fades and people start to understand that there are still nine more hours to go."
+        "text": "I'm {{ELAPSED}} into the night and I can feel the weight of it settling in. This is the hour where the early adrenaline fades and people start to understand that there are still ten more hours to go."
       },
       {
         "host": "quinn",

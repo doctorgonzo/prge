@@ -27,7 +27,7 @@
           },
           {
             "host": "nick",
-            "text": "Play it loud. The clock reads {{CLOCK}}. Four hours until sunrise. Four hours until the bodies stop moving."
+            "text": "Play it loud. The clock reads {{CLOCK}}. Three hours until sunrise. Three hours until the bodies stop moving."
           }
         ]
       },
@@ -108,7 +108,7 @@
           },
           {
             "host": "nick",
-            "text": "This track — it's tender. Four hours from sunrise. We're playing the tender ones now."
+            "text": "This track — it's tender. Three hours from sunrise. We're playing the tender ones now."
           }
         ]
       },
@@ -170,7 +170,7 @@
           },
           {
             "host": "nick",
-            "text": "'Coming Home' is what you play when you're four hours from sunrise and you realize you made it through another night. It's acknowledgment. It's gratitude. It's the song that says 'I'm still here.'"
+            "text": "'Coming Home' is what you play when you're three hours from sunrise and you realize you made it through another night. It's acknowledgment. It's gratitude. It's the song that says 'I'm still here.'"
           }
         ]
       }

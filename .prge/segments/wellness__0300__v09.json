@@ -94,11 +94,11 @@
       },
       {
         "host": "marigold",
-        "text": "Breathe. [pause] The night is halfway over now. {{ELAPSED}} behind us."
+        "text": "Breathe. [pause] The night is two-thirds over now. {{ELAPSED}} behind us."
       },
       {
         "host": "marigold",
-        "text": "Three hours left. [pause] Three hours is nothing. Three hours is a lifetime."
+        "text": "Four hours left. [pause] Four hours is nothing. Four hours is a lifetime."
       },
       {
         "host": "marigold",
@@ -198,7 +198,7 @@
       },
       {
         "host": "marigold",
-        "text": "Three more hours. [pause] Then the light."
+        "text": "Four more hours. [pause] Then the light."
       },
       {
         "host": "marigold",

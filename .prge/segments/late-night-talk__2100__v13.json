@@ -6,7 +6,7 @@
     "lines": [
       {
         "host": "quinn",
-        "text": "Welcome back to PRGE. The clock reads {{CLOCK}}, we're {{ELAPSED}} into the Purge, and I want to start tonight by saying something that might sound crazy but I'm going to say it anyway because I have a drink in my hand and I'm legally invisible for the next nine hours."
+        "text": "Welcome back to PRGE. The clock reads {{CLOCK}}, we're {{ELAPSED}} into the Purge, and I want to start tonight by saying something that might sound crazy but I'm going to say it anyway because I have a drink in my hand and I'm legally invisible for the next ten hours."
       },
       {
         "host": "quinn",
@@ -14,7 +14,7 @@
       },
       {
         "host": "quinn",
-        "text": "We got the opening reports in from Caroline and Holden in the last hour — kill count sitting at 19 as we rolled into 21:00. Nineteen. In three hours."
+        "text": "We got the opening reports in from Caroline and Holden in the last hour — kill count sitting at 19 as we rolled into 21:00. Nineteen. In two hours."
       },
       {
         "host": "quinn",
@@ -38,7 +38,7 @@
       },
       {
         "host": "quinn",
-        "text": "Let me tell you what I know: nineteen people have died in Madison in the last three hours. The cold front that Caroline predicted is moving in slightly slower than anticipated. The East Side — which has been the hottest zone for four consecutive years — is reporting almost nothing. No gunfire clusters. No vehicle incidents. Just static."
+        "text": "Let me tell you what I know: nineteen people have died in Madison in the last two hours. The cold front that Caroline predicted is moving in slightly slower than anticipated. The East Side — which has been the hottest zone for four consecutive years — is reporting almost nothing. No gunfire clusters. No vehicle incidents. Just static."
       },
       {
         "host": "quinn",
@@ -102,7 +102,7 @@
       },
       {
         "host": "quinn",
-        "text": "So that's Derek. Derek represents a very specific category of Purge Night fear that you don't usually see until hour five or six. He's at hour three and he's already cycling through the worst-case scenarios."
+        "text": "So that's Derek. Derek represents a very specific category of Purge Night fear that you don't usually see until hour five or six. He's at hour two and he's already cycling through the worst-case scenarios."
       },
       {
         "host": "quinn",

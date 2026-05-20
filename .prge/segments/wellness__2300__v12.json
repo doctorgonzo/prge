@@ -70,7 +70,7 @@
       },
       {
         "host": "marigold",
-        "text": "Seven more hours. [pause] You can hold seven more hours."
+        "text": "Eight more hours. [pause] You can hold eight more hours."
       },
       {
         "host": "marigold",
@@ -122,7 +122,7 @@
       },
       {
         "host": "marigold",
-        "text": "That door is holding. [pause] It has held for five hours. [pause] It will hold for seven more."
+        "text": "That door is holding. [pause] It has held for four hours. [pause] It will hold for eight more."
       },
       {
         "host": "marigold",
@@ -228,7 +228,7 @@
       },
       {
         "category": "marigold-quote",
-        "text": "\"Seven more hours is nothing. Seven more hours is everything.\""
+        "text": "\"Eight more hours is nothing. Eight more hours is everything.\""
       }
     ]
   },

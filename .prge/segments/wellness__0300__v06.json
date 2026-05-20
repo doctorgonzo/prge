@@ -82,7 +82,7 @@
       },
       {
         "host": "marigold",
-        "text": "[pause] Breathe in. The night is halfway through. We are in the deepest part. The part where things are quieter."
+        "text": "[pause] Breathe in. The night is two-thirds through. We are in the deepest part. The part where things are quieter."
       },
       {
         "host": "marigold",
@@ -166,11 +166,11 @@
       },
       {
         "host": "marigold",
-        "text": "[pause] We are {{ELAPSED}} into the night. [pause] Seven hours remain."
+        "text": "[pause] We are {{ELAPSED}} into the night. [pause] Four hours remain."
       },
       {
         "host": "marigold",
-        "text": "Seven hours is enough time to go very far. [pause] Or to stay very still."
+        "text": "Four hours is enough time to go very far. [pause] Or to stay very still."
       },
       {
         "host": "marigold",

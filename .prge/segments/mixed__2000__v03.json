@@ -270,7 +270,7 @@
       },
       {
         "host": "caroline",
-        "text": "We're {{ELAPSED}} into the Purge. Twelve more hours ahead. The fires are contained to the West Side and Capitol perimeter as of this report."
+        "text": "We're {{ELAPSED}} into the Purge. Eleven more hours ahead. The fires are contained to the West Side and Capitol perimeter as of this report."
       },
       {
         "host": "holden",
@@ -278,7 +278,7 @@
       },
       {
         "host": "caroline",
-        "text": "Holden, how many structure fires have we logged in the two hours since 19:00?"
+        "text": "Holden, how many structure fires have we logged in the hour since 19:00?"
       },
       {
         "host": "holden",

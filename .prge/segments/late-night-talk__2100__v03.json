@@ -10,7 +10,7 @@
       },
       {
         "host": "quinn",
-        "text": "The {{CLOCK}} clock says we've got eight hours and forty-five minutes left. The smoke doesn't care what time it is."
+        "text": "The {{CLOCK}} clock says we've got nine hours and forty-five minutes left. The smoke doesn't care what time it is."
       },
       {
         "host": "quinn",
@@ -50,7 +50,7 @@
       },
       {
         "host": "quinn",
-        "text": "Caller: Derek from the Near East — 'How long until this is over?' — Nine hours. Less than nine hours. You can do nine hours."
+        "text": "Caller: Derek from the Near East — 'How long until this is over?' — Ten hours. Less than ten hours. You can do ten hours."
       },
       {
         "host": "quinn",
@@ -150,7 +150,7 @@
       },
       {
         "host": "quinn",
-        "text": "But I type back: 'You're going to make it. Nine more hours.' Because that's what you do when someone says they're scared. You lie to them."
+        "text": "But I type back: 'You're going to make it. Ten more hours.' Because that's what you do when someone says they're scared. You lie to them."
       },
       {
         "host": "quinn",
@@ -294,7 +294,7 @@
       },
       {
         "host": "quinn",
-        "text": "It's {{CLOCK}} and we are {{ELAPSED}} into the longest night of the year. I've got nine more hours to fill. I've got nine more hours to convince people that this is sustainable, that life continues after 7 AM, that the smoke will clear and the fires will burn out and the bodies will be counted and we'll all wake up tomorrow and pretend it didn't happen."
+        "text": "It's {{CLOCK}} and we are {{ELAPSED}} into the longest night of the year. I've got ten more hours to fill. I've got ten more hours to convince people that this is sustainable, that life continues after 7 AM, that the smoke will clear and the fires will burn out and the bodies will be counted and we'll all wake up tomorrow and pretend it didn't happen."
       },
       {
         "host": "quinn",
@@ -302,7 +302,7 @@
       },
       {
         "host": "quinn",
-        "text": "I'm Quinn Foley on PRGE Radio and you're listening to Madison's Purge Night Broadcast. We've got nine more hours of this. Let's make it count."
+        "text": "I'm Quinn Foley on PRGE Radio and you're listening to Madison's Purge Night Broadcast. We've got ten more hours of this. Let's make it count."
       }
     ],
     "tickerItems": [

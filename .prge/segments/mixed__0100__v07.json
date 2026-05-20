@@ -10,7 +10,7 @@
       },
       {
         "host": "holden",
-        "text": "If you're going to read data, read it right. The East Side has sustained momentum for seven straight hours."
+        "text": "If you're going to read data, read it right. The East Side has sustained momentum for six straight hours."
       },
       {
         "host": "quinn",
@@ -58,7 +58,7 @@
       },
       {
         "host": "quinn",
-        "text": "The human body also has the capacity to be absolutely awful under pressure, and yet here we are, seven hours in, and we're still counting bodies."
+        "text": "The human body also has the capacity to be absolutely awful under pressure, and yet here we are, six hours in, and we're still counting bodies."
       },
       {
         "host": "caroline",
@@ -396,7 +396,7 @@
     "tickerItems": [
       {
         "category": "kill-count",
-        "text": "Cumulative: 122 confirmed kills (7 hours elapsed). East Side leading at 34 kills. Pace is 18 ahead of 2168 YoY."
+        "text": "Cumulative: 122 confirmed kills (6 hours elapsed). East Side leading at 34 kills. Pace is 18 ahead of 2168 YoY."
       },
       {
         "category": "emergency",

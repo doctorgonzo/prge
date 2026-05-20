@@ -6,7 +6,7 @@
     "lines": [
       {
         "host": "quinn",
-        "text": "Welcome back to PRGE. Quinn Foley, three hours in, and I've got to tell you — the wind just knocked over a bottle of Jameson that was *full*, so we're starting fresh with this one."
+        "text": "Welcome back to PRGE. Quinn Foley, two hours in, and I've got to tell you — the wind just knocked over a bottle of Jameson that was *full*, so we're starting fresh with this one."
       },
       {
         "host": "quinn",
@@ -14,7 +14,7 @@
       },
       {
         "host": "quinn",
-        "text": "We're {{ELAPSED}} in, folks. Three hours. Early kills are tracking hot — Caroline and Holden didn't say much that wasn't a number, which is how you know it's already escalating out there."
+        "text": "We're {{ELAPSED}} in, folks. Two hours. Early kills are tracking hot — Caroline and Holden didn't say much that wasn't a number, which is how you know it's already escalating out there."
       },
       {
         "host": "quinn",
@@ -242,7 +242,7 @@
       },
       {
         "host": "quinn",
-        "text": "I've been in this booth eight times now. Eight Purge Nights. And every time, around this hour — hour three — I start thinking about the people who didn't make it to their doors."
+        "text": "I've been in this booth eight times now. Eight Purge Nights. And every time, around this hour — hour two — I start thinking about the people who didn't make it to their doors."
       },
       {
         "host": "quinn",
@@ -278,11 +278,11 @@
       },
       {
         "host": "quinn",
-        "text": "Caller: James — 'How long do I sit here?' Until 7am. You sit there for eight more hours, and you drive home when the all-clear comes. That's the deal."
+        "text": "Caller: James — 'How long do I sit here?' Until 7am. You sit there for ten more hours, and you drive home when the all-clear comes. That's the deal."
       },
       {
         "host": "quinn",
-        "text": "Caller: James — 'Eight hours in a car under an overpass.' Eight hours. You've got water?"
+        "text": "Caller: James — 'Ten hours in a car under an overpass.' Ten hours. You've got water?"
       },
       {
         "host": "quinn",
@@ -362,7 +362,7 @@
       },
       {
         "host": "quinn",
-        "text": "This is going to be a brutal one. I can feel it. Three hours in and the city is already settling into a rhythm."
+        "text": "This is going to be a brutal one. I can feel it. Two hours in and the city is already settling into a rhythm."
       },
       {
         "host": "quinn",

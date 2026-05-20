@@ -90,7 +90,7 @@
       },
       {
         "host": "marigold",
-        "text": "Some of you have been here since seven o'clock. [pause] That's five hours of choosing to stay. That's remarkable."
+        "text": "Some of you have been here since seven o'clock. [pause] That's four hours of choosing to stay. That's remarkable."
       },
       {
         "host": "marigold",
@@ -170,7 +170,7 @@
       },
       {
         "host": "marigold",
-        "text": "We're {{ELAPSED}} in. [pause] Seven more hours until the light comes."
+        "text": "We're {{ELAPSED}} in. [pause] Eight more hours until the light comes."
       },
       {
         "host": "marigold",

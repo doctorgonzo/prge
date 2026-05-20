@@ -14,7 +14,7 @@
       },
       {
         "host": "quinn",
-        "text": "Twelve percent. We're three hours in. That's not noise. That's a trend."
+        "text": "Twelve percent. We're two hours in. That's not noise. That's a trend."
       },
       {
         "host": "quinn",
@@ -350,7 +350,7 @@
       },
       {
         "host": "quinn",
-        "text": "We're {{ELAPSED}} in. Three hours. We've got nine hours left. And I've got five whiskeys in me and a calendar that keeps pointing back to four years ago."
+        "text": "We're {{ELAPSED}} in. Two hours. We've got ten hours left. And I've got five whiskeys in me and a calendar that keeps pointing back to four years ago."
       },
       {
         "host": "quinn",

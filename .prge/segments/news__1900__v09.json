@@ -170,7 +170,7 @@
       },
       {
         "host": "caroline",
-        "text": "Current time is {{CLOCK}}. We're {{ELAPSED}} into the Purge. 11 hours remaining until the all-clear."
+        "text": "Current time is {{CLOCK}}. We're {{ELAPSED}} into the Purge. 12 hours remaining until the all-clear."
       },
       {
         "host": "holden",
@@ -294,7 +294,7 @@
       },
       {
         "host": "quinn",
-        "text": "This is Purge Radio. We're your company for the next 11 hours. Don't turn us off. We've got a lot of night left."
+        "text": "This is Purge Radio. We're your company for the next 12 hours. Don't turn us off. We've got a lot of night left."
       },
       {
         "host": "caroline",
@@ -318,7 +318,7 @@
       },
       {
         "host": "quinn",
-        "text": "We'll talk again at 20:00. Eleven hours to dawn."
+        "text": "We'll talk again at 20:00. Twelve hours to dawn."
       }
     ],
     "tickerItems": [

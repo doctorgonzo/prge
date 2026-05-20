@@ -26,7 +26,7 @@
       },
       {
         "host": "marigold",
-        "text": "We've been running five hours. You've heard the numbers. Tucker's count from the field. Holden's patterns. Caroline's data. [pause] The numbers are real."
+        "text": "We've been running four hours. You've heard the numbers. Tucker's count from the field. Holden's patterns. Caroline's data. [pause] The numbers are real."
       },
       {
         "host": "marigold",
@@ -74,7 +74,7 @@
       },
       {
         "host": "marigold",
-        "text": "We're five hours in. Seven hours remain. [pause] You have made it halfway through the dark."
+        "text": "We're four hours in. Eight hours remain. [pause] You have made it a third of the way through the dark."
       },
       {
         "host": "marigold",
@@ -130,7 +130,7 @@
       },
       {
         "host": "marigold",
-        "text": "We are {{ELAPSED}} in. That means you have already survived five hours. [pause] You know how to do this."
+        "text": "We are {{ELAPSED}} in. That means you have already survived four hours. [pause] You know how to do this."
       },
       {
         "host": "marigold",
@@ -206,7 +206,7 @@
       },
       {
         "host": "marigold",
-        "text": "And the night will be seven hours shorter. [pause] Seven hours closer to morning."
+        "text": "And the night will be eight hours shorter. [pause] Eight hours closer to morning."
       },
       {
         "host": "marigold",

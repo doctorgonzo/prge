@@ -342,7 +342,7 @@
       },
       {
         "host": "caroline",
-        "text": "And the grid load is going to spike further tonight. Right now we're {{ELAPSED}} in and we're seeing baseline consumption plus Purge-night surge. By hour 6 or 7, when everything peaks, the system is going to be stressed."
+        "text": "And the grid load is going to spike further tonight. Right now we're {{ELAPSED}} in and we're seeing baseline consumption plus Purge-night surge. By hour 5 or 6, when everything peaks, the system is going to be stressed."
       },
       {
         "host": "holden",
@@ -394,7 +394,7 @@
       },
       {
         "host": "holden",
-        "text": "And if you're already locked and barricaded, you're ahead of the curve. The next ten hours are just about staying locked and staying calm."
+        "text": "And if you're already locked and barricaded, you're ahead of the curve. The next eleven hours are just about staying locked and staying calm."
       }
     ],
     "tickerItems": [

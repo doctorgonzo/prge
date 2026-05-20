@@ -18,7 +18,7 @@
       },
       {
         "host": "quinn",
-        "text": "So I'm going to pour one now. There's the glass. There's the pour. Neat. Because we've earned it three hours in and the night is young and the phones won't stop ringing."
+        "text": "So I'm going to pour one now. There's the glass. There's the pour. Neat. Because we've earned it two hours in and the night is young and the phones won't stop ringing."
       },
       {
         "host": "quinn",
@@ -30,7 +30,7 @@
       },
       {
         "host": "quinn",
-        "text": "Marcus, that's a great question. Let me tell you what we know. Caroline and Holden ran the data on the first three hours and the North Side is actually running quiet. Comparatively. Sherman Street, Northport, up that way — you're in a good spot."
+        "text": "Marcus, that's a great question. Let me tell you what we know. Caroline and Holden ran the data on the first two hours and the North Side is actually running quiet. Comparatively. Sherman Street, Northport, up that way — you're in a good spot."
       },
       {
         "host": "quinn",
@@ -186,7 +186,7 @@
       },
       {
         "host": "quinn",
-        "text": "This is what the first three hours look like. Fragments of information. Pieces of a puzzle nobody wants to solve. And all of it's coming in through the phone lines of a pirate radio station that only exists for twelve hours a year."
+        "text": "This is what the first two hours look like. Fragments of information. Pieces of a puzzle nobody wants to solve. And all of it's coming in through the phone lines of a pirate radio station that only exists for twelve hours a year."
       },
       {
         "host": "quinn",
@@ -258,7 +258,7 @@
       },
       {
         "host": "quinn",
-        "text": "We're about two hours forty minutes into the Purge. {{CLOCK}} Madison time. The Capitol breach happened three hours ago. The coordinated group is still moving through State Street. David's mysterious boat is still out on Mendota. And my phone lines are absolutely lit up."
+        "text": "We're about two hours forty minutes into the Purge. {{CLOCK}} Madison time. The Capitol breach happened two hours ago. The coordinated group is still moving through State Street. David's mysterious boat is still out on Mendota. And my phone lines are absolutely lit up."
       },
       {
         "host": "quinn",
@@ -446,13 +446,13 @@
       },
       {
         "host": "quinn",
-        "text": "When she hangs up, I'm finishing my fourth whiskey and the night is feeling less like three hours and more like infinity. Which means I'm doing my job right."
+        "text": "When she hangs up, I'm finishing my fourth whiskey and the night is feeling less like two hours and more like infinity. Which means I'm doing my job right."
       }
     ],
     "tickerItems": [
       {
         "category": "kill-count",
-        "text": "East Side kill count now estimated at 14 (YoY at 3-hour mark: 12). Capitol breach + organized group activity driving numbers up."
+        "text": "East Side kill count now estimated at 14 (YoY at 2-hour mark: 12). Capitol breach + organized group activity driving numbers up."
       },
       {
         "category": "emergency",

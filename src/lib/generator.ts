@@ -40,7 +40,25 @@ function buildChronologyContext(inWorldTime: string): string | null {
   if (pos.daytime || pos.currentEntry === null) return null;
 
   const hoursIn = pos.hourIndex + 1;
-  const purgeStatusLine = `THE PURGE IS HAPPENING RIGHT NOW. It commenced at 19:00 Madison. We are ${hoursIn} hour${hoursIn > 1 ? "s" : ""} into the 12-hour Purge (use {{ELAPSED}} for the exact elapsed time). It ends at 07:00 tomorrow morning. The Purge is NOT in the future — it is CURRENTLY underway. IMPORTANT: elapsed Purge time is (clock minus 19:00), NOT the clock time itself. If the clock reads 22:00, that is 3 hours elapsed, not 22.`;
+  const purgeStatusLine = `THE PURGE IS HAPPENING RIGHT NOW. It commenced at EXACTLY 19:00 (7 PM) Madison. It ends at 07:00 (7 AM) — 12 hours total. We are ${hoursIn} hour${hoursIn > 1 ? "s" : ""} into the Purge (use {{ELAPSED}} for the exact elapsed time). The Purge is NOT in the future — it is CURRENTLY underway.
+
+=== PURGE ELAPSED TIME — MANDATORY REFERENCE ===
+The Purge starts at 19:00. Elapsed time = (clock time MINUS 19:00). NOT clock minus 18:00. NOT the clock time itself.
+  19:00 =  0 hours elapsed (Purge just started)
+  20:00 =  1 hour  elapsed
+  21:00 =  2 hours elapsed (NOT 3)
+  22:00 =  3 hours elapsed (NOT 4)
+  23:00 =  4 hours elapsed (NOT 5)
+  00:00 =  5 hours elapsed (NOT 6) — midnight
+  01:00 =  6 hours elapsed
+  02:00 =  7 hours elapsed
+  03:00 =  8 hours elapsed
+  04:00 =  9 hours elapsed
+  05:00 = 10 hours elapsed
+  06:00 = 11 hours elapsed
+  07:00 = 12 hours elapsed — Purge ENDS
+The current clock reads ${inWorldTime}, so elapsed time is ${hoursIn} hour${hoursIn > 1 ? "s" : ""}.
+=== END ELAPSED TIME TABLE ===`;
 
   const positionLine = `Broadcast position: hour ${hoursIn} of ${pos.totalHours}. This hour started at ${pos.currentEntry.startInWorldTime} Madison and is the "${pos.currentEntry.title}" slot.`;
   const hostsLine = `Hosts on mic THIS HOUR (use ONLY these names — no other host appears in this segment): ${pos.currentEntry.hosts.join(", ")}.`;
@@ -237,7 +255,9 @@ DYNAMIC TIME PLACEHOLDERS — two distinct placeholders, used for DIFFERENT purp
 
   {{ELAPSED}} = how long since the Purge started at 19:00 (e.g. "3 hours and 38 minutes").
       Use for: "We're {{ELAPSED}} in," "{{ELAPSED}} since commencement."
-      CRITICAL: The Purge starts at 19:00. If the clock reads 22:38, that is 3 hours and 38 minutes elapsed — NOT "22 hours." The math is (current time minus 19:00). The server computes this correctly.
+      REMINDER: The Purge starts at 19:00 (NOT 18:00). Elapsed = clock minus 19:00.
+      At 21:00 that is 2 hours elapsed. At 23:00 that is 4 hours. At 00:00 (midnight) that is 5 hours.
+      The server computes {{ELAPSED}} correctly — just use the placeholder, do NOT do the math yourself.
 
 Do NOT write literal times like "22:07" or "three hours and seven minutes" — always use {{CLOCK}} or {{ELAPSED}} as appropriate. The server replaces these on every request so cached content stays accurate.`;
   const dynamicUserBlock = `${clockLine}
@@ -472,7 +492,9 @@ DYNAMIC TIME PLACEHOLDERS — two distinct placeholders, used for DIFFERENT purp
 
   {{ELAPSED}} = how long since the Purge started at 19:00 (e.g. "3 hours and 38 minutes").
       Use for: "We're {{ELAPSED}} in," "{{ELAPSED}} since commencement."
-      CRITICAL: The Purge starts at 19:00. If the clock reads 22:38, that is 3 hours and 38 minutes elapsed — NOT "22 hours." The math is (current time minus 19:00). The server computes this correctly.
+      REMINDER: The Purge starts at 19:00 (NOT 18:00). Elapsed = clock minus 19:00.
+      At 21:00 that is 2 hours elapsed. At 23:00 that is 4 hours. At 00:00 (midnight) that is 5 hours.
+      The server computes {{ELAPSED}} correctly — just use the placeholder, do NOT do the math yourself.
 
 Do NOT write literal times — always use {{CLOCK}} or {{ELAPSED}} as appropriate.
 

@@ -6,7 +6,7 @@
     "lines": [
       {
         "host": "marigold",
-        "text": "Welcome back. The clock reads 23:00. We are five hours in."
+        "text": "Welcome back. The clock reads 23:00. We are four hours in."
       },
       {
         "host": "marigold",
@@ -118,7 +118,7 @@
       },
       {
         "host": "marigold",
-        "text": "Seven hours remain. [pause] You have already survived four-fifths of your waiting."
+        "text": "Eight hours remain. [pause] You have already survived a third of your waiting."
       },
       {
         "host": "marigold",
@@ -198,7 +198,7 @@
       },
       {
         "host": "marigold",
-        "text": "The clock reads 23:00. We have five hours remaining together in the darkness."
+        "text": "The clock reads 23:00. We have eight hours remaining together in the darkness."
       },
       {
         "host": "marigold",
