@@ -501,6 +501,16 @@ export async function GET(request: Request): Promise<NextResponse> {
     const variant = pickVariant(cacheKey, madisonDate);
     // Try the date-selected variant first
     let cached = await readCached(format, cacheKey, variant);
+    // If the picked variant is missing (gaps in the pool), walk through
+    // all variants until we find one that exists. This prevents a cache
+    // miss → API call → 500 when credits are exhausted.
+    if (!cached) {
+      for (let i = 1; i < PREBAKE_VARIANT_COUNT; i++) {
+        const fallback = (variant + i) % PREBAKE_VARIANT_COUNT;
+        cached = await readCached(format, cacheKey, fallback);
+        if (cached) break;
+      }
+    }
     // Fall back to unversioned cache (pre-pool segments)
     if (!cached) cached = await readCached(format, cacheKey);
     if (cached) {
