@@ -38,6 +38,12 @@ export function EmergencyAlert({ interrupt, onComplete, soundEnabled = false }: 
     setVisibleCount(0);
   }
 
+  // Stable ref for onComplete — prevents the line-reveal useEffect from
+  // restarting every time page.tsx re-renders (which creates a new inline
+  // onComplete function reference each time).
+  const onCompleteRef = useRef(onComplete);
+  onCompleteRef.current = onComplete;
+
   const handleComplete = useCallback(() => {
     if (completedRef.current) return;
     completedRef.current = true;
@@ -46,8 +52,8 @@ export function EmergencyAlert({ interrupt, onComplete, soundEnabled = false }: 
       audioRef.current.pause();
       audioRef.current = null;
     }
-    onComplete();
-  }, [onComplete]);
+    onCompleteRef.current();
+  }, []);
 
   // Play the EBS attention tone when the alert mounts (if sound enabled).
   useEffect(() => {

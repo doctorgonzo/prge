@@ -122,7 +122,7 @@ export function buildStaticCountdownSegment(
       lines: [
         {
           host: "tim",
-          text: `Listen up, Madison. ${formatCountdown(secondsUntilPurge)} until the Purge siren. Everything you're about to see could save your life tonight. Pay attention.`,
+          text: `Listen up, Madison. {{COUNTDOWN}} until the Purge siren. Everything you're about to see could save your life tonight. Pay attention.`,
         },
       ],
       tickerItems: buildCountdownTicker(secondsUntilPurge, psaIndices, psaCursor),
@@ -138,7 +138,7 @@ export function buildStaticCountdownSegment(
     return {
       host: psa.host,
       text: idx === 0
-        ? `[${categoryLabel}] ${formatCountdown(secondsUntilPurge)} until Purge commencement. ${psa.text}`
+        ? `[${categoryLabel}] {{COUNTDOWN}} until Purge commencement. ${psa.text}`
         : `[${categoryLabel}] ${psa.text}`,
     };
   });
@@ -170,7 +170,7 @@ function buildCountdownTicker(
   const items: Array<{ category: string; text: string }> = [
     {
       category: "breaking",
-      text: `⚠ PURGE COMMENCEMENT IN ${formatCountdown(secondsUntilPurge).toUpperCase()} — ALL CRIME INCLUDING MURDER WILL BE LEGAL FOR 12 HOURS`,
+      text: `⚠ PURGE COMMENCEMENT IN {{COUNTDOWN_UPPER}} — ALL CRIME INCLUDING MURDER WILL BE LEGAL FOR 12 HOURS`,
     },
     {
       category: "breaking",

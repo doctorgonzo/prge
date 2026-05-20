@@ -264,9 +264,28 @@ function computeElapsed(inWorldTime: string): string {
 }
 
 /**
- * Replace {{CLOCK}} and {{ELAPSED}} placeholders in all string values of the
- * parsed segment body. {{CLOCK}} → the real Madison HH:MM; {{ELAPSED}} → the
- * human-readable elapsed Purge time. This lets cached segments stay time-accurate
+ * Compute time remaining until Purge commencement (19:00) as a human-readable
+ * string. E.g. "18:26" → "34 minutes", "17:15" → "1 hour 45 minutes".
+ */
+function computeCountdown(inWorldTime: string): string {
+  const [hh, mm] = inWorldTime.split(":").map(Number);
+  const nowMin = hh * 60 + mm;
+  const purgeMin = 19 * 60; // 19:00
+  const remaining = purgeMin - nowMin;
+  if (remaining <= 0) return "less than 1 minute";
+  const hours = Math.floor(remaining / 60);
+  const mins = remaining % 60;
+  if (hours === 0) return `${mins} minute${mins !== 1 ? "s" : ""}`;
+  if (mins === 0) return `${hours} hour${hours !== 1 ? "s" : ""}`;
+  return `${hours} hour${hours !== 1 ? "s" : ""} ${mins} minute${mins !== 1 ? "s" : ""}`;
+}
+
+/**
+ * Replace {{CLOCK}}, {{ELAPSED}}, {{COUNTDOWN}}, and {{COUNTDOWN_UPPER}}
+ * placeholders in all string values of the parsed segment body.
+ * {{CLOCK}} → the real Madison HH:MM; {{ELAPSED}} → elapsed Purge time;
+ * {{COUNTDOWN}} → time remaining until 19:00; {{COUNTDOWN_UPPER}} → same,
+ * uppercased (for ticker use). This lets cached segments stay time-accurate
  * across the full hour slot.
  */
 function interpolateTimePlaceholders(
@@ -274,10 +293,13 @@ function interpolateTimePlaceholders(
   inWorldTime: string,
 ): unknown {
   const elapsed = computeElapsed(inWorldTime);
+  const countdown = computeCountdown(inWorldTime);
   const json = JSON.stringify(body);
   const replaced = json
     .replace(/\{\{CLOCK\}\}/g, inWorldTime)
-    .replace(/\{\{ELAPSED\}\}/g, elapsed);
+    .replace(/\{\{ELAPSED\}\}/g, elapsed)
+    .replace(/\{\{COUNTDOWN_UPPER\}\}/g, countdown.toUpperCase())
+    .replace(/\{\{COUNTDOWN\}\}/g, countdown);
   return JSON.parse(replaced);
 }
 
