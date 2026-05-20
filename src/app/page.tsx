@@ -24,10 +24,12 @@ import { pickRandomNickCutIn } from "@/lib/nick-cut-ins";
 import { RetroAdBreak } from "@/components/RetroAdBreak";
 import { pickRandomTimInterrupt, type TimInterrupt } from "@/lib/tim-interrupts";
 import { EmergencyAlert } from "@/components/EmergencyAlert";
-import { pickRandomCallerPopup, type CallerPopup as CallerPopupData } from "@/lib/caller-popups";
+import { pickRandomCallerPopup, DARREN_ARC, type CallerPopup as CallerPopupData } from "@/lib/caller-popups";
 import { CallerPopup } from "@/components/CallerPopup";
 import { DawnCountdown } from "@/components/DawnCountdown";
+import { PurgeCountdownCard } from "@/components/PurgeCountdownCard";
 import { ViewerCount } from "@/components/ViewerCount";
+import { BroadcastCapture } from "@/components/BroadcastCapture";
 import { FORMAT_TO_HOST, pickRandomHostReaction, type HostReaction } from "@/lib/host-reactions";
 import {
   getStationBreach,
@@ -37,6 +39,7 @@ import {
   type CrisisUpdate,
 } from "@/lib/crisis-events";
 import { CrisisIndicator } from "@/components/CrisisIndicator";
+import { SignalLostFlash } from "@/components/SignalLostFlash";
 import { DeadAir } from "@/components/DeadAir";
 import {
   SurvivorBoard,
@@ -55,6 +58,8 @@ import {
   logSiren,
   logSegmentType,
   logSessionEnd,
+  logSignalStrength,
+  logDeadAir,
 } from "@/lib/broadcast-log";
 import {
   CATEGORY_LABEL,
@@ -253,6 +258,16 @@ export default function Page() {
     return hh >= 7 && hh < 18;
   }, [liveMadisonTime]);
 
+  // Dead zone detection — true when Madison clock is 03:00–04:59.
+  // The station is barely holding on: increased dead air, doubled noise
+  // bursts, slowed classical playback, subtle container flicker. Everything
+  // should feel wrong without being obviously broken.
+  const isDeadZone = useMemo(() => {
+    const time = liveMadisonTime ?? "12:00";
+    const hh = parseInt(time.split(":")[0], 10);
+    return hh >= 3 && hh < 5;
+  }, [liveMadisonTime]);
+
   // Daytime interstitial — when a commercial-break or station-id segment
   // arrives while a music-block is playing, we show it as an overlay instead
   // of replacing the music block. This keeps the YouTube iframe alive so the
@@ -289,6 +304,14 @@ export default function Page() {
   const [callerPopup, setCallerPopup] = useState<CallerPopupData | null>(null);
   const callerPopupTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  // ── Darren continuity arc ──────────────────────────────────────────
+  // Three-message story arc that plays out across the night:
+  //   Stage 0 = not started, 1 = first sent, 2 = second sent, 3 = complete
+  // Persisted to sessionStorage so a refresh doesn't restart mid-arc.
+  const DARREN_SESSION_KEY = "prge-darren-arc-stage";
+  const darrenArcStageRef = useRef(0);
+  const darrenTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
   // Refs tracking active overlay state — setTimeout callbacks read these at
   // fire time to avoid the stale-closure collision bug where an ad fires
   // during a nick cut-in or vice versa.
@@ -311,6 +334,11 @@ export default function Page() {
   const crisisTimersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
   const crisisScheduleRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const stationBreachFiredRef = useRef(false);
+
+  // SIGNAL LOST flash — fires for 1.5s before the opening Tim EBS alert.
+  const [signalLostActive, setSignalLostActive] = useState(false);
+  // Stash the pending crisis so we can fire the Tim alert after the flash.
+  const pendingCrisisAlertRef = useRef<CrisisEvent | null>(null);
 
   // Aftermath: permanent ripples from resolved crises. Each entry is a
   // { signalPenalty, tickerItems } that persists for the rest of the night.
@@ -944,15 +972,35 @@ export default function Page() {
   // Random text-in popups from listeners. These layer on top of content
   // (don't replace it). First after ~2 min, then every 3-7 min.
   // SUPPRESSED during daytime — nobody's texting in to an unmanned station.
+  // When Darren's arc is active (stage < 3), re-roll picks that land on
+  // his standalone pool entries so the arc messages are the only Darren
+  // the viewer sees tonight.
   useEffect(() => {
     if (!segment || isDaytime) return;
+
+    function pickNonArcCaller(): CallerPopupData {
+      let pick = pickRandomCallerPopup();
+      // If the Darren arc is running, avoid his standalone pool entries —
+      // his arc messages are the only Darren contact tonight.
+      let guard = 0;
+      while (
+        pick.name === "Darren" &&
+        pick.neighborhood === "Atwood" &&
+        darrenArcStageRef.current < 3 &&
+        guard < 10
+      ) {
+        pick = pickRandomCallerPopup();
+        guard++;
+      }
+      return pick;
+    }
 
     function scheduleCaller() {
       const delay = (3 + Math.random() * 4) * 60_000; // 3-7 min
       callerPopupTimerRef.current = setTimeout(() => {
         // Don't overlap with a previous popup.
         if (!callerPopup) {
-          setCallerPopup(pickRandomCallerPopup());
+          setCallerPopup(pickNonArcCaller());
         }
         scheduleCaller();
       }, delay);
@@ -960,13 +1008,87 @@ export default function Page() {
 
     // First caller after 2 minutes.
     const firstTimer = setTimeout(() => {
-      setCallerPopup(pickRandomCallerPopup());
+      setCallerPopup(pickNonArcCaller());
       scheduleCaller();
     }, 2 * 60_000);
 
     return () => {
       clearTimeout(firstTimer);
       if (callerPopupTimerRef.current) clearTimeout(callerPopupTimerRef.current);
+    };
+  }, [segment !== null, isDaytime]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // ── Darren continuity arc scheduling ────────────────────────────────
+  // Three-message story that plays out across 40-80 minutes total:
+  //   Message 1: 15-25 min into session (someone on his porch)
+  //   Message 2: 20-40 min after msg 1 (they are in the alley, kids with him)
+  //   Message 3: 20-40 min after msg 2 (they left a note, he is crying)
+  // Uses the existing CallerPopup component. Gated behind !isDaytime.
+  // Persisted to sessionStorage so a page refresh does not restart mid-arc.
+  useEffect(() => {
+    if (!segment || isDaytime) return;
+
+    // Hydrate arc stage from sessionStorage (survives refresh).
+    if (typeof window !== "undefined") {
+      const saved = sessionStorage.getItem(DARREN_SESSION_KEY);
+      if (saved) {
+        const stage = parseInt(saved, 10);
+        if (stage >= 1 && stage <= 3) {
+          darrenArcStageRef.current = stage;
+        }
+      }
+    }
+
+    // Arc already complete — nothing to schedule.
+    if (darrenArcStageRef.current >= 3) return;
+
+    function scheduleDarrenMessage(stage: number) {
+      let minDelay: number;
+      let maxDelay: number;
+      if (stage === 0) {
+        minDelay = 15;
+        maxDelay = 25;
+      } else {
+        minDelay = 20;
+        maxDelay = 40;
+      }
+      const delayMs =
+        (minDelay + Math.random() * (maxDelay - minDelay)) * 60_000;
+
+      darrenTimerRef.current = setTimeout(() => {
+        const nextStage = stage + 1;
+        const arcMessage = DARREN_ARC[stage];
+        if (!arcMessage) return;
+
+        // Show Darren via the existing caller popup. If another popup is
+        // active, wait 15s for it to clear, then push.
+        const tryShow = () => {
+          setCallerPopup((current) => {
+            if (current !== null) {
+              setTimeout(tryShow, 15_000);
+              return current;
+            }
+            darrenArcStageRef.current = nextStage;
+            if (typeof window !== "undefined") {
+              sessionStorage.setItem(DARREN_SESSION_KEY, String(nextStage));
+            }
+            return { ...arcMessage };
+          });
+        };
+        tryShow();
+
+        // Schedule the next message if the arc is not complete.
+        if (nextStage < 3) {
+          scheduleDarrenMessage(nextStage);
+        }
+      }, delayMs);
+    }
+
+    // Start from wherever the arc left off.
+    scheduleDarrenMessage(darrenArcStageRef.current);
+
+    return () => {
+      if (darrenTimerRef.current) clearTimeout(darrenTimerRef.current);
     };
   }, [segment !== null, isDaytime]); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -1055,13 +1177,21 @@ export default function Page() {
   // 1-3 blackouts per night at random intervals. First after 12-25 min,
   // then every 25-50 min. Won't fire during other overlays.
   // SUPPRESSED during daytime.
+  // INTENSIFIED during dead zone (03:00-04:59): cap raised to 5, intervals
+  // halved, so the station feels like it's barely keeping the signal alive.
+  const isDeadZoneRef = useRef(isDeadZone);
+  useEffect(() => { isDeadZoneRef.current = isDeadZone; }, [isDeadZone]);
   useEffect(() => {
     if (!segment || isDaytime) return;
 
     function scheduleDeadAir() {
-      // Stop after 3 per session
-      if (deadAirCountRef.current >= 3) return;
-      const delay = (25 + Math.random() * 25) * 60_000; // 25-50 min between
+      // Dead zone raises the cap from 3 to 5 per session.
+      const maxDeadAirs = isDeadZoneRef.current ? 5 : 3;
+      if (deadAirCountRef.current >= maxDeadAirs) return;
+      // Dead zone halves the interval: 12-25 min instead of 25-50 min.
+      const delay = isDeadZoneRef.current
+        ? (12 + Math.random() * 13) * 60_000
+        : (25 + Math.random() * 25) * 60_000;
       deadAirTimerRef.current = setTimeout(() => {
         // Don't fire during another overlay — use refs for stale-closure safety.
         if (
@@ -1073,6 +1203,7 @@ export default function Page() {
           const duration = 15 + Math.floor(Math.random() * 31); // 15-45s
           setDeadAirDuration(duration);
           setDeadAirActive(true);
+          logDeadAir();
           deadAirCountRef.current++;
         }
         scheduleDeadAir();
@@ -1090,6 +1221,7 @@ export default function Page() {
         const duration = 15 + Math.floor(Math.random() * 31);
         setDeadAirDuration(duration);
         setDeadAirActive(true);
+        logDeadAir();
         deadAirCountRef.current++;
       }
       scheduleDeadAir();
@@ -1163,9 +1295,39 @@ export default function Page() {
   // ── Survivor board: register callers ────────────────────────────────
   // When a caller popup appears, add them to the tracked list with a
   // deterministic fate queue based on tone + time of night.
+  // Darren arc messages 2-3 update his existing entry instead of adding
+  // duplicates — his fate stays ALIVE throughout (he survives the night).
   useEffect(() => {
     if (!callerPopup) return;
     const madisonTime = liveMadisonTime ?? madisonNowHHMM(new Date());
+
+    // Darren arc: if he is already on the board, update his entry instead
+    // of adding a duplicate. His arc stage > 1 means this is a follow-up.
+    const isDarrenArc =
+      callerPopup.name === "Darren" &&
+      callerPopup.neighborhood === "Atwood" &&
+      darrenArcStageRef.current >= 2;
+
+    if (isDarrenArc) {
+      setTrackedCallers((prev) => {
+        const idx = prev.findIndex(
+          (c) => c.name === "Darren" && c.neighborhood === "Atwood",
+        );
+        if (idx === -1) return prev; // safety: should not happen
+        const updated = [...prev];
+        updated[idx] = {
+          ...updated[idx],
+          lastUpdate: madisonTime,
+          // Keep him ALIVE — Darren survives the night. Cancel any
+          // pending fate drift so his arc resolution feels earned.
+          fate: "ALIVE",
+          _fateQueue: [],
+        };
+        return updated;
+      });
+      return; // skip normal registration + fate scheduling
+    }
+
     const { initialFate, queue, firstDelaySec } = buildFateQueue(
       callerPopup.tone,
       madisonTime,
@@ -1229,11 +1391,24 @@ export default function Page() {
     setActiveCrisis(crisis);
     setCrisisPhase("alert");
 
-    // Build a fake TimInterrupt for the opening alert.
-    setTimInterrupt({
-      severity: crisis.severity,
-      lines: crisis.openingLines,
-    });
+    // Show SIGNAL LOST flash for 1.5s BEFORE the Tim EBS alert.
+    // Stash the crisis so the flash callback can fire the alert.
+    pendingCrisisAlertRef.current = crisis;
+    setSignalLostActive(true);
+  }
+
+  // Called when the SIGNAL LOST flash auto-dismisses — now fire the Tim EBS.
+  function handleSignalLostComplete() {
+    setSignalLostActive(false);
+    const crisis = pendingCrisisAlertRef.current;
+    pendingCrisisAlertRef.current = null;
+    if (crisis) {
+      // Build a fake TimInterrupt for the opening alert.
+      setTimInterrupt({
+        severity: crisis.severity,
+        lines: crisis.openingLines,
+      });
+    }
   }
 
   // When the opening Tim alert dismisses, transition to active phase.
@@ -1561,7 +1736,10 @@ export default function Page() {
   // ── Broadcast log: beforeunload snapshot ────────────────────────────
   // Ref keeps the closure fresh so the handler always writes current values.
   const signalStrengthRef = useRef(signalStrength);
-  useEffect(() => { signalStrengthRef.current = signalStrength; }, [signalStrength]);
+  useEffect(() => {
+    signalStrengthRef.current = signalStrength;
+    logSignalStrength(signalStrength);
+  }, [signalStrength]);
 
   useEffect(() => {
     function onUnload() {
@@ -1860,6 +2038,7 @@ export default function Page() {
         <ClassicalInterlude
           playlist={classicalPlaylist}
           paused={classicalPaused}
+          deadZone={isDeadZone}
         />
       );
     }
@@ -1988,7 +2167,7 @@ export default function Page() {
   return (
     <main
       ref={mainRef}
-      className="prge-frame prge-temporal-tint min-h-screen relative bg-black text-green-200 font-mono"
+      className={`prge-frame prge-temporal-tint min-h-screen relative bg-black text-green-200 font-mono${isDeadZone ? " prge-dead-zone-flicker" : ""}`}
       style={{
         ...(cursorOverride ? { cursor: cursorOverride } : {}),
         ...(hHoldSlipping
@@ -2008,7 +2187,14 @@ export default function Page() {
       {/* Broadcast-realism: snow burst on segment change + ambient flickers.
           Signal strength drives glitch intensity — degrades during field reports,
           late hours, and active Tim interrupts. */}
-      <BroadcastNoise segmentFingerprint={segmentFingerprint} signalStrength={signalStrength} forceBurst={forceBurstCount} />
+      <BroadcastNoise segmentFingerprint={segmentFingerprint} signalStrength={signalStrength} forceBurst={forceBurstCount} soundEnabled={soundEnabled} deadZone={isDeadZone} />
+
+      {/* SIGNAL LOST flash — 1.5s dread beat before Tim's EBS alert.
+          z-[88]: above dead air (85), below Tim EBS (90). */}
+      <SignalLostFlash
+        active={signalLostActive}
+        onComplete={handleSignalLostComplete}
+      />
 
       {/* Tim Pepinski emergency broadcast — full-screen overlay.
           Routes through crisis lifecycle when a crisis is active. */}
@@ -2129,6 +2315,13 @@ export default function Page() {
           <NextUpChip />
         </div>
         <div className="flex items-center gap-4">
+          <BroadcastCapture
+            currentLine={currentLine}
+            segmentTitle={segmentTitle}
+            madisonTime={madisonTime}
+            tickerItems={allTickerItems}
+            signalStrength={signalStrength}
+          />
           {!isDaytime && trackedCallers.length > 0 && (
             <button
               type="button"
@@ -2190,8 +2383,14 @@ export default function Page() {
           become scrollable instead of clipping off-screen. min-h-screen +
           flex-center keeps short content visually centered when it fits;
           pt/pb clear the fixed top HUD and bottom newsticker. */}
-      <div className="relative z-10 min-h-screen flex items-center justify-center px-8 pt-24 pb-24">
-        {renderCenter()}
+      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center gap-8 px-8 pt-24 pb-24">
+        {/* Daytime countdown share card — prominent countdown to Purge Night.
+            Only visible 07:00-17:59; the 18:00 hour has its own emergency
+            countdown via CountdownLayout. Component self-gates on time. */}
+        <PurgeCountdownCard inWorldTime={madisonTime} />
+        <div className="w-full flex items-center justify-center">
+          {renderCenter()}
+        </div>
       </div>
 
       {/* PREVIOUSLY RECORDED badge — shown during rebroadcast phase */}

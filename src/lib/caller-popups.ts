@@ -290,3 +290,33 @@ export function pickCallerPopup(seed: string): CallerPopup {
 export function pickRandomCallerPopup(): CallerPopup {
   return CALLER_POOL[Math.floor(Math.random() * CALLER_POOL.length)];
 }
+
+// ── Darren continuity arc ─────────────────────────────────────────────
+// Three-message story arc that plays out across the night. Promotes
+// Darren from a random one-off caller to a recurring character whose
+// situation escalates. Viewers who catch message 1 early on will feel
+// genuinely invested when message 3 hits an hour later.
+
+export const DARREN_ARC: readonly CallerPopup[] = [
+  {
+    name: "Darren",
+    neighborhood: "Atwood",
+    message:
+      "This is Darren on Atwood. Someone's on my porch. They haven't moved in ten minutes. Can anyone see my street?",
+    tone: "scared",
+  },
+  {
+    name: "Darren",
+    neighborhood: "Atwood",
+    message:
+      "Darren again. They left my porch but I can hear them in the alley now. I have my kids with me. If anyone from Atwood is listening please check your locks.",
+    tone: "scared",
+  },
+  {
+    name: "Darren",
+    neighborhood: "Atwood",
+    message:
+      "Still here. Whoever was on the porch left. I found a note on the door but I can't read it in the dark. I'm crying. Don't tell anyone.",
+    tone: "scared",
+  },
+];

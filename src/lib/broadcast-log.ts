@@ -54,6 +54,12 @@ export interface BroadcastLog {
   sirenPlayed: boolean;
   /** Signal strength at session close (0–100). */
   finalSignalStrength: number;
+  /** Lowest signal strength observed during session (0–100). */
+  lowestSignalStrength: number;
+  /** Number of times signal dropped below 40%. */
+  signalDrops: number;
+  /** Number of dead air events experienced. */
+  deadAirEvents: number;
   /** Viewer count snapshot at close, if available. */
   finalViewerCount: { receivers: number; anomalous: number } | null;
 }
@@ -79,8 +85,19 @@ function freshLog(nightId: string, sessionStart: string): BroadcastLog {
     retroAds: 0,
     sirenPlayed: false,
     finalSignalStrength: 100,
+    lowestSignalStrength: 100,
+    signalDrops: 0,
+    deadAirEvents: 0,
     finalViewerCount: null,
   };
+}
+
+/** Migrate older logs that lack newer fields. Non-destructive. */
+function migrateLog(log: BroadcastLog): BroadcastLog {
+  if (log.lowestSignalStrength === undefined) log.lowestSignalStrength = log.finalSignalStrength;
+  if (log.signalDrops === undefined) log.signalDrops = 0;
+  if (log.deadAirEvents === undefined) log.deadAirEvents = 0;
+  return log;
 }
 
 // ── Read / write ───────────────────────────────────────────────────────
@@ -95,7 +112,7 @@ export function readLog(): BroadcastLog | null {
     const parsed = JSON.parse(raw) as BroadcastLog;
     // Basic shape validation
     if (!parsed.nightId || !Array.isArray(parsed.crises)) return null;
-    return parsed;
+    return migrateLog(parsed);
   } catch {
     return null;
   }
@@ -196,6 +213,34 @@ export function logSegmentType(segmentType: string): void {
     log.segmentsSeen.push(segmentType);
     writeLog(log);
   }
+}
+
+/** Track signal strength — updates lowest-ever and counts drops below 40%. */
+export function logSignalStrength(strength: number): void {
+  const log = readLog();
+  if (!log) return;
+  let changed = false;
+  if (strength < log.lowestSignalStrength) {
+    log.lowestSignalStrength = strength;
+    changed = true;
+  }
+  // Count a "drop" each time signal crosses below 40% from above.
+  // We use lowestSignalStrength being >= 40 before this call as a simple gate,
+  // but a more accurate approach: track if we were above 40 before.
+  // For simplicity, count each unique low-water mark crossing.
+  if (strength < 40 && log.finalSignalStrength >= 40) {
+    log.signalDrops++;
+    changed = true;
+  }
+  log.finalSignalStrength = strength;
+  if (changed) writeLog(log);
+}
+
+export function logDeadAir(): void {
+  const log = readLog();
+  if (!log) return;
+  log.deadAirEvents++;
+  writeLog(log);
 }
 
 export function logSessionEnd(

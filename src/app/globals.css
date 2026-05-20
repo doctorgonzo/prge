@@ -82,6 +82,44 @@ body {
   animation: prge-line-in 700ms ease-out;
 }
 
+/* ----- Phosphor persistence ghost ----- */
+/* CRT phosphor burn-in: previous line text fades from faint green to invisible
+   over 2 seconds, simulating the phosphor afterglow of a dying CRT. The ghost
+   sits absolutely behind the current line at the same position. */
+@keyframes prge-phosphor-fade {
+  from {
+    opacity: 0.18;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.prge-phosphor-ghost {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  color: rgba(74, 222, 128, 0.55); /* green-400 at partial opacity */
+  text-shadow: 0 0 8px rgba(74, 222, 128, 0.3);
+  animation: prge-phosphor-fade 2s ease-out forwards;
+}
+
+/* ----- 3AM dead-zone flicker ----- */
+/* Subtle container opacity dip during the dead zone hours (03:00-04:59).
+   Quick dip to 0.92 and back — barely perceptible, deeply unsettling. */
+@keyframes prge-dead-zone-flicker {
+  0%   { opacity: 1; }
+  4%   { opacity: 0.92; }
+  6%   { opacity: 0.96; }
+  8%   { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+.prge-dead-zone-flicker {
+  animation: prge-dead-zone-flicker 45s ease-in-out infinite;
+}
+
 /* Newsticker scroll — items are triplicated, so 33.333% translates one full set */
 @keyframes prge-ticker {
   from {
@@ -553,4 +591,91 @@ body {
 }
 .prge-countdown-pulse {
   animation: prge-countdown-pulse 1s ease-in-out infinite;
+}
+
+/* Daytime countdown — slow amber throb for the "PURGE NIGHT BEGINS IN"
+   digits when under 2 hours remain. Gentler than the emergency-prep
+   red pulse; this is the "still time to prepare" register. */
+@keyframes prge-purge-countdown-pulse {
+  0%, 100% {
+    opacity: 1;
+    text-shadow: 0 0 14px rgba(251, 191, 36, 0.5), 0 0 30px rgba(251, 191, 36, 0.2);
+  }
+  50% {
+    opacity: 0.85;
+    text-shadow: 0 0 22px rgba(251, 191, 36, 0.7), 0 0 44px rgba(251, 191, 36, 0.35);
+  }
+}
+.prge-purge-countdown-pulse {
+  animation: prge-purge-countdown-pulse 2.4s ease-in-out infinite;
+}
+
+/* ── SIGNAL LOST flash card ────────────────────────────────────────────
+   Full-screen dread beat before Tim's EBS alert. Static noise burst,
+   interference bars, glitch-doubled text. The screenshot moment. */
+
+/* Text slam — scales down from 120% with a hard red glow punch */
+@keyframes signal-lost-slam {
+  0%   { transform: scale(1.2); opacity: 0; text-shadow: 0 0 80px rgba(220, 38, 38, 0.9), 0 0 120px rgba(220, 38, 38, 0.4); }
+  30%  { transform: scale(0.98); opacity: 1; text-shadow: 0 0 40px rgba(220, 38, 38, 0.8), 0 0 80px rgba(220, 38, 38, 0.3); }
+  50%  { transform: scale(1.01); }
+  100% { transform: scale(1); text-shadow: 0 0 30px rgba(220, 38, 38, 0.6), 0 0 60px rgba(220, 38, 38, 0.2); }
+}
+.signal-lost-slam {
+  animation: signal-lost-slam 400ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Persistent red glow pulse on the text after the slam */
+.signal-lost-text {
+  text-shadow: 0 0 30px rgba(220, 38, 38, 0.6), 0 0 60px rgba(220, 38, 38, 0.2);
+  animation: signal-lost-pulse 800ms ease-in-out infinite 400ms;
+}
+@keyframes signal-lost-pulse {
+  0%, 100% { text-shadow: 0 0 30px rgba(220, 38, 38, 0.6), 0 0 60px rgba(220, 38, 38, 0.2); }
+  50%      { text-shadow: 0 0 50px rgba(220, 38, 38, 0.8), 0 0 100px rgba(220, 38, 38, 0.35); }
+}
+
+/* Glitch-doubled shadow — jitters offset from main text */
+@keyframes signal-lost-glitch-jitter {
+  0%   { transform: translate(3px, -2px); clip-path: inset(0 0 0 0); }
+  15%  { transform: translate(-4px, 1px); clip-path: inset(20% 0 60% 0); }
+  30%  { transform: translate(2px, -1px); clip-path: inset(50% 0 30% 0); }
+  45%  { transform: translate(-1px, 2px); clip-path: inset(10% 0 70% 0); }
+  60%  { transform: translate(3px, 0); clip-path: inset(40% 0 40% 0); }
+  75%  { transform: translate(-2px, -2px); clip-path: inset(0 0 0 0); }
+  100% { transform: translate(2px, 1px); clip-path: inset(30% 0 50% 0); }
+}
+.signal-lost-glitch {
+  animation: signal-lost-glitch-jitter 200ms steps(4, end) infinite;
+}
+
+/* Static noise burst — aggressive SVG noise overlay that fades */
+.signal-lost-static {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='sn'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 0.1 0 0 0 0 0.1 0 0 0 0.5 0'/></filter><rect width='100%25' height='100%25' filter='url(%23sn)'/></svg>");
+  animation: signal-lost-static-burst 1500ms ease-out forwards;
+}
+@keyframes signal-lost-static-burst {
+  0%   { opacity: 0.7; background-position: 0 0; }
+  10%  { opacity: 0.5; background-position: -50px -30px; }
+  20%  { opacity: 0.35; background-position: 30px -60px; }
+  40%  { opacity: 0.2; background-position: -20px 40px; }
+  70%  { opacity: 0.1; background-position: 50px 20px; }
+  100% { opacity: 0.05; }
+}
+
+/* Horizontal interference bars — sweep down the screen */
+.signal-lost-bars {
+  background: repeating-linear-gradient(
+    0deg,
+    transparent 0px,
+    transparent 4px,
+    rgba(220, 38, 38, 0.08) 4px,
+    rgba(220, 38, 38, 0.08) 5px
+  );
+  animation: signal-lost-bar-sweep 1500ms ease-out forwards;
+}
+@keyframes signal-lost-bar-sweep {
+  0%   { opacity: 0.8; transform: translateY(-10%); }
+  30%  { opacity: 0.5; transform: translateY(5%); }
+  100% { opacity: 0.15; transform: translateY(0); }
 }
