@@ -30,7 +30,10 @@ export function EmergencyAlert({ interrupt, onComplete, soundEnabled = false, co
   const [visibleCount, setVisibleCount] = useState(0);
   const completedRef = useRef(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const ttsAudioRef = useRef<HTMLAudioElement | null>(null);
   const interruptIdRef = useRef(interrupt);
+  /** When true, TTS drives line reveals instead of the fixed timer. */
+  const ttsActiveRef = useRef(false);
 
   // If the interrupt prop changes (new alert replacing old), reset state
   // so the new alert can play through and complete properly.
@@ -76,8 +79,101 @@ export function EmergencyAlert({ interrupt, onComplete, soundEnabled = false, co
     };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Sequential line reveal + hold + auto-dismiss.
+  // ── TTS-driven line reveals ──────────────────────────────────────
+  // When sound is enabled, prefetch all line audio, then play them
+  // sequentially — each line reveals when its audio starts, next line
+  // waits for current audio to finish. Falls through to the fixed
+  // timer when sound is off or TTS fails.
   useEffect(() => {
+    if (!soundEnabled) return;
+
+    let cancelled = false;
+
+    async function runTTSSequence() {
+      // Prefetch all lines in parallel
+      const urls: (string | null)[] = await Promise.all(
+        interrupt.lines.map(async (line) => {
+          try {
+            const res = await fetch("/api/tts", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ text: line, host: "tim" }),
+            });
+            if (!res.ok) return null;
+            const blob = await res.blob();
+            return URL.createObjectURL(blob);
+          } catch {
+            return null;
+          }
+        }),
+      );
+
+      if (cancelled) {
+        urls.forEach((u) => u && URL.revokeObjectURL(u));
+        return;
+      }
+
+      // If all fetches failed, bail and let fixed timer handle it
+      if (urls.every((u) => u === null)) return;
+
+      // TTS is driving — disable fixed timer reveals
+      ttsActiveRef.current = true;
+
+      // Play each line sequentially
+      for (let i = 0; i < urls.length; i++) {
+        if (cancelled) break;
+
+        // Reveal this line
+        setVisibleCount(i + 1);
+
+        const url = urls[i];
+        if (url) {
+          // Play and wait for completion
+          await new Promise<void>((resolve) => {
+            const audio = new Audio(url);
+            ttsAudioRef.current = audio;
+            audio.onended = () => {
+              ttsAudioRef.current = null;
+              resolve();
+            };
+            audio.onerror = () => {
+              ttsAudioRef.current = null;
+              resolve();
+            };
+            audio.play().catch(() => resolve());
+          });
+        } else {
+          // No audio for this line — use fixed delay
+          await new Promise((r) => setTimeout(r, LINE_INTERVAL_MS));
+        }
+      }
+
+      // Clean up blob URLs
+      urls.forEach((u) => u && URL.revokeObjectURL(u));
+
+      // Hold after last line, then dismiss
+      if (!cancelled) {
+        await new Promise((r) => setTimeout(r, HOLD_MS));
+        if (!cancelled) handleComplete();
+      }
+    }
+
+    runTTSSequence();
+
+    return () => {
+      cancelled = true;
+      if (ttsAudioRef.current) {
+        ttsAudioRef.current.pause();
+        ttsAudioRef.current = null;
+      }
+    };
+  }, [interrupt, soundEnabled, handleComplete]);
+
+  // ── Fixed-timer line reveals (fallback when sound is off) ────────
+  // Skipped entirely when TTS is actively driving reveals.
+  useEffect(() => {
+    if (ttsActiveRef.current) return;
+
     let cancelled = false;
     const timers: number[] = [];
 

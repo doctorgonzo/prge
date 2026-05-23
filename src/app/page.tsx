@@ -48,6 +48,7 @@ import {
 } from "@/components/SurvivorBoard";
 import { ClassicalInterlude } from "@/components/ClassicalInterlude";
 import { classicalPlaylistForSlot } from "@/lib/classical-pool";
+import { useTTS } from "@/hooks/useTTS";
 import {
   ensureLog,
   logCrisis,
@@ -219,6 +220,21 @@ const IS_DEV = process.env.NODE_ENV !== "production";
 // Default is muted (false) to avoid autoplay surprises.
 const SOUND_KEY = "prge-sound";
 
+// ── Armed chimpanzee ticker pool ──────────────────────────────────────
+// Recurring reports of an armed primate across Madison, escalating through
+// the night. At least 3 fire per Purge night, spaced 45-90 min apart.
+const CHIMP_TICKER_ITEMS: PlayerTickerItem[] = [
+  { category: "breaking", text: "MPD dispatch: Reports of armed primate near Capitol Square — officers maintaining distance" },
+  { category: "breaking", text: "Dane County Animal Control unresponsive to calls regarding armed primate on E Washington Ave" },
+  { category: "breaking", text: "Armed chimpanzee sighted near Vilas Zoo perimeter — zoo officials deny escaped animals" },
+  { category: "breaking", text: "UPDATE: Chimpanzee confirmed carrying modified firearm — last seen heading toward Isthmus" },
+  { category: "breaking", text: "National Guard unit reportedly diverted to contain armed primate near Lake Monona" },
+  { category: "breaking", text: "Witnesses report armed chimpanzee engaging Purge participants near Willy St — motives unclear" },
+  { category: "breaking", text: "MPD advisory: Do NOT approach primate — animal displays tactical awareness, considered dangerous" },
+  { category: "breaking", text: "UNCONFIRMED: Armed chimpanzee commandeered a vehicle on University Ave — headed west" },
+  { category: "breaking", text: "Primate situation ongoing — sources say animal has been seen armed on multiple Purge nights" },
+];
+
 export default function Page() {
   const [segment, setSegment] = useState<PlayerSegment | null>(null);
   const [loading, setLoading] = useState(true);
@@ -246,6 +262,9 @@ export default function Page() {
   // Sound on/off — localStorage-backed so the preference persists across
   // sessions. Default false (muted); user clicks the speaker icon to enable.
   const [soundEnabled, setSoundEnabled] = useState(false);
+
+  // ── TTS (Edge TTS voice synthesis) ──
+  const { speak, stop: stopTTS, prefetch: prefetchTTS } = useTTS(soundEnabled);
 
   // Daytime detection — true when Madison clock is 07:00–17:59.
   // Gates Purge-night overlays (Tim interrupts, crises, callers, nick cut-ins)
@@ -379,6 +398,12 @@ export default function Page() {
   const [forceBurstCount, setForceBurstCount] = useState(0);
   const [glitchTickerItems, setGlitchTickerItems] = useState<PlayerTickerItem[]>([]);
   const firstMinuteGlitchFiredRef = useRef(false);
+
+  // ── Armed chimpanzee sightings ──────────────────────────────────────
+  // Recurring primate reports injected into the ticker 3 times per night,
+  // spaced 45-90 min apart. Escalates through the pool.
+  const [chimpTickerItem, setChimpTickerItem] = useState<PlayerTickerItem | null>(null);
+  const chimpSightingsRef = useRef(0);
 
   // ── Survivor Board ──────────────────────────────────────────────────
   // Hidden slide-out panel tracking callers and their evolving fate status.
@@ -1292,6 +1317,33 @@ export default function Page() {
     return () => clearTimeout(timer);
   }, [segment, isDaytime]);
 
+  // ── Armed chimpanzee sightings (recurring ticker event) ──────────────
+  // At least 3 times per Purge night, reports of an armed primate
+  // appear in the ticker. Spaced 45-90 minutes apart. Nighttime only.
+  useEffect(() => {
+    if (isDaytime || !segment) return;
+    if (chimpSightingsRef.current >= 3) return;
+
+    // Random delay: 45-90 min for spacing (first one fires sooner: 10-25 min)
+    const isFirst = chimpSightingsRef.current === 0;
+    const minDelay = isFirst ? 10 * 60_000 : 45 * 60_000;
+    const maxDelay = isFirst ? 25 * 60_000 : 90 * 60_000;
+    const delay = minDelay + Math.random() * (maxDelay - minDelay);
+
+    const timer = setTimeout(() => {
+      const idx = chimpSightingsRef.current;
+      if (idx >= CHIMP_TICKER_ITEMS.length) return;
+      chimpSightingsRef.current = idx + 1;
+
+      setChimpTickerItem(CHIMP_TICKER_ITEMS[idx]);
+
+      // Self-clear after 120s so it scrolls through once and vanishes.
+      setTimeout(() => setChimpTickerItem(null), 120_000);
+    }, delay);
+
+    return () => clearTimeout(timer);
+  }, [isDaytime, segment, chimpTickerItem]); // re-schedule after clear
+
   // ── Survivor board: register callers ────────────────────────────────
   // When a caller popup appears, add them to the tracked list with a
   // deterministic fate queue based on tone + time of night.
@@ -1818,6 +1870,38 @@ export default function Page() {
     return () => clearTimeout(id);
   }, [segment, cycleIndex, cycleLength, commercialUnits, interludePhase]);
 
+  // ── TTS: speak current line, prefetch next ────────────────────────
+  // Fires whenever the displayed line changes. Suppressed when overlays
+  // (Tim interrupt, retro ad, nick cut-in, dead air, siren) take over.
+  useEffect(() => {
+    if (!segment || !soundEnabled) return;
+
+    // Don't speak during full-screen overlay takeovers
+    const isInterlude = interludePhase === "interlude" || interludePhase === "interlude-post";
+    const overlayActive =
+      !!timInterrupt || !!retroAd || !!nickCutIn || purgeSirenActive || deadAirActive || isInterlude;
+    if (overlayActive) {
+      stopTTS();
+      return;
+    }
+
+    // Commercial breaks have ad units, not regular lines
+    if (segment.type === "commercial-break") return;
+
+    const line = segment.lines[cycleIndex];
+    if (!line?.text) return;
+
+    // Speak current line
+    speak(line.text, line.host);
+
+    // Prefetch next line for gapless playback
+    const nextIdx = cycleIndex + 1;
+    if (nextIdx < segment.lines.length) {
+      const next = segment.lines[nextIdx];
+      if (next?.text) prefetchTTS(next.text, next.host);
+    }
+  }, [segment, cycleIndex, soundEnabled, timInterrupt, retroAd, nickCutIn, purgeSirenActive, deadAirActive, interludePhase, speak, stopTTS, prefetchTTS]);
+
   // ── Interlude → rebroadcast scheduling ────────────────────────────
   // When the first dialog ends and interlude starts, schedule the
   // rebroadcast after 15-20 minutes of classical.
@@ -1961,8 +2045,11 @@ export default function Page() {
     if (glitchTickerItems.length > 0) {
       items = [...items, ...glitchTickerItems];
     }
+    if (chimpTickerItem) {
+      items = [...items, chimpTickerItem];
+    }
     return items;
-  }, [tickerItems, crisisAftermaths, unauthorizedReceiverItem, glitchTickerItems]);
+  }, [tickerItems, crisisAftermaths, unauthorizedReceiverItem, glitchTickerItems, chimpTickerItem]);
   const tickerLoop = useMemo(
     () => [...allTickerItems, ...allTickerItems, ...allTickerItems],
     [allTickerItems],
@@ -2316,7 +2403,30 @@ export default function Page() {
         </div>
         <div className="flex items-center gap-4">
           <BroadcastCapture
-            currentLine={currentLine}
+            currentLine={
+              // Only pass dialog text when it's actually visible on screen.
+              (segment?.type === "music-block" ||
+                classicalActive ||
+                (retroAd && segment?.type !== "music-block") ||
+                (nickCutIn && nickCutInPhase === "playing") ||
+                deadAirActive)
+                ? undefined
+                : currentLine
+            }
+            overlayLabel={
+              // Describe what's actually on screen when dialog is hidden.
+              deadAirActive
+                ? "▌▌ NO SIGNAL ▌▌"
+                : nickCutIn && nickCutInPhase === "playing"
+                  ? `♫  ${nickCutIn.track.artist ?? "Unknown"} — ${nickCutIn.track.title}`
+                  : segment?.type === "music-block" && segment.tracks?.[0]
+                    ? `♫  ${segment.tracks[0].artist ?? "Unknown"} — ${segment.tracks[0].title}`
+                    : classicalActive && classicalPlaylist[0]
+                      ? `♫  ${classicalPlaylist[0].composer} — ${classicalPlaylist[0].title}`
+                      : retroAd
+                        ? `[AD BREAK]  ${retroAd.sponsorLine ?? "COMMERCIAL"}`
+                        : undefined
+            }
             segmentTitle={segmentTitle}
             madisonTime={madisonTime}
             tickerItems={allTickerItems}
@@ -2348,6 +2458,12 @@ export default function Page() {
               MORNING AFTER
             </Link>
           )}
+          <Link
+            href="/map"
+            className="text-green-600 hover:text-green-400 transition-colors text-[10px] tracking-widest"
+          >
+            MAP
+          </Link>
           <Link
             href="/about"
             className="text-green-600 hover:text-green-400 transition-colors text-[10px] tracking-widest"
