@@ -20,6 +20,12 @@ export interface BroadcastCaptureProps {
   tickerItems: PlayerTickerItem[];
   /** Signal strength 0-100, drives the bar meter in the capture. */
   signalStrength: number;
+  /**
+   * When a video/music overlay covers the dialog text, this describes
+   * what's actually on screen (e.g. "♫ Artist — Title" or "INTERLUDE").
+   * Rendered in place of currentLine when currentLine is undefined.
+   */
+  overlayLabel?: string;
 }
 
 // ── Canvas dimensions (social-media friendly) ──────────────────────────
@@ -66,6 +72,7 @@ export function BroadcastCapture({
   currentLine,
   segmentTitle,
   madisonTime,
+  overlayLabel,
   tickerItems,
   signalStrength,
 }: BroadcastCaptureProps) {
@@ -220,6 +227,18 @@ export function BroadcastCapture({
         drawGlowText(line, LEFT, cursorY, GREEN, 0.4);
         cursorY += 32;
       }
+    } else if (overlayLabel) {
+      // ── Overlay label (music/interlude/ad playing) ─────────────────
+      // Centered vertically in the content area when no dialog is visible.
+      const centerY = 240;
+      ctx.font = "18px monospace";
+      ctx.fillStyle = GREEN;
+      ctx.textBaseline = "top";
+      const wrapped = wrapText(ctx, overlayLabel, CONTENT_W);
+      for (const line of wrapped) {
+        const lineW = ctx.measureText(line).width;
+        drawGlowText(line, LEFT + (CONTENT_W - lineW) / 2, centerY + (wrapped.indexOf(line) * 30), GREEN, 0.35);
+      }
     }
 
     // ── Ticker headline ──────────────────────────────────────────────
@@ -323,7 +342,7 @@ export function BroadcastCapture({
         cooldownRef.current = false;
       }, 1200);
     }, "image/png");
-  }, [currentLine, segmentTitle, madisonTime, tickerItems, signalStrength]);
+  }, [currentLine, segmentTitle, madisonTime, tickerItems, signalStrength, overlayLabel]);
 
   return (
     <button
