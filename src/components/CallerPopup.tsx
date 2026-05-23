@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import type { CallerPopup as CallerPopupData } from "@/lib/caller-popups";
+import { useTTS } from "@/hooks/useTTS";
 
 // AIM-style text-in popup. Appears over the broadcast view in the bottom-right
 // corner like a buddy-list message window — someone out there in Madison texted
@@ -47,8 +48,15 @@ export function CallerPopup({ caller, onComplete }: CallerPopupProps) {
   // Phase: "enter" → scale-up + border pulse, "visible" → steady, "exit" → fade out.
   const [phase, setPhase] = useState<"enter" | "visible" | "exit">("enter");
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const { speak: speakTTS, stop: stopTTS } = useTTS(true);
 
   const duration = displayDurationMs(caller.message);
+
+  // TTS: caller reads their message when the popup appears.
+  useEffect(() => {
+    speakTTS(caller.message, "caller");
+    return () => { stopTTS(); };
+  }, [caller.message]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Entry animation: flash the border brighter for 300ms, then settle.
   useEffect(() => {
