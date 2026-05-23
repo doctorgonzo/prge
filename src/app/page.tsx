@@ -2252,6 +2252,7 @@ export default function Page() {
   }
 
   return (
+    <>
     <main
       ref={mainRef}
       className={`prge-frame prge-temporal-tint min-h-screen relative bg-black text-green-200 font-mono${isDeadZone ? " prge-dead-zone-flicker" : ""}`}
@@ -2593,7 +2594,12 @@ export default function Page() {
         />
       )}
 
-      {/* Newsticker, bottom — present on every format */}
+    </main>
+
+      {/* Newsticker, bottom — present on every format.
+          Lives OUTSIDE <main> because the prge-temporal-tint filter creates a
+          containing block that breaks fixed positioning (bottom-0 would be
+          relative to <main>'s bottom, not the viewport). */}
       <div className="fixed bottom-0 inset-x-0 z-20 h-14 bg-black/80 border-t border-green-700 overflow-hidden flex items-center">
         <div ref={tickerRef} className="prge-ticker flex whitespace-nowrap text-sm">
           {tickerLoop.map((item, i) => (
@@ -2619,6 +2625,6 @@ export default function Page() {
           ))}
         </div>
       </div>
-    </main>
+    </>
   );
 }
