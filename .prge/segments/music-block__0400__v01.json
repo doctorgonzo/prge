@@ -25,7 +25,8 @@
             "host": "nick",
             "text": "Number 57 on the Billboard 200. Not huge, but it was theirs. No compromises. Temperature's dropping out there, folks. Wind's kicking. This song feels right at 4 in the morning."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Ole",
@@ -52,7 +53,8 @@
             "host": "nick",
             "text": "Play this one. Sing it. You're not alone tonight — not while this is playing."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "Trusty Chords",
@@ -75,7 +77,8 @@
             "host": "nick",
             "text": "The dual vocals — that call-and-response — it's like two parts of the same broken thing trying to make sense of staying together. I get it. We all get it at 04:00 on Purge night."
           }
-        ]
+        ],
+        "durationSec": 170
       },
       {
         "title": "Coming Home",
@@ -102,7 +105,8 @@
             "host": "nick",
             "text": "Coming home means you left. And you're still not sure if leaving was worth it. Play this one sad."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "Sunday Morning",
@@ -129,7 +133,8 @@
             "host": "nick",
             "text": "Sunday morning at 04:00 in the Purge. Time doesn't mean anything anymore."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "The Decline",
@@ -160,7 +165,8 @@
             "host": "nick",
             "text": "Sit with this one. Let it end you."
           }
-        ]
+        ],
+        "durationSec": 1189
       }
     ],
     "lines": [],

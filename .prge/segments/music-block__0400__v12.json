@@ -25,7 +25,8 @@
             "host": "nick",
             "text": "The whole world is against me — that's what Grace named the band because of. That's the fuel. That's what pushes you through the collapse hours. You understand that yet, listener? The world being against you is actually the point."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Ole",
@@ -48,7 +49,8 @@
             "host": "nick",
             "text": "That's the Bouncing Souls, man. That's their whole thing. They call their fans 'True Believers.' Not audience. Not listeners. *Believers*. Because you have to believe in something at four in the morning. You just do."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "A Good Drink",
@@ -71,7 +73,8 @@
             "host": "nick",
             "text": "That's the moment, you know? When the thing you made to say goodbye suddenly makes you want to keep living. That's collapse hour spirituality right there."
           }
-        ]
+        ],
+        "durationSec": 650
       },
       {
         "title": "Sunday Morning",
@@ -94,7 +97,8 @@
             "host": "nick",
             "text": "And 'Sunday Morning' — whatever the original is, the Gimmes version is a lifeline. It's 04:00 on Purge night and someone's listening to this track thinking, 'Sunrise. Sunrise is coming. I can make it.'"
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "Coming Home",
@@ -117,7 +121,8 @@
             "host": "nick",
             "text": "Fat Mike signed them to Fat Wreck Chords in 2001. These guys have been grinding it out, song after song, reference after reference — history, literature, pop culture all tangled up. 'Coming Home' is exactly what we're all trying to do. Make it to sunrise."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "Linoleum",
@@ -140,7 +145,8 @@
             "host": "nick",
             "text": "And that's where we are at 04:00 on a Purge night, listening to a song about living on next to nothing. 'Linoleum' is the sound of surviving on the floor because the alternative is worse. I get it, Fat Mike. I've always gotten it."
           }
-        ]
+        ],
+        "durationSec": 159
       },
       {
         "title": "Bloodhail",
@@ -163,7 +169,8 @@
             "host": "nick",
             "text": "I'm gonna level with you — if you're listening at 04:00, if you've made it this far, 'Bloodhail' is the moment you stop pretending everything's fine. The storm's coming. The hail's real. And the only thing that keeps you alive is knowing someone else felt this too."
           }
-        ]
+        ],
+        "durationSec": 22
       }
     ],
     "lines": [],

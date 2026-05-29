@@ -25,7 +25,8 @@
             "host": "nick",
             "text": "James Bowman's been on guitar since 2001. That's loyalty. That's punk rock. Watching the West Side collapse and staying at the mic anyway—that's what this band taught us."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Ole",
@@ -48,7 +49,8 @@
             "host": "nick",
             "text": "I'm thinking about that. About hope on a street corner. About 'Ole'—that rally cry that means *we're still here*. Sing it with me, Madison. Sing it in your barricaded kitchen. {{CLOCK}}. We're still here."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "Sunday Morning",
@@ -71,7 +73,8 @@
             "host": "nick",
             "text": "It's {{CLOCK}}. Three hours until the sun hits Lake Mendota. You know what Sunday morning feels like? It feels like survival."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "A Better Place, A Better Time",
@@ -94,7 +97,8 @@
             "host": "nick",
             "text": "They broke up in '98 because touring was killing them. Personal relationships were bleeding out. Then they had a farewell show in Gainesville and during rehearsal for that final gig, they wrote four new songs and realized they didn't want to die. They came back. That's punk rock. That's survival."
           }
-        ]
+        ],
+        "durationSec": 249
       },
       {
         "title": "Coming Home",
@@ -117,7 +121,8 @@
             "host": "nick",
             "text": "The Lawrence Arms got booted from Warped Tour in 2002 for calling out five-dollar bottled water. Called the whole thing a dismantling of everything punk rock had built. That's politics. That's integrity. That's coming home knowing you fought something that mattered."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "Stupid Kid",
@@ -144,7 +149,8 @@
             "host": "nick",
             "text": "I'm a stupid kid too. We all are. Out here at {{CLOCK}} on a night when the West Side's burning and we're still playing records. That's what stupid kids do. We keep going."
           }
-        ]
+        ],
+        "durationSec": 153
       },
       {
         "title": "Lincoln Barrett Lotus Wonton Intercourse",
@@ -171,7 +177,8 @@
             "host": "nick",
             "text": "This song's title is basically a joke. It's supposed to be. It's supposed to be ridiculous and clever and dumb all at once because that's what happens when you're awake and angry at {{CLOCK}} on a night like this. You laugh or you break."
           }
-        ]
+        ],
+        "durationSec": 108
       }
     ],
     "lines": [],

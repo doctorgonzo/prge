@@ -29,7 +29,8 @@
             "host": "nick",
             "text": "'Sink, Florida, Sink' — it's about drowning where you're from. About watching your home collapse. I get it, Laura. We're all watching something sink tonight."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Ole",
@@ -56,7 +57,8 @@
             "host": "nick",
             "text": "'Ole' is the singalong. It's the moment at 04:00 in the morning when you realize you're not alone because forty thousand other people are singing it too, barricaded in their homes, listening to PRGE, refusing to give up."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "A Better Place, A Better Time",
@@ -87,7 +89,8 @@
             "host": "nick",
             "text": "'A Better Place, A Better Time' — that's not optimism. That's *work*. That's the refusal to accept that this is all we get."
           }
-        ]
+        ],
+        "durationSec": 249
       },
       {
         "title": "Sunday Morning",
@@ -114,7 +117,8 @@
             "host": "nick",
             "text": "'Sunday Morning' — take the softness of the original and punk it until it *bleeds*. Make the beauty violent. That's what they do. That's the Gimmes' whole *deal*."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "Coming Home",
@@ -145,7 +149,8 @@
             "host": "nick",
             "text": "'Coming Home' — it's about the place you can't go back to because it's already *gone*. But you come back anyway. You come home because that's where you belong, even if it's wreckage."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "The Decline",
@@ -180,7 +185,8 @@
             "host": "nick",
             "text": "'The Decline' — it's the final track. It's the one that plays at the end of everything because there *is no end*, just the endless catalog of ways we've failed. And we keep *playing anyway*."
           }
-        ]
+        ],
+        "durationSec": 1189
       }
     ],
     "lines": [],

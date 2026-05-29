@@ -25,7 +25,8 @@
             "host": "nick",
             "text": "Listen to the bridge. Just — listen. That's what despair sounds like when you're too tired to scream anymore."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Ole",
@@ -52,7 +53,8 @@
             "host": "nick",
             "text": "'Ole' is a singalong. It's a *survival* song. If you're hearing this and you're home and you're scared — sing it. Just sing it."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "A Better Place, A Better Time",
@@ -75,7 +77,8 @@
             "host": "nick",
             "text": "That's the moment. That's the moment everything changes. When you're supposed to end and you realize you can't. You *have* to keep going."
           }
-        ]
+        ],
+        "durationSec": 249
       },
       {
         "title": "Sunday Morning",
@@ -98,7 +101,8 @@
             "host": "nick",
             "text": "This cover is tender. Actual genuine tenderness. Which is — which is worse, somehow, than if they'd shredded it. Tenderness hurts more at 04:00 in the morning."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "Coming Home",
@@ -121,7 +125,8 @@
             "host": "nick",
             "text": "'Coming Home' is about exhaustion and knowing you've done something that matters, even if nobody cares. Even if you never get credit. That's the song. That's all of it."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "The Decline",
@@ -148,7 +153,8 @@
             "host": "nick",
             "text": "This is the song people use to remember why they cared in the first place. Why punk mattered. Why staying home and saying no is a form of resistance."
           }
-        ]
+        ],
+        "durationSec": 1189
       }
     ],
     "lines": [],

@@ -29,7 +29,8 @@
             "host": "nick",
             "text": "Listen to this. Really listen. This is the sound of kids who felt too much and decided to make noise about it instead of keeping it in."
           }
-        ]
+        ],
+        "durationSec": 195
       },
       {
         "title": "Linoleum",
@@ -52,7 +53,8 @@
             "host": "nick",
             "text": "This track right here? It's about exactly what it sounds like. Linoleum. The floor you're standing on in your barricaded apartment right now. NOFX got it."
           }
-        ]
+        ],
+        "durationSec": 159
       },
       {
         "title": "Dammit",
@@ -79,7 +81,8 @@
             "host": "nick",
             "text": "Mark's girlfriend gave him an ultimatum once — choose her or the band. He chose the band. Broke up with her immediately. That's commitment. That's why Blink-182 is still here and his ex-girlfriend is not."
           }
-        ]
+        ],
+        "durationSec": 171
       },
       {
         "title": "Die for the Government",
@@ -106,7 +109,8 @@
             "host": "nick",
             "text": "'Die for the Government' is about exactly what it says. The lie they sell you. The meat grinder. Listen to this and tell me it doesn't sound like 2169."
           }
-        ]
+        ],
+        "durationSec": 220
       },
       {
         "title": "Blitzkrieg Bop",
@@ -133,7 +137,8 @@
             "host": "nick",
             "text": "Dee Dee counted off every song — 'One, two, three, four!' — and that became the Ramones trademark. A thing so simple it became *mythology*. This is the song that proves it."
           }
-        ]
+        ],
+        "durationSec": 133
       },
       {
         "title": "Suburban Home",
@@ -160,7 +165,8 @@
             "host": "nick",
             "text": "Listen to the hooks on this. They're so *simple*. That's the trap. That's why you can't get it out of your head at {{CLOCK}} on Purge night when you should be thinking about anything else."
           }
-        ]
+        ],
+        "durationSec": 101
       },
       {
         "title": "Fat Lip",
@@ -187,7 +193,8 @@
             "host": "nick",
             "text": "Island Records signed them because Green Day and Blink-182 had opened the door. Sum 41 walked through it and made their own thing — harder, edgier, more serious. And they're *still* here. Playing music while the world ends. Playing it loud."
           }
-        ]
+        ],
+        "durationSec": 200
       }
     ],
     "lines": [],

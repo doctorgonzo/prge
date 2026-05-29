@@ -25,7 +25,8 @@
             "host": "nick",
             "text": "I used to think songs like this were about escape. Now I think they're about surrender. About watching something sink and choosing to go down with it instead of running. We're {{ELAPSED}} in and I think I finally get it."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Ole",
@@ -52,7 +53,8 @@
             "host": "nick",
             "text": "So 'Ole' is a singalong. A chant. You're supposed to yell it with people. Even if you're alone at {{CLOCK}}, barricaded in your living room. The song doesn't care. It's for you anyway."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "A Good Drink, A Good Smoke, A Good Song",
@@ -75,7 +77,8 @@
             "host": "nick",
             "text": "(coughs) Sorry. Yeah. A good drink. A good smoke. A good song. That's the title. That's the whole philosophy. We're living it right now, aren't we?"
           }
-        ]
+        ],
+        "durationSec": 191
       },
       {
         "title": "Sunday Morning",
@@ -98,7 +101,8 @@
             "host": "nick",
             "text": "This one's tender. 'Sunday Morning.' It's not a punk song they're covering — it's just a beautiful song played fast and hard until it bleeds a little. Like everything worth hearing, right now, at {{CLOCK}}, sounds like that."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "Coming Home",
@@ -125,7 +129,8 @@
             "host": "nick",
             "text": "(voice cracks) 'Coming Home.' It's about belonging somewhere, to somebody. Even when you don't deserve it. Even when you've burned it all down. It's — (pause) — it's a beautiful thing to sing about when you know you might not make it home."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "We've Had Enough",
@@ -152,7 +157,8 @@
             "host": "nick",
             "text": "Derek Grant on drums — used to play for the Suicide Machines. And that name makes sense when you listen to this. Everything they touch sounds like drowning. Beautiful drowning. And you keep swimming anyway."
           }
-        ]
+        ],
+        "durationSec": 205
       }
     ],
     "lines": [],

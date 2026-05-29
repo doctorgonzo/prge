@@ -29,7 +29,8 @@
             "host": "nick",
             "text": "Most important pop-punk record ever made. No argument. Play it."
           }
-        ]
+        ],
+        "durationSec": 195
       },
       {
         "title": "Linoleum",
@@ -52,7 +53,8 @@
             "host": "nick",
             "text": "This song is about nothing. Linoleum floors. Waiting. Existing. That's everything. Play it and understand what matters."
           }
-        ]
+        ],
+        "durationSec": 159
       },
       {
         "title": "Hope",
@@ -75,7 +77,8 @@
             "host": "nick",
             "text": "This record — this sound — it made it okay to care about things. To hope. When everything else was crushing you, The Descendents said 'It's okay to feel something.' Beautiful."
           }
-        ]
+        ],
+        "durationSec": 121
       },
       {
         "title": "Back to the Motor League",
@@ -98,7 +101,8 @@
             "host": "nick",
             "text": "This track right here — it's them saying they're not going back. Not to the league. Not to the compromise. Forward only. That's the move."
           }
-        ]
+        ],
+        "durationSec": 177
       },
       {
         "title": "Nitty Gritty Dirt Band",
@@ -121,7 +125,8 @@
             "host": "nick",
             "text": "Pure joy. That's what this band is. Taking something nobody asked for and making it matter through sheer force of will and three-chord precision."
           }
-        ]
+        ],
+        "durationSec": 131
       },
       {
         "title": "Sell Out",
@@ -148,7 +153,8 @@
             "host": "nick",
             "text": "{{ELAPSED}} and we're still here. Still playing. Still refusing to shut up. That's what this block is for."
           }
-        ]
+        ],
+        "durationSec": 268
       }
     ],
     "lines": [],

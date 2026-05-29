@@ -25,7 +25,8 @@
             "host": "nick",
             "text": "This first one goes out to everyone on the East Side who's got their lights off and their doors locked and a baseball bat they've never used for baseball. This is the Ramones. \"I Wanna Be Sedated.\" Yeah. Me too."
           }
-        ]
+        ],
+        "durationSec": 152
       },
       {
         "title": "Myage",
@@ -64,7 +65,8 @@
             "host": "nick",
             "text": "Anyway. Here's the Descendents. \"Myage.\" If you know, you know."
           }
-        ]
+        ],
+        "durationSec": 121
       },
       {
         "title": "Linoleum",
@@ -107,7 +109,8 @@
             "host": "nick",
             "text": "Here. NOFX. \"Linoleum.\" Tim, this one's for you. You are the linoleum. You are the thing everyone walks on and nobody appreciates and you hold the whole floor together."
           }
-        ]
+        ],
+        "durationSec": 159
       },
       {
         "title": "Disconnected",
@@ -138,7 +141,8 @@
             "host": "nick",
             "text": "On that note — here's Face to Face. \"Disconnected.\" You're welcome."
           }
-        ]
+        ],
+        "durationSec": 211
       }
     ],
     "lines": [

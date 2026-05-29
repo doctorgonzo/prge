@@ -29,7 +29,8 @@
             "host": "nick",
             "text": "Play it loud. The clock reads {{CLOCK}}. Three hours until sunrise. Three hours until the bodies stop moving."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Ole",
@@ -56,7 +57,8 @@
             "host": "nick",
             "text": "There's a story — one of the members was homeless, wrote 'Gone' sitting on a street corner. Heard a song in a parked car that gave him hope. Wanted to write something that would do the same for someone else. That's punk rock. That's what it's supposed to be."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "A Good Chance",
@@ -83,7 +85,8 @@
             "host": "nick",
             "text": "The lyrics are all working-class resilience. Personal struggle. Emotional vulnerability. This isn't macho punk. This is punk that admits it's scared."
           }
-        ]
+        ],
+        "durationSec": 141
       },
       {
         "title": "Sunday Morning",
@@ -110,7 +113,8 @@
             "host": "nick",
             "text": "This track — it's tender. Three hours from sunrise. We're playing the tender ones now."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "The Decline",
@@ -141,7 +145,8 @@
             "host": "nick",
             "text": "Fat Mike said something about the 'Leave It Alone' video from Punk in Drublic — said they didn't even send it to MTV. Didn't want to be part of the machine. That's the NOFX principle. You don't negotiate with the beast. You mock it from outside."
           }
-        ]
+        ],
+        "durationSec": 1189
       },
       {
         "title": "Coming Home",
@@ -172,7 +177,8 @@
             "host": "nick",
             "text": "'Coming Home' is what you play when you're three hours from sunrise and you realize you made it through another night. It's acknowledgment. It's gratitude. It's the song that says 'I'm still here.'"
           }
-        ]
+        ],
+        "durationSec": 996
       }
     ],
     "lines": [],

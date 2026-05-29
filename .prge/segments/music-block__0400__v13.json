@@ -25,7 +25,8 @@
             "host": "nick",
             "text": "The silence out there right now — that's the same silence Grace was screaming into in Gainesville. Nothing's changed. The world's still against you. The only difference is now you know the song by heart."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Ole",
@@ -48,7 +49,8 @@
             "host": "nick",
             "text": "Right now, at {{CLOCK}}, you're listening to this alone in your house. But you're singing it back. That's what Greg Attonito built. That's what punk's supposed to do."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "A Good Honest Dollar",
@@ -71,7 +73,8 @@
             "host": "nick",
             "text": "Listen to Wollard's voice on this track. That's desperation wrapped in hope. That's a guy who almost lost his best friends and decided to fight to keep them instead."
           }
-        ]
+        ],
+        "durationSec": 13
       },
       {
         "title": "Sunday Morning",
@@ -94,7 +97,8 @@
             "host": "nick",
             "text": "They wore matching costumes at every show — whatever theme the album called for. Pure theater. Pure commitment to the bit. By 2006, they were so legendary that the Pirates booked them for three post-game shows at PNC Park. The first night they got booed. The next two were cancelled. Sometimes the world isn't ready for genius."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "Coming Home",
@@ -117,7 +121,8 @@
             "host": "nick",
             "text": "In 2002, they got booted from the Warped Tour for criticizing the festival organizers onstage. They said the tour was 'single-handedly dismantling the whole thing we've been fucking building.' These guys were willing to burn bridges to keep their integrity. That's rare."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "Linoleum",
@@ -144,7 +149,8 @@
             "host": "nick",
             "text": "It's {{CLOCK}} and we're still here. NOFX is still here. They signed to Fat Mike's own label, Fat Wreck Chords, and kept making political, angry, hilarious records. They're still making them. Some things outlast the Purge."
           }
-        ]
+        ],
+        "durationSec": 159
       }
     ],
     "lines": [],

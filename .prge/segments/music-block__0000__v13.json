@@ -29,7 +29,8 @@
             "host": "nick",
             "text": "And here we are in 2169, still playing this record on an unlicensed frequency on a night when the law doesn't exist. NOFX would approve of that. Probably."
           }
-        ]
+        ],
+        "durationSec": 159
       },
       {
         "title": "Basket Case",
@@ -56,7 +57,8 @@
             "host": "nick",
             "text": "Still here at midnight. The city's still breathing. Mostly."
           }
-        ]
+        ],
+        "durationSec": 195
       },
       {
         "title": "Hope",
@@ -83,7 +85,8 @@
             "host": "nick",
             "text": "'Hope' is quiet. It's a breather. And that's what we need right now. A moment to breathe before the next surge."
           }
-        ]
+        ],
+        "durationSec": 121
       },
       {
         "title": "Dammit",
@@ -110,7 +113,8 @@
             "host": "nick",
             "text": "The clock reads {{CLOCK}}. Weird night out there. Can feel it."
           }
-        ]
+        ],
+        "durationSec": 171
       },
       {
         "title": "Punk Rock Girl",
@@ -137,7 +141,8 @@
             "host": "nick",
             "text": "And you know what? 'Punk Rock Girl' still works. Still makes you want to find someone weird and embrace the absolute chaos of it all. Which, given the night we're having, seems pretty timely."
           }
-        ]
+        ],
+        "durationSec": 163
       },
       {
         "title": "My Heart Will Go On",
@@ -164,7 +169,8 @@
             "host": "nick",
             "text": "The Gimmes wore matching costumes for their live shows — cowboy outfits, drag, whatever matched the album theme. They made punk rock *fun* again. Which is what we need. Fun is a weapon."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Die for the Government",
@@ -191,7 +197,8 @@
             "host": "nick",
             "text": "'Die for the Government' is four minutes of distilled rage. It's the kind of song that doesn't age because the disease it's describing never gets cured. We're still here. Still singing it. Still meaning it."
           }
-        ]
+        ],
+        "durationSec": 220
       }
     ],
     "lines": [],

@@ -9,7 +9,8 @@
     "lint": "eslint",
     "pregen": "tsx --env-file=.env.local scripts/pregen.ts",
     "research-bands": "bash -c 'set -a && source .env.local && set +a && tsx scripts/research-bands.ts'",
-    "prebake": "bash -c 'set -a && source .env.local && set +a && tsx scripts/prebake.ts'"
+    "prebake": "bash -c 'set -a && source .env.local && set +a && tsx scripts/prebake.ts'",
+    "backfill-durations": "bash -c 'set -a && source .env.local && set +a && tsx scripts/backfill-durations.ts'"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.96.0",

@@ -29,7 +29,8 @@
             "host": "nick",
             "text": "Grace built Total Treble Studio in Elkton, Florida in 2011. Her own space. Control. That's punk rock in 2169 — you can't trust anyone else's machines."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Coming Home",
@@ -60,7 +61,8 @@
             "host": "nick",
             "text": "Coming home to Madison tonight. Clock reads {{CLOCK}}. Some of you are nine hours into this. Some of you are thinking about opening the door. Don't. Stay with me. Stay with the Lawrence Arms."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "A Good Drink, Good People, Good Fun",
@@ -87,7 +89,8 @@
             "host": "nick",
             "text": "They've split up twice since then. They're back now. Resilience. Working-class identity. Emotional vulnerability. That's the whole Gainesville school right there — Grace, Hot Water Music, the whole scene. Tough people singing soft songs."
           }
-        ]
+        ],
+        "durationSec": 11
       },
       {
         "title": "Ole",
@@ -118,7 +121,8 @@
             "host": "nick",
             "text": "Thirty years running. Thirty years of hometown pride and backyard philosophy. We're nine hours in, folks. You need a sing-along. You need 'Ole.' You need to remember why you stayed home."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "Sunday Morning",
@@ -145,7 +149,8 @@
             "host": "nick",
             "text": "They wear matching costumes. Weird ones. For Love Their Country, cowboy outfits. For Are a Drag, they dressed as characters from musicals. Punk rock as theater. Humor as weapon. Three hours until sunrise. You need softness. You need this."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "The Decline (acoustic version)",
@@ -176,7 +181,8 @@
             "host": "nick",
             "text": "NOFX started on an independent label. They own Fat Wreck Chords now. They signed everyone else. They're still here. That's the joke. That's the victory. That's why we're still broadcasting."
           }
-        ]
+        ],
+        "durationSec": 1009
       },
       {
         "title": "Hope",
@@ -207,7 +213,8 @@
             "host": "nick",
             "text": "Milo became a biochemist at DuPont. Punk rock and chemistry. Stevenson said of the original members, 'They saved me from being a lonely, miserable little boy.' That's what this music does. It saves you. Hope. The last thing in Pandora's box. We need it {{ELAPSED}} in."
           }
-        ]
+        ],
+        "durationSec": 121
       }
     ],
     "lines": [],

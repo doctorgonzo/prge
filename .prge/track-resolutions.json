@@ -430,5 +430,392 @@
     "resolvedAt": "2026-05-21T03:01:30.422Z",
     "source": "api",
     "durationSec": 542
+  },
+  "descendents::myage": {
+    "videoId": "aVqo5Ibxk2M",
+    "embeddable": true,
+    "resolvedTitle": "Myage",
+    "resolvedChannel": "Descendents - Topic",
+    "resolvedAt": "2026-05-29T05:03:48.949Z",
+    "source": "api",
+    "durationSec": 121
+  },
+  "face to face::disconnected": {
+    "videoId": "BVF8cXsMPaU",
+    "embeddable": true,
+    "resolvedTitle": "face to face - Disconnected (OFFICIAL VIDEO)",
+    "resolvedChannel": "officialfacetoface",
+    "resolvedAt": "2026-05-29T05:03:49.315Z",
+    "source": "api",
+    "durationSec": 211
+  },
+  "me first and the gimme gimmes::crazy": {
+    "videoId": "EA68qcCNQ7Q",
+    "embeddable": true,
+    "resolvedTitle": "Crazy",
+    "resolvedChannel": "Me First and the Gimme Gimmes - Topic",
+    "resolvedAt": "2026-05-29T05:03:49.860Z",
+    "source": "api",
+    "durationSec": 189
+  },
+  "dead milkmen::bitchin' camaro": {
+    "videoId": "ZeY2nut3Gj8",
+    "embeddable": true,
+    "resolvedTitle": "Bitchin&#39; Camaro",
+    "resolvedChannel": "The Dead Milkmen - Topic",
+    "resolvedAt": "2026-05-29T05:03:50.459Z",
+    "source": "api",
+    "durationSec": 182
+  },
+  "blink-182::dammit": {
+    "videoId": "sT0g16_LQaQ",
+    "embeddable": true,
+    "resolvedTitle": "blink-182 - Dammit",
+    "resolvedChannel": "blink182VEVO",
+    "resolvedAt": "2026-05-29T05:03:50.888Z",
+    "source": "api",
+    "durationSec": 171
+  },
+  "the ramones::blitzkrieg bop": {
+    "videoId": "NQDPx_k66w4",
+    "embeddable": true,
+    "resolvedTitle": "Blitzkrieg Bop",
+    "resolvedChannel": "Ramones - Topic",
+    "resolvedAt": "2026-05-29T05:03:51.451Z",
+    "source": "api",
+    "durationSec": 133
+  },
+  "sum 41::fat lip": {
+    "videoId": "KBA7LG09S4c",
+    "embeddable": true,
+    "resolvedTitle": "Sum 41 - Fatlip (Official Video) [4K Remastered]",
+    "resolvedChannel": "elcoronelGOD",
+    "resolvedAt": "2026-05-29T05:03:51.910Z",
+    "source": "api",
+    "durationSec": 200
+  },
+  "the descendents::suburban home": {
+    "videoId": "x9PPlQp5DT4",
+    "embeddable": true,
+    "resolvedTitle": "Suburban Home",
+    "resolvedChannel": "Descendents - Topic",
+    "resolvedAt": "2026-05-29T05:03:52.275Z",
+    "source": "api",
+    "durationSec": 101
+  },
+  "propagandhi::and we thought nation states were a bad idea": {
+    "videoId": "3AKiQGXd9aQ",
+    "embeddable": true,
+    "resolvedTitle": "...And We Thought That Nation-States Were a Bad Idea",
+    "resolvedChannel": "Propagandhi - Topic",
+    "resolvedAt": "2026-05-29T05:03:52.927Z",
+    "source": "api",
+    "durationSec": 145
+  },
+  "dead milkmen::punk rock girl": {
+    "videoId": "ZyaK3jo4Sl4",
+    "embeddable": true,
+    "resolvedTitle": "The Dead Milkmen - Punk Rock Girl HD",
+    "resolvedChannel": "TimothyTim PSP",
+    "resolvedAt": "2026-05-29T05:03:53.341Z",
+    "source": "api",
+    "durationSec": 163
+  },
+  "me first and the gimme gimmes::blister in the sun": {
+    "videoId": "G89chAA4l8s",
+    "embeddable": true,
+    "resolvedTitle": "Violent Femmes - Blister In The Sun (Lyric Video)",
+    "resolvedChannel": "ViolentFemmesVEVO",
+    "resolvedAt": "2026-05-29T05:03:53.676Z",
+    "source": "api",
+    "durationSec": 147
+  },
+  "anti-flag::this is the end (for me it never began)": {
+    "videoId": "qnVD7WuarSo",
+    "embeddable": true,
+    "resolvedTitle": "Anti-Flag - This Is The End (For You My Friend) (Official Video)",
+    "resolvedChannel": "AntiFlagVEVO",
+    "resolvedAt": "2026-05-29T05:03:54.251Z",
+    "source": "api",
+    "durationSec": 191
+  },
+  "me first and the gimme gimmes::jolly copulation": {
+    "videoId": "E2rqz8P0278",
+    "embeddable": true,
+    "resolvedTitle": "Jolene",
+    "resolvedChannel": "Me First and the Gimme Gimmes - Topic",
+    "resolvedAt": "2026-05-29T05:03:55.626Z",
+    "source": "scraper",
+    "durationSec": 108
+  },
+  "mojo nixon::don henley must die": {
+    "videoId": "Qt81bVae4tQ",
+    "embeddable": true,
+    "resolvedTitle": "Don Henley Must Die",
+    "resolvedChannel": "Mojo Nixon - Topic",
+    "resolvedAt": "2026-05-29T05:03:56.102Z",
+    "source": "api",
+    "durationSec": 260
+  },
+  "anti-flag::this is the time (to live and die for fascism)": {
+    "videoId": "V-2JSg4YxoU",
+    "embeddable": true,
+    "resolvedTitle": "Mehdi: ‘I Don’t Debate Fascists’",
+    "resolvedChannel": "Zeteo",
+    "resolvedAt": "2026-05-29T05:03:56.477Z",
+    "source": "api",
+    "durationSec": 160
+  },
+  "me first and the gimme gimmes::jolly coppers are here": {
+    "videoId": "E2rqz8P0278",
+    "embeddable": true,
+    "resolvedTitle": "Jolene",
+    "resolvedChannel": "Me First and the Gimme Gimmes - Topic",
+    "resolvedAt": "2026-05-29T05:03:57.669Z",
+    "source": "scraper",
+    "durationSec": 108
+  },
+  "anti-flag::the inequality of it all": {
+    "videoId": "w6Yr9YMXVTc",
+    "embeddable": true,
+    "resolvedTitle": "I AM ANTI-CLASSISM",
+    "resolvedChannel": "Anti-Flag",
+    "resolvedAt": "2026-05-29T05:03:58.134Z",
+    "source": "api",
+    "durationSec": 61
+  },
+  "bad religion::sorrow": {
+    "videoId": "r7Hb4bxF12E",
+    "embeddable": true,
+    "resolvedTitle": "Bad Religion - Sorrow",
+    "resolvedChannel": "Epitaph Records",
+    "resolvedAt": "2026-05-29T05:03:58.487Z",
+    "source": "api",
+    "durationSec": 202
+  },
+  "me first and the gimme gimmes::rocking robin": {
+    "videoId": "PSRv0aoTJEQ",
+    "embeddable": true,
+    "resolvedTitle": "Rockin Robin",
+    "resolvedChannel": "unklbobo",
+    "resolvedAt": "2026-05-29T05:03:58.808Z",
+    "source": "api",
+    "durationSec": 88
+  },
+  "anti-flag::the person i wanted to kill": {
+    "videoId": "c5ZPAQz9CXs",
+    "embeddable": true,
+    "resolvedTitle": "When You Don&#39;t Control Your Government People Want To Kill You",
+    "resolvedChannel": "Anti-Flag - Topic",
+    "resolvedAt": "2026-05-29T05:03:59.197Z",
+    "source": "api",
+    "durationSec": 168
+  },
+  "me first and the gimme gimmes::summertime": {
+    "videoId": "UpSSioz2Buo",
+    "embeddable": true,
+    "resolvedTitle": "Summertime",
+    "resolvedChannel": "Me First and the Gimme Gimmes - Topic",
+    "resolvedAt": "2026-05-29T05:03:59.603Z",
+    "source": "api",
+    "durationSec": 130
+  },
+  "propagandhi::how to recognize a demon has become your friend": {
+    "videoId": "OmaqK8GwTcI",
+    "embeddable": true,
+    "resolvedTitle": "Dax - Propaganda (Feat. Tom MacDonald) [Official Music Video]",
+    "resolvedChannel": "Dax",
+    "resolvedAt": "2026-05-29T05:03:59.940Z",
+    "source": "api",
+    "durationSec": 229
+  },
+  "me first and the gimme gimmes::cumbersome": {
+    "videoId": "T70I-VDykpo",
+    "embeddable": true,
+    "resolvedTitle": "The Catchy Tones (Cumbersome)",
+    "resolvedChannel": "Sambo M.",
+    "resolvedAt": "2026-05-29T05:04:00.438Z",
+    "source": "api",
+    "durationSec": 204
+  },
+  "me first and the gimme gimmes::my heart will go on": {
+    "videoId": "Yiwdf97LQ5g",
+    "embeddable": true,
+    "resolvedTitle": "My Heart Will Go On",
+    "resolvedChannel": "Me First and the Gimme Gimmes - Topic",
+    "resolvedAt": "2026-05-29T05:04:00.877Z",
+    "source": "api",
+    "durationSec": 165
+  },
+  "hot water music::a good drink, a good smoke, a good song": {
+    "videoId": "XxWjtWONuGc",
+    "embeddable": true,
+    "resolvedTitle": "Eric Church - Smoke A Little Smoke (Official Music Video)",
+    "resolvedChannel": "EricChurchVEVO",
+    "resolvedAt": "2026-05-29T05:04:01.660Z",
+    "source": "api",
+    "durationSec": 191
+  },
+  "the lawrence arms::coming home": {
+    "videoId": "-To4sz9zr74",
+    "embeddable": true,
+    "resolvedTitle": "The Lawrence Arms on the friction and conflict that have given them an identity",
+    "resolvedChannel": "Alternative Press",
+    "resolvedAt": "2026-05-29T05:04:02.123Z",
+    "source": "api",
+    "durationSec": 996
+  },
+  "alkaline trio::we've had enough": {
+    "videoId": "jivhL27QdoY",
+    "embeddable": true,
+    "resolvedTitle": "Alkaline Trio - We&#39;ve Had Enough",
+    "resolvedChannel": "AlkalineTrioVEVO",
+    "resolvedAt": "2026-05-29T05:04:02.557Z",
+    "source": "api",
+    "durationSec": 205
+  },
+  "hot water music::a better place": {
+    "videoId": "8E4AgmQbjjw",
+    "embeddable": true,
+    "resolvedTitle": "Hot Water Music &quot;Habitual&quot; (Official Music Video)",
+    "resolvedChannel": "Equal Vision Records",
+    "resolvedAt": "2026-05-29T05:04:02.906Z",
+    "source": "api",
+    "durationSec": 249
+  },
+  "nofx::the decline": {
+    "videoId": "oWhy8PCuGsk",
+    "embeddable": true,
+    "resolvedTitle": "NOFX - The Decline Live at Red Rocks w/ Baz&#39;s Orchestra (Official Video)",
+    "resolvedChannel": "FAT WRECK CHORDS",
+    "resolvedAt": "2026-05-29T05:04:03.339Z",
+    "source": "api",
+    "durationSec": 1189
+  },
+  "hot water music::trusty chords": {
+    "videoId": "wHwiVJoBCFA",
+    "embeddable": true,
+    "resolvedTitle": "Trusty Chords",
+    "resolvedChannel": "Hot Water Music - Topic",
+    "resolvedAt": "2026-05-29T05:04:03.670Z",
+    "source": "api",
+    "durationSec": 170
+  },
+  "hot water music::a better place, a better time": {
+    "videoId": "8E4AgmQbjjw",
+    "embeddable": true,
+    "resolvedTitle": "Hot Water Music &quot;Habitual&quot; (Official Music Video)",
+    "resolvedChannel": "Equal Vision Records",
+    "resolvedAt": "2026-05-29T05:04:04.024Z",
+    "source": "api",
+    "durationSec": 249
+  },
+  "hot water music::a good conspiracy": {
+    "videoId": "6RmdsMZXEOU",
+    "embeddable": true,
+    "resolvedTitle": "Joanie Madden with John Joe &amp; Seamie -  &#39;The Conspiracy/ The Hot Water Bottle/ No, I&#39;m Liz Carroll&#39;",
+    "resolvedChannel": "James Ryan",
+    "resolvedAt": "2026-05-29T05:04:04.653Z",
+    "source": "api",
+    "durationSec": 239
+  },
+  "me first and the gimme gimmes::wonderful christmastime": {
+    "videoId": "KuX2sybGekE",
+    "embeddable": true,
+    "resolvedTitle": "Me First and The Gimme Gimmes - Merry Christmas Everybody - Slade Cover",
+    "resolvedChannel": "Southern Californias Best Punk Bands",
+    "resolvedAt": "2026-05-29T05:04:04.930Z",
+    "source": "api",
+    "durationSec": 166
+  },
+  "nofx::leaving babylon": {
+    "videoId": "MlOb3Hh_lmw",
+    "embeddable": true,
+    "resolvedTitle": "Recalcitrant  (Leaving Babylon)  Live@Point East Pub  12-2-2007",
+    "resolvedChannel": "rawjoeye",
+    "resolvedAt": "2026-05-29T05:04:05.346Z",
+    "source": "api",
+    "durationSec": 286
+  },
+  "alkaline trio::bloodhail": {
+    "videoId": "ibo1A86XhKQ",
+    "embeddable": true,
+    "resolvedTitle": "How do bass players do this?! #bass #bassguitar",
+    "resolvedChannel": "Danny Sapko",
+    "resolvedAt": "2026-05-29T05:04:05.843Z",
+    "source": "api",
+    "durationSec": 22
+  },
+  "alkaline trio::stupid kid": {
+    "videoId": "t8kluj2h_fQ",
+    "embeddable": true,
+    "resolvedTitle": "Alkaline Trio - Stupid Kid (Official Music Video) HD 1080p",
+    "resolvedChannel": "Alkaline Trio",
+    "resolvedAt": "2026-05-29T05:04:06.195Z",
+    "source": "api",
+    "durationSec": 153
+  },
+  "nofx::lincoln barrett lotus wonton intercourse": {
+    "videoId": "fiY4Q77iuuM",
+    "embeddable": true,
+    "resolvedTitle": "Bath of Least Resistance",
+    "resolvedChannel": "NOFX",
+    "resolvedAt": "2026-05-29T05:04:07.303Z",
+    "source": "scraper",
+    "durationSec": 108
+  },
+  "hot water music::a good drink, good people, good fun": {
+    "videoId": "lzfRry2GMUc",
+    "embeddable": true,
+    "resolvedTitle": "How to drink boba the right way 😍",
+    "resolvedChannel": "A&B Things",
+    "resolvedAt": "2026-05-29T05:04:07.790Z",
+    "source": "api",
+    "durationSec": 11
+  },
+  "bouncing souls::ole": {
+    "videoId": "X3hM9EpIDEE",
+    "embeddable": true,
+    "resolvedTitle": "Ole",
+    "resolvedChannel": "Bouncing Souls - Topic",
+    "resolvedAt": "2026-05-29T05:04:08.197Z",
+    "source": "api",
+    "durationSec": 185
+  },
+  "nofx::the decline (acoustic version)": {
+    "videoId": "IUH4KRVD8YE",
+    "embeddable": true,
+    "resolvedTitle": "NOFX - The Decline (Acoustic Cover) Studio Version",
+    "resolvedChannel": "Sammy Warm Hands",
+    "resolvedAt": "2026-05-29T05:04:08.557Z",
+    "source": "api",
+    "durationSec": 1009
+  },
+  "hot water music::a good chance": {
+    "videoId": "2EWsy-4quUw",
+    "embeddable": true,
+    "resolvedTitle": "Hot Water Music - &quot;By Any Means&quot; (Full Album Stream)",
+    "resolvedChannel": "Epitaph Records",
+    "resolvedAt": "2026-05-29T05:04:09.102Z",
+    "source": "api",
+    "durationSec": 141
+  },
+  "hot water music::a good man": {
+    "videoId": "4X5aG90jvNE",
+    "embeddable": true,
+    "resolvedTitle": "HOT WATER | TRIBAL MAN (REMIX) (Official Music Video)",
+    "resolvedChannel": "HOT WATER",
+    "resolvedAt": "2026-05-29T05:04:09.556Z",
+    "source": "api",
+    "durationSec": 211
+  },
+  "hot water music::a good drink": {
+    "videoId": "noacBxfMmc8",
+    "embeddable": true,
+    "resolvedTitle": "Morning Empty Stomach Drinking warm Water | Hot Water In Morning | Cure Digestive Problem",
+    "resolvedChannel": "Prashantj yoga",
+    "resolvedAt": "2026-05-29T05:04:09.933Z",
+    "source": "api",
+    "durationSec": 650
   }
 }

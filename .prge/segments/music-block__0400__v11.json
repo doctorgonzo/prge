@@ -29,7 +29,8 @@
             "host": "nick",
             "text": "I play this song every Purge night around this hour. Four-something in the morning. When the floor's gone soft. When you realize you've been awake through someone else's collapse and you're still here."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Coming Home",
@@ -56,7 +57,8 @@
             "host": "nick",
             "text": "I heard this song in a bar that doesn't exist anymore. Red Hook. The bar's gone, most of the people are gone, and I'm still here playing their record at the bottom of the night."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "A Good Man",
@@ -83,7 +85,8 @@
             "host": "nick",
             "text": "This song's about resilience. About working-class identity. About being the kind of man who stays. Three hours until dawn. Still here."
           }
-        ]
+        ],
+        "durationSec": 211
       },
       {
         "title": "Ole",
@@ -110,7 +113,8 @@
             "host": "nick",
             "text": "This is the song that reminds you why you stayed home. Not the barricades. Not the statistics. The singalong. The 'ole.' The thing that's bigger than fear."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "Sunday Morning",
@@ -137,7 +141,8 @@
             "host": "nick",
             "text": "So listen to a cover of 'Sunday Morning' in the dark. Feel the sunrise that's coming in a few hours. It's not coming to forgive anything. But it's coming."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "Linoleum",
@@ -164,7 +169,8 @@
             "host": "nick",
             "text": "This song's the outro to the collapse hour. It's almost 05:00. You've made it through {{ELAPSED}}. Linoleum. Cheap floors. The only floor you can afford to stand on. And you're standing on it."
           }
-        ]
+        ],
+        "durationSec": 159
       }
     ],
     "lines": [],

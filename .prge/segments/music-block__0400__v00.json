@@ -29,7 +29,8 @@
             "host": "nick",
             "text": "Themes of personal struggle, community, perseverance. Working-class identity. All the stuff they don't teach you in business school but they *should*. This track hits different at 04 in the morning when the East Side's finally quieting down."
           }
-        ]
+        ],
+        "durationSec": 249
       },
       {
         "title": "Sink, Florida, Sink",
@@ -52,7 +53,8 @@
             "host": "nick",
             "text": "This one's from the Reinventing Axl Rose era — pure, unfiltered, before the major labels got involved. Before anything got polished. This is the sound of someone who has *nothing* to lose."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Ole",
@@ -79,7 +81,8 @@
             "host": "nick",
             "text": "'Ole' is the singalong part. The moment where everyone in the room feels less alone. You need that at {{CLOCK}}. You *need* that."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "Sunday Morning",
@@ -102,7 +105,8 @@
             "host": "nick",
             "text": "They got booed at PNC Park in 2006 after opening for fireworks. The Pirates game crowd didn't want punk rock covers. They canceled the next two shows. And the Gimmes just... kept going. Kept playing in their matching costumes, kept making people laugh at serious songs."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "Coming Home",
@@ -129,7 +133,8 @@
             "host": "nick",
             "text": "Listen to the harmony on this. Kelly and McCaughan. Two voices, one story. Dark humor, personal mythology, sharp observation. Beauty in chaos. Camaraderie in the chorus. That's what we're doing here, at {{CLOCK}}, all of us still awake."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "The Decline",
@@ -156,7 +161,8 @@
             "host": "nick",
             "text": "It's {{CLOCK}}. You're still here. The Purge still has three hours. The East Side had 34 kills last year at this point. Atwood's probably holding. Willy Street barricaded. Tenney Park's quiet on the Mendota side. And here's The Decline. Eighteen minutes of 'Everything is falling apart and we deserve it.' Let it play."
           }
-        ]
+        ],
+        "durationSec": 1189
       }
     ],
     "lines": [],

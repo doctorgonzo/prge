@@ -25,7 +25,8 @@
             "host": "nick",
             "text": "Song's about a guy living in a shitty apartment on linoleum floors, and I'm looking around this broadcast booth — fake wood, questionable stains, smells like cigarettes and bad decisions — and yeah. Yeah, I get it. Here we go."
           }
-        ]
+        ],
+        "durationSec": 159
       },
       {
         "title": "Basket Case",
@@ -48,7 +49,8 @@
             "host": "nick",
             "text": "The clock reads {{CLOCK}}. Five hours into the Purge. The night's just getting rolling. This song's about a guy losing his mind in real time and I'm telling you — I've got seven more hours of music and I'm already feeling it too."
           }
-        ]
+        ],
+        "durationSec": 195
       },
       {
         "title": "Suburban Home",
@@ -75,7 +77,8 @@
             "host": "nick",
             "text": "'Suburban Home' is about wanting to stay put, wanting normalcy while everyone's telling you punk is supposed to be rebellion. It's the most beautiful contradiction. Here it is."
           }
-        ]
+        ],
+        "durationSec": 101
       },
       {
         "title": "Sorrow",
@@ -98,7 +101,8 @@
             "host": "nick",
             "text": "And 'Sorrow' — it's Greg Graffin singing about pain with the kind of clarity that makes you realize he's been studying this stuff. Philosophy meets punk rock. Here we go."
           }
-        ]
+        ],
+        "durationSec": 202
       },
       {
         "title": "Back to the Motor League",
@@ -121,7 +125,8 @@
             "host": "nick",
             "text": "Chris Hannah briefly became 'Glen Lambert' around the Potemkin City Limits album just to mess with people. They announced the prank in 2006 like it was the most natural thing in the world. These are anarchists who play punk rock like a weapon. This track lives in that space."
           }
-        ]
+        ],
+        "durationSec": 177
       },
       {
         "title": "Don Henley Must Die",
@@ -144,7 +149,8 @@
             "host": "nick",
             "text": "And when Don Henley heard 'Don Henley Must Die,' instead of suing, he showed up and played it. Mojo Nixon said Henley had 'balls as big as church bells.' That's the moment you realize — some people *get it*. Some people understand the game."
           }
-        ]
+        ],
+        "durationSec": 260
       },
       {
         "title": "Bitchin' Camaro",
@@ -167,7 +173,8 @@
             "host": "nick",
             "text": "The Dead Milkmen understood that punk rock doesn't have to apologize for being funny. Doesn't have to choose between satire and authenticity. You can be both. You *should* be both."
           }
-        ]
+        ],
+        "durationSec": 182
       }
     ],
     "lines": [],

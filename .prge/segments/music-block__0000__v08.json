@@ -25,7 +25,8 @@
             "host": "nick",
             "text": "Armstrong's lyrics — boredom, anxiety, mass murder, divorce, masturbation. Real stuff. Not the sanitized version. The version that makes you feel less alone at midnight. Here's 'Basket Case.'"
           }
-        ]
+        ],
+        "durationSec": 195
       },
       {
         "title": "Linoleum",
@@ -52,7 +53,8 @@
             "host": "nick",
             "text": "'Linoleum.' You know this one. Play it."
           }
-        ]
+        ],
+        "durationSec": 159
       },
       {
         "title": "Hope",
@@ -79,7 +81,8 @@
             "host": "nick",
             "text": "And the song 'Hope.' Listen to it. Really listen. It's about wanting something better and not knowing if you're going to get there. That's {{CLOCK}}. That's midnight on Purge Night. That's us."
           }
-        ]
+        ],
+        "durationSec": 121
       },
       {
         "title": "The Inequality of It All",
@@ -106,7 +109,8 @@
             "host": "nick",
             "text": "Here's 'The Inequality of It All.' And if this doesn't make you feel something at {{CLOCK}} on a Purge Night, you're not actually listening."
           }
-        ]
+        ],
+        "durationSec": 61
       },
       {
         "title": "Dammit",
@@ -137,7 +141,8 @@
             "host": "nick",
             "text": "'Dammit.' The song that launched a thousand garage bands. Play it."
           }
-        ]
+        ],
+        "durationSec": 171
       },
       {
         "title": "Punk Rock Girl",
@@ -168,7 +173,8 @@
             "host": "nick",
             "text": "Here at {{CLOCK}}, five hours in, with the kill count running hot — we need this. We need 'Punk Rock Girl.' We need to remember that somewhere under all this, there's supposed to be something that feels good."
           }
-        ]
+        ],
+        "durationSec": 163
       }
     ],
     "lines": [],

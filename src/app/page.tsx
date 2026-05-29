@@ -2031,6 +2031,16 @@ export default function Page() {
     return classicalPlaylistForSlot(slotKey ?? "00:00", madisonDate);
   }, [segment]);
 
+  // Seconds-of-day the current slot started — anchors the wall-clock playhead
+  // for both the classical interlude and the music-block playlist.
+  const currentSlotStartSec = useMemo(() => {
+    const slotKey = (segment as unknown as Record<string, unknown> | null)?.slotKey as
+      | string
+      | undefined;
+    const [sh, sm] = (slotKey ?? "00:00").split(":").map(Number);
+    return sh * 3600 + sm * 60;
+  }, [segment]);
+
   // Is the interlude (classical music) currently the active content?
   const classicalActive = interludePhase === "interlude" || interludePhase === "interlude-post";
 
@@ -2209,6 +2219,7 @@ export default function Page() {
       return (
         <ClassicalInterlude
           playlist={classicalPlaylist}
+          slotStartSec={currentSlotStartSec}
           paused={classicalPaused}
           deadZone={isDeadZone}
         />
@@ -2278,6 +2289,7 @@ export default function Page() {
               lineIndex={cycleIndex}
               tracks={tracks}
               paused={musicPaused}
+              slotStartSec={currentSlotStartSec}
             />
           </div>
         </>

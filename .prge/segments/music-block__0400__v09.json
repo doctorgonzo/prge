@@ -29,7 +29,8 @@
             "host": "nick",
             "text": "The whole album's like watching someone realize their hometown is quicksand. Perfect for 04:00. You're tired. You're thinking about things you shouldn't. This song knows that."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Ole",
@@ -56,7 +57,8 @@
             "host": "nick",
             "text": "The Souls went through drummer changes, personal problems, lineup turbulence. But they never stopped believing in the community. That's the *Bouncing Souls* move."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "Trusty Chords",
@@ -83,7 +85,8 @@
             "host": "nick",
             "text": "Ragan told the crowd, 'I don't know what to tell you guys.' They stayed together. That's the Hot Water Music story. Friendship over everything. Even when it hurts."
           }
-        ]
+        ],
+        "durationSec": 170
       },
       {
         "title": "Sunday Morning",
@@ -110,7 +113,8 @@
             "host": "nick",
             "text": "They've worn matching costumes at shows — cowboy outfits, drag, whatever. They played a kid's Bar Mitzvah and made mistakes and owned it. That's the spirit I need right now."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "Coming Home",
@@ -137,7 +141,8 @@
             "host": "nick",
             "text": "'Coming Home' is about that moment when you realize you don't have a home to come to. Or maybe you do and it won't let you in. Either way, 04:00 is when you feel that the deepest."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "Linoleum",
@@ -168,7 +173,8 @@
             "host": "nick",
             "text": "We're at 04:00 Madison time and this song gets it. The floor is linoleum. The walls are thin. You're doing your best. That's all anybody can do."
           }
-        ]
+        ],
+        "durationSec": 159
       }
     ],
     "lines": [],

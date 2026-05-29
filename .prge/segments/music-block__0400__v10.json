@@ -29,7 +29,8 @@
             "host": "nick",
             "text": "She came out as trans in 2012. Said she felt like she drop-kicked the band in the face telling them. You know what they did? Most awkward hug ever. Then they stayed. That's the moment punk rock actually proved it meant something."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "A Better Place, A Better Time",
@@ -56,7 +57,8 @@
             "host": "nick",
             "text": "Listen to that call-and-response. That's two guys sharing one microphone, one life. The dual vocals — that's not a gimmick. That's what brotherhood sounds like when it's breaking and then fixing itself at the same time."
           }
-        ]
+        ],
+        "durationSec": 249
       },
       {
         "title": "Coming Home",
@@ -79,7 +81,8 @@
             "host": "nick",
             "text": "Three hours until sunrise. You hear 'coming home' at {{CLOCK}} and it hits like a punch. Home's not a place. Home is whatever you barricade yourself inside of when the night gets too long."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "Ole",
@@ -106,7 +109,8 @@
             "host": "nick",
             "text": "They reignited the 'pogo' element in Jersey punk. Pogo means jump. Jump at {{CLOCK}}. Jump when you think you can't jump anymore. The Souls understood that — punk is movement. It's motion. It's not sitting still."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "Sunday Morning",
@@ -133,7 +137,8 @@
             "host": "nick",
             "text": "They got booed at PNC Park in 2006 after Pirates games. Booed. For playing punk covers during fireworks. Some places don't know what they're hearing. That's okay. The people who know, they know."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "Leaving Babylon",
@@ -160,7 +165,8 @@
             "host": "nick",
             "text": "At {{CLOCK}}, when you're nine hours into staying home, into choosing not to leave, into staying in Babylon — that's a NOFX song. That's what it means to know you're trapped and make jokes about it anyway."
           }
-        ]
+        ],
+        "durationSec": 286
       },
       {
         "title": "Bloodhail",
@@ -187,7 +193,8 @@
             "host": "nick",
             "text": "Listen to that title. 'Bloodhail.' That's weather and violence in one word. Look outside right now — full moon, bright enough to see the frost forming on the pavement. That's bloodhail. That's what {{ELAPSED}} of Purge Night sounds like when you put it to music."
           }
-        ]
+        ],
+        "durationSec": 22
       }
     ],
     "lines": [],

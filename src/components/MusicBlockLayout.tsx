@@ -7,6 +7,7 @@ import {
   type PlayerLine,
   type PlayerTrack,
 } from "./player-types";
+import { madisonSecondsOfDay } from "@/lib/scheduler";
 
 interface Props {
   /** Top-level segment lines. Used as a FALLBACK when a track has no
@@ -26,6 +27,13 @@ interface Props {
   /** Called when the last track in the playlist ends. Used by Nick cut-ins
    *  to dismiss when the song finishes instead of looping. */
   onPlaylistEnd?: () => void;
+  /** Seconds-of-day when this slot began. When provided AND there's more than
+   *  one track, the playlist runs as a wall-clock-synced "broadcast tape":
+   *  track index + seek offset are derived from Madison time so every viewer
+   *  hears the same song at the same position and a reload resumes mid-track.
+   *  Omitted for event-driven uses (Nick cut-ins, countdown PSAs), which play
+   *  from the top on their own ENDED-driven timer. */
+  slotStartSec?: number;
 }
 
 // Spotify open-search URL. We don't bother with the embed iframe here: Doc is
@@ -403,6 +411,42 @@ function computeDwellMs(durationSec: number | null): number {
   return ms;
 }
 
+// Seconds-version of computeDwellMs — the wall-clock playhead models each
+// track as occupying its clamped duration on a continuous "broadcast tape."
+// Clamping guards against bogus resolutions (an 11s clip or a 16-minute
+// compilation upload) strobing or hogging the looping playlist.
+function dwellSecForTrack(durationSec: number | null | undefined): number {
+  const ms = computeDwellMs(
+    typeof durationSec === "number" ? durationSec : null,
+  );
+  return ms / 1000;
+}
+
+// Where the music-block playlist "is" right now, treated as a continuous tape
+// that started at the slot boundary and loops. Pure function of Madison time,
+// so every viewer is on the same track at the same offset and a reload resumes
+// mid-song. Mirrors ClassicalInterlude's classicalPositionFor.
+function musicTrackPositionFor(
+  tracks: PlayerTrack[],
+  slotStartSec: number,
+): { index: number; offsetSec: number } {
+  if (tracks.length === 0) return { index: 0, offsetSec: 0 };
+  let total = 0;
+  for (const t of tracks) total += dwellSecForTrack(t.durationSec);
+  if (total <= 0) return { index: 0, offsetSec: 0 };
+
+  let elapsed = madisonSecondsOfDay() - slotStartSec;
+  if (elapsed < 0) elapsed += 86400;
+  let x = elapsed % total;
+
+  for (let i = 0; i < tracks.length; i++) {
+    const d = dwellSecForTrack(tracks[i].durationSec);
+    if (x < d) return { index: i, offsetSec: x };
+    x -= d;
+  }
+  return { index: 0, offsetSec: 0 };
+}
+
 /** Format a duration in seconds as "M:SS" or "H:MM:SS". */
 function formatDuration(durationSec: number): string {
   const total = Math.max(0, Math.floor(durationSec));
@@ -416,10 +460,19 @@ function formatDuration(durationSec: number): string {
   return `${m}:${ss}`;
 }
 
-export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false, onPlaylistEnd }: Props) {
+export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false, onPlaylistEnd, slotStartSec }: Props) {
+  // Wall-clock sync mode: a real, multi-track broadcast playlist anchored to
+  // the slot start. Single-track playlists (Nick cut-ins) and slot-less uses
+  // (countdown PSAs) stay event-driven and play from the top.
+  const synced = typeof slotStartSec === "number" && tracks.length > 1;
+
   // Track cycling lives independently from line cycling so a 3-minute song
-  // isn't yanked off-screen every 8 seconds when the line cycle advances.
-  const [trackIndex, setTrackIndex] = useState(0);
+  // isn't yanked off-screen every 8 seconds when the line cycle advances. In
+  // synced mode the starting index is derived from Madison time so a reload
+  // lands on the song that's "currently on air."
+  const [trackIndex, setTrackIndex] = useState(() =>
+    synced ? musicTrackPositionFor(tracks, slotStartSec as number).index : 0,
+  );
 
   // Per-track line cursor — which line WITHIN the current track's lines is
   // currently on screen. Resets to 0 every time the track changes.
@@ -435,12 +488,17 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false, onP
     [tracks],
   );
 
-  // Reset both indices to 0 whenever the tracks CONTENT changes (i.e. a new
-  // music-block segment loads, not just a poll refresh). The per-track advance
-  // timer lives in its own effect below — see the dwell-driven setTimeout.
+  // Reset indices whenever the tracks CONTENT changes (i.e. a new music-block
+  // segment loads, not just a poll refresh). In synced mode we reset to the
+  // wall-clock track rather than 0 so a fresh slot lands on the song that's
+  // currently on air instead of flashing track 1. The per-track advance timer
+  // lives in its own effect below — see the dwell-driven setTimeout.
   useEffect(() => {
-    setTrackIndex(0);
+    setTrackIndex(
+      synced ? musicTrackPositionFor(tracks, slotStartSec as number).index : 0,
+    );
     setLineWithinTrackIndex(0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tracksContentKey]);
 
   // Reset the within-track cursor whenever the track advances. The cursor
@@ -448,6 +506,25 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false, onP
   useEffect(() => {
     setLineWithinTrackIndex(0);
   }, [trackIndex]);
+
+  // ── Wall-clock track advancement (synced mode) ───────────────────
+  // In synced mode the track index is a pure function of Madison time, so we
+  // poll the wall-clock position and switch tracks when it crosses a boundary
+  // instead of waiting on YouTube ENDED / a fallback timer (both gated off
+  // below when synced). Keeps every viewer on the same track and survives a
+  // reload. Plain JS time is fine: the dev `?at=` override only matters for
+  // time-travel testing, which doesn't exercise the music block.
+  useEffect(() => {
+    if (!synced) return;
+    const tick = () => {
+      const { index } = musicTrackPositionFor(tracks, slotStartSec as number);
+      setTrackIndex((prev) => (prev === index ? prev : index));
+    };
+    tick();
+    const id = window.setInterval(tick, 1000);
+    return () => window.clearInterval(id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [synced, tracksContentKey, slotStartSec]);
 
   // Pick the currently-spinning track. Clamp by % length to survive any
   // out-of-bounds index from rapid re-renders.
@@ -812,11 +889,22 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false, onP
     const key = `${track.artist}::${track.title}`;
     inflightKeyRef.current = key;
 
+    // Synced mode: seek to the wall-clock offset so a mid-song reload resumes
+    // in place. Empty for event-driven uses (cut-ins, countdown), which play
+    // from the top.
+    const startSec = synced
+      ? Math.max(
+          0,
+          Math.floor(musicTrackPositionFor(tracks, slotStartSec as number).offsetSec),
+        )
+      : 0;
+    const startParam = startSec > 0 ? `&start=${startSec}` : "";
+
     // Pre-resolved videoId (countdown PSA videos) — skip the /api/track
     // round-trip entirely. Build the embed URL directly.
     if (track.videoId) {
       const origin = typeof window !== "undefined" ? `&origin=${encodeURIComponent(window.location.origin)}` : "";
-      const embedUrl = `https://www.youtube.com/embed/${encodeURIComponent(track.videoId)}?autoplay=1&controls=1&disablekb=1&modestbranding=1&rel=0&fs=0&iv_load_policy=3&enablejsapi=1${origin}`;
+      const embedUrl = `https://www.youtube.com/embed/${encodeURIComponent(track.videoId)}?autoplay=1&controls=1&disablekb=1&modestbranding=1&rel=0&fs=0&iv_load_policy=3&enablejsapi=1${origin}${startParam}`;
       const durationSec =
         typeof track.durationSec === "number" && Number.isFinite(track.durationSec)
           ? track.durationSec
@@ -873,7 +961,7 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false, onP
             : `${data.embedUrl}${originParam}`;
           setResolveState({
             status: "ready",
-            embedUrl: embedUrlWithOrigin,
+            embedUrl: `${embedUrlWithOrigin}${startParam}`,
             durationSec,
             videoId: data.videoId,
             resolvedChannel: data.resolvedChannel ?? "UNKNOWN",
@@ -893,6 +981,9 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false, onP
     return () => {
       controller.abort();
     };
+    // synced/tracks/slotStartSec are read once to compute the seek offset at
+    // resolution time; they must NOT be deps or every 60s poll would re-resolve.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [track?.artist, track?.title, track?.videoId]);
 
   // Per-track advance timer. We schedule a single setTimeout whose duration
@@ -920,6 +1011,7 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false, onP
   const readyDurationSec =
     resolveState.status === "ready" ? resolveState.durationSec : null;
   useEffect(() => {
+    if (synced) return; // wall-clock tick owns advancement in synced mode
     if (tracks.length <= 1) return;
     if (resolveStatus === "resolving") return;
     // Freeze track-advance during ad breaks. The timer restarts from scratch
@@ -966,6 +1058,7 @@ export function MusicBlockLayout({ lines, lineIndex, tracks, paused = false, onP
   // gates this — we ignore ENDED events within 5s of the last advance.
   const lastAdvanceRef = useRef(0);
   useEffect(() => {
+    if (synced) return; // wall-clock tick owns advancement in synced mode
     if (paused) return; // don't advance tracks during ad breaks
     if (ytLive.playerState !== YT_STATE.ENDED) return;
     const now = Date.now();

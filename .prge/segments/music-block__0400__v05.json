@@ -25,7 +25,8 @@
             "host": "nick",
             "text": "The whole world is against me — that's what the band name means. That's what it still means. Some nights I think that's just what it takes to make something real."
           }
-        ]
+        ],
+        "durationSec": 165
       },
       {
         "title": "Ole",
@@ -48,7 +49,8 @@
             "host": "nick",
             "text": "'Ole' is a singalong. It's the kind of song that sounds better with other people. Right now, some of you listening are singing along to this. I know you are. That's what the Souls built. That's what they still own."
           }
-        ]
+        ],
+        "durationSec": 185
       },
       {
         "title": "A Better Place, A Better Time",
@@ -71,7 +73,8 @@
             "host": "nick",
             "text": "That's what friendship sounds like in punk. You get to the edge and you either fall or you remember why you came here. They remembered."
           }
-        ]
+        ],
+        "durationSec": 249
       },
       {
         "title": "Sunday Morning",
@@ -94,7 +97,8 @@
             "host": "nick",
             "text": "'Sunday Morning.' It's soft. It's a break. It's what you need to hear at 04:00 when everything else is loud. They took a song that existed and made it so you could breathe."
           }
-        ]
+        ],
+        "durationSec": 213
       },
       {
         "title": "Coming Home",
@@ -117,7 +121,8 @@
             "host": "nick",
             "text": "Kelly's said in interviews that a lot of their experience came from being influenced by alcohol. That's honesty. That's knowing who you are and writing about it anyway. 'Coming Home' is what that sounds like — the sound of somebody who knows the way back is the hardest part."
           }
-        ]
+        ],
+        "durationSec": 996
       },
       {
         "title": "The Decline",
@@ -144,7 +149,8 @@
             "host": "nick",
             "text": "So here we are. {{ELAPSED}} into the Purge. Two hours until the light comes back. This song is eighteen minutes. That means when it's done, we're that much closer to morning. That means we made it this far. That means the worst is behind us, or it's coming, but either way we're still here."
           }
-        ]
+        ],
+        "durationSec": 1189
       }
     ],
     "lines": [],
