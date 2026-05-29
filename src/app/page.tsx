@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { mockSegment } from "@/lib/mock-segment";
 import { DefaultLayout } from "@/components/DefaultLayout";
@@ -16,7 +16,7 @@ import { NextUpChip } from "@/components/NextUpChip";
 import { BroadcastNoise } from "@/components/BroadcastNoise";
 import { TuneInBoot } from "@/components/TuneInBoot";
 import { PurgeAnnouncement } from "@/components/PurgeAnnouncement";
-import { madisonNowHHMM } from "@/lib/scheduler";
+import { madisonNowHHMM, madisonSecondsOfDay } from "@/lib/scheduler";
 import { pickRetroAd, pickRandomRetroAd, type RetroAd } from "@/lib/retro-ads";
 import { buildStaticDaytimeCommercial } from "@/lib/daytime-static";
 import { buildStaticCountdownSegment } from "@/lib/countdown-static";
@@ -194,6 +194,83 @@ function buildCommercialUnits(
 // countdown stay in lockstep instead of drifting apart.
 const HUD_CLOCK_TICK_MS = 30_000;
 
+// How often the wall-clock playhead recomputes which line/phase is live.
+// Lines run 5–24s, so 500ms keeps transitions within half a second of the
+// true boundary across every client without busy-looping.
+const PLAYHEAD_TICK_MS = 500;
+
+// ── Wall-clock broadcast playhead ──────────────────────────────────────
+// PRGE is a broadcast, not a per-visitor playback: everyone tuned into the
+// same slot on the same night must see the same line at the same wall-clock
+// second, and a reload must resume mid-segment rather than restart. So the
+// playhead is DERIVED from "seconds elapsed into the slot" instead of being
+// advanced by a mount-anchored setTimeout chain.
+
+// Controls the hour-slot flow: dialog → classical → rebroadcast → classical.
+//   "dialog"         = first play of segment lines (no indicator)
+//   "interlude"      = classical music fills between dialog runs
+//   "rebroadcast"    = same lines again, with PREVIOUSLY RECORDED badge
+//   "interlude-post" = classical resumes after rebroadcast until slot change
+type InterludePhase = "dialog" | "interlude" | "rebroadcast" | "interlude-post";
+
+// Deterministic classical-interlude length for a slot. Replaces Math.random()
+// so the macro-loop timeline (dialog → interlude → rebroadcast → post) is
+// identical for every client tuned into the same slot on the same night.
+// 15–20 min, seeded by slotKey + Madison date (same seeding family as the
+// variant picker and classical playlist).
+function interludeMsForSlot(slotKey: string, madisonDate: string): number {
+  let h = 0x811c9dc5;
+  const s = `${madisonDate}::${slotKey}::interlude`;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  const frac = ((h >>> 0) % 1000) / 1000; // 0..1
+  return (15 + frac * 5) * 60_000; // 15–20 min
+}
+
+// Index of the step (line or commercial unit) whose cumulative window contains
+// `elapsedMs`. Clamps to the last step past the end.
+function stepIndexAt(stepDurationsMs: number[], elapsedMs: number): number {
+  let acc = 0;
+  for (let i = 0; i < stepDurationsMs.length; i++) {
+    acc += stepDurationsMs[i];
+    if (elapsedMs < acc) return i;
+  }
+  return stepDurationsMs.length - 1;
+}
+
+// Map elapsed-into-slot to {phase, index}. Looping formats (music-block,
+// commercial-break) just wrap on the dialog length and never enter interlude.
+// Dialog formats run the full macro-loop and hold the last line through the
+// classical phases.
+function derivePlayhead(
+  elapsedMs: number,
+  stepDurationsMs: number[],
+  interludeMs: number,
+  looping: boolean,
+): { phase: InterludePhase; index: number } {
+  const total = stepDurationsMs.reduce((a, b) => a + b, 0);
+  if (total <= 0) return { phase: "dialog", index: 0 };
+  if (looping) {
+    const local = ((elapsedMs % total) + total) % total;
+    return { phase: "dialog", index: stepIndexAt(stepDurationsMs, local) };
+  }
+  if (elapsedMs < total) {
+    return { phase: "dialog", index: stepIndexAt(stepDurationsMs, elapsedMs) };
+  }
+  if (elapsedMs < total + interludeMs) {
+    return { phase: "interlude", index: stepDurationsMs.length - 1 };
+  }
+  if (elapsedMs < 2 * total + interludeMs) {
+    return {
+      phase: "rebroadcast",
+      index: stepIndexAt(stepDurationsMs, elapsedMs - total - interludeMs),
+    };
+  }
+  return { phase: "interlude-post", index: stepDurationsMs.length - 1 };
+}
+
 // Read the dev-only ?at=HH:MM override off the current URL. Used to pin the
 // HUD clock to the dev-override time so the visible clock matches the API's
 // resolved slot during time-travel. Returns null when not set or malformed.
@@ -241,14 +318,12 @@ export default function Page() {
   const [cycleIndex, setCycleIndex] = useState(0);
 
   // ── Interlude state machine ──────────────────────────────────────
-  // Controls the hour-slot flow: dialog → classical → rebroadcast → classical
-  //   "dialog"      = first play of segment lines (no indicator)
-  //   "interlude"   = classical music fills between dialog runs
-  //   "rebroadcast" = same lines again, with PREVIOUSLY RECORDED badge
-  //   "interlude-post" = classical resumes after rebroadcast until slot change
-  type InterludePhase = "dialog" | "interlude" | "rebroadcast" | "interlude-post";
+  // Both cycleIndex and interludePhase are DERIVED from wall-clock time by the
+  // playhead tick effect below (see derivePlayhead). They stay as state so the
+  // many downstream readers (TTS gate, classicalActive, the REBROADCAST badge,
+  // every layout's lineIndex) keep working unchanged — only the driver moved
+  // from a mount-anchored setTimeout chain to the Madison clock.
   const [interludePhase, setInterludePhase] = useState<InterludePhase>("dialog");
-  const rebroadcastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [liveMadisonTime, setLiveMadisonTime] = useState<string | null>(null);
   // Dev-only ?at= override read from window.location at mount. When non-null,
   // the HUD clock pins to this value (so the visible clock matches whatever
@@ -752,6 +827,19 @@ export default function Page() {
     update();
     const id = setInterval(update, HUD_CLOCK_TICK_MS);
     return () => clearInterval(id);
+  }, [atOverride]);
+
+  // Current Madison seconds-of-day (with sub-second precision), honoring the
+  // dev ?at= time-travel override. This is the single time source the wall-
+  // clock playhead reads, so it stays in lockstep with the HUD clock above.
+  const currentMadisonSecOfDay = useCallback((): number => {
+    if (atOverride !== null && atOverrideAnchorRef.current !== null) {
+      const [h, m] = atOverride.split(":").map(Number);
+      const base = h * 3600 + m * 60;
+      const elapsed = (Date.now() - atOverrideAnchorRef.current) / 1000;
+      return (((base + elapsed) % 86400) + 86400) % 86400;
+    }
+    return madisonSecondsOfDay(new Date());
   }, [atOverride]);
 
   // ── Temporal atmosphere effects ──────────────────────────────────────
@@ -1821,54 +1909,82 @@ export default function Page() {
     return segment.lines.length;
   }, [segment, commercialUnits]);
 
-  // Dwell time for the current unit. Wellness extends the floor; commercial
-  // ads get a fixed comfortable read time; everything else uses readDurationMs.
-  useEffect(() => {
-    if (!segment || cycleLength === 0) return;
-
-    let dwellMs: number;
+  // Per-step durations (ms) for the current segment — the timeline the
+  // wall-clock playhead integrates over. Same read-time math the old dwell
+  // chain used, just precomputed for every step at once so the playhead can
+  // map elapsed-into-slot → line index deterministically.
+  const stepDurationsMs = useMemo<number[]>(() => {
+    if (!segment) return [];
     if (segment.type === "commercial-break") {
-      const unit = commercialUnits[cycleIndex];
-      if (!unit) return;
-      if (unit.kind === "ad") {
-        // Ad cards: brand + tagline + body, give the reader real time.
-        const text =
-          unit.ad.brand + " " + unit.ad.tagline + " " + (unit.ad.body ?? "");
-        dwellMs = Math.max(7000, Math.min(14000, 4000 + text.length * 30));
-      } else {
-        dwellMs = readDurationMs(unit.line.text);
-      }
-    } else if (segment.type === "wellness") {
-      const text = segment.lines[cycleIndex]?.text ?? "";
-      dwellMs = wellnessReadDurationMs(text);
-    } else {
-      const text = segment.lines[cycleIndex]?.text ?? "";
-      dwellMs = readDurationMs(text);
-    }
-
-    const id = setTimeout(() => {
-      setCycleIndex((i) => {
-        const next = i + 1;
-        // Music blocks and commercial breaks still loop normally.
-        // Dialog formats (news, mixed, talk, etc.) stop at the end
-        // and transition to the classical interlude.
-        if (segment?.type === "music-block" || segment?.type === "commercial-break") {
-          return next % cycleLength;
+      return commercialUnits.map((unit) => {
+        if (unit.kind === "ad") {
+          const text =
+            unit.ad.brand + " " + unit.ad.tagline + " " + (unit.ad.body ?? "");
+          return Math.max(7000, Math.min(14000, 4000 + text.length * 30));
         }
-        if (next >= cycleLength) {
-          // Dialog exhausted — transition to interlude or post-rebroadcast.
-          if (interludePhase === "dialog") {
-            setInterludePhase("interlude");
-          } else if (interludePhase === "rebroadcast") {
-            setInterludePhase("interlude-post");
-          }
-          return i; // hold on last line
-        }
-        return next;
+        return readDurationMs(unit.line.text);
       });
-    }, dwellMs);
-    return () => clearTimeout(id);
-  }, [segment, cycleIndex, cycleLength, commercialUnits, interludePhase]);
+    }
+    if (segment.type === "wellness") {
+      return segment.lines.map((l) => wellnessReadDurationMs(l.text));
+    }
+    return segment.lines.map((l) => readDurationMs(l.text));
+  }, [segment, commercialUnits]);
+
+  // Deterministic interlude length for this slot (15–20 min), seeded by
+  // slotKey + Madison date so every client computes the same macro-timeline.
+  const interludeMs = useMemo(() => {
+    const slotKey = (segment as unknown as Record<string, unknown> | null)
+      ?.slotKey as string | undefined;
+    const madisonDate = new Date().toLocaleDateString("en-CA", {
+      timeZone: "America/Chicago",
+    });
+    return interludeMsForSlot(slotKey ?? "00:00", madisonDate);
+  }, [segment]);
+
+  // Music-block and commercial-break loop their content; everything else runs
+  // the dialog → interlude → rebroadcast → interlude-post macro-loop.
+  const isLoopingFormat =
+    segment?.type === "music-block" || segment?.type === "commercial-break";
+
+  // ── Wall-clock playhead tick ───────────────────────────────────────
+  // Derives {cycleIndex, interludePhase} from how many seconds we are into the
+  // current slot, every PLAYHEAD_TICK_MS. This replaces the mount-anchored
+  // setTimeout chain AND the random rebroadcast scheduler: a reload now resumes
+  // wherever the clock says, and two clients tuned into the same slot stay in
+  // lockstep instead of each running their own playhead from line 0.
+  useEffect(() => {
+    if (!segment || stepDurationsMs.length === 0) return;
+
+    const slotKey = (segment as unknown as Record<string, unknown>).slotKey as
+      | string
+      | undefined;
+    const [sh, sm] = (slotKey ?? "00:00").split(":").map(Number);
+    const slotStartSec = sh * 3600 + sm * 60;
+
+    const compute = () => {
+      let elapsedSec = currentMadisonSecOfDay() - slotStartSec;
+      if (elapsedSec < 0) elapsedSec += 86400; // safety at the slot's lower edge
+      const { phase, index } = derivePlayhead(
+        elapsedSec * 1000,
+        stepDurationsMs,
+        interludeMs,
+        isLoopingFormat,
+      );
+      setCycleIndex((prev) => (prev === index ? prev : index));
+      setInterludePhase((prev) => (prev === phase ? prev : phase));
+    };
+
+    compute();
+    const id = setInterval(compute, PLAYHEAD_TICK_MS);
+    return () => clearInterval(id);
+  }, [
+    segment,
+    stepDurationsMs,
+    interludeMs,
+    isLoopingFormat,
+    currentMadisonSecOfDay,
+  ]);
 
   // ── TTS: speak current line, prefetch next ────────────────────────
   // Fires whenever the displayed line changes. Suppressed when overlays
@@ -1902,41 +2018,10 @@ export default function Page() {
     }
   }, [segment, cycleIndex, soundEnabled, timInterrupt, retroAd, nickCutIn, purgeSirenActive, deadAirActive, interludePhase, speak, stopTTS, prefetchTTS]);
 
-  // ── Interlude → rebroadcast scheduling ────────────────────────────
-  // When the first dialog ends and interlude starts, schedule the
-  // rebroadcast after 15-20 minutes of classical.
-  useEffect(() => {
-    if (interludePhase === "interlude") {
-      const delay = (15 + Math.random() * 5) * 60_000; // 15-20 min
-      rebroadcastTimerRef.current = setTimeout(() => {
-        setCycleIndex(0);
-        setInterludePhase("rebroadcast");
-      }, delay);
-      return () => {
-        if (rebroadcastTimerRef.current) clearTimeout(rebroadcastTimerRef.current);
-      };
-    }
-  }, [interludePhase]);
-
-  // Reset interlude state when a new segment loads (new slot).
-  // The fingerprint-based check in fetchSegment already resets cycleIndex to 0.
-  // We piggyback on that by resetting interlude when cycleIndex goes to 0
-  // AND the phase isn't already "dialog".
-  const prevInterludeSegRef = useRef<string | null>(null);
-  useEffect(() => {
-    if (!segment) return;
-    const fp = (segment as unknown as Record<string, unknown>).slotKey as string | undefined;
-    const key = fp ?? segment.segmentTitle ?? "";
-    if (prevInterludeSegRef.current !== null && prevInterludeSegRef.current !== key) {
-      // New slot — reset the interlude state machine.
-      setInterludePhase("dialog");
-      if (rebroadcastTimerRef.current) {
-        clearTimeout(rebroadcastTimerRef.current);
-        rebroadcastTimerRef.current = null;
-      }
-    }
-    prevInterludeSegRef.current = key;
-  }, [segment]);
+  // Phase transitions (dialog → interlude → rebroadcast → interlude-post)
+  // and per-slot resets are now driven entirely by the wall-clock tick effect
+  // via derivePlayhead(). No timers or random delays here — every viewer is in
+  // lockstep on Madison time, and a reload resumes mid-segment.
 
   // Build classical playlist for the current slot.
   const classicalPlaylist = useMemo(() => {

@@ -241,6 +241,25 @@ export function madisonNowHHMM(date: Date = new Date()): string {
   return `${hh}:${mm}`;
 }
 
+/**
+ * Madison wall-clock as seconds-since-00:00, with sub-second precision.
+ * DST-aware via the same Intl formatter as madisonNowHHMM. The fractional
+ * part comes from Date.getMilliseconds() (timezone-independent), so the
+ * broadcast playhead can advance smoothly instead of snapping per minute.
+ */
+export function madisonSecondsOfDay(date: Date = new Date()): number {
+  const parts = MADISON_TZ_FORMATTER.formatToParts(date);
+  let hh = 0;
+  let mm = 0;
+  let ss = 0;
+  for (const p of parts) {
+    if (p.type === "hour") hh = Number(p.value) % 24; // "24" midnight → 0
+    else if (p.type === "minute") mm = Number(p.value);
+    else if (p.type === "second") ss = Number(p.value);
+  }
+  return hh * 3600 + mm * 60 + ss + date.getMilliseconds() / 1000;
+}
+
 /** Parse "HH:MM" → seconds-since-00:00. */
 function hhmmToSecondsOfDay(hhmm: string): number {
   const [hStr, mStr] = hhmm.split(":");
