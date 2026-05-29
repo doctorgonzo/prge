@@ -1,0 +1,73 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the numbers are still climbing. I just looked at the board — one hundred seventy-eight confirmed kills, and we've got what, fifty-two minutes left before the sun makes all this illegal again. You know what that means? We're on pace for one hundred eighty-seven, maybe one hundred eighty-nine if the last hour gets ugly. Last year we hit one eighty-seven. We might tie ourselves."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Vilas Park — go ahead, Patricia."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Vilas Park — 'Quinn, I've been listening all night and I just want to say thank you for being here. My husband is asleep on the couch and I'm on the third pot of coffee and I don't think I could — I don't think I could do this without hearing your voice.' — Patricia, that's the kindest thing anyone's said to me since 1994. Stay on the line if you want. Don't if it's worse. There's no wrong answer."
+      },
+      {
+        "host": "quinn",
+        "text": "You want to know what really gets me? We're talking about 'pace' like this is a horse race. Like we're analyzing whether Madison's going to beat last year's body count the way we'd talk about whether the Badgers can beat Northwestern. One seventy-seven. One eighty-seven. One ninety-five. These are human beings, and I'm sitting here three hours before dawn with nine whiskeys in me calculating whether we're having an above-average year for murder. And the terrifying part? That's not even weird anymore. That's just Tuesday. That's just the Tuesday that happens once a year in the dark."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from State Street — you there, Marcus?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from State Street — 'I'm in the basement of what used to be the bookstore. There's five of us. One guy has a compound fracture and we're out of clean bandages. I don't know if I'm calling for help or just — I don't know.' — Marcus, listen to me. That fracture — is there swelling? Is he conscious? And more importantly, can you hold until seven? Because at seven the rule changes and there are people whose job it is to care about that arm."
+      },
+      {
+        "host": "quinn",
+        "text": "I knew a man named Director Calloway once. Ate lunch with him. Used to protect him, back when that was my job. Tonight — right now, {{CLOCK}} on a March morning — he's in the Capitol building behind three inches of reinforced glass while the people who voted for the system that built the Purge are using bedsheets and prayer to stay alive. That's not irony. That's not poetry. That's just the structure working as designed. Vance would've laughed at this. Trump would've tweeted about it at three in the morning. And we're all here on a pirate radio station reading the body count like it's the weather."
+      },
+      {
+        "host": "quinn",
+        "text": "But — and I mean this with every bone in my body — but you're listening. You stayed home. You chose not to be the number. That counts for something. I don't know what, exactly. But it counts."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Linda from Atwood — Linda, you there? What's on your mind?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Linda from Atwood — 'I watched my neighbor's house burn down in 2157. He didn't make it out. This year his daughter barricaded herself in my basement. We've been listening to you together since midnight. I just wanted to say — I wanted her to know that some of us remember him. Some of us remember the people who don't come back.' — Linda, that's the most important thing I've heard all night. Will you tell her that? Will you tell her that there's a lady on Atwood who remembers, and so does everyone listening right now?"
+      },
+      {
+        "host": "quinn",
+        "text": "{{ELAPSED}} in. Fifty minutes left. The light's coming. I can see it starting to happen outside — just the very edge of not-quite-black. And every year I wonder if that light means we made it or if it means something worse is about to happen. Every year I'm equally terrified and equally relieved. You know what I think that means? It means we're human. And humans are supposed to feel both things at once."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "MADISON CUMULATIVE: 178 confirmed kills at {{CLOCK}}. YoY pace tracking 187–189. Final hour critical."
+      },
+      {
+        "category": "emergency",
+        "text": "VILAS PARK: Listener Patricia D. confirming safe shelter with spouse. East-side perimeter holding."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "STATE STREET: Compound fracture injury reported. Multiple casualties sheltered basement level. Hold position until all-clear."
+      },
+      {
+        "category": "local-news",
+        "text": "PRE-DAWN ADVISORY: Temperature 22°F, visibility improving. All-clear broadcast at 07:00 sharp. Stay sheltered."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:14:45.737Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

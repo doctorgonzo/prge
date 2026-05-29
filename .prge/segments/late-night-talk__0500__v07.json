@@ -1,0 +1,53 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and I've been watching the ceiling this whole hour. There's a helicopter up there — has been since about 03:30 — and nobody can tell me whose it is. I've got six whiskeys left in this bottle and I've been using them to fund increasingly wild theories about whose bird that is. Government? Private security for the Capitol? A news crew? A family of very committed bats?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from Vilas Park — go ahead, James."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from Vilas Park — 'Quinn, the helicopter's been circling my block. They've got a spotlight.' — James, buddy, I need you to stay inside that house. You stay inside and you do not wave at it. I don't care how friendly it looks. I learned that rule in 2157 when Director Vance — not Vance Vance, his cousin — sent three birds into the Dells and told people they were there to help. There are still missing persons files from that night."
+      },
+      {
+        "host": "quinn",
+        "text": "The light's starting to happen outside. You can see the Capitol dome now — not lit, just visible. The sun's not up yet but the sky knows it's coming. We're in that weird hour where the Purge is still technically live but everybody's too tired to use it. {{ELAPSED}} and most of this city is just sleeping it off."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Diane from South Side — 'I just wanted to say thank you for being on all night.' — Diane, that's what we're here for. Seriously. You stayed home, you stayed safe, and you've got eleven minutes left to make it through. That's all you have to do. Just stay right there."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to pour number seven because if that helicopter is still up there at 06:00 I'm going to want to be loose enough to not care about it. To everyone still listening: the sun's coming. The all-clear is coming. That helicopter is not your problem in... well, in less than an hour. Let's get there together."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 184 as of 04:47. Up 3 since last ticker. YoY same period: 178."
+      },
+      {
+        "category": "emergency",
+        "text": "Unknown helicopter activity 03:30-present, Vilas Park / Capitol area. Tim confirms: not our equipment. Origin unconfirmed."
+      },
+      {
+        "category": "local-news",
+        "text": "Lake Mendota shoreline quiet since 01:15. Volunteer crew stands down at 07:00."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "23 active text-in messages. Mostly 'still here,' some 'can't sleep,' one: 'helicopter sounds friendly.' Debatable."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:14:27.818Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

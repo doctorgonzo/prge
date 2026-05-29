@@ -1,0 +1,73 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and I keep waiting for Darren to call. Darren from Atwood. You remember Darren, right? Guy with the backwards PurgeShield panels last year?"
+      },
+      {
+        "host": "holden",
+        "text": "East Side kill count is up seventeen percent at this point compared to last year. That's where Atwood sits. If his panels failed again—"
+      },
+      {
+        "host": "quinn",
+        "text": "Don't finish that sentence, Holden. I don't want to hear it finished."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature dropped to twenty-eight degrees eight minutes ago. Visibility's two miles. If someone's locked out of their house, they've got maybe forty minutes before hypothermia starts."
+      },
+      {
+        "host": "quinn",
+        "text": "Caroline, I swear to God—"
+      },
+      {
+        "host": "holden",
+        "text": "Atwood Avenue specifically has seen three confirmed incidents between hours four and five last year. It's a predictable pattern. Older stock, single-layer construction, and the neighborhood watch disbanded in 2167."
+      },
+      {
+        "host": "quinn",
+        "text": "He's going to call. He calls every year. He's in there with his four cats and he's scared and he calls us because we're the only voice in the dark that makes sense. He's going to call."
+      },
+      {
+        "host": "caroline",
+        "text": "Quinn, the data doesn't care what we want."
+      },
+      {
+        "host": "quinn",
+        "text": "Then the data can go to hell. Darren's going to call at 2:15 like he always does and he's going to tell me something stupid about his neighbor and I'm going to pour another drink and we're going to get through this together."
+      },
+      {
+        "host": "holden",
+        "text": "That's not how statistics work."
+      },
+      {
+        "host": "quinn",
+        "text": "You're right. It's not. And that's the only reason I haven't put a bullet through my skull on live radio. So let's just sit here and wait."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide kill count: 104 ({{ELAPSED}} mark). +22 from last hour. East Side 18% above YoY."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Atwood Avenue / East Side: 12 confirmed kills in hours 0-7 (2168: 9 by this point). Trend accelerating."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "No caller check-ins from Atwood Ave this hour. Darren (regular, year 1-7) has not called in. Status unknown."
+      },
+      {
+        "category": "emergency",
+        "text": "Temperature 28°F. Wind NW 16 mph, gusts to 24. Hypothermia onset risk 35-40 minutes outdoor exposure. Barricade failure imminent in unprotected structures."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:12:53.919Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

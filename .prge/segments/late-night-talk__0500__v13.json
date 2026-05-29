@@ -1,0 +1,69 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "It's {{CLOCK}}, folks. We are {{ELAPSED}} into this thing and I am going to level with you — I have never heard Madison this quiet. Not in any Purge I've worked. Not in the ones I've *survived* before I became a fugitive."
+      },
+      {
+        "host": "quinn",
+        "text": "[pours whiskey audibly] That's whiskey number eight. I'm keeping count because the quiet is making me count things. Seconds between sirens. Intervals of just — wind off the lake. No gunfire from the East Side for twenty minutes. No vehicle sounds on the Beltline. Just wind."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Margaret from Tenney Park — Margaret, you've been holding for a while. Where are you right now?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Margaret from Tenney Park — I can hear you breathing, Margaret. That's okay. Take your time."
+      },
+      {
+        "host": "quinn",
+        "text": "[long pause] She hung up. That's the fourth caller tonight who just — sat on the line and then hung up. Last year we had maybe two. It's like people don't even know what to do with the quiet. They call because they need to hear a voice, then they realize hearing a voice means the night is still happening, and they bail."
+      },
+      {
+        "host": "quinn",
+        "text": "You know who used to say silence was its own kind of violence? That was — no, that was some philosopher I read in a Georgetown bar in 2141. Not a politician. I've forgotten his name. All the politicians I remember are the dead ones, and they're dead because they built this. They built the Purge and then they died before they had to spend a whole night in it."
+      },
+      {
+        "host": "quinn",
+        "text": "The Capitol breach was at 21:40. We're now one hundred and forty minutes past that and nobody's tried the perimeter again. Either they got tired or they got smart. Either way, Director Calloway is still behind three inches of glass while I'm here with whiskey and a dead phone line."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tom from South Side — Tom, what's the weather looking like down your way?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tom from South Side — Pre-dawn frost, yeah. Your neighborhood's been quiet all night. You've been lucky, Tom. Real lucky."
+      },
+      {
+        "host": "quinn",
+        "text": "[sets phone down] Sunrise is at 6:47. I have Caroline's exact time written on a napkin here. Sixty minutes and forty-seven minutes left. The sun's not going to rush. The sun doesn't rush anymore."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative (05:00 mark): 178 kills. Up 13 from 04:00 hour. Pre-dawn last-chancers."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Listener text: 'The silence is scarier.' — Unknown sender. Concur."
+      },
+      {
+        "category": "local-news",
+        "text": "Tenney Park shoreline: volunteer recovery crew still active. No new finds reported since 03:00."
+      },
+      {
+        "category": "emergency",
+        "text": "North Shore barricades: all holding. No breach attempts. No activity. Reason: unknown."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:15:52.504Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,77 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the signal's been eating itself for the last twenty minutes — Tim's chasing interference like it owes him money, which, knowing Tim, it probably does. But we're still here. You're still there. That's the math that matters."
+      },
+      {
+        "host": "quinn",
+        "text": "I was thinking about something Nick said at four in the morning — and I mean this genuinely, not the whiskey talking, though the whiskey's definitely talking — he said some songs sound different when you know the people in them don't exist anymore. And I thought, yeah. That's the whole night, isn't it? Everything sounds different when you know who's not coming back."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Margaret from Near East — go ahead, Margaret."
+      },
+      {
+        "host": "quinn",
+        "text": "Margaret says she's been watching the lake from her kitchen window since midnight. Says the fog lifted about an hour ago and she can see the shoreline now, and there's nothing moving on it, which is good, which is what we want. Margaret, I'm going to be honest with you: that's the best news I've heard in six hours."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Capitol Square — David, you're on PRGE. Where are you calling from, specifically?"
+      },
+      {
+        "host": "quinn",
+        "text": "David says — wait, hold on, the signal's ghosting — David says he's in the Capitol building. That's what I thought he said. David, I'm going to need you to clarify that statement, because if you're actually inside the fortified perimeter, that's either a very different conversation or you're pranking a drunk man at five in the morning, and I respect either outcome."
+      },
+      {
+        "host": "quinn",
+        "text": "David hangs up. Of course he does. Tim, did we lose him or did he just — okay, he's gone. That's fine. That's Madison. That's the whole city right there: a guy who calls a pirate radio station from inside the Capitol and then decides better of it."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got fifty-five minutes left. The sun comes up at 6:47 — Caroline told us that, what, three times? Four? — and until then we're in the gray zone. This is the hour when people decide if they're going to make it or not, and most of them do. Most of them make it. That's what I'm holding onto."
+      },
+      {
+        "host": "quinn",
+        "text": "Another hit of this. The bottle's almost respectably empty. I'm trying to remember what Vance said about the Purge in his third address — something about 'necessary pressure valves' and 'social equilibrium through controlled chaos' — and I keep coming back to the fact that he said it from a bunker. Every architect of this thing said it from behind glass."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Tommy from South Side — Tommy, you sound calm, which is either very good or very bad. Which is it?"
+      },
+      {
+        "host": "quinn",
+        "text": "Tommy's calm because his neighborhood watch actually held. They've been watching the same six blocks for five years and nothing's gotten through. He's got maybe thirty people in a rotation, they've got food, water, a plan that doesn't change. Tommy, you're a statistical miracle and I mean that with the kind of awe usually reserved for saints."
+      },
+      {
+        "host": "quinn",
+        "text": "He says people are starting to talk about what comes next — sleep, or breakfast, or just sitting with what happened. I said, 'Tommy, you don't have to figure that out for another hour. Right now you just have to be alive, and you are. That's the whole goal. That's everything.'"
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 183 kills. {{ELAPSED}} in. East Side holding elevated. Beltline corridor quiet since 04:30."
+      },
+      {
+        "category": "emergency",
+        "text": "Signal interference cleared. Tim relocated antenna array. Backup generator holding. We're operational."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text: 'My kids are asleep. First time all night. Thank you for being here.' — Anonymous, Vilas Park area."
+      },
+      {
+        "category": "local-news",
+        "text": "Sunrise at 06:47. Hard frost expected post-dawn. All-clear at 07:00 sharp."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:14:59.767Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,69 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "It's {{CLOCK}} in Madison. We're {{ELAPSED}} in, and I want to say something that I'm only allowed to say once a year: the night is almost over, and we made it. We actually made it."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what's weird? It's quiet. Not normal quiet — that's not a thing that exists on Purge Night. But it's *quiet* quiet. The kind of quiet that makes your brain do backflips because you're waiting for the other shoe, and the shoe is taking its sweet time."
+      },
+      {
+        "host": "quinn",
+        "text": "I've been thinking about Vance. Richard Vance. Not the current governor — the one who thought consolidating executive power during a crime wave was a good use of an emergency session. Dead now, thank God. But he used to say the Purge would 'purify the social contract.' You know what purifies a social contract? Death. Lots of it. He got his purification. Problem solved."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Sun Prairie — go ahead, you're on."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from Sun Prairie — Sarah says her mother is in a locked room upstairs and hasn't made a sound in six hours. Sarah is asking if silence is good or if she should check. Sarah, honey, silence is — silence is the best thing you can ask for on a night like this. Let her sleep. You stay where you are."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to pour another one. That's number eight, if anyone's keeping score. Tim is keeping score. Tim keeps score of everything."
+      },
+      {
+        "host": "quinn",
+        "text": "The sun comes up in an hour and fifty-seven minutes. I know because Caroline told me that four times. She's right, by the way — she was right about the cold front. She's going to bring it up until 2170. And you know what? She deserves to. Being right when everything is wrong is the only small victory we get."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from the East Side — Marcus, you still there? Marcus says he's been watching his neighbors' house across the street, and the lights are on. All of them. He's wondering if that's a warning sign. Marcus, if the lights are still on, that means the breaker's still up. That means the house is either empty or fortified well enough to keep going. Either way, you do not open your door to check on your neighbor. I know you. I know that impulse. You kill it. You sit with it. You survive it."
+      },
+      {
+        "host": "quinn",
+        "text": "Nick played 'Sink, Florida, Sink' at four in the morning. He cried during it. That's not news — that's just what happens when you're awake long enough on a night like this. You run out of defenses. You run out of jokes. You run out of whiskey, but I keep finding more."
+      },
+      {
+        "host": "quinn",
+        "text": "One hour and fifty-two minutes left. That's {{ELAPSED}} we've been living in a world with different rules. One hour and fifty-two minutes until the rules come back and we all pretend this was worth something. That it meant something. That it's going to change anything."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 185 (down 2 from 04:00 hour — pre-dawn fatigue pattern holding)"
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side holding steady. North Side remains anomalously quiet (9 kills YTD, 11% below 2168 at this hour)"
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Incoming text: 'Is it okay to turn the lights on yet?' / Answer: No. Not until 07:00. Stay dark."
+      },
+      {
+        "category": "local-news",
+        "text": "Lake Mendota: volunteer recovery crew stood down at 04:30. Visibility improving for dawn sweep if needed."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:13:16.034Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

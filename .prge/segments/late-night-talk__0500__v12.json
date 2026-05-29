@@ -1,0 +1,77 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the sun's thinking about it. You can feel it coming — that false promise of safety that only shows up when it's almost over. I've got a whiskey that's three hours old and a notepad full of things I'm not supposed to remember. Let's see what we've got."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Tenney Park — you've been with us since 19:00, right? Every year?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Tenney Park — ...I don't know, Quinn. I've... I've always called. My husband used to say your voice was the only thing that made it bearable."
+      },
+      {
+        "host": "quinn",
+        "text": "He's not there tonight. He's not—he was supposed to call at midnight like he always does. Twenty-three years, Quinn. Twenty-three years he calls at midnight and makes a stupid joke about the weather, and tonight the phone's just... it's just quiet."
+      },
+      {
+        "host": "quinn",
+        "text": "Patricia, I—listen. You're here. You made it. That's what matters right now. You stay on the line as long as you need to. Tim? Patricia's staying with us through sunrise. No hang-up."
+      },
+      {
+        "host": "quinn",
+        "text": "The thing about midnight is that it's the hour when you think you're halfway safe and halfway doomed at the same time. You've survived five hours. You've got seven to go. I remember when Vance was still alive—God, that man was a tumor in a suit—I remember him saying in some interview that the Purge was about 'democratic pressure release.' Like we're a pressure cooker and once a year we boil over so the rest of the year we'll sit still and simmer."
+      },
+      {
+        "host": "quinn",
+        "text": "He's been dead since 2147 and I still hear that phrase in my sleep. Democratic pressure release. You know what that means in practice, Patricia? It means your husband might not call at midnight and we all just... keep broadcasting like the line didn't go quiet."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from South Side — you've got something. I can hear it in your breathing."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from South Side — Yeah, I do. There's somebody moving through the Park Street barricade perimeter. They've got a white cloth tied to their arm. The watch people are... they're standing down. I think somebody's coming in."
+      },
+      {
+        "host": "quinn",
+        "text": "James, is it someone you know? Can you see—"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: James from South Side — It's hard to tell from here. The sun's not up yet. But they're not running and nobody's chasing them, which means... I think that means they survived out there. I think somebody made it through."
+      },
+      {
+        "host": "quinn",
+        "text": "That's something, James. That's something we can hold onto. You stay locked in. We're in the last hour now. The last hour is always the longest. Pour yourself something warm. It's going to be cold when that door opens again."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 183 kills. {{ELAPSED}} elapsed. East Side holding steady. Beltline reports minimal activity last 30 minutes."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "TEXT IN: 'Patricia from Tenney Park has called every year for 23 years. Husband always called at midnight. No call tonight.' — Please check in, Patricia. We're listening."
+      },
+      {
+        "category": "emergency",
+        "text": "SOUTH SIDE: Park Street barricade reports unidentified survivor moving through perimeter under white-flag protocol. Status unclear. Watch standing by."
+      },
+      {
+        "category": "local-news",
+        "text": "Sunrise: 6:47 AM. Current temp 21°F. Wind north at 5 mph. Cloud clear. We are in the last hour."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:15:40.524Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,73 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the phones won't stop ringing. I've been here eleven hours, folks, and I've never seen the lines this lit up. Either everyone suddenly has something to say or everyone's just scared to be alone with their thoughts. I'm guessing both."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from West Side — go ahead, David, you're live."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from West Side — David says his security system just went dark. Not a power outage — he checked the box. Someone cut the line. He's asking if I think that's normal. I told him, David, nothing about tonight is normal, but also you hired professional security, so maybe call them instead of a drunk guy on the radio. He's still on the line. David, are you safe? He says yes. He sounds like he's lying. We're moving on."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what Hegseth used to say about the Purge? Said it was 'culling inefficiency from the herd.' This was before he was anything, just some talking head with a jaw like a shovel. By the time he got the ear of actual power, he'd softened the language but not the idea. The idea stayed the same: let the weak ones go. Let the system prove itself. And forty years later, here we are, and I'm pouring whiskey at five in the morning because the system is still proving itself and nobody learned a goddamn thing."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Tenney Park — Patricia, I heard you almost had a visitor around one o'clock. Patricia says yes. She says someone was trying doors on her block. Says the neighborhood watch scared them off. Says she wants to thank the watch publicly. Patricia, they're listening. She's crying. I'm going to let her go. Patricia, you made the right choice staying inside. Yes, she says. Yes, I know."
+      },
+      {
+        "host": "quinn",
+        "text": "There's light in the east. Not sunlight yet, but light. The sky's doing that thing where it gets less dark instead of more. My shift's almost over. Tim's going to push through to the all-clear, but Quinn gets to sit down in about an hour and a half and just — sit. Maybe sleep. Maybe just stop talking."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus, you're on. Marcus from East Side says kill count's probably going to land around 187. Says he's been tracking the police-band chatter they're not supposed to admit exists. Says this is almost exactly on 2168 pace. Marcus, are you in law enforcement? Long pause. Marcus says he's in his bedroom doing a math problem nobody asked him to solve. I told him that's the most Madison thing I've heard all night. He laughed. That's good. People need to laugh."
+      },
+      {
+        "host": "quinn",
+        "text": "The original Purge pitch — the one that got approved under the third administration — it was supposed to be cathartic. Supposed to be a pressure valve. Let people get it out of their system so the other 364 days would be peaceful. You know what happened instead? The people with money hired protection. The people without money learned to be invisible. And the government got richer processing the aftermath. Pressure valve. Jesus Christ. More like a pressure cooker that leaks once a year and burns everyone underneath it."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Susan, hi Susan, you're live on PRGE. Susan from Willy Street says she was at the barricade earlier. Says she's been there all night. Says her hands are shaking and she's not sure if it's adrenaline or cold or both. I'm asking if she's alright, if she can get inside, get warm. Susan says the barricade held and nobody got in because they didn't give up. Says she doesn't want to move. I told her, Susan, you can sit there as long as you want. You're a good person. Susan says thank you. Quietly. Like she didn't believe me."
+      },
+      {
+        "host": "quinn",
+        "text": "Ninety minutes. That's all that's left. Ninety minutes and the sun comes up for real and the Purge ends and I disappear back into whatever hole I've been hiding in, and all of you go back to being citizens instead of survivors. And next year, same time, I'll be here again, and so will you, and we'll do this whole thing over."
+      },
+      {
+        "host": "quinn",
+        "text": "But right now, at {{CLOCK}}, with the sky getting lighter and the phone lines still ringing with people who just want to hear another voice — right now, I want you to know that you made it. You stayed. You didn't break. You're still here."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 178 confirmed. Last hour: 13. ({{ELAPSED}} elapsed.)"
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side holding at 18.2% of total. Willy Street barricade: zero breaches, 90-minute hold."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Phone lines at capacity. Text queue: 340+ waiting. Incoming calls doubled since 04:00."
+      },
+      {
+        "category": "emergency",
+        "text": "Pre-dawn light beginning 05:47 Madison time. Hard frost expected. Final hour consolidating indoor activity."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:14:01.131Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

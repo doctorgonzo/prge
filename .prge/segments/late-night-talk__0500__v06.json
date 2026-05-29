@@ -1,0 +1,69 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "It's {{CLOCK}}, folks, and I can see the lake from the window here — not actually, the blinds are welded shut, but I can feel it out there, cold and patient, the way Lake Mendota gets when it's about to let the sun back in. We are {{ELAPSED}} into this thing and the whiskey is telling me we're going to make it."
+      },
+      {
+        "host": "quinn",
+        "text": "I've been thinking about something Tucker said at two in the morning — some statistic about the West Side staying quiet this year, Nakoma and Hilldale running about half their usual clip. And I thought, you know what? That's where the money lives. That's where the private security is worth something. And maybe, just maybe, that's the one part of this whole machinery that's actually working the way somebody designed it."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Monroe Street — go ahead, David."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from Monroe Street — David says his block organized a rotation, four-hour shifts, somebody always watching the street. Says they haven't seen movement since midnight. I asked him what he's doing right now and he said he's on shift three, watching the corner of Monroe and Babcock, and if I hear anything in the next hour I should know it wasn't him. That's the kind of thing that makes you believe in human beings, David. Stay sharp."
+      },
+      {
+        "host": "quinn",
+        "text": "Here's what nobody tells you about the last hour of the Purge — you can't relax yet, but you also can't stay wound tight anymore. Your body starts asking questions your brain isn't ready to answer. Like, what do I do with this energy when the sun comes up? What do I do with knowing I made it?"
+      },
+      {
+        "host": "quinn",
+        "text": "I remember — must've been 2164, maybe '65 — I was still in office, still had the suit that fit and the marriage that worked, and I remember sitting in my office at the Capitol, watching Purge Night on an old monitor, thinking those poor bastards out there have no idea what they're protecting. And you know what? I was right. And I was also completely full of shit, because I had no idea either."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sandra from Hilldale — Sandra, you're on at five in the morning, that takes courage or that takes desperation, which one is it?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sandra from Hilldale — Sandra says she wanted to hear a voice that wasn't her own, wasn't her kids asking if the doors were locked, wasn't the wind. Says she's been listening since Nick went quiet at four and she wanted to know if other people were as scared of the relief as they are of the violence. That's a hell of a question, Sandra. I'm going to tell you something — yes. I'm terrified of the relief. I'm terrified that in ninety minutes I'm going to have to go back to being a ghost and I won't have this excuse to exist anymore."
+      },
+      {
+        "host": "quinn",
+        "text": "The West Side staying quiet — maybe that's not the system working, David and Sandra. Maybe that's just different people choosing to survive in a different way. Maybe that's the point. Maybe the point was always to find whatever's yours and hold it until the sun comes back."
+      },
+      {
+        "host": "quinn",
+        "text": "It's {{CLOCK}}. Fifty-five minutes. You made it this far. We're going to get there together."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison total: 185 (YoY +1%). East Side holding at 34, West Side/Nakoma/Hilldale combined at 14 — lowest quartile performance."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Incoming texts spike: 'made it this far' / 'is it over yet' / 'can't sleep' — audience in fatigue/relief crossover."
+      },
+      {
+        "category": "neighborhood",
+        "text": "Monroe Street organized watch: zero casualties reported, coordinated rotation holding through hour 11."
+      },
+      {
+        "category": "local-news",
+        "text": "Lake Mendota fog lifting. Pre-dawn visibility improving. Caroline's forecast: clear for sunrise at 06:47."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:14:17.274Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

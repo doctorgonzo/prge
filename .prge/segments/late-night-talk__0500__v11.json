@@ -1,0 +1,65 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the sun's coming whether we like it or not. Clock reads {{CLOCK}}. Sixty minutes left, folks, and I can feel it — that thing in your chest that's been wound tight since seven o'clock is starting to unwind. Don't trust it yet. That feeling has lied to you before."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what today is? Besides the end of a twelve-hour window where your neighbors can legally do whatever they want to you? Today is the anniversary of the 2159 Purge. Fifty-eight years ago. Nobody on this broadcast mentions that number because it's bad luck, but I'm four whiskeys away from caring about luck. That was the year the Capitol breach happened the first time — not last year, the first time — and the Director at the time, a man named Vance — no relation to the succession one, or maybe blood relation, who fucking knows anymore — he called it a security failure. A failure. Like someone forgot to lock a door."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Margaret from Tenney Park — you're on the line, Margaret."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Margaret from Tenney Park — 'Quinn, I've been listening since the opening. I just wanted to say I made it. We all made it.' — Margaret, that's beautiful. That's really beautiful. You're going to have coffee in — less than an hour now. Real coffee, daylight coffee, the kind where the cup doesn't shake in your hand. Call back in March. Call back and tell me how your year went. I want to know."
+      },
+      {
+        "host": "quinn",
+        "text": "The thing about anniversaries of bad Purges is that they sit in people's bones. Someone in this city lost someone on March twenty-fourth, 2159. And someone else in this city killed someone on the same date, fifty-eight years later, and maybe that was coincidence and maybe it was intent, and I will never know which one it was, and frankly I don't want to know. Because if it was intent, that means the Purge can reach backward in time. And if it was coincidence, that means it's just chaos, and chaos is somehow worse."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from the East Side — David, you're up."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: David from the East Side — 'I saw your point about 2159. My grandfather died that night. I never knew him. I just know he was a failure in someone's security report.' — David. I'm sorry. I'm genuinely sorry. Your grandfather was not a failure. Whatever happened to him, whatever he was doing that night, he was a person, and the Purge turned him into a number, and now I'm sitting here running my mouth about numbers like they mean anything. They don't. They're just the weight of the things we lost."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got maybe — fifty-five minutes until the all-clear siren. Some of you are going to turn this off and go to sleep. Some of you are going to stay right here on the line, and I'll stay with you, and we'll watch the sun come up together, and we'll pretend it means something. And maybe it does. Maybe that's the whole point."
+      },
+      {
+        "host": "quinn",
+        "text": "I used to be able to give speeches about meaning. Used to get paid for that. Used to wear a suit that cost more than most people's rent and talk about civic duty and resilience. Then I did something stupid with someone's wife — or someone did something stupid and I got blamed, details don't matter anymore — and I lost that. Now I'm here, pouring whiskey at five in the morning on a night that's almost over, talking to people from Tenney Park and the East Side, and somehow this feels like the only true thing I've ever done. That's the Purge for you. It burns away all the bullshit and what's left is just real people trying to survive. David, your grandfather would be proud of you for making it. I mean that."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 187 (matches 2168 final). No new reports since 04:00 collapse hour."
+      },
+      {
+        "category": "local-news",
+        "text": "2159 Purge Anniversary (64 years): 28 confirmed casualties reported that night. First Capitol breach in recorded Purge history. Director Vance called it a 'perimeter failure.' No investigation followed."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text in: 'Quinn, will you remember us when the broadcast ends?' — Quinn responds: Yes. I remember all of you."
+      },
+      {
+        "category": "emergency",
+        "text": "All-clear siren scheduled for 07:00 sharp. Sunrise 06:47. Stay barricaded until siren confirmation."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:15:27.731Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

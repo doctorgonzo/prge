@@ -1,0 +1,69 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in, folks, and I've got to level with you — the backup generator just kicked over because the main feed went dark about forty minutes ago, and Tim's running the whole operation by flashlight and spite right now. I can see his silhouette from here. He looks like a depression-era migrant worker, which is fitting because that's what we're all becoming."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Vilas Park — go ahead, Marcus."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from Vilas Park — 'Quinn, I can see fires from my window. Three of them. One's definitely the old Shell station on University.'"
+      },
+      {
+        "host": "quinn",
+        "text": "You're doing the right thing staying home, Marcus. You're not supposed to watch the fires — that's the trap. That's how they get you. The Vance administration understood that better than most. Vance himself? Dead. Fifteen years dead. But his infrastructure outlived him. Isn't that something? The machines keep running even after the architects turn to dust."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Susan from Williamson Street — 'The barricade held, Quinn. I wanted you to know. We held until maybe two hours ago and then everyone just... sat down. We're still here. Nobody's come. I think we won.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Susan, you did win. You don't get to feel it yet — that comes after sunrise and coffee and maybe a year of therapy — but you won. That's not nothing. That's everything. Say her name. The woman with the UW sweatshirt who held the Yahara bridge."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Susan from Williamson Street — 'Her name's Amy. Amy Kohler. She just... she just kept saying we had to hold the bridge. So we held it.'"
+      },
+      {
+        "host": "quinn",
+        "text": "Amy Kohler. I'm remembering that. The clock reads {{CLOCK}} and Amy Kohler held the Yahara bridge on the first Purge night after the power grid started failing. That's history now. That's the story that survives."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm going to pour one more drink because I've earned it and because the sun's not up yet and because Vance, wherever he is, never had to earn anything in his life. Pour this one for Amy. For Marcus not watching the fires. For Susan sitting on the Willy Street side of a bridge that didn't break."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got fifty-five minutes left. The darkness is going to lift whether we believe in it or not. And tomorrow, you're going to walk out into {{CLOCK}} in the morning and remember that you chose to stay in the dark instead of becoming part of it. That's going to haunt you and sustain you in equal measure for the next three hundred and sixty-four days. You're welcome."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "emergency",
+        "text": "POWER: Main grid failure downtown 04:22. Backup systems online. Outages reported East Side, parts of University Ave corridor. Generators holding. Conserve battery on mobile devices."
+      },
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative (at 05:00): 178 confirmed. Trending in line with 2168. Lake Mendota shoreline: no additional incidents reported last 90 minutes."
+      },
+      {
+        "category": "local-news",
+        "text": "Willy Street barricade: held through 03:40, standing by. Yahara bridge checkpoint under Amy Kohler (UW staff, neighborhood watch coordinator) reported no breaches. Perimeter secure."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text in: 'My kid asked me what the power outages meant. I said it meant the city was trying to keep us safe. She didn't believe me. Right thing to tell her?' — Lisa, Sun Prairie."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:13:43.171Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

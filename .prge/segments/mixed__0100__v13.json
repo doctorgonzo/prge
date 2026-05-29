@@ -1,0 +1,69 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the East Side is — Caroline, what are we looking at out there?"
+      },
+      {
+        "host": "caroline",
+        "text": "Quiet. Abnormally quiet. Wind's picked up to 18 mph sustained, gusts to 24. Visibility dropped to 3 miles. People are staying *indoors*."
+      },
+      {
+        "host": "holden",
+        "text": "Kill count is at 82 cumulative. Last year at this hour we were at 104. That's a 21% variance below trend, which — if I'm reading the historical data correctly — suggests either strategic pause or weather suppression we didn't anticipate."
+      },
+      {
+        "host": "quinn",
+        "text": "Strategic pause. Jesus. You mean organized. You mean someone's coordinating out there."
+      },
+      {
+        "host": "holden",
+        "text": "I mean the math doesn't lie. Either they're waiting, or they're cold, or something else happened we don't have visibility on yet."
+      },
+      {
+        "host": "caroline",
+        "text": "The silence is the problem. Last year at 01:00 we had reports from the Beltline, State Street, the whole Capitol perimeter was active. Tonight — nothing. No calls. No emergency broadcasts."
+      },
+      {
+        "host": "quinn",
+        "text": "Tim, you tracking the scanner?"
+      },
+      {
+        "host": "quinn",
+        "text": "The silence feels worse than the noise, Caroline. At least noise means chaos. Silence means someone's thinking."
+      },
+      {
+        "host": "holden",
+        "text": "If we apply the 2167 cold-front model to tonight's atmospheric conditions, we should see activity resumption around 02:30 when the temperature stabilizes. But that assumes normal behavioral patterns, and I'm starting to think tonight isn't following the model."
+      },
+      {
+        "host": "caroline",
+        "text": "It's not. Something's different. I can feel it."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 82 kills. 21% below {{ELAPSED}}-mark YoY. Trend analysis: ANOMALOUS."
+      },
+      {
+        "category": "neighborhood",
+        "text": "East Side reporting minimal activity. Capitol Square perimeter: no breach attempts. Beltline corridor: silent. Scanner traffic: near-zero."
+      },
+      {
+        "category": "emergency",
+        "text": "Weather advisory: NW winds 18 sustained, gusts to 24 mph. Visibility 3 miles. Cold front arrival on schedule. Hypothermia risk increasing."
+      },
+      {
+        "category": "local-news",
+        "text": "UNUSUAL: No field reports incoming from known hot zones. Tucker's last position update was 00:47 from near Yahara Bridge. No contact since."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:13:02.827Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

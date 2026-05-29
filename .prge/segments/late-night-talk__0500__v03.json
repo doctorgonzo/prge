@@ -1,0 +1,69 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and I can smell smoke from here. Not the good kind — the kind that means somebody's house used to be over on the South Side. Caroline's been tracking the fires all night; I haven't asked her the count because I don't want to know the count. Whiskey helps with that."
+      },
+      {
+        "host": "quinn",
+        "text": "You know who invented the Purge? Not the theoretical version — the *actual* version, the law they passed in 2028? Richard Vance. Jim Jordan's guy. Both of them convinced themselves that one night a year of legal chaos would *prevent* the other 364 days of illegal chaos. You follow that logic? I don't. I was drunk then too, so maybe that's my excuse."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Mike from Vilas Park — go ahead, Mike."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Mike from Vilas Park — 'Quinn, I saw lights moving on the water maybe twenty minutes ago. Boats. Is that normal?' Yeah, Mike. That's normal. Some people think crossing Lake Mendota is easier than staying put. We've got, what, ninety minutes left? You stay in your house. You do not become a problem for the volunteers."
+      },
+      {
+        "host": "quinn",
+        "text": "There's visibility down to maybe two blocks right now because of the smoke layer. Tim's got the routes updated every ten minutes. If you need to move at sunrise — and I mean *at* sunrise, not before — you check the board. You don't improvise. The people who improvise on Purge Night end up on Tucker's count."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah, you're on PRGE — where are you calling from, Sarah?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Sarah from East Side — 'I've been listening the whole time. I just wanted to say thank you for being here.' Sarah, that's — that's kind of you. That's the job. You're doing the hard part. You stayed home. You made it through. The clock's {{CLOCK}}. Fifty-five minutes. You've already won."
+      },
+      {
+        "host": "quinn",
+        "text": "I'm on whiskey nine of however many I'm going to do before this ends. The number was seven an hour ago but I lost count somewhere between Marigold's meditation and Nick playing the same Descendents song three times in a row because he couldn't find the next track. That's what exhaustion sounds like, folks. That's what we all sound like at five in the morning on a night like this."
+      },
+      {
+        "host": "quinn",
+        "text": "The smoke's starting to clear out toward the Beltline. That means the fires are burning down or they're already out or nobody's left in those structures to care. I don't know which one I prefer. I'm going to pour another drink and stop thinking about it."
+      },
+      {
+        "host": "quinn",
+        "text": "We've got fifty-two minutes of legal anarchy left. Fifty-two minutes and then the law comes back and nobody knows what to do with each other. Everybody pretends it never happened. Same as last year. Same as next year. Stay with us. The sun's coming."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "local-news",
+        "text": "Multiple structure fires reported across South Side and Beltline corridor. Visibility reduced to 2 blocks isthmus-wide. Caroline tracking wind patterns."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text: 'Playing the whole night through. Never done it before. It helps.' — Anon, Madison"
+      },
+      {
+        "category": "kill-count",
+        "text": "Current cumulative (last update 04:45): 182 kills. Matches 2168 pace at this hour. Last major cluster 03:50–04:10 (North Side/Beltline)."
+      },
+      {
+        "category": "emergency",
+        "text": "Sunrise 06:47. Purge enforcement window closes 07:00. All-clear sirens scheduled 06:55–06:58."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:13:30.268Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

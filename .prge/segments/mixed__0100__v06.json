@@ -1,0 +1,69 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the West Side is waking up. Nakoma, Hilldale, Monroe Street corridor — these are supposed to be the quiet zones. These are supposed to be where the money buys you peace."
+      },
+      {
+        "host": "holden",
+        "text": "Monroe Street's seeing a spike. Not massive, but persistent. Pattern suggests coordinated movement from the Beltline west. Vehicle-based, likely."
+      },
+      {
+        "host": "caroline",
+        "text": "Temperature's holding at 26 degrees. Wind backed off an hour ago. Perfect conditions for someone who wants to move through the city unimpeded."
+      },
+      {
+        "host": "quinn",
+        "text": "Perfect conditions. That's one way to put it. I used to have a house on Monroe Street. Had. Past tense. Sold it in '66 because I couldn't sleep on Purge Night knowing what was happening outside my window."
+      },
+      {
+        "host": "holden",
+        "text": "You could have barricaded better."
+      },
+      {
+        "host": "quinn",
+        "text": "I could have. But barricading is a choice, Holden. It's an admission. And I wasn't ready to admit what I'd become."
+      },
+      {
+        "host": "caroline",
+        "text": "Incoming text says there's a fire on Regent Street. Small structure. Spreading north. Wind's going to push it toward the Nakoma residential cluster in about forty minutes if nobody's dealing with it."
+      },
+      {
+        "host": "holden",
+        "text": "Nobody's dealing with it. It's 01:00. We're in the Purge."
+      },
+      {
+        "host": "quinn",
+        "text": "Call it what it is, Holden. Don't call it 'the Purge' like it's natural. Like it's weather."
+      },
+      {
+        "host": "caroline",
+        "text": "It is weather now. It's part of the season. Purge Night. Spring thaw. Winter freeze. Purge Night."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "West Side cumulative: 18. Monroe Street sector: 6 (up 4 since 00:30)."
+      },
+      {
+        "category": "emergency",
+        "text": "Structure fire reported Regent Street / Monroe intersection. Spreading north toward Nakoma residential. Wind favorable for containment (no containment possible)."
+      },
+      {
+        "category": "local-news",
+        "text": "Hilldale commercial corridor: PurgeShield panels breached at 3 storefronts. Looting confirmed. No body count yet."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text from Nakoma resident: 'We can see the fire from our house. It's beautiful and I hate that I think that.' — Quinn has no response."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:12:36.321Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

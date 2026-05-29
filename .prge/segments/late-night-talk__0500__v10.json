@@ -1,0 +1,73 @@
+{
+  "format": "late-night-talk",
+  "inWorldTime": "05:00",
+  "body": {
+    "type": "late-night-talk",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in, folks, and I'm looking out the window and I can see the Capitol dome. The moon's full tonight — bright enough to read by, which is exactly the problem, isn't it? You can see too much. You can see the people who didn't make it home."
+      },
+      {
+        "host": "quinn",
+        "text": "I was thinking earlier — around hour eight, when Nick was playing that Dead Kennedys track — about Vance. Not Mike Vance, not the succession, just the man himself. Dead fifteen years and I'm still mad at him. Still drinking to the memory of him. That's the thing about authoritarian predecessors: they get to die and you don't. They get out."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Vilas Park — go ahead, you're on PRGE."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Vilas Park — 'Quinn, I haven't left my bedroom since seven o'clock. I can see the lake from my window. There's a boat out there, and I don't think there's anyone in it.' — Patricia, are you safe? Your door locked?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Patricia from Vilas Park — 'Yes. Yes, I'm locked in. I just... the boat's just drifting. Has been for an hour. I wanted someone to know.' — We know now, Patricia. Tim's got that logged. You stay in that bedroom. Thank you for calling."
+      },
+      {
+        "host": "quinn",
+        "text": "That's what they don't tell you about the Purge. It's not just the ones doing violence. It's the ones watching violence happen and knowing they can't stop it. That's the real architecture of it. That's what they built when they decided we needed one night a year to hurt each other."
+      },
+      {
+        "host": "quinn",
+        "text": "Fifty-two minutes until sunrise. The moon's so bright I can see the frost on the sidewalk from here. Beautiful night to nearly die. Just absolutely gorgeous."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from North Side — Marcus, you're live on PRGE at five in the morning."
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from North Side — 'I'm in the basement of my building. Six of us. We've been down here since nine. There's a man upstairs, Quinn. We can hear him moving around up there. He's been quiet for about twenty minutes.' — Marcus, he knows you're down there?"
+      },
+      {
+        "host": "quinn",
+        "text": "Caller: Marcus from North Side — 'I don't think so. But in twenty minutes, it's going to be light outside. The door's not soundproof.' — You have your phone on you? Yes? If anything changes, anything at all, you dial 911 the second the all-clear hits. The line's monitored post-seven a.m. You've got fifty minutes, Marcus. You've already done the hardest part."
+      },
+      {
+        "host": "quinn",
+        "text": "I meant that, by the way. You've already done it. The hardest part is the hours before the sun. The hardest part is hearing footsteps you can't identify and staying still. Once the light comes, once the law comes back, you've already won. Everyone still breathing at seven a.m. wins."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison cumulative: 178 (up 13 since hour 10). East Side remains highest-activity zone."
+      },
+      {
+        "category": "caller-text-in",
+        "text": "Text from 'Boat Witness': 'It drifted past my dock. Empty. No oars in it.' — Mendota shoreline flagged for post-dawn recovery."
+      },
+      {
+        "category": "local-news",
+        "text": "Sunrise at 06:47 Madison. Fog lifting off Mendota. Visibility improving. Hard frost forming on northern exposures."
+      },
+      {
+        "category": "emergency",
+        "text": "PRGE operational status: nominal. Signal integrity 99.2%. One atmospheric jammer attempt logged at 04:33 (failed). Antenna holds."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:15:12.670Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}

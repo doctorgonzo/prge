@@ -1,0 +1,61 @@
+{
+  "format": "mixed",
+  "inWorldTime": "01:00",
+  "body": {
+    "type": "mixed",
+    "lines": [
+      {
+        "host": "quinn",
+        "text": "We're {{ELAPSED}} in and the East Side is pulling thirty-four — that's already above last year's pace at this point. Caroline, tell me the cold front's still moving in."
+      },
+      {
+        "host": "caroline",
+        "text": "Northwest, 18 miles per hour, gusts to 28. It'll hit hard between 01:30 and 02:00. Temperature's dropping faster than predicted."
+      },
+      {
+        "host": "holden",
+        "text": "That's interesting because in 2159 — and I'm not saying this to be morbid — but the cold that year suppressed activity by 12 percent in hours five through seven. We might see the same pattern tonight."
+      },
+      {
+        "host": "quinn",
+        "text": "Holden, I don't need you running the numbers on what the cold does to bodies. I need you to tell me if we're going to make it to dawn."
+      },
+      {
+        "host": "holden",
+        "text": "We always make it to dawn, Quinn. That's not the data point. The data point is whether anyone else does."
+      },
+      {
+        "host": "caroline",
+        "text": "Wind's shifting north. That'll clear the fog off Mendota around four. Visibility will improve."
+      },
+      {
+        "host": "quinn",
+        "text": "You know what I remember about this hour last year? I remember sitting in this chair thinking about Director Calloway locked in that Capitol building, and I thought — I actually thought — 'At least he knows where his next meal is coming from.' And then I poured number four."
+      },
+      {
+        "host": "holden",
+        "text": "Quinn, that's six whiskeys ago."
+      },
+      {
+        "host": "quinn",
+        "text": "Exactly. The math checks out."
+      }
+    ],
+    "tickerItems": [
+      {
+        "category": "kill-count",
+        "text": "Madison-wide cumulative: 104 confirmed. {{ELAPSED}} into the night. East Side remains hottest zone — 34 kills, up 12% YoY through this hour."
+      },
+      {
+        "category": "emergency",
+        "text": "Cold front arrival accelerated. Expect temperature drop of 8–12 degrees between 01:30–02:00. Exposure risk increasing for unsheltered populations."
+      },
+      {
+        "category": "local-news",
+        "text": "Yahara River barricade (Willy Street) holding. No breaches reported. Neighborhood watch commander (identity unconfirmed) maintaining defensive posture."
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29T04:12:44.600Z",
+  "modelId": "claude-haiku-4-5-20251001"
+}
