@@ -376,5 +376,59 @@
     "resolvedAt": "2026-05-19T20:26:38.221Z",
     "source": "api",
     "durationSec": 220
+  },
+  "johann sebastian bach::prelude in c major bwv 846": {
+    "videoId": "gVah1cr3pU0",
+    "embeddable": true,
+    "resolvedTitle": "Lang Lang – Bach: The Well-Tempered Clavier: Book 1, 1.Prelude C Major, BWV 846",
+    "resolvedChannel": "Deutsche Grammophon - DG",
+    "resolvedAt": "2026-05-20T06:12:39.592Z",
+    "source": "api",
+    "durationSec": 169
+  },
+  "mojo nixon::elvis is everywhere": {
+    "videoId": "5DcTY9i-fx8",
+    "embeddable": true,
+    "resolvedTitle": "Mojo Nixon - Elvis is Everywhere",
+    "resolvedChannel": "Radial by The Orchard",
+    "resolvedAt": "2026-05-20T06:17:04.088Z",
+    "source": "api",
+    "durationSec": 234
+  },
+  "maurice ravel::jeux d'eau": {
+    "videoId": "Z1QrFd7lNcU",
+    "embeddable": true,
+    "resolvedTitle": "Seong-Jin Cho - Ravel: Jeux D&#39;Eau, M.30",
+    "resolvedChannel": "Deutsche Grammophon - DG",
+    "resolvedAt": "2026-05-20T06:30:34.838Z",
+    "source": "api",
+    "durationSec": 344
+  },
+  "ramones::blitzkrieg bop": {
+    "videoId": "268C3N2dDYk",
+    "embeddable": true,
+    "resolvedTitle": "Ramones - Blitzkrieg Bop (Official Music Video)",
+    "resolvedChannel": "Ramones",
+    "resolvedAt": "2026-05-20T07:04:09.391Z",
+    "source": "api",
+    "durationSec": 116
+  },
+  "nofx::the shortest pier": {
+    "videoId": "5keDo7LtDpo",
+    "embeddable": true,
+    "resolvedTitle": "Shortest Pier",
+    "resolvedChannel": "NOFX - Topic",
+    "resolvedAt": "2026-05-21T02:58:11.447Z",
+    "source": "api",
+    "durationSec": 134
+  },
+  "samuel barber::adagio for strings": {
+    "videoId": "WAoLJ8GbA4Y",
+    "embeddable": true,
+    "resolvedTitle": "Vienna Philharmonic &amp; Gustavo Dudamel – Barber: Adagio for Strings, Op.11 (SNC 2019)",
+    "resolvedChannel": "Sony Classical",
+    "resolvedAt": "2026-05-21T03:01:30.422Z",
+    "source": "api",
+    "durationSec": 542
   }
 }
